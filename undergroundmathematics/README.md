@@ -1,0 +1,60 @@
+# undergroundmathematics
+
+Experiment workspace inside `syllabai-experimental`. Target of study:
+[undergroundmathematics.org](https://undergroundmathematics.org/) — free
+web-based resources for teaching post-16 (A level) mathematics, built at the
+University of Cambridge (2012–, originally the Cambridge Mathematics Education
+Project, now hosted by Cambridge Mathematics).
+
+Goal: **reverse engineer the site** — its information architecture, content
+model, pedagogy layer, authoring/rendering pipeline and public API — to inform
+SyllabAI's content platform design (stations/lines vs CIE/Edexcel spines,
+review-question corpus model, teacher-support layer, resource taxonomies).
+
+## Layout
+
+```
+undergroundmathematics/
+  research/    # dated research notes — site analysis, architecture, API findings
+  resources/   # scraped metadata captures (public API JSON) + manifest
+  docs/        # working docs — plan, IP/copyright policy
+```
+
+## Conventions
+
+Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md):
+
+- **Provenance first**: every capture in `resources/` is documented in
+  [`resources/manifest.md`](./resources/manifest.md) with source URL, capture
+  date and method. Captured API payloads are metadata-only (see IP notes).
+- **Research notes are dated**: `YYYY-MM-DD-topic.md`, chronological trail.
+- **Docs record decisions**: plan, phase status, and the IP/copyright policy
+  live in `docs/`.
+- **Nothing here is of record** — scratch space; graduations to the platform
+  go through proper PRs against the receiving repo.
+
+## Key findings (TL;DR)
+
+- **Scale**: 855 public resources across 29 "stations" (24 live, 4 under
+  construction); 569 of them (66%) are **review questions** digitised from
+  historical UCLES/Cambridge exam papers going back to the 1960s; 113 station
+  key questions; 6 pervasive ideas; 5 lines; 14 resource types.
+- **Information architecture**: a London-tube-map metaphor — stations
+  (topics) joined by coloured lines (Number, Algebra, Geometry, Functions,
+  Calculus), with cross-cutting "pervasive ideas". Not tied to any syllabus.
+- **Content model**: every resource = markdown + embedded LaTeX source in
+  MySQL, sections like Problem → Suggestion → Solution, with teacher notes,
+  key questions, interactivity labels (GeoGebra), related resources, and
+  printable PDF generated via Pandoc → LaTeX.
+- **Tech stack**: AngularJS 1.4 SPA with server-side pre-rendering, MySQL +
+  a public REST API (`/api/*`, 215 endpoints in the client bundle), MathJax
+  2.7, Pandoc-based print pipeline, ServiceWorker offline cache.
+- **The site self-documents its pipeline** on `/about/website` — including a
+  retrospective regret about Markdown-with-significant-whitespace.
+
+## Status
+
+- 2026-10-22: site identification, taxonomy + inventory capture (metadata),
+  content model and technical architecture analysis. See
+  [`docs/REVERSE-ENGINEERING-PLAN.md`](./docs/REVERSE-ENGINEERING-PLAN.md)
+  for next phases.

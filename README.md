@@ -9,6 +9,7 @@ per experiment — separate from the of-record repositories
 | Folder | What it is | Status |
 |---|---|---|
 | [`exam-mate/`](./exam-mate/) | Exam-mate experiment — research, scraped resources, docs | active |
+| [`undergroundmathematics/`](./undergroundmathematics/) | Reverse engineering of undergroundmathematics.org (Cambridge A level maths resource site) — IA, content model, API, pipeline research + metadata captures | active |
 
 ## Ground rules
 

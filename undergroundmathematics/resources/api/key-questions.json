@@ -1,0 +1,1137 @@
+{
+ "source": "https://undergroundmathematics.org/api/stations/{id}/key-questions",
+ "captured": "2026-10-22",
+ "total": 113,
+ "results": [
+  {
+   "stationId": 1,
+   "updatedByUserId": 6,
+   "friendlyName": "calculus-sketch",
+   "updatedDate": "2016-01-28T13:23:35Z",
+   "content": "How does calculus help us to sketch graphs of functions?",
+   "id": 1,
+   "number": 1,
+   "_station": "calculus-meets-functions"
+  },
+  {
+   "stationId": 1,
+   "updatedByUserId": 6,
+   "friendlyName": "min-max",
+   "updatedDate": "2016-01-28T13:22:47Z",
+   "content": "How can we classify stationary points on graphs of functions?",
+   "id": 2,
+   "number": 2,
+   "_station": "calculus-meets-functions"
+  },
+  {
+   "stationId": 1,
+   "updatedByUserId": null,
+   "friendlyName": "function-calculus",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How does the language of functions help us to talk about calculus, and vice versa?",
+   "id": 3,
+   "number": 3,
+   "_station": "calculus-meets-functions"
+  },
+  {
+   "stationId": 1,
+   "updatedByUserId": null,
+   "friendlyName": "second-derivative",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What does the second derivative tell us about a function?",
+   "id": 4,
+   "number": 4,
+   "_station": "calculus-meets-functions"
+  },
+  {
+   "stationId": 1,
+   "updatedByUserId": null,
+   "friendlyName": "transformations-derivatives-integrals",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How do transformations of functions affect derivatives and integrals?",
+   "id": 5,
+   "number": 5,
+   "_station": "calculus-meets-functions"
+  },
+  {
+   "stationId": 2,
+   "updatedByUserId": 7,
+   "friendlyName": "power-of-x",
+   "updatedDate": "2016-01-29T15:16:55Z",
+   "content": "How can we find the derivative or integral of a power of $x$?",
+   "id": 7,
+   "number": 1,
+   "_station": "calculus-of-powers"
+  },
+  {
+   "stationId": 2,
+   "updatedByUserId": null,
+   "friendlyName": "diff-int-related",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are differentiation and integration related?",
+   "id": 8,
+   "number": 2,
+   "_station": "calculus-of-powers"
+  },
+  {
+   "stationId": 2,
+   "updatedByUserId": 7,
+   "friendlyName": "max-or-min",
+   "updatedDate": "2016-01-29T15:18:14Z",
+   "content": "How can we locate a maximum or minimum point on a graph?",
+   "id": 138,
+   "number": 3,
+   "_station": "calculus-of-powers"
+  },
+  {
+   "stationId": 2,
+   "updatedByUserId": null,
+   "friendlyName": "tangent-normal",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we find and interpret the tangent or normal to a curve at a point?",
+   "id": 9,
+   "number": 4,
+   "_station": "calculus-of-powers"
+  },
+  {
+   "stationId": 2,
+   "updatedByUserId": null,
+   "friendlyName": "calculate-area",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How and when can we use integration to find the area under a curve?",
+   "id": 10,
+   "number": 5,
+   "_station": "calculus-of-powers"
+  },
+  {
+   "stationId": 3,
+   "updatedByUserId": 4,
+   "friendlyName": "sin-and-cos",
+   "updatedDate": "2016-08-12T13:04:55Z",
+   "content": "How can trigonometric functions be differentiated and integrated?",
+   "id": 12,
+   "number": 1,
+   "_station": "calculus-trig-log"
+  },
+  {
+   "stationId": 3,
+   "updatedByUserId": 7,
+   "friendlyName": "function-equals-derivative",
+   "updatedDate": "2016-09-09T15:38:42Z",
+   "content": "Is the derivative function always different from the original function?",
+   "id": 13,
+   "number": 2,
+   "_station": "calculus-trig-log"
+  },
+  {
+   "stationId": 3,
+   "updatedByUserId": 4,
+   "friendlyName": "exp-and-log",
+   "updatedDate": "2016-08-12T13:05:51Z",
+   "content": "How can exponentials and logarithmic functions be differentiated and integrated?",
+   "id": 14,
+   "number": 3,
+   "_station": "calculus-trig-log"
+  },
+  {
+   "stationId": 4,
+   "updatedByUserId": 4,
+   "friendlyName": "rate-of-change-related",
+   "updatedDate": "2016-09-20T10:32:43Z",
+   "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?",
+   "id": 16,
+   "number": 1,
+   "_station": "chain-rule"
+  },
+  {
+   "stationId": 4,
+   "updatedByUserId": 4,
+   "friendlyName": "differentiate-inverse",
+   "updatedDate": "2016-08-12T13:19:49Z",
+   "content": "When and how can the inverse of a function be differentiated?",
+   "id": 18,
+   "number": 2,
+   "_station": "chain-rule"
+  },
+  {
+   "stationId": 4,
+   "updatedByUserId": 4,
+   "friendlyName": "implicit-differentiation",
+   "updatedDate": "2016-08-12T13:20:04Z",
+   "content": "What is implicit differentiation?",
+   "id": 19,
+   "number": 3,
+   "_station": "chain-rule"
+  },
+  {
+   "stationId": 4,
+   "updatedByUserId": 4,
+   "friendlyName": "parametric",
+   "updatedDate": "2016-10-03T13:56:27Z",
+   "content": "How can gradients of parametric curves be found?",
+   "id": 141,
+   "number": 4,
+   "_station": "chain-rule"
+  },
+  {
+   "stationId": 4,
+   "updatedByUserId": 4,
+   "friendlyName": "integration-by-substitution",
+   "updatedDate": "2016-08-12T13:20:31Z",
+   "content": "What is integration by substitution, and how is it related to the chain rule?",
+   "id": 20,
+   "number": 5,
+   "_station": "chain-rule"
+  },
+  {
+   "stationId": 5,
+   "updatedByUserId": 8,
+   "friendlyName": "angle-measurement",
+   "updatedDate": "2016-01-18T16:05:24Z",
+   "content": "How are circles and angle measurement related?",
+   "id": 21,
+   "number": 1,
+   "_station": "circles"
+  },
+  {
+   "stationId": 5,
+   "updatedByUserId": 5,
+   "friendlyName": "arcs-sectors",
+   "updatedDate": "2016-11-02T14:24:57Z",
+   "content": "How can we find the arc length and area of sectors of circles?",
+   "id": 134,
+   "number": 2,
+   "_station": "circles"
+  },
+  {
+   "stationId": 5,
+   "updatedByUserId": 8,
+   "friendlyName": "cartesian-form",
+   "updatedDate": "2016-01-25T11:41:31Z",
+   "content": "How can we use the Cartesian equation of a circle?",
+   "id": 135,
+   "number": 3,
+   "_station": "circles"
+  },
+  {
+   "stationId": 5,
+   "updatedByUserId": 8,
+   "friendlyName": "circle-theorems",
+   "updatedDate": "2016-01-25T12:27:54Z",
+   "content": "How are circle theorems useful?",
+   "id": 137,
+   "number": 4,
+   "_station": "circles"
+  },
+  {
+   "stationId": 5,
+   "updatedByUserId": 8,
+   "friendlyName": "circle-generalisations",
+   "updatedDate": "2016-01-25T11:45:52Z",
+   "content": "In what ways can circles be generalised?",
+   "id": 136,
+   "number": 5,
+   "_station": "circles"
+  },
+  {
+   "stationId": 6,
+   "updatedByUserId": null,
+   "friendlyName": "domain-and-range",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What are the domain and range of a function?",
+   "id": 22,
+   "number": 1,
+   "_station": "combining-functions"
+  },
+  {
+   "stationId": 6,
+   "updatedByUserId": null,
+   "friendlyName": "functions-operations",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What happens if we add, subtract, multiply or divide functions?",
+   "id": 23,
+   "number": 2,
+   "_station": "combining-functions"
+  },
+  {
+   "stationId": 6,
+   "updatedByUserId": null,
+   "friendlyName": "functions-composing",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What happens if we apply one function to the output of another?",
+   "id": 24,
+   "number": 3,
+   "_station": "combining-functions"
+  },
+  {
+   "stationId": 6,
+   "updatedByUserId": null,
+   "friendlyName": "functions-tranformations",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What do we mean by transformations of functions?",
+   "id": 25,
+   "number": 4,
+   "_station": "combining-functions"
+  },
+  {
+   "stationId": 6,
+   "updatedByUserId": null,
+   "friendlyName": "functions-inverses",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "When does a function have an inverse?  ",
+   "id": 26,
+   "number": 5,
+   "_station": "combining-functions"
+  },
+  {
+   "stationId": 7,
+   "updatedByUserId": 5,
+   "friendlyName": "scalar-product",
+   "updatedDate": "2016-11-21T11:27:27Z",
+   "content": "What is the scalar product?",
+   "id": 27,
+   "number": 1,
+   "_station": "combining-vectors"
+  },
+  {
+   "stationId": 7,
+   "updatedByUserId": 5,
+   "friendlyName": "vector-product",
+   "updatedDate": "2016-11-21T11:27:38Z",
+   "content": "What is the vector product?",
+   "id": 28,
+   "number": 2,
+   "_station": "combining-vectors"
+  },
+  {
+   "stationId": 7,
+   "updatedByUserId": 5,
+   "friendlyName": "lines-and-planes",
+   "updatedDate": "2016-11-21T11:29:10Z",
+   "content": "How can we describe lines and planes using vectors?",
+   "id": 29,
+   "number": 3,
+   "_station": "combining-vectors"
+  },
+  {
+   "stationId": 7,
+   "updatedByUserId": 22,
+   "friendlyName": "applications",
+   "updatedDate": "2017-03-01T15:32:44Z",
+   "content": "What physical quantities arise as scalar or vector products?",
+   "id": 31,
+   "number": 4,
+   "_station": "combining-vectors"
+  },
+  {
+   "stationId": 10,
+   "updatedByUserId": null,
+   "friendlyName": "symmetry-count",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we use symmetry to help us to count?",
+   "id": 42,
+   "number": 1,
+   "_station": "counting-and-binomials"
+  },
+  {
+   "stationId": 10,
+   "updatedByUserId": null,
+   "friendlyName": "permutations-and-combinations",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we count permutations and combinations?",
+   "id": 43,
+   "number": 2,
+   "_station": "counting-and-binomials"
+  },
+  {
+   "stationId": 10,
+   "updatedByUserId": null,
+   "friendlyName": "binomial-expansion",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we expand $(x+y)^n$ efficiently?",
+   "id": 44,
+   "number": 3,
+   "_station": "counting-and-binomials"
+  },
+  {
+   "stationId": 10,
+   "updatedByUserId": 7,
+   "friendlyName": "logic",
+   "updatedDate": "2016-02-16T14:50:22Z",
+   "content": "How can we use logical reasoning to solve problems?",
+   "id": 139,
+   "number": 4,
+   "_station": "counting-and-binomials"
+  },
+  {
+   "stationId": 12,
+   "updatedByUserId": null,
+   "friendlyName": "fibonacci",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What are the Fibonacci numbers, and what properties do they have?",
+   "id": 51,
+   "number": 1,
+   "_station": "divisibility-and-induction"
+  },
+  {
+   "stationId": 12,
+   "updatedByUserId": 6,
+   "friendlyName": "highest-common-factor",
+   "updatedDate": "2016-02-10T18:50:40Z",
+   "content": "How can the highest common factor of two numbers be found?",
+   "id": 52,
+   "number": 2,
+   "_station": "divisibility-and-induction"
+  },
+  {
+   "stationId": 12,
+   "updatedByUserId": null,
+   "friendlyName": "fundamental-theorem-of-arithmetic",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What is the Fundamental theorem of arithmetic, and why does it matter?",
+   "id": 53,
+   "number": 3,
+   "_station": "divisibility-and-induction"
+  },
+  {
+   "stationId": 12,
+   "updatedByUserId": null,
+   "friendlyName": "recursive",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What does it mean to describe situations recursively?",
+   "id": 54,
+   "number": 4,
+   "_station": "divisibility-and-induction"
+  },
+  {
+   "stationId": 12,
+   "updatedByUserId": 6,
+   "friendlyName": "induction",
+   "updatedDate": "2017-04-11T10:03:34Z",
+   "content": "How can results be proved using induction?",
+   "id": 55,
+   "number": 5,
+   "_station": "divisibility-and-induction"
+  },
+  {
+   "stationId": 13,
+   "updatedByUserId": null,
+   "friendlyName": "growth-and-decay",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What are exponential growth and decay?",
+   "id": 56,
+   "number": 1,
+   "_station": "exp-and-log"
+  },
+  {
+   "stationId": 13,
+   "updatedByUserId": null,
+   "friendlyName": "exp-and-log-related",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are the exponential and logarithmic functions related?",
+   "id": 57,
+   "number": 2,
+   "_station": "exp-and-log"
+  },
+  {
+   "stationId": 13,
+   "updatedByUserId": null,
+   "friendlyName": "how-are-logs-used",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are logarithms used?",
+   "id": 58,
+   "number": 3,
+   "_station": "exp-and-log"
+  },
+  {
+   "stationId": 13,
+   "updatedByUserId": null,
+   "friendlyName": "rewrite-using-logs",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we rewrite expressions involving logarithms?",
+   "id": 59,
+   "number": 4,
+   "_station": "exp-and-log"
+  },
+  {
+   "stationId": 13,
+   "updatedByUserId": null,
+   "friendlyName": "solve-using-logs",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What sorts of equations can we solve using logarithms?",
+   "id": 60,
+   "number": 5,
+   "_station": "exp-and-log"
+  },
+  {
+   "stationId": 14,
+   "updatedByUserId": null,
+   "friendlyName": "straight-lines",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we use algebra to describe straight lines in the plane?",
+   "id": 61,
+   "number": 1,
+   "_station": "geometry-of-equations"
+  },
+  {
+   "stationId": 14,
+   "updatedByUserId": null,
+   "friendlyName": "parallel-perpendicular",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we consider parallel and perpendicular lines using algebra?",
+   "id": 62,
+   "number": 2,
+   "_station": "geometry-of-equations"
+  },
+  {
+   "stationId": 14,
+   "updatedByUserId": null,
+   "friendlyName": "geometry-to-algebra",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we translate between geometric and algebraic descriptions of lines and curves?",
+   "id": 63,
+   "number": 3,
+   "_station": "geometry-of-equations"
+  },
+  {
+   "stationId": 14,
+   "updatedByUserId": null,
+   "friendlyName": "simultaneous-eqns",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How is the process of solving simultaneous equations related to geometry?",
+   "id": 64,
+   "number": 4,
+   "_station": "geometry-of-equations"
+  },
+  {
+   "stationId": 15,
+   "updatedByUserId": null,
+   "friendlyName": "how-defined",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are hyperbolic sine and cosine defined?",
+   "id": 65,
+   "number": 1,
+   "_station": "hyperbolic-functions"
+  },
+  {
+   "stationId": 15,
+   "updatedByUserId": null,
+   "friendlyName": "how-related",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are hyperbolic functions related to each other and to circular trig functions?",
+   "id": 66,
+   "number": 2,
+   "_station": "hyperbolic-functions"
+  },
+  {
+   "stationId": 15,
+   "updatedByUserId": null,
+   "friendlyName": "solve-equations",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How do we solve equations involving hyperbolic functions?",
+   "id": 67,
+   "number": 3,
+   "_station": "hyperbolic-functions"
+  },
+  {
+   "stationId": 15,
+   "updatedByUserId": null,
+   "friendlyName": "differentiate",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How do we differentiate hyperbolic functions and their inverses?",
+   "id": 68,
+   "number": 4,
+   "_station": "hyperbolic-functions"
+  },
+  {
+   "stationId": 15,
+   "updatedByUserId": null,
+   "friendlyName": "arc-length",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we measure arc length?",
+   "id": 69,
+   "number": 5,
+   "_station": "hyperbolic-functions"
+  },
+  {
+   "stationId": 16,
+   "updatedByUserId": null,
+   "friendlyName": "why-is-gradient-useful",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What is the gradient of a curve and how might it be useful?",
+   "id": 70,
+   "number": 1,
+   "_station": "introducing-calculus"
+  },
+  {
+   "stationId": 16,
+   "updatedByUserId": null,
+   "friendlyName": "area-under-curve",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What do we mean by the area 'under' a curve and what might it represent?",
+   "id": 71,
+   "number": 2,
+   "_station": "introducing-calculus"
+  },
+  {
+   "stationId": 16,
+   "updatedByUserId": null,
+   "friendlyName": "rate-of-change",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?",
+   "id": 72,
+   "number": 3,
+   "_station": "introducing-calculus"
+  },
+  {
+   "stationId": 16,
+   "updatedByUserId": null,
+   "friendlyName": "features-of-graph-and-equation",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?",
+   "id": 73,
+   "number": 4,
+   "_station": "introducing-calculus"
+  },
+  {
+   "stationId": 18,
+   "updatedByUserId": 8,
+   "friendlyName": "roots-of-polynomials",
+   "updatedDate": "2016-11-28T14:14:06Z",
+   "content": "How are the roots of polynomials related to their equations and graphs?",
+   "id": 81,
+   "number": 1,
+   "_station": "polynomials"
+  },
+  {
+   "stationId": 18,
+   "updatedByUserId": 8,
+   "friendlyName": "polynomial-division",
+   "updatedDate": "2016-11-28T14:15:16Z",
+   "content": "What happens when one polynomial is divided by another?",
+   "id": 80,
+   "number": 2,
+   "_station": "polynomials"
+  },
+  {
+   "stationId": 18,
+   "updatedByUserId": 8,
+   "friendlyName": "rewriting",
+   "updatedDate": "2016-11-28T14:15:57Z",
+   "content": "How can we rewrite polynomials and rational functions?",
+   "id": 82,
+   "number": 3,
+   "_station": "polynomials"
+  },
+  {
+   "stationId": 18,
+   "updatedByUserId": 8,
+   "friendlyName": "sketch-rational-functions",
+   "updatedDate": "2016-11-28T14:16:36Z",
+   "content": "Which techniques can be used to sketch rational functions?",
+   "id": 83,
+   "number": 4,
+   "_station": "polynomials"
+  },
+  {
+   "stationId": 18,
+   "updatedByUserId": 8,
+   "friendlyName": "solving-inequalities",
+   "updatedDate": "2016-11-28T14:17:09Z",
+   "content": "How can inequalities involving polynomials and rational functions be solved?",
+   "id": 140,
+   "number": 5,
+   "_station": "polynomials"
+  },
+  {
+   "stationId": 19,
+   "updatedByUserId": null,
+   "friendlyName": "can-we-write-a-series",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "Can we write a function $f(x)$ as a series of powers of $x$?",
+   "id": 84,
+   "number": 1,
+   "_station": "power-series"
+  },
+  {
+   "stationId": 19,
+   "updatedByUserId": null,
+   "friendlyName": "exponential-and-others",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What is the power series for $e^x$ and for other familiar functions?",
+   "id": 85,
+   "number": 2,
+   "_station": "power-series"
+  },
+  {
+   "stationId": 19,
+   "updatedByUserId": null,
+   "friendlyName": "approximate-values",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we use power series to approximate values of expressions?",
+   "id": 86,
+   "number": 3,
+   "_station": "power-series"
+  },
+  {
+   "stationId": 20,
+   "updatedByUserId": null,
+   "friendlyName": "area-of-rectangle",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How does the area of a rectangle change when we vary the lengths of the sides?",
+   "id": 87,
+   "number": 1,
+   "_station": "product-rule"
+  },
+  {
+   "stationId": 20,
+   "updatedByUserId": null,
+   "friendlyName": "differentiate-product",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we differentiate the product of two functions?",
+   "id": 88,
+   "number": 2,
+   "_station": "product-rule"
+  },
+  {
+   "stationId": 20,
+   "updatedByUserId": null,
+   "friendlyName": "differentiate-quotient",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "Do we need a rule for differentiating a quotient of functions?",
+   "id": 89,
+   "number": 3,
+   "_station": "product-rule"
+  },
+  {
+   "stationId": 20,
+   "updatedByUserId": null,
+   "friendlyName": "integration-by-parts",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What do we mean by integration by parts, and when is it useful?",
+   "id": 90,
+   "number": 4,
+   "_station": "product-rule"
+  },
+  {
+   "stationId": 22,
+   "updatedByUserId": null,
+   "friendlyName": "connect-alg-graph",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are the graphical and algebraic representations of quadratics connected?",
+   "id": 96,
+   "number": 1,
+   "_station": "quadratics"
+  },
+  {
+   "stationId": 22,
+   "updatedByUserId": null,
+   "friendlyName": "quad-roots",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What do we mean by the roots of a quadratic equation and how can we find them?",
+   "id": 97,
+   "number": 2,
+   "_station": "quadratics"
+  },
+  {
+   "stationId": 22,
+   "updatedByUserId": null,
+   "friendlyName": "discriminant",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What is the discriminant of a quadratic, and what can it tell us?",
+   "id": 98,
+   "number": 3,
+   "_station": "quadratics"
+  },
+  {
+   "stationId": 23,
+   "updatedByUserId": null,
+   "friendlyName": "sequence-vs-series",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What is the difference between a sequence and a series?",
+   "id": 99,
+   "number": 1,
+   "_station": "sequences"
+  },
+  {
+   "stationId": 23,
+   "updatedByUserId": null,
+   "friendlyName": "properties-of-ap",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What properties does an arithmetic progression have?",
+   "id": 100,
+   "number": 2,
+   "_station": "sequences"
+  },
+  {
+   "stationId": 23,
+   "updatedByUserId": null,
+   "friendlyName": "properties-of-gp",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What properties does a geometric progression have?",
+   "id": 101,
+   "number": 3,
+   "_station": "sequences"
+  },
+  {
+   "stationId": 23,
+   "updatedByUserId": 4,
+   "friendlyName": "sums-of-powers",
+   "updatedDate": "2016-02-16T12:41:21Z",
+   "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?",
+   "id": 102,
+   "number": 4,
+   "_station": "sequences"
+  },
+  {
+   "stationId": 23,
+   "updatedByUserId": null,
+   "friendlyName": "sum-of-infinite-series",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "When and how can we sum an infinite series?",
+   "id": 103,
+   "number": 5,
+   "_station": "sequences"
+  },
+  {
+   "stationId": 23,
+   "updatedByUserId": null,
+   "friendlyName": "converge-or-diverge",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What does it mean for a sequence or series to converge or diverge?",
+   "id": 104,
+   "number": 6,
+   "_station": "sequences"
+  },
+  {
+   "stationId": 28,
+   "updatedByUserId": 4,
+   "friendlyName": "equations-inequalities",
+   "updatedDate": "2015-11-13T11:32:02Z",
+   "content": "How do we recognise and work with different types of equations and inequalities?",
+   "id": 126,
+   "number": 1,
+   "_station": "thinking-about-algebra"
+  },
+  {
+   "stationId": 28,
+   "updatedByUserId": null,
+   "friendlyName": "surds-indices-fractions",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?",
+   "id": 127,
+   "number": 2,
+   "_station": "thinking-about-algebra"
+  },
+  {
+   "stationId": 28,
+   "updatedByUserId": 4,
+   "friendlyName": "form-equations",
+   "updatedDate": "2016-02-11T09:49:52Z",
+   "content": "How are equations formed and what do they mean?",
+   "id": 128,
+   "number": 3,
+   "_station": "thinking-about-algebra"
+  },
+  {
+   "stationId": 28,
+   "updatedByUserId": 4,
+   "friendlyName": "generalise",
+   "updatedDate": "2016-02-11T09:49:06Z",
+   "content": "How can algebra be used to generalise our thinking?",
+   "id": 129,
+   "number": 4,
+   "_station": "thinking-about-algebra"
+  },
+  {
+   "stationId": 21,
+   "updatedByUserId": 6,
+   "friendlyName": "what-is-function",
+   "updatedDate": "2016-01-13T18:08:42Z",
+   "content": "What is a function and what are some examples of functions?",
+   "id": 91,
+   "number": 1,
+   "_station": "thinking-about-functions"
+  },
+  {
+   "stationId": 21,
+   "updatedByUserId": null,
+   "friendlyName": "features-graph",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What features of functions are visible on a graph?",
+   "id": 92,
+   "number": 2,
+   "_station": "thinking-about-functions"
+  },
+  {
+   "stationId": 21,
+   "updatedByUserId": null,
+   "friendlyName": "functions-asymptotes",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What is an asymptote and what are some functions which have them?",
+   "id": 93,
+   "number": 3,
+   "_station": "thinking-about-functions"
+  },
+  {
+   "stationId": 21,
+   "updatedByUserId": null,
+   "friendlyName": "absolute-value-modulus",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What does the graph of the absolute value or modulus function look like?",
+   "id": 94,
+   "number": 4,
+   "_station": "thinking-about-functions"
+  },
+  {
+   "stationId": 21,
+   "updatedByUserId": null,
+   "friendlyName": "function-symmetry",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What do we mean by symmetry of a function?",
+   "id": 95,
+   "number": 5,
+   "_station": "thinking-about-functions"
+  },
+  {
+   "stationId": 29,
+   "updatedByUserId": null,
+   "friendlyName": "meaning-of-geometry",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What do we mean by geometry?",
+   "id": 130,
+   "number": 1,
+   "_station": "thinking-about-geometry"
+  },
+  {
+   "stationId": 29,
+   "updatedByUserId": 4,
+   "friendlyName": "pythagoras-theorem",
+   "updatedDate": "2016-02-17T11:29:20Z",
+   "content": "How can Pythagoras' Theorem be used?",
+   "id": 131,
+   "number": 2,
+   "_station": "thinking-about-geometry"
+  },
+  {
+   "stationId": 29,
+   "updatedByUserId": null,
+   "friendlyName": "similar-triangles",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are similar triangles useful?",
+   "id": 132,
+   "number": 3,
+   "_station": "thinking-about-geometry"
+  },
+  {
+   "stationId": 29,
+   "updatedByUserId": 4,
+   "friendlyName": "deductive-reasoning",
+   "updatedDate": "2016-02-11T09:50:46Z",
+   "content": "What can be deduced using our knowledge of simple shapes and angles?",
+   "id": 133,
+   "number": 4,
+   "_station": "thinking-about-geometry"
+  },
+  {
+   "stationId": 26,
+   "updatedByUserId": null,
+   "friendlyName": "integer-families",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What are our key examples of interesting families of integers?",
+   "id": 116,
+   "number": 1,
+   "_station": "thinking-about-numbers"
+  },
+  {
+   "stationId": 26,
+   "updatedByUserId": null,
+   "friendlyName": "rational-irrational",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "What are rational and irrational numbers?",
+   "id": 117,
+   "number": 2,
+   "_station": "thinking-about-numbers"
+  },
+  {
+   "stationId": 26,
+   "updatedByUserId": 4,
+   "friendlyName": "numerical-expressions",
+   "updatedDate": "2015-11-13T12:51:14Z",
+   "content": "How can we manipulate numerical expressions involving surds?",
+   "id": 118,
+   "number": 3,
+   "_station": "thinking-about-numbers"
+  },
+  {
+   "stationId": 26,
+   "updatedByUserId": null,
+   "friendlyName": "irrational-proof",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we show that a number is rational or irrational?",
+   "id": 119,
+   "number": 4,
+   "_station": "thinking-about-numbers"
+  },
+  {
+   "stationId": 26,
+   "updatedByUserId": 7,
+   "friendlyName": "infinity",
+   "updatedDate": "2017-08-09T15:28:11Z",
+   "content": "What does it mean to say that something is infinite?",
+   "id": 142,
+   "number": 5,
+   "_station": "thinking-about-numbers"
+  },
+  {
+   "stationId": 24,
+   "updatedByUserId": 6,
+   "friendlyName": "compound-angle-formulae",
+   "updatedDate": "2016-02-12T16:42:01Z",
+   "content": "How can expressions such as $\\sin (x+y)$ be expanded?",
+   "id": 105,
+   "number": 1,
+   "_station": "trigonometry-compound-angles"
+  },
+  {
+   "stationId": 24,
+   "updatedByUserId": 6,
+   "friendlyName": "double-angle",
+   "updatedDate": "2016-02-12T17:02:01Z",
+   "content": "What are the double-angle formulae?",
+   "id": 107,
+   "number": 2,
+   "_station": "trigonometry-compound-angles"
+  },
+  {
+   "stationId": 24,
+   "updatedByUserId": 6,
+   "friendlyName": "compound-angle-geometric",
+   "updatedDate": "2016-02-12T17:03:49Z",
+   "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?",
+   "id": 106,
+   "number": 3,
+   "_station": "trigonometry-compound-angles"
+  },
+  {
+   "stationId": 24,
+   "updatedByUserId": 6,
+   "friendlyName": "linear-combinations",
+   "updatedDate": "2016-02-12T16:40:56Z",
+   "content": "What do graphs such as $y=3 \\cos x + 4 \\sin x$ look like?",
+   "id": 108,
+   "number": 4,
+   "_station": "trigonometry-compound-angles"
+  },
+  {
+   "stationId": 24,
+   "updatedByUserId": 6,
+   "friendlyName": "factor-formulae",
+   "updatedDate": "2016-02-12T16:24:41Z",
+   "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?",
+   "id": 109,
+   "number": 5,
+   "_station": "trigonometry-compound-angles"
+  },
+  {
+   "stationId": 25,
+   "updatedByUserId": null,
+   "friendlyName": "trig-functions-circles",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are trigonometric functions related to circles?",
+   "id": 110,
+   "number": 1,
+   "_station": "trigonometry-triangles-to-functions"
+  },
+  {
+   "stationId": 25,
+   "updatedByUserId": 6,
+   "friendlyName": "trig-all-angles",
+   "updatedDate": "2016-01-07T11:27:29Z",
+   "content": "How can we define trigonometric functions for all angles?",
+   "id": 111,
+   "number": 2,
+   "_station": "trigonometry-triangles-to-functions"
+  },
+  {
+   "stationId": 25,
+   "updatedByUserId": 6,
+   "friendlyName": "trig-function-features",
+   "updatedDate": "2016-01-08T18:30:28Z",
+   "content": "What are the key features of trigonometric functions and their graphs?",
+   "id": 112,
+   "number": 3,
+   "_station": "trigonometry-triangles-to-functions"
+  },
+  {
+   "stationId": 25,
+   "updatedByUserId": null,
+   "friendlyName": "trig-identities",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How are trigonometric functions related to each other?",
+   "id": 113,
+   "number": 4,
+   "_station": "trigonometry-triangles-to-functions"
+  },
+  {
+   "stationId": 25,
+   "updatedByUserId": null,
+   "friendlyName": "solve-trig-equations",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can we solve equations and inequalities involving trigonometric functions?",
+   "id": 114,
+   "number": 5,
+   "_station": "trigonometry-triangles-to-functions"
+  },
+  {
+   "stationId": 27,
+   "updatedByUserId": 5,
+   "friendlyName": "vector-quantities",
+   "updatedDate": "2016-11-21T11:14:20Z",
+   "content": "What is a vector quantity and how is it different from a scalar quantity?",
+   "id": 124,
+   "number": 1,
+   "_station": "vector-geometry"
+  },
+  {
+   "stationId": 27,
+   "updatedByUserId": 5,
+   "friendlyName": "unit-vectors",
+   "updatedDate": "2016-11-21T11:12:37Z",
+   "content": "What are the unit vectors $\\mathbf{i},\\mathbf{j},\\mathbf{k}$?",
+   "id": 121,
+   "number": 2,
+   "_station": "vector-geometry"
+  },
+  {
+   "stationId": 27,
+   "updatedByUserId": 7,
+   "friendlyName": "define-lines",
+   "updatedDate": "2017-01-12T12:19:40Z",
+   "content": "How can we use vectors to define lines?",
+   "id": 122,
+   "number": 3,
+   "_station": "vector-geometry"
+  },
+  {
+   "stationId": 27,
+   "updatedByUserId": null,
+   "friendlyName": "geometric-problems",
+   "updatedDate": "2015-11-04T08:12:28Z",
+   "content": "How can vectors help us to tackle geometric problems?",
+   "id": 123,
+   "number": 4,
+   "_station": "vector-geometry"
+  },
+  {
+   "stationId": 27,
+   "updatedByUserId": 5,
+   "friendlyName": "applications",
+   "updatedDate": "2016-11-21T11:23:16Z",
+   "content": "How can we use vectors in mechanics?",
+   "id": 125,
+   "number": 5,
+   "_station": "vector-geometry"
+  }
+ ]
+}
