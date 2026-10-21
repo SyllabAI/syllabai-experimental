@@ -1,0 +1,31 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "4393Y7QA5R.com.senecalearning.dev",
+        "paths": [
+          "NOT /what-is-premium",
+          "NOT /what-is-premium/parent",
+          "*"
+        ]
+      },
+      {
+        "appID": "4393Y7QA5R.com.senecalearning.edge",
+        "paths": [
+          "NOT /what-is-premium",
+          "NOT /what-is-premium/parent",
+          "*"
+        ]
+      },
+      {
+        "appID": "4393Y7QA5R.com.senecalearning.app",
+        "paths": [
+          "NOT /what-is-premium",
+          "NOT /what-is-premium/parent",
+          "*"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+HTTP/2 200 
+content-type: text/html
+content-length: 4508
+accept-ranges: bytes
+date: Wed, 21 Oct 2026 23:52:12 GMT
+server: None
+last-modified: Mon, 19 Oct 2026 09:47:54 GMT
+etag: "b8959d8982e6394a61b7a405ef5c7cd3"
+cache-control: no-cache, no-store, must-revalidate
+content-encoding: gzip
+x-amz-server-side-encryption: AES256
+x-cache: Miss from cloudfront
+via: 1.1 f5b31be72c11865ad8ac2540dfd45772.cloudfront.net (CloudFront)
+x-amz-cf-pop: HKG62-P1
+x-amz-cf-id: 5f3Wg0o3xkAH3Brn4BaxVpRahZ9ydtmIwU_5DYsW4HG1ClQRhfF78w==
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy: connect-src 'self' blob: *.senecalearning.com https://senecloud.io www.googletagmanager.com *.app.senecalearning.com google.com *.google.com *.google-analytics.com *.doubleclick.net *.googleapis.com https://youtube.com https://www.youtube.com sentry.io global.localizecdn.com *.giphy.com *.tenor.com https://seneca-images-v1.s3.eu-west-1.amazonaws.com https://studienkreis-pdf-resources-processed-v1.s3.eu-west-1.amazonaws.com https://certificate-pdfs-v1.s3.eu-west-1.amazonaws.com ws: wss: https://api.qrserver.com https://s3.eu-west-1.amazonaws.com *.clarity.ms c.bing.com *.mux.com *.litix.io https://www.googleadservices.com https://px.ads.linkedin.com https://www.facebook.com https://analytics.tiktok.com https://analytics-ipv6.tiktokw.us https://ads.tiktok.com https://bvidopmp.apicdn.sanity.io https://calendly.com www.google.at www.google.co.uk www.google.com.co www.google.de www.google.es www.google.fr www.google.it; font-src 'self' https://fonts.gstatic.com data: https://fonts.googleapis.com; frame-src 'self' blob: *.senecalearning.com storage.googleapis.com https://js.stripe.com https://youtube.com https://www.youtube.com *.loom.com https://docs.google.com accounts.google.com https://www.facebook.com https://calendly.com; img-src 'self' data: blob: *.senecalearning.com www.googletagmanager.com https://www.google.com https://google.com https://*.g.doubleclick.net https://www.googleadservices.com https://ssl.gstatic.com https://www.gstatic.com *.google-analytics.com global.localizecdn.com https://d17hukvrbysd4e.cloudfront.net https://images.unsplash.com https://image.pexels.com https://lorempixel.com *.giphy.com *.tenor.com https://chatbot-upload-images-production-v1.s3.eu-west-1.amazonaws.com https://*.ytimg.com *.clarity.ms image.mux.com *.litix.io https://px.ads.linkedin.com www.facebook.com https://analytics.tiktok.com https://*.calendly.com www.google.at www.google.ch www.google.co.uk www.google.co.za www.google.com.ar www.google.com.co www.google.com.ec www.google.com.mx www.google.com.sv www.google.de www.google.es www.google.fr www.google.it www.google.nl; report-to csp-endpoint; report-uri https://o125024.ingest.us.sentry.io/api/298395/security/?sentry_key=0af00c9f8b4b45ee8d00f1d0f3ab09a7&sentry_environment=production; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.senecalearning.com https://js.stripe.com *.googletagmanager.com https://tagmanager.google.com *.google-analytics.com https://googleads.g.doubleclick.net apis.google.com *.intercom.io *.intercomcdn.com https://public.profitwell.com https://connect.facebook.net https://analytics.tiktok.com storage.googleapis.com https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js https://www.gstatic.com https://cdn.jsdelivr.net/npm/bowser@2.8.1/es5.min.js https://youtube.com https://www.youtube.com *.clarity.ms clarity.ms src.litix.io https://snap.licdn.com https://assets.calendly.com; style-src 'self' 'unsafe-inline' https://tagmanager.google.com https://fonts.googleapis.com https://assets.calendly.com; worker-src 'self' blob:;
+x-content-type-options: nosniff
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+report-to: {"endpoints":[{"url":"https://o125024.ingest.us.sentry.io/api/298395/security/?sentry_key=0af00c9f8b4b45ee8d00f1d0f3ab09a7\u0026sentry_environment=production"}],"group":"csp-endpoint","include_subdomains":true,"max_age":10886400}
+reporting-endpoints: csp-endpoint="https://o125024.ingest.us.sentry.io/api/298395/security/?sentry_key=0af00c9f8b4b45ee8d00f1d0f3ab09a7&sentry_environment=production"
+
