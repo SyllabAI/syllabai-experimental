@@ -159,3 +159,32 @@ The title rule was applied to the **full 74-subject harvest**:
 `examQuestion` title violations: **0**. All raw pages with content
 bodies remain local-only (`probe-results/rh3/local-only-full-payloads/`,
 ~1,100 files, gitignored path).
+
+### Session 11 addendum (2026-10-23) — CONTENT STORAGE APPROVAL (operator decision)
+
+**The operator of SyllabAI has instructed (2026-10-23, recorded here as the
+required operator decision) that SyllabAI holds permission from Seneca to
+use their resources for the SyllabAI product, and that the Resource Hub
+content should therefore be downloaded and stored in the repo.** Scope of
+this decision:
+
+- **What changed**: the "content is local-only" rule and the examQuestion
+  title rule are **superseded for
+  `resources/captures/resource-hub-content/` only**. That directory holds
+  the full-content corpus (question stems, mark schemes, generation
+  scripts, lesson topic notes, quiz summaries) for SyllabAI's own
+  assignments-feature development.
+- **What did NOT change**:
+  - third-party PII is still removed (quiz `creatorName`/`creatorId`/
+    `schoolId`/`schoolGroupId` are stripped by the builder; verified 0
+    leaks in the committed corpus);
+  - no credentials, JWTs, or session tokens are committed;
+  - no other-users' data, no auth bypass, ≤1 req/s pacing on all fetches;
+  - the metadata-only 2026-10-22 catalog (`resource-hub/`) is retained
+    unchanged for provenance.
+- **Provenance**: harvested 2026-10-23 from the operator-provisioned
+  teacher account via the app's own `query-resources` search API; the
+  rebuild script is committed. This permission claim is the operator's;
+  the written licence itself is held by the operator outside this repo.
+- **Takedown**: the "remove on request" commitment above applies
+  explicitly to this corpus.

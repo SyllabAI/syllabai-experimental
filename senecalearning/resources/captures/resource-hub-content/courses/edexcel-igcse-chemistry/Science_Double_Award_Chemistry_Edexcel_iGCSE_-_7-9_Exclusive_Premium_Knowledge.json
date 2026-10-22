@@ -1,0 +1,804 @@
+{
+ "courseId": "18de8a55-f847-447a-8203-768bde746d33",
+ "courseTitle": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+ "subscriptionTier": "PREMIUM",
+ "sectionCount": 15,
+ "sections": [
+  {
+   "id": "3517ecf7-c506-49f2-b54c-7953e0e465e3",
+   "type": "courseSection",
+   "title": "Acids & Alkalis Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physcial Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/3517ecf7-c506-49f2-b54c-7953e0e465e3",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/3517ecf7-c506-49f2-b54c-7953e0e465e3/session/start"
+   }
+  },
+  {
+   "id": "363b6333-6451-4e43-ba0e-a9bbff658382",
+   "type": "courseSection",
+   "title": "Atoms & Elements Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Principles of Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/363b6333-6451-4e43-ba0e-a9bbff658382",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/363b6333-6451-4e43-ba0e-a9bbff658382/session/start"
+   }
+  },
+  {
+   "id": "6e32d355-902e-4b7e-89ce-53d899213e69",
+   "type": "courseSection",
+   "title": "Calculations Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Principles of Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/6e32d355-902e-4b7e-89ce-53d899213e69",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/6e32d355-902e-4b7e-89ce-53d899213e69/session/start"
+   }
+  },
+  {
+   "id": "b2ff4c79-b633-4243-b19e-99f559691812",
+   "type": "courseSection",
+   "title": "Chemical Tests",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b2ff4c79-b633-4243-b19e-99f559691812",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/b2ff4c79-b633-4243-b19e-99f559691812/session/start"
+   }
+  },
+  {
+   "id": "02e130ab-46a8-49c0-81eb-3086a04fd482",
+   "type": "courseSection",
+   "title": "Chemical Tests &  Analysis Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Tests > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/02e130ab-46a8-49c0-81eb-3086a04fd482",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/02e130ab-46a8-49c0-81eb-3086a04fd482/session/start"
+   }
+  },
+  {
+   "id": "84980f83-e97b-4bb7-bf66-05ca862d77c8",
+   "type": "courseSection",
+   "title": "Chemistry in Industry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/84980f83-e97b-4bb7-bf66-05ca862d77c8",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/84980f83-e97b-4bb7-bf66-05ca862d77c8/session/start"
+   }
+  },
+  {
+   "id": "637760a3-3920-45dd-926f-51c2f811a263",
+   "type": "courseSection",
+   "title": "Energy Changes Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physcial Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/637760a3-3920-45dd-926f-51c2f811a263",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/637760a3-3920-45dd-926f-51c2f811a263/session/start"
+   }
+  },
+  {
+   "id": "81146070-0265-426f-bc2a-36ca2880331d",
+   "type": "courseSection",
+   "title": "Physcial Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/81146070-0265-426f-bc2a-36ca2880331d",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/81146070-0265-426f-bc2a-36ca2880331d/session/start"
+   }
+  },
+  {
+   "id": "abf1bcbd-c8cc-4d29-9b8b-29541ba9ce93",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Principles of Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/abf1bcbd-c8cc-4d29-9b8b-29541ba9ce93",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/abf1bcbd-c8cc-4d29-9b8b-29541ba9ce93/session/start"
+   }
+  },
+  {
+   "id": "51600730-bb0f-4106-80af-07a3413e6cc3",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Tests",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/51600730-bb0f-4106-80af-07a3413e6cc3",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/51600730-bb0f-4106-80af-07a3413e6cc3/session/start"
+   }
+  },
+  {
+   "id": "2dd5a565-edbb-4a62-9509-dbee7efb4c93",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physcial Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/2dd5a565-edbb-4a62-9509-dbee7efb4c93",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/2dd5a565-edbb-4a62-9509-dbee7efb4c93/session/start"
+   }
+  },
+  {
+   "id": "2fc5fab0-9412-402c-b539-c2a7235f03a7",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemistry in Industry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/2fc5fab0-9412-402c-b539-c2a7235f03a7",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/2fc5fab0-9412-402c-b539-c2a7235f03a7/session/start"
+   }
+  },
+  {
+   "id": "04c47d56-8dd0-40b7-a019-110d04da2576",
+   "type": "courseSection",
+   "title": "Principles of Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/04c47d56-8dd0-40b7-a019-110d04da2576",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/04c47d56-8dd0-40b7-a019-110d04da2576/session/start"
+   }
+  },
+  {
+   "id": "1f469c6e-64dc-497b-b2a2-2bfcc8dcceee",
+   "type": "courseSection",
+   "title": "Rates of Reaction Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physcial Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/1f469c6e-64dc-497b-b2a2-2bfcc8dcceee",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/1f469c6e-64dc-497b-b2a2-2bfcc8dcceee/session/start"
+   }
+  },
+  {
+   "id": "a8fef87d-295d-45cb-b5a8-f6a95a9d8ad8",
+   "type": "courseSection",
+   "title": "The Haber Process Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:08:37.907Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemistry in Industry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/a8fef87d-295d-45cb-b5a8-f6a95a9d8ad8",
+    "contentUrl": "/classroom/course/18de8a55-f847-447a-8203-768bde746d33/section/a8fef87d-295d-45cb-b5a8-f6a95a9d8ad8/session/start"
+   }
+  }
+ ],
+ "examQuestions": []
+}

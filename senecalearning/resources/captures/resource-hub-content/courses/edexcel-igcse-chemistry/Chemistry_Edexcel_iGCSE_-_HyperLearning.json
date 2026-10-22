@@ -1,0 +1,3030 @@
+{
+ "courseId": "9836ed1c-b35e-4c36-9e3f-14aef22ee6de",
+ "courseTitle": "Chemistry: Edexcel iGCSE - HyperLearning",
+ "subscriptionTier": "PREMIUM",
+ "sectionCount": 57,
+ "sections": [
+  {
+   "id": "24ac0c1a-4282-4200-a537-51f58d9b8e8c",
+   "type": "courseSection",
+   "title": "Acidic Reactions HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Acids & Alkalis > Acids, Alkalis & Titrations",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/24ac0c1a-4282-4200-a537-51f58d9b8e8c",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/24ac0c1a-4282-4200-a537-51f58d9b8e8c/session/start"
+   }
+  },
+  {
+   "id": "c0419394-285d-4b1e-a457-86a034ab9bec",
+   "type": "courseSection",
+   "title": "Acids & Alkalis",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c0419394-285d-4b1e-a457-86a034ab9bec",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/c0419394-285d-4b1e-a457-86a034ab9bec/session/start"
+   }
+  },
+  {
+   "id": "80f62c08-00e8-4dee-ac2d-9dac36ae8ff2",
+   "type": "courseSection",
+   "title": "Acids, Alkalis & Titrations",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Acids & Alkalis",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/80f62c08-00e8-4dee-ac2d-9dac36ae8ff2",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/80f62c08-00e8-4dee-ac2d-9dac36ae8ff2/session/start"
+   }
+  },
+  {
+   "id": "795f5c34-cf2f-4079-8c22-7cd7dc7d1ba8",
+   "type": "courseSection",
+   "title": "Alkali Metals HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > The Periodic Table > Groups in the Periodic Table",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/795f5c34-cf2f-4079-8c22-7cd7dc7d1ba8",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/795f5c34-cf2f-4079-8c22-7cd7dc7d1ba8/session/start"
+   }
+  },
+  {
+   "id": "66810f43-e348-44e7-9313-574dcb508a28",
+   "type": "courseSection",
+   "title": "Alkanes & Alkenes",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Organic Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/66810f43-e348-44e7-9313-574dcb508a28",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/66810f43-e348-44e7-9313-574dcb508a28/session/start"
+   }
+  },
+  {
+   "id": "dfa4eb9c-47c3-43d4-aa61-40ae56787cc8",
+   "type": "courseSection",
+   "title": "Alkanes & Alkenes HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Organic Chemistry > Alkanes & Alkenes",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/dfa4eb9c-47c3-43d4-aa61-40ae56787cc8",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/dfa4eb9c-47c3-43d4-aa61-40ae56787cc8/session/start"
+   }
+  },
+  {
+   "id": "2002ee4f-53a5-4fd0-9692-c7bccb47414b",
+   "type": "courseSection",
+   "title": "Atomic Structure",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/2002ee4f-53a5-4fd0-9692-c7bccb47414b",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/2002ee4f-53a5-4fd0-9692-c7bccb47414b/session/start"
+   }
+  },
+  {
+   "id": "b7aa8626-eee9-4fff-98ae-54b513810ae5",
+   "type": "courseSection",
+   "title": "Atomic Structure",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Atomic Structure",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b7aa8626-eee9-4fff-98ae-54b513810ae5",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/b7aa8626-eee9-4fff-98ae-54b513810ae5/session/start"
+   }
+  },
+  {
+   "id": "a63b6bf1-1063-4b8e-83b2-babc3dcbb27c",
+   "type": "courseSection",
+   "title": "Atomic Structure HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Atomic Structure > Atomic Structure",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/a63b6bf1-1063-4b8e-83b2-babc3dcbb27c",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/a63b6bf1-1063-4b8e-83b2-babc3dcbb27c/session/start"
+   }
+  },
+  {
+   "id": "5ef54c46-2f59-4d67-9402-7dd584083b30",
+   "type": "courseSection",
+   "title": "Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/5ef54c46-2f59-4d67-9402-7dd584083b30",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/5ef54c46-2f59-4d67-9402-7dd584083b30/session/start"
+   }
+  },
+  {
+   "id": "ebcbbd71-f2d1-4827-8027-6b4272690e44",
+   "type": "courseSection",
+   "title": "Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Bonding",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/ebcbbd71-f2d1-4827-8027-6b4272690e44",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/ebcbbd71-f2d1-4827-8027-6b4272690e44/session/start"
+   }
+  },
+  {
+   "id": "95bdd7b0-164e-4fdb-a943-5401265c35b7",
+   "type": "courseSection",
+   "title": "Carbon Structures HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Electrolysis > Covalent Bonding",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/95bdd7b0-164e-4fdb-a943-5401265c35b7",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/95bdd7b0-164e-4fdb-a943-5401265c35b7/session/start"
+   }
+  },
+  {
+   "id": "f3f30aba-3d86-46c9-a288-012229af1989",
+   "type": "courseSection",
+   "title": "Chemical Formulae, Equations & Calculations",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/f3f30aba-3d86-46c9-a288-012229af1989",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/f3f30aba-3d86-46c9-a288-012229af1989/session/start"
+   }
+  },
+  {
+   "id": "db353add-8405-4732-8a18-0c4a7ddfd851",
+   "type": "courseSection",
+   "title": "Chemical Tests",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/db353add-8405-4732-8a18-0c4a7ddfd851",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/db353add-8405-4732-8a18-0c4a7ddfd851/session/start"
+   }
+  },
+  {
+   "id": "522247be-c77d-44ba-b035-4c10b11e580c",
+   "type": "courseSection",
+   "title": "Corrosion HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Reactivity Series > Reactivity Series",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/522247be-c77d-44ba-b035-4c10b11e580c",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/522247be-c77d-44ba-b035-4c10b11e580c/session/start"
+   }
+  },
+  {
+   "id": "51187bbd-b821-49e5-9ec2-735c2a69713a",
+   "type": "courseSection",
+   "title": "Covalent Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Electrolysis",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/51187bbd-b821-49e5-9ec2-735c2a69713a",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/51187bbd-b821-49e5-9ec2-735c2a69713a/session/start"
+   }
+  },
+  {
+   "id": "e31790b4-f1aa-412e-90aa-72152137bcc0",
+   "type": "courseSection",
+   "title": "Electrolysis",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/e31790b4-f1aa-412e-90aa-72152137bcc0",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/e31790b4-f1aa-412e-90aa-72152137bcc0/session/start"
+   }
+  },
+  {
+   "id": "53b33e29-ba85-42c2-a69b-b33eddf1b73f",
+   "type": "courseSection",
+   "title": "Electrolysis",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Electrolysis",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/53b33e29-ba85-42c2-a69b-b33eddf1b73f",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/53b33e29-ba85-42c2-a69b-b33eddf1b73f/session/start"
+   }
+  },
+  {
+   "id": "73abc6fb-4d27-41bd-bcfb-3206a884c80e",
+   "type": "courseSection",
+   "title": "Electrolysis HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Electrolysis > Electrolysis",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/73abc6fb-4d27-41bd-bcfb-3206a884c80e",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/73abc6fb-4d27-41bd-bcfb-3206a884c80e/session/start"
+   }
+  },
+  {
+   "id": "63e5ff57-d591-462e-9ed3-2206c0c4a9db",
+   "type": "courseSection",
+   "title": "Elements, Compounds & Mixtures",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/63e5ff57-d591-462e-9ed3-2206c0c4a9db",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/63e5ff57-d591-462e-9ed3-2206c0c4a9db/session/start"
+   }
+  },
+  {
+   "id": "0aa9b2a1-762c-4f4e-857c-3a25bc62679d",
+   "type": "courseSection",
+   "title": "Elements, Compounds & Mixtures",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Elements, Compounds & Mixtures",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0aa9b2a1-762c-4f4e-857c-3a25bc62679d",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/0aa9b2a1-762c-4f4e-857c-3a25bc62679d/session/start"
+   }
+  },
+  {
+   "id": "1cb11eac-6b0a-41b4-9ac3-a933b4d73b3a",
+   "type": "courseSection",
+   "title": "Endothermic & Exothermic Reactions HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Physical Chemistry > Energetics",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/1cb11eac-6b0a-41b4-9ac3-a933b4d73b3a",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/1cb11eac-6b0a-41b4-9ac3-a933b4d73b3a/session/start"
+   }
+  },
+  {
+   "id": "ed7a802d-da9e-4b4f-b915-576ade7e440f",
+   "type": "courseSection",
+   "title": "Energetics",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Physical Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/ed7a802d-da9e-4b4f-b915-576ade7e440f",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/ed7a802d-da9e-4b4f-b915-576ade7e440f/session/start"
+   }
+  },
+  {
+   "id": "252cc2c0-d193-4af6-8dd5-0c647a51da6a",
+   "type": "courseSection",
+   "title": "Equations",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Chemical Formulae, Equations & Calculations",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/252cc2c0-d193-4af6-8dd5-0c647a51da6a",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/252cc2c0-d193-4af6-8dd5-0c647a51da6a/session/start"
+   }
+  },
+  {
+   "id": "8e994433-dff8-4dc3-afe2-75cb6c34d5b1",
+   "type": "courseSection",
+   "title": "Factors Affecting Reaction Rate HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Physical Chemistry > Rates of Reaction",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/8e994433-dff8-4dc3-afe2-75cb6c34d5b1",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/8e994433-dff8-4dc3-afe2-75cb6c34d5b1/session/start"
+   }
+  },
+  {
+   "id": "65cfdf12-6e28-4a3c-9266-6870e663796d",
+   "type": "courseSection",
+   "title": "Flame Tests HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Chemical Tests > Testing Anions, Cations & Water",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/65cfdf12-6e28-4a3c-9266-6870e663796d",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/65cfdf12-6e28-4a3c-9266-6870e663796d/session/start"
+   }
+  },
+  {
+   "id": "b555935a-372e-4c08-a8f6-d3cb635efabd",
+   "type": "courseSection",
+   "title": "Fractional Distillation HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Organic Chemistry > Hydrocarbons",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b555935a-372e-4c08-a8f6-d3cb635efabd",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/b555935a-372e-4c08-a8f6-d3cb635efabd/session/start"
+   }
+  },
+  {
+   "id": "fcc07959-adf0-42ca-9528-c4b2b823b4a4",
+   "type": "courseSection",
+   "title": "Gases in the Atmosphere",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > The Atmosphere",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/fcc07959-adf0-42ca-9528-c4b2b823b4a4",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/fcc07959-adf0-42ca-9528-c4b2b823b4a4/session/start"
+   }
+  },
+  {
+   "id": "4dc16112-d4a0-4016-a22b-3e9512cbfe57",
+   "type": "courseSection",
+   "title": "Greenhouse Gases HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > The Atmosphere > Gases in the Atmosphere",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/4dc16112-d4a0-4016-a22b-3e9512cbfe57",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/4dc16112-d4a0-4016-a22b-3e9512cbfe57/session/start"
+   }
+  },
+  {
+   "id": "80cc407a-e417-4515-a1a1-daf348e19109",
+   "type": "courseSection",
+   "title": "Groups in the Periodic Table",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > The Periodic Table",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/80cc407a-e417-4515-a1a1-daf348e19109",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/80cc407a-e417-4515-a1a1-daf348e19109/session/start"
+   }
+  },
+  {
+   "id": "b9f416eb-54c5-49f9-ba99-3788bab9001b",
+   "type": "courseSection",
+   "title": "Halogens HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > The Periodic Table > Groups in the Periodic Table",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b9f416eb-54c5-49f9-ba99-3788bab9001b",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/b9f416eb-54c5-49f9-ba99-3788bab9001b/session/start"
+   }
+  },
+  {
+   "id": "9d6c724c-2f88-4bf9-8104-eae3411cae85",
+   "type": "courseSection",
+   "title": "Hydrocarbons",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Organic Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/9d6c724c-2f88-4bf9-8104-eae3411cae85",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/9d6c724c-2f88-4bf9-8104-eae3411cae85/session/start"
+   }
+  },
+  {
+   "id": "d1f79e3d-4ee4-491f-aa92-8a73871dfebd",
+   "type": "courseSection",
+   "title": "Hydrogen, Oxygen & Carbon Dioxide HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Chemical Tests > Identifying Gases",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/d1f79e3d-4ee4-491f-aa92-8a73871dfebd",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/d1f79e3d-4ee4-491f-aa92-8a73871dfebd/session/start"
+   }
+  },
+  {
+   "id": "2bd111a6-92d8-4779-b023-88004ecce7d2",
+   "type": "courseSection",
+   "title": "Identifying Gases",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Chemical Tests",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/2bd111a6-92d8-4779-b023-88004ecce7d2",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/2bd111a6-92d8-4779-b023-88004ecce7d2/session/start"
+   }
+  },
+  {
+   "id": "101ea458-4a9e-460c-9a41-8fbaf96d82c2",
+   "type": "courseSection",
+   "title": "Isotopes & Relative Atomic Mass HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Atomic Structure > Atomic Structure",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/101ea458-4a9e-460c-9a41-8fbaf96d82c2",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/101ea458-4a9e-460c-9a41-8fbaf96d82c2/session/start"
+   }
+  },
+  {
+   "id": "0d531739-c4fd-418a-a07f-c28e1c7c176b",
+   "type": "courseSection",
+   "title": "Metal Compound Tests HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Chemical Tests > Testing Anions, Cations & Water",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0d531739-c4fd-418a-a07f-c28e1c7c176b",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/0d531739-c4fd-418a-a07f-c28e1c7c176b/session/start"
+   }
+  },
+  {
+   "id": "7df0c33d-8625-4c98-b377-ec2bc4dc2b61",
+   "type": "courseSection",
+   "title": "Metallic Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Electrolysis",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/7df0c33d-8625-4c98-b377-ec2bc4dc2b61",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/7df0c33d-8625-4c98-b377-ec2bc4dc2b61/session/start"
+   }
+  },
+  {
+   "id": "0a174782-b016-481c-941a-d892440b1fee",
+   "type": "courseSection",
+   "title": "Metallic Bonding HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Electrolysis > Metallic Bonding",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0a174782-b016-481c-941a-d892440b1fee",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/0a174782-b016-481c-941a-d892440b1fee/session/start"
+   }
+  },
+  {
+   "id": "40b258a1-b812-40c7-af51-c211041568c6",
+   "type": "courseSection",
+   "title": "Moles HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Chemical Formulae, Equations & Calculations > Equations",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/40b258a1-b812-40c7-af51-c211041568c6",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/40b258a1-b812-40c7-af51-c211041568c6/session/start"
+   }
+  },
+  {
+   "id": "61ab2685-dce9-4e30-a496-efd8702cfc6c",
+   "type": "courseSection",
+   "title": "Organic Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/61ab2685-dce9-4e30-a496-efd8702cfc6c",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/61ab2685-dce9-4e30-a496-efd8702cfc6c/session/start"
+   }
+  },
+  {
+   "id": "a8babfa3-2b92-4b32-91ba-8f264905d381",
+   "type": "courseSection",
+   "title": "Physical Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/a8babfa3-2b92-4b32-91ba-8f264905d381",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/a8babfa3-2b92-4b32-91ba-8f264905d381/session/start"
+   }
+  },
+  {
+   "id": "c01b1e6f-9fb5-4fcf-92d7-68ce430c81ac",
+   "type": "courseSection",
+   "title": "Polymerisation HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Organic Chemistry > Synthetic Polymers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c01b1e6f-9fb5-4fcf-92d7-68ce430c81ac",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/c01b1e6f-9fb5-4fcf-92d7-68ce430c81ac/session/start"
+   }
+  },
+  {
+   "id": "1c3a8358-aacb-4266-a920-71112f13f01e",
+   "type": "courseSection",
+   "title": "Polymers HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Organic Chemistry > Synthetic Polymers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/1c3a8358-aacb-4266-a920-71112f13f01e",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/1c3a8358-aacb-4266-a920-71112f13f01e/session/start"
+   }
+  },
+  {
+   "id": "3c1ffa88-c820-4024-b2be-5eb23dbf447d",
+   "type": "courseSection",
+   "title": "Purity & Mixtures HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Elements, Compounds & Mixtures > Elements, Compounds & Mixtures",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/3c1ffa88-c820-4024-b2be-5eb23dbf447d",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/3c1ffa88-c820-4024-b2be-5eb23dbf447d/session/start"
+   }
+  },
+  {
+   "id": "35be035d-fb83-4df5-b35d-ab1960ac05bf",
+   "type": "courseSection",
+   "title": "Rates of Reaction",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Physical Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/35be035d-fb83-4df5-b35d-ab1960ac05bf",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/35be035d-fb83-4df5-b35d-ab1960ac05bf/session/start"
+   }
+  },
+  {
+   "id": "b769602e-78d0-4d89-bf63-c1a55102e259",
+   "type": "courseSection",
+   "title": "Reactivity Series",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b769602e-78d0-4d89-bf63-c1a55102e259",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/b769602e-78d0-4d89-bf63-c1a55102e259/session/start"
+   }
+  },
+  {
+   "id": "0b122515-a27f-4bbe-ba1e-d211b3a0f831",
+   "type": "courseSection",
+   "title": "Reactivity Series",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Reactivity Series",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0b122515-a27f-4bbe-ba1e-d211b3a0f831",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/0b122515-a27f-4bbe-ba1e-d211b3a0f831/session/start"
+   }
+  },
+  {
+   "id": "47545161-7ee2-49de-a199-f67017712add",
+   "type": "courseSection",
+   "title": "Reactivity Series & Displacement  HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Reactivity Series > Reactivity Series",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/47545161-7ee2-49de-a199-f67017712add",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/47545161-7ee2-49de-a199-f67017712add/session/start"
+   }
+  },
+  {
+   "id": "314b4215-6d4e-4c34-9cbf-e8ed7c6fbfeb",
+   "type": "courseSection",
+   "title": "States of Matter",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/314b4215-6d4e-4c34-9cbf-e8ed7c6fbfeb",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/314b4215-6d4e-4c34-9cbf-e8ed7c6fbfeb/session/start"
+   }
+  },
+  {
+   "id": "6676bb66-b64e-4538-be5f-e6720ba15db5",
+   "type": "courseSection",
+   "title": "States of Matter",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > States of Matter",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/6676bb66-b64e-4538-be5f-e6720ba15db5",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/6676bb66-b64e-4538-be5f-e6720ba15db5/session/start"
+   }
+  },
+  {
+   "id": "fc25a381-5ce5-4903-94ec-099f000d8640",
+   "type": "courseSection",
+   "title": "States of Matter & Changing State HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > States of Matter > States of Matter",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/fc25a381-5ce5-4903-94ec-099f000d8640",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/fc25a381-5ce5-4903-94ec-099f000d8640/session/start"
+   }
+  },
+  {
+   "id": "983044cd-d35f-4cd0-b812-8d5059e358dd",
+   "type": "courseSection",
+   "title": "Synthetic Polymers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Organic Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/983044cd-d35f-4cd0-b812-8d5059e358dd",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/983044cd-d35f-4cd0-b812-8d5059e358dd/session/start"
+   }
+  },
+  {
+   "id": "accd7d2d-ee5d-4e93-a591-f6e0a410db8b",
+   "type": "courseSection",
+   "title": "Testing Anions, Cations & Water",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Chemical Tests",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/accd7d2d-ee5d-4e93-a591-f6e0a410db8b",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/accd7d2d-ee5d-4e93-a591-f6e0a410db8b/session/start"
+   }
+  },
+  {
+   "id": "5cdaf96d-c140-482c-af0f-0369e5c10e61",
+   "type": "courseSection",
+   "title": "The Atmosphere",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/5cdaf96d-c140-482c-af0f-0369e5c10e61",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/5cdaf96d-c140-482c-af0f-0369e5c10e61/session/start"
+   }
+  },
+  {
+   "id": "9d0aceec-b2c3-484e-b2d2-4bc1024f84a8",
+   "type": "courseSection",
+   "title": "The Periodic Table",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/9d0aceec-b2c3-484e-b2d2-4bc1024f84a8",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/9d0aceec-b2c3-484e-b2d2-4bc1024f84a8/session/start"
+   }
+  },
+  {
+   "id": "bf6a197f-19b3-41fc-877b-a80abaf45250",
+   "type": "courseSection",
+   "title": "Types of Bonds HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Bonding > Bonding",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/bf6a197f-19b3-41fc-877b-a80abaf45250",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/bf6a197f-19b3-41fc-877b-a80abaf45250/session/start"
+   }
+  },
+  {
+   "id": "651fdccf-53bc-493c-936e-10dcb12366fc",
+   "type": "courseSection",
+   "title": "pH & Indicators HyperLearning",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:06:13.448Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - HyperLearning > Acids & Alkalis > Acids, Alkalis & Titrations",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/651fdccf-53bc-493c-936e-10dcb12366fc",
+    "contentUrl": "/classroom/course/9836ed1c-b35e-4c36-9e3f-14aef22ee6de/section/651fdccf-53bc-493c-936e-10dcb12366fc/session/start"
+   }
+  }
+ ],
+ "examQuestions": []
+}

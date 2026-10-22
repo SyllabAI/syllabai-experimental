@@ -137,6 +137,16 @@ assignment-flow endpoint set. Remaining items below.
       vocabulary = course-scoped REST (not an index type), `pdf` =
       aggregation-only type**; see research/2026-10-22-resource-hub.md
       + captures/resource-hub/ (by-subject/)
+- [x] Resource Hub **full-CONTENT corpus** (session 11, 2026-10-23,
+      operator approval recorded in IP notes): 207,006 rows / 70
+      subjects with questionTitleMd + markScheme + generationScript +
+      topicNotes + quizSummary; quiz PII scrubbed (0 leaks); per-course
+      Edexcel iGCSE Chemistry layer (14 courses); 93 MB gz at
+      captures/resource-hub-content/; build script
+      scripts/seneca_build_content_corpus.py. **Assignments feature
+      prototype built on this slice** (Next.js 16 + Prisma, teacher
+      create/list/stats + student view/complete/score full loop;
+      staged for the production repo)
 - [ ] Parent flows (needs a parent-linked view — open)
 - [~] Premium/entitlements: catalogue `subscriptionTier` FREE/PREMIUM
       split captured (1,789/971); runtime gate placement open

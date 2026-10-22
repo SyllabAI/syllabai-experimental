@@ -1,0 +1,1387 @@
+{
+ "courseId": "4dd916c9-6c3d-45ff-9030-0daad2af7527",
+ "courseTitle": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+ "subscriptionTier": "PREMIUM",
+ "sectionCount": 26,
+ "sections": [
+  {
+   "id": "ff47dd51-a3c7-476f-966f-17d960aa685c",
+   "type": "courseSection",
+   "title": "Acids & Alkalis",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/ff47dd51-a3c7-476f-966f-17d960aa685c",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/ff47dd51-a3c7-476f-966f-17d960aa685c/session/start"
+   }
+  },
+  {
+   "id": "24385a49-e662-4151-bb8c-8243cbee0a1d",
+   "type": "courseSection",
+   "title": "Acids & Alkalis Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Acids & Alkalis > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/24385a49-e662-4151-bb8c-8243cbee0a1d",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/24385a49-e662-4151-bb8c-8243cbee0a1d/session/start"
+   }
+  },
+  {
+   "id": "81de89ed-47eb-49b3-a5ab-451eb07601f9",
+   "type": "courseSection",
+   "title": "Atmospheric Gases Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > The Atmosphere > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/81de89ed-47eb-49b3-a5ab-451eb07601f9",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/81de89ed-47eb-49b3-a5ab-451eb07601f9/session/start"
+   }
+  },
+  {
+   "id": "4f8962fd-e04f-46cf-9029-89c211ec7537",
+   "type": "courseSection",
+   "title": "Atomic Structure & The Periodic Table",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/4f8962fd-e04f-46cf-9029-89c211ec7537",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/4f8962fd-e04f-46cf-9029-89c211ec7537/session/start"
+   }
+  },
+  {
+   "id": "9d2e68bb-8333-4fb3-81e0-3d3af1b0936c",
+   "type": "courseSection",
+   "title": "Atoms & Elements Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Atomic Structure & The Periodic Table > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/9d2e68bb-8333-4fb3-81e0-3d3af1b0936c",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/9d2e68bb-8333-4fb3-81e0-3d3af1b0936c/session/start"
+   }
+  },
+  {
+   "id": "881dbd22-dea4-4a34-995f-6406e26543cc",
+   "type": "courseSection",
+   "title": "Bonding Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Bonding > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/881dbd22-dea4-4a34-995f-6406e26543cc",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/881dbd22-dea4-4a34-995f-6406e26543cc/session/start"
+   }
+  },
+  {
+   "id": "72fb8f69-f73f-4749-b80c-529cb47145aa",
+   "type": "courseSection",
+   "title": "Calculations Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Formulae, Equations & Calculations > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/72fb8f69-f73f-4749-b80c-529cb47145aa",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/72fb8f69-f73f-4749-b80c-529cb47145aa/session/start"
+   }
+  },
+  {
+   "id": "72132b42-fcd8-4e69-a641-6f0654e48478",
+   "type": "courseSection",
+   "title": "Chemical Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/72132b42-fcd8-4e69-a641-6f0654e48478",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/72132b42-fcd8-4e69-a641-6f0654e48478/session/start"
+   }
+  },
+  {
+   "id": "cfc1c780-4fa0-48d2-98f3-d144440668e2",
+   "type": "courseSection",
+   "title": "Chemical Formulae, Equations & Calculations",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/cfc1c780-4fa0-48d2-98f3-d144440668e2",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/cfc1c780-4fa0-48d2-98f3-d144440668e2/session/start"
+   }
+  },
+  {
+   "id": "b7c47d43-fff3-4d46-b8e9-0561465b7392",
+   "type": "courseSection",
+   "title": "Chemical Tests",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b7c47d43-fff3-4d46-b8e9-0561465b7392",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/b7c47d43-fff3-4d46-b8e9-0561465b7392/session/start"
+   }
+  },
+  {
+   "id": "1863a58e-8835-436b-a29a-43deccc0d408",
+   "type": "courseSection",
+   "title": "Chemical Tests &  Analysis Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Tests > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/1863a58e-8835-436b-a29a-43deccc0d408",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/1863a58e-8835-436b-a29a-43deccc0d408/session/start"
+   }
+  },
+  {
+   "id": "cff23c5d-9b43-43f0-83f0-c16d517aa44f",
+   "type": "courseSection",
+   "title": "Energy Changes Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physical Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/cff23c5d-9b43-43f0-83f0-c16d517aa44f",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/cff23c5d-9b43-43f0-83f0-c16d517aa44f/session/start"
+   }
+  },
+  {
+   "id": "c521c088-be8a-4019-adce-4482b80e530b",
+   "type": "courseSection",
+   "title": "Equilibrium Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physical Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c521c088-be8a-4019-adce-4482b80e530b",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/c521c088-be8a-4019-adce-4482b80e530b/session/start"
+   }
+  },
+  {
+   "id": "99ff4889-4bdc-4eb1-8d59-5fb8b309684a",
+   "type": "courseSection",
+   "title": "Organic Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/99ff4889-4bdc-4eb1-8d59-5fb8b309684a",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/99ff4889-4bdc-4eb1-8d59-5fb8b309684a/session/start"
+   }
+  },
+  {
+   "id": "b243cc84-dafc-438c-bf42-8215271c1791",
+   "type": "courseSection",
+   "title": "Organic Chemistry Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Organic Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b243cc84-dafc-438c-bf42-8215271c1791",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/b243cc84-dafc-438c-bf42-8215271c1791/session/start"
+   }
+  },
+  {
+   "id": "0e89f5c0-d5ee-4dfd-b6b7-5f5ee271f092",
+   "type": "courseSection",
+   "title": "Physical Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0e89f5c0-d5ee-4dfd-b6b7-5f5ee271f092",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/0e89f5c0-d5ee-4dfd-b6b7-5f5ee271f092/session/start"
+   }
+  },
+  {
+   "id": "c850f2d4-44dc-43a8-ac01-05131625e3f4",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Atomic Structure & The Periodic Table",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c850f2d4-44dc-43a8-ac01-05131625e3f4",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/c850f2d4-44dc-43a8-ac01-05131625e3f4/session/start"
+   }
+  },
+  {
+   "id": "b4099a15-7e77-495a-b3ab-f436978d20f1",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Formulae, Equations & Calculations",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b4099a15-7e77-495a-b3ab-f436978d20f1",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/b4099a15-7e77-495a-b3ab-f436978d20f1/session/start"
+   }
+  },
+  {
+   "id": "b3e67ef1-1b86-4deb-b143-88168635908c",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Bonding",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b3e67ef1-1b86-4deb-b143-88168635908c",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/b3e67ef1-1b86-4deb-b143-88168635908c/session/start"
+   }
+  },
+  {
+   "id": "792cb0ef-bb72-46ed-be6b-21d8907a0069",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > The Atmosphere",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/792cb0ef-bb72-46ed-be6b-21d8907a0069",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/792cb0ef-bb72-46ed-be6b-21d8907a0069/session/start"
+   }
+  },
+  {
+   "id": "9e7d61f3-2ce2-4e8e-a285-8691ea06eeae",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Acids & Alkalis",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/9e7d61f3-2ce2-4e8e-a285-8691ea06eeae",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/9e7d61f3-2ce2-4e8e-a285-8691ea06eeae/session/start"
+   }
+  },
+  {
+   "id": "9c75d077-2986-4176-b56b-f5fc0abf2106",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Chemical Tests",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/9c75d077-2986-4176-b56b-f5fc0abf2106",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/9c75d077-2986-4176-b56b-f5fc0abf2106/session/start"
+   }
+  },
+  {
+   "id": "e3e78206-4f00-4ce4-86d5-86c066a0cc13",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physical Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/e3e78206-4f00-4ce4-86d5-86c066a0cc13",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/e3e78206-4f00-4ce4-86d5-86c066a0cc13/session/start"
+   }
+  },
+  {
+   "id": "f06dd78d-d285-4da0-b1bb-657225d232c0",
+   "type": "courseSection",
+   "title": "Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Organic Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/f06dd78d-d285-4da0-b1bb-657225d232c0",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/f06dd78d-d285-4da0-b1bb-657225d232c0/session/start"
+   }
+  },
+  {
+   "id": "f712a484-a09d-4e95-8a55-7aa79bddf0c7",
+   "type": "courseSection",
+   "title": "Rates of Reaction Premium Knowledge",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n > Physical Chemistry > Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/f712a484-a09d-4e95-8a55-7aa79bddf0c7",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/f712a484-a09d-4e95-8a55-7aa79bddf0c7/session/start"
+   }
+  },
+  {
+   "id": "d01f36e3-2be3-4e35-8831-0ead9aa48105",
+   "type": "courseSection",
+   "title": "The Atmosphere",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:15:18.399Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/d01f36e3-2be3-4e35-8831-0ead9aa48105",
+    "contentUrl": "/classroom/course/4dd916c9-6c3d-45ff-9030-0daad2af7527/section/d01f36e3-2be3-4e35-8831-0ead9aa48105/session/start"
+   }
+  }
+ ],
+ "examQuestions": []
+}

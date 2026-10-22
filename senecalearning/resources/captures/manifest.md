@@ -144,3 +144,12 @@ but kept out of git by policy), JWT (`/tmp`, removed), chunk corpus
 Not committed (local-only): raw probe bodies (`probe-results/s9/`), the XLSX
 binary artifact, JWT (`/tmp`, removed), chunk corpus (`captures/js/`, 1,920
 chunks re-derived to the recursive import closure).
+
+## Session 11 (2026-10-23) — full-content Resource Hub corpus (operator-approved)
+
+| Path | What | Rows/size |
+|---|---|---|
+| `resource-hub-content/by-subject/*.jsonl.gz` (70 files) | full-content corpus: question stems, mark schemes, generation scripts, lesson topic notes, quiz summaries — quiz creator/school PII scrubbed | 207,006 rows, 93 MB gz |
+| `resource-hub-content/by-subject/catalog.csv` | subject → rows/type counts/bytes/sha256 | 70 rows |
+| `resource-hub-content/courses/edexcel-igcse-chemistry/*.json` | per-course layer for the 14-course Edexcel iGCSE Chemistry family (sections + examQuestions per course) | 15 files |
+| `resource-hub-content/README.md` | schema, provenance, PII policy, reproduce steps | — |

@@ -1,0 +1,93 @@
+{
+ "family": "Chemistry: Edexcel iGCSE",
+ "courses": [
+  {
+   "courseId": "9836ed1c-b35e-4c36-9e3f-14aef22ee6de",
+   "title": "Chemistry: Edexcel iGCSE - HyperLearning",
+   "sections": 57,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "title": "Chemistry: Edexcel iGCSE",
+   "sections": 286,
+   "examQuestions": 1430
+  },
+  {
+   "courseId": "ce0bd53d-5588-4b5c-948d-2b8517097cab",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE",
+   "sections": 183,
+   "examQuestions": 15
+  },
+  {
+   "courseId": "1767b92a-5740-4593-9bf6-d8b5dafa22cc",
+   "title": "Chemistry: Edexcel iGCSE - HyperFlashcards",
+   "sections": 71,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "f99d966e-51d8-43aa-b4b3-c9363cd3829e",
+   "title": "Chemistry: Edexcel iGCSE - Predicted Papers",
+   "sections": 42,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "a755f766-2510-47f3-9570-16118aee927b",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE - HyperLearning",
+   "sections": 35,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "73dec96a-6362-41d8-a3e6-a20a72f591f8",
+   "title": "Chemistry: Edexcel iGCSE 4-5 Booster",
+   "sections": 27,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "24c886ee-bdaf-44c7-bffc-735d018f93e5",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE - HyperFlashcards",
+   "sections": 47,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "f960827b-923e-4843-b817-8cea5c4620b8",
+   "title": "Chemistry: Edexcel iGCSE Paper 1 - The Night Before",
+   "sections": 20,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "02dc4b91-0ea2-4fbe-99d0-023cebf96074",
+   "title": "Chemistry: Edexcel iGCSE Paper 2 - Half-Term HyperCram",
+   "sections": 27,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "3716c1c2-ccbf-4987-930a-396953fcb776",
+   "title": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before",
+   "sections": 16,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "4dd916c9-6c3d-45ff-9030-0daad2af7527",
+   "title": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+   "sections": 26,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "8eb9dead-229d-48cf-8621-d248168f2161",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE Paper 1 - The Night Before",
+   "sections": 20,
+   "examQuestions": 0
+  },
+  {
+   "courseId": "18de8a55-f847-447a-8203-768bde746d33",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+   "sections": 15,
+   "examQuestions": 0
+  }
+ ],
+ "subjectQuizzes": {
+  "count": 3382,
+  "note": "subject-tagged (not course-scoped); in Chemistry.jsonl.gz"
+ }
+}

@@ -1,0 +1,2235 @@
+{
+ "courseId": "f99d966e-51d8-43aa-b4b3-c9363cd3829e",
+ "courseTitle": "Chemistry: Edexcel iGCSE - Predicted Papers",
+ "subscriptionTier": "PREMIUM",
+ "sectionCount": 42,
+ "sections": [
+  {
+   "id": "8f0edca6-10df-4478-ad79-73ab5ee054ec",
+   "type": "courseSection",
+   "title": "1st Set of Predicted Papers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/8f0edca6-10df-4478-ad79-73ab5ee054ec",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/8f0edca6-10df-4478-ad79-73ab5ee054ec/session/start"
+   }
+  },
+  {
+   "id": "6ed389c2-547d-4c9a-9b13-d900d2c6863c",
+   "type": "courseSection",
+   "title": "2nd Set of Predicted Papers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/6ed389c2-547d-4c9a-9b13-d900d2c6863c",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/6ed389c2-547d-4c9a-9b13-d900d2c6863c/session/start"
+   }
+  },
+  {
+   "id": "56ba4640-5053-4ce1-8817-9ae93ee49474",
+   "type": "courseSection",
+   "title": "Paper 1",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/56ba4640-5053-4ce1-8817-9ae93ee49474",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/56ba4640-5053-4ce1-8817-9ae93ee49474/session/start"
+   }
+  },
+  {
+   "id": "911e86d6-9d44-4b7a-b8d9-5ca1168052cb",
+   "type": "courseSection",
+   "title": "Paper 1",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/911e86d6-9d44-4b7a-b8d9-5ca1168052cb",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/911e86d6-9d44-4b7a-b8d9-5ca1168052cb/session/start"
+   }
+  },
+  {
+   "id": "c3ce1f35-7a40-4a95-a345-bb08ae7d0167",
+   "type": "courseSection",
+   "title": "Paper 2",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c3ce1f35-7a40-4a95-a345-bb08ae7d0167",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/c3ce1f35-7a40-4a95-a345-bb08ae7d0167/session/start"
+   }
+  },
+  {
+   "id": "126fd1e0-0b5c-4ce7-bb54-52f037a66311",
+   "type": "courseSection",
+   "title": "Paper 2",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/126fd1e0-0b5c-4ce7-bb54-52f037a66311",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/126fd1e0-0b5c-4ce7-bb54-52f037a66311/session/start"
+   }
+  },
+  {
+   "id": "c8a4b8e5-a775-4265-9405-c727170f9cd2",
+   "type": "courseSection",
+   "title": "Q1 - Metals",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c8a4b8e5-a775-4265-9405-c727170f9cd2",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/c8a4b8e5-a775-4265-9405-c727170f9cd2/session/start"
+   }
+  },
+  {
+   "id": "05ea1824-e0f4-47c9-bf16-8be1ce272e17",
+   "type": "courseSection",
+   "title": "Q1 - Moles",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/05ea1824-e0f4-47c9-bf16-8be1ce272e17",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/05ea1824-e0f4-47c9-bf16-8be1ce272e17/session/start"
+   }
+  },
+  {
+   "id": "31225121-53df-4e26-b2ac-3cad17f50b97",
+   "type": "courseSection",
+   "title": "Q1 - Polymers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/31225121-53df-4e26-b2ac-3cad17f50b97",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/31225121-53df-4e26-b2ac-3cad17f50b97/session/start"
+   }
+  },
+  {
+   "id": "303bf37d-4566-4775-892c-e6de44513d16",
+   "type": "courseSection",
+   "title": "Q1 - Polymers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/303bf37d-4566-4775-892c-e6de44513d16",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/303bf37d-4566-4775-892c-e6de44513d16/session/start"
+   }
+  },
+  {
+   "id": "d0eac084-228b-4c81-bae8-414549e7ec86",
+   "type": "courseSection",
+   "title": "Q10 - Ionic Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/d0eac084-228b-4c81-bae8-414549e7ec86",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/d0eac084-228b-4c81-bae8-414549e7ec86/session/start"
+   }
+  },
+  {
+   "id": "3d96c83c-f5ce-4076-997f-cbce9fbc07b7",
+   "type": "courseSection",
+   "title": "Q10 - Ionic Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/3d96c83c-f5ce-4076-997f-cbce9fbc07b7",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/3d96c83c-f5ce-4076-997f-cbce9fbc07b7/session/start"
+   }
+  },
+  {
+   "id": "1c236286-a758-4d90-aa9f-481a31b0017f",
+   "type": "courseSection",
+   "title": "Q11 - Group 7 Elements",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/1c236286-a758-4d90-aa9f-481a31b0017f",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/1c236286-a758-4d90-aa9f-481a31b0017f/session/start"
+   }
+  },
+  {
+   "id": "94085a4b-ce90-4c41-86bb-f0ed3b714de9",
+   "type": "courseSection",
+   "title": "Q11 - Hydrocarbons",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/94085a4b-ce90-4c41-86bb-f0ed3b714de9",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/94085a4b-ce90-4c41-86bb-f0ed3b714de9/session/start"
+   }
+  },
+  {
+   "id": "5af85720-5ff0-4307-8cd6-28d16c25ece9",
+   "type": "courseSection",
+   "title": "Q2 - Atomic Structure",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/5af85720-5ff0-4307-8cd6-28d16c25ece9",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/5af85720-5ff0-4307-8cd6-28d16c25ece9/session/start"
+   }
+  },
+  {
+   "id": "ffcfd52f-0241-4ca4-a17a-4d1ebd71cb15",
+   "type": "courseSection",
+   "title": "Q2 - Covalent & Ionic Compounds",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/ffcfd52f-0241-4ca4-a17a-4d1ebd71cb15",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/ffcfd52f-0241-4ca4-a17a-4d1ebd71cb15/session/start"
+   }
+  },
+  {
+   "id": "7270da7c-4721-49d7-bac1-495c91c7d9b7",
+   "type": "courseSection",
+   "title": "Q2 - Displacement Reactions",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/7270da7c-4721-49d7-bac1-495c91c7d9b7",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/7270da7c-4721-49d7-bac1-495c91c7d9b7/session/start"
+   }
+  },
+  {
+   "id": "66919f7c-495d-4e99-b543-8d7d47733f0a",
+   "type": "courseSection",
+   "title": "Q2 - Reaction Profiles",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/66919f7c-495d-4e99-b543-8d7d47733f0a",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/66919f7c-495d-4e99-b543-8d7d47733f0a/session/start"
+   }
+  },
+  {
+   "id": "20ae6f70-a8dd-4a54-a6bd-a29d443b5b56",
+   "type": "courseSection",
+   "title": "Q3 - Alkali Metals",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/20ae6f70-a8dd-4a54-a6bd-a29d443b5b56",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/20ae6f70-a8dd-4a54-a6bd-a29d443b5b56/session/start"
+   }
+  },
+  {
+   "id": "d282cf6e-4e79-4add-858c-0e2d5aef332d",
+   "type": "courseSection",
+   "title": "Q3 - Chemical Bonds",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/d282cf6e-4e79-4add-858c-0e2d5aef332d",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/d282cf6e-4e79-4add-858c-0e2d5aef332d/session/start"
+   }
+  },
+  {
+   "id": "e270a205-fad1-4e39-94bc-19a2914bc6ce",
+   "type": "courseSection",
+   "title": "Q3 - Paper Chromatography",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/e270a205-fad1-4e39-94bc-19a2914bc6ce",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/e270a205-fad1-4e39-94bc-19a2914bc6ce/session/start"
+   }
+  },
+  {
+   "id": "77852c57-2b59-495c-afd1-b1d061f2cd69",
+   "type": "courseSection",
+   "title": "Q3 - Separation of Mixtures",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/77852c57-2b59-495c-afd1-b1d061f2cd69",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/77852c57-2b59-495c-afd1-b1d061f2cd69/session/start"
+   }
+  },
+  {
+   "id": "c24766c6-17b6-4a2e-9531-9e04649dabec",
+   "type": "courseSection",
+   "title": "Q4 - Electrolysis",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c24766c6-17b6-4a2e-9531-9e04649dabec",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/c24766c6-17b6-4a2e-9531-9e04649dabec/session/start"
+   }
+  },
+  {
+   "id": "c0c848ee-2c51-4cac-a7b9-a7e088acbd77",
+   "type": "courseSection",
+   "title": "Q4 - Fuel Cells",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c0c848ee-2c51-4cac-a7b9-a7e088acbd77",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/c0c848ee-2c51-4cac-a7b9-a7e088acbd77/session/start"
+   }
+  },
+  {
+   "id": "2f47655b-22b8-4023-8c1c-1f53196250b0",
+   "type": "courseSection",
+   "title": "Q4 - Neutralisation & Titrations",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/2f47655b-22b8-4023-8c1c-1f53196250b0",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/2f47655b-22b8-4023-8c1c-1f53196250b0/session/start"
+   }
+  },
+  {
+   "id": "691de9de-d0c9-4512-b6f9-8bf4444e89c5",
+   "type": "courseSection",
+   "title": "Q4 - Reactions of Metals",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/691de9de-d0c9-4512-b6f9-8bf4444e89c5",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/691de9de-d0c9-4512-b6f9-8bf4444e89c5/session/start"
+   }
+  },
+  {
+   "id": "6bcfa736-e32d-450d-be22-3ca832f3939f",
+   "type": "courseSection",
+   "title": "Q5 - Alkene Reactions",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/6bcfa736-e32d-450d-be22-3ca832f3939f",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/6bcfa736-e32d-450d-be22-3ca832f3939f/session/start"
+   }
+  },
+  {
+   "id": "8df53276-5ddc-4123-9d7d-cb200f1e8543",
+   "type": "courseSection",
+   "title": "Q5 - Allotropes of Carbon",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/8df53276-5ddc-4123-9d7d-cb200f1e8543",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/8df53276-5ddc-4123-9d7d-cb200f1e8543/session/start"
+   }
+  },
+  {
+   "id": "11dae160-19ed-412c-878c-609c909d4e3d",
+   "type": "courseSection",
+   "title": "Q5 - Reaction Profiles",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/11dae160-19ed-412c-878c-609c909d4e3d",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/11dae160-19ed-412c-878c-609c909d4e3d/session/start"
+   }
+  },
+  {
+   "id": "83b3764c-17d3-49bf-8979-d1c8a1cd037d",
+   "type": "courseSection",
+   "title": "Q5 - Reactions of Acids with Metals",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/83b3764c-17d3-49bf-8979-d1c8a1cd037d",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/83b3764c-17d3-49bf-8979-d1c8a1cd037d/session/start"
+   }
+  },
+  {
+   "id": "42da3e66-dc61-4b42-8d49-4e99c1fa0b89",
+   "type": "courseSection",
+   "title": "Q6 - Allotropes of Carbon",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/42da3e66-dc61-4b42-8d49-4e99c1fa0b89",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/42da3e66-dc61-4b42-8d49-4e99c1fa0b89/session/start"
+   }
+  },
+  {
+   "id": "6c12408d-e55b-4369-8a2f-2d75295899b9",
+   "type": "courseSection",
+   "title": "Q6 - Organic Compounds",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/6c12408d-e55b-4369-8a2f-2d75295899b9",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/6c12408d-e55b-4369-8a2f-2d75295899b9/session/start"
+   }
+  },
+  {
+   "id": "071a84a0-0932-4b45-8917-2a0d023ff49c",
+   "type": "courseSection",
+   "title": "Q6 - Purity",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/071a84a0-0932-4b45-8917-2a0d023ff49c",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/071a84a0-0932-4b45-8917-2a0d023ff49c/session/start"
+   }
+  },
+  {
+   "id": "f356eab4-b6aa-41da-a60f-fad9e0be58b4",
+   "type": "courseSection",
+   "title": "Q6 - Reactions of Organic Compounds",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/f356eab4-b6aa-41da-a60f-fad9e0be58b4",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/f356eab4-b6aa-41da-a60f-fad9e0be58b4/session/start"
+   }
+  },
+  {
+   "id": "f08a7abb-8f88-40d9-b2ee-12806e8cee8a",
+   "type": "courseSection",
+   "title": "Q7 - Identification of Gases & Ions",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/f08a7abb-8f88-40d9-b2ee-12806e8cee8a",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/f08a7abb-8f88-40d9-b2ee-12806e8cee8a/session/start"
+   }
+  },
+  {
+   "id": "3f7a11bf-5aca-451b-842f-c647a3f32bd9",
+   "type": "courseSection",
+   "title": "Q7 - Moles",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/3f7a11bf-5aca-451b-842f-c647a3f32bd9",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/3f7a11bf-5aca-451b-842f-c647a3f32bd9/session/start"
+   }
+  },
+  {
+   "id": "b9a5482b-f178-49aa-ad64-0bead6195bf3",
+   "type": "courseSection",
+   "title": "Q7 - Rates of Reaction",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/b9a5482b-f178-49aa-ad64-0bead6195bf3",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/b9a5482b-f178-49aa-ad64-0bead6195bf3/session/start"
+   }
+  },
+  {
+   "id": "35433852-e79c-4abc-95c2-789460fc1801",
+   "type": "courseSection",
+   "title": "Q8 - Atomic Model & Isotopes",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/35433852-e79c-4abc-95c2-789460fc1801",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/35433852-e79c-4abc-95c2-789460fc1801/session/start"
+   }
+  },
+  {
+   "id": "f691de00-033a-4f02-afce-7a252ff7c6b3",
+   "type": "courseSection",
+   "title": "Q8 - Fractional Distillation",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/f691de00-033a-4f02-afce-7a252ff7c6b3",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/f691de00-033a-4f02-afce-7a252ff7c6b3/session/start"
+   }
+  },
+  {
+   "id": "2247db40-1db2-464f-b43f-657827c3a57c",
+   "type": "courseSection",
+   "title": "Q8 - Groups of the Periodic Table",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 2",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/2247db40-1db2-464f-b43f-657827c3a57c",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/2247db40-1db2-464f-b43f-657827c3a57c/session/start"
+   }
+  },
+  {
+   "id": "0dba7283-5d69-45a9-bff2-67d355ccb52d",
+   "type": "courseSection",
+   "title": "Q9 - Fractional Distillation",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 1st Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0dba7283-5d69-45a9-bff2-67d355ccb52d",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/0dba7283-5d69-45a9-bff2-67d355ccb52d/session/start"
+   }
+  },
+  {
+   "id": "0635588f-9322-45bb-982d-fc4ad32887a3",
+   "type": "courseSection",
+   "title": "Q9 - Redox Reactions",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:11:49.001Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE - Predicted Papers > 2nd Set of Predicted Papers > Paper 1",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0635588f-9322-45bb-982d-fc4ad32887a3",
+    "contentUrl": "/classroom/course/f99d966e-51d8-43aa-b4b3-c9363cd3829e/section/0635588f-9322-45bb-982d-fc4ad32887a3/session/start"
+   }
+  }
+ ],
+ "examQuestions": []
+}

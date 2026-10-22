@@ -1,0 +1,857 @@
+{
+ "courseId": "3716c1c2-ccbf-4987-930a-396953fcb776",
+ "courseTitle": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before",
+ "subscriptionTier": "PREMIUM",
+ "sectionCount": 16,
+ "sections": [
+  {
+   "id": "1211e408-0730-4065-a8f8-0a06c40f0692",
+   "type": "courseSection",
+   "title": "Alkanes & Alkenes Hardest Questions",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Organic Chemistry",
+    "topicNotes": "Alkanes and Alkenes Alkanes and alkenes are hydrocarbons extracted from crude oil through fractional distillation. Structure In alkanes, carbon atoms bond to four other atoms (hydrogen or carbon) by single bonds and are saturated. The general formula for alkanes is CnH(2n+2). Alkenes are unsaturated hydrocarbons because they contain a double bond between two of their carbon atoms (C=C). They have the general formula CnH2n. Uses Alkanes are quite unreactive but can burn well, making them useful fuels. Alkenes can be used to make plastics (polymers) and can undergo addition reactions to make new compounds. Reactions Alkanes undergo complete combustion when there is sufficient oxygen to produce carbon dioxide and water. If there is insufficient oxygen toxic carbon monoxide is produced. Alkenes can react with hydrogen to produce alkanes, steam (water) to produce alcohols, halogens to produce halogenoalkanes, and oxygen to burn in combustion.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/7.1.1%20Crude%20oil/(s)%207.1.1.1%20-%20Four%20smallest%20alkanes.jpg",
+    "previewUrl": "/resource-discover/preview/resource/1211e408-0730-4065-a8f8-0a06c40f0692",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/1211e408-0730-4065-a8f8-0a06c40f0692/session/start"
+   }
+  },
+  {
+   "id": "99270973-a6e4-4e80-b590-55b7f238c869",
+   "type": "courseSection",
+   "title": "Bonding & Properties HyperFlashcards",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Principles of Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/99270973-a6e4-4e80-b590-55b7f238c869",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/99270973-a6e4-4e80-b590-55b7f238c869/session/start"
+   }
+  },
+  {
+   "id": "a67ee513-50d6-443d-b904-f78694992cc9",
+   "type": "courseSection",
+   "title": "Endothermic & Exothermic Reactions HyperCram",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Physical Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/a67ee513-50d6-443d-b904-f78694992cc9",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/a67ee513-50d6-443d-b904-f78694992cc9/session/start"
+   }
+  },
+  {
+   "id": "d03348b9-0360-427a-81e4-4d05a43b6548",
+   "type": "courseSection",
+   "title": "Groups in the Periodic Table HyperCram",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Inorganic Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/d03348b9-0360-427a-81e4-4d05a43b6548",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/d03348b9-0360-427a-81e4-4d05a43b6548/session/start"
+   }
+  },
+  {
+   "id": "853c173c-e155-4ce9-9921-746ae9d4c7bd",
+   "type": "courseSection",
+   "title": "Inorganic Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/853c173c-e155-4ce9-9921-746ae9d4c7bd",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/853c173c-e155-4ce9-9921-746ae9d4c7bd/session/start"
+   }
+  },
+  {
+   "id": "635b1cc2-6fcf-4408-9a1e-937ea5399f4d",
+   "type": "courseSection",
+   "title": "Inorganic Chemistry 1-2 Markers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Inorganic Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/635b1cc2-6fcf-4408-9a1e-937ea5399f4d",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/635b1cc2-6fcf-4408-9a1e-937ea5399f4d/session/start"
+   }
+  },
+  {
+   "id": "c83ed19a-d6ba-45d6-9c7a-f288616fb14c",
+   "type": "courseSection",
+   "title": "Moles 2-3 Markers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Principles of Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/c83ed19a-d6ba-45d6-9c7a-f288616fb14c",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/c83ed19a-d6ba-45d6-9c7a-f288616fb14c/session/start"
+   }
+  },
+  {
+   "id": "0981a8b9-8046-4ee8-b292-3020f51e7602",
+   "type": "courseSection",
+   "title": "Organic Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/0981a8b9-8046-4ee8-b292-3020f51e7602",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/0981a8b9-8046-4ee8-b292-3020f51e7602/session/start"
+   }
+  },
+  {
+   "id": "41669887-6f60-4712-baf0-29aea9145dd8",
+   "type": "courseSection",
+   "title": "Organic Chemistry 1-2 Markers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Organic Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/41669887-6f60-4712-baf0-29aea9145dd8",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/41669887-6f60-4712-baf0-29aea9145dd8/session/start"
+   }
+  },
+  {
+   "id": "9ab31c35-399d-4ad3-8b73-b0b676b3d23b",
+   "type": "courseSection",
+   "title": "Physical Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/9ab31c35-399d-4ad3-8b73-b0b676b3d23b",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/9ab31c35-399d-4ad3-8b73-b0b676b3d23b/session/start"
+   }
+  },
+  {
+   "id": "4eaff24f-3ad5-49ee-9238-23061411f65c",
+   "type": "courseSection",
+   "title": "Principles of Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/4eaff24f-3ad5-49ee-9238-23061411f65c",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/4eaff24f-3ad5-49ee-9238-23061411f65c/session/start"
+   }
+  },
+  {
+   "id": "6301672b-eb01-46e4-84e4-8c5259828d88",
+   "type": "courseSection",
+   "title": "Rates of Reactions & Reaction Profiles 1-2 Markers",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > Speed Sections > Physical Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/6301672b-eb01-46e4-84e4-8c5259828d88",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/6301672b-eb01-46e4-84e4-8c5259828d88/session/start"
+   }
+  },
+  {
+   "id": "70f2e3d0-13fc-462d-812b-fe9888a48431",
+   "type": "courseSection",
+   "title": "Speed Sections",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/70f2e3d0-13fc-462d-812b-fe9888a48431",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/70f2e3d0-13fc-462d-812b-fe9888a48431/session/start"
+   }
+  },
+  {
+   "id": "05db3a08-d048-47ae-abc5-e8237fcd4ff8",
+   "type": "courseSection",
+   "title": "The Flamingo Guide to Reducing Exam Stress",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > The Stress Buster > You've Got This!",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/05db3a08-d048-47ae-abc5-e8237fcd4ff8",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/05db3a08-d048-47ae-abc5-e8237fcd4ff8/session/start"
+   }
+  },
+  {
+   "id": "600dd093-ed5a-4f7f-847c-56acbfd35f1a",
+   "type": "courseSection",
+   "title": "The Stress Buster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/600dd093-ed5a-4f7f-847c-56acbfd35f1a",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/600dd093-ed5a-4f7f-847c-56acbfd35f1a/session/start"
+   }
+  },
+  {
+   "id": "5d47e69c-a2dc-43b9-a862-9720e85bbea9",
+   "type": "courseSection",
+   "title": "You've Got This!",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:05:00.833Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before > The Stress Buster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/5d47e69c-a2dc-43b9-a862-9720e85bbea9",
+    "contentUrl": "/classroom/course/3716c1c2-ccbf-4987-930a-396953fcb776/section/5d47e69c-a2dc-43b9-a862-9720e85bbea9/session/start"
+   }
+  }
+ ],
+ "examQuestions": []
+}

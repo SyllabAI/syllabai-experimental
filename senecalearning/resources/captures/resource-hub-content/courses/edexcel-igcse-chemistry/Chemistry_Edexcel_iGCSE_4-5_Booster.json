@@ -1,0 +1,1440 @@
+{
+ "courseId": "73dec96a-6362-41d8-a3e6-a20a72f591f8",
+ "courseTitle": "Chemistry: Edexcel iGCSE 4-5 Booster",
+ "subscriptionTier": "PREMIUM",
+ "sectionCount": 27,
+ "sections": [
+  {
+   "id": "bc1c1a82-4334-4ce7-b697-c624eeea710f",
+   "type": "courseSection",
+   "title": "Acids & Alkalis",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/bc1c1a82-4334-4ce7-b697-c624eeea710f",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/bc1c1a82-4334-4ce7-b697-c624eeea710f/session/start"
+   }
+  },
+  {
+   "id": "772173fd-b785-42be-a898-a7f4caadd894",
+   "type": "courseSection",
+   "title": "Acids, Alkalis & Titrations",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Acids & Alkalis",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/772173fd-b785-42be-a898-a7f4caadd894",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/772173fd-b785-42be-a898-a7f4caadd894/session/start"
+   }
+  },
+  {
+   "id": "7bb13857-9918-4ea1-9f30-ee739a071392",
+   "type": "courseSection",
+   "title": "Alloys 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Metal Extraction > Metal Extraction",
+    "topicNotes": "Alloys vs Metals An alloy is a mixture of 2+ elements, where at least 1 is a metal. Metals Metals are made of giant structures of regularly arranged atoms. The structure is a regular lattice of positive ions (cations) in a ‘sea’ of delocalised electrons. The layers of atoms are able to slide over one another in pure metals. This makes metals soft compared to alloys. Alloys The different elements in alloys have different sized ions. The mixture of elements in alloys makes it harder for the layers to slide over each other when a force is applied to the alloy. This makes alloys stronger than a pure metal, and so alloys are often used in construction. Metal Alloys An alloy is a metal that is mixed with other elements. By adding these other elements, we can change a metal's properties. Most metals that we use in day-to-day life are alloys. Bronze Bronze is an alloy of copper and tin. Adding tin increases the hardness of the material. Uses include making coins, electrical hardware and statues. Brass Brass is an alloy of copper and zinc. Adding zinc makes the material more malleable (easy to bend). Uses include hinges, locks, plumbing and plug sockets. Gold The softness of pure gold means that jewellers will often add metals such as silver, copper and zinc to produce a more resilient substance. Carats provide a measure for the purity of a gold alloy: 24 carats = 100% gold So, 12 carats = 50% gold Steel Steels are alloys of iron that contain carbon as well as other metals. High carbon steels are strong but brittle. Uses include making cutting tools and blades. Low carbon steels are soft but malleable. Uses include making car bodies. Stainless steels (steels containing chromium and nickel) are strong and resistant to corrosion. Uses include cooking utensils and cutlery. Aluminium A key feature of aluminium alloys is their low density, which makes them suitable for use in manufacturing planes. Other uses include armour plating for military vehicles.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/2.1.1%20-%20Types%20of%20bonding/2.1.5.1%20-%20Metallic%20bonding-min.jpg",
+    "previewUrl": "/resource-discover/preview/resource/7bb13857-9918-4ea1-9f30-ee739a071392",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/7bb13857-9918-4ea1-9f30-ee739a071392/session/start"
+   }
+  },
+  {
+   "id": "8df1bed6-e328-4d17-8646-2419fbbf41dd",
+   "type": "courseSection",
+   "title": "Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/8df1bed6-e328-4d17-8646-2419fbbf41dd",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/8df1bed6-e328-4d17-8646-2419fbbf41dd/session/start"
+   }
+  },
+  {
+   "id": "9332eb02-78d2-44da-96e9-007f4df04a84",
+   "type": "courseSection",
+   "title": "Chemical Tests",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/9332eb02-78d2-44da-96e9-007f4df04a84",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/9332eb02-78d2-44da-96e9-007f4df04a84/session/start"
+   }
+  },
+  {
+   "id": "33f1a778-5af9-400f-a3d4-0117a6515465",
+   "type": "courseSection",
+   "title": "Elements, Compounds & Mixtures",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/33f1a778-5af9-400f-a3d4-0117a6515465",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/33f1a778-5af9-400f-a3d4-0117a6515465/session/start"
+   }
+  },
+  {
+   "id": "749d25d3-0b6a-40bb-86fe-a7b7d3707323",
+   "type": "courseSection",
+   "title": "Elements, Mixtures & Compounds",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Elements, Compounds & Mixtures",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/749d25d3-0b6a-40bb-86fe-a7b7d3707323",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/749d25d3-0b6a-40bb-86fe-a7b7d3707323/session/start"
+   }
+  },
+  {
+   "id": "47e9f2a3-cc00-4b80-b687-20c3613bcf18",
+   "type": "courseSection",
+   "title": "Endothermic & Exothermic Reactions 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Physical Chemistry > Energetics",
+    "topicNotes": "Exothermic vs Endothermic Reactions The terminology of exothermic and endothermic reactions can confuse people. Don't be one of them! Exothermic reactions Energy from the reacting chemicals is transferred to the surroundings, which often increase in temperature as a result. Examples include: Combustion. Neutralisation. Oxidation. Reaction profile Reaction profiles show the progress of reaction on the x axis and energy level on the y axis. Exothermic reaction profile The energy of the products is lower than the energy of the reactants. This means that energy is given out in the reaction. If energy is given out in the reaction, the reaction is exothermic. Endothermic reactions Energy from the surroundings is transferred to the reacting chemicals, causing the temperature of the surroundings to decrease. Examples include: Thermal decomposition. The reaction between citric acid and sodium hydrogen carbonate (sodium bicarbonate). Endothermic reaction profile The energy of the products is higher than the energy of the reactants. This means that energy is taken in in the reaction. If energy is taken in in the reaction, the reaction is endothermic.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/5.1.1-Exothermic%20and%20endothermic%20reactions/fire-2407674_640-min.jpg",
+    "previewUrl": "/resource-discover/preview/resource/47e9f2a3-cc00-4b80-b687-20c3613bcf18",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/47e9f2a3-cc00-4b80-b687-20c3613bcf18/session/start"
+   }
+  },
+  {
+   "id": "1abfc620-3079-41c6-8159-5a4b4dc05c5e",
+   "type": "courseSection",
+   "title": "Energetics",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Physical Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/1abfc620-3079-41c6-8159-5a4b4dc05c5e",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/1abfc620-3079-41c6-8159-5a4b4dc05c5e/session/start"
+   }
+  },
+  {
+   "id": "a57c698f-59aa-4165-87db-5a32c3ca300d",
+   "type": "courseSection",
+   "title": "Factors Affecting Reaction Rate 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Physical Chemistry > Rates of Reaction",
+    "topicNotes": "Collision Theory Collision theory explains how reactions occur and why they occur at different rates. Particle collisions Particles must collide for chemical reactions to happen. Importantly, these collisions must happen with enough energy. This minimum amount of energy is known as the activation energy. Activation energy The activation energy is the minimum energy with which particles must collide in order to cause a chemical reaction. Rate of reaction We can increase the rate of a reaction by increasing the frequency (number) of collisions and/or the energy of reactant particles. This can be achieved by changing lots of different factors.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/6.1.1%20Calculating%20rates%20of%20reactions/611_colision.jpg",
+    "previewUrl": "/resource-discover/preview/resource/a57c698f-59aa-4165-87db-5a32c3ca300d",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/a57c698f-59aa-4165-87db-5a32c3ca300d/session/start"
+   }
+  },
+  {
+   "id": "fd2c86bf-e2da-43fc-b4cc-6f7e47523a0c",
+   "type": "courseSection",
+   "title": "Ionic, Covalent & Metallic Bonding",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Bonding",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/fd2c86bf-e2da-43fc-b4cc-6f7e47523a0c",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/fd2c86bf-e2da-43fc-b4cc-6f7e47523a0c/session/start"
+   }
+  },
+  {
+   "id": "32e21cc4-e83b-41b2-a983-7e512a742888",
+   "type": "courseSection",
+   "title": "Ionic, Covalent & Metallic Bonding 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Bonding > Ionic, Covalent & Metallic Bonding",
+    "topicNotes": "Chemical Bonds Atoms can chemically bond (join together) in 3 ways: ionic bonding, covalent bonding or metallic bonding. Ionic bonding Ionic bonding involves an attraction between oppositely charged ions (a positive ion and a negative ion). Ionic bonds are found in compounds made of metals and non-metals. Ionic bonding cont. When atoms form ions, they try to fill up or empty their outer electron shell. In ionic bonding, a metal atom transfers electrons to a non-metal atom, allowing both of them (the metal and non-metal) to have a full outer electron shell. Covalent bonds Covalent bonds are formed when 2 non-metal atoms share pairs of electrons. Covalent bonds are strong because the shared electrons are attracted to the nucleus of both atoms. Metallic bonds Metallic bonds are the electrostatic attractions between positive ions and negative delocalised electrons. Metals are made of giant structures of regularly arranged atoms. The structure is a regular lattice of positive ions (cations) in a ‘sea’ of delocalised electrons. Delocalised electrons Delocalised electrons are not bound to an atom and are free to move around within the lattice. Delocalisation happens because metal atoms have a small number of electrons in their outer shells.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/2.1.1%20-%20Types%20of%20bonding/ionic%20bonding%20(2)-min.jpg",
+    "previewUrl": "/resource-discover/preview/resource/32e21cc4-e83b-41b2-a983-7e512a742888",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/32e21cc4-e83b-41b2-a983-7e512a742888/session/start"
+   }
+  },
+  {
+   "id": "7158fe8e-c7d4-4817-9f6a-dc6c8ebf5256",
+   "type": "courseSection",
+   "title": "Mathematical Skills",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/7158fe8e-c7d4-4817-9f6a-dc6c8ebf5256",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/7158fe8e-c7d4-4817-9f6a-dc6c8ebf5256/session/start"
+   }
+  },
+  {
+   "id": "1adb426d-df89-44d1-9281-ad7903e1117c",
+   "type": "courseSection",
+   "title": "Maths for Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Mathematical Skills",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/1adb426d-df89-44d1-9281-ad7903e1117c",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/1adb426d-df89-44d1-9281-ad7903e1117c/session/start"
+   }
+  },
+  {
+   "id": "e772b206-91c8-41e2-93c1-6705a83e7b7c",
+   "type": "courseSection",
+   "title": "Metal Extraction",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/e772b206-91c8-41e2-93c1-6705a83e7b7c",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/e772b206-91c8-41e2-93c1-6705a83e7b7c/session/start"
+   }
+  },
+  {
+   "id": "e1aca72e-bb06-4435-a3c7-3f8ffa225573",
+   "type": "courseSection",
+   "title": "Metal Extraction",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Metal Extraction",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/e1aca72e-bb06-4435-a3c7-3f8ffa225573",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/e1aca72e-bb06-4435-a3c7-3f8ffa225573/session/start"
+   }
+  },
+  {
+   "id": "d29aa3b1-7a56-4f12-9166-f75e4e82474d",
+   "type": "courseSection",
+   "title": "Paper Chromatography 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Elements, Compounds & Mixtures > Elements, Mixtures & Compounds",
+    "topicNotes": "Chromatography Chromatography is a process that separates a mixture into its different components. The 2 phases in chromatography Substances are picked up and carried by a mobile phase (liquid or gas). The mobile phase then moves through a stationary phase (solid or viscous liquid). Separation of substances This depends on the distribution of a substance across the 2 phases: A substance moves far if it's more attracted to the mobile phase. A substance doesn't move far if it's more attracted to the stationary phase. Strength of attraction Different components can sometimes be equally attracted to a solvent. So, the number of spots a mixture produces can vary depending on the solvent used. Chromatography required practical This practical investigates the use of paper chromatography in separating mixtures. The process is as follows: Required practical cont. Use a pencil to draw a horizontal line near the bottom of the chromatography paper. Place samples of known food colourings (A-D) next to an unknown substance (X) on this ‘start line’. Required practical cont. Place the paper in a beaker containing a small volume of solvent. Let the solvent move to a few cm below the end of the paper. By comparing spots produced by X with those produced by A-D, you will be able to identify the unknown substance.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/8.1.1%20Purity%2C%20formulations%20and%20chromatography/png-2757379_640.png",
+    "previewUrl": "/resource-discover/preview/resource/d29aa3b1-7a56-4f12-9166-f75e4e82474d",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/d29aa3b1-7a56-4f12-9166-f75e4e82474d/session/start"
+   }
+  },
+  {
+   "id": "190871c7-aa22-44e8-bd18-d109bc47fa94",
+   "type": "courseSection",
+   "title": "Physical Chemistry",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/190871c7-aa22-44e8-bd18-d109bc47fa94",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/190871c7-aa22-44e8-bd18-d109bc47fa94/session/start"
+   }
+  },
+  {
+   "id": "b3eff19c-1475-4581-8607-0ccd105bf284",
+   "type": "courseSection",
+   "title": "Purity & Separating Mixtures 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Elements, Compounds & Mixtures > Elements, Mixtures & Compounds",
+    "topicNotes": "Mixtures Mixtures are made of 2 or more substances (elements or compounds) that are not chemically combined. We can separate mixtures and compounds into the elements or compounds that are found in them. Physical processes Physical processes are used to separate mixtures. Physical processes don't create new chemical substances because there are no chemical reactions involved. Filtration Filtration is a physical process which separates mixtures of insoluble (can't dissolve) solids and liquids. Filtration is completed by pouring the mixture through filter paper: The insoluble solid is trapped. The liquid runs through the paper and is collected below. Crystallisation Crystallisation separates solutions of dissolved solids (solutes) and liquids (solvents). You often need to the mixture so that the solvent evaporates. Eventually, crystals of the solute (dissolved solids) will form. The solvent (liquid) can be collected by condensing it as it evaporates. Chromatography Chromatography separates solutions with a number of different solutes (solids) in the solvent (liquid). Place a drop of the solution to be separated near the bottom of a piece of chromatography paper. Dip the very bottom of the paper into a suitable solvent. The solvent (liquid) moves up the paper and carries the solutes (solids) in the solution with it. Different solutes (solids) move at different speeds, so they separate on the paper. Distillation Distillation is a special technique used to separate mixtures of liquids. It uses the different boiling points of liquids to separate them. There are 2 types of distillation: Simple distillation Simple distillation separates two liquids with different boiling points. The mixture is heated until the liquid with the lower boiling point starts to boil. The vapour released passes through a condenser, where the gas cools back into a liquid. The liquid with the higher boiling point is left in the flask. Fractional distillation Fractional distillation separates lots of liquids with different boiling points. The mixture is slowly heated until the liquid with the lowest boiling point boils and then condenses. Then we increase temperature slowly to collect (boil then condense) the other fractions.",
+    "imageUrl": "seneca-image-cdn:///2018-08/07eda46c-266c-42fb-a7a8-516d8039d8ae/strong-arm-wrestle.jpg",
+    "previewUrl": "/resource-discover/preview/resource/b3eff19c-1475-4581-8607-0ccd105bf284",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/b3eff19c-1475-4581-8607-0ccd105bf284/session/start"
+   }
+  },
+  {
+   "id": "4685e40d-77bc-45b9-94b4-928d4775542b",
+   "type": "courseSection",
+   "title": "Rates of Reaction",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Physical Chemistry",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/4685e40d-77bc-45b9-94b4-928d4775542b",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/4685e40d-77bc-45b9-94b4-928d4775542b/session/start"
+   }
+  },
+  {
+   "id": "051f162a-ce86-4aa2-8905-0edef3cf8992",
+   "type": "courseSection",
+   "title": "Reactivity Series",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/051f162a-ce86-4aa2-8905-0edef3cf8992",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/051f162a-ce86-4aa2-8905-0edef3cf8992/session/start"
+   }
+  },
+  {
+   "id": "580bb8f7-dcaa-44a6-8e3d-d08349514f16",
+   "type": "courseSection",
+   "title": "Reactivity Series",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Reactivity Series",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/580bb8f7-dcaa-44a6-8e3d-d08349514f16",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/580bb8f7-dcaa-44a6-8e3d-d08349514f16/session/start"
+   }
+  },
+  {
+   "id": "37a23c1d-5fad-446f-a15e-fb95ff2213d8",
+   "type": "courseSection",
+   "title": "Reactivity Tests 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Reactivity Series > Reactivity Series",
+    "topicNotes": "Displacement Reactions A more reactive metal (one that forms positive ions more easily) can displace a less reactive metal from a compound. This is called a displacement reaction. Displacement order A metal can only displace another metal from a compound if it is located above it in the reactivity series. Example Magnesium is more reactive than copper, so magnesium can displace copper from a copper sulfate solution to create magnesium sulfate. Magnesium + copper sulfate → magnesium sulfate + copper Mg(s) + CuSO4(aq) → MgSO4(aq) + Cu(s) Platinum, however, is less reactive than copper and so cannot displace copper from a copper sulfate solution. Order of reactivity The order of reactivity can be seen above.",
+    "imageUrl": "seneca-image-cdn:///courseImages/biology/2.3.2%20-%20The%20heart%20and%20circulatory%20system/shutterstock_555856984-min.jpg",
+    "previewUrl": "/resource-discover/preview/resource/37a23c1d-5fad-446f-a15e-fb95ff2213d8",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/37a23c1d-5fad-446f-a15e-fb95ff2213d8/session/start"
+   }
+  },
+  {
+   "id": "22df480e-f232-43b9-a8e0-37620294c851",
+   "type": "courseSection",
+   "title": "Solubility of Salts 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Acids & Alkalis > Acids, Alkalis & Titrations",
+    "topicNotes": "Soluble Salts Soluble salts are salts which dissolve in water. Making soluble salts Soluble salts can be made by reacting acids with solid, insoluble substances such as pure metals, metal oxides, metal hydroxides, or metal carbonates. E.g. blue copper sulfate Blue copper sulfate crystals are produced by adding black copper oxide to sulfuric acid: CuO(s) + H2SO4(aq) → CuSO4(aq) + H2O(l) Required Practical - Separating Mixtures The aim of this practical is to produce a pure, dry sample of a soluble salt from an insoluble oxide or carbonate. Preparation ­­Use a Bunsen burner to gently warm the acid. Add the insoluble solid (with stirring) until the reaction no longer happens. Filtration Filter the solution to remove the excess insoluble solid. This will leave a solution of the salt dissolved in water. Crystallisation Heat the solution in an evaporating basin above a beaker of water. The 'water bath' ensures gentle heating. Let the solution cool and allow more water to evaporate. As water evaporates, the solution will become more concentrated and the salt will begin to crystallise.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/4.2.1%20-%20Reactions%20of%20metals/White%20salt.jpg",
+    "previewUrl": "/resource-discover/preview/resource/22df480e-f232-43b9-a8e0-37620294c851",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/22df480e-f232-43b9-a8e0-37620294c851/session/start"
+   }
+  },
+  {
+   "id": "0042bfdf-bc65-4e4c-ac77-534be488aa06",
+   "type": "courseSection",
+   "title": "Standard Form 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Mathematical Skills > Maths for Chemistry",
+    "topicNotes": "Converting from Standard Form to Ordinary Numbers Very large and very small numbers can be written in standard form to make them easier to work with. This can be useful for things like the diameter of atoms. Standard form Numbers in standard form have one digit before a decimal point. Numbers in standard form have a &times; 10n element. n is a whole number. A negative value of n makes the number smaller. A positive value of n makes the number bigger. Positive example 5.45 &times; 106 is a number in standard form. The 6 tells us how many times to move the decimal point to the right. Negative example 1 2.65 &times; 10&minus;4 is a number in standard form. The &minus;4 tells us how many times to move the decimal point to the left. Negative example 2 9.04 &times; 10&minus;7 is a number in standard form. The &minus;7 tells us how many times to move the decimal point to the left. Standard Form in Chemistry Standard form is used a lot in Chemistry. It is mainly used to show very small numbers. Size and mass of atoms The radius of an atom is about 0.1 nm. This is the same as 1 &times; 10&minus;10 m. The nucleus of an atom has a radius of approximately 1 &times; 10&minus;14 m. Nano dimensions You need to be able to compare the size of nanoparticles to the size of atoms. Nanoparticles are 1 nm - 100nm long (1&times;10&minus;9 m - 1&times;10&minus;7 m) Fine particles are 100 nm - 2,500nm long (1&times;10&minus;7 m - 2.5&times;10&minus;6 m) Coarse particles are 2,500 nm - 10,000nm long (2.5&times;10&minus;6 m - 1&times;10&minus;5 m)",
+    "imageUrl": "seneca-image-cdn:///2019-05/ed093086-9d2a-42ed-87de-a21ba98385ef/New%20Wave%201.1%20(86).png",
+    "previewUrl": "/resource-discover/preview/resource/0042bfdf-bc65-4e4c-ac77-534be488aa06",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/0042bfdf-bc65-4e4c-ac77-534be488aa06/session/start"
+   }
+  },
+  {
+   "id": "98666d81-8f73-4f19-b965-863a5eb03ef7",
+   "type": "courseSection",
+   "title": "Testing Anions, Cations & Water",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Chemical Tests",
+    "topicNotes": null,
+    "imageUrl": null,
+    "previewUrl": "/resource-discover/preview/resource/98666d81-8f73-4f19-b965-863a5eb03ef7",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/98666d81-8f73-4f19-b965-863a5eb03ef7/session/start"
+   }
+  },
+  {
+   "id": "19113100-e425-4e48-b933-f8cf09bb7633",
+   "type": "courseSection",
+   "title": "Testing Carbonates, Halides & Sulfates 4-5 Booster",
+   "region": "GB",
+   "timeCreated": "2026-07-21T16:04:40.741Z",
+   "publisher": "seneca",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ]
+   },
+   "content": {
+    "description": "Chemistry: Edexcel iGCSE 4-5 Booster > Chemical Tests > Testing Anions, Cations & Water",
+    "topicNotes": "Testing for Carbonates and Halides Carbonates are compounds that contain CO32- ions. Halide ions are ions formed from the halogen (Group 7) elements. They have a &minus;1 charge. Test for carbonates Carbonates react with dilute acids to form a salt, carbon dioxide, and water. E.g. calcium carbonate + hydrochloric acid → calcium chloride + carbon dioxide + water Test for carbonates cont. As carbon dioxide is produced when you react a carbonate with a dilute acid, we can use the standard carbon dioxide test to work out if an unknown substance is a carbonate. To recap, this test involves bubbling the gas through lime water. If the solution turns cloudy, the gas is carbon dioxide. Testing for halides Add dilute nitric acid to an unknown solution. This removes carbonate ions. Carbonate ions need to be removed because they could disrupt test results by forming a precipitate in step 2. Testing for halides cont. Add silver nitrate to the same solution. If halide ions are present, they will form a precipitate with the silver ions:Ag+(aq) + Cl-(aq) → AgCl(s) (silver chloride is white). Ag+(aq) + Br-(aq) → AgBr(s) (silver bromide is cream). Ag+(aq) + I-(aq) → AgI(s) (silver iodide is pale yellow). Testing for Sulfates Sulfates are compounds that contain SO42- ions. There are 2 steps to sulfate testing: Add dilute hydrochloric acid Add dilute hydrochloric acid to an unknown solution. This removes carbonate ions. These could disrupt test results by forming a precipitate with the barium ions added in step 2. Add barium chloride Add barium chloride to the same solution. If sulfates are present, the white precipitate barium sulfate will form:Ba2+(aq) + SO42-(aq) → BaSO4(s) Distinguishing between anions You can use a combination of the tests for carbonates, halides and sulfates to distinguish between them. You could test the same sample three times to find out whether it contains any of carbonates, halides and sulfates.",
+    "imageUrl": "seneca-image-cdn:///courseImages/chemistry/(s)%208.3.3.1%20-%20test%20for%20carbonates%20using%20hydrochloric%20acid.png",
+    "previewUrl": "/resource-discover/preview/resource/19113100-e425-4e48-b933-f8cf09bb7633",
+    "contentUrl": "/classroom/course/73dec96a-6362-41d8-a3e6-a20a72f591f8/section/19113100-e425-4e48-b933-f8cf09bb7633/session/start"
+   }
+  }
+ ],
+ "examQuestions": []
+}
