@@ -107,13 +107,16 @@ assignment-flow endpoint set. Remaining items below.
       cutoff = due+14d, aggregation blocks; see
       research/2026-10-22-assignments-model.md. Resource Hub also
       mapped (below).
-- [x] Resource Hub (session 3, 2026-10-22): `query-resources` ES
+- [x] Resource Hub (sessions 3 + 7, 2026-10-22): `query-resources` ES
       contract, 132-tag taxonomy, 74-subject × type count matrix
-      (207,629 resources), full Chemistry metadata slice (18,305 rows),
-      69-subject samples, Edexcel iGCSE Chemistry section tree
-      (`queryCourses types=["section"]` — course/section enumeration
-      solved without the walled course API); see
-      research/2026-10-22-resource-hub.md + captures/resource-hub/
+      (207,629 resources), Edexcel iGCSE Chemistry section tree
+      (`queryCourses types=["section"]`); **session 7: FULL metadata
+      harvest complete — 206,982 rows / 70 subjects (99.68%; residual =
+      stable aggregation-vs-item-query delta), per-subject JSONL.gz +
+      sha256 catalog, ageGroup sharding for >9,800-row cells,
+      vocabulary = course-scoped REST (not an index type), `pdf` =
+      aggregation-only type**; see research/2026-10-22-resource-hub.md
+      + captures/resource-hub/ (by-subject/)
 - [ ] Parent flows (needs a parent-linked view — open)
 - [~] Premium/entitlements: catalogue `subscriptionTier` FREE/PREMIUM
       split captured (1,789/971); runtime gate placement open

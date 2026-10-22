@@ -157,3 +157,73 @@ local-only-full-payloads/` holds the raw query-resources responses
 the JS bundle corpus: kept for analysis, excluded from git, re-fetchable
 with the scripts in `scripts/` at the repo root of the experiment
 (`resources/scripts/`).
+
+---
+
+## Session 7 addendum (2026-10-22) — full 74-subject harvest + vocabulary/pdf contract
+
+**The catalogue is now complete.** `resources/captures/resource-hub/by-subject/`
+holds one gzipped JSONL per subject — **206,982 rows across 70 subjects**
+(4 matrix subjects are zero-item tag placeholders) — with `catalog.csv`
+(per-subject counts + sha256). Same row schema and IP title rule as the
+session-3 files; those two remain as provenance but are superseded.
+
+### Coverage vs the aggregation matrix — 206,982 / 207,629 (99.68%)
+
+The 658-row delta is **structural, not loss**. Two fully independent
+harvest passes (the second an hour later, caches cleared for the short
+cells) returned byte-identical per-cell item totals while the morning
+`aggregateResourceTypes` doc_counts stay higher. Interpretation: the
+aggregation counts documents the item search filters out — the
+consistent direction (item < agg) and quiz-cell concentration match the
+Magic Quiz lifecycle (user-generated quizzes existing in the index
+bucket but not returned by the plain item query, e.g. region/visibility
+or deleted-but-unmerged docs). For taxonomy work the item-query corpus
+is the authoritative set.
+
+### Sharding at scale (course/section enumeration stays solved)
+
+ES `from+size` caps the window at ~10,000. Four `courseSection` cells
+exceed it (Physics 11,884 · Biology 11,538 · English Literature
+11,142 · Chemistry 9,833). Solution: shard by **ageGroup tag**
+(tagTypeId = the tags' own `parentId` = `3df4913a-5a19-4777-9fdf-
+1c1d74f40491`, cross-confirmed against the live UI's
+`aggregationCategoryIds`) and dedup by resource id — a resource may
+carry several age-group tags. Validation: Chemistry's sharded re-pass
+reproduced the session-3 unsharded full pass exactly (9,833).
+
+### Vocabulary + pdf — the two non-obvious Hub surfaces
+
+- **`vocabulary` is not an index type** (`resourceFilters` 422
+  `invalid field resourceFilters.0.type`). The Hub's Vocabulary tab is
+  **course-scoped**: it asks you to pick a course, then calls
+  `GET course…/api/courses/{courseId}/vocabulary?limit=100` →
+  `{items: [...]}` (empty on the probed Science Double Award course;
+  populated shape still unobserved — needs a course that ships
+  vocabulary). Before the course pick it also fires a `size: 0`
+  aggregation query revealing two more facts:
+- **`pdf` exists as an ES type** in the multi-filter call
+  (`resourceFilters: [{quiz}, {courseSection, must:{subscriptionTiers:
+  [FREE]}}, {examQuestion}, {pdf}]`) but 422s as a standalone filter —
+  aggregation-only. Also observed in the same capture:
+  `aggregationCategoryIds` (subject/ageGroup/board facets) and
+  `trials…/api/recurring-trials/me` (entitlement surface).
+- Picker counts differ from matrix counts (e.g. "Chemistry 14,754
+  resources" vs 18,306): the picker scopes `courseSection` to
+  `subscriptionTiers: [FREE]`.
+
+### Assignment side (same session, housekeeping)
+
+`GET /api/teacher/me/assignments` → `{items: [], count: 0}` — account
+still clean after sessions 3–6. The only open assignment items remain
+**Scheme-of-learning** and per-student analytics, both of which need a
+class with enrolled students (operator-side action, not reachable from
+the tooling).
+
+### Pipeline
+
+`resources/scripts/seneca_resourcehub_full_harvest.py` (resumable,
+≤1 req/s, ageGroup sharding, done-markers) +
+`seneca_build_full_catalog.py` (title rule, shard dedup, per-subject
+gzip + sha256). Page payloads stay in the local-only cache
+(`probe-results/rh3/local-only-full-payloads/`, ~1,100 pages).

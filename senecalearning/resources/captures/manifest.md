@@ -103,3 +103,16 @@ grep), runtime stack-trace captures, and the three controlled-session raw
 emits. Research output: `research/2026-10-22-posterior-formula.md` — the
 in-session mastery update is `y = round(50·min(1,timesStudied/(spacing·3)) +
 50·min(1,averageScore/0.9))`, group-averaged and 3-dp rounded; **not BKT**.
+
+## Phase 2 session 7 additions (2026-10-22, full Resource Hub harvest)
+
+| Path | What | Source |
+|---|---|---|
+| `resource-hub/by-subject/<Subject>.jsonl.gz` (70 files) | FULL per-subject metadata catalogue — 206,982 rows (99.68% of the 207,629 aggregation total; residual = stable agg-vs-item delta, byte-identical across two passes) | `tutor-resources…/api/v2/query-resources`, paginated, ageGroup-sharded >9,800 |
+| `resource-hub/by-subject/catalog.csv` | subject → rows/type counts/bytes/sha256 | derived |
+| `scripts/seneca_resourcehub_full_harvest.py`, `scripts/seneca_build_full_catalog.py`, `scripts/seneca_harvest_patchup.py`, `scripts/seneca_probe_vocabulary*.py` | resumable harvest + catalogue builder + delta verification | — |
+
+Not committed (local-only): raw pages incl. content bodies
+(`probe-results/rh3/local-only-full-payloads/`, ~1,100 files), vocab-tab
+call capture, JWT. Session-3's `chemistry-resources-metadata.jsonl.gz`
++ `all-subjects-sample-metadata.jsonl.gz` superseded by `by-subject/`.

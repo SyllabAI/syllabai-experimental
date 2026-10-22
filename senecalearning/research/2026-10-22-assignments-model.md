@@ -131,3 +131,16 @@ Insights module mirrors.
 The probe assignment used to capture these shapes was deleted via the
 production UI (`DELETE` → 204) in the same session; the account ended
 clean ("0 active · 0 complete").
+
+---
+
+## Session 7 housekeeping (2026-10-22)
+
+- `GET /api/teacher/me/assignments` → `{items: [], count: 0}` — account
+  re-verified clean after sessions 3–6 (no probe assignments remain).
+- Resource Hub full metadata harvest completed same session — see
+  research/2026-10-22-resource-hub.md session-7 addendum. The
+  Hub ⇄ assignment `spec.tasks[]` linkage (session 3) is unchanged.
+- Still open on the assignment side: **Scheme-of-learning** and
+  **per-student assignment analytics** — both require a class with
+  enrolled students; not reachable from tooling alone (operator-side).

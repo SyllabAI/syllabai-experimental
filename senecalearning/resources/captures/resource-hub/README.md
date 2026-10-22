@@ -1,14 +1,51 @@
 # Resource Hub catalogue — categorisation & metadata
 
-**Captured**: 2026-10-22 (Phase 2 session 3) · authenticated teacher
-session via `tutor-resources`/`tags`/`course` services. **Metadata
+**Captured**: 2026-10-22 (Phase 2 session 3; **full harvest session 7**)
+· authenticated teacher session via `tutor-resources`/`tags`/`course`
+services. **Metadata
 only** — every file here is structural/factual (ids, titles, counts,
 tag values, section trees). Question bodies, mark schemes, lesson
 content and generation scripts were observed live but are excluded from
 the repo per `docs/IP-AND-COPYRIGHT-NOTES.md` (kept locally, see
 research note).
 
-## Contents
+## Session 7 (2026-10-22) — FULL 74-subject harvest
+
+`by-subject/` completes the catalogue: **one gzipped JSONL per subject
+(70 subjects with content, 206,982 rows)** covering every
+courseSection / examQuestion / quiz resource, same schema and title
+rule as below. Index:
+
+| File | What |
+|---|---|
+| `by-subject/<Subject>.jsonl.gz` | per-subject full metadata (70 files, 12 MB total) |
+| `by-subject/catalog.csv` | subject → rows / per-type counts / bytes / sha256 |
+| `../../scripts/seneca_resourcehub_full_harvest.py` | resumable harvest engine (≤1 req/s, ageGroup sharding for >9,800-row cells) |
+| `../../scripts/seneca_build_full_catalog.py` | rebuild + title-rule + dedup + sha256 catalogue builder |
+
+Coverage notes (two independent passes agree exactly):
+
+- **206,982 / 207,629 rows (99.68%)** vs the session-3 aggregation
+  matrix. The 658-row delta is a **stable aggregation-vs-item-query
+  difference** (reproducible byte-identical totals on a re-fetch an
+  hour later; concentrated in `quiz` cells) — not pagination loss. The
+  item-query corpus is the definitive harvestable set.
+- 4 matrix subjects are tag placeholders with zero items
+  (Combined Science, DaZ/DaF, Italian, "Subject") — correctly absent.
+- Sharded cells (Biology/Physics/English Literature/Chemistry
+  `courseSection`, 9.8k–11.9k rows) use ageGroup-tag sharding with
+  id-dedup; Chemistry's sharded re-pass exactly reproduced session 3's
+  unsharded pass (9,833 both ways).
+- `vocabulary` is NOT an index type (422); the UI Vocabulary tab is
+  course-scoped: `GET course…/api/courses/{courseId}/vocabulary?limit=100`
+  → `{items: []}` (empty on the probe course). A `pdf` type exists in
+  the aggregation multi-filter call but is rejected standalone (422).
+
+The legacy `chemistry-resources-metadata.jsonl.gz` and
+`all-subjects-sample-metadata.jsonl.gz` are superseded by `by-subject/`
+(retained for session-3 provenance).
+
+## Contents (session 3)
 
 | File | What | Rows/size |
 |---|---|---|

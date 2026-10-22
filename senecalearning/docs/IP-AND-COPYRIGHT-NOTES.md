@@ -151,3 +151,11 @@ fetches). The Phase-1 bundle-corpus policy was extended as follows:
 - The runtime store tap (React fiber walk → redux `subscribe`) is documented
   as a reproduction recipe; no anti-bot circumvention was involved (standard
   web APIs on the operator's own logged-in session).
+
+### Session 7 addendum (2026-10-22)
+
+The title rule was applied to the **full 74-subject harvest**:
+`by-subject/*.jsonl.gz` (206,982 rows) — automated scan shows
+`examQuestion` title violations: **0**. All raw pages with content
+bodies remain local-only (`probe-results/rh3/local-only-full-payloads/`,
+~1,100 files, gitignored path).
