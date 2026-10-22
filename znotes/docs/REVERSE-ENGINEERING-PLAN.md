@@ -34,37 +34,58 @@ authenticated work is metadata-only by the IP rules in
 - [x] Chunk corpus fetched locally for analysis (99 chunks, 5.8 MB) — not
       committed; reproducible via resources/scripts/fetch-app-bundles.sh
 
-### Phase 2 — Authenticated educator walkthrough `[ ]` **BLOCKED on credentials**
+### Phase 2 — Authenticated educator walkthrough `[x]` (2026-10-22)
 
-**Blocker**: `POST /v2/auth/login` returns `401 {"message":"INCORRECT_PASSWORD"}`
-for the supplied teacher credentials (verified through the app's own form
-path and via a direct API probe — not a form/encoding artifact; the email is
-recognised). Needs operator action: verify/reset password or provide the
-Google sign-in route.
+**Resolution of the blocker**: the supplied password includes a **leading
+dash** — `-7WVK4?rkV%y2GH` (15 chars). With it, `POST /v2/auth/login`
+succeeds; account "HNA 011" @ "ABC International School" (teacher),
+teaching Science (CAIE Checkpoint) + Biology (IB DP). All four generators
+were driven live and every static-reconstruction claim verified.
 
-- [ ] Login session capture: token shape (JWT claims), `/v2/auth/refresh`
-      cadence, session storage (cookie vs localStorage)
-- [ ] Educator onboarding: `/register/educator/` flow, verification,
-      school association fields
-- [ ] **Live toolkit walkthrough** (metadata-only): open each of the 4
-      generators from the dashboard, confirm form presets match the static
-      reconstruction, capture chapter-dropdown source
-      (`/v1/chapters/withCards/dashboard` response shape, values redacted)
-- [ ] One free-prompt generation per tool on a throwaway-safe subject
-      (5-prompt free budget): record `POST /api/znotes-educator-ai` request
-      shape (already known) + response status flow (`pending → processing →
-      success`) + latency + `responseId` semantics
-- [ ] Output schemas verified against live payloads: lesson plan
-      (`overview`, `lessonPlan|lessonOptions[]`, starter/main activities,
-      differentiation map, plenary, homework), SOW (`overarchingObjectives`,
-      `lessons[]` with activities/resources/cross-curricular links), rubric
-      (`metadata`, `rubric.criteria[].levels{...}`, moderation guidance),
-      clarify/challenge body format
-- [ ] Quota enforcement observed: `educatorAiUsageCount` decrement, free
-      exhaustion toast, Boost-Plus paywall (`/boost/educator`)
-- [ ] Export machinery verified: PDF/DOCX/CSV/JSON in-browser generation
-- [ ] "Your resources" history panel: list endpoint pagination, response
-      retention, regenerate behaviour
+- [x] Login session confirmed: email+password path works; session
+      preserved locally (never committed)
+- [x] Toolkit panel live: `/content/dashboard` sidebar → "My Teaching
+      Toolkit"; 4 tool cards render exactly as the registry predicted
+- [x] **Wizard step 0 discovered** (static analysis missed it): every
+      tool opens a Subject* → Module* wizard before its form. Subject
+      dropdown = the FULL board/level/subject catalogue (not restricted
+      to taught subjects); Biology (CAIE IGCSE) modules = Theory /
+      Alternative to Practical / Topic Explainer / Past Paper Walkthrough /
+      Model Answers
+- [x] Live quota: "5 out of 5 Free prompts left" → 4 → 3 → 2 → 1 as the
+      four generations were submitted (one per tool; server reconciles
+      the counter on submit response immediately)
+- [x] Async UX verified: "Your resource is being generated … You can
+      continue working" + "Continue working" button; resources appear on
+      the "Your resources" shelf; toasts fire on completion
+- [x] **Lesson plan output verified live**: Overview / Lesson Plan /
+      Assessment / Additional tabs; Overview carries Topic/Subject/
+      Duration/Homework/Teaching Style/Student Ability/Assessment
+      Preference + Learning Objectives = **the verbatim CAIE 0610
+      syllabus outcomes for the chapter** (grounding proven — the
+      objectives are corpus content, not AI-invented); Lesson Plan tab
+      shows timed Starter Activity (7 min) with Materials + Instructions
+- [x] **Rubric output verified live — with a correction**: metadata
+      renders (Assignment Type `lab-report` slug, Assessment Type
+      `summative-assessment`, **Assessor: Teacher**, Purpose, Submission
+      Format) and the performance scale is **computed from
+      marksPerCriterion** — Emerging (2) → Basic (4) → Proficient (6) →
+      Advanced (8) for marks=8. The static bundle labels
+      (exceptional/advancing/basic/emerging) are the *render defaults*,
+      not the server's scale. Observed quirk: "Criteria Assessed: 1"
+      despite 3 criteria selected — server consolidated the requested
+      criteria into fewer rows (data point, not blocking)
+- [x] **SOW output verified live**: Topic/Subject header + "Unit
+      Objectives: 4" count + table (Lesson Number | Duration | Learning
+      Objectives | KEY ACTIVITIES AND RESOURCES) with per-lesson
+      activities incl. Resources lists
+- [x] **Learning Coach output verified live — richer than static
+      analysis showed**: result renders **6 tabs** — Main Argument /
+      Key Concepts / Critical Details / Applications In Practice /
+      Thinking Prompt / Connections — plus Topic/Subject/Audience meta
+- [x] Exports verified live: "Export as PDF / DOCS / CSV / JSON"
+- [x] Regenerate behaviour verified: re-opens the form (does NOT
+      auto-consume a prompt)
 
 ### Phase 3 — Content-model & pedagogy synthesis `[ ]`
 

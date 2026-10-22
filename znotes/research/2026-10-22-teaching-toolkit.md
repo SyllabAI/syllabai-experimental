@@ -274,7 +274,80 @@ full teacher LMS shell, but the AI generators are the only
    and update counters from the response's `userInteraction`.
 6. Exports: PDF/DOCX/CSV/JSON generated in-browser from result objects.
 
-**Not yet verified live** (Phase 2 blocker: credential rejection — see
-README): exact server-side validation limits, generation latency,
-response retention/TTL, and whether `lessonOptions` implies a
-pick-one-among-N UX variant.
+~~Not yet verified live~~ → superseded the same day by §4 (live
+verification): server validation beyond the client mirrors, latency and
+retention remain unprobed, but all four output schemas were confirmed
+against real generations.
+
+---
+
+## 4. LIVE VERIFICATION (Phase 2, same day — teacher account, 1 prompt per tool)
+
+**Root cause of the earlier 401**: the password begins with a **leading
+dash** (`-7WVK4…`, 15 chars) which the "password:"-prefixed transcription
+had absorbed. With it, `POST /v2/auth/login` succeeds (email+password
+path; the account was created via Google and a password was later added —
+both work). Account: teacher, "HNA 011" @ "ABC International School";
+taught subjects on the dashboard: Science (CAIE Checkpoint) + Biology
+(IB DP). All four tools were driven live on Biology (CAIE, IGCSE) /
+Theory / Enzymes.
+
+### 4.1 What the live pass confirmed (as reconstructed)
+
+- Toolkit = dashboard sidebar "My Teaching Toolkit"; the 4 tool cards
+  render with the same titles; modal header shows "**N out of 5 Free
+  prompts left**" with a Boost CTA.
+- Quota decrements server-side on submit (5→4→3→2→1 across the four
+  generations; one per tool — 1 free prompt remains).
+- Async UX verbatim: "Your resource is being generated / You can continue
+  working — we'll notify you when it's ready or you can open it later
+  from Your Resources." + "Continue working" button; completed resources
+  land on the shelf as cards; toast notifications fire.
+- Form controls match §2 exactly: Topic = chapter dropdown (21 CAIE IGCSE
+  Biology chapters); lesson-plan validation strings ("cannot exceed 5",
+  "minimum 30 minutes") render as placeholders; rubric criteria
+  multi-select lists all 16 presets; marks preset list is exactly
+  4/5/8/10/12/20/25; clarify/challenge + 5 audiences; radio input-method
+  (text vs notes) with the "Paste or type…" placeholder.
+- Exports: "Export as PDF / DOCS / CSV / JSON" in the result footer.
+- Regenerate: re-opens the generator form (no prompt consumed until
+  resubmit).
+
+### 4.2 Corrections & additions vs the static reconstruction
+
+1. **Wizard step 0** (missed statically): before any tool form, a
+   **Subject\* → Module\*** wizard step with Back/Next. The subject list
+   is the **full board/level/subject catalogue** (not limited to the
+   teacher's taught subjects). Modules observed for Biology (CAIE IGCSE):
+   Theory, Alternative to Practical, Topic Explainer, Past Paper
+   Walkthrough, Model Answers — i.e. the platform's "module" layer is a
+   content-lane taxonomy, not a chapter group.
+2. **Rubric scale is computed, not fixed**: `marksPerCriterion=8`
+   produced **Emerging (2) → Basic (4) → Proficient (6) → Advanced (8)**
+   — marks are derived per level from the requested per-criterion marks.
+   The bundle's exceptional/advancing/basic/emerging strings are render
+   defaults. Also: metadata renders `assessor: Teacher` and slugified
+   `assignmentType`/`assessmentType` (`lab-report`,
+   `summative-assessment`).
+3. **Learning Coach output is a 6-tab document**, not a flat body:
+   Main Argument / Key Concepts / Critical Details / Applications In
+   Practice / Thinking Prompt / Connections (+ Topic/Subject/Audience
+   meta header). The static analysis only showed the meta shell.
+4. **Lesson plan tabs**: result renders Overview / Lesson Plan /
+   Assessment / Additional; Overview includes the auto-attached
+   objectives; **grounding proven** — objectives were the verbatim
+   CAIE 0610 syllabus outcomes for Enzymes (corpus content, exactly the
+   `chapter.outcomes → learningObjectives` pipeline from §1.3).
+5. Observed quirk: rubric metadata said "Criteria Assessed: 1" although 3
+   criteria were selected — the server consolidated the request into a
+   single row for the table render (worth re-testing when prompts are
+   available; not load-bearing).
+
+### 4.3 Live state after the walkthrough
+
+- Free quota: **1 of 5 prompts remaining** on this account (4 used, one
+  per tool). Boost upsell paths (`/boost/educator`, modal "Boost ZNotes 🔥"
+  button) sit at every exhaustion edge.
+- Session state saved locally for future phases (never committed).
+- No generated content bodies are committed (IP notes rule); live
+  captures are structural descriptions only.

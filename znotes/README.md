@@ -1,13 +1,11 @@
 # znotes — reverse engineering of ZNotes (znotes.org)
 
-**Status**: Phase 1 complete (2026-10-22) — identification, public surface,
-tech stack, API surface, **full static reconstruction of the educator
-"My Teaching Toolkit" (all 4 AI resource generators)**: form schemas,
-payload contracts, quota model, async polling protocol, export machinery.
-**Phase 2 (authenticated walkthrough) is BLOCKED**: the supplied teacher
-credentials are rejected by the API (`POST /v2/auth/login → 401
-INCORRECT_PASSWORD`, verified twice via the app's own client path and once
-via direct API probe — the email is recognised, the password is not).
+**Status**: Phase 1 + Phase 2 complete (2026-10-22). Phase 1 reconstructed
+the educator "My Teaching Toolkit" statically from public bundles; Phase 2
+verified everything **live** in the teacher account — all 4 generators
+driven end-to-end (1 free prompt each, 1 of 5 left), outputs inspected,
+exports confirmed, and three corrections/additions recorded (wizard
+Subject→Module step, computed rubric scale, 6-tab Learning Coach output).
 **Target**: https://znotes.org (marketing + SPA) · `api.znotes.org` (API).
 
 ## Why this experiment
@@ -69,10 +67,29 @@ export surface directly informs SyllabAI's teacher-tool contracts.
   (`/api/knowledge/query`, `/api/newbot/query`, `/chat-history`) also
   catalogued — separate from the toolkit.
 
-## Blocker (Phase 2)
+## Blocker (resolved)
 
-Teacher-account walkthrough of the live toolkit needs correct credentials.
-`hussainna011@gmail.com` is accepted by the login API but the supplied
-password fails (`401 {"message":"INCORRECT_PASSWORD"}`). Options: verify
-the password, reset it, or supply a Google sign-in path. Everything in
-Phase 1 was obtained **anonymously** from public assets.
+~~Teacher-account walkthrough blocked~~: the original credential string
+failed with `401 INCORRECT_PASSWORD` because the password begins with a
+**leading dash** that was absorbed into the "password:" prefix when
+transcribed. With the corrected password the email+password login works,
+and Phase 2 completed the same day (see the plan doc).
+
+## Key facts (Phase 2 headline, live-verified)
+
+- Account: teacher ("HNA 011", ABC International School); dashboard
+  sidebar carries the full teacher panel set; toolkit opens from
+  "My Teaching Toolkit".
+- Every tool is a **wizard**: Subject* → Module* → tool form. Subject
+  list is the full catalogue; Biology (CAIE IGCSE) modules: Theory /
+  Alternative to Practical / Topic Explainer / Past Paper Walkthrough /
+  Model Answers; Topic dropdowns = the 21 syllabus chapters.
+- Free quota visible as "N out of 5 Free prompts left" in the modal
+  header; decremented server-side on every submit.
+- **Grounding proven**: a generated lesson plan's Learning Objectives
+  are the verbatim CAIE 0610 syllabus outcomes for the chapter.
+- Rubric scale is **computed from marksPerCriterion** (8 →
+  Emerging 2 / Basic 4 / Proficient 6 / Advanced 8); Learning Coach
+  outputs render as **6 tabs** (Main Argument … Connections).
+- Exports PDF / DOCS / CSV / JSON confirmed in the result view;
+  Regenerate re-opens the form without consuming a prompt.
