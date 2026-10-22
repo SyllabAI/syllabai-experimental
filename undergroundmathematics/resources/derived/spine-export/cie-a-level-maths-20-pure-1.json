@@ -1,0 +1,56 @@
+{
+ "exportedAt": "2026-10-22",
+ "note": "Pilot lane: Pure 1 Quadratics (subtopic 1.1, spec points 1.1.1-1.1.5)",
+ "source": "syllabai-v2 apps/hub/spines/cie-a-level-maths-20-pure-1.json + content-maps/cie-a-level-maths-20-pure-1.json",
+ "rights": "spec codes + titles + item IDs/counts only (facts, mode-1); no item text exported",
+ "course": "9709",
+ "syllabusVersion": "2023-2025",
+ "board": "Cambridge CIE",
+ "specPoints": [
+  {
+   "code": "1.1.1",
+   "subtopic": "Quadratics",
+   "title": "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+  },
+  {
+   "code": "1.1.2",
+   "subtopic": "Quadratics",
+   "title": "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+  },
+  {
+   "code": "1.1.3",
+   "subtopic": "Quadratics",
+   "title": "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+  },
+  {
+   "code": "1.1.4",
+   "subtopic": "Quadratics",
+   "title": "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+  },
+  {
+   "code": "1.1.5",
+   "subtopic": "Quadratics",
+   "title": "recognise and solve equations in x which are quadratic in some function of x . tan"
+  }
+ ],
+ "itemInventory": {
+  "1.1.1": {
+   "count": 2,
+   "kinds": {
+    "note": 2
+   },
+   "items": [
+    {
+     "id": "rn_g63cNh4RhBPykRzD",
+     "kind": "note",
+     "unmapped": false
+    },
+    {
+     "id": "rn_nWRSxWyh63FpSmWN",
+     "kind": "note",
+     "unmapped": false
+    }
+   ]
+  }
+ }
+}

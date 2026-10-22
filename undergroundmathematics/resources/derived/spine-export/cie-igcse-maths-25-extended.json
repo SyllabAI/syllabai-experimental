@@ -1,0 +1,57 @@
+{
+ "exportedAt": "2026-10-22",
+ "note": "Contrast lane: IGCSE 0580 Extended quadratics-bearing spec points (E2.2.3 expand, E2.2.4 factorise, E2.2.5 complete the square, E2.5.5 simultaneous linear+non-linear, E2.5.6 quadratic equations, E2.6.2 linear/quadratic inequalities, E2.10.2 graphical solving, E2.11.1 quadratic graphs, E2.11.4 turning points, E2.13.4 inverse)",
+ "source": "syllabai-v2 apps/hub/spines/cie-igcse-maths-25-extended.json + content-maps/cie-igcse-maths-25-extended.json",
+ "rights": "spec codes + titles + item IDs/counts only (facts, mode-1); no item text exported",
+ "course": "0580",
+ "syllabusVersion": "2025-2027",
+ "board": "Cambridge CIE",
+ "specPoints": [
+  {
+   "code": "E2.2.3",
+   "subtopic": "Algebraic manipulation",
+   "title": "Includes products of more than two brackets, e.g. expand 3 Factorise by extracting common factors. Factorise means factorise fully, e.g."
+  },
+  {
+   "code": "E2.2.4",
+   "subtopic": "Algebraic manipulation",
+   "title": "Factorise expressions of the form: • ax + bx + kay + kby • a x − b y • a + 2 ab + b • ax + bx + c • ax + bx + cx ."
+  },
+  {
+   "code": "E2.2.5",
+   "subtopic": "Algebraic manipulation",
+   "title": "\u0007Complete the square for expressions in the form ax + bx + c ."
+  },
+  {
+   "code": "E2.5.5",
+   "subtopic": "Equations",
+   "title": "\u0007Solve simultaneous equations, involving one With powers no higher than two. linear and one non-linear."
+  },
+  {
+   "code": "E2.5.6",
+   "subtopic": "Equations",
+   "title": "\u0007Solve quadratic equations by factorisation, Includes writing a quadratic expression in completing the square and by use of the completed square form. quadratic formula. Candidates may be expected to give solutions in surd form."
+  },
+  {
+   "code": "E2.6.2",
+   "subtopic": "Inequalities",
+   "title": "Construct, solve and interpret linear inequalities. Examples include:"
+  },
+  {
+   "code": "E2.10.2",
+   "subtopic": "Graphs of functions",
+   "title": "2 rational numbers; and b is a positive integer. 2 \u0007Solve associated equations graphically, including e.g. finding the intersection of a line and a curve. finding and interpreting roots by graphical methods."
+  },
+  {
+   "code": "E2.11.1",
+   "subtopic": "Sketching curves",
+   "title": "Recognise, sketch and interpret graphs of the Functions will be equivalent to: following functions: • (a) linear • (b) quadratic • (c) cubic • (d) reciprocal (e) exponential. where rational, positive number."
+  },
+  {
+   "code": "E2.11.4",
+   "subtopic": "Sketching curves",
+   "title": "Finding turning points of quadratics by completing the square is required."
+  }
+ ],
+ "itemInventory": {}
+}

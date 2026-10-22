@@ -1,0 +1,1338 @@
+{
+ "generatedAt": "2026-10-22",
+ "pilot": "P3c quadratics cross-map (docs/INTEGRATION-PLAN.md §4)",
+ "ugmStation": {
+  "slug": "quadratics",
+  "url": "https://undergroundmathematics.org/quadratics",
+  "resources": 59
+ },
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-1",
+  "board": "Cambridge CIE",
+  "code": "9709",
+  "syllabusVersion": "2023-2025",
+  "specPoints": [
+   {
+    "code": "1.1.1",
+    "title": "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   },
+   {
+    "code": "1.1.2",
+    "title": "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   },
+   {
+    "code": "1.1.3",
+    "title": "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   },
+   {
+    "code": "1.1.4",
+    "title": "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   },
+   {
+    "code": "1.1.5",
+    "title": "recognise and solve equations in x which are quadratic in some function of x . tan"
+   }
+  ]
+ },
+ "coverage": {
+  "resources": 59,
+  "aligned": 56,
+  "nonOverlap": 3,
+  "alignedShare": 0.949,
+  "successThreshold": 0.7,
+  "meetsThreshold": true,
+  "withExamProvenance": 46,
+  "withExamBoardProvenance": 41,
+  "withOtherProvenance": 5
+ },
+ "modeNote": "modes per docs/INTEGRATION-PLAN.md §1: 1 taxonomy/facts (safe now), 2 deep-link enrichment (ADR-gated), 4 pattern adoption (safe). No UGM content ships at modes 1-2; rights unchanged (docs/IP-AND-COPYRIGHT-NOTES.md).",
+ "alignments": [
+  {
+   "friendlyName": "r6638",
+   "url": "https://undergroundmathematics.org/quadratics/r6638",
+   "title": "Can we find both roots if one is double the other?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Roots related by an integer factor; factorise or use root relationships.",
+   "provenance": "UCLES 1985 Q1",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8045",
+   "url": "https://undergroundmathematics.org/quadratics/r8045",
+   "title": "Can we find the midpoint of a chord of this parabola?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Chord of a parabola: line meets curve, then midpoint (coordinate-geometry flavour).",
+   "provenance": "UCLES 1982 Q13",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6804",
+   "url": "https://undergroundmathematics.org/quadratics/r6804",
+   "title": "Can we find the tangents to a circle from a point?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Tangents from a point to a circle — sits with P1 coordinate geometry (1.3); tangency via discriminant is the shared skill.",
+   "provenance": "UCLES 1964 Q2",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8775",
+   "url": "https://undergroundmathematics.org/quadratics/r8775",
+   "title": "Can we fit a quadratic to this given data?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Form a quadratic from given data/conditions.",
+   "provenance": "UCLES 1967 Q1",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7533",
+   "url": "https://undergroundmathematics.org/quadratics/r7533",
+   "title": "Can we prove this inequality involving two square roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Inequality proof with two square roots — beyond routine, but discriminant/sign reasoning.",
+   "provenance": "UCLES 1981 Q6(i)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8812",
+   "url": "https://undergroundmathematics.org/quadratics/r8812",
+   "title": "Can we show $(b^2 - 2ac)x^2 + 4(a + c)x = 8$ always has real roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Show a quadratic always has real roots — discriminant condition.",
+   "provenance": "UCLES 1980 Q12(b)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7035",
+   "url": "https://undergroundmathematics.org/quadratics/r7035",
+   "title": "Can we solve $12/(x-3) < x+1$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Rational inequality reduces to a quadratic inequality (critical values).",
+   "provenance": "UCLES 1980 Q2",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6246",
+   "url": "https://undergroundmathematics.org/quadratics/r6246",
+   "title": "Can we solve $nx^2+2x\\sqrt{pn^2+q}+rn+s=0$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Quadratic formula with literal coefficients.",
+   "provenance": "UCLES 1999 Q2",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7485",
+   "url": "https://undergroundmathematics.org/quadratics/r7485",
+   "title": "Can we solve $\\sqrt{3-3x} - \\sqrt{2-x} = 1$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Surds equation squared down to a quadratic.",
+   "provenance": "UCLES 1979 Q1",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5682",
+   "url": "https://undergroundmathematics.org/quadratics/r5682",
+   "title": "Can we solve the simultaneous equations $x + y + \\sqrt{xy} = 39$ and $x^2 + y^2 + xy = 741$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Substitution u = sqrt(xy) makes the simultaneous system a hidden quadratic.",
+   "provenance": "UCLES 1981 Q4(a)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8128",
+   "url": "https://undergroundmathematics.org/quadratics/r8128",
+   "title": "Can we solve these simultaneous equations that involve reciprocals?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Reciprocal simultaneous equations; hidden quadratic in 1/x and 1/y.",
+   "provenance": "UCLES 1975 Q2a",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7520",
+   "url": "https://undergroundmathematics.org/quadratics/r7520",
+   "title": "Can we solve these simultaneous equations, both of degree two?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Both equations degree two — extends the P1 linear+quadratic case (1.1.4).",
+   "provenance": "UCLES 1980 Q2(b)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6429",
+   "url": "https://undergroundmathematics.org/quadratics/r6429",
+   "title": "Can we solve these simultaneous equations, one linear, one quadratic?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Canonical linear+quadratic simultaneous system.",
+   "provenance": "UCLES 1983 Q5",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6387",
+   "url": "https://undergroundmathematics.org/quadratics/r6387",
+   "title": "Can we solve this inequality with three square roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Three-square-root inequality — extension of 1.1.3/1.1.5 techniques.",
+   "provenance": "UCLES 1958 Q3(i)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "discriminating",
+   "url": "https://undergroundmathematics.org/quadratics/discriminating",
+   "title": "Discriminating",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2,
+    4
+   ],
+   "note": "MUST/MAY/CAN'T discriminant family; teacher support available (pattern exemplar).",
+   "provenance": null,
+   "hasTeacherSupport": true
+  },
+  {
+   "friendlyName": "discriminating-teacher-support",
+   "url": "https://undergroundmathematics.org/quadratics/discriminating-teacher-support",
+   "title": "Discriminating - teacher support",
+   "resourceType": "resource-in-action",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Teacher-support sibling of \"discriminating\" (opportunities-for-learning table).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "factorisable-quads",
+   "url": "https://undergroundmathematics.org/quadratics/factorisable-quads",
+   "title": "Factorisable quadratics",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2,
+    4
+   ],
+   "note": "Fluency family on factorisable quadratics.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6526",
+   "url": "https://undergroundmathematics.org/quadratics/r6526",
+   "title": "For what values of $k$ is $x^2 + 6kx +144$ always positive?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2",
+    "1.1.1"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included.",
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Always-positive quadratic: discriminant + completing the square.",
+   "provenance": "UCLES 1981 Q12(b)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "geogebra-constructions-quadratic",
+   "url": "https://undergroundmathematics.org/quadratics/geogebra-constructions-quadratic",
+   "title": "GeoGebra constructions... quadratic edition",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Dynamic constructions of parabola properties; supports sketching (1.1.3/1.2).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6756",
+   "url": "https://undergroundmathematics.org/quadratics/r6756",
+   "title": "Given the minimum point, what's this parabola's equation?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.1"
+   ],
+   "cieTitles": [
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Equation of a parabola from its minimum point — vertex form.",
+   "provenance": "UCLES 1958 Q2(i)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7588",
+   "url": "https://undergroundmathematics.org/quadratics/r7588",
+   "title": "Given two simultaneous equations of degree two, can we solve them?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Two quadratics simultaneously — extension of 1.1.4.",
+   "provenance": "UCLES 2010 Q1",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6215",
+   "url": "https://undergroundmathematics.org/quadratics/r6215",
+   "title": "How do we  solve $x + 3\\sqrt{x} − 1/2 = 0$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Canonical hidden quadratic: x + 3sqrt(x) - 1/2 = 0.",
+   "provenance": "UCLES 2013 Q1",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6712",
+   "url": "https://undergroundmathematics.org/quadratics/r6712",
+   "title": "How do we increase the roots of a quadratic equation by $1$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Shift roots by 1: substitution y = x - 1, expansion and comparison.",
+   "provenance": "UCLES 1962 Q7(i)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5847",
+   "url": "https://undergroundmathematics.org/quadratics/r5847",
+   "title": "How do we solve an equation containing three square roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Three square roots; squaring chain reduces to a quadratic.",
+   "provenance": "UCLES 1970 Q5(ii)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6864",
+   "url": "https://undergroundmathematics.org/quadratics/r6864",
+   "title": "How fast are these particles sliding when they pass?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": "medium",
+   "modes": [],
+   "note": "NON-OVERLAP for P1 pure lane: kinematics context (particles sliding); the underlying quadratic solving is 1.1.3.",
+   "provenance": "UCLES 1974 Q1",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6816",
+   "url": "https://undergroundmathematics.org/quadratics/r6816",
+   "title": "If $2y = a^x + a^{-x}$, can we find $a^x$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Hidden quadratic in a^x; then a^{-x} read off reciprocally.",
+   "provenance": "UCLES 1973 Q2",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9724",
+   "url": "https://undergroundmathematics.org/quadratics/r9724",
+   "title": "If $7 - px - x^2 = 16 - (q + x)^2$, what are $p$ and $q$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.1"
+   ],
+   "cieTitles": [
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Identity comparison after completing the square.",
+   "provenance": "UCLES 1980 Q13",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7972",
+   "url": "https://undergroundmathematics.org/quadratics/r7972",
+   "title": "If we know two values satisfying a quadratic, can we find the quadratic?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Reconstruct a quadratic from two known values.",
+   "provenance": "O&C (Oxford & Cambridge SEG) 1972 Q3(i)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "inequalities-for-some-occasions",
+   "url": "https://undergroundmathematics.org/quadratics/inequalities-for-some-occasions",
+   "title": "Inequalities for some occasions",
+   "resourceType": "fluency-exercise",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Quadratic-inequality fluency exercise.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8781",
+   "url": "https://undergroundmathematics.org/quadratics/r8781",
+   "title": "Into how many regions do these parabolas divide the plane?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4",
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic",
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Regions bounded by parabolas; line-parabola positions + inequalities.",
+   "provenance": "Oxford (MAT) Specimen 2 Q1J",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "irrational-roots",
+   "url": "https://undergroundmathematics.org/quadratics/irrational-roots",
+   "title": "Irrational roots",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Surd roots via formula; surd manipulation in root conditions.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "name-that-graph",
+   "url": "https://undergroundmathematics.org/quadratics/name-that-graph",
+   "title": "Name that graph",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.1"
+   ],
+   "cieTitles": [
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2,
+    4
+   ],
+   "note": "Match parabola equations to graphs (vertex form, translations).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "paired-parabolas",
+   "url": "https://undergroundmathematics.org/quadratics/paired-parabolas",
+   "title": "Paired parabolas",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.1"
+   ],
+   "cieTitles": [
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Vertex/axis reasoning across parabola pairs.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "parabella",
+   "url": "https://undergroundmathematics.org/quadratics/parabella",
+   "title": "Parabella",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": "medium",
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: parabola families belong with P1 Functions (1.2) / transformations.",
+   "provenance": "NRICH",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "parabolic-mirrors",
+   "url": "https://undergroundmathematics.org/quadratics/parabolic-mirrors",
+   "title": "Parabolic mirrors",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": "high",
+   "modes": [],
+   "note": "NON-OVERLAP: enrichment (bigger-picture) — no 9709 P1 quadratics spec point; context material.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "pick-a-card",
+   "url": "https://undergroundmathematics.org/quadratics/pick-a-card",
+   "title": "Pick a card...",
+   "resourceType": "fluency-exercise",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Solving fluency (factorising/formula choice).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "powerful-quads",
+   "url": "https://undergroundmathematics.org/quadratics/powerful-quads",
+   "title": "Powerful quadratics",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Equations quadratic in x^n.",
+   "provenance": "NRICH",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "proving-quad-formula",
+   "url": "https://undergroundmathematics.org/quadratics/proving-quad-formula",
+   "title": "Proving the quadratic formula",
+   "resourceType": "scaffolded-task",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Derive the quadratic formula (completing the square) — CIE hands the formula, derivation is enrichment.",
+   "provenance": "NRICH",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "quadratic-grids",
+   "url": "https://undergroundmathematics.org/quadratics/quadratic-grids",
+   "title": "Quadratic grids",
+   "resourceType": "rich-example",
+   "level": "Introducing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Structure/multiplication-grid identities for quadratics.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "quad-solving-sorter",
+   "url": "https://undergroundmathematics.org/quadratics/quad-solving-sorter",
+   "title": "Quadratic solving sorter",
+   "resourceType": "fluency-exercise",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Sort by solution method (factorise / complete square / formula).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "quad-symmetry",
+   "url": "https://undergroundmathematics.org/quadratics/quad-symmetry",
+   "title": "Quadratic symmetry",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.1"
+   ],
+   "cieTitles": [
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Axis of symmetry and vertex via completed-square form.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8855",
+   "url": "https://undergroundmathematics.org/quadratics/r8855",
+   "title": "What does the curve $x^4-y^2=y+1$ look like?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Hidden quadratic in y; curve sketching itself exceeds P1 scope.",
+   "provenance": "Oxford (MAT) 2013 Q1D",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7350",
+   "url": "https://undergroundmathematics.org/quadratics/r7350",
+   "title": "When are the coefficients of a quadratic equal to its roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Coefficients equal to roots — root/condition reasoning (UKMT).",
+   "provenance": "UKMT 2011 Q15",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5138",
+   "url": "https://undergroundmathematics.org/quadratics/r5138",
+   "title": "When are the roots for $x^2-bx+c=0$ real and positive?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Roots real and positive: discriminant + root sign conditions.",
+   "provenance": "UCLES 2001 Q3",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9989",
+   "url": "https://undergroundmathematics.org/quadratics/r9989",
+   "title": "When are these quadratic inequalities true together?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Two quadratic inequalities true together.",
+   "provenance": "Oxford (MAT) Specimen 1 Q1G",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8407",
+   "url": "https://undergroundmathematics.org/quadratics/r8407",
+   "title": "When can this equation involving algebraic fractions hold?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Algebraic-fraction equation reduced to a quadratic.",
+   "provenance": "UCLES 2005 Q3",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9658",
+   "url": "https://undergroundmathematics.org/quadratics/r9658",
+   "title": "When do these simultaneous equations have no real solutions?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4",
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic",
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "No real solutions of a line-quadratic system = discriminant condition.",
+   "provenance": "UCLES 1972 Q5(ii)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7455",
+   "url": "https://undergroundmathematics.org/quadratics/r7455",
+   "title": "When does $(p+1)x^2+4px+9=0$ have a repeated root?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Repeated root with parameter: discriminant = 0.",
+   "provenance": "UCLES 1986 Q5(a)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9659",
+   "url": "https://undergroundmathematics.org/quadratics/r9659",
+   "title": "When does $x^2 + ax + a = 1$ have distinct real roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Distinct real roots: discriminant > 0 (MAT).",
+   "provenance": "Oxford (MAT) 2013 Q1A",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6828",
+   "url": "https://undergroundmathematics.org/quadratics/r6828",
+   "title": "When does $x^2+(3k-7)x+(2k+6)=0$ have real roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Real roots condition in k: discriminant >= 0.",
+   "provenance": "UCLES 1958 Q2(ii)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5316",
+   "url": "https://undergroundmathematics.org/quadratics/r5316",
+   "title": "When does $x^2-4x-1=2k(x-5)$ have equal roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Equal roots after rearranging a line-equals-quadratic identity.",
+   "provenance": "UCLES 1966 Q7(ii)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9546",
+   "url": "https://undergroundmathematics.org/quadratics/r9546",
+   "title": "When does $x^4=(x-c)^2$ have four real roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.5"
+   ],
+   "cieTitles": [
+    "recognise and solve equations in x which are quadratic in some function of x . tan"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "x^4 = (x-c)^2: quadratic in x^2; count four real roots (MAT).",
+   "provenance": "Oxford (MAT) 2009 Q1C",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9614",
+   "url": "https://undergroundmathematics.org/quadratics/r9614",
+   "title": "When does $y=kx$ intersect the parabola $y=(x-1)^2$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "y = kx meets y = (x-1)^2: intersection conditions (MAT).",
+   "provenance": "Oxford (MAT) 2010 Q1A",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5287",
+   "url": "https://undergroundmathematics.org/quadratics/r5287",
+   "title": "When does $y=mx-5$ intersect $y=x^2-1$  twice?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "y = mx - 5 cuts y = x^2 - 1 twice: discriminant in m.",
+   "provenance": "UCLES 1986 Q5(b)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5059",
+   "url": "https://undergroundmathematics.org/quadratics/r5059",
+   "title": "When is $12x^2+7x-10$ negative?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Solve and interpret a quadratic inequality (1962 UCLES).",
+   "provenance": "UCLES 1962 Q7(ii),Q7(iii)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7328",
+   "url": "https://undergroundmathematics.org/quadratics/r7328",
+   "title": "When is this line a tangent to this parabola?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.4"
+   ],
+   "cieTitles": [
+    "solve by substitution a pair of simultaneous e.g. equations of which one is linear and one is 2 quadratic"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "Tangency of line to parabola via discriminant = 0.",
+   "provenance": "UCLES 1977 Q13(b)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9742",
+   "url": "https://undergroundmathematics.org/quadratics/r9742",
+   "title": "Where does $y = px^2 + 8x + p - 6$ cross the $x$-axis?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.1.2",
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "find the discriminant of a quadratic polynomial ax + bx + c and use the discriminant ‘repeated root’ is included.",
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2
+   ],
+   "note": "x-axis crossings of a parameterised quadratic.",
+   "provenance": "UCLES 1983 Q13(a)",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "which-parabola",
+   "url": "https://undergroundmathematics.org/quadratics/which-parabola",
+   "title": "Which parabola?",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.1"
+   ],
+   "cieTitles": [
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2,
+    4
+   ],
+   "note": "Identify the parabola from graph features (NRICH).",
+   "provenance": "NRICH",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "which-quadratic",
+   "url": "https://undergroundmathematics.org/quadratics/which-quadratic",
+   "title": "Which quadratic?",
+   "resourceType": "building-blocks",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.1.1",
+    "1.1.3"
+   ],
+   "cieTitles": [
+    "carry out the process of completing the square for a quadratic polynomial ax + bx + c and use y a completed square form",
+    "solve quadratic equations, and quadratic By factorising, completing the square and using the inequalities, in one unknown formula."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    2,
+    4
+   ],
+   "note": "Which quadratic satisfies the clues — build/verify quadratics (NRICH).",
+   "provenance": "NRICH",
+   "hasTeacherSupport": false
+  }
+ ],
+ "perSpecPoint": {
+  "1.1.1": [
+   "r6526",
+   "r6756",
+   "r9724",
+   "name-that-graph",
+   "paired-parabolas",
+   "quad-symmetry",
+   "which-parabola",
+   "which-quadratic"
+  ],
+  "1.1.2": [
+   "r8812",
+   "discriminating",
+   "discriminating-teacher-support",
+   "r6526",
+   "r7350",
+   "r5138",
+   "r9658",
+   "r7455",
+   "r9659",
+   "r6828",
+   "r5316",
+   "r9742"
+  ],
+  "1.1.3": [
+   "r6638",
+   "r8775",
+   "r7533",
+   "r7035",
+   "r6246",
+   "factorisable-quads",
+   "geogebra-constructions-quadratic",
+   "r6712",
+   "r7972",
+   "inequalities-for-some-occasions",
+   "r8781",
+   "irrational-roots",
+   "pick-a-card",
+   "proving-quad-formula",
+   "quadratic-grids",
+   "quad-solving-sorter",
+   "r9989",
+   "r5059",
+   "r9742",
+   "which-quadratic"
+  ],
+  "1.1.4": [
+   "r8045",
+   "r6804",
+   "r7520",
+   "r6429",
+   "r7588",
+   "r8781",
+   "r9658",
+   "r9614",
+   "r5287",
+   "r7328"
+  ],
+  "1.1.5": [
+   "r7485",
+   "r5682",
+   "r8128",
+   "r6387",
+   "r6215",
+   "r5847",
+   "r6816",
+   "powerful-quads",
+   "r8855",
+   "r8407",
+   "r9546"
+  ]
+ }
+}

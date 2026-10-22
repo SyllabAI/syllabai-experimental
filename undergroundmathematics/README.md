@@ -61,5 +61,17 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   committed under `resources/content/` per operator decision (see
   `docs/IP-AND-COPYRIGHT-NOTES.md`). Discovery notes in
   `research/2026-10-22-phase2-crawl-and-extraction.md`.
-- Next: Phase 3 (qwell dedup, relation-graph export, CIE/Edexcel spine
-  cross-mapping) — see `docs/REVERSE-ENGINEERING-PLAN.md`.
+- 2026-10-22: **Integration plan** — rights ladder (modes 0–4), eight
+  integration surfaces, phased P3a–P6: `docs/INTEGRATION-PLAN.md`.
+- 2026-10-22: **Phase 3a (corpus cleanup)** — qwell dedup into a shared
+  `questionWell` field (2,204 duplicates stripped, 584 section-unique
+  preserved) → `resources/ugm-clean/`; all 623 acknowledgements parsed into
+  structured provenance tuples →
+  `resources/derived/review-question-provenance.json`.
+- 2026-10-22: **Phase 3c (spine cross-map pilot)** — UGM quadratics ↔
+  CIE 9709 Pure 1 Quadratics (1.1.1–1.1.5): 56/59 resources aligned (95%),
+  mode-2 deep-link shortlists per spec point, S1 provenance-bridge status;
+  `docs/cross-map-quadratics.md` + machine-readable twin. Ready for
+  operator review; generalisation to all lanes proposed (doc §8).
+- Next: **P3b** (relation-graph export + per-station enrichment sheets),
+  then **P4** (ADR: UGM integration mode) — see `docs/INTEGRATION-PLAN.md`.

@@ -29,6 +29,16 @@ decision and its conditions). Site binaries/assets remain excluded.
 | `content/{station}.json` (24 files) | HTML crawl of all 855 resource pages + section + teacher-support pages (2,486 pages, 0 failures) | 2026-10-22 | 855 resources / 2,181 sections | per-resource records with full section bodies (`html` + `text`): Question/Problem, Suggestion, Solution, Interactive graph; teacher-support sections merged; acknowledgement + last-updated + ref preserved; canonical URL on every record |
 | `content-assets.json` | discovered PDF/asset links during crawl | 2026-10-22 | — | asset URLs only; binaries not crawled |
 
+### Derived artifacts (Phase 3a/3c — computed from the captures above)
+
+| File | Derived from | Generated | Rows | Notes |
+|---|---|---|---|---|
+| `ugm-clean/{station}.json` (24 files) | `content/{station}.json` qwell dedup pass | 2026-10-22 | 855 resources / 1,101 sections cleaned | re-displayed question wells stripped into a shared `questionWell` field (791 resources); 2,204 duplicate qwells removed; 584 section-unique qwells preserved (flagged in `extraction.qwellVariantsKept`); schema otherwise stable |
+| `derived/review-question-provenance.json` | `content/*.json` acknowledgements | 2026-10-22 | 623 records | structured tuples (board, qualification, paper, paperCode, year, question labels, permission); 572 parsed (569 review questions + 3), 45 non-exam provenance, 6 provenance-missing; boards: UCLES 360, Oxford MAT 147, O&C 37, NRICH 35, UKMT 20, Cambridge Colleges 6, MEI 1, TMUA 1; years 1951–2016; S1 join key for `syllabai-pastpapers` |
+| `derived/spine-export/cie-a-level-maths-20-pure-1.json` | `syllabai-v2` apps/hub spines + content maps (read-only) | 2026-10-22 | 5 spec points | Quadratics lane (1.1.1–1.1.5) spec points + item attachment inventory (IDs/counts only, no item text) |
+| `derived/spine-export/cie-igcse-maths-25-extended.json` | `syllabai-v2` apps/hub spines + content maps (read-only) | 2026-10-22 | 10 spec points | IGCSE 0580 Extended quadratics-bearing spec points (contrast lane) |
+| `derived/cross-map-quadratics.json` | ugm-clean + provenance + spine export + authored alignments | 2026-10-22 | 59 alignments | pilot cross-map; twin of `../docs/cross-map-quadratics.md` |
+
 ## Local-only artifacts (analysis inputs, not committed)
 
 | Artifact | Source | Why local-only |

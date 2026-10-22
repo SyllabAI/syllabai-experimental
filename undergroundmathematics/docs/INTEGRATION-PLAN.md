@@ -87,12 +87,18 @@ worth doing regardless of any Mode-3 outcome.
 
 ## 4. Execution plan (phased, repo-conventions-aware)
 
-### P3a — corpus cleanup (this repo, no dependencies) `[~]`
-- [ ] `qwell` dedup pass: strip re-displayed problem from
-      suggestion/solution bodies into a shared `questionWell` field
-- [ ] emit `ugm-clean/` per-station JSON (schema stable, bodies clean)
-- [ ] parse all 569 acknowledgements into structured provenance tuples;
-      publish `resources/derived/review-question-provenance.json`
+### P3a — corpus cleanup (this repo, no dependencies) `[x]`
+- [x] `qwell` dedup pass: strip re-displayed problem from
+      suggestion/solution bodies into a shared `questionWell` field —
+      done 2026-10-22: 2,204 re-displays stripped, 584 section-unique
+      qwells kept (flagged), 791 canonical wells; substring rule handles
+      multi-part resources
+- [x] emit `ugm-clean/` per-station JSON (schema stable, bodies clean) —
+      `resources/ugm-clean/{station}.json`, 24 files
+- [x] parse all 569 acknowledgements into structured provenance tuples;
+      publish `resources/derived/review-question-provenance.json` —
+      done 2026-10-22: 623 acks processed, 572 parsed (569 review + 3),
+      boards/years/labels structured; S1 join key ready
 
 ### P3b — enrichment data (this repo) `[ ]`
 - [ ] station→line→key-question→pervasive-idea relation graph export
@@ -101,16 +107,25 @@ worth doing regardless of any Mode-3 outcome.
       level, key questions, has-teacher-support, asset links — the
       catalog a course designer consumes
 
-### P3c — spine cross-map pilot (this repo + `syllabai-resources`) `[ ]`
-- [ ] export lane list + item inventory for **one IAL Pure lane**
-      (proposal: quadratics — UGM's richest station, 59 resources) and one
-      CIE IGCSE lane for contrast
-- [ ] produce `docs/cross-map-quadratics.md`: lane item ↔ UGM resource
+### P3c — spine cross-map pilot (this repo + `syllabai-resources`) `[x]`
+- [x] export lane list + item inventory for **one IAL Pure lane**
+      (quadratics — UGM's richest station, 59 resources) and one
+      CIE IGCSE lane for contrast — done 2026-10-22:
+      `resources/derived/spine-export/cie-a-level-maths-20-pure-1.json`
+      (9709 P1 Quadratics 1.1.1–1.1.5) +
+      `cie-igcse-maths-25-extended.json` (0580 Extended quadratics-bearing
+      points). Finding: item attachment in the of-record content map is
+      sparse (10 items on 1.1.x of 1,728 course items) → UGM enrichment
+      attaches at spec-point/lane level
+- [x] produce `docs/cross-map-quadratics.md`: lane item ↔ UGM resource
       alignments with confidence + mode flags (S1 provenance matches
-      highlighted)
-- [ ] review with operator; if useful, generalize (script + all-lane run)
+      highlighted) — done 2026-10-22: 56/59 aligned (95%), 3 explicit
+      non-overlaps, mode-2 shortlists per spec point, S1 bridge status;
+      machine-readable twin in `resources/derived/cross-map-quadratics.json`
+- [x] review with operator; if useful, generalize (script + all-lane run)
       and graduate via PR to `syllabai-resources` (mode-1 artifacts are
-      facts/links — safe to land)
+      facts/links — safe to land) — **pilot ready for operator review**;
+      generalisation proposal in the doc §8
 
 ### P4 — decision doc for operator `[ ]`
 - [ ] draft ADR (in `syllabai-v2/docs/adr` style, content authored here

@@ -48,13 +48,22 @@ dataset of the corpus if the experiment graduates.
       taxonomy, sections with html+text, teacher support, assets,
       provenance) — see research/2026-10-22-phase2-crawl-and-extraction.md
 - [x] Full corpus extracted and committed (855 resources, 2,181 sections)
-- [ ] `qwell` dedup pass (strip re-displayed question wells from
-      suggestion/solution bodies into a shared `questionWell` field)
+- [x] `qwell` dedup pass (strip re-displayed question wells from
+      suggestion/solution bodies into a shared `questionWell` field) —
+      2,204 duplicates removed, 584 section-unique qwells preserved,
+      791 canonical question wells elected; emitted
+      `resources/ugm-clean/{station}.json` (2026-10-22)
+- [x] Structured provenance: all 623 acknowledgements parsed into tuples,
+      published `resources/derived/review-question-provenance.json`
+      (2026-10-22)
 - [ ] Station→line→key-question→pervasive-idea relation graph export
       (JSON/GraphML)
-- [ ] Cross-map UGM stations/lines to CIE (and Edexcel) spines from
-      `syllabai-v2` (cie-phase1/2 registry work) — the deliverable that
-      makes this experiment platform-relevant
+- [x] Cross-map UGM stations/lines to CIE (and Edexcel) spines from
+      `syllabai-v2` — **quadratics pilot complete** (2026-10-22):
+      lane exports in `resources/derived/spine-export/`, pilot map in
+      `docs/cross-map-quadratics.md` +
+      `resources/derived/cross-map-quadratics.json` (56/59 aligned = 95%,
+      threshold ≥70% met); generalisation awaits operator review
 
 ### Phase 4 — Design synthesis `[ ]`
 
