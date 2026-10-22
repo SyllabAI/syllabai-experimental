@@ -13,6 +13,7 @@ and `scripts/`).
 | `subject_taxonomy.json` | Per-subject filter metadata: topic list (the "topical" taxonomy), zones, papers (with Core/Extended and paper-code mappings), seasons, years, canonical deep-link URL | 180 entries |
 | `topical/3_IGCSE/11_Additional_Mathematics_0606_/meta.json` | Subject 11 filter metadata snapshot at harvest time | — |
 | `topical/3_IGCSE/11_Additional_Mathematics_0606_/questions.jsonl` | Every question of CIE IGCSE Additional Mathematics 0606 (the site's default subject), one JSON per line: `qid`, `eventKey`, `page`, `payload{question_images[], answer_images[], mcq_answer, topics, question_text, answer_text}` | **1,333 questions** (= the site's own total badge), 1,579 question-image URLs, 1,509 answer-image URLs, 1,333 MCQ answers, 28 distinct topic strings |
+| `topical/3_IGCSE/11_Additional_Mathematics_0606_/images/` | **Complete image set + per-image metadata ledger** (`INDEX.jsonl`: sha256, bytes, dimensions, both site id spaces, paper_ref, topics, MCQ answer, download timestamp) + derived views `by_paper.json` / `by_topic.json` + `MANIFEST.md` | 3,087/3,088 PNGs (64.96 MB), 1 origin-404 recorded |
 
 ## Provenance & integrity notes
 
@@ -20,11 +21,11 @@ and `scripts/`).
 - Every record carries the raw payload parsed from the site's own
   `onclick=selectQuestion(...)` attribute — fields are reproduced verbatim
   (including the site's own typos, e.g. topic "Functions, Modolus").
-- No question images were bulk-downloaded in this run: the site meters
-  question-list serving per session (HTTP 403 "request limit or no active
-  subscription" once spent) and marks non-subscribed users as "Questions are
-  not downloadable". Image URLs are recorded instead; see
-  `docs/exam-mate-scrape-runbook.md` for the sanctioned ways to extend this.
+- Image serving was **not** metered (unlike question-list serving): the
+  2026-10-22 bulk run (operator-approved) fetched 3,087/3,088 unique PNGs
+  through the in-page fetch pipeline at batch-4/1 s politeness, anonymous
+  session. Details + integrity chain: `topical/3_IGCSE/
+  11_Additional_Mathematics_0606_/images/MANIFEST.md`.
 - Earlier pilot folders that contained stale-list contamination (questions of
   subject 11 mislabeled as subjects 13/247) were **deleted**; only the
   verified subject-11 dataset is kept.
@@ -38,12 +39,11 @@ and `scripts/`).
   (403 quota / server 500s / string-type seeding bug on deep links — full
   analysis in the research note). Extending per-subject coverage requires
   either a subscribed account in the crawler or periodic re-runs.
-- Question images are URL manifests only at this stage.
+- One image URL is dead at the origin (HTTP 404:
+  `questions/168/887/168_a_887_11_2.png`); everything else is on disk.
 
-## Image pipeline proof
+## Image pipeline proof (superseded by the full set)
 
-`topical/3_IGCSE/11_Additional_Mathematics_0606_/image_samples/` contains 7
-full-resolution PNGs (2 questions' question+answer images) downloaded through
-the in-page fetch downloader, plus `SAMPLES-MANIFEST.json`. This proves the
-image pipeline end-to-end; bulk downloading is intentionally NOT done here
-(see the runbook for the reasoning).
+The original 7-sample proof (`image_samples/`) matched the completed bulk
+store **7/7 by SHA-256** and was pruned on 2026-10-22 — the canonical set in
+`topical/3_IGCSE/11_Additional_Mathematics_0606_/images/` supersedes it.

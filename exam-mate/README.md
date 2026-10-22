@@ -25,6 +25,12 @@ Completed 2026-10-22. Highlights:
 - **Full question harvest of the default subject** — CIE IGCSE Additional
   Mathematics 0606: **1,333/1,333 questions** with 1,579 question-image URLs,
   1,509 answer-image URLs, 1,333 MCQ answers → `resources/topical_papers/`.
+- **Complete image set downloaded (2026-10-22)** — 3,087/3,088 unique PNGs
+  (64.96 MB; the one miss is a dead link on the site's side) via the
+  resumable bulk downloader `scripts/exam_mate_image_bulk.py`, with a
+  per-image SHA-256 + metadata ledger (`INDEX.jsonl`) and derived
+  by-paper / by-topic views →
+  `resources/topical_papers/topical/3_IGCSE/11_Additional_Mathematics_0606_/images/`.
 - **Gating model documented** — question-list serving is metered per session
   (403 "request limit or no active subscription"); the crawler detects it and
   stops cleanly.

@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-10-22T01:13:05Z",
+ "index_entries": 3087,
+ "question_images": 1579,
+ "answer_images": 1508,
+ "failed": 0,
+ "files_on_disk": 3087,
+ "total_bytes": 64956845,
+ "distinct_papers": 1333,
+ "distinct_topics_raw": 20,
+ "sample_check": [
+  {
+   "file": "21400_a_61889_9_1.png",
+   "match": true
+  },
+  {
+   "file": "21400_a_61889_9_2.png",
+   "match": true
+  },
+  {
+   "file": "21400_a_61890_10_1.png",
+   "match": true
+  },
+  {
+   "file": "21400_q_61889_9_1.png",
+   "match": true
+  },
+  {
+   "file": "21400_q_61889_9_2.png",
+   "match": true
+  },
+  {
+   "file": "21400_q_61890_10_1.png",
+   "match": true
+  },
+  {
+   "file": "21400_q_61890_10_2.png",
+   "match": true
+  }
+ ],
+ "samples_pruned": true
+}

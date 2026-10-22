@@ -70,15 +70,21 @@ The crawler does not implement login. To extend per-subject coverage:
    path for it.
 3. Respect the subscription's own limits — the 403 message is the boundary.
 
-### 4. Question-image downloader (deliberately not run at scale)
+### 4. Question-image bulk downloader (executed 2026-10-22)
 
-Image URLs are already recorded in `questions.jsonl`
+Image URLs are recorded in `questions.jsonl`
 (`payload.question_images[]` / `payload.answer_images[]`). Images sit behind
 the same WAF; use `ExamMateClient.download(url, out_path)` which routes through
-the browser session and heals challenges. If you bulk-download, you are
-reproducing exam-board copyrighted content via a third-party site — the same
-provenance discipline as `syllabai-pastpapers` applies (SHA-256 manifests,
-source attribution, license review before anything ships).
+the browser session and heals challenges. The production tool is
+`scripts/exam_mate_image_bulk.py` — batched in-page fetches, resumable via
+`INDEX.jsonl`, per-image sha256 + dimensions + full question metadata. It ran
+to completion for subject 11: 3,087/3,088 (the one miss is an origin 404); see
+`resources/topical_papers/topical/3_IGCSE/11_Additional_Mathematics_0606_/images/MANIFEST.md`.
+
+Reminder: bulk-downloading reproduces exam-board copyrighted content via a
+third-party site — the same provenance discipline as `syllabai-pastpapers`
+applies (SHA-256 manifests, source attribution, license review before
+anything ships). The images manifest carries the copyright note.
 
 ## Troubleshooting
 
