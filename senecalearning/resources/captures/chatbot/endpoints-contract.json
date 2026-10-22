@@ -1,0 +1,80 @@
+{
+  "service": "chatbot-service",
+  "host": "chatbot.app.senecalearning.com",
+  "captured": "2026-10-22",
+  "method": "static extraction from 1,920-chunk import closure + authenticated live probes (teacher, free tier)",
+  "auth": {
+    "streaming_endpoints": {
+      "style": "raw fetch (no requestMaker)",
+      "headers": ["correlationId: {epochMs}::{uuid}", "Content-Type: application/json", "access-key: <Firebase ID token>", "user-region: GB (default)"]
+    },
+    "json_endpoints": {
+      "style": "requestMaker (adds X-Amz-Date, structured {reason,pointer} errors)",
+      "access_key_header": "access-key: <Firebase ID token>"
+    }
+  },
+  "streaming_protocol": {
+    "response_content_type": "text/event-stream",
+    "actual_framing": "raw UTF-8 text chunks of the markdown answer (no SSE data: framing); client pipes through TextDecoderStream and accumulates",
+    "error_signalling": "server writes one literal StreamErrors string as stream body; client compares chunk to enum members",
+    "client_decode_loop": "read -> if chunk matches StreamErrors member throw -> else append -> onReplyStreaming(acc) -> until done"
+  },
+  "stream_errors_enum": {
+    "INAPPROPRIATE_CONTENT": "400 Bad request: inappropriate content",
+    "CONVERSATION_LENGTH_LIMIT_HIT": "413 Content too large: conversation length limit hit",
+    "INVALID_BODY_FIELD_TEXT": "422 Invalid body field: text",
+    "INVALID_BODY": "422 Invalid body",
+    "UNSUPPORTED_REGION": "Unsupported region",
+    "UNKNOWN": "Something went wrong in response stream",
+    "FILE_RESOURCE_NOT_FOUND": "File resource not found",
+    "client_behaviour_413": "graceful end: {text, finished: true, lengthLimitHit: true}"
+  },
+  "client_methods": [
+    {"name": "query", "wire": "POST /api/query", "stream": true, "payload": {"sessionId": "uuid4 (client-generated)", "text": "string", "image": "optional S3 key from createUploadUrl"}},
+    {"name": "explain", "wire": "POST /api/explain", "stream": true},
+    {"name": "explainWrongAnswer", "wire": "POST /api/explain-wrong-answer", "stream": true, "payload": {"courseId": null, "courseName": null, "sessionId": null, "userProperties": {"yearGroup": null}, "question": {"text": null}, "correctAnswer": {"text": null}, "userAnswer": {"text": null}}},
+    {"name": "examQuestionConversation", "wire": "POST /api/exam-question-conversation", "stream": true},
+    {"name": "prompt", "wire": "POST /api/prompt", "stream": false, "payload": {"prompts": [], "skipModeration": false}, "status_400": "InappropriateContentError"},
+    {"name": "generatePrompts", "wire": "POST /api/generate-prompts", "stream": false},
+    {"name": "search", "wire": "POST /api/search", "stream": false, "observed_live": "502 on unverified payload shape"},
+    {"name": "generateImage", "wire": "POST /api/generate-image", "stream": false, "payload": {"prompt": null, "orientation": null}, "status_400": "InappropriateContentError", "status_401": "UnauthorizedError"},
+    {"name": "createUploadUrl", "wire": "POST /api/files/upload-url", "stream": false, "payload": {"contentType": null}, "response_201": {"uploadUrl": {"fields": {}, "url": "S3 presigned POST"}, "key": "file key riding next chat message"}},
+    {"name": "fetchSessions", "wire": "GET /api/sessions?limit&lastKey", "stream": false, "response": {"items": []}},
+    {"name": "fetchSessionMessages", "wire": "GET /api/sessions/{sessionId}", "stream": false, "response": {"sessionId": null, "chatbotMessages": []}, "note": "unknown id returns synthesized empty 200, not 404"},
+    {"name": "renameSession", "wire": "PATCH /api/sessions/{sessionId}", "stream": false, "payload": {"title": null}},
+    {"name": "deleteSession", "wire": "DELETE /api/sessions/{sessionId}", "stream": false, "success": 204, "unknown_id": 404},
+    {"name": "fetchSessionMessageAdmin", "wire": "GET /api/admin/sessions/{sessionId}/message?userId&timestamp", "stream": false, "statuses": [200, 400, 404]}
+  ],
+  "tts": {
+    "host": "text-to-speech.app.senecalearning.com",
+    "chatbot_speech": "GET /api/get-speech/chatbot?sessionId&timestamp -> {items: [{audioUrl, speechMarks}]}",
+    "module_speech": "POST /api/get-speech/module",
+    "validation_shape": "400 {reason: 'invalid timestamp', pointer: 'timestamp'}"
+  },
+  "model_and_rag_constants_client_bundle": {
+    "MODEL_GPT4_OMNI": "gpt-4o",
+    "MODEL_GPT4_OMNI_MINI": "gpt-4o-mini",
+    "TEMPERATURE": 0.1,
+    "MAX_MODEL_GPT4_OMNI_COMPLETION_TOKENS": 4096,
+    "MAX_RESPONSE_TOKENS": 700,
+    "MAX_QUERY_WORDS": 500,
+    "TOKENS_PER_WORD": 1.3333333333333333,
+    "MAX_REQUEST_TOKENS": "MAX_QUERY_WORDS * 4/3",
+    "MAX_EMBEDDINGS_CONTEXT_TOKENS": 300,
+    "MAX_FILES": 1,
+    "MAX_SIZE_BYTES": 5242880
+  },
+  "freemium_gating": {
+    "FreemiumRewardFeature": ["explainMyAnswer", "examQuestion", "wrongAnswers", "hardestQuestions"],
+    "RewardType": ["avatar", "freemium"],
+    "quota_hook": "useExplainMyAnswerAccess: remainingInvocation = premium ? Infinity : data?.explainMyAnswer ?? 0",
+    "growth_loop": "AI invocations granted as XP level-up freemium rewards; dashboard claim cards; invite-parent for more"
+  },
+  "live_gating_observation": {
+    "account": "teacher, free tier, non-UK egress (CloudFront HKG POP)",
+    "session_crud": "reachable (200)",
+    "ai_endpoints": "gated: /api/query returns HTTP 200 + text/event-stream with body '403 Forbidden' (pre-validation, identical for moderation-probe text); /api/prompt and /api/generate-image return 401 {reason: 'Invalid or missing access-key'}",
+    "candidate_mechanisms": ["entitlement (Amelia = Premium package)", "region/IP fence (UNSUPPORTED_REGION stream error; per-region enableChatBot flags)"],
+    "distinguishing_test": "requires UK egress or Premium account (not pursued)"
+  }
+}

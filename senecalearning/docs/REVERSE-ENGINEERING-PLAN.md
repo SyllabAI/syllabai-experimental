@@ -95,8 +95,17 @@ assignment-flow endpoint set. Remaining items below.
       decoded from session-xp frame** (completion + score + memory
       components; level thresholds 200→350); tournaments service
       rejects the token (auth-split family); leaderboards unprobed
-- [ ] AI surface: chatbot + short-answer payloads (deferred to a
-      controlled micro-probe; costs their LLM budget)
+- [x] AI surface: chatbot (session 8, 2026-10-22) — full
+      ChatbotServiceClient decoded (14 methods), streaming protocol
+      (200 + text/event-stream, raw text chunks, error-as-body enum),
+      model stack (gpt-4o / gpt-4o-mini @ temp 0.1, 700-tok responses,
+      300-tok embedding context), Amelia payloads, freemium quota as XP
+      rewards, session CRUD + admin surface; live probes show AI
+      endpoints gated for free teacher / non-UK egress (session CRUD
+      reachable); see research/2026-10-22-chatbot-ai.md +
+      captures/chatbot/. Open remainder: short-answer marking payloads
+      (AutoMarkType/LLM_MARKING_PROMPT_IDS discovered — Smart Mark
+      family, needs a real marking event)
 - [~] Teacher flows: class (`/api/classes/me`), assignments
       (`/api/teacher/me/assignments*`, `/api/classes/{id}/assignments`),
       tags/subjects funnel verified; analytics/MIS/report-cards open

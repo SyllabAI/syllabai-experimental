@@ -116,3 +116,14 @@ Not committed (local-only): raw pages incl. content bodies
 (`probe-results/rh3/local-only-full-payloads/`, ~1,100 files), vocab-tab
 call capture, JWT. Session-3's `chemistry-resources-metadata.jsonl.gz`
 + `all-subjects-sample-metadata.jsonl.gz` superseded by `by-subject/`.
+
+## Phase 2 session 8 additions (2026-10-22, chatbot / Amelia)
+
+| Path | What | Source |
+|---|---|---|
+| `chatbot/endpoints-contract.json` | Machine-readable ChatbotServiceClient contract — 14 methods, streaming protocol, StreamErrors enum, model/RAG constants, freemium gating | chunk-corpus static extraction + live probes |
+| `chatbot/live-probe-evidence.md` | Sanitized probe log: session CRUD reachable, AI endpoints gated pre-validation; verbatim response headers (200 + SSE with error-as-body) | authenticated teacher pass |
+
+Not committed (local-only): raw probe bodies (`probe-results/chatbot/`, token-free
+but kept out of git by policy), JWT (`/tmp`, removed), chunk corpus
+(`captures/js/`, 1,920 files incl. the dynamic-import closure the chat UI lives in).

@@ -97,3 +97,45 @@ WebSocket (see session-lifecycle note): `wss://session-ws…?access-key=<JWT>&se
 Observed in UI, unverified: `/quiz-preview` route, Wrong-Answers mode (needs
 history), Exam-Questions mode, memory-palace map micro-question
 (geolocation guess scored 0–100), weekly-plan (`GET /api/weekly-plan/me?weekStartDate=`).
+
+## Session 8 additions (2026-10-22 — chatbot / Amelia)
+
+Full contract in research/2026-10-22-chatbot-ai.md + captures/chatbot/endpoints-contract.json.
+Auth: `access-key` Firebase token; streaming endpoints use raw fetch (correlationId +
+access-key + user-region only), JSON endpoints use requestMaker (+X-Amz-Date).
+
+| Endpoint | Style | Notes |
+|---|---|---|
+| `POST chatbot…/api/query` `{sessionId,text,image?}` | **stream** | Amelia chat; client-gen UUID session ids |
+| `POST chatbot…/api/explain` | **stream** | |
+| `POST chatbot…/api/explain-wrong-answer` `{courseId,courseName,sessionId,userProperties:{yearGroup},question,correctAnswer,userAnswer}` | **stream** | in-session coach |
+| `POST chatbot…/api/exam-question-conversation` | **stream** | |
+| `POST chatbot…/api/prompt` `{prompts,skipModeration}` | JSON | 400 InappropriateContent |
+| `POST chatbot…/api/generate-prompts` | JSON | |
+| `POST chatbot…/api/search` | JSON | live probe 502 (shape unverified) |
+| `POST chatbot…/api/generate-image` `{prompt,orientation}` | JSON | 400 moderated / 401 unauthorised |
+| `POST chatbot…/api/files/upload-url` `{contentType}` | JSON | `201 {uploadUrl:{fields,url}, key}` S3 presigned POST |
+| `GET chatbot…/api/sessions?limit&lastKey` | JSON | `{items[]}` cursor list |
+| `GET chatbot…/api/sessions/{id}` | JSON | `{sessionId, chatbotMessages[]}`; unknown id → synthesized empty 200 |
+| `PATCH chatbot…/api/sessions/{id}` `{title}` | JSON | rename |
+| `DELETE chatbot…/api/sessions/{id}` | JSON | 204; unknown id → 404 |
+| `GET chatbot…/api/admin/sessions/{id}/message?userId&timestamp` | JSON | admin/observability surface |
+| `GET text-to-speech…/api/get-speech/chatbot?sessionId&timestamp` | JSON | `{items:[{audioUrl,speechMarks}]}`; 400 `{reason,pointer}` |
+
+Streaming protocol: `content-type: text/event-stream` but **raw UTF-8 text chunks**
+(no SSE framing); errors signalled as literal StreamErrors strings in the stream
+(`400 Bad request: inappropriate content`, `413 …conversation length limit hit`
+→ graceful `lengthLimitHit:true`, `422 …`, `Unsupported region`, …).
+
+Model stack (client-bundled constants): `gpt-4o` / `gpt-4o-mini`, temperature 0.1,
+max completion 4096, response cap 700 tokens, query cap 500 words, **embeddings
+context 300 tokens** — grounded RAG over Seneca course content.
+
+Live gating (free teacher, non-UK egress): session CRUD 200; AI endpoints gated
+pre-validation (`/api/query` → 200 + stream body `403 Forbidden`; `/api/prompt`,
+`/api/generate-image` → 401 `Invalid or missing access-key`). Entitlement
+(Amelia = Premium) and/or IP-region fence; distinguishing test needs UK egress.
+
+Freemium quota: `FreemiumRewardFeature` = {explainMyAnswer, examQuestion,
+wrongAnswers, hardestQuestions} granted as XP level-up rewards;
+`remainingInvocation = premium ? Infinity : data?.explainMyAnswer ?? 0`.
