@@ -1,6 +1,6 @@
 {
  "exportedAt": "2026-10-22",
- "note": "Pilot lane: Pure 1 Quadratics (subtopic 1.1, spec points 1.1.1-1.1.5)",
+ "note": "Pilot lane: Pure 1 Quadratics (subtopic 1.1, spec points 1.1.1-1.1.5) | 2026-10-23: extended with the 1.2 Functions rows for the P3c lane-2 cross-map (titles verbatim from the of-record hub spine parse, cie-a-level-maths-20-pure-1 curriculum.json).",
  "source": "syllabai-v2 apps/hub/spines/cie-a-level-maths-20-pure-1.json + content-maps/cie-a-level-maths-20-pure-1.json",
  "rights": "spec codes + titles + item IDs/counts only (facts, mode-1); no item text exported",
  "course": "9709",
@@ -31,6 +31,31 @@
    "code": "1.1.5",
    "subtopic": "Quadratics",
    "title": "recognise and solve equations in x which are quadratic in some function of x . tan"
+  },
+  {
+   "code": "1.2.1",
+   "subtopic": "Functions",
+   "title": "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+  },
+  {
+   "code": "1.2.2",
+   "subtopic": "Functions",
+   "title": "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+  },
+  {
+   "code": "1.2.3",
+   "subtopic": "Functions",
+   "title": "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases"
+  },
+  {
+   "code": "1.2.4",
+   "subtopic": "Functions",
+   "title": "illustrate in graphical terms the relation between Sketches should include an indication of the mirror a one-one function and its inverse line"
+  },
+  {
+   "code": "1.2.5",
+   "subtopic": "Functions",
+   "title": "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
   }
  ],
  "itemInventory": {
