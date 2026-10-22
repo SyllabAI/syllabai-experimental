@@ -178,10 +178,13 @@ worth doing regardless of any Mode-3 outcome.
       200). **Launch gate G1 found: 0/24 resource pages have Wayback
       snapshots** (availability API + CDX verified 2026-10-22) →
       fail-closed render law added; bootstrap is blocking before enable
-- [ ] hub lane page: "Explore further" module rendering 3–5 curated UGM
+- [~] hub lane page: "Explore further" module rendering 3–5 curated UGM
       deep links per lane (from the cross-map), rel-nofollow, link-health
-      check job (site is dormant — guard against rot, Wayback fallback)
-- [ ] measure: CTR on UGM links from lane pages
+      check job (site is dormant — guard against rot, Wayback fallback) —
+      **DROPPED with the P5 directive 2026-10-22**; superseded by the direct
+      content-consumption surfaces (P7, live for lanes 1–3 via #308/#312/#321)
+- [~] measure: CTR on UGM links from lane pages — moot with the link module
+      dropped; the direct surfaces' engagement measurement is operator-scoped
 
 ### P6 — conditional Mode-3 licensing track `[ ]` *(operator-gated)*
 - [ ] outreach to Cambridge Mathematics (they host UGM; a preservation-
@@ -238,12 +241,25 @@ worth doing regardless of any Mode-3 outcome.
       multi-lane — 2 stations, 10 spec points, 97 resources, 111 candidate
       rows; runtime Zod+loader battery 44/44, tsc/eslint/prebuild green;
       PR #311 manifest conflict resolved preserving both sides)
-- [ ] further lanes (next by spine adjacency: 1.3 Coordinate geometry —
-      `geometry-of-equations` + `circles` stations; then 1.5 Trigonometry)
+- [x] third lane: **Geometry of Equations + Circles → CIE 9709 P1 1.3 Coordinate
+      geometry (the first two-station lane)** — corpus + facts merged of record
+      as [syllabai-resources#66](https://github.com/SyllabAI/syllabai-resources/pull/66)
+      (tasks `T-UGM-MODE1-3` + `T-UGM-IMPORT-3`, MANIFEST v3, 85 bodies,
+      61/85 aligned, 77 rows over folded codes 1.3.1/1.3.2, 24 honest
+      non-overlaps); hub consumption **merged of record as
+      [syllabai-v2#321](https://github.com/SyllabAI/syllabai-v2/pull/321)**
+      (`f757c643`; task **`T-UGM-HUB-CONSUME-3`**; importer extended for
+      multi-station lanes — stationScope-audited lane blocks, per-resource
+      front-matter station; bundle 903 KB: 3 lanes / 4 stations, 12 spec
+      points, 188 rows, 38 non-overlaps, 182 bodies; lanes 1-2 byte-identical
+      through the regen; committed-bundle regression test added; tsc 0,
+      packages 527/527)
+- [ ] further lanes (next by spine adjacency: 1.5 Trigonometry —
+      `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
-      (`LANE_STATIONS` entry + expected census) + `ugm-resources.json` re-run
-      at the new pin
+      (`LANE_STATIONS` entry + expected census; multi-station blocks now
+      supported) + `ugm-resources.json` re-run at the new pin
 
 ## 5. Mode-4 pattern adoption — do these regardless (design tasks)
 
