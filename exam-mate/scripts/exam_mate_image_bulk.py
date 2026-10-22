@@ -384,15 +384,30 @@ def write_manifest(entries, summary_obj):
 
 
 def load_index():
-    entries = []
+    # compact: dedupe by url (last valid wins), drop torn lines
+    best = {}
+    order = []
     with open(INDEX_PATH) as f:
         for line in f:
+            if not line.strip():
+                continue
             try:
                 e = json.loads(line)
             except Exception:
                 continue
-            if e.get("status") == 200:
-                entries.append(e)
+            u = e.get("url")
+            if not u:
+                continue
+            if u not in best:
+                order.append(u)
+            best[u] = e
+    entries = [best[u] for u in order if best[u].get("status") == 200]
+    # rewrite compacted ledger atomically
+    tmp = INDEX_PATH + ".tmp"
+    with open(tmp, "w") as f:
+        for u in order:
+            f.write(json.dumps(best[u], ensure_ascii=False) + "\n")
+    os.replace(tmp, INDEX_PATH)
     return entries
 
 
