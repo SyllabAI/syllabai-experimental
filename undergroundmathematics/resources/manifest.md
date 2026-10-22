@@ -4,11 +4,14 @@
 (automated capture via scripts, polite spacing, descriptive User-Agent
 `SyllabAI-research-capture/0.1`).
 
-All committed captures are **metadata-only**, from the site's public REST
-API. No copyrighted content (question/solution bodies, PDFs, images, site
-assets) is committed — see `../docs/IP-AND-COPYRIGHT-NOTES.md`.
+Committed captures: **metadata** from the site's public REST API and, since
+the Phase 2 operator decision of 2026-10-22, **extracted content bodies**
+from the full crawl (see `../docs/IP-AND-COPYRIGHT-NOTES.md` for the recorded
+decision and its conditions). Site binaries/assets remain excluded.
 
 ## Committed captures
+
+### Metadata (public API)
 
 | File | Source endpoint | Captured | Rows | Notes |
 |---|---|---|---|---|
@@ -19,16 +22,24 @@ assets) is committed — see `../docs/IP-AND-COPYRIGHT-NOTES.md`.
 | `api/all-resources.json` | `GET /api/stations/{id}/resources/all` (24 live stations, looped; per-station responses retained locally, not committed) | 2026-10-22 | 855 | master inventory; each record stamped `_station`; wrapper records source + capture date + total |
 | `api/key-questions.json` | `GET /api/stations/{id}/key-questions` (looped) | 2026-10-22 | 113 | per-station key questions; 4 under-construction stations return 401 (absent) |
 
+### Content (Phase 2 crawl + extraction — see operator decision in `../docs/IP-AND-COPYRIGHT-NOTES.md`)
+
+| File | Source | Captured | Rows | Notes |
+|---|---|---|---|---|
+| `content/{station}.json` (24 files) | HTML crawl of all 855 resource pages + section + teacher-support pages (2,486 pages, 0 failures) | 2026-10-22 | 855 resources / 2,181 sections | per-resource records with full section bodies (`html` + `text`): Question/Problem, Suggestion, Solution, Interactive graph; teacher-support sections merged; acknowledgement + last-updated + ref preserved; canonical URL on every record |
+| `content-assets.json` | discovered PDF/asset links during crawl | 2026-10-22 | — | asset URLs only; binaries not crawled |
+
 ## Local-only artifacts (analysis inputs, not committed)
 
 | Artifact | Source | Why local-only |
 |---|---|---|
 | `home.html` | `GET /` | site shell (© markup) — used for stack/link analysis |
-| `quadratics.html`, `discriminating.html`, `r5059.html` | `GET /quadratics`, `/quadratics/discriminating`, `/quadratics/r5059` | resource pages contain copyrighted question/solution bodies — HTML retained locally for structure analysis only |
+| `quadratics.html`, `discriminating.html`, `r5059.html`, `discriminating-ts.html` | `GET` exemplar pages | superseded by the full crawl (raw store local) |
 | `about.html`, `about-website.txt` | `GET /about`, `/about/website` | prose pages; findings paraphrased into research notes rather than committed |
 | `main.min.js`, `resource.min.js` | `/static/js/main.min.js`, `/static/js/public/resource.min.js` | site code (©) — endpoint strings catalogued in research notes |
 | `sitemap.xml` probe | `GET /sitemap.xml` | 404 — no sitemap exists |
 | per-station `station-*.json` | `/api/stations/{id}/resources/all` | superseded by `all-resources.json` aggregate; dropped from commit to avoid duplication |
+| Phase-2 raw crawl store (`ugm-crawl/raw/`, 2,486 HTML files, ~46 MB) | full site crawl 2026-10-22 | raw © markup retained locally for verification; the committed canonical form is `content/{station}.json` |
 
 ## Capture method
 
@@ -40,6 +51,11 @@ assets) is committed — see `../docs/IP-AND-COPYRIGHT-NOTES.md`.
 3. Client-bundle scan: endpoint strings extracted from served JS to map the
    API surface (215 endpoints; groups in
    `../research/2026-10-22-api-catalogue.md`).
+4. Phase 2 content crawl (2026-10-22): resumable crawler, ~0.4 s spacing,
+   descriptive UA, menu-driven section discovery, 3× retry with backoff —
+   2,486 pages / 0 failures; extraction via BeautifulSoup into
+   `content/{station}.json` (method + schema in
+   `../research/2026-10-22-phase2-crawl-and-extraction.md`).
 
 ## Re-capture
 

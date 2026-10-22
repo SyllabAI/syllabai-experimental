@@ -22,36 +22,39 @@ dataset of the corpus if the experiment graduates.
 - [x] API surface catalogue (research/2026-10-22-api-catalogue.md)
 - [x] URL scheme verification (research/2026-10-22-url-schemes.md)
 
-### Phase 2 — Content-structure crawl `[ ]`
+### Phase 2 — Content-structure crawl `[x]` (2026-10-22)
 
-- [ ] Polite crawl of all 855 resource pages (server-rendered HTML) at
-      ~0.5–1 req/s with a descriptive UA; harvest raw HTML into local
-      storage only (not committed to this public repo — see IP notes).
-- [ ] Parse each page into the section model: question/problem, suggestion,
-      solution, teacher support, interactive-graph markers, acknowledgements,
-      "last updated".
-- [ ] Resolve the open URL shapes (resource-in-action tab; teacher notes
-      placement; supporting-materials PDF URL pattern
-      `supportingMaterialsViewModel.getPdfDownloadUrl`).
-- [ ] Capture the tubemap rendering (SVG structure, line paths, station
-      positions from API data) as a spec.
-- [ ] Sample the printable PDF pipeline output for a few resources; record
-      the HTML→PDF parity behaviours.
-- [ ] Investigate the real search endpoint parameters (UI uses
-      autocomplete + `/api/search`; our naive probe returned empty).
+- [x] Polite crawl of all 855 resource pages + section pages + teacher-support
+      pages: **2,486 HTML pages, 0 failures**, ~0.4 s spacing, resumable
+      (research/2026-10-22-phase2-crawl-and-extraction.md)
+- [x] Parsed each page into the section model: question/problem, suggestion,
+      solution, interactive graph, teacher support, acknowledgements,
+      "last updated" — one section per URL, `qwell` duplication pattern
+      documented
+- [x] Resolved URL shapes: sections are first-class URLs
+      (`/{station}/{slug}/{section}`); teacher support is a sibling resource
+      with its own section URLs; PDF assets live under `/components/` and
+      `/download/`
+- [x] Extraction committed per operator decision:
+      `resources/content/{station}.json` (2,181 section bodies incl.
+      question/solution HTML+text) + `resources/content-assets.json`
+- [ ] Tubemap SVG rendering spec (line paths, label layout) — moved to a
+      later pass
+- [ ] Search endpoint parameters (UI-equivalent query) — low priority
 
-### Phase 3 — Canonical extraction `[ ]`
+### Phase 3 — Canonical extraction `[~]`
 
-- [ ] Define a canonical JSON schema for UGM resources
-      (identity, taxonomy links, sections, provenance, rights flags) —
-      mirroring the structure their own DB exposes.
-- [ ] Extract the full corpus into `resources/` as **metadata + structural
-      digests only** (no copyrighted question/solution bodies committed).
-- [ ] Build the station→line→key-question→pervasive-idea relation graph
-      export (JSON/GraphML) for cross-mapping experiments.
+- [x] Canonical JSON schema implemented in the extractor (identity,
+      taxonomy, sections with html+text, teacher support, assets,
+      provenance) — see research/2026-10-22-phase2-crawl-and-extraction.md
+- [x] Full corpus extracted and committed (855 resources, 2,181 sections)
+- [ ] `qwell` dedup pass (strip re-displayed question wells from
+      suggestion/solution bodies into a shared `questionWell` field)
+- [ ] Station→line→key-question→pervasive-idea relation graph export
+      (JSON/GraphML)
 - [ ] Cross-map UGM stations/lines to CIE (and Edexcel) spines from
       `syllabai-v2` (cie-phase1/2 registry work) — the deliverable that
-      makes this experiment platform-relevant.
+      makes this experiment platform-relevant
 
 ### Phase 4 — Design synthesis `[ ]`
 

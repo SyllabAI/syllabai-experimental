@@ -54,7 +54,12 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
 
 ## Status
 
-- 2026-10-22: site identification, taxonomy + inventory capture (metadata),
-  content model and technical architecture analysis. See
-  [`docs/REVERSE-ENGINEERING-PLAN.md`](./docs/REVERSE-ENGINEERING-PLAN.md)
-  for next phases.
+- 2026-10-22: **Phase 1** — site identification, taxonomy + inventory capture
+  (metadata), content model and technical architecture analysis.
+- 2026-10-22: **Phase 2** — polite full-content crawl (2,486 pages, 0
+  failures) + section extraction: 855 resources / 2,181 section bodies
+  committed under `resources/content/` per operator decision (see
+  `docs/IP-AND-COPYRIGHT-NOTES.md`). Discovery notes in
+  `research/2026-10-22-phase2-crawl-and-extraction.md`.
+- Next: Phase 3 (qwell dedup, relation-graph export, CIE/Edexcel spine
+  cross-mapping) — see `docs/REVERSE-ENGINEERING-PLAN.md`.

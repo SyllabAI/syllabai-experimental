@@ -1,0 +1,823 @@
+{
+ "calculus-meets-functions/can-you-find-curvy-cubics": [
+  "/calculus-meets-functions/can-you-find-curvy-cubics/assets/sample-work-printable.pdf",
+  "/calculus-meets-functions/can-you-find-curvy-cubics/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/choose-your-families": [
+  "/calculus-meets-functions/choose-your-families/assets/families.pdf",
+  "/calculus-meets-functions/choose-your-families/components/cards.pdf",
+  "/calculus-meets-functions/choose-your-families/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/curvy-cubics": [
+  "/calculus-meets-functions/curvy-cubics/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/gradients-of-gradients": [
+  "/calculus-meets-functions/gradients-of-gradients/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/keep-your-distance": [
+  "/calculus-meets-functions/keep-your-distance/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/slippery-slopes": [
+  "/calculus-meets-functions/slippery-slopes/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/thinking-constantly": [
+  "/calculus-meets-functions/thinking-constantly/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/two-way-calculus": [
+  "/calculus-meets-functions/two-way-calculus-teacher-support/assets/twowaycalculus-studentwork.pdf",
+  "/calculus-meets-functions/two-way-calculus/download/teacher-notes.pdf"
+ ],
+ "calculus-meets-functions/what-else-do-you-know": [
+  "/calculus-meets-functions/what-else-do-you-know/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/binomials-are-the-answer": [
+  "/calculus-of-powers/binomials-are-the-answer/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/calculus-of-variations": [
+  "/calculus-of-powers/calculus-of-variations/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/floppy-hair": [
+  "/calculus-of-powers/floppy-hair/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/gradient-spotting": [
+  "/calculus-of-powers/gradient-spotting/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/integral-chasing": [
+  "/calculus-of-powers/integral-chasing/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/meaningful-areas": [
+  "/calculus-of-powers/meaningful-areas/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/queen-dido": [
+  "/calculus-of-powers/queen-dido/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/stretch-the-function": [
+  "/calculus-of-powers/stretch-the-function/download/teacher-notes.pdf"
+ ],
+ "calculus-of-powers/tangent-or-normal": [
+  "/calculus-of-powers/tangent-or-normal/components/cards-single.pdf",
+  "/calculus-of-powers/tangent-or-normal/components/cards.pdf",
+  "/calculus-of-powers/tangent-or-normal/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/estimating-gradients": [
+  "/calculus-trig-log/estimating-gradients/assets/student-worksheet.pdf",
+  "/calculus-trig-log/estimating-gradients/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/inverse-integrals": [
+  "/calculus-trig-log/inverse-integrals/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/rotating-derivatives": [
+  "/calculus-trig-log/rotating-derivatives/components/diagrams-cards.pdf",
+  "/calculus-trig-log/rotating-derivatives/components/suggestion-cards.pdf",
+  "/calculus-trig-log/rotating-derivatives/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/similar-derivatives": [
+  "/calculus-trig-log/similar-derivatives/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/sine-on-the-dotted-line": [
+  "/calculus-trig-log/sine-on-the-dotted-line/components/expressions.pdf",
+  "/calculus-trig-log/sine-on-the-dotted-line/components/sketches.pdf",
+  "/calculus-trig-log/sine-on-the-dotted-line/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/sine-stretching": [
+  "/calculus-trig-log/sine-stretching/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/stretching-an-integral": [
+  "/calculus-trig-log/stretching-an-integral/components/diagrams.pdf",
+  "/calculus-trig-log/stretching-an-integral/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/to-the-limit": [
+  "/calculus-trig-log/to-the-limit/components/cards.pdf",
+  "/calculus-trig-log/to-the-limit/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/trig-gradient-match": [
+  "/calculus-trig-log/trig-gradient-match/components/alternative-cards.pdf",
+  "/calculus-trig-log/trig-gradient-match/components/cards.pdf",
+  "/calculus-trig-log/trig-gradient-match/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/trigsy-integrals": [
+  "/calculus-trig-log/trigsy-integrals/download/teacher-notes.pdf"
+ ],
+ "calculus-trig-log/two-for-one": [
+  "/calculus-trig-log/two-for-one/download/teacher-notes.pdf"
+ ],
+ "chain-rule/can-you-find-chain-rule-edition": [
+  "/chain-rule/can-you-find-chain-rule-edition/download/teacher-notes.pdf"
+ ],
+ "chain-rule/chain-mapping": [
+  "/chain-rule/chain-mapping/assets/mapping-diagrams-composite-2.pdf",
+  "/chain-rule/chain-mapping/assets/mapping-diagrams-composite.pdf",
+  "/chain-rule/chain-mapping/download/teacher-notes.pdf"
+ ],
+ "chain-rule/circular-slice": [
+  "/chain-rule/circular-slice/assets/circular-slice-worksheet.pdf",
+  "/chain-rule/circular-slice/download/teacher-notes.pdf"
+ ],
+ "chain-rule/differentiating-exponentials": [
+  "/chain-rule/differentiating-exponentials/download/teacher-notes.pdf"
+ ],
+ "chain-rule/i-can-see-u": [
+  "/chain-rule/i-can-see-u/download/teacher-notes.pdf"
+ ],
+ "chain-rule/implicit-circles": [
+  "/chain-rule/implicit-circles/download/teacher-notes.pdf"
+ ],
+ "chain-rule/integral-sorting": [
+  "/chain-rule/integral-sorting/components/cards.pdf",
+  "/chain-rule/integral-sorting/download/teacher-notes.pdf"
+ ],
+ "chain-rule/odd-one-out": [
+  "/chain-rule/odd-one-out/assets/table-graphs.pdf",
+  "/chain-rule/odd-one-out/assets/table.pdf",
+  "/chain-rule/odd-one-out/download/teacher-notes.pdf"
+ ],
+ "chain-rule/parametric-paths": [
+  "/chain-rule/parametric-paths/components/cards.pdf",
+  "/chain-rule/parametric-paths/download/teacher-notes.pdf"
+ ],
+ "chain-rule/parametric-points": [
+  "/chain-rule/parametric-points/components/cards.pdf",
+  "/chain-rule/parametric-points/components/x-cards.pdf",
+  "/chain-rule/parametric-points/download/teacher-notes.pdf"
+ ],
+ "chain-rule/parametric-preliminaries": [
+  "/chain-rule/parametric-preliminaries/download/teacher-notes.pdf"
+ ],
+ "chain-rule/powerful-derivatives": [
+  "/chain-rule/powerful-derivatives/download/teacher-notes.pdf"
+ ],
+ "chain-rule/reflecting-on-change": [
+  "/chain-rule/reflecting-on-change/download/teacher-notes.pdf"
+ ],
+ "chain-rule/slippery-areas": [
+  "/chain-rule/slippery-areas/download/teacher-notes.pdf"
+ ],
+ "chain-rule/slippery-slopes-another-derivative": [
+  "/chain-rule/slippery-slopes-another-derivative/download/teacher-notes.pdf"
+ ],
+ "chain-rule/which-substitution": [
+  "/chain-rule/which-substitution/download/teacher-notes.pdf"
+ ],
+ "circles/belt": [
+  "/circles/belt/download/teacher-notes.pdf"
+ ],
+ "circles/cones": [
+  "/circles/cones/download/teacher-notes.pdf"
+ ],
+ "circles/cutting-spheres": [
+  "/circles/cutting-spheres/download/teacher-notes.pdf"
+ ],
+ "circles/elliptical-crossings": [
+  "/circles/elliptical-crossings/download/teacher-notes.pdf"
+ ],
+ "circles/finding-circles": [
+  "/circles/finding-circles/download/teacher-notes.pdf"
+ ],
+ "circles/olympic-rings": [
+  "/circles/olympic-rings/download/teacher-notes.pdf"
+ ],
+ "circles/pairs-of-circles": [
+  "/circles/pairs-of-circles/download/teacher-notes.pdf"
+ ],
+ "circles/sector-spirals": [
+  "/circles/sector-spirals/download/teacher-notes.pdf"
+ ],
+ "circles/r6838": [
+  "/circles/r6838/download/teacher-notes.pdf"
+ ],
+ "combining-functions/r7119": [
+  "/combining-functions/r7119/download/teacher-notes.pdf"
+ ],
+ "combining-functions/compose": [
+  "/combining-functions/compose/download/teacher-notes.pdf"
+ ],
+ "combining-functions/composing-gets-me-nowhere": [
+  "/combining-functions/composing-gets-me-nowhere/download/teacher-notes.pdf"
+ ],
+ "combining-functions/domain-and-range-dominoes": [
+  "/combining-functions/domain-and-range-dominoes/components/blank-cards.pdf",
+  "/combining-functions/domain-and-range-dominoes/components/cards.pdf",
+  "/combining-functions/domain-and-range-dominoes/download/teacher-notes.pdf"
+ ],
+ "combining-functions/forming-functions-defining-domains": [
+  "/combining-functions/forming-functions-defining-domains/download/teacher-notes.pdf"
+ ],
+ "combining-functions/function-builder-i": [
+  "/combining-functions/function-builder-i/assets/cards.pdf",
+  "/combining-functions/function-builder-i/components/cards.pdf",
+  "/combining-functions/function-builder-i/download/teacher-notes.pdf"
+ ],
+ "combining-functions/invertibles": [
+  "/combining-functions/invertibles/components/functions-cards.pdf",
+  "/combining-functions/invertibles/components/graphs-page.pdf",
+  "/combining-functions/invertibles/download/teacher-notes.pdf"
+ ],
+ "combining-functions/its-a-matter-of-perspective": [
+  "/combining-functions/its-a-matter-of-perspective/download/teacher-notes.pdf"
+ ],
+ "combining-functions/making-inverse-functions": [
+  "/combining-functions/making-inverse-functions/components/cards.pdf",
+  "/combining-functions/making-inverse-functions/download/teacher-notes.pdf"
+ ],
+ "combining-functions/name-that-graph-again": [
+  "/combining-functions/name-that-graph-again/download/teacher-notes.pdf"
+ ],
+ "combining-functions/order-order": [
+  "/combining-functions/order-order/download/teacher-notes.pdf"
+ ],
+ "combining-functions/picture-the-process-ii": [
+  "/combining-functions/picture-the-process-ii/download/teacher-notes.pdf"
+ ],
+ "combining-functions/transformers": [
+  "/combining-functions/transformers/components/cards.pdf",
+  "/combining-functions/transformers/download/teacher-notes.pdf"
+ ],
+ "combining-functions/translating-or-not": [
+  "/combining-functions/translating-or-not/download/teacher-notes.pdf"
+ ],
+ "combining-vectors/is-it-a-plane": [
+  "/combining-vectors/is-it-a-plane/download/teacher-notes.pdf"
+ ],
+ "counting-and-binomials/line-crossings": [
+  "/counting-and-binomials/line-crossings/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/s-prime-numbers": [
+  "/divisibility-and-induction/s-prime-numbers/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/a-diophantine-equation": [
+  "/divisibility-and-induction/a-diophantine-equation/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/an-olympiad-question": [
+  "/divisibility-and-induction/an-olympiad-question/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/buckets-and-ponds": [
+  "/divisibility-and-induction/buckets-and-ponds/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/division-game": [
+  "/divisibility-and-induction/division-game/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/euclids-algorithm": [
+  "/divisibility-and-induction/euclids-algorithm/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/factorial-fun": [
+  "/divisibility-and-induction/factorial-fun/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/lcm-sudoku": [
+  "/divisibility-and-induction/lcm-sudoku/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/multiplication-magic-square": [
+  "/divisibility-and-induction/multiplication-magic-square/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/one-step-two-step": [
+  "/divisibility-and-induction/one-step-two-step/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/picture-this": [
+  "/divisibility-and-induction/picture-this/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/the-fundamental-theorem-of-arithmetic": [
+  "/divisibility-and-induction/the-fundamental-theorem-of-arithmetic/download/teacher-notes.pdf"
+ ],
+ "divisibility-and-induction/triominoes": [
+  "/divisibility-and-induction/triominoes/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/calculators1950": [
+  "/exp-and-log/calculators1950/assets/logtables.pdf",
+  "/exp-and-log/calculators1950/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/an-irrational-inequality": [
+  "/exp-and-log/an-irrational-inequality/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/changing-bases": [
+  "/exp-and-log/changing-bases/components/graph.pdf",
+  "/exp-and-log/changing-bases/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/factorial-fragments": [
+  "/exp-and-log/factorial-fragments/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/how-far-did-the-earth-move": [
+  "/exp-and-log/how-far-did-the-earth-move/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/how-fast-does-it-grow": [
+  "/exp-and-log/how-fast-does-it-grow/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/log-lattice": [
+  "/exp-and-log/log-lattice/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/log-lineup": [
+  "/exp-and-log/log-lineup/assets/partially-sorted-cards.png",
+  "/exp-and-log/log-lineup/components/cards.pdf",
+  "/exp-and-log/log-lineup/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/plotting-planets": [
+  "/exp-and-log/plotting-planets/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/proving-laws-of-logs": [
+  "/exp-and-log/proving-laws-of-logs/components/cards.pdf",
+  "/exp-and-log/proving-laws-of-logs/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/reach-for-the-stars": [
+  "/exp-and-log/reach-for-the-stars/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/see-the-power": [
+  "/exp-and-log/see-the-power/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/summing-to-one": [
+  "/exp-and-log/summing-to-one/download/teacher-notes.pdf"
+ ],
+ "exp-and-log/to-log-or-not-to-log": [
+  "/exp-and-log/to-log-or-not-to-log/components/cards.pdf",
+  "/exp-and-log/to-log-or-not-to-log/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/between-the-lines": [
+  "/geometry-of-equations/between-the-lines/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/r8408": [
+  "/geometry-of-equations/r8408/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/lots-of-lines": [
+  "/geometry-of-equations/lots-of-lines/assets/a10.pdf",
+  "/geometry-of-equations/lots-of-lines/components/cards.pdf",
+  "/geometry-of-equations/lots-of-lines/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/near-miss": [
+  "/geometry-of-equations/near-miss/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/negatively-triangular": [
+  "/geometry-of-equations/negatively-triangular/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/simultaneous-squares": [
+  "/geometry-of-equations/simultaneous-squares/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/spot-the-difference": [
+  "/geometry-of-equations/spot-the-difference/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/straight-line-pairs": [
+  "/geometry-of-equations/straight-line-pairs/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/describing-straight-lines": [
+  "/geometry-of-equations/describing-straight-lines/download/teacher-notes.pdf"
+ ],
+ "geometry-of-equations/the-circle-of-apollonius-coordinate-edition": [
+  "/geometry-of-equations/the-circle-of-apollonius-coordinate-edition/download/teacher-notes.pdf"
+ ],
+ "hyperbolic-functions/how-long-is-a-piece-of-string": [
+  "/hyperbolic-functions/how-long-is-a-piece-of-string/download/teacher-notes.pdf"
+ ],
+ "hyperbolic-functions/rolling-parabolas": [
+  "/hyperbolic-functions/rolling-parabolas/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/a-tangent-is": [
+  "/introducing-calculus/a-tangent-is/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/approximating-areas": [
+  "/introducing-calculus/approximating-areas/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/average-speed": [
+  "/introducing-calculus/average-speed/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/discussing-distance": [
+  "/introducing-calculus/discussing-distance/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/gradient-match": [
+  "/introducing-calculus/gradient-match/components/cards.pdf",
+  "/introducing-calculus/gradient-match/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/serpentine-lake": [
+  "/introducing-calculus/serpentine-lake/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/mapping-a-derivative": [
+  "/introducing-calculus/mapping-a-derivative/assets/mapping-diagrams-small.pdf",
+  "/introducing-calculus/mapping-a-derivative/assets/mapping-diagrams.pdf",
+  "/introducing-calculus/mapping-a-derivative/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/problem-areas": [
+  "/introducing-calculus/problem-areas/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/rectangles-in-triangles": [
+  "/introducing-calculus/rectangles-in-triangles/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/speed-vs-velocity": [
+  "/introducing-calculus/speed-vs-velocity/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/talking-about-curves": [
+  "/introducing-calculus/talking-about-curves/components/cards.pdf",
+  "/introducing-calculus/talking-about-curves/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/underneath-the-arches": [
+  "/introducing-calculus/underneath-the-arches/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/walk-sorting": [
+  "/introducing-calculus/walk-sorting/download/teacher-notes.pdf"
+ ],
+ "introducing-calculus/zooming-in": [
+  "/introducing-calculus/zooming-in/download/teacher-notes.pdf"
+ ],
+ "polynomials/absurder": [
+  "/polynomials/absurder/download/teacher-notes.pdf"
+ ],
+ "polynomials/can-you-find-asymptote-edition": [
+  "/polynomials/can-you-find-asymptote-edition/download/teacher-notes.pdf"
+ ],
+ "polynomials/can-you-find-cubic-edition": [
+  "/polynomials/can-you-find-cubic-edition/download/teacher-notes.pdf"
+ ],
+ "polynomials/divide-it-up": [
+  "/polynomials/divide-it-up/download/teacher-notes.pdf"
+ ],
+ "polynomials/frightening-function": [
+  "/polynomials/frightening-function/download/teacher-notes.pdf"
+ ],
+ "polynomials/function-builder-ii": [
+  "/polynomials/function-builder-ii/components/cards.pdf",
+  "/polynomials/function-builder-ii/components/printable-table.pdf",
+  "/polynomials/function-builder-ii/download/teacher-notes.pdf"
+ ],
+ "polynomials/happy-families": [
+  "/polynomials/happy-families/download/teacher-notes.pdf"
+ ],
+ "polynomials/how-not-to-solve-a-cubic": [
+  "/polynomials/how-not-to-solve-a-cubic/download/teacher-notes.pdf"
+ ],
+ "polynomials/inequalities": [
+  "/polynomials/inequalities/download/problem.pdf",
+  "/polynomials/inequalities/download/teacher-notes.pdf"
+ ],
+ "polynomials/whats-left": [
+  "/polynomials/whats-left/download/teacher-notes.pdf"
+ ],
+ "power-series/designing-a-polynomial": [
+  "/power-series/designing-a-polynomial/download/teacher-notes.pdf"
+ ],
+ "product-rule/constant-consistency": [
+  "/product-rule/constant-consistency/download/teacher-notes.pdf"
+ ],
+ "product-rule/how-does-your-rectangle-grow": [
+  "/product-rule/how-does-your-rectangle-grow/download/teacher-notes.pdf"
+ ],
+ "product-rule/integral-chasing-2": [
+  "/product-rule/integral-chasing-2/download/teacher-notes.pdf"
+ ],
+ "product-rule/producing-a-rule": [
+  "/product-rule/producing-a-rule/download/teacher-notes.pdf"
+ ],
+ "quadratics/discriminating": [
+  "/quadratics/discriminating/components/cards.pdf"
+ ],
+ "quadratics/factorisable-quads": [
+  "/quadratics/factorisable-quads/download/teacher-notes.pdf"
+ ],
+ "quadratics/geogebra-constructions-quadratic": [
+  "/quadratics/geogebra-constructions-quadratic/download/teacher-notes.pdf"
+ ],
+ "quadratics/inequalities-for-some-occasions": [
+  "/quadratics/inequalities-for-some-occasions/assets/venninequalities.pdf",
+  "/quadratics/inequalities-for-some-occasions/components/cards.pdf",
+  "/quadratics/inequalities-for-some-occasions/download/teacher-notes.pdf"
+ ],
+ "quadratics/irrational-roots": [
+  "/quadratics/irrational-roots/download/teacher-notes.pdf"
+ ],
+ "quadratics/name-that-graph": [
+  "/quadratics/name-that-graph/download/teacher-notes.pdf"
+ ],
+ "quadratics/paired-parabolas": [
+  "/quadratics/paired-parabolas/download/teacher-notes.pdf"
+ ],
+ "quadratics/parabella": [
+  "/quadratics/parabella/download/teacher-notes.pdf"
+ ],
+ "quadratics/parabolic-mirrors": [
+  "/quadratics/parabolic-mirrors/download/teacher-notes.pdf"
+ ],
+ "quadratics/pick-a-card": [
+  "/quadratics/pick-a-card/components/printabletable1.pdf",
+  "/quadratics/pick-a-card/components/printabletable2.pdf",
+  "/quadratics/pick-a-card/download/teacher-notes.pdf"
+ ],
+ "quadratics/powerful-quads": [
+  "/quadratics/powerful-quads/download/teacher-notes.pdf"
+ ],
+ "quadratics/proving-quad-formula": [
+  "/quadratics/proving-quad-formula/components/cards.pdf",
+  "/quadratics/proving-quad-formula/download/teacher-notes.pdf"
+ ],
+ "quadratics/quadratic-grids": [
+  "/quadratics/quadratic-grids/download/teacher-notes.pdf"
+ ],
+ "quadratics/quad-solving-sorter": [
+  "/quadratics/quad-solving-sorter/components/equations-cards.pdf",
+  "/quadratics/quad-solving-sorter/components/groups-cards.pdf",
+  "/quadratics/quad-solving-sorter/download/teacher-notes.pdf"
+ ],
+ "quadratics/quad-symmetry": [
+  "/quadratics/quad-symmetry/download/teacher-notes.pdf"
+ ],
+ "quadratics/which-parabola": [
+  "/quadratics/which-parabola/download/teacher-notes.pdf"
+ ],
+ "quadratics/which-quadratic": [
+  "/quadratics/which-quadratic/components/cards.pdf",
+  "/quadratics/which-quadratic/download/teacher-notes.pdf"
+ ],
+ "sequences/puzzling-pentagon": [
+  "/sequences/puzzling-pentagon/download/teacher-notes.pdf"
+ ],
+ "sequences/bouncing-to-nothing": [
+  "/sequences/bouncing-to-nothing/download/teacher-notes.pdf"
+ ],
+ "sequences/can-you-find-series-edition": [
+  "/sequences/can-you-find-series-edition/download/teacher-notes.pdf"
+ ],
+ "sequences/change-one-thing": [
+  "/sequences/change-one-thing/download/teacher-notes.pdf"
+ ],
+ "sequences/common-terms": [
+  "/sequences/common-terms/download/teacher-notes.pdf"
+ ],
+ "sequences/connect-three": [
+  "/sequences/connect-three/components/cards.pdf",
+  "/sequences/connect-three/download/teacher-notes.pdf"
+ ],
+ "sequences/same-different": [
+  "/sequences/same-different/download/teacher-notes.pdf"
+ ],
+ "sequences/sort-it-out": [
+  "/sequences/sort-it-out/components/sequence-cards.pdf",
+  "/sequences/sort-it-out/components/sequence-groupings.pdf",
+  "/sequences/sort-it-out/download/teacher-notes.pdf"
+ ],
+ "sequences/square-spirals": [
+  "/sequences/square-spirals/download/teacher-notes.pdf"
+ ],
+ "sequences/sum-estimating": [
+  "/sequences/sum-estimating/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/n5-n": [
+  "/thinking-about-algebra/n5-n/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/comparing-continued-fractions": [
+  "/thinking-about-algebra/comparing-continued-fractions/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/equation-sudoku": [
+  "/thinking-about-algebra/equation-sudoku/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/index-issues": [
+  "/thinking-about-algebra/index-issues/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/multiple-manipulations": [
+  "/thinking-about-algebra/multiple-manipulations/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/nested-surds": [
+  "/thinking-about-algebra/nested-surds/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/powerful-fractions": [
+  "/thinking-about-algebra/powerful-fractions/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/real-world-problems": [
+  "/thinking-about-algebra/real-world-problems/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/two-way-algebra": [
+  "/thinking-about-algebra/two-way-algebra/assets/printabletable.pdf",
+  "/thinking-about-algebra/two-way-algebra/download/teacher-notes.pdf"
+ ],
+ "thinking-about-algebra/which-is-bigger": [
+  "/thinking-about-algebra/which-is-bigger/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/absolutely": [
+  "/thinking-about-functions/absolutely/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/approaching-asymptotes": [
+  "/thinking-about-functions/approaching-asymptotes/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/curve-match": [
+  "/thinking-about-functions/curve-match/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/function-squares": [
+  "/thinking-about-functions/function-squares/components/functions-cards2.pdf",
+  "/thinking-about-functions/function-squares/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/inequality-flip-flop": [
+  "/thinking-about-functions/inequality-flip-flop/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/mapping-a-function": [
+  "/thinking-about-functions/mapping-a-function/assets/mapping-diagrams-small.pdf",
+  "/thinking-about-functions/mapping-a-function/assets/mapping-diagrams.pdf",
+  "/thinking-about-functions/mapping-a-function/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/odd-or-even-or": [
+  "/thinking-about-functions/odd-or-even-or/components/cards.pdf",
+  "/thinking-about-functions/odd-or-even-or/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/picture-the-process-i": [
+  "/thinking-about-functions/picture-the-process-i/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/piece-it-together": [
+  "/thinking-about-functions/piece-it-together/components/equation-cards.pdf",
+  "/thinking-about-functions/piece-it-together/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/thats-odd-or-even": [
+  "/thinking-about-functions/thats-odd-or-even/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/two-way-functions": [
+  "/thinking-about-functions/two-way-functions-teacher-support/assets/twowayfunctions-studentwork.pdf",
+  "/thinking-about-functions/two-way-functions/assets/printabletable.pdf",
+  "/thinking-about-functions/two-way-functions/components/cards.pdf",
+  "/thinking-about-functions/two-way-functions/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/what-relation-are-you": [
+  "/thinking-about-functions/what-relation-are-you/assets/worksheet.pdf",
+  "/thinking-about-functions/what-relation-are-you/download/teacher-notes.pdf"
+ ],
+ "thinking-about-functions/worth-1000-words": [
+  "/thinking-about-functions/worth-1000-words/components/function-cards.pdf",
+  "/thinking-about-functions/worth-1000-words/components/graphs-cards.pdf",
+  "/thinking-about-functions/worth-1000-words/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/a-limiting-circle-theorem": [
+  "/thinking-about-geometry/a-limiting-circle-theorem/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/perfect-fit": [
+  "/thinking-about-geometry/perfect-fit/assets/table.pdf",
+  "/thinking-about-geometry/perfect-fit/components/suggestion-table.pdf",
+  "/thinking-about-geometry/perfect-fit/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/all-about-ratios": [
+  "/thinking-about-geometry/all-about-ratios/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/distance-between-points": [
+  "/thinking-about-geometry/distance-between-points/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/finding-triangles": [
+  "/thinking-about-geometry/finding-triangles/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/in-betweens": [
+  "/thinking-about-geometry/in-betweens/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/look-before-you-leap": [
+  "/thinking-about-geometry/look-before-you-leap/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/napkin": [
+  "/thinking-about-geometry/napkin/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/pinning-down-pi": [
+  "/thinking-about-geometry/pinning-down-pi/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/proving-pythag": [
+  "/thinking-about-geometry/proving-pythag/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/quadrature-of-the-lunes": [
+  "/thinking-about-geometry/quadrature-of-the-lunes/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/quintessential-proof": [
+  "/thinking-about-geometry/quintessential-proof/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/spider-fly-1": [
+  "/thinking-about-geometry/spider-fly-1/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/triangles-are-the-strongest-shape": [
+  "/thinking-about-geometry/triangles-are-the-strongest-shape/assets/polyhedron-net.pdf",
+  "/thinking-about-geometry/triangles-are-the-strongest-shape/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/what-type-of-triangle": [
+  "/thinking-about-geometry/what-type-of-triangle/download/teacher-notes.pdf"
+ ],
+ "thinking-about-geometry/r8179": [
+  "/thinking-about-geometry/r8179/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/square-root-of-2-is-irrational": [
+  "/thinking-about-numbers/square-root-of-2-is-irrational/components/cards.pdf",
+  "/thinking-about-numbers/square-root-of-2-is-irrational/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/difference-of-two-fractions": [
+  "/thinking-about-numbers/difference-of-two-fractions/components/cards.pdf",
+  "/thinking-about-numbers/difference-of-two-fractions/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/absurd": [
+  "/thinking-about-numbers/absurd/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/divide-and-conquer": [
+  "/thinking-about-numbers/divide-and-conquer/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/fractions-everywhere": [
+  "/thinking-about-numbers/fractions-everywhere/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/irrational-constructions": [
+  "/thinking-about-numbers/irrational-constructions/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/prime-triangles": [
+  "/thinking-about-numbers/prime-triangles/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/scary-sum": [
+  "/thinking-about-numbers/scary-sum/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/staircase-sequences": [
+  "/thinking-about-numbers/staircase-sequences/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/staircase-sequences-revisited": [
+  "/thinking-about-numbers/staircase-sequences-revisited/download/teacher-notes.pdf"
+ ],
+ "thinking-about-numbers/whats-possible": [
+  "/thinking-about-numbers/whats-possible/download/teacher-notes.pdf"
+ ],
+ "trigonometry-compound-angles/t-for-tan": [
+  "/trigonometry-compound-angles/t-for-tan/download/teacher-notes.pdf"
+ ],
+ "trigonometry-compound-angles/equation-or-identity-ii": [
+  "/trigonometry-compound-angles/equation-or-identity-ii/download/teacher-notes.pdf"
+ ],
+ "trigonometry-compound-angles/inspecting-identities": [
+  "/trigonometry-compound-angles/inspecting-identities/download/teacher-notes.pdf"
+ ],
+ "trigonometry-compound-angles/proving-half-angle-formulae": [
+  "/trigonometry-compound-angles/proving-half-angle-formulae/download/teacher-notes.pdf"
+ ],
+ "trigonometry-compound-angles/the-great-circle-distance": [
+  "/trigonometry-compound-angles/the-great-circle-distance/download/teacher-notes.pdf"
+ ],
+ "trigonometry-compound-angles/transformation-or-not": [
+  "/trigonometry-compound-angles/transformation-or-not/download/teacher-notes.pdf"
+ ],
+ "trigonometry-compound-angles/trig-countdown": [
+  "/trigonometry-compound-angles/trig-countdown/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/big-trig": [
+  "/trigonometry-triangles-to-functions/big-trig/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/can-you-find-trigonometry-edition": [
+  "/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/equation-or-identity-i": [
+  "/trigonometry-triangles-to-functions/equation-or-identity-i/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/general-solutions": [
+  "/trigonometry-triangles-to-functions/general-solutions/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/going-round-in-circles": [
+  "/trigonometry-triangles-to-functions/going-round-in-circles/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/have-a-sine": [
+  "/trigonometry-triangles-to-functions/have-a-sine/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/how-high-am-i": [
+  "/trigonometry-triangles-to-functions/how-high-am-i/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/inverse-or-not": [
+  "/trigonometry-triangles-to-functions/inverse-or-not/components/graphs-cards.pdf",
+  "/trigonometry-triangles-to-functions/inverse-or-not/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/inverse-trig-functions": [
+  "/trigonometry-triangles-to-functions/inverse-trig-functions/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/lost-but-lovely-the-haversine": [
+  "/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/muddled-trig": [
+  "/trigonometry-triangles-to-functions/muddled-trig/components/function-cards.pdf",
+  "/trigonometry-triangles-to-functions/muddled-trig/components/graphs-cards.pdf",
+  "/trigonometry-triangles-to-functions/muddled-trig/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/sine-ing-the-way": [
+  "/trigonometry-triangles-to-functions/sine-ing-the-way/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/slices-of-pi": [
+  "/trigonometry-triangles-to-functions/slices-of-pi/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/trig-tables": [
+  "/trigonometry-triangles-to-functions/trig-tables-teacher-support/assets/problem-modified.pdf",
+  "/trigonometry-triangles-to-functions/trig-tables/assets/problem-modified.pdf",
+  "/trigonometry-triangles-to-functions/trig-tables/assets/table-worksheet.pdf",
+  "/trigonometry-triangles-to-functions/trig-tables/download/teacher-notes.pdf"
+ ],
+ "trigonometry-triangles-to-functions/trig-tables-teacher-support": [
+  "/trigonometry-triangles-to-functions/trig-tables-teacher-support/assets/problem-modified.pdf"
+ ],
+ "vector-geometry/frictional-story": [
+  "/vector-geometry/frictional-story/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/hit-the-spot": [
+  "/vector-geometry/hit-the-spot/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/lots-of-vector-lines": [
+  "/vector-geometry/lots-of-vector-lines/components/cards.pdf",
+  "/vector-geometry/lots-of-vector-lines/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/make-it-equal": [
+  "/vector-geometry/make-it-equal/components/cards.pdf",
+  "/vector-geometry/make-it-equal/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/make-it-stop": [
+  "/vector-geometry/make-it-stop/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/one-windy-day": [
+  "/vector-geometry/one-windy-day/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/three-lines": [
+  "/vector-geometry/three-lines/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/vector-squares": [
+  "/vector-geometry/vector-squares/download/teacher-notes.pdf"
+ ],
+ "vector-geometry/where-did-it-land": [
+  "/vector-geometry/where-did-it-land/download/teacher-notes.pdf"
+ ]
+}

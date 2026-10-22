@@ -17,7 +17,7 @@ in the **public** repo `SyllabAI/syllabai-experimental`.
 
 ## Policy for this experiment
 
-**Committed to this public repo — allowed:**
+**Committed to this repo — allowed:**
 
 1. **API metadata captures** (`resources/api/*.json`): ids, slugs, titles,
    type/level/publish flags, taxonomy relations, station questions, key
@@ -29,16 +29,33 @@ in the **public** repo `SyllabAI/syllabai-experimental`.
 3. Our own analysis, schemas, summaries and short attributed quotes for
    commentary.
 
-**NOT committed to this repo:**
+**Amendment — operator decision of 2026-10-22 (Phase 2):**
 
-1. Full text of questions, suggestions, solutions, teacher notes or any
-   other substantive site content (HTML captures, PDFs, extracted bodies).
-2. Site assets (images, CSS/JS bundles, fonts, GeoGebra materials).
-3. Bulk mirrors of pages "to preserve them" — not our call to make.
+The operator has explicitly instructed that extracted **question and
+solution bodies** be committed to this repo as part of the Phase 2
+section extraction (`resources/content/{station}.json`). This supersedes
+the original "no bodies" policy above for this experiment folder. The
+commit is made:
 
-Raw content captured locally during research stays on the researcher's
-machine (or private storage), is used for analysis, and is discarded once
-the structural understanding is extracted into our own words.
+- for research/interoperability purposes within this sandboxed
+  experiment workspace;
+- with attribution and provenance preserved on every record
+  (`acknowledgement`, station, `ref`, canonical source `url`);
+- **without any change of rights**: all content remains © University of
+  Cambridge / © UCLES as applicable. Nothing in this repo grants reuse
+  rights; platform adoption (of record) still requires a licensing
+  conversation with Cambridge Mathematics / Cambridge Assessment Group
+  Archives first;
+- at research scale (~10.8 MB extracted HTML/text), not a bulk mirror of
+  the site's binaries, code or design assets (CSS/JS/images/PDFs remain
+  excluded).
+
+**Still NOT committed to this repo:**
+
+1. Site binaries and assets (images, CSS/JS bundles, fonts, GeoGebra
+   materials, printable PDFs).
+2. The raw HTML crawl store (kept local; the extracted canonical JSON is
+   the committed form).
 
 **If SyllabAI ever wants to reuse UGM content of record** (e.g. review
 questions into the Smart Mark corpus, or the pedagogy wrappers): that

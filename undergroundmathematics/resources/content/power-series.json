@@ -1,0 +1,138 @@
+{
+ "station": "power-series",
+ "captured": "2026-10-22",
+ "source": "undergroundmathematics.org",
+ "count": 3,
+ "resources": [
+  {
+   "friendlyName": "r7436",
+   "url": "https://undergroundmathematics.org/power-series/r7436",
+   "title": "Can we expand $(1+x)^{3/2} + (1-2x)^{3/4}$ as far as the term in $x^3$?",
+   "description": null,
+   "resourceTypeId": 10,
+   "resourceLevel": null,
+   "ref": 7436,
+   "oldSiteId": null,
+   "acknowledgement": null,
+   "station": {
+    "id": 19,
+    "friendlyId": "power-series",
+    "title": "Power Series"
+   },
+   "crawl": {
+    "captured": "2026-10-22",
+    "mainPage": "ok"
+   },
+   "pageMeta": {
+    "typeLabel": "Review question",
+    "title": "Can we expand $(1+x)^{3/2} + (1-2x)^{3/4}$ as far as the term in $x^3$? Add to your resource collection Remove from your resource collection Add notes to this resource View your notes for this resource",
+    "ref": "Ref: R7436",
+    "acknowledgement": "UCLES O level Additional Mathematics 2, QP 420/2, 1967, Q5(i)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n.",
+    "lastUpdated": "Last updated 05-May-17"
+   },
+   "sections": [
+    {
+     "name": "Question",
+     "url": "https://undergroundmathematics.org/power-series/r7436",
+     "title": "Question",
+     "html": "Use the binomial theorem to expand\n<span class=\"math display\">\\[\\begin{equation*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4}\n\\end{equation*}\\]</span>\n<p>as far as the term in <span class=\"math inline\">\\(x^3\\)</span>.</p>",
+     "text": "Use the binomial theorem to expand\n\\[\\begin{equation*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4}\n\\end{equation*}\\]\nas far as the term in\n\\(x^3\\)\n."
+    },
+    {
+     "name": "Solution",
+     "url": "https://undergroundmathematics.org/power-series/r7436/solution",
+     "title": "Solution",
+     "html": "<div data-cm-element=\"qwell\">\nUse the binomial theorem to expand\n<span class=\"math display\">\\[\\begin{equation*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4}\n\\end{equation*}\\]</span>\n<p>as far as the term in <span class=\"math inline\">\\(x^3\\)</span>.</p>\n</div>\nThe <a data-cm-glossary-toggle=\"binomial-theorem\" href=\"/glossary/binomial-theorem\">binomial theorem</a> says that, if <span class=\"math inline\">\\(|x| &lt; 1\\)</span>, then\n<span class=\"math display\">\\[\\begin{equation*}\n    (1+x)^r = 1 + rx + \\frac{r(r-1)}{2!} x^2 + \\frac{r(r-1)(r-2)}{3!} x^3 + \\dotsb\n\\end{equation*}\\]</span>\nand so to expand\n<span class=\"math display\">\\[\\begin{equation*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4}\n\\end{equation*}\\]</span>\n<p>as far as the term in <span class=\"math inline\">\\(x^3\\)</span>, we can</p>\n<ol type=\"1\">\n<li>separately expand <span class=\"math inline\">\\((1+x)^\\frac{3}{2}\\)</span> and <span class=\"math inline\">\\((1-2x)^\\frac{3}{4}\\)</span> up to <span class=\"math inline\">\\(x^3\\)</span> and</li>\n<li>collect the terms.</li>\n</ol>\nThus\n<span class=\"math display\">\\[\\begin{align*}\n    (1+x)^\\frac{3}{2} &amp;= 1 + \\frac{3}{2}x + \\frac{\\frac{3}{2} \\times \\frac{1}{2}}{2!} x^2 + \\frac{\\frac{3}{2} \\times \\frac{1}{2} \\times \\left(- \\frac{1}{2} \\right)}{3!} x^3 + \\ldots\\\\\n    &amp;= 1 + \\frac{3}{2} x + \\frac{3}{8} x^2 - \\frac{3}{48} x^3 + \\ldots, \n\\end{align*}\\]</span>\nand\n<span class=\"math display\">\\[\\begin{align*}\n    (1-2x)^\\frac{3}{4} &amp;= 1 + \\frac{3}{4} (-2x) + \\frac{\\frac{3}{4} \\times \\left( -\\frac{1}{4} \\right)}{2!} (-2x)^2 + \\frac{\\frac{3}{4} \\times \\left( -\\frac{1}{4} \\right) \\times \\left( -\\frac{5}{4} \\right)}{3!} (-2x)^3 + \\ldots\\\\\n    &amp;= 1 - \\frac{3}{2} x - \\frac{3}{8} x^2 - \\frac{15}{48} x^3 + \\ldots,\n\\end{align*}\\]</span>\nand therefore\n<span class=\"math display\">\\[\\begin{align*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4} &amp;= \\left( 1 + \\frac{3}{2} x + \\frac{3}{8} x^2 - \\frac{3}{48} x^3 \\right) + \\left( 1 - \\frac{3}{2} x - \\frac{3}{8} x^2 - \\frac{15}{48} x^3 \\right)+ \\ldots \\\\\n    &amp;= 2 - \\frac{18}{48} x^3 + \\ldots \\\\\n    &amp;= 2 - \\frac{3}{8} x^3 + \\ldots\n\\end{align*}\\]</span>",
+     "text": "Use the binomial theorem to expand\n\\[\\begin{equation*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4}\n\\end{equation*}\\]\nas far as the term in\n\\(x^3\\)\n.\nThe\nbinomial theorem\nsays that, if\n\\(|x| < 1\\)\n, then\n\\[\\begin{equation*}\n    (1+x)^r = 1 + rx + \\frac{r(r-1)}{2!} x^2 + \\frac{r(r-1)(r-2)}{3!} x^3 + \\dotsb\n\\end{equation*}\\]\nand so to expand\n\\[\\begin{equation*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4}\n\\end{equation*}\\]\nas far as the term in\n\\(x^3\\)\n, we can\nseparately expand\n\\((1+x)^\\frac{3}{2}\\)\nand\n\\((1-2x)^\\frac{3}{4}\\)\nup to\n\\(x^3\\)\nand\ncollect the terms.\nThus\n\\[\\begin{align*}\n    (1+x)^\\frac{3}{2} &= 1 + \\frac{3}{2}x + \\frac{\\frac{3}{2} \\times \\frac{1}{2}}{2!} x^2 + \\frac{\\frac{3}{2} \\times \\frac{1}{2} \\times \\left(- \\frac{1}{2} \\right)}{3!} x^3 + \\ldots\\\\\n    &= 1 + \\frac{3}{2} x + \\frac{3}{8} x^2 - \\frac{3}{48} x^3 + \\ldots, \n\\end{align*}\\]\nand\n\\[\\begin{align*}\n    (1-2x)^\\frac{3}{4} &= 1 + \\frac{3}{4} (-2x) + \\frac{\\frac{3}{4} \\times \\left( -\\frac{1}{4} \\right)}{2!} (-2x)^2 + \\frac{\\frac{3}{4} \\times \\left( -\\frac{1}{4} \\right) \\times \\left( -\\frac{5}{4} \\right)}{3!} (-2x)^3 + \\ldots\\\\\n    &= 1 - \\frac{3}{2} x - \\frac{3}{8} x^2 - \\frac{15}{48} x^3 + \\ldots,\n\\end{align*}\\]\nand therefore\n\\[\\begin{align*}\n    (1+x)^\\frac{3}{2} + (1-2x)^\\frac{3}{4} &= \\left( 1 + \\frac{3}{2} x + \\frac{3}{8} x^2 - \\frac{3}{48} x^3 \\right) + \\left( 1 - \\frac{3}{2} x - \\frac{3}{8} x^2 - \\frac{15}{48} x^3 \\right)+ \\ldots \\\\\n    &= 2 - \\frac{18}{48} x^3 + \\ldots \\\\\n    &= 2 - \\frac{3}{8} x^3 + \\ldots\n\\end{align*}\\]"
+    }
+   ]
+  },
+  {
+   "friendlyName": "designing-a-polynomial",
+   "url": "https://undergroundmathematics.org/power-series/designing-a-polynomial",
+   "title": "Designing a polynomial",
+   "description": null,
+   "resourceTypeId": 7,
+   "resourceLevel": "Developing",
+   "ref": 9355,
+   "oldSiteId": "C8_RT1_1",
+   "acknowledgement": null,
+   "station": {
+    "id": 19,
+    "friendlyId": "power-series",
+    "title": "Power Series"
+   },
+   "crawl": {
+    "captured": "2026-10-22",
+    "mainPage": "ok"
+   },
+   "pageMeta": {
+    "typeLabel": "Investigation",
+    "title": "Designing a polynomial Add to your resource collection Remove from your resource collection Add notes to this resource View your notes for this resource",
+    "lastUpdated": "Last updated 29-Jan-17"
+   },
+   "sections": [
+    {
+     "name": "Problem",
+     "url": "https://undergroundmathematics.org/power-series/designing-a-polynomial",
+     "title": "Problem",
+     "html": "<div data-cm-element=\"well\">\n<p>Can we design a polynomial in <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(p(x)\\)</span>, such that <span class=\"math inline\">\\(p(x)=p'(x)\\)</span>?</p>\n</div>\n<div data-cm-element=\"toggle\" data-cm-type=\"info\">\n<button data-cm-element=\"toggle-button\" type=\"button\">\nPrompting questions\n</button>\n<div data-cm-element=\"toggle-content\" style=\"display:none;\">\n<ol type=\"a\">\n<li><p>What is the simplest polynomial in <span class=\"math inline\">\\(x\\)</span> you can think of and what is its derivative?</p></li>\n<li><p>What powers of <span class=\"math inline\">\\(x\\)</span> do you want the polynomial to include and what does this mean for the derivative?</p></li>\n</ol>\n</div>\n</div>\n<p>You may want to use <a data-cm-element=\"link\" href=\"https://www.desmos.com/calculator\" target=\"_blank\">Desmos</a> to plot the function <span class=\"math inline\">\\(p(x)\\)</span> as you construct it.</p>",
+     "text": "Can we design a polynomial in\n\\(x\\)\n,\n\\(p(x)\\)\n, such that\n\\(p(x)=p'(x)\\)\n?\nPrompting questions\nWhat is the simplest polynomial in\n\\(x\\)\nyou can think of and what is its derivative?\nWhat powers of\n\\(x\\)\ndo you want the polynomial to include and what does this mean for the derivative?\nYou may want to use\nDesmos\nto plot the function\n\\(p(x)\\)\nas you construct it."
+    },
+    {
+     "name": "Things you might have tried",
+     "url": "https://undergroundmathematics.org/power-series/designing-a-polynomial/things-you-might-have-tried",
+     "title": "Things you might have tried",
+     "html": "<div data-cm-element=\"qwell\">\n<p>Can we design a polynomial in <span class=\"math inline\">\\(x\\)</span>, <span class=\"math inline\">\\(p(x)\\)</span>, such that <span class=\"math inline\">\\(p(x)=p'(x)\\)</span>?</p>\n</div>\n<p>To tackle this question we could look at the prompting questions.</p>\n<div data-cm-element=\"qwell\">\n<ol type=\"a\">\n<li>What is the simplest polynomial in <span class=\"math inline\">\\(x\\)</span> you can think of and what is its derivative?</li>\n</ol>\n</div>\n<p>The simplest polynomial in <span class=\"math inline\">\\(x\\)</span> could be <span class=\"math inline\">\\(p(x)=\\text{constant}\\)</span>. If this were the case then <span class=\"math inline\">\\(p'(x)=0\\)</span>, so if the constant equals zero then we would have a solution. This solution does seem a silly one, can we find another?</p>\n<div data-cm-element=\"well\">\n<p>We could choose <span class=\"math inline\">\\(p(x)=c+x\\)</span>, where <span class=\"math inline\">\\(c\\)</span> is a constant. What would <span class=\"math inline\">\\(c\\)</span> need to be to make <span class=\"math inline\">\\(p'(x)\\)</span> have the same constant term as <span class=\"math inline\">\\(p(x)\\)</span> in this case?</p>\n</div>\n<div data-cm-element=\"toggle\" data-cm-type=\"success\">\n<button data-cm-element=\"toggle-button\" type=\"button\">\nAnswer\n</button>\n<div data-cm-element=\"toggle-content\" style=\"display:none;\">\n<p>If we could choose <span class=\"math inline\">\\(p(x)=c+x\\)</span>, where <span class=\"math inline\">\\(c\\)</span> is a constant then this would give <span class=\"math inline\">\\(p'(x)=1\\)</span>. Thus, if we choose <span class=\"math inline\">\\(c\\)</span> to be <span class=\"math inline\">\\(1\\)</span> we would have <span class=\"math inline\">\\(p(x)\\)</span> and <span class=\"math inline\">\\(p'(x)\\)</span> agreeing as far as the <span class=\"math inline\">\\(x^0\\)</span> (constant) term (but they disagree beyond that).</p>\n</div>\n</div>\n<div data-cm-element=\"qwell\">\n<ol start=\"2\" type=\"a\">\n<li>What powers of <span class=\"math inline\">\\(x\\)</span> do you want the polynomial to include and what does this mean for the derivative?</li>\n</ol>\n</div>\n<p>If we choose to include an <span class=\"math inline\">\\(x^2\\)</span> term in our polynomial <span class=\"math inline\">\\(p(x)\\)</span>, then <span class=\"math inline\">\\(p'(x)\\)</span> would include an <span class=\"math inline\">\\(x\\)</span> term. From part (a), if we choose <span class=\"math inline\">\\(p(x)=1+x\\)</span> then we have <span class=\"math inline\">\\(p(x)\\)</span> agreeing with <span class=\"math inline\">\\(p'(x)\\)</span> as far as the <span class=\"math inline\">\\(x^0\\)</span> term. So if we include <span class=\"math inline\">\\(\\dfrac{x^2}{2}\\)</span> in <span class=\"math inline\">\\(p(x)\\)</span>, we would then get <span class=\"math display\">\\[p(x)=1+x+\\frac{x^2}{2}\\]</span> and <span class=\"math display\">\\[p'(x)=1+x,\\]</span> so that <span class=\"math inline\">\\(p(x)\\)</span> and <span class=\"math inline\">\\(p'(x)\\)</span> agree as far as the <span class=\"math inline\">\\(x^1\\)</span> term (but not beyond).</p>\n<div data-cm-element=\"chalk\">\n<p>How could we continue this?</p>\n</div>\n<div data-cm-element=\"well\">\n<p>What do the polynomials you find look like when plotted, <span class=\"math inline\">\\(y=p(x)\\)</span>?</p>\n</div>\n<p>You may want to use <a data-cm-element=\"link\" href=\"https://www.desmos.com/calculator\" target=\"_blank\">Desmos</a> to plot the function <span class=\"math inline\">\\(p(x)\\)</span> as you construct it.</p>",
+     "text": "Can we design a polynomial in\n\\(x\\)\n,\n\\(p(x)\\)\n, such that\n\\(p(x)=p'(x)\\)\n?\nTo tackle this question we could look at the prompting questions.\nWhat is the simplest polynomial in\n\\(x\\)\nyou can think of and what is its derivative?\nThe simplest polynomial in\n\\(x\\)\ncould be\n\\(p(x)=\\text{constant}\\)\n. If this were the case then\n\\(p'(x)=0\\)\n, so if the constant equals zero then we would have a solution. This solution does seem a silly one, can we find another?\nWe could choose\n\\(p(x)=c+x\\)\n, where\n\\(c\\)\nis a constant. What would\n\\(c\\)\nneed to be to make\n\\(p'(x)\\)\nhave the same constant term as\n\\(p(x)\\)\nin this case?\nAnswer\nIf we could choose\n\\(p(x)=c+x\\)\n, where\n\\(c\\)\nis a constant then this would give\n\\(p'(x)=1\\)\n. Thus, if we choose\n\\(c\\)\nto be\n\\(1\\)\nwe would have\n\\(p(x)\\)\nand\n\\(p'(x)\\)\nagreeing as far as the\n\\(x^0\\)\n(constant) term (but they disagree beyond that).\nWhat powers of\n\\(x\\)\ndo you want the polynomial to include and what does this mean for the derivative?\nIf we choose to include an\n\\(x^2\\)\nterm in our polynomial\n\\(p(x)\\)\n, then\n\\(p'(x)\\)\nwould include an\n\\(x\\)\nterm. From part (a), if we choose\n\\(p(x)=1+x\\)\nthen we have\n\\(p(x)\\)\nagreeing with\n\\(p'(x)\\)\nas far as the\n\\(x^0\\)\nterm. So if we include\n\\(\\dfrac{x^2}{2}\\)\nin\n\\(p(x)\\)\n, we would then get\n\\[p(x)=1+x+\\frac{x^2}{2}\\]\nand\n\\[p'(x)=1+x,\\]\nso that\n\\(p(x)\\)\nand\n\\(p'(x)\\)\nagree as far as the\n\\(x^1\\)\nterm (but not beyond).\nHow could we continue this?\nWhat do the polynomials you find look like when plotted,\n\\(y=p(x)\\)\n?\nYou may want to use\nDesmos\nto plot the function\n\\(p(x)\\)\nas you construct it."
+    }
+   ],
+   "assets": [
+    "/power-series/designing-a-polynomial/download/teacher-notes.pdf"
+   ]
+  },
+  {
+   "friendlyName": "r6601",
+   "url": "https://undergroundmathematics.org/power-series/r6601",
+   "title": "What is this algebraic fraction if its expansion has no $x$ term?",
+   "description": null,
+   "resourceTypeId": 10,
+   "resourceLevel": null,
+   "ref": 6601,
+   "oldSiteId": null,
+   "acknowledgement": null,
+   "station": {
+    "id": 19,
+    "friendlyId": "power-series",
+    "title": "Power Series"
+   },
+   "crawl": {
+    "captured": "2026-10-22",
+    "mainPage": "ok"
+   },
+   "pageMeta": {
+    "typeLabel": "Review question",
+    "title": "What is this algebraic fraction if its expansion has no $x$ term? Add to your resource collection Remove from your resource collection Add notes to this resource View your notes for this resource",
+    "ref": "Ref: R6601",
+    "acknowledgement": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q2(b)(ii)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n.",
+    "lastUpdated": "Last updated 11-May-17"
+   },
+   "sections": [
+    {
+     "name": "Question",
+     "url": "https://undergroundmathematics.org/power-series/r6601",
+     "title": "Question",
+     "html": "<p>In the expansion of <span class=\"math display\">\\[\\frac{1+3x}{(1+ax)^2}\\]</span> in ascending powers of <span class=\"math inline\">\\(x\\)</span>, the coefficient of <span class=\"math inline\">\\(x\\)</span> is zero. Find the value of the constant <span class=\"math inline\">\\(a\\)</span>, and, when <span class=\"math inline\">\\(a\\)</span> has this value, obtain the expansion up to and including the term in <span class=\"math inline\">\\(x^3\\)</span>.</p>",
+     "text": "In the expansion of\n\\[\\frac{1+3x}{(1+ax)^2}\\]\nin ascending powers of\n\\(x\\)\n, the coefficient of\n\\(x\\)\nis zero. Find the value of the constant\n\\(a\\)\n, and, when\n\\(a\\)\nhas this value, obtain the expansion up to and including the term in\n\\(x^3\\)\n."
+    },
+    {
+     "name": "Solution",
+     "url": "https://undergroundmathematics.org/power-series/r6601/solution",
+     "title": "Solution",
+     "html": "<div data-cm-element=\"qwell\">\n<p>In the expansion of <span class=\"math display\">\\[\\frac{1+3x}{(1+ax)^2}\\]</span> in ascending powers of <span class=\"math inline\">\\(x\\)</span>, the coefficient of <span class=\"math inline\">\\(x\\)</span> is zero. Find the value of the constant <span class=\"math inline\">\\(a\\)</span>,</p>\n</div>\n<p>We first need to find an expansion for the denominator using the standard binomial expansion.</p>\n<p>The <a data-cm-glossary-toggle=\"binomial-theorem\" href=\"/glossary/binomial-theorem\">binomial theorem</a> says that, if <span class=\"math inline\">\\(|x| &lt; 1\\)</span>, then <span class=\"math display\">\\[\n    (1+x)^r = 1 + rx + \\frac{r(r-1)}{2!} x^2 + \\frac{r(r-1)(r-2)}{3!} x^3 + \\dotsb\n\\]</span></p>\nIn our case, <span class=\"math inline\">\\(r=-2\\)</span> and we have <span class=\"math inline\">\\(ax\\)</span> in place of <span class=\"math inline\">\\(x\\)</span>, so\n<span class=\"math display\">\\[\\begin{align*}\n    (1+ax)^{-2} &amp;= 1 -2ax + \\frac{-2(-3)}{2!}(ax)^2 + \\frac{-2(-3)(-4)}{3!} (ax)^3 + \\dotsb \\\\\n    &amp;=1-2ax+3a^2x^2-4a^3x^3 +\\dotsb\n\\end{align*}\\]</span>\n<p>The term in <span class=\"math inline\">\\(x\\)</span> of the expansion of <span class=\"math inline\">\\(\\dfrac{1+3x}{(1+ax)^2}\\)</span> comes from <span class=\"math inline\">\\(1 \\times (-2ax) + 3x \\times 1\\)</span>. If the coefficient is zero then we know that <span class=\"math inline\">\\(3-2a=0\\)</span> so <span class=\"math inline\">\\(a=\\dfrac{3}{2}\\)</span>.</p>\n<div data-cm-element=\"qwell\">\n<p>…and, when <span class=\"math inline\">\\(a\\)</span> has this value, obtain the expansion up to and including the term in <span class=\"math inline\">\\(x^3\\)</span>.</p>\n</div>\n<p>Multiplying by the numerator we get <span class=\"math display\">\\[\\frac{1+3x}{(1+ax)^2} = 1 + (3-2a)x+(3a^2-6a)x^2+(9a^2-4a^3)x^3+ \\dotsb \\]</span> and substituting for <span class=\"math inline\">\\(a\\)</span> we get <span class=\"math display\">\\[\\frac{1+3x}{(1+\\frac{3}{2}x)^2}=1-\\frac{9}{4}x^2+\\frac{27}{4}x^3 \\quad\\text{ up to and including the term in } x^3.\\]</span></p>\n<p>Note that the condition for the expansion to be valid is <span class=\"math inline\">\\(\\big|ax\\big|&lt;1\\)</span> which means that <span class=\"math inline\">\\(\\big|x\\big|&lt;\\frac{2}{3}\\)</span>.</p>",
+     "text": "In the expansion of\n\\[\\frac{1+3x}{(1+ax)^2}\\]\nin ascending powers of\n\\(x\\)\n, the coefficient of\n\\(x\\)\nis zero. Find the value of the constant\n\\(a\\)\n,\nWe first need to find an expansion for the denominator using the standard binomial expansion.\nThe\nbinomial theorem\nsays that, if\n\\(|x| < 1\\)\n, then\n\\[\n    (1+x)^r = 1 + rx + \\frac{r(r-1)}{2!} x^2 + \\frac{r(r-1)(r-2)}{3!} x^3 + \\dotsb\n\\]\nIn our case,\n\\(r=-2\\)\nand we have\n\\(ax\\)\nin place of\n\\(x\\)\n, so\n\\[\\begin{align*}\n    (1+ax)^{-2} &= 1 -2ax + \\frac{-2(-3)}{2!}(ax)^2 + \\frac{-2(-3)(-4)}{3!} (ax)^3 + \\dotsb \\\\\n    &=1-2ax+3a^2x^2-4a^3x^3 +\\dotsb\n\\end{align*}\\]\nThe term in\n\\(x\\)\nof the expansion of\n\\(\\dfrac{1+3x}{(1+ax)^2}\\)\ncomes from\n\\(1 \\times (-2ax) + 3x \\times 1\\)\n. If the coefficient is zero then we know that\n\\(3-2a=0\\)\nso\n\\(a=\\dfrac{3}{2}\\)\n.\n…and, when\n\\(a\\)\nhas this value, obtain the expansion up to and including the term in\n\\(x^3\\)\n.\nMultiplying by the numerator we get\n\\[\\frac{1+3x}{(1+ax)^2} = 1 + (3-2a)x+(3a^2-6a)x^2+(9a^2-4a^3)x^3+ \\dotsb \\]\nand substituting for\n\\(a\\)\nwe get\n\\[\\frac{1+3x}{(1+\\frac{3}{2}x)^2}=1-\\frac{9}{4}x^2+\\frac{27}{4}x^3 \\quad\\text{ up to and including the term in } x^3.\\]\nNote that the condition for the expansion to be valid is\n\\(\\big|ax\\big|<1\\)\nwhich means that\n\\(\\big|x\\big|<\\frac{2}{3}\\)\n."
+    }
+   ]
+  }
+ ]
+}
