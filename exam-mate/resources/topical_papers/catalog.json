@@ -1,0 +1,852 @@
+{
+ "categories": [
+  {
+   "id": 56,
+   "label": "MYP1"
+  },
+  {
+   "id": 57,
+   "label": "MYP2"
+  },
+  {
+   "id": 58,
+   "label": "MYP3"
+  },
+  {
+   "id": 59,
+   "label": "MYP 4,5"
+  },
+  {
+   "id": 7,
+   "label": "DIPLOMA"
+  },
+  {
+   "id": 3,
+   "label": "IGCSE"
+  },
+  {
+   "id": 12,
+   "label": "O-LEVEL"
+  },
+  {
+   "id": 5,
+   "label": "A-LEVEL"
+  },
+  {
+   "id": 4,
+   "label": "IGCSE"
+  },
+  {
+   "id": 21,
+   "label": "IGCSE (9-1)"
+  },
+  {
+   "id": 6,
+   "label": "A-LEVEL"
+  },
+  {
+   "id": 14,
+   "label": "GCSE (9-1)"
+  },
+  {
+   "id": 19,
+   "label": "AS"
+  },
+  {
+   "id": 16,
+   "label": "A-LEVEL"
+  },
+  {
+   "id": 15,
+   "label": "GCSE"
+  },
+  {
+   "id": 18,
+   "label": "AS"
+  },
+  {
+   "id": 17,
+   "label": "A-LEVEL"
+  },
+  {
+   "id": 53,
+   "label": "TYT (YKS)"
+  },
+  {
+   "id": 54,
+   "label": "AYT (YKS)"
+  },
+  {
+   "id": 55,
+   "label": "YDT (YKS)"
+  },
+  {
+   "id": 13,
+   "label": "SPM"
+  }
+ ],
+ "subjects_by_category": {
+  "3": [
+   {
+    "id": 11,
+    "label": "Additional Mathematics(0606)"
+   },
+   {
+    "id": 247,
+    "label": "Biology 9-1(0970)"
+   },
+   {
+    "id": 13,
+    "label": "Biology(0610)"
+   },
+   {
+    "id": 249,
+    "label": "Chemistry 9-1(0971)"
+   },
+   {
+    "id": 16,
+    "label": "Chemistry(0620)"
+   },
+   {
+    "id": 250,
+    "label": "Computer Science 9-1(0984)"
+   },
+   {
+    "id": 128,
+    "label": "Computer Science(0478)"
+   },
+   {
+    "id": 252,
+    "label": "Economics 9-1(0987)"
+   },
+   {
+    "id": 17,
+    "label": "Economics(0455)"
+   },
+   {
+    "id": 18,
+    "label": "English 1st Language(0500)"
+   },
+   {
+    "id": 19,
+    "label": "English 2nd Language(0510)"
+   },
+   {
+    "id": 24,
+    "label": "History(0470)"
+   },
+   {
+    "id": 23,
+    "label": "ICT(0417)"
+   },
+   {
+    "id": 262,
+    "label": "Mathematics 9-1(0980)"
+   },
+   {
+    "id": 136,
+    "label": "Mathematics International(0607)"
+   },
+   {
+    "id": 22,
+    "label": "Mathematics(0580)"
+   },
+   {
+    "id": 265,
+    "label": "Physics 9-1(0972)"
+   },
+   {
+    "id": 29,
+    "label": "Physics(0625)"
+   },
+   {
+    "id": 279,
+    "label": "Religious Studies(0490)"
+   },
+   {
+    "id": 25,
+    "label": "Science Combined(0653)"
+   },
+   {
+    "id": 26,
+    "label": "Science Coordinate(0654)"
+   },
+   {
+    "id": 266,
+    "label": "Sciences Co-ordinated 9-1(0973)"
+   },
+   {
+    "id": 30,
+    "label": "Sociology(0495)"
+   }
+  ],
+  "56": [
+   {
+    "id": 786,
+    "label": "Mathematics 6"
+   },
+   {
+    "id": 806,
+    "label": "Science 6"
+   }
+  ],
+  "57": [
+   {
+    "id": 800,
+    "label": "Mathematics 7"
+   },
+   {
+    "id": 807,
+    "label": "Science 7"
+   }
+  ],
+  "58": [
+   {
+    "id": 801,
+    "label": "Mathematics 8"
+   },
+   {
+    "id": 808,
+    "label": "Science 8"
+   }
+  ],
+  "59": [
+   {
+    "id": 803,
+    "label": "Biology"
+   },
+   {
+    "id": 804,
+    "label": "Chemistry"
+   },
+   {
+    "id": 802,
+    "label": "Mathematics 9"
+   },
+   {
+    "id": 805,
+    "label": "Physics"
+   },
+   {
+    "id": 815,
+    "label": "Science"
+   }
+  ],
+  "12": [
+   {
+    "id": 187,
+    "label": "Additional Mathematics(4037)"
+   },
+   {
+    "id": 193,
+    "label": "Biology(5090)"
+   },
+   {
+    "id": 194,
+    "label": "Business Studies(7115)"
+   },
+   {
+    "id": 201,
+    "label": "Chemistry(5070)"
+   },
+   {
+    "id": 202,
+    "label": "Combined Science(5129)"
+   },
+   {
+    "id": 205,
+    "label": "Computer Science(2210)"
+   },
+   {
+    "id": 208,
+    "label": "Economics(2281)"
+   },
+   {
+    "id": 200,
+    "label": "Mathematics (Syllabus D)(4024)"
+   },
+   {
+    "id": 222,
+    "label": "Physics(5054)"
+   },
+   {
+    "id": 229,
+    "label": "Statistics(4040)"
+   }
+  ],
+  "4": [
+   {
+    "id": 32,
+    "label": "Biology(4BI0)"
+   },
+   {
+    "id": 34,
+    "label": "Chemistry(4CH0)"
+   },
+   {
+    "id": 45,
+    "label": "Further Pure Math(4PM0)"
+   },
+   {
+    "id": 39,
+    "label": "Mathematics A(4MA0)"
+   },
+   {
+    "id": 40,
+    "label": "Mathematics B(4MB0)"
+   },
+   {
+    "id": 44,
+    "label": "Physics(4PH0)"
+   }
+  ],
+  "21": [
+   {
+    "id": 613,
+    "label": "Biology 9-1(4BI1)"
+   },
+   {
+    "id": 614,
+    "label": "Chemistry 9-1(4CH1)"
+   },
+   {
+    "id": 634,
+    "label": "Further Pure Math 9-1(4PM1)"
+   },
+   {
+    "id": 615,
+    "label": "Mathematics A 9-1(4MA1)"
+   },
+   {
+    "id": 637,
+    "label": "Mathematics B 9-1(4MB1)"
+   },
+   {
+    "id": 616,
+    "label": "Physics 9-1(4PH1)"
+   }
+  ],
+  "14": [
+   {
+    "id": 474,
+    "label": "Biology A (9-1) - Gateway Science Suite J247"
+   },
+   {
+    "id": 475,
+    "label": "Biology B (9-1) - Twenty First Century Science Suite J257"
+   },
+   {
+    "id": 477,
+    "label": "Chemistry A (9-1) - Gateway Science Suite J248"
+   },
+   {
+    "id": 478,
+    "label": "Chemistry B (9-1) - Twenty First Century Science Suite J258"
+   },
+   {
+    "id": 495,
+    "label": "Mathematics (9-1) J560"
+   },
+   {
+    "id": 499,
+    "label": "Physics A (9-1) - Gateway Science Suite J249"
+   },
+   {
+    "id": 500,
+    "label": "Physics B (9-1) - Twenty First Century Science Suite J259"
+   },
+   {
+    "id": 503,
+    "label": "Science A, Combined (9-1) - Gateway Science Suite J250"
+   },
+   {
+    "id": 504,
+    "label": "Science B, Combined (9-1) - Twenty First Century Science Suite J260"
+   }
+  ],
+  "19": [
+   {
+    "id": 544,
+    "label": "Biology A (H020)"
+   },
+   {
+    "id": 545,
+    "label": "Biology B (Advancing Biology) (H022)"
+   },
+   {
+    "id": 551,
+    "label": "Chemistry A (H032)"
+   },
+   {
+    "id": 553,
+    "label": "Chemistry B (Salters) H033"
+   },
+   {
+    "id": 567,
+    "label": "Mathematics A (H230)"
+   },
+   {
+    "id": 560,
+    "label": "Mathematics A, Further (H235)"
+   },
+   {
+    "id": 568,
+    "label": "Mathematics B (MEI) (H630)"
+   },
+   {
+    "id": 572,
+    "label": "Physics A (H156)"
+   },
+   {
+    "id": 573,
+    "label": "Physics B (Advancing Physics) (H157)"
+   }
+  ],
+  "16": [
+   {
+    "id": 507,
+    "label": "Biology A (H420)"
+   },
+   {
+    "id": 508,
+    "label": "Biology B (Advancing Biology) (H422)"
+   },
+   {
+    "id": 510,
+    "label": "Chemistry A (H432)"
+   },
+   {
+    "id": 511,
+    "label": "Chemistry B (Salters) (H433)"
+   },
+   {
+    "id": 529,
+    "label": "Mathematics A (H240)"
+   },
+   {
+    "id": 530,
+    "label": "Mathematics A, Further (H245)"
+   },
+   {
+    "id": 531,
+    "label": "Mathematics B (MEI) (H640)"
+   },
+   {
+    "id": 536,
+    "label": "Physics A (H556)"
+   },
+   {
+    "id": 537,
+    "label": "Physics B (Advancing Physics) (H557)"
+   }
+  ],
+  "15": [
+   {
+    "id": 363,
+    "label": "Biology (8461)"
+   },
+   {
+    "id": 365,
+    "label": "Chemistry (8462)"
+   },
+   {
+    "id": 368,
+    "label": "Combined Science: Synergy (8465)"
+   },
+   {
+    "id": 369,
+    "label": "Combined Science: Trilogy (8464)"
+   },
+   {
+    "id": 385,
+    "label": "Mathematics (8300)"
+   },
+   {
+    "id": 391,
+    "label": "Physics (8463)"
+   }
+  ],
+  "18": [
+   {
+    "id": 403,
+    "label": "Biology (7401)"
+   },
+   {
+    "id": 405,
+    "label": "Chemistry (7404)"
+   },
+   {
+    "id": 418,
+    "label": "Further Mathematics (7366)"
+   },
+   {
+    "id": 423,
+    "label": "Mathematics (7356)"
+   },
+   {
+    "id": 428,
+    "label": "Physics (7407)"
+   }
+  ],
+  "17": [
+   {
+    "id": 438,
+    "label": "Biology (7402)"
+   },
+   {
+    "id": 440,
+    "label": "Chemistry (7405)"
+   },
+   {
+    "id": 453,
+    "label": "Further Mathematics (7367)"
+   },
+   {
+    "id": 458,
+    "label": "Mathematics (7357)"
+   },
+   {
+    "id": 465,
+    "label": "Physics (7408)"
+   }
+  ],
+  "53": [
+   {
+    "id": 758,
+    "label": "Biyoloji"
+   },
+   {
+    "id": 760,
+    "label": "Coğrafya"
+   },
+   {
+    "id": 762,
+    "label": "Din Kültürü ve Ahlak Bilgisi"
+   },
+   {
+    "id": 761,
+    "label": "Felsefe"
+   },
+   {
+    "id": 756,
+    "label": "Fizik"
+   },
+   {
+    "id": 757,
+    "label": "Kimya"
+   },
+   {
+    "id": 759,
+    "label": "Tarih"
+   },
+   {
+    "id": 755,
+    "label": "Temel Matematik"
+   },
+   {
+    "id": 754,
+    "label": "Türkçe"
+   }
+  ],
+  "54": [
+   {
+    "id": 783,
+    "label": "Biyoloji"
+   },
+   {
+    "id": 765,
+    "label": "Coğrafya-1"
+   },
+   {
+    "id": 767,
+    "label": "Coğrafya-2"
+   },
+   {
+    "id": 776,
+    "label": "Din Kültürü ve Ahlak Bilgisi"
+   },
+   {
+    "id": 768,
+    "label": "Felsefe Grubu"
+   },
+   {
+    "id": 780,
+    "label": "Fizik"
+   },
+   {
+    "id": 778,
+    "label": "Geometri"
+   },
+   {
+    "id": 782,
+    "label": "Kimya"
+   },
+   {
+    "id": 777,
+    "label": "Matematik"
+   },
+   {
+    "id": 764,
+    "label": "Tarih-1"
+   },
+   {
+    "id": 766,
+    "label": "Tarih-2"
+   },
+   {
+    "id": 763,
+    "label": "Türk Dili ve Edebiyatı"
+   }
+  ],
+  "55": [
+   {
+    "id": 809,
+    "label": "ALMANCA"
+   },
+   {
+    "id": 810,
+    "label": "ARAPÇA"
+   },
+   {
+    "id": 811,
+    "label": "FRANSIZCA"
+   },
+   {
+    "id": 784,
+    "label": "İNGİLİZCE"
+   },
+   {
+    "id": 812,
+    "label": "RUSÇA"
+   }
+  ],
+  "13": [
+   {
+    "id": 323,
+    "label": "Additional Mathematics(3472)"
+   },
+   {
+    "id": 326,
+    "label": "Biology(4551)"
+   },
+   {
+    "id": 324,
+    "label": "Chemistry(4541)"
+   },
+   {
+    "id": 322,
+    "label": "Mathematics(1449)"
+   },
+   {
+    "id": 325,
+    "label": "Physics(4531)"
+   },
+   {
+    "id": 327,
+    "label": "Science(1511)"
+   }
+  ],
+  "7": [
+   {
+    "id": 74,
+    "label": "Biology"
+   },
+   {
+    "id": 751,
+    "label": "Biology (First Assessment 2025)"
+   },
+   {
+    "id": 78,
+    "label": "Chemistry"
+   },
+   {
+    "id": 753,
+    "label": "Chemistry (First Assessment 2025)"
+   },
+   {
+    "id": 80,
+    "label": "Economics"
+   },
+   {
+    "id": 86,
+    "label": "Further Mathematics"
+   },
+   {
+    "id": 116,
+    "label": "Global Politics"
+   },
+   {
+    "id": 112,
+    "label": "Mathematical Studies"
+   },
+   {
+    "id": 90,
+    "label": "Mathematics"
+   },
+   {
+    "id": 542,
+    "label": "Mathematics AA"
+   },
+   {
+    "id": 541,
+    "label": "Mathematics AI"
+   },
+   {
+    "id": 118,
+    "label": "Philosophy"
+   },
+   {
+    "id": 92,
+    "label": "Physics"
+   },
+   {
+    "id": 752,
+    "label": "Physics (First Assessment 2025)"
+   },
+   {
+    "id": 94,
+    "label": "Psychology"
+   },
+   {
+    "id": 121,
+    "label": "World Religions"
+   }
+  ],
+  "5": [
+   {
+    "id": 47,
+    "label": "Biology(9700)"
+   },
+   {
+    "id": 49,
+    "label": "Chemistry(9701)"
+   },
+   {
+    "id": 642,
+    "label": "Computer Science (from 2021)(9618)"
+   },
+   {
+    "id": 149,
+    "label": "Computer Science(9608)"
+   },
+   {
+    "id": 50,
+    "label": "Economics(9708)"
+   },
+   {
+    "id": 58,
+    "label": "Further Mathematics(9231)"
+   },
+   {
+    "id": 164,
+    "label": "History(9389)"
+   },
+   {
+    "id": 675,
+    "label": "History(9489)"
+   },
+   {
+    "id": 319,
+    "label": "Mathematics Mechanics (9709)"
+   },
+   {
+    "id": 55,
+    "label": "Mathematics Mechanics 1(9709)"
+   },
+   {
+    "id": 56,
+    "label": "Mathematics Mechanics 2(9709)"
+   },
+   {
+    "id": 320,
+    "label": "Mathematics Probability & Statistics 1 (9709)"
+   },
+   {
+    "id": 321,
+    "label": "Mathematics Probability & Statistics 2 (9709)"
+   },
+   {
+    "id": 51,
+    "label": "Mathematics Pure Math 1(9709)"
+   },
+   {
+    "id": 52,
+    "label": "Mathematics Pure Math 2,3(9709)"
+   },
+   {
+    "id": 53,
+    "label": "Mathematics Statistics 1(9709)"
+   },
+   {
+    "id": 54,
+    "label": "Mathematics Statistics 2(9709)"
+   },
+   {
+    "id": 174,
+    "label": "Physical Education(9396)"
+   },
+   {
+    "id": 57,
+    "label": "Physics(9702)"
+   },
+   {
+    "id": 291,
+    "label": "Psychology (from 2018)(9990)"
+   },
+   {
+    "id": 186,
+    "label": "Sociology(9699)"
+   }
+  ],
+  "6": [
+   {
+    "id": 61,
+    "label": "Biology(WBI01)"
+   },
+   {
+    "id": 617,
+    "label": "Biology(WBI11)"
+   },
+   {
+    "id": 63,
+    "label": "Chemistry(WCH01)"
+   },
+   {
+    "id": 618,
+    "label": "Chemistry(WCH11)"
+   },
+   {
+    "id": 67,
+    "label": "Further Pure Mathematics(WFM01)"
+   },
+   {
+    "id": 621,
+    "label": "Mathematics D1(WDM11)"
+   },
+   {
+    "id": 68,
+    "label": "Mathematics M1,M2,M3(WME01)"
+   },
+   {
+    "id": 620,
+    "label": "Mathematics Pure(WMA11)"
+   },
+   {
+    "id": 69,
+    "label": "Mathematics S1,S2,S3(WST01)"
+   },
+   {
+    "id": 65,
+    "label": "Maths Core(WMA01/WMA02)"
+   },
+   {
+    "id": 70,
+    "label": "Physics(WPH01)"
+   },
+   {
+    "id": 622,
+    "label": "Physics(WPH11)"
+   }
+  ]
+ }
+}

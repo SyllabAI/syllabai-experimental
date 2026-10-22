@@ -1,0 +1,131 @@
+{
+ "topics": [
+  {
+   "v": "1",
+   "n": "SETS (Excluded)"
+  },
+  {
+   "v": "2",
+   "n": "INTERSECTION POINTS"
+  },
+  {
+   "v": "3",
+   "n": "SURDS,INDICES,LOG"
+  },
+  {
+   "v": "4",
+   "n": "FACTOR THEOREM"
+  },
+  {
+   "v": "5",
+   "n": "MATRICES (Excluded)"
+  },
+  {
+   "v": "6",
+   "n": "COORDINATE GEOMETRY"
+  },
+  {
+   "v": "7",
+   "n": "LINEAR LAW"
+  },
+  {
+   "v": "8",
+   "n": "FUNCTIONS, MODOLUS"
+  },
+  {
+   "v": "9",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "10",
+   "n": "CIRCULAR MEASURE"
+  },
+  {
+   "v": "11",
+   "n": "PERMUTATION AND  COMBINATION"
+  },
+  {
+   "v": "12",
+   "n": "BINOMIAL THEOREM"
+  },
+  {
+   "v": "13",
+   "n": "DIFFERENTIATION"
+  },
+  {
+   "v": "14",
+   "n": "INTEGRATION"
+  },
+  {
+   "v": "15",
+   "n": "KINEMATICS"
+  },
+  {
+   "v": "16",
+   "n": "VECTORS"
+  },
+  {
+   "v": "17",
+   "n": "RELATIVE VELOCITY"
+  },
+  {
+   "v": "622",
+   "n": "SEQUENCES AND SERIES"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 11,
+  "label": "(current default)"
+ },
+ "badges": [
+  "1333",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T00:22:36+0000"
+}
