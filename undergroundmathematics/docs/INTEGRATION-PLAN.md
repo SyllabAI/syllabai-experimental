@@ -1,0 +1,165 @@
+# UGM → SyllabAI integration plan
+
+**Drafted**: 2026-10-22 · status: proposal (operator decision pending)
+· upstream: `REVERSE-ENGINEERING-PLAN.md` phases 1–2 complete (855
+resources, 2,181 section bodies extracted)
+
+## 0. Objective
+
+Decide and execute how Underground Mathematics (UGM) enriches SyllabAI
+math courses — IGCSE and especially IAL — without violating rights and
+without re-running UGM's own retrospective mistakes.
+
+Standing constraints:
+
+- UGM content is © University of Cambridge / © UCLES; site is dormant but
+  live; no licence currently exists for content reuse of record.
+- SyllabAI of-record surfaces: `syllabai-v2` (api + hub), `syllabai-resources`
+  (RAG corpus, CIE lanes, exam-question corpus), `syllabai-pastpapers`
+  (canonical exam corpus with SHA-256 provenance), Teacher Workbench.
+- Integration graduates of record only via proper PRs/ADRs (repo ground
+  rules).
+
+## 1. The rights ladder — five integration modes
+
+| Mode | What it is | Rights exposure | Available now? |
+|---|---|---|---|
+| **0. Research asset** | UGM corpus informs our design; nothing ships | none | ✅ done (phases 1–2) |
+| **1. Taxonomy cross-map** | Map UGM stations/lines/key-questions onto CIE/IAL spines as *facts* (slugs, titles, relations) | facts/metadata only — low | ✅ phase 3 work |
+| **2. Deep-link enrichment** | Hub lane pages show curated UGM links ("explore further") pointing at undergroundmathematics.org | linking = safe | needs hub change + ADR |
+| **3. Licensed content import** | Import question bodies / pedagogy wrappers of record | requires licence from Cambridge Maths / CA Archives | needs conversation |
+| **4. Pattern adoption** | Re-author our own content using UGM's *schemas and pedagogy patterns* | none (ideas, not text) | ✅ design work |
+
+The plan below uses modes 1 → 4 immediately, proposes a Mode-2 pilot, and
+keeps Mode 3 behind an operator decision + licensing conversation.
+
+## 2. Integration surfaces — where UGM plugs into SyllabAI
+
+| # | UGM asset | SyllabAI component | Mode | The move |
+|---|---|---|---|---|
+| S1 | **Provenance metadata** (board, QP code, year, question number on 569 review questions) | `syllabai-pastpapers` / Official-ExamQuestion corpus | **1** | **The provenance bridge** (see §2.1) — join key into our own corpus |
+| S2 | **Stations & lines** (29/5) + key questions (113) | CIE/IAL spines & lanes (`syllabai-resources` lanes, `cie-phase1..4` registries) | **1** | Cross-map: every lane gets candidate UGM station alignments as an enrichment column |
+| S3 | **Review questions as worked examples** (Q→Suggestion→Solution) | SmartChat grounded tutoring; Smart Mark feedback | **2/3** | Mode 2: deep links as "explore a similar challenge"; Mode 3: import as exemplar solutions |
+| S4 | **Suggestion layer** (hint-before-solution) | SmartChat hint policy | **4** | Adopt the pattern: our tutor emits a Suggestion-class hint before any solution; hint authored per lane from UGM-style prompts |
+| S5 | **MUST/MAY/CAN'T + task archetypes** (Many ways problem, Problem requiring decisions, Fluency exercise…) | Test Builder item archetypes; task taxonomy | **4** | Add task-archetype tags to item schema; author MUST/MAY/CAN'T generators per topic |
+| S6 | **Pervasive ideas** (invariance, symmetry, limits…) | Paper A four-layer struggle model; misconception tagging | **4** | Second orthogonal tagging axis on items/lanes — misconception-oriented, matches our learner-model research |
+| S7 | **Teacher support pages** (opportunities-for-learning prompt tables) | Teacher Workbench; teacher-facing materials | **2/4** | Mode 2: link from lane teacher view; Mode 4: re-author prompt tables per CIE lane |
+| S8 | **Tubemap IA** (map positions as data, modal nav) | Hub navigation concepts | **4** | Future: subject-level "map view" of lanes/links; no commitment |
+
+### 2.1 The provenance bridge (the highest-value, lowest-risk move)
+
+UGM's 569 review questions each carry a machine-readable acknowledgement,
+e.g. *"UCLES O level Additional Mathematics 2, QP 420/2, 1962, Q7(ii),
+7(iii)"*. SyllabAI already owns a canonical exam-question corpus with
+manifests (`syllabai-resources` Official-ExamQuestion, `syllabai-pastpapers`
+SHA-256 ledgers).
+
+**Move**: parse UGM acknowledgements into (board, qualification, paper code,
+year, question numbers) tuples → join against our corpus → for every match we
+get, for free:
+
+1. **worked-solution alignment**: UGM's solution *design* (what a good
+   solution does step-wise, what the Suggestion hint is) becomes an
+   authoring guide for our own solution/marking of that same question —
+   our content, their pedagogy as scaffold;
+2. **difficulty/curriculum signal**: UGM's station + level (Introducing/
+   Developing) for a question we already serve;
+3. **gap census aid**: UGM stations with many review questions but no match
+   in our corpus = candidate acquisition targets for `syllabai-pastpapers`.
+
+This uses only *facts* from UGM (mode 1) — no licence required — and is
+worth doing regardless of any Mode-3 outcome.
+
+## 3. Syllabus fit (set expectations)
+
+- UGM is **post-16 A level maths** → primary fit is **IAL Pure (P1–P4)**
+  lanes: quadratics, polynomials, trig, calculus chain (9 stations),
+  exponentials/logs, sequences, vectors, geometry of equations.
+- **IGCSE** overlap is partial: algebra/quadratics/circles/trig/sequences
+  stations and ~the easier review questions; calculus stations out of scope.
+- Stations with **no** SyllabAI analogue (matrices, complex numbers,
+  hyperbolics, differential equations — the 4 under-construction ones aside)
+  map to **Further Maths / IAL Further Pure**, a future course line.
+- Conclusion: cross-map produces an **IAL-first enrichment sheet**, IGCSE
+  gets the algebra/trig subset. Document the non-overlap rather than force
+  mappings.
+
+## 4. Execution plan (phased, repo-conventions-aware)
+
+### P3a — corpus cleanup (this repo, no dependencies) `[~]`
+- [ ] `qwell` dedup pass: strip re-displayed problem from
+      suggestion/solution bodies into a shared `questionWell` field
+- [ ] emit `ugm-clean/` per-station JSON (schema stable, bodies clean)
+- [ ] parse all 569 acknowledgements into structured provenance tuples;
+      publish `resources/derived/review-question-provenance.json`
+
+### P3b — enrichment data (this repo) `[ ]`
+- [ ] station→line→key-question→pervasive-idea relation graph export
+      (JSON, one node/edge table)
+- [ ] per-station **enrichment sheet**: resource inventory with type,
+      level, key questions, has-teacher-support, asset links — the
+      catalog a course designer consumes
+
+### P3c — spine cross-map pilot (this repo + `syllabai-resources`) `[ ]`
+- [ ] export lane list + item inventory for **one IAL Pure lane**
+      (proposal: quadratics — UGM's richest station, 59 resources) and one
+      CIE IGCSE lane for contrast
+- [ ] produce `docs/cross-map-quadratics.md`: lane item ↔ UGM resource
+      alignments with confidence + mode flags (S1 provenance matches
+      highlighted)
+- [ ] review with operator; if useful, generalize (script + all-lane run)
+      and graduate via PR to `syllabai-resources` (mode-1 artifacts are
+      facts/links — safe to land)
+
+### P4 — decision doc for operator `[ ]`
+- [ ] draft ADR (in `syllabai-v2/docs/adr` style, content authored here
+      first): **"UGM integration mode"** — recommend Mode 2 pilot + Mode 4
+      adoption list; Mode 3 contingent on licensing
+- [ ] the ADR records the licensing-ask scope if operator wants Mode 3
+      (worked solutions + suggestion wrappers for matched provenance only —
+      a narrow, grantable ask, not the whole corpus)
+
+### P5 — conditional Mode-2 pilot in hub `[ ]` *(needs ADR + hub change)*
+- [ ] hub lane page: "Explore further" module rendering 3–5 curated UGM
+      deep links per lane (from the cross-map), rel-nofollow, link-health
+      check job (site is dormant — guard against rot, Wayback fallback)
+- [ ] measure: CTR on UGM links from lane pages
+
+### P6 — conditional Mode-3 licensing track `[ ]` *(operator-gated)*
+- [ ] outreach to Cambridge Mathematics (they host UGM; a preservation-
+      minded reuse conversation is plausible)
+- [ ] if granted: import pipeline lands of record via `syllabai-v2` PR
+      with provenance + licence fields first-class (their own
+      `copyright-licences` entity is the schema hint)
+
+## 5. Mode-4 pattern adoption — do these regardless (design tasks)
+
+1. **Suggestion layer for SmartChat**: hint taxonomy per lane (nudge →
+   strategy → scaffold), inspired by UGM suggestions; feeds the SmartChat
+   spec's hint policy.
+2. **Task archetypes in Test Builder**: add `archetype` enum to item
+   authoring (fluency / many-ways / decision-required / investigation /
+   MUST-MAY-CANT) — improves item diversity and Smart Mark rubric variety.
+3. **Pervasive-idea tagging**: second axis on items (misconception/
+   insight-oriented) feeding the Paper A learner model.
+4. **Teacher prompt tables**: Workbench view showing per-lane "questions
+   teachers could ask" (re-authored, UGM-patterned).
+
+## 6. Risks & mitigations
+
+| Risk | Mitigation |
+|---|---|
+| Rights drift (someone ships UGM text of record) | Modes ladder is explicit in this doc + ADR gate before any of-record landing; provenance-bridge needs no text |
+| Dormant site / link rot | Wayback mirror check in pilot; store archive.org fallback URL per enrichment row |
+| Syllabus mismatch (UGM ≠ CIE ordering) | Cross-map reports confidence + non-overlap explicitly; never force mappings |
+| Stale pedagogy (2016-era) | Treat UGM as design reference + supplement, never as the spine; our lanes own the sequence |
+| Effort sink | Pilot is one lane; generalize only after operator review |
+
+## 7. Success measures
+
+- P3c pilot: ≥70% of pilot-lane items have a defensible UGM alignment or an
+  explicit non-overlap note
+- S1 bridge: % of UGM 569 acknowledgements parsed; % matching our corpus
+- Mode-2 pilot (if run): lane-page UGM CTR ≥ some floor agreed at ADR time
+- Mode-4: suggestion-layer + archetype tags land in the relevant of-record
+  specs (SmartChat spec §, Test Builder schema)
