@@ -91,11 +91,17 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   provenance-matched licensing ask (Cambridge Mathematics first, census +
   pilot evidence before conversation). Status **Accepted** — ratified by
   operator 2026-10-22, without amendments.
-- Next: mode-1 facts PR in review ([syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55)
-  — quadratics enrichment, SUGGESTED); **text import live** (operator
-  attestation 2026-10-23): quadratics lane → `syllabai-resources`
-  `UGM-Resources/` corpus family, task `T-UGM-IMPORT-1`; S1-bridge census
-  run; P3c generalisation to further lanes on ack; Mode-2 deep-link pilot
-  was **dropped by operator directive 2026-10-22** (ADR amended; kit
-  retained in `pilot/` as record); Mode-3 licensing remains operator-gated
-  (its evidence source is now the S1 census).
+- Lanes of record (operator attestation 2026-10-23, direct text import):
+  **lane 1 quadratics** (`syllabai-resources` #55 facts + #58 text →
+  `main@91eed732`; hub consumption `syllabai-v2#308` → `56db3b96`) and
+  **lane 2 Combining Functions → CIE 9709 P1 1.2** (cross-map
+  `cross-map-functions.json` @ `e59276be`, 27/38 aligned; corpus #61 →
+  `a32c6c0f`, MANIFEST v2 multi-lane; hub `syllabai-v2#312` → `635264b2`,
+  bundle 1.1: 2 stations, 10 spec points, 97 resources). Mode-2 deep-link
+  pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
+  kit retained in `pilot/` as record); Mode-3 licensing remains
+  operator-gated (its evidence source is now the S1 census).
+- Next: further lanes by spine adjacency on operator ack (1.3 Coordinate
+  geometry: `geometry-of-equations` + `circles`; then 1.5 Trigonometry) —
+  recipe of record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run
+  still pending.

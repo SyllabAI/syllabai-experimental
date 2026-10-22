@@ -216,10 +216,34 @@ worth doing regardless of any Mode-3 outcome.
       flag law `content/flags.json` absent=OFF per ADR-CLASS-0001 practice;
       hub card + spec-point index + reader behind `src/lib/ugm.ts`; math
       byte-true through the shared renderer; SUGGESTED + rights surfaces
-      mandatory; tsc/eslint/prebuild gates green locally)
-- [ ] further lanes (other UGM stations ↔ spine exports) lane-by-lane on
-      operator ack — reuse `scripts/ugm_import_build.py` (builder kept in
-      the agent workspace; re-emit per lane with a new task id)
+      mandatory; tsc/eslint/prebuild gates green locally) — **MERGED of record
+      2026-10-23** ([syllabai-v2#308](https://github.com/SyllabAI/syllabai-v2/pull/308) →
+      merge `56db3b96`; branch pre-merged with main@18244e76 — worklog EOF
+      conflict resolved in append-log order; operator-delegated eyeball +
+      merge per instruction "eyeball PR #308 and merge it")
+- [x] second lane: **Combining Functions → CIE 9709 P1 1.2 (1.2.1–1.2.5)** —
+      cross-map of record `resources/derived/cross-map-functions.json` +
+      `docs/cross-map-functions.md` (P3c lane 2, commit `e59276be`; spine
+      export extended with the 1.2 rows `4a592ed0`; 27/38 aligned = 71.1%,
+      50 rows, 11 honest non-overlaps incl. 2 honest-empty applet pages;
+      sibling station `thinking-about-functions` declared out of scope);
+      corpus + facts **merged of record 2026-10-23 as
+      [syllabai-resources#61](https://github.com/SyllabAI/syllabai-resources/pull/61)**
+      (`a32c6c0f`; tasks `T-UGM-MODE1-2` + `T-UGM-IMPORT-2`; MANIFEST bumped
+      to **v2 multi-lane**, lane-1 rows re-verified byte-identical; no new
+      license amendment — the 2026-10-23 attestation covers the corpus
+      family); hub consumption **merged of record as
+      [syllabai-v2#312](https://github.com/SyllabAI/syllabai-v2/pull/312)**
+      (`635264b2`; task **`T-UGM-HUB-CONSUME-2`**; bundle schema 1.1
+      multi-lane — 2 stations, 10 spec points, 97 resources, 111 candidate
+      rows; runtime Zod+loader battery 44/44, tsc/eslint/prebuild green;
+      PR #311 manifest conflict resolved preserving both sides)
+- [ ] further lanes (next by spine adjacency: 1.3 Coordinate geometry —
+      `geometry-of-equations` + `circles` stations; then 1.5 Trigonometry)
+      lane-by-lane on operator ack — recipe of record:
+      `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
+      (`LANE_STATIONS` entry + expected census) + `ugm-resources.json` re-run
+      at the new pin
 
 ## 5. Mode-4 pattern adoption — do these regardless (design tasks)
 
