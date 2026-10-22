@@ -92,8 +92,10 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   pilot evidence before conversation). Status **Accepted** — ratified by
   operator 2026-10-22, without amendments.
 - Next: mode-1 facts PR in review ([syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55)
-  — quadratics enrichment, SUGGESTED), S1-bridge census run, P3c
-  generalisation to further lanes on ack; Mode-2 deep-link pilot was
-  **dropped by operator directive 2026-10-22** (ADR amended; kit retained
-  in `pilot/` as record); Mode-3 licensing remains operator-gated (its
-  evidence source is now the S1 census).
+  — quadratics enrichment, SUGGESTED); **text import live** (operator
+  attestation 2026-10-23): quadratics lane → `syllabai-resources`
+  `UGM-Resources/` corpus family, task `T-UGM-IMPORT-1`; S1-bridge census
+  run; P3c generalisation to further lanes on ack; Mode-2 deep-link pilot
+  was **dropped by operator directive 2026-10-22** (ADR amended; kit
+  retained in `pilot/` as record); Mode-3 licensing remains operator-gated
+  (its evidence source is now the S1 census).

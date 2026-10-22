@@ -26,7 +26,12 @@ SyllabAI wants that value. The constraints that shape every option:
   (slugs, titles, relations, provenance metadata) are safe; shipping text
   of record is not. The phase-2 operator decision allows corpus bodies to
   live in *this research repo* with attribution — it does **not** authorise
-  any of-record SyllabAI surface to serve them.
+  any of-record SyllabAI surface to serve them. **(Amended 2026-10-23:**
+  the operator attests that permission for the downloaded UGM text to ship
+  into SyllabAI is granted and directs the direct text import — recorded of
+  record as the Amendment 2026-10-23 in `syllabai-resources`
+  `LICENSE-DATA.md` and in Status Tracking; the "text of record is not
+  authorised" position is overridden by that attestation.**)**
 - **Dormancy**: content frozen ~2016–17; the site is live but unmaintained.
   Any deep-link surface needs rot guarding (health checks + Wayback
   fallback).
@@ -101,7 +106,10 @@ Declare phases 1–3 sufficient; archive the corpus; adopt nothing.
    cross-map are *facts/metadata* and may land in `syllabai-resources` /
    lane records via normal PRs, one lane at a time, starting with the
    quadratics pilot artifacts. UGM text bodies stay out of all of-record
-   repos (research-repo-only, per the IP notes).
+   repos (research-repo-only, per the IP notes) — **amended 2026-10-23**:
+   under the operator's permission attestation, UGM text bodies land in
+   `syllabai-resources` as the `UGM-Resources/` corpus family (text-only
+   import, task `T-UGM-IMPORT-1`; see Status Tracking).
 2. **Mode 4 (adopt as design doctrine; lands via the owning specs' own
    PRs)** — the four patterns from INTEGRATION-PLAN §5:
    - suggestion-layer hint taxonomy (nudge → strategy → scaffold) into the
@@ -202,3 +210,4 @@ except the links — and those have a job watching them.
 | 2026-10-22 | Mode-1 first landing: **[syllabai-resources PR #55](https://github.com/SyllabAI/syllabai-resources/pull/55)** — new `UGM-Enrichment/` domain, `syllabai.ugm-spec-enrichment/1.0`, quadratics cross-map as facts-only SUGGESTED enrichment (61 rows over 1.1.1–1.1.5, 3 non-overlaps recorded, 5 primary picks; no UGM text bodies); repo LEDGER entry appended; review/promotion gate = operator |
 | pending | First S1-bridge census run against `syllabai-pastpapers` (exhibit for any future Mode-3 ask) |
 | pending | 28-day CTR readout → generalise / kill decision — **VOIDED with Mode-2 (amendment 2026-10-22)** |
+| 2026-10-23 | **Operator attestation — TEXT IMPORT AUTHORIZED.** Operator: "Continue and downloaded text can ship into SyllabAI. We have permission." This supersedes the 2026-10-22 amendment's "Mode-3 is the only route for UGM text of record" statement: the text lands under the operator's attestation, recorded of record as **Amendment 2026-10-23** in `syllabai-resources` `LICENSE-DATA.md`. First lane executed as **task `T-UGM-IMPORT-1`**: 59 quadratics-station resources → `syllabai-resources` `UGM-Resources/pure-1-quadratics/` (text-only import; math byte-true `\( \)`/`\[ \]`; front-matter per corpus law; spec points SUGGESTED + primaryPick cross-referenced to `UGM-Enrichment/` #55; MANIFEST sha256 identity). Mode-3 (formal licence instruments, Cambridge outreach) remains open as an optional separate track; takedown/provenance law unchanged |

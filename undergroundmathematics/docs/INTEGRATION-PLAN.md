@@ -189,6 +189,26 @@ worth doing regardless of any Mode-3 outcome.
 - [ ] if granted: import pipeline lands of record via `syllabai-v2` PR
       with provenance + licence fields first-class (their own
       `copyright-licences` entity is the schema hint)
+      *(note 2026-10-23: the text import below lands under the operator's
+      permission attestation — P6 remains the optional track for formal
+      licence instruments with Cambridge)*
+
+### P7 — direct UGM text import of record `[~]` *(operator attestation 2026-10-23: "Continue and downloaded text can ship into SyllabAI. We have permission" — supersedes "Mode-3 only route" from the 2026-10-22 amendment; ADR Status Tracking 2026-10-23)*
+- [x] licensing of record: **Amendment 2026-10-23** appended to
+      `syllabai-resources` `LICENSE-DATA.md` (attestation verbatim, scope =
+      downloaded UGM text, takedown/provenance law unchanged) — the exact
+      path the `UGM-Enrichment/` README anticipated for text of record
+- [x] first lane: **quadratics → CIE 9709 P1** — 59 resources imported as
+      `UGM-Resources/pure-1-quadratics/` in `syllabai-resources` (task
+      **`T-UGM-IMPORT-1`**; text-only: images/PDF/GeoGebra recorded as
+      front-matter refs, not fetched; math byte-true; MANIFEST.json sha256
+      identity; spec points SUGGESTED with primaryPick cross-referenced to
+      `UGM-Enrichment/` #55; 3 resources honestly unmapped)
+- [ ] hub consumption wiring (syllabai-v2 surfaces the corpus on lane
+      pages — the content successor of the dropped #305 link module)
+- [ ] further lanes (other UGM stations ↔ spine exports) lane-by-lane on
+      operator ack — reuse `scripts/ugm_import_build.py` (builder kept in
+      the agent workspace; re-emit per lane with a new task id)
 
 ## 5. Mode-4 pattern adoption — do these regardless (design tasks)
 
