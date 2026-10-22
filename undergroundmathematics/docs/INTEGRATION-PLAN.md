@@ -199,7 +199,8 @@ worth doing regardless of any Mode-3 outcome.
       downloaded UGM text, takedown/provenance law unchanged) — the exact
       path the `UGM-Enrichment/` README anticipated for text of record
 - [x] first lane: **quadratics → CIE 9709 P1** — 59 resources imported as
-      `UGM-Resources/pure-1-quadratics/` in `syllabai-resources` (task
+      `UGM-Resources/pure-1-quadratics/` in `syllabai-resources` — **PR opened:
+      [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58)** (task
       **`T-UGM-IMPORT-1`**; text-only: images/PDF/GeoGebra recorded as
       front-matter refs, not fetched; math byte-true; MANIFEST.json sha256
       identity; spec points SUGGESTED with primaryPick cross-referenced to

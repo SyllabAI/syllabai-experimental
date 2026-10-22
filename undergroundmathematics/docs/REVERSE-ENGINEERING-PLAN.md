@@ -91,7 +91,7 @@ dataset of the corpus if the experiment graduates.
       repo ground rules — **quadratics mode-1 facts PR opened:
       [syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55)**
       (`UGM-Enrichment/` domain, SUGGESTED, facts-only, ledger recorded);
-      **text corpus PR opened: `UGM-Resources/pure-1-quadratics/` (task
+      **text corpus PR opened: [syllabai-resources#58](https://github.com/SyllabAI/syllabai-resources/pull/58) — `UGM-Resources/pure-1-quadratics/` (task
       `T-UGM-IMPORT-1`, 2026-10-23)** under the operator's permission
       attestation (LICENSE-DATA.md Amendment 2026-10-23) — supersedes the
       "text stays research-repo-only" working rule below for this lane;
