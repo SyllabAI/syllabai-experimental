@@ -1,0 +1,1835 @@
+{
+ "generatedAt": "2026-10-23",
+ "pilot": "P3c generalisation lane 3 (docs/INTEGRATION-PLAN.md §4) — extends cross-map-quadratics (lane 1) and cross-map-functions (lane 2)",
+ "ugmStations": [
+  {
+   "slug": "geometry-of-equations",
+   "title": "Geometry of Equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations",
+   "resources": 38
+  },
+  {
+   "slug": "circles",
+   "title": "Circles",
+   "url": "https://undergroundmathematics.org/circles",
+   "resources": 47
+  }
+ ],
+ "targetLane": {
+  "board": "Cambridge CIE",
+  "code": "CIE-9709-P1-2023",
+  "course": "cie-a-level-maths-20-pure-1",
+  "syllabusVersion": "2023-2025",
+  "specPoints": [
+   {
+    "code": "1.3.1",
+    "title": "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "foldedFragments": "1.3.1a"
+   },
+   {
+    "code": "1.3.2",
+    "title": "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving",
+    "foldedFragments": "1.3.2a"
+   }
+  ],
+  "foldNote": "Hub spine rows 1.3.1a and 1.3.2a are interleaved-parse fragments of the 1.3.1 and 1.3.2 statements (the 1.3.2a fragment carries the circle content: \"(x - a)^2 + (y - b)^2 = r represents the circle with centre (a, b) and radius r\", plus \"understand the relationship between a graph and its associated algebraic equation, and use the relationship between points of intersection of graphs and solutions of equations\"). The cross-map aligns against the two parent codes; the spine export carries all four spine rows verbatim."
+ },
+ "coverage": {
+  "resources": 85,
+  "aligned": 61,
+  "nonOverlap": 24,
+  "alignedShare": 0.718,
+  "successThreshold": 0.7,
+  "meetsThreshold": true,
+  "alignmentRows": 77,
+  "perSpecPointCounts": {
+   "1.3.1": 17,
+   "1.3.2": 60
+  },
+  "withExamProvenance": 44,
+  "stationBreakdown": {
+   "geometry-of-equations": {
+    "resources": 38,
+    "aligned": 34,
+    "nonOverlap": 4
+   },
+   "circles": {
+    "resources": 47,
+    "aligned": 27,
+    "nonOverlap": 20
+   }
+  },
+  "primaryPicks": {
+   "1.3.1": "straight-line-pairs",
+   "1.3.2": "teddy-bear"
+  }
+ },
+ "modeNote": "modes recorded as [1] (facts of record) plus [4] where the resource is a pattern/doctrine exemplar (card sorts, packages, investigations); Mode-2 deep-link rendering remains dropped (operator directive 2026-10-22, recorded in mode2Note of the enrichment landing).",
+ "alignments": [
+  {
+   "friendlyName": "between-the-lines",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/between-the-lines",
+   "title": "Between the lines",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Area between two lines given the area of one; linear-function graph reading (gradients/intercepts) is the 1.3.2 vocabulary.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "cartesian-coordinates",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/cartesian-coordinates",
+   "title": "Cartesian coordinates",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.1"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Bigger-picture context: coordinates as the lane's foundation — history of the coordinate plane from Descartes to modern use.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "describing-straight-lines",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/describing-straight-lines",
+   "title": "Straight lines",
+   "resourceType": "building-blocks",
+   "level": "Introducing",
+   "cieSpecPoints": [
+    "1.3.2",
+    "1.3.1"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving",
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Canonical which-descriptions-determine-a-line sort: y=mx+c, y-y1=m(x-x1), ax+by+c=0, x=k, point+gradient, two points; degenerate cases (y^2=x^2, xy=1, repeated line) sharpen the graph-equation reading. Card-sort pattern exemplar.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "lots-of-lines",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/lots-of-lines",
+   "title": "Lots of lines!",
+   "resourceType": "building-blocks",
+   "level": "Introducing",
+   "cieSpecPoints": [
+    "1.3.2",
+    "1.3.1"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving",
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Matching line-equation pairs by parallel/perpendicular/intercept criteria — forms fluency with geometric conditions.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "near-miss",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/near-miss",
+   "title": "Near miss",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Near-identical simultaneous pairs with distant solutions: ill-conditioning read as nearly-parallel line geometry (KQ64).",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "negatively-triangular",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/negatively-triangular",
+   "title": "Negatively triangular",
+   "resourceType": "many-ways-problem",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Which three of four given lines enclose a triangle with negative coordinates — intersections from line forms; create-your-own extension.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5202",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5202",
+   "title": "Where is the foot of the perpendicular from a point to a line?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Foot of the perpendicular from P to the line AB through (a,0), (0,b): perpendicularity via gradients and line equations; STEP III depth is extension beyond P1 routine.",
+   "provenance": "UCLES 2003 Q7 (STEP Mathematics III)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5255",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5255",
+   "title": "What's the locus of the intersection of these variable lines?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Locus of the intersection of x+y=t and y=tx as t varies; intersection coordinates in terms of t; the locus equation rides quadratics.",
+   "provenance": "UCLES 1978 Q14 (Additional Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5281",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5281",
+   "title": "Can we find an integer solution to three simultaneous inequalities?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Three simultaneous linear inequalities deduce bounds on x and y — region reading of boundary lines; linear inequality regions are IGCSE-flavoured extension (recorded medium).",
+   "provenance": "UCLES 1958 Q1 (Mathematics Scholarship paper)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5661",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5661",
+   "title": "Given a right angle and the equations of two sides, can we find the third?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Right-angle triangle: two side equations given, third side from the perpendicular gradient through the given vertex.",
+   "provenance": "UCLES 1979 Q5 (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5737",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5737",
+   "title": "Which four inequalities define this region?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Four inequalities defining a triangular region from vertex coordinates — boundary-line reading in 1.3.2 forms; inequality-region language is extension (recorded medium).",
+   "provenance": "UCLES 1978 Q23 (Mathematics Syllabus C Paper 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5887",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5887",
+   "title": "If we know the sum and product of two numbers, what are they?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Sum/product of two numbers -> plot the corresponding graphs and read the intersection as the solution — the graph-equation relationship verbatim (hyperbola is context vocabulary).",
+   "provenance": "UCLES 1970 Q1 (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5948",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5948",
+   "title": "Can we calculate an approximation to the root of this function?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "False-position root approximation: chord through (a,f(a)) and (b,f(b)), its x-intercept — line-from-two-points construction riding numerical-methods context (recorded medium).",
+   "provenance": "UCLES 1978 Q16 (Mathematics A 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5967",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5967",
+   "title": "Can we find a rectangle from two vertices and a diagonal?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Rectangle from two vertices and a point on the diagonal produced: line through two points, perpendicular sides, intersection solving.",
+   "provenance": "O&C (Oxford & Cambridge SEG) 1973 Q5 (Additional Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6230",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6230",
+   "title": "Can we reflect this point in this line?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Reflection of (3,4) in the line 3x+4y=50: perpendicular foot as midpoint — perpendicular gradients plus ax+by+c=0 fluency; MAT MCQ extension (recorded medium).",
+   "provenance": "Oxford (MAT) None Q1C (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6234",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6234",
+   "title": "Can we show that this point moves on a circle?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "AP=2BP locus derived to (x+7)^2+y^2=100 — distance-ratio locus in circle standard form; the folded 1.3.2 circle statement verbatim; STEP I depth is extension.",
+   "provenance": "UCLES 2005 Q6 (STEP Mathematics I)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6366",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6366",
+   "title": "Can we find the coordinates of this tilted rectangle?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Tilted rectangle: perpendicular line through B, vertex coordinates by intersection solving — line equations end to end.",
+   "provenance": "UCLES 1986 Q10 (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6514",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6514",
+   "title": "No solutions, or infinitely many?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Value of k giving infinitely-many/no solutions of a linear pair — degenerate systems read as coincident/parallel lines (KQ64).",
+   "provenance": "UCLES 1983 Q30b (Additional Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6583",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6583",
+   "title": "A point $Y$ moves to define a point $P$ — can we find the locus of $P\\,$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Construction locus: perpendicular through Y meets the x-axis at Q, P the midpoint — line equations from geometric conditions, locus equation from coordinates.",
+   "provenance": "O&C (Oxford & Cambridge SEG) 1957 Q6 (Additional Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6803",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6803",
+   "title": "A line cuts the axes to make a triangle; can we find its area?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Line through the midpoint of AB parallel to AC: gradient+point construction, axis intercepts, triangle area.",
+   "provenance": "UCLES 1981 Q1 (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6835",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6835",
+   "title": "A line through a variable point creates a triangle; can we find its area?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Line with gradient -2 through (2t,t) enclosing area 4 with the axes — the 1.3.1 statement verbatim plus intercept reading.",
+   "provenance": "UCLES 1980 Q1 (Additional Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7296",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7296",
+   "title": "Can we plot this graph and use it to solve two equations?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Add a suitable straight line to the parabola graph to solve 6x-x^2=8-x/2 — intersection-of-graphs as equation-solving verbatim; the parabola rides 1.1.",
+   "provenance": "UCLES 1978 Q7 (Mathematics Syllabus B Paper 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7320",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7320",
+   "title": "Can we illustrate this pair of inequalities on a graph?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Shade (x-2)(y+3)>=0 and x^2+y^2<=25, find p with (3,p) in both — circle-equation graph reading plus inequality-region extension (recorded medium).",
+   "provenance": "O&C (Oxford & Cambridge SEG) 1964 Q5 (Elementary Mathematics 2 (St Dunstan's College))",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7642",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7642",
+   "title": "Can we maximise the profit for this tractor-making business?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: linear programming — five inequalities, feasible region, profit maximisation (Applicable Mathematics); the tested skill is LP optimisation beyond P1 1.3; the region-shading rides 1.3.2.",
+   "provenance": "UCLES 1989 Q10 (Applicable Mathematics 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r7757",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7757",
+   "title": "Can we match this equation to its graph?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: implicit curve x^2y^2(x+y)=1 identification (MAT) — cubic/implicit sketching beyond the P1 1.3 forms.",
+   "provenance": "Oxford (MAT) None Q1J (University Mathematics Aptitude Test)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r8080",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8080",
+   "title": "One distance is double another; can we find a locus?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "PA=2PB with A(0,3), B(0,-3) -> x^2+y^2+10y+9=0 — distance-ratio locus to circle equation; the completing-the-square step rides 1.1.1.",
+   "provenance": "UCLES 1985 Q16(b) (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r8408",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8408",
+   "title": "Can we find the three inequalities that define this region?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Line with gradient -2 through the ellipse's positive y-intersection; three inequalities bound the region — the line work is 1.3.1/1.3.2 vocabulary; the ellipse is beyond-P1 curve vocabulary (recorded medium).",
+   "provenance": "O&C (Oxford & Cambridge SEG) 1969 Q7 (MEI Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r8449",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8449",
+   "title": "Can we show this parallelogram is a rectangle?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Parallelogram shown to be a rectangle: perpendicular gradients, vertex coordinates by intersection, area.",
+   "provenance": "UCLES 1989 Q15 (Certificate in Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r8471",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8471",
+   "title": "Can we find the area of this inscribed quadrilateral?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: UKMT axis-intersections of the implicit rotated conic x^2+y^2-xy+x-4y=12 — the conic is the object of study, beyond P1 1.3.",
+   "provenance": "UKMT 2012 Q16 (Senior Mathematical Challenge)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r8748",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8748",
+   "title": "Can we find the area of this quadrilateral?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Perpendicular bisector construction: equations of BD and AC, midpoint M, fourth vertex C, area — 1.3.1/1.3.2 core.",
+   "provenance": "UCLES 1988 Q15 (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9273",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r9273",
+   "title": "Can we find the point midway between an intersection and a line?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2",
+    "1.3.1"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving",
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Intersection point of two lines; midpoint of the segment from P perpendicular to y=2x+8 — intersection solving plus perpendicular construction.",
+   "provenance": "UCLES 1973 Q8 (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9617",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r9617",
+   "title": "Which of these graphs shows the area $A(c)$ as $c$ varies?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: A(c) area-function graph for the moving line y=x+c (MAT) — the tested skill is reasoning about the area function, beyond the 1.3 line/circle statements.",
+   "provenance": "Oxford (MAT) 2012 Q1D (University Mathematics Aptitude Test)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r9709",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r9709",
+   "title": "What is the largest $x$ to satisfy these three inequalities?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Largest x satisfying three linear inequalities — vertex exploration of a feasible region; the optimisation framing is LP-flavoured (recorded medium).",
+   "provenance": "Oxford (MAT) None Q1D (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "simultaneous-squares",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/simultaneous-squares",
+   "title": "Simultaneous squares",
+   "resourceType": "investigation",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Four lines enclose a square: construct the fourth from three, or from area + vertex — equation-of-line construction from geometric constraints. Investigation pattern exemplar.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "spot-the-difference",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/spot-the-difference",
+   "title": "Spot the difference",
+   "resourceType": "building-blocks",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Factorised equations ((x+y-1)(x^2+y^2)=0) vs their graphs — the graph-equation relationship at degenerate cases (line + point, missing points); implicit cubic vocabulary extension (recorded medium).",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "straight-line-pairs",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/straight-line-pairs",
+   "title": "Straight line pairs",
+   "resourceType": "investigation",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.1",
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "find the equation of a straight line given e.g. given two points, or one point and the gradient. sufficient information",
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Construct line pairs from gradient/intercept difference constraints — 1.3.1 sufficient-information construction as an investigation. Pattern exemplar.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "the-circle-of-apollonius-coordinate-edition",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/the-circle-of-apollonius-coordinate-edition",
+   "title": "The circle of Apollonius... coordinate edition",
+   "resourceType": "many-ways-problem",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Apollonius circle PA/PB=lambda derived by coordinates — the distance-ratio locus family generalised. Pattern exemplar.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "the-equation-of-a-straight-line",
+   "station": "geometry-of-equations",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/the-equation-of-a-straight-line",
+   "title": "The equation of a straight line",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Bigger-picture exposition on the forms of line equations — the 1.3.2 statement itself as context.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "belt",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/belt",
+   "title": "Belt",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: wire around two cylinders — common tangent length plus arc pieces in radians; metric circle geometry riding 1.4 mensuration, not coordinate circle equations.",
+   "provenance": "",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "cones",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/cones",
+   "title": "Cones",
+   "resourceType": "building-blocks",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: frustum volume — mensuration beyond P1 1.3.",
+   "provenance": "",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "conic-sections-in-real-life",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/conic-sections-in-real-life",
+   "title": "Conic sections in real life",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Bigger-picture: conic sections in the world; the circle is the P1 member of the family — context for the 1.3.2 circle statement.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "cutting-spheres",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/cutting-spheres",
+   "title": "Cutting spheres",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: sphere-zone surface area — 3D mensuration beyond P1 1.3.",
+   "provenance": "",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "elliptical-crossings",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/elliptical-crossings",
+   "title": "Elliptical crossings",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: chord-midpoint locus on an ellipse — the ellipse is the object of study, beyond the lines-and-circles lane; previews P3 conic work.",
+   "provenance": "",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "finding-circles",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/finding-circles",
+   "title": "Finding circles",
+   "resourceType": "many-ways-problem",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "How many points define a circle; equations from diameter ends and point sets — the folded circle statement as an investigation. Pattern exemplar.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "olympic-rings",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/olympic-rings",
+   "title": "Olympic rings",
+   "resourceType": "problem-decisions",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Recreate the Olympic rings with graph software: circle equations plus domain-restricted plots — centre/radius form fluency.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "pairs-of-circles",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/pairs-of-circles",
+   "title": "Pairs of circles",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Inscribed triangle/circle images: find inner/outer circle equations in standard and expanded forms (x^2+y^2-3x-y=45/2 etc.). Pattern exemplar.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5624",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r5624",
+   "title": "Can we find the equations of two circles that touch another?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Point inside x^2+y^2+4x-8y-80=0; two radius-5 circles through P touching it — centre/radius from the expanded form plus tangency conditions.",
+   "provenance": "UCLES 1958 Q2 (Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5717",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r5717",
+   "title": "Can we show that these four points lie on a circle?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Four points shown to lie on a circle; centre and radius found — perpendicular-bisector/completing-the-square work.",
+   "provenance": "UCLES 1987 Q6 (Mathematics A 1 and Pure Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5754",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r5754",
+   "title": "What is the locus of these points fixed to a rod?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: rod-end parametric loci for C and D — parametric curve work is P3; the line-locus conclusion rides 1.3 loosely.",
+   "provenance": "UCLES 1979 Q6 (Mathematics A Special paper)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r5777",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r5777",
+   "title": "Can we find the equation of the inscribed circle of the triangle $ABC$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Incircle of triangle ABC: centre and radius of the inscribed circle — the equation-of-circle form is 1.3.2; the incentre construction rides triangle-centre geometry (recorded medium).",
+   "provenance": "UCLES 1985 Q13 (Mathematics A 1 and Pure Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r5903",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r5903",
+   "title": "Can we find the tangents to this circle from the origin?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Circle through three points shown to touch the y-axis; the other tangent from the origin — circle-from-conditions plus tangent lines.",
+   "provenance": "UCLES 1963 Q2 (Mathematics 2 and Pure Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6100",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r6100",
+   "title": "Can we show that these two circles touch?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Circles x^2+y^2=25 and x^2+y^2-24x-18y+125=0 shown to touch; touch point calculated — centre/radius plus tangency.",
+   "provenance": "UCLES 1986 Q7 (Mathematics A 1 and Pure Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6164",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r6164",
+   "title": "What's the area of this square if it sits in this sector?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: square in a sector — arc length, segment area in radians; 1.4 Circular measure territory.",
+   "provenance": "O&C (Oxford & Cambridge SEG) 1967 Q6 (General Mathematics 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r6390",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r6390",
+   "title": "Can we show these two circles lie entirely outside each other?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "General form x^2+y^2+2gx+2fy+c=0 -> centre/radius proof; two circles shown to lie entirely outside each other — general-form mastery.",
+   "provenance": "UCLES 1953 Q2 (Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r6645",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r6645",
+   "title": "If $x^2+y^2\\leq1$, when does $x+y$ have a maximum?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: quarter-disc optimisation (maximise x+y, xy; describe the family x^2+y^2-4x-2y=k) — the tested skill is optimisation over a region; the circle-family description rides 1.3.2.",
+   "provenance": "Oxford (MAT) 2011 Q4 (University Mathematics Aptitude Test)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r6838",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r6838",
+   "title": "What's the shared area for these two circles?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: shared area of two circles — segment/sector mensuration in radians; 1.4 territory.",
+   "provenance": "UCLES 1982 Q6 (Mathematics A 1 and Pure Mathematics 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r7171",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7171",
+   "title": "Where do this pair of tangents to a circle meet?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Line x=3 meets the circle at P and Q; tangents at P and Q and their intersection — line-circle intersection plus tangent equations via the radius-perpendicular fact.",
+   "provenance": "UCLES 1970 Q8 (Additional Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7385",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7385",
+   "title": "How much of this log is below the surface?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: floating log — arc length, submerged area, percentage volume in radians; 1.4 territory.",
+   "provenance": "UCLES 1986 Q15 (Additional Mathematics 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r7495",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7495",
+   "title": "What's the area inside both the circle $C$ and the triangle $T$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: area inside both circle C and triangle T (MAT Q4) — sector/trig mensuration beyond the lines-and-circles statements.",
+   "provenance": "Oxford (MAT) 2010 Q4 (University Mathematics Aptitude Test)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r7549",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7549",
+   "title": "Can we show this quartic equation has exactly two real roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "y=x^2 and the circle x^2+y^2-4x+2y-4=0 sketched together show the quartic has exactly two real roots — intersection-of-graphs as equation-roots verbatim; quartic algebra extension (recorded medium).",
+   "provenance": "UCLES 1980 Q3 (Pure Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7599",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7599",
+   "title": "When does the origin lie inside this circle?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "The origin lies inside x^2+ax+y^2+by=c precisely when a^2+b^2>4c — completing the square to centre/radius and the inside test; MAT form, exactly the circle skill.",
+   "provenance": "Oxford (MAT) 2016 Q1C (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7656",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7656",
+   "title": "Can we show that (circle area)/(triangle area) $\\geq \\pi$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Circle through O, (p,0), (0,q): x^2-px+y^2-qy=0, centre and area; the area-ratio >= pi part rides inequality reasoning (recorded medium).",
+   "provenance": "Oxford (MAT) 2008 Q4 (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7816",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7816",
+   "title": "Can we find the ratio of the areas of these two sectors?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: touching circles and sector areas via radians — 1.4 territory.",
+   "provenance": "UCLES 1976 Q8 (Additional Mathematics 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r7925",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7925",
+   "title": "What can we say if two circles cut at right angles?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Orthogonal-circle condition for general-form circles; the circle orthogonal to three given circles — general-form circle algebra; the orthogonality condition is beyond P1 routine (recorded medium).",
+   "provenance": "UCLES 1965 Q2 (Mathematics Special paper)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r7937",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7937",
+   "title": "What area do these intersecting circles share?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: intersecting circles — angles in radians, sector areas, common area; 1.4 territory.",
+   "provenance": "UCLES 1970 Q2 (Additional Mathematics 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r7979",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r7979",
+   "title": "When does a circle touch a parabola twice?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: circle resting on the parabola y=x^2 (MAT Q4) — tangency plus sector area with inverse trig, beyond the 1.3 statements.",
+   "provenance": "Oxford (MAT) 2012 Q4 (University Mathematics Aptitude Test)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r8051",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r8051",
+   "title": "Can we show the locus of the midpoint of $PQ$ is an ellipse?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: ellipse parametrisation, OP^2+OQ^2 and the midpoint locus — the ellipse as object plus parametric curves (P3), beyond P1 1.3.",
+   "provenance": "UCLES 1972 Q8 (Mathematics A 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r8216",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r8216",
+   "title": "Can we find the circles through the points where two ellipses meet?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: STEP I circles through the intersection points of two ellipses — ellipses as objects; pencil-of-circles depth beyond P1.",
+   "provenance": "UCLES 2002 Q1 (STEP Mathematics I)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r8225",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r8225",
+   "title": "Can we find the area between three touching circles?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: area between three touching circles — equilateral triangle plus sector mensuration; 1.4 territory.",
+   "provenance": "UCLES 1954 Q7 (Mathematics C)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r8275",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r8275",
+   "title": "Which point on this circle is closest to the origin?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Point on x^2+y^2+6x+8y=75 closest to the origin — completing the square to centre/radius plus distance reasoning.",
+   "provenance": "Oxford (MAT) 2009 Q1B (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r8419",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r8419",
+   "title": "Can we find the two circles that satisfy these three conditions?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Two circles from three conditions (x-axis tangent, centre on 2y=x, (14,2) on the circle); 3y=4x shown to be a common tangent — circle-from-conditions plus tangent verification.",
+   "provenance": "UCLES 1966 Q2 (Mathematics 2 and Pure Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r8509",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r8509",
+   "title": "What can we deduce if the loci traced out by two points touch?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "OP^2=lambda y locus is a circle with centre (0, lambda/2); touching-loci condition — the locus-to-circle derivation family.",
+   "provenance": "UCLES 1955 Q1 (Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r8946",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r8946",
+   "title": "Can we find the areas enclosed between a circle and its tangent?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Tangent to the circle centre (1,1) radius 1 at angle theta: tangent-line equation and areas A(theta), B(theta) — the line/tangent parts are 1.3.2; the area parts ride trig/radians (recorded medium).",
+   "provenance": "Oxford (MAT) 2007 Q4 (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9028",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9028",
+   "title": "When does this area within a circle have a maximum value?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: chords meeting at angle theta, maximal shaded area (MAT MCQ) — sector/segment mensuration beyond the statements.",
+   "provenance": "Oxford (MAT) 2012 Q1J (University Mathematics Aptitude Test)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r9045",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9045",
+   "title": "If $AQ:QP=\\lambda:1$, can we show $Q$ lies on a  circle?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Section point Q of AP with AQ:QP=lambda:1 traces a circle; orthogonal-intersection condition — section formula plus the locus-to-circle family; orthogonality extension.",
+   "provenance": "UCLES 1954 Q2 (Mathematics 2)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9368",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9368",
+   "title": "Given three clues, can we find the equation of this circle?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Circle through (2,0) and (8,0) touching the y-axis; furthest point from (2,0) — circle-from-conditions.",
+   "provenance": "UCLES 1968 Q7 (Additional Mathematics 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9386",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9386",
+   "title": "Can we find the area bounded by these two graphs?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Area between y=sqrt(2-x^2) (upper semicircle) and a line — circle-graph reading plus line form; the area evaluation rides 1.4 radians (recorded medium).",
+   "provenance": "Oxford (MAT) 2013 Q1H (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9423",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9423",
+   "title": "If we know the difference in their areas, how big are these sectors?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: concentric sectors, area difference and arc lengths — 1.4 territory.",
+   "provenance": "UCLES 1979 Q4 (Additional Mathematics 1)",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "r9452",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9452",
+   "title": "Which point on the first circle is closest to the second?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Closest points between (x-5)^2+(y-4)^2=4 and (x-1)^2+(y-1)^2=1 — centre/radius plus the distance-between-centres reading.",
+   "provenance": "Oxford (MAT) 2007 Q1D (University Mathematics Aptitude Test)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9551",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9551",
+   "title": "Given two lines crossing a circle, can we show these lengths are equal?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Lines through circle points S, T, U, V on x^2+(y-c)^2=r^2; substitution gives quadratics in s and t; p+q=0 — substituting lines into the circle equation is 1.3.2; the STEP III proof depth is extension (recorded medium).",
+   "provenance": "UCLES 2009 Q1 (STEP Mathematics III)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "r9768",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/r9768",
+   "title": "What's the locus of $(p, q)$ if the length of this tangent equals $p$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "AP=3PB locus is the circle S tangent to the y-axis; tangent-length locus equidistant from a line and a point — the locus-to-circle family; the parabola locus is extension vocabulary.",
+   "provenance": "UCLES 1980 Q6 (Mathematics A 1)",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "sector-spirals",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/sector-spirals",
+   "title": "Sector spirals",
+   "resourceType": "fluency-exercise",
+   "level": "Introducing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: arc lengths and sector areas fluency — 1.4 territory.",
+   "provenance": "",
+   "nonOverlap": true
+  },
+  {
+   "friendlyName": "teddy-bear",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/teddy-bear",
+   "title": "Teddy bear",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Match 13 circles to equations in both forms ((x+10)^2+(y+15)^2=4pi^2, x^2+y^2+66x-78y+2110=0) — centre/radius fluency, standard and expanded. Pattern exemplar.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "teddy-bear-teacher-support",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/teddy-bear-teacher-support",
+   "title": "Teddy bear - teacher support",
+   "resourceType": "resource-in-action",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.3.2"
+   ],
+   "cieTitles": [
+    "interpret and use any of the forms y = mx + c , y – y = m ( x – x ) , ax + by + c = 0 in solving"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Teacher-support notes for Teddy bear (research-project notes) — rides the parent resource's 1.3.2 alignment.",
+   "provenance": "",
+   "nonOverlap": false
+  },
+  {
+   "friendlyName": "where-are-you",
+   "station": "circles",
+   "url": "https://undergroundmathematics.org/circles/where-are-you",
+   "title": "Where are you?",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: latitude/longitude position-finding context — spherical vocabulary, not coordinate-plane line/circle equation work.",
+   "provenance": "",
+   "nonOverlap": true
+  }
+ ],
+ "perSpecPoint": {
+  "1.3.1": [
+   "cartesian-coordinates",
+   "describing-straight-lines",
+   "lots-of-lines",
+   "r5202",
+   "r5661",
+   "r5948",
+   "r5967",
+   "r6230",
+   "r6366",
+   "r6583",
+   "r6803",
+   "r6835",
+   "r8449",
+   "r8748",
+   "r9273",
+   "simultaneous-squares",
+   "straight-line-pairs"
+  ],
+  "1.3.2": [
+   "between-the-lines",
+   "describing-straight-lines",
+   "lots-of-lines",
+   "near-miss",
+   "negatively-triangular",
+   "r5202",
+   "r5255",
+   "r5281",
+   "r5661",
+   "r5737",
+   "r5887",
+   "r5948",
+   "r5967",
+   "r6230",
+   "r6234",
+   "r6366",
+   "r6514",
+   "r6583",
+   "r6803",
+   "r6835",
+   "r7296",
+   "r7320",
+   "r8080",
+   "r8408",
+   "r8449",
+   "r8748",
+   "r9273",
+   "r9709",
+   "simultaneous-squares",
+   "spot-the-difference",
+   "straight-line-pairs",
+   "the-circle-of-apollonius-coordinate-edition",
+   "the-equation-of-a-straight-line",
+   "conic-sections-in-real-life",
+   "finding-circles",
+   "olympic-rings",
+   "pairs-of-circles",
+   "r5624",
+   "r5717",
+   "r5777",
+   "r5903",
+   "r6100",
+   "r6390",
+   "r7171",
+   "r7549",
+   "r7599",
+   "r7656",
+   "r7925",
+   "r8275",
+   "r8419",
+   "r8509",
+   "r8946",
+   "r9045",
+   "r9368",
+   "r9386",
+   "r9452",
+   "r9551",
+   "r9768",
+   "teddy-bear",
+   "teddy-bear-teacher-support"
+  ]
+ }
+}
