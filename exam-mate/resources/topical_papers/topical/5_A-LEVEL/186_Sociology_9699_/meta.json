@@ -1,0 +1,100 @@
+{
+ "topics": [
+  {
+   "v": "789",
+   "n": "The Family"
+  },
+  {
+   "v": "790",
+   "n": "Theory and Methods"
+  },
+  {
+   "v": "791",
+   "n": "Social Inequality and Opportunity : Education"
+  },
+  {
+   "v": "792",
+   "n": "Social Inequality and Opportunity : Global Development"
+  },
+  {
+   "v": "793",
+   "n": "Social Inequality and Opportunity : Media"
+  },
+  {
+   "v": "794",
+   "n": "Social Inequality and Opportunity : Religion"
+  },
+  {
+   "v": "928",
+   "n": "Socialisation, Identity and Methods of Research"
+  },
+  {
+   "v": "930",
+   "n": " Education"
+  },
+  {
+   "v": "931",
+   "n": "Globalisation, Media and Religion"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 186,
+  "label": "Sociology(9699)"
+ },
+ "badges": [
+  "420",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:50:19+0000"
+}

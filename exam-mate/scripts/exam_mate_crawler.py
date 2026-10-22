@@ -33,7 +33,16 @@ JS_HELPERS = r"""
     if (value === null) {
       target = all.find(el => (el.getAttribute('wire:click') || '') === substr) || all[0];
     } else {
-      target = all.find(el => (el.getAttribute('wire:click') || '').includes(String(value)));
+      // EXACT value match: '$set('categoryID', 5)' must not match 56/57/15...
+      const v = String(value);
+      const pats = [
+        new RegExp("'" + substr + "'\\s*,\\s*" + v + "(?![0-9])"),
+        new RegExp(substr + "\\(\\s*" + v + "\\s*\\)"),
+      ];
+      target = all.find(el => {
+        const attr = el.getAttribute('wire:click') || '';
+        return pats.some(p => p.test(attr));
+      });
     }
     if (target) { target.click(); return true; }
     return false;

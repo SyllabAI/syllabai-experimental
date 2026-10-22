@@ -1,0 +1,81 @@
+{
+ "topics": [
+  {
+   "v": "1345",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1346",
+   "n": "Data analysis"
+  },
+  {
+   "v": "1347",
+   "n": "Imaging and signalling"
+  },
+  {
+   "v": "1348",
+   "n": "Sensing"
+  },
+  {
+   "v": "1349",
+   "n": "Mechanical properties of materials"
+  },
+  {
+   "v": "1350",
+   "n": "Waves and quantum behaviour"
+  },
+  {
+   "v": "1351",
+   "n": "Space, time and motion."
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 573,
+  "label": "Physics B (Advancing Physics) (H157)"
+ },
+ "badges": [
+  "107",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:14:07+0000"
+}

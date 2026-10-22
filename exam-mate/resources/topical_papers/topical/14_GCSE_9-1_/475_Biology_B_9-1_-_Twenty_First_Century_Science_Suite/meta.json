@@ -1,0 +1,93 @@
+{
+ "topics": [
+  {
+   "v": "1119",
+   "n": "You and your genes"
+  },
+  {
+   "v": "1120",
+   "n": "Keeping healthy"
+  },
+  {
+   "v": "1121",
+   "n": "Living together – food and ecosystems"
+  },
+  {
+   "v": "1122",
+   "n": "Using food and controlling growth"
+  },
+  {
+   "v": "1123",
+   "n": "The human body – staying alive"
+  },
+  {
+   "v": "1124",
+   "n": "Life on Earth – past, present and future"
+  },
+  {
+   "v": "1125",
+   "n": "Ideas about Science"
+  },
+  {
+   "v": "1126",
+   "n": "Practical Skills"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 475,
+  "label": "Biology B (9-1) - Twenty First Century Science Suite J257"
+ },
+ "badges": [
+  "63",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:20:40+0000"
+}

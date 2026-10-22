@@ -1,0 +1,169 @@
+{
+ "topics": [
+  {
+   "v": "1180",
+   "n": "B1: Cell level systems"
+  },
+  {
+   "v": "1181",
+   "n": "B2: Scaling up"
+  },
+  {
+   "v": "1182",
+   "n": "B3: Organism level systems"
+  },
+  {
+   "v": "1183",
+   "n": "B4: Community level systems"
+  },
+  {
+   "v": "1184",
+   "n": "B5: Interaction between systems"
+  },
+  {
+   "v": "1185",
+   "n": "B6: Global challenges"
+  },
+  {
+   "v": "1186",
+   "n": "C1: Particles"
+  },
+  {
+   "v": "1187",
+   "n": "C2: Elements, compounds and mixtures"
+  },
+  {
+   "v": "1188",
+   "n": "C3: Chemical reactions"
+  },
+  {
+   "v": "1189",
+   "n": "C4: Predicting and identifying reactions and products"
+  },
+  {
+   "v": "1190",
+   "n": "C5: Monitoring and controlling chemical reactions"
+  },
+  {
+   "v": "1191",
+   "n": "C6: Global challenges"
+  },
+  {
+   "v": "1192",
+   "n": "P1: Matter"
+  },
+  {
+   "v": "1193",
+   "n": "P2: Forces"
+  },
+  {
+   "v": "1194",
+   "n": "P3: Electricity and magnetism"
+  },
+  {
+   "v": "1195",
+   "n": "P4: Waves and radioactivity"
+  },
+  {
+   "v": "1196",
+   "n": "P5: Energy"
+  },
+  {
+   "v": "1197",
+   "n": "P6: Global challenges"
+  },
+  {
+   "v": "1198",
+   "n": "Practical skills"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  },
+  {
+   "v": "9",
+   "n": "6"
+  },
+  {
+   "v": "11",
+   "n": "7"
+  },
+  {
+   "v": "696",
+   "n": "8"
+  },
+  {
+   "v": "652",
+   "n": "9"
+  },
+  {
+   "v": "698",
+   "n": "10"
+  },
+  {
+   "v": "699",
+   "n": "11"
+  },
+  {
+   "v": "701",
+   "n": "12"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 503,
+  "label": "Science A, Combined (9-1) - Gateway Science Suite J250"
+ },
+ "badges": [
+  "394",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:59:16+0000"
+}

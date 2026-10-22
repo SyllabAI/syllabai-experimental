@@ -1,0 +1,109 @@
+{
+ "topics": [
+  {
+   "v": "856",
+   "n": "Numbers"
+  },
+  {
+   "v": "857",
+   "n": "Algebra"
+  },
+  {
+   "v": "858",
+   "n": "Geometry"
+  },
+  {
+   "v": "859",
+   "n": "Mensuration"
+  },
+  {
+   "v": "855",
+   "n": "Geometry Coordinates"
+  },
+  {
+   "v": "860",
+   "n": "Mathematical Reasoning"
+  },
+  {
+   "v": "861",
+   "n": "Functions and Graphs"
+  },
+  {
+   "v": "862",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "863",
+   "n": "Sets"
+  },
+  {
+   "v": "864",
+   "n": "Statistics"
+  },
+  {
+   "v": "865",
+   "n": "Probabilities"
+  },
+  {
+   "v": "866",
+   "n": "Matrices"
+  },
+  {
+   "v": "867",
+   "n": "Transformations"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "826",
+   "n": "1(September)"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "827",
+   "n": "2(September)"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "NONE",
+   "n": "None"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 13,
+  "label": "SPM"
+ },
+ "subject": {
+  "id": 322,
+  "label": "Mathematics(1449)"
+ },
+ "badges": [
+  "280",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:41:39+0000"
+}

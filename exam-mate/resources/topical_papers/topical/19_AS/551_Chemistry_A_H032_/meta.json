@@ -1,0 +1,113 @@
+{
+ "topics": [
+  {
+   "v": "1255",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1256",
+   "n": "Atoms, compounds, molecules and equations"
+  },
+  {
+   "v": "1257",
+   "n": "Amount of substance"
+  },
+  {
+   "v": "1258",
+   "n": "Acid–base and redox reactions"
+  },
+  {
+   "v": "1259",
+   "n": "Electrons, bonding and structure"
+  },
+  {
+   "v": "1260",
+   "n": "The periodic table and periodicity"
+  },
+  {
+   "v": "1261",
+   "n": "Group 2 and the halogens"
+  },
+  {
+   "v": "1262",
+   "n": "Qualitative analysis"
+  },
+  {
+   "v": "1263",
+   "n": "Enthalpy changes"
+  },
+  {
+   "v": "1264",
+   "n": "Reaction rates and equilibrium (qualitative)"
+  },
+  {
+   "v": "1265",
+   "n": "Basic concepts"
+  },
+  {
+   "v": "1266",
+   "n": "Hydrocarbons"
+  },
+  {
+   "v": "1267",
+   "n": "Alcohols and haloalkanes"
+  },
+  {
+   "v": "1268",
+   "n": "Organic synthesis"
+  },
+  {
+   "v": "1269",
+   "n": "Analytcal techniques (IR and MS)"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 551,
+  "label": "Chemistry A (H032)"
+ },
+ "badges": [
+  "93",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:13:17+0000"
+}

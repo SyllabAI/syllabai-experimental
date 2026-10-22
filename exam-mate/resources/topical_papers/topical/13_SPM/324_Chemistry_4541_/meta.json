@@ -1,0 +1,105 @@
+{
+ "topics": [
+  {
+   "v": "868",
+   "n": "The structure of the Atom"
+  },
+  {
+   "v": "869",
+   "n": "Chemical Formulae and Equations"
+  },
+  {
+   "v": "870",
+   "n": "Periodic table of Elements"
+  },
+  {
+   "v": "871",
+   "n": "Chemical Bonds"
+  },
+  {
+   "v": "872",
+   "n": "Electrochemistry"
+  },
+  {
+   "v": "873",
+   "n": "Acids and Bases"
+  },
+  {
+   "v": "874",
+   "n": "Salts"
+  },
+  {
+   "v": "875",
+   "n": "Manufactured Substances in Industry"
+  },
+  {
+   "v": "876",
+   "n": "Rate of Reaction"
+  },
+  {
+   "v": "877",
+   "n": "carbon Compounds"
+  },
+  {
+   "v": "878",
+   "n": "Oxidation and Reduction"
+  },
+  {
+   "v": "879",
+   "n": "thermochemistry"
+  },
+  {
+   "v": "880",
+   "n": "Chemicals for Consumers"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "NONE",
+   "n": "None"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 13,
+  "label": "SPM"
+ },
+ "subject": {
+  "id": 324,
+  "label": "Chemistry(4541)"
+ },
+ "badges": [
+  "311",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:41:16+0000"
+}

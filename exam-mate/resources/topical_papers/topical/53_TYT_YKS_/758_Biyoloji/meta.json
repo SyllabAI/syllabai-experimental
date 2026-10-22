@@ -1,0 +1,65 @@
+{
+ "topics": [
+  {
+   "v": "3129",
+   "n": "Canlıların Ortak Özellikleri  (Common Characteristics of Living Organisms)"
+  },
+  {
+   "v": "3130",
+   "n": "Canlıların Temel Bileşenleri  (Basic Components of Living Organisms)"
+  },
+  {
+   "v": "3131",
+   "n": "Hücre ve Yapısı  (Cell and Its Structure)"
+  },
+  {
+   "v": "3132",
+   "n": "Hücre Zarından Madde Geçişleri  (Transport Across the Cell Membrane)"
+  },
+  {
+   "v": "3133",
+   "n": "Enzimler  (Enzymes)"
+  },
+  {
+   "v": "3419",
+   "n": "Canlıların Sınıflandırılması (Sistematik)  (Classification of Living Organisms (Systematics))"
+  },
+  {
+   "v": "3420",
+   "n": "Hücre Bölünmeleri  (Cell Division)"
+  },
+  {
+   "v": "3421",
+   "n": "Kalıtım (Genetik)  (Inheritance (Genetics))"
+  },
+  {
+   "v": "3422",
+   "n": "Ekoloji (Çevre Bilimi)  (Ecology)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 758,
+  "label": "Biyoloji"
+ },
+ "badges": [
+  "12",
+  "1 - 12"
+ ],
+ "harvested_at": "2026-10-22T04:37:17+0000"
+}

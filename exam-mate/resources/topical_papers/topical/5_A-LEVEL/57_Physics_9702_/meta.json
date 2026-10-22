@@ -1,0 +1,186 @@
+{
+ "topics": [
+  {
+   "v": "216",
+   "n": "PHYSICAL QUANTITIES & UNITS"
+  },
+  {
+   "v": "217",
+   "n": "MEASUREMENT TECHNIQUES"
+  },
+  {
+   "v": "395",
+   "n": "KINEMATICS"
+  },
+  {
+   "v": "396",
+   "n": "DYNAMICS"
+  },
+  {
+   "v": "397",
+   "n": "FORCES, DENSITY & PRESSURE"
+  },
+  {
+   "v": "398",
+   "n": "WORK, ENERGY & POWER"
+  },
+  {
+   "v": "399",
+   "n": "MOTION IN A CIRCLE"
+  },
+  {
+   "v": "400",
+   "n": "GRAVITATIONAL FIELDS"
+  },
+  {
+   "v": "401",
+   "n": "DEFORMATION OF SOLIDS"
+  },
+  {
+   "v": "402",
+   "n": "IDEAL GASES"
+  },
+  {
+   "v": "403",
+   "n": "TEMPERATURE"
+  },
+  {
+   "v": "404",
+   "n": "THERMAL PROPERTIES OF MATERIALS"
+  },
+  {
+   "v": "405",
+   "n": "OSCILLATIONS"
+  },
+  {
+   "v": "406",
+   "n": "WAVES"
+  },
+  {
+   "v": "407",
+   "n": "SUPERPOSITION"
+  },
+  {
+   "v": "408",
+   "n": "COMMUNICATION"
+  },
+  {
+   "v": "409",
+   "n": "ELECTRIC FIELDS"
+  },
+  {
+   "v": "410",
+   "n": "CAPACITANCE"
+  },
+  {
+   "v": "411",
+   "n": "CURRENT OF ELECTRICITY"
+  },
+  {
+   "v": "412",
+   "n": "D.C. CIRCUITS"
+  },
+  {
+   "v": "413",
+   "n": "ELECTRONICS"
+  },
+  {
+   "v": "414",
+   "n": "MAGNETIC FIELDS"
+  },
+  {
+   "v": "415",
+   "n": "ELECTROMAGNETIC INDUCTION"
+  },
+  {
+   "v": "416",
+   "n": "ALTERNATING CURRENTS"
+  },
+  {
+   "v": "417",
+   "n": "QUANTUM PHYSICS"
+  },
+  {
+   "v": "418",
+   "n": "PARTICLE & NUCLEAR PHYSICS"
+  },
+  {
+   "v": "708",
+   "n": "MEDICAL IMAGING"
+  },
+  {
+   "v": "1709",
+   "n": "ASTRONOMY & COSMOLOGY"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 57,
+  "label": "Physics(9702)"
+ },
+ "badges": [
+  "4060",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:45:59+0000"
+}

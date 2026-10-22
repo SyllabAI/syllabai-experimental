@@ -1,0 +1,65 @@
+{
+ "topics": [
+  {
+   "v": "3120",
+   "n": "Fizik Bilimine Giriş (Introduction to Physics)"
+  },
+  {
+   "v": "3121",
+   "n": "Madde ve Özellikleri (Matter and Properties)"
+  },
+  {
+   "v": "3122",
+   "n": "Hareket ve Kuvvet (Motion and Force)"
+  },
+  {
+   "v": "3123",
+   "n": "İş, Enerji ve Güç (Work, Energy and Power)"
+  },
+  {
+   "v": "3499",
+   "n": "Isı ve Sıcaklık (Heat and Temperature)"
+  },
+  {
+   "v": "3501",
+   "n": "Basınç ve Kaldırma Kuvveti (Pressure and Buoyancy)"
+  },
+  {
+   "v": "3504",
+   "n": "Dalgalar (Waves)"
+  },
+  {
+   "v": "3506",
+   "n": "Optik (Optics)"
+  },
+  {
+   "v": "3507",
+   "n": "Elektrik (Electricity)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 756,
+  "label": "Fizik"
+ },
+ "badges": [
+  "14",
+  "1 - 14"
+ ],
+ "harvested_at": "2026-10-22T04:37:40+0000"
+}

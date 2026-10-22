@@ -1,0 +1,149 @@
+{
+ "topics": [
+  {
+   "v": "1492",
+   "n": "PROOF"
+  },
+  {
+   "v": "1493",
+   "n": "ALGEBRA"
+  },
+  {
+   "v": "1494",
+   "n": "FUNCTIONS"
+  },
+  {
+   "v": "1495",
+   "n": "GRAPHS"
+  },
+  {
+   "v": "1496",
+   "n": "COORDINATE GEOMETRY"
+  },
+  {
+   "v": "1497",
+   "n": "SEQUENCES AND SERIES"
+  },
+  {
+   "v": "1498",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "1499",
+   "n": "EXPONENTIALS AND LOGARITHMS"
+  },
+  {
+   "v": "1500",
+   "n": "CALCULUS"
+  },
+  {
+   "v": "1501",
+   "n": "NUMERICAL METHODS"
+  },
+  {
+   "v": "1502",
+   "n": "VECTORS"
+  },
+  {
+   "v": "1503",
+   "n": "SAMPLING"
+  },
+  {
+   "v": "1504",
+   "n": "DATA PRESENTATION AND INTERPRETATION"
+  },
+  {
+   "v": "1505",
+   "n": "PROBABILITY"
+  },
+  {
+   "v": "1506",
+   "n": "PROBABILITY DISTRIBUTIONS"
+  },
+  {
+   "v": "1507",
+   "n": "STATISTICAL HYPOTHESIS TESTING"
+  },
+  {
+   "v": "1508",
+   "n": "MODELS AND QUANTITIES"
+  },
+  {
+   "v": "1509",
+   "n": "KINEMATICS IN 1 DIMENSION"
+  },
+  {
+   "v": "1510",
+   "n": "KINEMATICS IN 2 DIMENSIONS"
+  },
+  {
+   "v": "1511",
+   "n": "PROJECTILES"
+  },
+  {
+   "v": "1512",
+   "n": "FORCES"
+  },
+  {
+   "v": "1513",
+   "n": "NEWTON’S LAWS OF MOTION"
+  },
+  {
+   "v": "1514",
+   "n": "RIGID BODIES"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 531,
+  "label": "Mathematics B (MEI) (H640)"
+ },
+ "badges": [
+  "92",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:10:20+0000"
+}

@@ -1,0 +1,23 @@
+{
+ "category": {
+  "id": 57,
+  "label": "MYP2"
+ },
+ "subject": {
+  "id": 807,
+  "label": "Science 7"
+ },
+ "harvested_at": "2026-10-22T04:16:09+0000",
+ "badges": [
+  "0",
+  "-"
+ ],
+ "total": 0,
+ "facet_evidence": {
+  "topics": 6,
+  "years": 0,
+  "papers": 0,
+  "seasons": 1
+ },
+ "note": "apply-path re-render served 0 rows; site itself reports no questions for this subject (facet evidence above)"
+}

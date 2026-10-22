@@ -1,0 +1,83 @@
+{
+ "topics": [
+  {
+   "v": "1604",
+   "n": "Structure, Bonding and Introduction to Organic Chemistry"
+  },
+  {
+   "v": "1605",
+   "n": "Energetics, Group Chemistry, Halogenoalkanes and Alcohols"
+  },
+  {
+   "v": "1606",
+   "n": "Practical Skills in Chemistry I"
+  },
+  {
+   "v": "1607",
+   "n": "Rates, Equilibria and Further Organic Chemistry"
+  },
+  {
+   "v": "1608",
+   "n": "Transition Metals and Organic Nitrogen Chemistry"
+  },
+  {
+   "v": "1609",
+   "n": "Practical Skills in Chemistry II"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "33",
+   "n": "1(IAL)"
+  },
+  {
+   "v": "34",
+   "n": "2(IAL)"
+  },
+  {
+   "v": "38",
+   "n": "4(IAL)"
+  },
+  {
+   "v": "40",
+   "n": "5(IAL)"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 618,
+  "label": "Chemistry(WCH11)"
+ },
+ "badges": [
+  "71",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:53:46+0000"
+}

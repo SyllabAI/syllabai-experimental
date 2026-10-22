@@ -1,0 +1,139 @@
+{
+ "topics": [
+  {
+   "v": "293",
+   "n": "Molecules, Transport and Health"
+  },
+  {
+   "v": "513",
+   "n": "Membranes, Proteins, DNA and Gene Expression"
+  },
+  {
+   "v": "514",
+   "n": "Cell Structure, Reproduction and Development"
+  },
+  {
+   "v": "515",
+   "n": "Plant Structure and Function, Biodiversity and Conservation"
+  },
+  {
+   "v": "516",
+   "n": "Energy Flow, Ecosystems and the Environment"
+  },
+  {
+   "v": "517",
+   "n": "Microbiology, Immunity and Forensics"
+  },
+  {
+   "v": "518",
+   "n": "Respiration, Muscles and the Internal Environment"
+  },
+  {
+   "v": "519",
+   "n": "Coordination, Response and Gene Technology"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "33",
+   "n": "1(IAL)"
+  },
+  {
+   "v": "12",
+   "n": "1R"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "34",
+   "n": "2(IAL)"
+  },
+  {
+   "v": "13",
+   "n": "2R"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "35",
+   "n": "3(IAL)"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "38",
+   "n": "4(IAL)"
+  },
+  {
+   "v": "37",
+   "n": "4R"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  },
+  {
+   "v": "40",
+   "n": "5(IAL)"
+  },
+  {
+   "v": "39",
+   "n": "5R"
+  },
+  {
+   "v": "9",
+   "n": "6"
+  },
+  {
+   "v": "41",
+   "n": "6(IAL)"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 61,
+  "label": "Biology(WBI01)"
+ },
+ "badges": [
+  "836",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:50:47+0000"
+}

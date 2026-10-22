@@ -1,0 +1,69 @@
+{
+ "topics": [
+  {
+   "v": "3110",
+   "n": "Sayılar ve işlemler"
+  },
+  {
+   "v": "3111",
+   "n": "Bölme ve bölünebilme"
+  },
+  {
+   "v": "3112",
+   "n": "OBEB – OKEK"
+  },
+  {
+   "v": "3113",
+   "n": "Rasyonel sayılar"
+  },
+  {
+   "v": "3114",
+   "n": "Üslü ve köklü sayılar"
+  },
+  {
+   "v": "3115",
+   "n": "Denklem çözme"
+  },
+  {
+   "v": "3116",
+   "n": "Oran – orantı"
+  },
+  {
+   "v": "3117",
+   "n": "Problemler (yaş, iş, yüzde, kar–zarar, karışım, hareket vb.)"
+  },
+  {
+   "v": "3118",
+   "n": "Temel geometri: üçgen, dörtgen, daire, alan, çevre"
+  },
+  {
+   "v": "3119",
+   "n": "Veri analizi, grafik ve tablo yorumlama"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 755,
+  "label": "Temel Matematik"
+ },
+ "badges": [
+  "79",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:37:58+0000"
+}

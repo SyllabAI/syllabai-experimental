@@ -1,0 +1,101 @@
+{
+ "topics": [
+  {
+   "v": "1031",
+   "n": "Measurements and Their Errors"
+  },
+  {
+   "v": "1032",
+   "n": "Particles and Radiation"
+  },
+  {
+   "v": "1033",
+   "n": "Waves"
+  },
+  {
+   "v": "1034",
+   "n": "Mechanics and Materials"
+  },
+  {
+   "v": "1035",
+   "n": "Electricity"
+  },
+  {
+   "v": "1036",
+   "n": "Further Mechanics and Thermal Physics"
+  },
+  {
+   "v": "1037",
+   "n": "Fields and Their Consequences"
+  },
+  {
+   "v": "1038",
+   "n": "Nuclear Physics"
+  },
+  {
+   "v": "1039",
+   "n": "Astrophysics(OPTION)"
+  },
+  {
+   "v": "1040",
+   "n": "Medical Physics(OPTION)"
+  },
+  {
+   "v": "1041",
+   "n": "Engineering Physics(OPTION)"
+  },
+  {
+   "v": "1042",
+   "n": "Turning Points in Physics(OPTION)"
+  },
+  {
+   "v": "1043",
+   "n": "Electronics(OPTION)"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 18,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 428,
+  "label": "Physics (7407)"
+ },
+ "badges": [
+  "162",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:12:43+0000"
+}

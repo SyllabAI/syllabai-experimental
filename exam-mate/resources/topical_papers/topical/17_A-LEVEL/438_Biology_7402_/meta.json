@@ -1,0 +1,85 @@
+{
+ "topics": [
+  {
+   "v": "1017",
+   "n": "Biological Molecules"
+  },
+  {
+   "v": "1018",
+   "n": "Cells"
+  },
+  {
+   "v": "1019",
+   "n": "Organisms Exchange Substances With Their Environment"
+  },
+  {
+   "v": "1020",
+   "n": "Genetic Information, Variation and Relationships Between Organisms"
+  },
+  {
+   "v": "1021",
+   "n": "Energy Transfers in and Between Organisms"
+  },
+  {
+   "v": "1022",
+   "n": " Organisms Respond to Changes in Their Internal and External Environments"
+  },
+  {
+   "v": "1023",
+   "n": "Genetics, Populations, Evolution and Ecosystems"
+  },
+  {
+   "v": "1024",
+   "n": "The Control of Gene Expression"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 17,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 438,
+  "label": "Biology (7402)"
+ },
+ "badges": [
+  "81",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:10:58+0000"
+}

@@ -1,0 +1,133 @@
+{
+ "topics": [
+  {
+   "v": "1448",
+   "n": "Proof"
+  },
+  {
+   "v": "1449",
+   "n": "Algebra and Functions"
+  },
+  {
+   "v": "1450",
+   "n": "Coordinate Geometry in the x–y Plane"
+  },
+  {
+   "v": "1451",
+   "n": "Sequences and Series"
+  },
+  {
+   "v": "1452",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "1453",
+   "n": "Exponentials and Logarithms"
+  },
+  {
+   "v": "1454",
+   "n": "Differentiation"
+  },
+  {
+   "v": "1455",
+   "n": "Integration"
+  },
+  {
+   "v": "1456",
+   "n": "Numerical methods"
+  },
+  {
+   "v": "1457",
+   "n": "Vectors"
+  },
+  {
+   "v": "1458",
+   "n": "Statistical Sampling"
+  },
+  {
+   "v": "1459",
+   "n": "Data Presentation and Interpretation"
+  },
+  {
+   "v": "1460",
+   "n": "Probability"
+  },
+  {
+   "v": "1461",
+   "n": "Statistical Distributions"
+  },
+  {
+   "v": "1462",
+   "n": "Statistical Hypothesis Testing"
+  },
+  {
+   "v": "1463",
+   "n": "Quantities and Units in Mechanics"
+  },
+  {
+   "v": "1464",
+   "n": "Kinematics"
+  },
+  {
+   "v": "1465",
+   "n": "Forces and Newton’s Laws"
+  },
+  {
+   "v": "1466",
+   "n": "Moments"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 529,
+  "label": "Mathematics A (H240)"
+ },
+ "badges": [
+  "74",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:10:05+0000"
+}

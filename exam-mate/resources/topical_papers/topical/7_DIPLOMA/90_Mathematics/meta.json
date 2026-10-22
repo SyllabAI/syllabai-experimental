@@ -1,0 +1,155 @@
+{
+ "topics": [
+  {
+   "v": "299",
+   "n": "FUNCTIONS - ROOTS"
+  },
+  {
+   "v": "300",
+   "n": "QUADRATICS"
+  },
+  {
+   "v": "377",
+   "n": "EXPONENTIALS - LOGARITHMS"
+  },
+  {
+   "v": "378",
+   "n": "GRAPHS"
+  },
+  {
+   "v": "379",
+   "n": "SEQUENCES - SERIES"
+  },
+  {
+   "v": "380",
+   "n": "COMPLEX NUMBERS"
+  },
+  {
+   "v": "381",
+   "n": "PERMUTATION - COMBINATION"
+  },
+  {
+   "v": "382",
+   "n": "BINOMIAL THEOREM"
+  },
+  {
+   "v": "383",
+   "n": "REMAINDER & FACTOR THEOREM"
+  },
+  {
+   "v": "384",
+   "n": "MATHEMATICAL INDUCTION"
+  },
+  {
+   "v": "385",
+   "n": "RADIAN"
+  },
+  {
+   "v": "386",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "387",
+   "n": "MATRICES"
+  },
+  {
+   "v": "388",
+   "n": "VECTORS - LINES - PLANES"
+  },
+  {
+   "v": "389",
+   "n": "STATISTICS"
+  },
+  {
+   "v": "390",
+   "n": "PROBABILITY"
+  },
+  {
+   "v": "391",
+   "n": "DIFFERENTIATION"
+  },
+  {
+   "v": "392",
+   "n": "INTEGRATION"
+  },
+  {
+   "v": "393",
+   "n": "DIFFERENTIAL EQUATIONS"
+  },
+  {
+   "v": "394",
+   "n": "KINEMATICS"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "95",
+   "n": "3 Calculus"
+  },
+  {
+   "v": "91",
+   "n": "3 Discrete"
+  },
+  {
+   "v": "92",
+   "n": "3 Series"
+  },
+  {
+   "v": "93",
+   "n": "3 Sets"
+  },
+  {
+   "v": "94",
+   "n": "3 Statistics"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 90,
+  "label": "Mathematics"
+ },
+ "badges": [
+  "1847",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:31:24+0000"
+}

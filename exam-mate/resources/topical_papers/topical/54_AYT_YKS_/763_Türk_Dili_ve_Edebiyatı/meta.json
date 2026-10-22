@@ -1,0 +1,57 @@
+{
+ "topics": [
+  {
+   "v": "3492",
+   "n": "Edebiyat Bilgileri (Literary Concepts)"
+  },
+  {
+   "v": "3493",
+   "n": "İslamiyet Öncesi Türk Edebiyatı (Pre-Islamic Turkish Literature)"
+  },
+  {
+   "v": "3494",
+   "n": "İslamiyet Etkisindeki Türk Edebiyatı (Turkish Literature under Islamic Influence)"
+  },
+  {
+   "v": "3495",
+   "n": "Tanzimat ve Servet-i Fünun Edebiyatı (Tanzimat and Servet-i Fünun Literature)"
+  },
+  {
+   "v": "3496",
+   "n": "Milli Edebiyat ve Cumhuriyet Dönemi (National Literature and Republican Era)"
+  },
+  {
+   "v": "3497",
+   "n": "Şiir Bilgisi (Poetry)"
+  },
+  {
+   "v": "3498",
+   "n": "Roman, Hikâye ve Tiyatro (Novel, Story and Drama)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 763,
+  "label": "Türk Dili ve Edebiyatı"
+ },
+ "badges": [
+  "47",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:40:02+0000"
+}

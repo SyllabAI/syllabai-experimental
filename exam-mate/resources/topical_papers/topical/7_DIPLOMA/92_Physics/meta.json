@@ -1,0 +1,124 @@
+{
+ "topics": [
+  {
+   "v": "343",
+   "n": "MEASUREMENTS & UNCERTAINTIES"
+  },
+  {
+   "v": "344",
+   "n": "MECHANICS"
+  },
+  {
+   "v": "367",
+   "n": "THERMAL PHYSICS"
+  },
+  {
+   "v": "368",
+   "n": "OSCILLATIONS & WAVES"
+  },
+  {
+   "v": "369",
+   "n": "ELECTRICITY & MAGNETISM"
+  },
+  {
+   "v": "370",
+   "n": "CIRCULAR MOTION & GRAVITATION"
+  },
+  {
+   "v": "371",
+   "n": "ATOMIC,NUCLEAR & PARTICLE PHYSICS"
+  },
+  {
+   "v": "372",
+   "n": "ENERGY PRODUCTION"
+  },
+  {
+   "v": "373",
+   "n": "WAVE PHENOMENA (AHL)"
+  },
+  {
+   "v": "374",
+   "n": "FIELDS (AHL)"
+  },
+  {
+   "v": "375",
+   "n": "ELECTROMAGNETIC INDUCTION (AHL)"
+  },
+  {
+   "v": "376",
+   "n": "QUANTUM & NUCLEAR PHYSICS (AHL)"
+  },
+  {
+   "v": "2799",
+   "n": "RELATIVITY"
+  },
+  {
+   "v": "2800",
+   "n": "ENGINEERING PHYSICS"
+  },
+  {
+   "v": "2801",
+   "n": "IMAGING"
+  },
+  {
+   "v": "2802",
+   "n": "ASTROPHYSICS"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 92,
+  "label": "Physics"
+ },
+ "badges": [
+  "3186",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:33:10+0000"
+}

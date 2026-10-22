@@ -1,0 +1,109 @@
+{
+ "topics": [
+  {
+   "v": "980",
+   "n": "Building Blocks"
+  },
+  {
+   "v": "981",
+   "n": "Transport Over Larger Distances"
+  },
+  {
+   "v": "982",
+   "n": "Interactions With the Environment"
+  },
+  {
+   "v": "983",
+   "n": "Explaining Change"
+  },
+  {
+   "v": "984",
+   "n": "Building Blocks for Understanding"
+  },
+  {
+   "v": "985",
+   "n": "Interactions Over Small and Large Distances"
+  },
+  {
+   "v": "986",
+   "n": "Movement and Interactions"
+  },
+  {
+   "v": "987",
+   "n": "Guiding Spaceship Earth Towards a Sustainable Future"
+  },
+  {
+   "v": "988",
+   "n": "Key ideas"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "21",
+   "n": "1F"
+  },
+  {
+   "v": "691",
+   "n": "1H"
+  },
+  {
+   "v": "23",
+   "n": "2F"
+  },
+  {
+   "v": "693",
+   "n": "2H"
+  },
+  {
+   "v": "756",
+   "n": "3F"
+  },
+  {
+   "v": "25",
+   "n": "3H"
+  },
+  {
+   "v": "757",
+   "n": "4F"
+  },
+  {
+   "v": "27",
+   "n": "4H"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 15,
+  "label": "GCSE"
+ },
+ "subject": {
+  "id": 368,
+  "label": "Combined Science: Synergy (8465)"
+ },
+ "badges": [
+  "145",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:07:44+0000"
+}

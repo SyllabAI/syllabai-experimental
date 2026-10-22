@@ -1,0 +1,93 @@
+{
+ "topics": [
+  {
+   "v": "1133",
+   "n": "Air and water"
+  },
+  {
+   "v": "1134",
+   "n": "Chemical patterns"
+  },
+  {
+   "v": "1135",
+   "n": "Chemicals of the natural environment"
+  },
+  {
+   "v": "1136",
+   "n": "Material choices"
+  },
+  {
+   "v": "1137",
+   "n": "Chemical analysis"
+  },
+  {
+   "v": "1138",
+   "n": "Making useful chemicals"
+  },
+  {
+   "v": "1139",
+   "n": "Ideas about Science"
+  },
+  {
+   "v": "1140",
+   "n": "Practical Skills"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 478,
+  "label": "Chemistry B (9-1) - Twenty First Century Science Suite J258"
+ },
+ "badges": [
+  "92",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:21:04+0000"
+}

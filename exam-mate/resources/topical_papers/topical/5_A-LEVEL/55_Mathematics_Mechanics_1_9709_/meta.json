@@ -1,0 +1,75 @@
+{
+ "topics": [
+  {
+   "v": "266",
+   "n": "FORCES & EQUILIBRIUM"
+  },
+  {
+   "v": "267",
+   "n": "KINEMATICS OF MOTION IN A STRAIGHT LINE"
+  },
+  {
+   "v": "423",
+   "n": "NEWTON'S LAWS OF MOTION"
+  },
+  {
+   "v": "424",
+   "n": "ENERGY ,WORK & POWER"
+  },
+  {
+   "v": "468",
+   "n": "GENERAL MOTION IN STRAIGHT LINE"
+  },
+  {
+   "v": "628",
+   "n": "MOMENTUM"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 55,
+  "label": "Mathematics Mechanics 1(9709)"
+ },
+ "badges": [
+  "438",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:41:42+0000"
+}

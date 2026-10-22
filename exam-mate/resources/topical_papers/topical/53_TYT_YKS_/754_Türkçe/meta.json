@@ -1,0 +1,61 @@
+{
+ "topics": [
+  {
+   "v": "3102",
+   "n": "Sözcükte anlam"
+  },
+  {
+   "v": "3103",
+   "n": "Cümlede anlam"
+  },
+  {
+   "v": "3104",
+   "n": "Paragraf (anlam ve anlatım)"
+  },
+  {
+   "v": "3105",
+   "n": "Dil bilgisi (fiil, isim, sıfat, zamir, zarf, edat, bağlaç, ünlem vb.)"
+  },
+  {
+   "v": "3106",
+   "n": "Yazım kuralları"
+  },
+  {
+   "v": "3107",
+   "n": "Noktalama işaretleri"
+  },
+  {
+   "v": "3108",
+   "n": "Anlatım bozuklukları"
+  },
+  {
+   "v": "3109",
+   "n": "Sözel mantık (yorumlama, akıl yürütme)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 754,
+  "label": "Türkçe"
+ },
+ "badges": [
+  "80",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:38:08+0000"
+}

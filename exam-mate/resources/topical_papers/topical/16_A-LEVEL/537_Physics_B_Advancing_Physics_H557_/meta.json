@@ -1,0 +1,121 @@
+{
+ "topics": [
+  {
+   "v": "1564",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1565",
+   "n": "Fundamental data analysis"
+  },
+  {
+   "v": "1566",
+   "n": "Imaging and signalling"
+  },
+  {
+   "v": "1567",
+   "n": "Sensing"
+  },
+  {
+   "v": "1568",
+   "n": "Mechanical properties of materials"
+  },
+  {
+   "v": "1569",
+   "n": "Waves and quantum behaviour"
+  },
+  {
+   "v": "1570",
+   "n": "Space, time and motion"
+  },
+  {
+   "v": "1571",
+   "n": "Creating models"
+  },
+  {
+   "v": "1572",
+   "n": "Out into space"
+  },
+  {
+   "v": "1573",
+   "n": "Our place in the universe"
+  },
+  {
+   "v": "1574",
+   "n": "Matter: very simple"
+  },
+  {
+   "v": "1575",
+   "n": "Matter: hot or cold"
+  },
+  {
+   "v": "1576",
+   "n": "Electromagnetism"
+  },
+  {
+   "v": "1577",
+   "n": "Charge and field"
+  },
+  {
+   "v": "1578",
+   "n": "Probing deep into matter"
+  },
+  {
+   "v": "1579",
+   "n": "Ionising radiation and risk"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 537,
+  "label": "Physics B (Advancing Physics) (H557)"
+ },
+ "badges": [
+  "169",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:10:44+0000"
+}

@@ -1,0 +1,45 @@
+{
+ "topics": [
+  {
+   "v": "3134",
+   "n": "İlk Türk devletleri"
+  },
+  {
+   "v": "3135",
+   "n": "Osmanlı Devleti"
+  },
+  {
+   "v": "3136",
+   "n": "Kurtuluş Savaşı ve Atatürk dönemi"
+  },
+  {
+   "v": "3137",
+   "n": "Çağdaş Türk tarihi"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 759,
+  "label": "Tarih"
+ },
+ "badges": [
+  "10",
+  "1 - 10"
+ ],
+ "harvested_at": "2026-10-22T04:37:52+0000"
+}

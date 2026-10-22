@@ -1,0 +1,61 @@
+{
+ "topics": [
+  {
+   "v": "1025",
+   "n": "Physical chemistry"
+  },
+  {
+   "v": "1026",
+   "n": "Inorganic chemistry"
+  },
+  {
+   "v": "1027",
+   "n": "Organic chemistry"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 18,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 405,
+  "label": "Chemistry (7404)"
+ },
+ "badges": [
+  "188",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:12:09+0000"
+}

@@ -1,0 +1,77 @@
+{
+ "topics": [
+  {
+   "v": "593",
+   "n": "Microeconomics"
+  },
+  {
+   "v": "594",
+   "n": "Macroeconomics"
+  },
+  {
+   "v": "595",
+   "n": "International economics"
+  },
+  {
+   "v": "596",
+   "n": "Development economics"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2",
+  "3",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 80,
+  "label": "Economics"
+ },
+ "badges": [
+  "243",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:25:44+0000"
+}

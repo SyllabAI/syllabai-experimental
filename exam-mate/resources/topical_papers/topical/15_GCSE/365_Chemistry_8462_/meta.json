@@ -1,0 +1,97 @@
+{
+ "topics": [
+  {
+   "v": "962",
+   "n": "Atomic Structure and the Periodic Table"
+  },
+  {
+   "v": "963",
+   "n": "Bonding, Structure, and the Properties of Matter"
+  },
+  {
+   "v": "964",
+   "n": "Quantitative Chemistry"
+  },
+  {
+   "v": "965",
+   "n": "Chemical Changes"
+  },
+  {
+   "v": "966",
+   "n": "Energy Changes"
+  },
+  {
+   "v": "967",
+   "n": "The Rate and Extent of Chemical Change"
+  },
+  {
+   "v": "968",
+   "n": "Organic Chemistry"
+  },
+  {
+   "v": "969",
+   "n": "Chemical Analysis"
+  },
+  {
+   "v": "970",
+   "n": "Chemistry of the Atmosphere"
+  },
+  {
+   "v": "971",
+   "n": "Using Resources"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "21",
+   "n": "1F"
+  },
+  {
+   "v": "691",
+   "n": "1H"
+  },
+  {
+   "v": "23",
+   "n": "2F"
+  },
+  {
+   "v": "693",
+   "n": "2H"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 15,
+  "label": "GCSE"
+ },
+ "subject": {
+  "id": 365,
+  "label": "Chemistry (8462)"
+ },
+ "badges": [
+  "78",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:07:35+0000"
+}

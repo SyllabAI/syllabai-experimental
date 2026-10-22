@@ -1,0 +1,79 @@
+{
+ "topics": [
+  {
+   "v": "795",
+   "n": "Applied Anatomy and Physiology"
+  },
+  {
+   "v": "802",
+   "n": "Acquiring, Developing and Performing Movement Skills"
+  },
+  {
+   "v": "803",
+   "n": "Contemporary Studies in Physical Education and Sport"
+  },
+  {
+   "v": "804",
+   "n": "Exercise and Sport Physiology"
+  },
+  {
+   "v": "805",
+   "n": "Psychology of Sport Performance"
+  },
+  {
+   "v": "806",
+   "n": "Olympic Games: A Global Perspective"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 174,
+  "label": "Physical Education(9396)"
+ },
+ "badges": [
+  "78",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:45:49+0000"
+}

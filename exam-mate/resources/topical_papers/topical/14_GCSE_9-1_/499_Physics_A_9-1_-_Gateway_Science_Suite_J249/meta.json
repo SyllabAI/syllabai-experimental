@@ -1,0 +1,97 @@
+{
+ "topics": [
+  {
+   "v": "1163",
+   "n": "Matter"
+  },
+  {
+   "v": "1164",
+   "n": "Forces"
+  },
+  {
+   "v": "1165",
+   "n": "Electricity"
+  },
+  {
+   "v": "1166",
+   "n": "Magnetism and magnetic fields"
+  },
+  {
+   "v": "1167",
+   "n": "Waves in matte"
+  },
+  {
+   "v": "1168",
+   "n": "Radioactivity"
+  },
+  {
+   "v": "1169",
+   "n": "Energy"
+  },
+  {
+   "v": "1170",
+   "n": "Global challenges"
+  },
+  {
+   "v": "1171",
+   "n": "Practical skills"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 499,
+  "label": "Physics A (9-1) - Gateway Science Suite J249"
+ },
+ "badges": [
+  "183",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:58:50+0000"
+}

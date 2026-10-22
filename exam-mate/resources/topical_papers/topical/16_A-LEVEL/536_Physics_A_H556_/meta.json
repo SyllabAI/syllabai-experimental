@@ -1,0 +1,153 @@
+{
+ "topics": [
+  {
+   "v": "1540",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1541",
+   "n": "Physical quantities and units"
+  },
+  {
+   "v": "1542",
+   "n": "Making measurements and analysing data"
+  },
+  {
+   "v": "1543",
+   "n": "Nature of quantities"
+  },
+  {
+   "v": "1544",
+   "n": "Motion"
+  },
+  {
+   "v": "1545",
+   "n": "Forces in action"
+  },
+  {
+   "v": "1546",
+   "n": "Work, energy and power"
+  },
+  {
+   "v": "1547",
+   "n": "Materials"
+  },
+  {
+   "v": "1548",
+   "n": "Newton’s laws of motion and momentum"
+  },
+  {
+   "v": "1549",
+   "n": "Charge and current"
+  },
+  {
+   "v": "1550",
+   "n": "Energy, power and resistance"
+  },
+  {
+   "v": "1551",
+   "n": "Electrical circuits"
+  },
+  {
+   "v": "1552",
+   "n": "Waves"
+  },
+  {
+   "v": "1553",
+   "n": "Quantum physics"
+  },
+  {
+   "v": "1554",
+   "n": "Thermal physics"
+  },
+  {
+   "v": "1555",
+   "n": "Circular motion"
+  },
+  {
+   "v": "1556",
+   "n": "Oscillations"
+  },
+  {
+   "v": "1557",
+   "n": "Gravitational fields"
+  },
+  {
+   "v": "1558",
+   "n": "Astrophysics and cosmology"
+  },
+  {
+   "v": "1559",
+   "n": "Capacitors"
+  },
+  {
+   "v": "1560",
+   "n": "Electric fields"
+  },
+  {
+   "v": "1561",
+   "n": "Electromagnetism"
+  },
+  {
+   "v": "1562",
+   "n": "Nuclear and particle physics"
+  },
+  {
+   "v": "1563",
+   "n": "Medical imaging"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 536,
+  "label": "Physics A (H556)"
+ },
+ "badges": [
+  "163",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:10:30+0000"
+}

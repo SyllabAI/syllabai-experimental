@@ -1,0 +1,159 @@
+{
+ "topics": [
+  {
+   "v": "301",
+   "n": "PROOF BY INDUCTION"
+  },
+  {
+   "v": "302",
+   "n": "COMPLEX NUMBERS"
+  },
+  {
+   "v": "304",
+   "n": "MATRIX ALGEBRA"
+  },
+  {
+   "v": "305",
+   "n": "POLYNOMIALS AND ROOTS"
+  },
+  {
+   "v": "306",
+   "n": "SERIES"
+  },
+  {
+   "v": "307",
+   "n": "INEQUALITIES"
+  },
+  {
+   "v": "308",
+   "n": "DIFFERENTIATTION"
+  },
+  {
+   "v": "309",
+   "n": "INTEGRATTION"
+  },
+  {
+   "v": "310",
+   "n": "VECTORS"
+  },
+  {
+   "v": "311",
+   "n": "POLAR COORDINATES"
+  },
+  {
+   "v": "312",
+   "n": "HYPORBOLIC FUNCTIONS"
+  },
+  {
+   "v": "313",
+   "n": "DIFFERENTIAL EQUATIONS"
+  },
+  {
+   "v": "314",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "315",
+   "n": "NUMERICAL METHODS"
+  },
+  {
+   "v": "316",
+   "n": "GROUPS"
+  },
+  {
+   "v": "317",
+   "n": "BINOMIAL THEOREM"
+  },
+  {
+   "v": "621",
+   "n": "COORDINATE SYSTEMS"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "65",
+   "n": "F1(IAL)"
+  },
+  {
+   "v": "70",
+   "n": "F2(IAL)"
+  },
+  {
+   "v": "73",
+   "n": "F3(IAL)"
+  },
+  {
+   "v": "63",
+   "n": "FP1"
+  },
+  {
+   "v": "66",
+   "n": "FP1(IAL)"
+  },
+  {
+   "v": "108",
+   "n": "FP1(WITHDR)"
+  },
+  {
+   "v": "64",
+   "n": "FP1R"
+  },
+  {
+   "v": "67",
+   "n": "FP2"
+  },
+  {
+   "v": "68",
+   "n": "FP2(WITHDR)"
+  },
+  {
+   "v": "69",
+   "n": "FP2R"
+  },
+  {
+   "v": "71",
+   "n": "FP3"
+  },
+  {
+   "v": "72",
+   "n": "FP3R"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 67,
+  "label": "Further Pure Mathematics(WFM01)"
+ },
+ "badges": [
+  "484",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:53:55+0000"
+}

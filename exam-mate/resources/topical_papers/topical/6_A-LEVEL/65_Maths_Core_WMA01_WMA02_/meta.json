@@ -1,0 +1,183 @@
+{
+ "topics": [
+  {
+   "v": "273",
+   "n": "ALGEBRA"
+  },
+  {
+   "v": "274",
+   "n": "QUADRATICS"
+  },
+  {
+   "v": "275",
+   "n": "INEQUALITIES"
+  },
+  {
+   "v": "276",
+   "n": "SIMULTANOUS EQUATIONS"
+  },
+  {
+   "v": "277",
+   "n": "GEOMETRY COORDINATES"
+  },
+  {
+   "v": "278",
+   "n": "GRAPHS"
+  },
+  {
+   "v": "279",
+   "n": "SEQUENCES & SERIES"
+  },
+  {
+   "v": "280",
+   "n": "FACTOR THEOREM"
+  },
+  {
+   "v": "281",
+   "n": "BINOMIAL EXPANSION"
+  },
+  {
+   "v": "282",
+   "n": "EXPONENTIAL & LOGARITHMS"
+  },
+  {
+   "v": "283",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "284",
+   "n": "CIRCULAR MEASURMENTS"
+  },
+  {
+   "v": "285",
+   "n": "ITERATIVE FORMULA"
+  },
+  {
+   "v": "286",
+   "n": "PARTIAL FRACTIONS"
+  },
+  {
+   "v": "287",
+   "n": "VECTORS"
+  },
+  {
+   "v": "288",
+   "n": "DIFFERENTIATION"
+  },
+  {
+   "v": "289",
+   "n": "INTEGRATION"
+  },
+  {
+   "v": "290",
+   "n": "DIFFERENTIATION EQUATIONS"
+  },
+  {
+   "v": "303",
+   "n": "FUNCTIONS"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "42",
+   "n": "C1"
+  },
+  {
+   "v": "44",
+   "n": "C1(IAL)"
+  },
+  {
+   "v": "45",
+   "n": "C12(IAL)"
+  },
+  {
+   "v": "43",
+   "n": "C1R"
+  },
+  {
+   "v": "46",
+   "n": "C2"
+  },
+  {
+   "v": "48",
+   "n": "C2(IAL)"
+  },
+  {
+   "v": "47",
+   "n": "C2R"
+  },
+  {
+   "v": "49",
+   "n": "C3"
+  },
+  {
+   "v": "51",
+   "n": "C3(IAL)"
+  },
+  {
+   "v": "109",
+   "n": "C3(WITHDR)"
+  },
+  {
+   "v": "107",
+   "n": "C34(IAL)"
+  },
+  {
+   "v": "50",
+   "n": "C3R"
+  },
+  {
+   "v": "52",
+   "n": "C4"
+  },
+  {
+   "v": "54",
+   "n": "C4(IAL)"
+  },
+  {
+   "v": "110",
+   "n": "C4(WITHDR)"
+  },
+  {
+   "v": "53",
+   "n": "C4R"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 65,
+  "label": "Maths Core(WMA01/WMA02)"
+ },
+ "badges": [
+  "867",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:56:41+0000"
+}

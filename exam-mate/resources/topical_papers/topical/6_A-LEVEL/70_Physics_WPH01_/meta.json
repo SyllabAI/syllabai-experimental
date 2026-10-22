@@ -1,0 +1,207 @@
+{
+ "topics": [
+  {
+   "v": "291",
+   "n": "Units and Estimation"
+  },
+  {
+   "v": "292",
+   "n": "Motion"
+  },
+  {
+   "v": "490",
+   "n": "Energy"
+  },
+  {
+   "v": "491",
+   "n": "Momentum"
+  },
+  {
+   "v": "492",
+   "n": "Fluids"
+  },
+  {
+   "v": "493",
+   "n": "Solid Materials"
+  },
+  {
+   "v": "494",
+   "n": "Basic Waves"
+  },
+  {
+   "v": "495",
+   "n": "Behaviour of Waves"
+  },
+  {
+   "v": "496",
+   "n": "Optics"
+  },
+  {
+   "v": "497",
+   "n": "Electrical Quantities"
+  },
+  {
+   "v": "498",
+   "n": "Electrical Circuits"
+  },
+  {
+   "v": "499",
+   "n": "Quantum Physics"
+  },
+  {
+   "v": "500",
+   "n": "Further Momentum"
+  },
+  {
+   "v": "501",
+   "n": "Circular Motion"
+  },
+  {
+   "v": "502",
+   "n": "Electric Fields"
+  },
+  {
+   "v": "503",
+   "n": "Capacitors"
+  },
+  {
+   "v": "504",
+   "n": "Electromagnetic effects"
+  },
+  {
+   "v": "505",
+   "n": "Probing Matter"
+  },
+  {
+   "v": "506",
+   "n": "Particle Accelerators and detectors"
+  },
+  {
+   "v": "507",
+   "n": "Particle Interactions"
+  },
+  {
+   "v": "508",
+   "n": "Heat & Temperature"
+  },
+  {
+   "v": "509",
+   "n": "Radioactivity"
+  },
+  {
+   "v": "510",
+   "n": "Gravitational Fields"
+  },
+  {
+   "v": "511",
+   "n": "Space & Astronomy"
+  },
+  {
+   "v": "512",
+   "n": "Oscillations"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "33",
+   "n": "1(IAL)"
+  },
+  {
+   "v": "12",
+   "n": "1R"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "34",
+   "n": "2(IAL)"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "35",
+   "n": "3(IAL)"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "38",
+   "n": "4(IAL)"
+  },
+  {
+   "v": "37",
+   "n": "4R"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  },
+  {
+   "v": "40",
+   "n": "5(IAL)"
+  },
+  {
+   "v": "39",
+   "n": "5R"
+  },
+  {
+   "v": "9",
+   "n": "6"
+  },
+  {
+   "v": "41",
+   "n": "6(IAL)"
+  },
+  {
+   "v": "500",
+   "n": "7(IAL)"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 70,
+  "label": "Physics(WPH01)"
+ },
+ "badges": [
+  "1146",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:57:34+0000"
+}

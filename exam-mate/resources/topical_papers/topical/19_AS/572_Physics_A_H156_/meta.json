@@ -1,0 +1,109 @@
+{
+ "topics": [
+  {
+   "v": "1331",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1332",
+   "n": "Physical quantities and units"
+  },
+  {
+   "v": "1333",
+   "n": "Making measurements and analysing data"
+  },
+  {
+   "v": "1334",
+   "n": "Nature of quantities"
+  },
+  {
+   "v": "1335",
+   "n": "Motion"
+  },
+  {
+   "v": "1336",
+   "n": "Forces in action"
+  },
+  {
+   "v": "1337",
+   "n": "Work, energy and power"
+  },
+  {
+   "v": "1338",
+   "n": "Materials"
+  },
+  {
+   "v": "1339",
+   "n": "Newton’s laws of motion and momentum"
+  },
+  {
+   "v": "1340",
+   "n": "Charge and current"
+  },
+  {
+   "v": "1341",
+   "n": "Energy, power and resistance"
+  },
+  {
+   "v": "1342",
+   "n": "Electrical circuits"
+  },
+  {
+   "v": "1343",
+   "n": "Waves"
+  },
+  {
+   "v": "1344",
+   "n": "Quantum physics"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 572,
+  "label": "Physics A (H156)"
+ },
+ "badges": [
+  "100",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:13:57+0000"
+}

@@ -1,0 +1,94 @@
+{
+ "topics": [
+  {
+   "v": "734",
+   "n": "Hinduism"
+  },
+  {
+   "v": "735",
+   "n": "Buddhism"
+  },
+  {
+   "v": "736",
+   "n": "Sikhism"
+  },
+  {
+   "v": "737",
+   "n": "Judaism"
+  },
+  {
+   "v": "738",
+   "n": "Christianity"
+  },
+  {
+   "v": "739",
+   "n": "Islam"
+  },
+  {
+   "v": "740",
+   "n": "Taoism"
+  },
+  {
+   "v": "741",
+   "n": "Jainism"
+  },
+  {
+   "v": "742",
+   "n": "Baha’i Faith"
+  },
+  {
+   "v": "947",
+   "n": "Open-ended question"
+  }
+ ],
+ "zones": [
+  "7",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 121,
+  "label": "World Religions"
+ },
+ "badges": [
+  "115",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:36:42+0000"
+}

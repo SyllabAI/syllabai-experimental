@@ -1,0 +1,69 @@
+{
+ "topics": [
+  {
+   "v": "785",
+   "n": "Power, Sovereignty and International Relations"
+  },
+  {
+   "v": "786",
+   "n": "Human Rights"
+  },
+  {
+   "v": "787",
+   "n": "Development"
+  },
+  {
+   "v": "788",
+   "n": "Peace and Conflict"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2",
+  "3",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 116,
+  "label": "Global Politics"
+ },
+ "badges": [
+  "112",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:30:32+0000"
+}

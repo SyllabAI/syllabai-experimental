@@ -1,0 +1,103 @@
+{
+ "topics": [
+  {
+   "v": "1635",
+   "n": "Algebra and Functions"
+  },
+  {
+   "v": "1636",
+   "n": "Coordinate geometry in the (x, y) plane"
+  },
+  {
+   "v": "1637",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "1638",
+   "n": "Differentiation"
+  },
+  {
+   "v": "1639",
+   "n": "Integration"
+  },
+  {
+   "v": "1640",
+   "n": "Proof"
+  },
+  {
+   "v": "1641",
+   "n": "Sequences and series"
+  },
+  {
+   "v": "1642",
+   "n": "Exponentials and logarithms"
+  },
+  {
+   "v": "1643",
+   "n": "Numerical methods"
+  },
+  {
+   "v": "1644",
+   "n": "Binomial expansion"
+  },
+  {
+   "v": "1645",
+   "n": "Vectors"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "801",
+   "n": "P1(IAL)"
+  },
+  {
+   "v": "802",
+   "n": "P2(IAL)"
+  },
+  {
+   "v": "803",
+   "n": "P3(IAL)"
+  },
+  {
+   "v": "804",
+   "n": "P4(IAL)"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 620,
+  "label": "Mathematics Pure(WMA11)"
+ },
+ "badges": [
+  "32",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:56:07+0000"
+}

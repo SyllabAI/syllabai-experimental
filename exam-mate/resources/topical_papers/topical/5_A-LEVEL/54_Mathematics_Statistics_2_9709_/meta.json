@@ -1,0 +1,75 @@
+{
+ "topics": [
+  {
+   "v": "272",
+   "n": "Hypothesis Testing Using Binomial Distribution"
+  },
+  {
+   "v": "521",
+   "n": "Hypothesis Testing Using Normal Distribution"
+  },
+  {
+   "v": "522",
+   "n": "Poisson Distribution"
+  },
+  {
+   "v": "523",
+   "n": "Linear Combination Of Random Variables"
+  },
+  {
+   "v": "524",
+   "n": "Continuous Random Variables"
+  },
+  {
+   "v": "529",
+   "n": "Sampling"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "11",
+   "n": "7"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 54,
+  "label": "Mathematics Statistics 2(9709)"
+ },
+ "badges": [
+  "429",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:44:45+0000"
+}

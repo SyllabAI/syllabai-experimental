@@ -1,0 +1,113 @@
+{
+ "topics": [
+  {
+   "v": "1152",
+   "n": "Number Operations and Integers"
+  },
+  {
+   "v": "1153",
+   "n": "Fractions, Decimals and Percentages"
+  },
+  {
+   "v": "1154",
+   "n": "Indices and Surds"
+  },
+  {
+   "v": "1155",
+   "n": "Approximation and Estimation"
+  },
+  {
+   "v": "1156",
+   "n": "Ratio, Proportion and Rates Of Change"
+  },
+  {
+   "v": "1157",
+   "n": "Algebra"
+  },
+  {
+   "v": "1158",
+   "n": "Graphs of Equations and Functions"
+  },
+  {
+   "v": "1159",
+   "n": "Geometry"
+  },
+  {
+   "v": "1160",
+   "n": "Mensuration"
+  },
+  {
+   "v": "1161",
+   "n": "Probability"
+  },
+  {
+   "v": "1162",
+   "n": "Statistics"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  },
+  {
+   "v": "9",
+   "n": "6"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 495,
+  "label": "Mathematics (9-1) J560"
+ },
+ "badges": [
+  "635",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:21:14+0000"
+}

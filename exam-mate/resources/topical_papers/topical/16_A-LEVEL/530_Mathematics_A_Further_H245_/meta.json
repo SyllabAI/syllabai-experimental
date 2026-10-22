@@ -1,0 +1,225 @@
+{
+ "topics": [
+  {
+   "v": "1467",
+   "n": "Proof (Pure Math)"
+  },
+  {
+   "v": "1468",
+   "n": "Complex Numbers (Pure Math)"
+  },
+  {
+   "v": "1469",
+   "n": "Matrices (Pure Math)"
+  },
+  {
+   "v": "1470",
+   "n": "Further Vectors (Pure Math)"
+  },
+  {
+   "v": "1471",
+   "n": "Further Algebra (Pure Math)"
+  },
+  {
+   "v": "1472",
+   "n": "Series (Pure Math)"
+  },
+  {
+   "v": "1473",
+   "n": "Hyperbolic Functions (Pure Math)"
+  },
+  {
+   "v": "1474",
+   "n": "Further Calculus (Pure Math)"
+  },
+  {
+   "v": "1475",
+   "n": "Polar Coordinates (Pure Math)"
+  },
+  {
+   "v": "1476",
+   "n": "Differential Equations (Pure Math)"
+  },
+  {
+   "v": "1477",
+   "n": "Probability (Statistics)"
+  },
+  {
+   "v": "1478",
+   "n": "Discrete Random Variables (Statistics)"
+  },
+  {
+   "v": "1479",
+   "n": "Continuous Random Variables (Statistics)"
+  },
+  {
+   "v": "1480",
+   "n": "Linear Combinations of Random Variables (Statistics)"
+  },
+  {
+   "v": "1481",
+   "n": "Hypothesis Tests and Confidence Intervals (Statistics)"
+  },
+  {
+   "v": "1482",
+   "n": "Chi-squared Tests (Statistics)"
+  },
+  {
+   "v": "1483",
+   "n": "Non-parametric tests (Statistics)"
+  },
+  {
+   "v": "1484",
+   "n": "Correlation (Statistics)"
+  },
+  {
+   "v": "1485",
+   "n": "Linear Regression (Statistics)"
+  },
+  {
+   "v": "1486",
+   "n": "Dimensional Analysis (Mechanics)"
+  },
+  {
+   "v": "1487",
+   "n": "Work, Energy and Power (Mechanics)"
+  },
+  {
+   "v": "1488",
+   "n": "Impulse and Momentum (Mechanics)"
+  },
+  {
+   "v": "1489",
+   "n": "Centre of Mass (Mechanics)"
+  },
+  {
+   "v": "1490",
+   "n": "Motion in a Circle (Mechanics)"
+  },
+  {
+   "v": "1491",
+   "n": "Further Dynamics and Kinematics (Mechanics)"
+  },
+  {
+   "v": "1580",
+   "n": "Mathematical preliminaries (Discrete mathematics)"
+  },
+  {
+   "v": "1581",
+   "n": "Graphs and networks (Discrete mathematics)"
+  },
+  {
+   "v": "1582",
+   "n": "Algorithms (Discrete mathematics)"
+  },
+  {
+   "v": "1583",
+   "n": "Network algorithms (Discrete mathematics)"
+  },
+  {
+   "v": "1584",
+   "n": "Decision making in project management (Discrete mathematics)"
+  },
+  {
+   "v": "1585",
+   "n": "Graphical linear programming (Discrete mathematics)"
+  },
+  {
+   "v": "1586",
+   "n": "The simplex algorithm (Discrete mathematics)"
+  },
+  {
+   "v": "1587",
+   "n": "Game theory (Discrete mathematics)"
+  },
+  {
+   "v": "1588",
+   "n": "Sequences and series (Additional pure math)"
+  },
+  {
+   "v": "1589",
+   "n": "Number theory (Additional pure math)"
+  },
+  {
+   "v": "1590",
+   "n": "Groups (Additional pure math)"
+  },
+  {
+   "v": "1591",
+   "n": "Further vectors (Additional pure math)"
+  },
+  {
+   "v": "1592",
+   "n": "Surfaces and partial differentiation (Additional pure math)"
+  },
+  {
+   "v": "1593",
+   "n": "Further calculus (Additional pure math)"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "738",
+   "n": "Additional Pure Mathematics"
+  },
+  {
+   "v": "737",
+   "n": "Discrete Mathematics"
+  },
+  {
+   "v": "736",
+   "n": "Mechanics"
+  },
+  {
+   "v": "733",
+   "n": "Pure Core 1"
+  },
+  {
+   "v": "734",
+   "n": "Pure Core 2"
+  },
+  {
+   "v": "735",
+   "n": "Statistics"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 530,
+  "label": "Mathematics A, Further (H245)"
+ },
+ "badges": [
+  "52",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:18:47+0000"
+}

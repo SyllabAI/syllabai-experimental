@@ -1,0 +1,161 @@
+{
+ "topics": [
+  {
+   "v": "1352",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1353",
+   "n": "Cell structure"
+  },
+  {
+   "v": "1354",
+   "n": "Biological molecules"
+  },
+  {
+   "v": "1355",
+   "n": "Nucleotides and nucleic acid"
+  },
+  {
+   "v": "1356",
+   "n": "Enzymes"
+  },
+  {
+   "v": "1357",
+   "n": "Biological membranes"
+  },
+  {
+   "v": "1358",
+   "n": "Cell division, cell diversity and cellular organisaton"
+  },
+  {
+   "v": "1359",
+   "n": "Exchange surfaces"
+  },
+  {
+   "v": "1360",
+   "n": "Transport in animals"
+  },
+  {
+   "v": "1361",
+   "n": "Transport in plants"
+  },
+  {
+   "v": "1362",
+   "n": "Communicable diseases, disease prevention and the immune system"
+  },
+  {
+   "v": "1363",
+   "n": "Biodiversity"
+  },
+  {
+   "v": "1364",
+   "n": "Classification and evolution"
+  },
+  {
+   "v": "1365",
+   "n": "Communication and homeostasis"
+  },
+  {
+   "v": "1366",
+   "n": "Excretion as an example of homeostatic control"
+  },
+  {
+   "v": "1367",
+   "n": "Neuronal communication"
+  },
+  {
+   "v": "1368",
+   "n": " Hormonal communication"
+  },
+  {
+   "v": "1369",
+   "n": "Plant and animal responses"
+  },
+  {
+   "v": "1370",
+   "n": "Photosynthesis"
+  },
+  {
+   "v": "1371",
+   "n": "Respiration"
+  },
+  {
+   "v": "1372",
+   "n": "Cellular control"
+  },
+  {
+   "v": "1373",
+   "n": "Patterns of inheritance"
+  },
+  {
+   "v": "1374",
+   "n": "Manipulating genomes"
+  },
+  {
+   "v": "1375",
+   "n": "Cloning and biotechnology"
+  },
+  {
+   "v": "1376",
+   "n": "Ecosystems"
+  },
+  {
+   "v": "1377",
+   "n": "Populations and sustainability"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 507,
+  "label": "Biology A (H420)"
+ },
+ "badges": [
+  "150",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:09:14+0000"
+}

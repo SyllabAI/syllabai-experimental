@@ -1,0 +1,92 @@
+{
+ "topics": [
+  {
+   "v": "597",
+   "n": "Basic Economic Ideas and Resource Allocation"
+  },
+  {
+   "v": "598",
+   "n": "The Price System and the Micro Economy"
+  },
+  {
+   "v": "599",
+   "n": "Government Microeconomic Intervention"
+  },
+  {
+   "v": "600",
+   "n": "The Macro Economy"
+  },
+  {
+   "v": "601",
+   "n": "Government Macro Intervention"
+  },
+  {
+   "v": "2842",
+   "n": "International Economic Issues"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 50,
+  "label": "Economics(9708)"
+ },
+ "badges": [
+  "3210",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:36:09+0000"
+}

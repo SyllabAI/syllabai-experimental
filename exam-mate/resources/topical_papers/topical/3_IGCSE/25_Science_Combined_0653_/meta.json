@@ -1,0 +1,16 @@
+{
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 25,
+  "label": "Science Combined(0653)"
+ },
+ "harvested_at": "2026-10-22T03:17:12+0000",
+ "badges": [
+  "0",
+  "-"
+ ],
+ "total": 0
+}

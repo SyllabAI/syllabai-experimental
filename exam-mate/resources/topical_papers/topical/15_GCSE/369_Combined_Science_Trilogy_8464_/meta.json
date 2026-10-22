@@ -1,0 +1,185 @@
+{
+ "topics": [
+  {
+   "v": "989",
+   "n": "B1.Cell biology"
+  },
+  {
+   "v": "990",
+   "n": "B2.Organisation"
+  },
+  {
+   "v": "991",
+   "n": "B3.Infection and Response"
+  },
+  {
+   "v": "992",
+   "n": "B4.Bioenergetics"
+  },
+  {
+   "v": "993",
+   "n": "B5.Homeostasis and Response"
+  },
+  {
+   "v": "994",
+   "n": "B6.Inheritance, Variation and Evolution"
+  },
+  {
+   "v": "995",
+   "n": "B7.Ecology"
+  },
+  {
+   "v": "996",
+   "n": "C1.Atomic Structure and the Periodic Table"
+  },
+  {
+   "v": "997",
+   "n": "C2.Bonding, Structure, and the Properties of Matter"
+  },
+  {
+   "v": "998",
+   "n": "C3.Quantitative Chemistry"
+  },
+  {
+   "v": "999",
+   "n": "C4.Chemical Changes"
+  },
+  {
+   "v": "1000",
+   "n": "C5.Energy Changes"
+  },
+  {
+   "v": "1001",
+   "n": "C6.The Rate and Extent of Chemical Change"
+  },
+  {
+   "v": "1002",
+   "n": "C7.Organic Chemistry"
+  },
+  {
+   "v": "1003",
+   "n": "C8.Chemical Analysis"
+  },
+  {
+   "v": "1004",
+   "n": "C9.Chemistry of the Atmosphere"
+  },
+  {
+   "v": "1005",
+   "n": "C10.Using Resources"
+  },
+  {
+   "v": "1006",
+   "n": "P1.Energy"
+  },
+  {
+   "v": "1007",
+   "n": "P2.Electricity"
+  },
+  {
+   "v": "1008",
+   "n": "P3.Particle Model of Matter"
+  },
+  {
+   "v": "1009",
+   "n": "P4.Atomic structure"
+  },
+  {
+   "v": "1010",
+   "n": "P5.Forces"
+  },
+  {
+   "v": "1011",
+   "n": "P6.Waves"
+  },
+  {
+   "v": "1012",
+   "n": "P7.Magnetism and Electromagnetism"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "758",
+   "n": "B1F"
+  },
+  {
+   "v": "759",
+   "n": "B1H"
+  },
+  {
+   "v": "760",
+   "n": "B2F"
+  },
+  {
+   "v": "761",
+   "n": "B2H"
+  },
+  {
+   "v": "762",
+   "n": "C1F"
+  },
+  {
+   "v": "763",
+   "n": "C1H"
+  },
+  {
+   "v": "764",
+   "n": "C2F"
+  },
+  {
+   "v": "765",
+   "n": "C2H"
+  },
+  {
+   "v": "766",
+   "n": "P1F"
+  },
+  {
+   "v": "767",
+   "n": "P1H"
+  },
+  {
+   "v": "768",
+   "n": "P2F"
+  },
+  {
+   "v": "769",
+   "n": "P2H"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 15,
+  "label": "GCSE"
+ },
+ "subject": {
+  "id": 369,
+  "label": "Combined Science: Trilogy (8464)"
+ },
+ "badges": [
+  "162",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:07:57+0000"
+}

@@ -1,0 +1,161 @@
+{
+ "topics": [
+  {
+   "v": "1410",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1411",
+   "n": "Atoms, compounds, molecules and equations"
+  },
+  {
+   "v": "1412",
+   "n": "Amount of substance"
+  },
+  {
+   "v": "1413",
+   "n": "Acid–base and redox reactions"
+  },
+  {
+   "v": "1414",
+   "n": "Electrons, bonding and structure"
+  },
+  {
+   "v": "1415",
+   "n": "The periodic table and periodicity"
+  },
+  {
+   "v": "1416",
+   "n": "Group 2 and the halogens"
+  },
+  {
+   "v": "1417",
+   "n": "Qualitative analysis"
+  },
+  {
+   "v": "1418",
+   "n": "Enthalpy changes"
+  },
+  {
+   "v": "1419",
+   "n": "Reaction rates and equilibrium (qualitative)"
+  },
+  {
+   "v": "1420",
+   "n": "Basic concept of organic chemistry"
+  },
+  {
+   "v": "1421",
+   "n": "Hydrocarbons"
+  },
+  {
+   "v": "1422",
+   "n": "Alcohols and haloalkanes"
+  },
+  {
+   "v": "1423",
+   "n": "Organic synthesis"
+  },
+  {
+   "v": "1424",
+   "n": "Analytical techniques (IR and MS)"
+  },
+  {
+   "v": "1425",
+   "n": "Reaction rates and equilibrium (quantitative)"
+  },
+  {
+   "v": "1426",
+   "n": "pH and buffers"
+  },
+  {
+   "v": "1427",
+   "n": "Enthalpy, entropy and free energy"
+  },
+  {
+   "v": "1428",
+   "n": "Redox and electrode potentials"
+  },
+  {
+   "v": "1429",
+   "n": "Transition elements"
+  },
+  {
+   "v": "1430",
+   "n": "Aromatic compounds"
+  },
+  {
+   "v": "1431",
+   "n": "Carbonyl compounds"
+  },
+  {
+   "v": "1432",
+   "n": "Carboxylic acids and esters"
+  },
+  {
+   "v": "1433",
+   "n": "Nitrogen compounds"
+  },
+  {
+   "v": "1434",
+   "n": "Polymers"
+  },
+  {
+   "v": "1435",
+   "n": "Chromatography and spectroscopy (NMR)"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 510,
+  "label": "Chemistry A (H432)"
+ },
+ "badges": [
+  "146",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:09:39+0000"
+}

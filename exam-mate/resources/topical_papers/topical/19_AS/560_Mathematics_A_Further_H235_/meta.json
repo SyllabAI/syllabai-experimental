@@ -1,0 +1,165 @@
+{
+ "topics": [
+  {
+   "v": "1293",
+   "n": "Proof"
+  },
+  {
+   "v": "1294",
+   "n": "Complex Numbers "
+  },
+  {
+   "v": "1295",
+   "n": "Matrices"
+  },
+  {
+   "v": "1296",
+   "n": "Further Vectors"
+  },
+  {
+   "v": "1297",
+   "n": "Further Algebra"
+  },
+  {
+   "v": "2766",
+   "n": "Probability"
+  },
+  {
+   "v": "2767",
+   "n": "Discrete Random Variables"
+  },
+  {
+   "v": "2768",
+   "n": "Chi-Squared Tests"
+  },
+  {
+   "v": "2769",
+   "n": "Correlation"
+  },
+  {
+   "v": "2770",
+   "n": "Linear Regression"
+  },
+  {
+   "v": "2771",
+   "n": "Dimensional Analysis"
+  },
+  {
+   "v": "2772",
+   "n": "Work, Energy and Power"
+  },
+  {
+   "v": "2773",
+   "n": "Impulse and Momentum"
+  },
+  {
+   "v": "2774",
+   "n": "Motion in a circle"
+  },
+  {
+   "v": "2803",
+   "n": "Mathematical Preliminaries"
+  },
+  {
+   "v": "2804",
+   "n": "Graphs and Networks"
+  },
+  {
+   "v": "2805",
+   "n": "Algorithms"
+  },
+  {
+   "v": "2806",
+   "n": "Network Algorithms"
+  },
+  {
+   "v": "2807",
+   "n": "Decision Making in Project Management"
+  },
+  {
+   "v": "2808",
+   "n": "Graphical Linear Programming"
+  },
+  {
+   "v": "2809",
+   "n": "Game Theory"
+  },
+  {
+   "v": "2810",
+   "n": "Sequences and Series"
+  },
+  {
+   "v": "2811",
+   "n": "Number Theory"
+  },
+  {
+   "v": "2812",
+   "n": "Groups"
+  },
+  {
+   "v": "2814",
+   "n": "Surfaces and Partial Differentiation"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "738",
+   "n": "Additional Pure Mathematics"
+  },
+  {
+   "v": "737",
+   "n": "Discrete Mathematics"
+  },
+  {
+   "v": "736",
+   "n": "Mechanics"
+  },
+  {
+   "v": "751",
+   "n": "Pure Core"
+  },
+  {
+   "v": "735",
+   "n": "Statistics"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 560,
+  "label": "Mathematics A, Further (H235)"
+ },
+ "badges": [
+  "71",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:18:55+0000"
+}

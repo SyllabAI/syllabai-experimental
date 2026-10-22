@@ -1,0 +1,77 @@
+{
+ "topics": [
+  {
+   "v": "3469",
+   "n": "Temel Kavramlar ve Sayılar (Basic Concepts and Numbers Theory)"
+  },
+  {
+   "v": "3470",
+   "n": "Denklem ve Eşitsizlikler (Equations and Inequalities)"
+  },
+  {
+   "v": "3471",
+   "n": "Fonksiyonlar (Functions)"
+  },
+  {
+   "v": "3472",
+   "n": "Polinomlar (Polynomials)"
+  },
+  {
+   "v": "3473",
+   "n": "Trigonometri (Trigonometry)"
+  },
+  {
+   "v": "3474",
+   "n": "Logaritma ve Üstel Fonksiyonlar (Logarithms and Exponential Functions)"
+  },
+  {
+   "v": "3475",
+   "n": "Diziler ve Seriler (Sequences and Series)"
+  },
+  {
+   "v": "3476",
+   "n": "Limit ve Süreklilik (Limits and Continuity)"
+  },
+  {
+   "v": "3477",
+   "n": "Türev (Derivative)"
+  },
+  {
+   "v": "3478",
+   "n": "İntegral (Integral)"
+  },
+  {
+   "v": "3509",
+   "n": "Analitik Geometri (Analytic Geometry)"
+  },
+  {
+   "v": "3510",
+   "n": "Önermeler ve Mantıksal Bağlaçlar (Propositions & Logical Connectives)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 777,
+  "label": "Matematik"
+ },
+ "badges": [
+  "80",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:39:10+0000"
+}

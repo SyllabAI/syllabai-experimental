@@ -1,0 +1,117 @@
+{
+ "topics": [
+  {
+   "v": "1057",
+   "n": "Proof"
+  },
+  {
+   "v": "1058",
+   "n": "Algebra and Functions"
+  },
+  {
+   "v": "1059",
+   "n": "Coordinate Geometry in the (x,y) plane"
+  },
+  {
+   "v": "1060",
+   "n": "Sequences and Series"
+  },
+  {
+   "v": "1061",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "1062",
+   "n": "Exponentials and Logarithms"
+  },
+  {
+   "v": "1063",
+   "n": "Differentiation"
+  },
+  {
+   "v": "1064",
+   "n": "Integration"
+  },
+  {
+   "v": "1065",
+   "n": "Vectors"
+  },
+  {
+   "v": "1066",
+   "n": "Statistical Sampling"
+  },
+  {
+   "v": "1067",
+   "n": "Data presentation and Interpretation"
+  },
+  {
+   "v": "1068",
+   "n": "Probability"
+  },
+  {
+   "v": "1069",
+   "n": "Statistical Distributions"
+  },
+  {
+   "v": "1070",
+   "n": "Statistical Hypothesis Testing"
+  },
+  {
+   "v": "1071",
+   "n": "Quantities and Units in Mechanics"
+  },
+  {
+   "v": "1072",
+   "n": "Kinematics"
+  },
+  {
+   "v": "1073",
+   "n": "Forces and Newton’s Laws"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 18,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 423,
+  "label": "Mathematics (7356)"
+ },
+ "badges": [
+  "66",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:12:34+0000"
+}

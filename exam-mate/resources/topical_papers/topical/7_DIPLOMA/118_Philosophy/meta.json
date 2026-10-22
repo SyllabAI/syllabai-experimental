@@ -1,0 +1,153 @@
+{
+ "topics": [
+  {
+   "v": "743",
+   "n": "Being Human"
+  },
+  {
+   "v": "744",
+   "n": "Aesthetics"
+  },
+  {
+   "v": "745",
+   "n": "Epistemology"
+  },
+  {
+   "v": "746",
+   "n": "Ethics"
+  },
+  {
+   "v": "747",
+   "n": "Philosophy and Contemporary Society"
+  },
+  {
+   "v": "748",
+   "n": "Philosophy of Religion"
+  },
+  {
+   "v": "749",
+   "n": "Philosophy of Science"
+  },
+  {
+   "v": "750",
+   "n": "Political Philosophy"
+  },
+  {
+   "v": "751",
+   "n": "Simone de Beauvoir: The Second Sex, Vol. 1 part 1, Vol. 2 part 1 and Vol. 2 part 4"
+  },
+  {
+   "v": "752",
+   "n": "Rene Descartes: Meditations"
+  },
+  {
+   "v": "753",
+   "n": "David Hume: Dialogues Concerning Natural Religion"
+  },
+  {
+   "v": "754",
+   "n": "John Stuart Mill: On Liberty"
+  },
+  {
+   "v": "755",
+   "n": "Friedrich Nietzsche: The Genealogy of Morals"
+  },
+  {
+   "v": "756",
+   "n": "Martha Nussbaum: Creating Capabilities: The Human Development Approach"
+  },
+  {
+   "v": "757",
+   "n": "Ortega y Gasset: The Origins of Philosophy"
+  },
+  {
+   "v": "758",
+   "n": "Plato: The Republic, Books IV–IX"
+  },
+  {
+   "v": "759",
+   "n": "Peter Singer: The Life You Can Save"
+  },
+  {
+   "v": "760",
+   "n": "Charles Taylor: The Ethics of Authenticity"
+  },
+  {
+   "v": "761",
+   "n": "Lao Tzu: Tao Te Ching"
+  },
+  {
+   "v": "762",
+   "n": "Zhuangzi: Zhuangzi"
+  },
+  {
+   "v": "3430",
+   "n": "Alfred Jules Ayer: Language, Truth and Logic"
+  },
+  {
+   "v": "3431",
+   "n": "Confucius: The Analects"
+  },
+  {
+   "v": "3432",
+   "n": "Frantz Fanon: Black Skin, White Masks"
+  },
+  {
+   "v": "3433",
+   "n": "Jose Ortega y Gasset: The Revolt of the Masses"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2",
+  "3",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 118,
+  "label": "Philosophy"
+ },
+ "badges": [
+  "640",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:26:26+0000"
+}

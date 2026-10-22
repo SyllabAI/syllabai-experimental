@@ -1,0 +1,45 @@
+{
+ "topics": [
+  {
+   "v": "3459",
+   "n": "Felsefe (Philosophy)"
+  },
+  {
+   "v": "3460",
+   "n": "Psikoloji (Psychology)"
+  },
+  {
+   "v": "3461",
+   "n": "Sosyoloji (Sociology)"
+  },
+  {
+   "v": "3462",
+   "n": "Mantık (Logic)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 768,
+  "label": "Felsefe Grubu"
+ },
+ "badges": [
+  "36",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:38:43+0000"
+}

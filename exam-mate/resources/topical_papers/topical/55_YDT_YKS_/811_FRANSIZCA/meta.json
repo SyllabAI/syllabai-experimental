@@ -1,0 +1,23 @@
+{
+ "category": {
+  "id": 55,
+  "label": "YDT (YKS)"
+ },
+ "subject": {
+  "id": 811,
+  "label": "FRANSIZCA"
+ },
+ "harvested_at": "2026-10-22T04:40:21+0000",
+ "badges": [
+  "0",
+  "-"
+ ],
+ "total": 0,
+ "facet_evidence": {
+  "topics": 0,
+  "years": 2,
+  "papers": 0,
+  "seasons": 0
+ },
+ "note": "apply-path re-render served 0 rows; site itself reports no questions for this subject (facet evidence above)"
+}

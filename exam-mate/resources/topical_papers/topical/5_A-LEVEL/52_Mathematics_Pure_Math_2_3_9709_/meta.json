@@ -1,0 +1,96 @@
+{
+ "topics": [
+  {
+   "v": "257",
+   "n": "ALGEBRA"
+  },
+  {
+   "v": "258",
+   "n": "LOGARITHMIC & EXPONENTIAL FUNCTIONS"
+  },
+  {
+   "v": "259",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "260",
+   "n": "DIFFERENTIATION"
+  },
+  {
+   "v": "261",
+   "n": "INTEGRATION"
+  },
+  {
+   "v": "262",
+   "n": "DIFFERENTIAL EQUATION"
+  },
+  {
+   "v": "263",
+   "n": "NUMERICAL METHODS"
+  },
+  {
+   "v": "264",
+   "n": "COMPLEX NUMBERS"
+  },
+  {
+   "v": "265",
+   "n": "VECTORS"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "5"
+ ],
+ "papers": [
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 52,
+  "label": "Mathematics Pure Math 2,3(9709)"
+ },
+ "badges": [
+  "673",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:43:34+0000"
+}

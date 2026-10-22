@@ -1,0 +1,151 @@
+{
+ "topics": [
+  {
+   "v": "295",
+   "n": "Mathematical Models in Probability and Statistics"
+  },
+  {
+   "v": "296",
+   "n": "Representation and Summary of Data"
+  },
+  {
+   "v": "2894",
+   "n": "Probability"
+  },
+  {
+   "v": "2895",
+   "n": "Correlation and Regression"
+  },
+  {
+   "v": "2896",
+   "n": "Discrete Random Variables"
+  },
+  {
+   "v": "2897",
+   "n": "Discrete Distributions"
+  },
+  {
+   "v": "2898",
+   "n": "The Normal Distribution"
+  },
+  {
+   "v": "2899",
+   "n": "The Binomial and Poisson Distributions"
+  },
+  {
+   "v": "2900",
+   "n": "Continuous Random Variables"
+  },
+  {
+   "v": "2901",
+   "n": "Continuous Distributions"
+  },
+  {
+   "v": "2902",
+   "n": "Samples"
+  },
+  {
+   "v": "2903",
+   "n": "Hypothesis Tests"
+  },
+  {
+   "v": "2904",
+   "n": "Combinations of Random Variables"
+  },
+  {
+   "v": "2905",
+   "n": "Sampling"
+  },
+  {
+   "v": "2906",
+   "n": "Estimation, Confidence Intervals, and Tests"
+  },
+  {
+   "v": "2907",
+   "n": "Goodness of Fit and Contingency Tables"
+  },
+  {
+   "v": "2908",
+   "n": "Regression and Correlation"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "55",
+   "n": "S1"
+  },
+  {
+   "v": "56",
+   "n": "S1(IAL)"
+  },
+  {
+   "v": "57",
+   "n": "S2"
+  },
+  {
+   "v": "59",
+   "n": "S2(IAL)"
+  },
+  {
+   "v": "58",
+   "n": "S2R"
+  },
+  {
+   "v": "60",
+   "n": "S3"
+  },
+  {
+   "v": "62",
+   "n": "S3(IAL)"
+  },
+  {
+   "v": "61",
+   "n": "S3R"
+  },
+  {
+   "v": "78",
+   "n": "S4"
+  },
+  {
+   "v": "79",
+   "n": "S4R"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 69,
+  "label": "Mathematics S1,S2,S3(WST01)"
+ },
+ "badges": [
+  "393",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:56:14+0000"
+}

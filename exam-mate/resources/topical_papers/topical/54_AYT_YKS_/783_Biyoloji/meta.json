@@ -1,0 +1,85 @@
+{
+ "topics": [
+  {
+   "v": "3394",
+   "n": "Sinir Sistemi (Nervous System)"
+  },
+  {
+   "v": "3395",
+   "n": "Endokrin Sistem ve Hormonlar (Endocrine System & Hormones)"
+  },
+  {
+   "v": "3396",
+   "n": "Duyu Organları (Sense Organs)"
+  },
+  {
+   "v": "3397",
+   "n": "Destek ve Hareket Sistemi (Support & Movement System)"
+  },
+  {
+   "v": "3398",
+   "n": "Sindirim Sistemi (Digestive System)"
+  },
+  {
+   "v": "3399",
+   "n": "Dolaşım ve Bağışıklık Sistemi (Circulatory & Immune System)"
+  },
+  {
+   "v": "3400",
+   "n": "Solunum Sistemi (Respiratory System)"
+  },
+  {
+   "v": "3401",
+   "n": "Üriner Sistem / Boşaltım Sistemi (Urinary/Excretory System)"
+  },
+  {
+   "v": "3402",
+   "n": "Üreme Sistemi ve Embriyonik Gelişim (Reproductive System & Embryonic Development)"
+  },
+  {
+   "v": "3403",
+   "n": "Komünite ve Popülasyon Ekolojisi (Community & Population Ecology)"
+  },
+  {
+   "v": "3404",
+   "n": "Genden Proteine (From Gene to Protein)"
+  },
+  {
+   "v": "3405",
+   "n": "Canlılarda Enerji Dönüşümleri (Energy Transformations in Living Organisms)"
+  },
+  {
+   "v": "3406",
+   "n": "Bitki Biyolojisi (Plant Biology)"
+  },
+  {
+   "v": "3407",
+   "n": "Canlılar ve Çevre (Organisms & Environment / Ecology)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 783,
+  "label": "Biyoloji"
+ },
+ "badges": [
+  "26",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:38:18+0000"
+}

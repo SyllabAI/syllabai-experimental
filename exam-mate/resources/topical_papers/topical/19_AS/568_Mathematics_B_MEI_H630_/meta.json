@@ -1,0 +1,129 @@
+{
+ "topics": [
+  {
+   "v": "1298",
+   "n": "PROOF"
+  },
+  {
+   "v": "1299",
+   "n": "ALGEBRA"
+  },
+  {
+   "v": "1300",
+   "n": "FUNCTIONS"
+  },
+  {
+   "v": "1301",
+   "n": "GRAPHS"
+  },
+  {
+   "v": "1302",
+   "n": "COORDINATE GEOMETRY"
+  },
+  {
+   "v": "1303",
+   "n": "SEQUENCES AND SERIES"
+  },
+  {
+   "v": "1304",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "1305",
+   "n": "EXPONENTIALS AND LOGARITHMS"
+  },
+  {
+   "v": "1306",
+   "n": "CALCULUS"
+  },
+  {
+   "v": "1307",
+   "n": "VECTORS"
+  },
+  {
+   "v": "1308",
+   "n": "SAMPLING"
+  },
+  {
+   "v": "1309",
+   "n": "DATA PRESENTATION AND INTERPRETATION"
+  },
+  {
+   "v": "1310",
+   "n": "PROBABILITY"
+  },
+  {
+   "v": "1311",
+   "n": "PROBABILITY DISTRIBUTIONS"
+  },
+  {
+   "v": "1312",
+   "n": "STATISTICAL HYPOTHESIS TESTING"
+  },
+  {
+   "v": "1313",
+   "n": "MODELS AND QUANTITIES"
+  },
+  {
+   "v": "1314",
+   "n": "KINEMATICS IN 1 DIMENSION"
+  },
+  {
+   "v": "1315",
+   "n": "FORCES"
+  },
+  {
+   "v": "1316",
+   "n": "NEWTON’S LAWS OF MOTION"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 568,
+  "label": "Mathematics B (MEI) (H630)"
+ },
+ "badges": [
+  "44",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:13:50+0000"
+}

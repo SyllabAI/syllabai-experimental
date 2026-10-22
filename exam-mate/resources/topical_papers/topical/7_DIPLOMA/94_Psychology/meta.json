@@ -1,0 +1,93 @@
+{
+ "topics": [
+  {
+   "v": "774",
+   "n": "Biological Level of Analysis"
+  },
+  {
+   "v": "775",
+   "n": "Cognitive Level of Analysis"
+  },
+  {
+   "v": "776",
+   "n": "Sociocultural Level of Analysis"
+  },
+  {
+   "v": "777",
+   "n": "Approaches to Researching Behaviour"
+  },
+  {
+   "v": "778",
+   "n": "Abnormal Psychology"
+  },
+  {
+   "v": "779",
+   "n": "Developmental Psychology"
+  },
+  {
+   "v": "780",
+   "n": "Health Psychology"
+  },
+  {
+   "v": "781",
+   "n": "Psychology of Human Relationships"
+  },
+  {
+   "v": "782",
+   "n": "Sport Psychology"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2",
+  "3",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 94,
+  "label": "Psychology"
+ },
+ "badges": [
+  "453",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:36:11+0000"
+}

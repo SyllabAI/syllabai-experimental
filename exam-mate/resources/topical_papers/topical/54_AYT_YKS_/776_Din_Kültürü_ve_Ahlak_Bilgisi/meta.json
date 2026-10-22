@@ -1,0 +1,53 @@
+{
+ "topics": [
+  {
+   "v": "3453",
+   "n": "İnanç (Faith / Belief)"
+  },
+  {
+   "v": "3454",
+   "n": "İbadet (Worship)"
+  },
+  {
+   "v": "3455",
+   "n": "Ahlak ve Değerler (Morality and Values)"
+  },
+  {
+   "v": "3456",
+   "n": "Din ve Hayat (Religion and Life)"
+  },
+  {
+   "v": "3457",
+   "n": "İslam ve Diğer Dinler (Islam and Other Religions)"
+  },
+  {
+   "v": "3458",
+   "n": "Hz. Muhammed’in Hayatı (Life of Prophet Muhammad)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 776,
+  "label": "Din Kültürü ve Ahlak Bilgisi"
+ },
+ "badges": [
+  "12",
+  "1 - 12"
+ ],
+ "harvested_at": "2026-10-22T04:38:37+0000"
+}

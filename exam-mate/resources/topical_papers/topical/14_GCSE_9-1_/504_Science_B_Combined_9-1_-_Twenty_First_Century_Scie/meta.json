@@ -1,0 +1,157 @@
+{
+ "topics": [
+  {
+   "v": "1199",
+   "n": "B1: You and your Genes"
+  },
+  {
+   "v": "1200",
+   "n": "B2: Keeping healthy"
+  },
+  {
+   "v": "1201",
+   "n": "B3: Living together – food and ecosystems"
+  },
+  {
+   "v": "1202",
+   "n": "B4: Using food and controlling growth"
+  },
+  {
+   "v": "1203",
+   "n": "B5: The human body – staying alive"
+  },
+  {
+   "v": "1204",
+   "n": "B6: Life on Earth – past, present and future"
+  },
+  {
+   "v": "1205",
+   "n": "C1: Air and water"
+  },
+  {
+   "v": "1206",
+   "n": "C2: Chemical patterns"
+  },
+  {
+   "v": "1207",
+   "n": "C3: Chemicals of the natural environment"
+  },
+  {
+   "v": "1208",
+   "n": "C4: Material choices"
+  },
+  {
+   "v": "1209",
+   "n": "C5: Chemical analysis"
+  },
+  {
+   "v": "1210",
+   "n": "C6: Making useful chemicals"
+  },
+  {
+   "v": "1211",
+   "n": "P1: Radiation and waves"
+  },
+  {
+   "v": "1212",
+   "n": "P2: Sustainable energy"
+  },
+  {
+   "v": "1213",
+   "n": "P3: Electric circuits"
+  },
+  {
+   "v": "1214",
+   "n": "P4: Explaining motion"
+  },
+  {
+   "v": "1215",
+   "n": "P5: Radioactive materials"
+  },
+  {
+   "v": "1216",
+   "n": "P6: Matter – models and explanations"
+  },
+  {
+   "v": "1217",
+   "n": "BCP7: Ideas about Science"
+  },
+  {
+   "v": "1218",
+   "n": "BCP8: Practical Skills"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  },
+  {
+   "v": "9",
+   "n": "6"
+  },
+  {
+   "v": "11",
+   "n": "7"
+  },
+  {
+   "v": "696",
+   "n": "8"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 504,
+  "label": "Science B, Combined (9-1) - Twenty First Century Science Suite J260"
+ },
+ "badges": [
+  "140",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:59:42+0000"
+}

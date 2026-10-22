@@ -1,0 +1,117 @@
+{
+ "topics": [
+  {
+   "v": "1219",
+   "n": "Planning"
+  },
+  {
+   "v": "1220",
+   "n": "Implementing"
+  },
+  {
+   "v": "1221",
+   "n": "Analysis"
+  },
+  {
+   "v": "1222",
+   "n": "Evaluation"
+  },
+  {
+   "v": "1223",
+   "n": "Cell structure"
+  },
+  {
+   "v": "1224",
+   "n": "Biological molecules"
+  },
+  {
+   "v": "1225",
+   "n": "Nucleotides and nucleic acids"
+  },
+  {
+   "v": "1226",
+   "n": "Enzymes"
+  },
+  {
+   "v": "1227",
+   "n": "Biological membranes"
+  },
+  {
+   "v": "1228",
+   "n": "Cell division, cell diversity and cellular organisation"
+  },
+  {
+   "v": "1229",
+   "n": "Exchange surfaces"
+  },
+  {
+   "v": "1230",
+   "n": "Transport in animals"
+  },
+  {
+   "v": "1231",
+   "n": "Transport in plants"
+  },
+  {
+   "v": "1232",
+   "n": "Communicable diseases, disease prevention and the immune system"
+  },
+  {
+   "v": "1233",
+   "n": "Biodiversity"
+  },
+  {
+   "v": "1234",
+   "n": "Classification and evolution"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 544,
+  "label": "Biology A (H020)"
+ },
+ "badges": [
+  "95",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:12:57+0000"
+}

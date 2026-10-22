@@ -1,0 +1,77 @@
+{
+ "topics": [
+  {
+   "v": "1270",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1271",
+   "n": "Elements of life"
+  },
+  {
+   "v": "1272",
+   "n": "Developing fuels"
+  },
+  {
+   "v": "1273",
+   "n": "Elements from the sea"
+  },
+  {
+   "v": "1274",
+   "n": "The ozone story"
+  },
+  {
+   "v": "1275",
+   "n": "What’s in a medicine?"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 553,
+  "label": "Chemistry B (Salters) H033"
+ },
+ "badges": [
+  "84",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:13:27+0000"
+}

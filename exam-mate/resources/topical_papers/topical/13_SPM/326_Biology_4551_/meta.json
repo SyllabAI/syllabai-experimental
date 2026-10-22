@@ -1,0 +1,109 @@
+{
+ "topics": [
+  {
+   "v": "881",
+   "n": "Cell Structure and Cell Organization"
+  },
+  {
+   "v": "882",
+   "n": "Movement of Substances Across the Plasma Membrane"
+  },
+  {
+   "v": "883",
+   "n": "Chemical Composition of the Cell"
+  },
+  {
+   "v": "884",
+   "n": "Cell Division"
+  },
+  {
+   "v": "885",
+   "n": "Nutrition"
+  },
+  {
+   "v": "886",
+   "n": "Respiration"
+  },
+  {
+   "v": "887",
+   "n": "Dynamic Ecosystem"
+  },
+  {
+   "v": "888",
+   "n": "Endangered Ecosystem"
+  },
+  {
+   "v": "889",
+   "n": "Transport"
+  },
+  {
+   "v": "890",
+   "n": "Support and Locomotion"
+  },
+  {
+   "v": "891",
+   "n": "Reproduction"
+  },
+  {
+   "v": "892",
+   "n": "Inheritance"
+  },
+  {
+   "v": "893",
+   "n": "Variation"
+  },
+  {
+   "v": "919",
+   "n": "Coordination and Response"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "NONE",
+   "n": "None"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 13,
+  "label": "SPM"
+ },
+ "subject": {
+  "id": 326,
+  "label": "Biology(4551)"
+ },
+ "badges": [
+  "305",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:40:54+0000"
+}

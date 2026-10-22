@@ -1,0 +1,53 @@
+{
+ "topics": [
+  {
+   "v": "3485",
+   "n": "Tarih ve Zaman (History & Time)"
+  },
+  {
+   "v": "3487",
+   "n": "İlk Türk Devletleri (Early Turkish States)"
+  },
+  {
+   "v": "3488",
+   "n": "Osmanlı Devleti (Ottoman Empire – Advanced)"
+  },
+  {
+   "v": "3489",
+   "n": "20. Yüzyıl Dünya Tarihi (20th Century World History)"
+  },
+  {
+   "v": "3490",
+   "n": "Türkiye Cumhuriyeti (Republic of Türkiye)"
+  },
+  {
+   "v": "3491",
+   "n": "Küreselleşen Dünya (Globalizing World)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 766,
+  "label": "Tarih-2"
+ },
+ "badges": [
+  "22",
+  "1 - 22"
+ ],
+ "harvested_at": "2026-10-22T04:39:26+0000"
+}

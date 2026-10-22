@@ -1,0 +1,191 @@
+{
+ "topics": [
+  {
+   "v": "294",
+   "n": "Formulae, Equations & amount of substance"
+  },
+  {
+   "v": "470",
+   "n": "Atomic structure & Periodic table"
+  },
+  {
+   "v": "471",
+   "n": "Bonding & Structure"
+  },
+  {
+   "v": "472",
+   "n": "Introductory Organic Chemistry & Alkanes"
+  },
+  {
+   "v": "473",
+   "n": "Alkenes"
+  },
+  {
+   "v": "474",
+   "n": "Energetics"
+  },
+  {
+   "v": "475",
+   "n": "Intermolecular Forces"
+  },
+  {
+   "v": "476",
+   "n": "Redox Chemistry & Groups 1, 2 & 7"
+  },
+  {
+   "v": "477",
+   "n": "Introduction to Kinetics & Equilibria"
+  },
+  {
+   "v": "478",
+   "n": "Organic Chemistry: Halogenoalkanes, Alcoholes & Spectra"
+  },
+  {
+   "v": "479",
+   "n": "Kinetics"
+  },
+  {
+   "v": "480",
+   "n": "Entropy & Energetics"
+  },
+  {
+   "v": "481",
+   "n": "Chemical Equilibria"
+  },
+  {
+   "v": "482",
+   "n": "Acid-base Equilibria"
+  },
+  {
+   "v": "483",
+   "n": "Organic Chemistry: Carbonyls, Carboxylic Acids"
+  },
+  {
+   "v": "484",
+   "n": "Redox Equilibria"
+  },
+  {
+   "v": "485",
+   "n": "Transition Metals & their Chemistry"
+  },
+  {
+   "v": "486",
+   "n": "Organic Chemistry: Arenes"
+  },
+  {
+   "v": "487",
+   "n": "Organic Nitrogen Compounds: Amines, Amides, Amino Acids & Proteins "
+  },
+  {
+   "v": "488",
+   "n": "Organic Synthesis"
+  },
+  {
+   "v": "520",
+   "n": "Green Chemistry"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "33",
+   "n": "1(IAL)"
+  },
+  {
+   "v": "12",
+   "n": "1R"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "34",
+   "n": "2(IAL)"
+  },
+  {
+   "v": "13",
+   "n": "2R"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "35",
+   "n": "3(IAL)"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "38",
+   "n": "4(IAL)"
+  },
+  {
+   "v": "37",
+   "n": "4R"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  },
+  {
+   "v": "40",
+   "n": "5(IAL)"
+  },
+  {
+   "v": "39",
+   "n": "5R"
+  },
+  {
+   "v": "9",
+   "n": "6"
+  },
+  {
+   "v": "41",
+   "n": "6(IAL)"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 63,
+  "label": "Chemistry(WCH01)"
+ },
+ "badges": [
+  "2110",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:51:45+0000"
+}

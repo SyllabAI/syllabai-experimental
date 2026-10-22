@@ -1,0 +1,89 @@
+{
+ "topics": [
+  {
+   "v": "1112",
+   "n": "Cell level systems"
+  },
+  {
+   "v": "1113",
+   "n": "Scaling up"
+  },
+  {
+   "v": "1114",
+   "n": "Organism level systems"
+  },
+  {
+   "v": "1115",
+   "n": "Community level systems"
+  },
+  {
+   "v": "1116",
+   "n": "Genes, inheritance and selection"
+  },
+  {
+   "v": "1117",
+   "n": "Global challenges"
+  },
+  {
+   "v": "1118",
+   "n": "Practical skills"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 474,
+  "label": "Biology A (9-1) - Gateway Science Suite J247"
+ },
+ "badges": [
+  "180",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:20:24+0000"
+}

@@ -1,0 +1,105 @@
+{
+ "topics": [
+  {
+   "v": "1436",
+   "n": "Practical skills "
+  },
+  {
+   "v": "1437",
+   "n": "Elements of life"
+  },
+  {
+   "v": "1438",
+   "n": "Developing fuels"
+  },
+  {
+   "v": "1439",
+   "n": "Elements from the sea"
+  },
+  {
+   "v": "1440",
+   "n": "The ozone story"
+  },
+  {
+   "v": "1441",
+   "n": "What’s in a medicine?"
+  },
+  {
+   "v": "1442",
+   "n": "The chemical industry"
+  },
+  {
+   "v": "1443",
+   "n": "Polymers and life"
+  },
+  {
+   "v": "1444",
+   "n": "Oceans"
+  },
+  {
+   "v": "1445",
+   "n": "Developing metals"
+  },
+  {
+   "v": "1446",
+   "n": "Colour by design"
+  },
+  {
+   "v": "1447",
+   "n": "Chemical literacy"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 511,
+  "label": "Chemistry B (Salters) (H433)"
+ },
+ "badges": [
+  "133",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:09:52+0000"
+}

@@ -1,0 +1,83 @@
+{
+ "topics": [
+  {
+   "v": "341",
+   "n": "Numbers and Algebra"
+  },
+  {
+   "v": "342",
+   "n": "Descriptive Statistics"
+  },
+  {
+   "v": "729",
+   "n": "Logic, Sets and Probability"
+  },
+  {
+   "v": "730",
+   "n": "Statistical Applications"
+  },
+  {
+   "v": "731",
+   "n": "Geometry and Trigonometry"
+  },
+  {
+   "v": "732",
+   "n": "Mathematical Models"
+  },
+  {
+   "v": "733",
+   "n": "Differential Calculus"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 112,
+  "label": "Mathematical Studies"
+ },
+ "badges": [
+  "648",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:30:44+0000"
+}

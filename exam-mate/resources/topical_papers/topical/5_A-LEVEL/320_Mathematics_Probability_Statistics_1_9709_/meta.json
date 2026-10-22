@@ -1,0 +1,23 @@
+{
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 320,
+  "label": "Mathematics Probability & Statistics 1 (9709)"
+ },
+ "harvested_at": "2026-10-22T03:42:40+0000",
+ "badges": [
+  "0",
+  "-"
+ ],
+ "total": 0,
+ "facet_evidence": {
+  "topics": 7,
+  "years": 11,
+  "papers": 1,
+  "seasons": 3
+ },
+ "note": "apply-path re-render served 0 rows; site itself reports no questions for this subject (facet evidence above)"
+}

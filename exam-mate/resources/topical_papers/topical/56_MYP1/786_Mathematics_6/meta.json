@@ -1,0 +1,23 @@
+{
+ "category": {
+  "id": 56,
+  "label": "MYP1"
+ },
+ "subject": {
+  "id": 786,
+  "label": "Mathematics 6"
+ },
+ "harvested_at": "2026-10-22T04:15:52+0000",
+ "badges": [
+  "0",
+  "-"
+ ],
+ "total": 0,
+ "facet_evidence": {
+  "topics": 24,
+  "years": 0,
+  "papers": 0,
+  "seasons": 1
+ },
+ "note": "apply-path re-render served 0 rows; site itself reports no questions for this subject (facet evidence above)"
+}

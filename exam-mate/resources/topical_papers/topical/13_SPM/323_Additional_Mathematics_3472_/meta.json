@@ -1,0 +1,113 @@
+{
+ "topics": [
+  {
+   "v": "839",
+   "n": "Functions"
+  },
+  {
+   "v": "840",
+   "n": "Quadratics"
+  },
+  {
+   "v": "841",
+   "n": "Simultaneous Equations"
+  },
+  {
+   "v": "842",
+   "n": "Indices and Logarithms"
+  },
+  {
+   "v": "843",
+   "n": "Coordinates Geometry"
+  },
+  {
+   "v": "844",
+   "n": "Statistics and Probabilities"
+  },
+  {
+   "v": "845",
+   "n": "Circle Measures"
+  },
+  {
+   "v": "846",
+   "n": "Differentiation"
+  },
+  {
+   "v": "847",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "848",
+   "n": "Progressions"
+  },
+  {
+   "v": "849",
+   "n": "Linear Law"
+  },
+  {
+   "v": "850",
+   "n": "Integration"
+  },
+  {
+   "v": "851",
+   "n": "Vectors"
+  },
+  {
+   "v": "852",
+   "n": "Permutations and Combinations"
+  },
+  {
+   "v": "853",
+   "n": "Motion Along a Straight Line"
+  },
+  {
+   "v": "854",
+   "n": "Linear Programming"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "NONE",
+   "n": "None"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 13,
+  "label": "SPM"
+ },
+ "subject": {
+  "id": 323,
+  "label": "Additional Mathematics(3472)"
+ },
+ "badges": [
+  "200",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:40:39+0000"
+}

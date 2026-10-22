@@ -1,0 +1,49 @@
+{
+ "topics": [
+  {
+   "v": "3448",
+   "n": "Doğal Sistemler (Natural Systems)"
+  },
+  {
+   "v": "3449",
+   "n": "Beşerî Sistemler (Human Systems)"
+  },
+  {
+   "v": "3450",
+   "n": "Ekonomik Faaliyetler (Economic Geography)"
+  },
+  {
+   "v": "3451",
+   "n": "Çevre ve Toplum (Environment and Society)"
+  },
+  {
+   "v": "3452",
+   "n": "Türkiye Coğrafyası (Geography of Türkiye)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 767,
+  "label": "Coğrafya-2"
+ },
+ "badges": [
+  "22",
+  "1 - 22"
+ ],
+ "harvested_at": "2026-10-22T04:38:31+0000"
+}

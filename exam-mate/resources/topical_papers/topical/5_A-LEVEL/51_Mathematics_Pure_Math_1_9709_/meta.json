@@ -1,0 +1,96 @@
+{
+ "topics": [
+  {
+   "v": "247",
+   "n": "COORDINATES  GEOMETRY"
+  },
+  {
+   "v": "248",
+   "n": "FUNCTIONS"
+  },
+  {
+   "v": "249",
+   "n": "INTERSECTION POINTS"
+  },
+  {
+   "v": "250",
+   "n": "DIFFERENTIATION"
+  },
+  {
+   "v": "251",
+   "n": "SEQUENCES & SERIES"
+  },
+  {
+   "v": "252",
+   "n": "BINOMIAL THEOREM"
+  },
+  {
+   "v": "253",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "254",
+   "n": "VECTORS"
+  },
+  {
+   "v": "255",
+   "n": "INTEGRATION"
+  },
+  {
+   "v": "256",
+   "n": "RADIANS"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "5"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 51,
+  "label": "Mathematics Pure Math 1(9709)"
+ },
+ "badges": [
+  "670",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:42:52+0000"
+}

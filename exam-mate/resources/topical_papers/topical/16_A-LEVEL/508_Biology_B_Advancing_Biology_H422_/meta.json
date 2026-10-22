@@ -1,0 +1,185 @@
+{
+ "topics": [
+  {
+   "v": "1378",
+   "n": "Practical skills"
+  },
+  {
+   "v": "1379",
+   "n": "Cells and microscopy"
+  },
+  {
+   "v": "1380",
+   "n": "Water and its importance in plants and animals"
+  },
+  {
+   "v": "1381",
+   "n": "Proteins and enzymes"
+  },
+  {
+   "v": "1382",
+   "n": "Nucleic acids"
+  },
+  {
+   "v": "1383",
+   "n": "The heart and monitoring heart function"
+  },
+  {
+   "v": "1384",
+   "n": "Transport systems in mammals"
+  },
+  {
+   "v": "1385",
+   "n": "Gas exchange in mammals and plants"
+  },
+  {
+   "v": "1386",
+   "n": "Transport systems in plants"
+  },
+  {
+   "v": "1387",
+   "n": "The developing cell: cell division and cell differentiation"
+  },
+  {
+   "v": "1388",
+   "n": "The developing individual: meiosis, growth and development"
+  },
+  {
+   "v": "1389",
+   "n": "The development of species: evolution and classification"
+  },
+  {
+   "v": "1390",
+   "n": "Pathogenic microorganisms"
+  },
+  {
+   "v": "1391",
+   "n": "The immune system"
+  },
+  {
+   "v": "1392",
+   "n": "Controlling communicable diseases"
+  },
+  {
+   "v": "1393",
+   "n": "The cellular basis of cancer and treatment"
+  },
+  {
+   "v": "1394",
+   "n": "Respiratory diseases and treatment"
+  },
+  {
+   "v": "1395",
+   "n": "Cellular respiration"
+  },
+  {
+   "v": "1396",
+   "n": "Metabolism and exercise"
+  },
+  {
+   "v": "1397",
+   "n": "Fertility and assisted reproduction"
+  },
+  {
+   "v": "1398",
+   "n": "The effects of ageing on the reproductive system"
+  },
+  {
+   "v": "1399",
+   "n": "Photosynthesis, food production and management of the environment"
+  },
+  {
+   "v": "1400",
+   "n": "The impact of population increase"
+  },
+  {
+   "v": "1401",
+   "n": "Plant reproduction"
+  },
+  {
+   "v": "1402",
+   "n": "Patterns of inheritance"
+  },
+  {
+   "v": "1403",
+   "n": "Population genetics and epigenetics"
+  },
+  {
+   "v": "1404",
+   "n": "The nervous system and the identification and consequences of damage"
+  },
+  {
+   "v": "1405",
+   "n": "Monitoring visual function"
+  },
+  {
+   "v": "1406",
+   "n": "The effect of ageing on the nervous system"
+  },
+  {
+   "v": "1407",
+   "n": "The principles and importance of homeostasis"
+  },
+  {
+   "v": "1408",
+   "n": "The hormonal control of blood glucose and the management of diabetes"
+  },
+  {
+   "v": "1409",
+   "n": "Kidney functions and malfunctions"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 16,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 508,
+  "label": "Biology B (Advancing Biology) (H422)"
+ },
+ "badges": [
+  "144",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:09:27+0000"
+}

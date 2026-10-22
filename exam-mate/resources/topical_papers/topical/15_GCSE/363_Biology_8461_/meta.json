@@ -1,0 +1,89 @@
+{
+ "topics": [
+  {
+   "v": "954",
+   "n": "Cell Biology"
+  },
+  {
+   "v": "955",
+   "n": "Organisation"
+  },
+  {
+   "v": "956",
+   "n": "Infection and Response"
+  },
+  {
+   "v": "957",
+   "n": "Bioenergetics"
+  },
+  {
+   "v": "958",
+   "n": "Homeostasis and Response"
+  },
+  {
+   "v": "959",
+   "n": "Inheritance, Variation and Evolution"
+  },
+  {
+   "v": "960",
+   "n": "Ecology"
+  },
+  {
+   "v": "961",
+   "n": "Key ideas"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "21",
+   "n": "1F"
+  },
+  {
+   "v": "691",
+   "n": "1H"
+  },
+  {
+   "v": "23",
+   "n": "2F"
+  },
+  {
+   "v": "693",
+   "n": "2H"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 15,
+  "label": "GCSE"
+ },
+ "subject": {
+  "id": 363,
+  "label": "Biology (8461)"
+ },
+ "badges": [
+  "68",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:07:26+0000"
+}

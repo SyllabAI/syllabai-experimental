@@ -1,0 +1,133 @@
+{
+ "topics": [
+  {
+   "v": "1235",
+   "n": "Planning"
+  },
+  {
+   "v": "1236",
+   "n": " Implementing"
+  },
+  {
+   "v": "1237",
+   "n": "Analysis"
+  },
+  {
+   "v": "1238",
+   "n": "Evaluation"
+  },
+  {
+   "v": "1239",
+   "n": "Cells and microscopy"
+  },
+  {
+   "v": "1240",
+   "n": "Water and its importance in plants and animals"
+  },
+  {
+   "v": "1241",
+   "n": "Proteins and enzymes"
+  },
+  {
+   "v": "1242",
+   "n": "Nucleic acids"
+  },
+  {
+   "v": "1243",
+   "n": "The heart and monitoring heart function"
+  },
+  {
+   "v": "1244",
+   "n": "Transport systems in mammals"
+  },
+  {
+   "v": "1245",
+   "n": "Gas exchange in mammals and plants"
+  },
+  {
+   "v": "1246",
+   "n": "Transport systems in plants"
+  },
+  {
+   "v": "1247",
+   "n": "The developing cell: cell division and cell diferentation"
+  },
+  {
+   "v": "1248",
+   "n": "The developing individual: meiosis, growth and development"
+  },
+  {
+   "v": "1249",
+   "n": "The development of species: evolution and classifcation"
+  },
+  {
+   "v": "1250",
+   "n": "Pathogenic microorganisms"
+  },
+  {
+   "v": "1251",
+   "n": "The immune system"
+  },
+  {
+   "v": "1252",
+   "n": "Controlling communicable diseases"
+  },
+  {
+   "v": "1253",
+   "n": "The cellular basis of cancer and treatment"
+  },
+  {
+   "v": "1254",
+   "n": "Respiratory diseases and treatment"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 19,
+  "label": "AS"
+ },
+ "subject": {
+  "id": 545,
+  "label": "Biology B (Advancing Biology) (H022)"
+ },
+ "badges": [
+  "93",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:13:07+0000"
+}

@@ -1,0 +1,93 @@
+{
+ "topics": [
+  {
+   "v": "948",
+   "n": "Number"
+  },
+  {
+   "v": "949",
+   "n": "Algebra"
+  },
+  {
+   "v": "950",
+   "n": "Ratio, proportion and rates of change"
+  },
+  {
+   "v": "951",
+   "n": "Geometry and measures"
+  },
+  {
+   "v": "952",
+   "n": "Probability"
+  },
+  {
+   "v": "953",
+   "n": "Statistics"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "21",
+   "n": "1F"
+  },
+  {
+   "v": "691",
+   "n": "1H"
+  },
+  {
+   "v": "23",
+   "n": "2F"
+  },
+  {
+   "v": "693",
+   "n": "2H"
+  },
+  {
+   "v": "756",
+   "n": "3F"
+  },
+  {
+   "v": "25",
+   "n": "3H"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 15,
+  "label": "GCSE"
+ },
+ "subject": {
+  "id": 385,
+  "label": "Mathematics (8300)"
+ },
+ "badges": [
+  "856",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:08:11+0000"
+}

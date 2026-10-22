@@ -1,0 +1,93 @@
+{
+ "topics": [
+  {
+   "v": "1172",
+   "n": "Radiation and waves"
+  },
+  {
+   "v": "1173",
+   "n": "Sustainable energy"
+  },
+  {
+   "v": "1174",
+   "n": "Electric circuits"
+  },
+  {
+   "v": "1175",
+   "n": "Explaining motion"
+  },
+  {
+   "v": "1176",
+   "n": "Radioactive materials"
+  },
+  {
+   "v": "1177",
+   "n": "Matter – models and explanations"
+  },
+  {
+   "v": "1178",
+   "n": "Ideas about Science"
+  },
+  {
+   "v": "1179",
+   "n": "Practical Skills"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 14,
+  "label": "GCSE (9-1)"
+ },
+ "subject": {
+  "id": 500,
+  "label": "Physics B (9-1) - Twenty First Century Science Suite J259"
+ },
+ "badges": [
+  "92",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:59:06+0000"
+}

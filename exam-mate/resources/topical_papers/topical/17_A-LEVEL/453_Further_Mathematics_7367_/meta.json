@@ -1,0 +1,185 @@
+{
+ "topics": [
+  {
+   "v": "1101",
+   "n": "Proof"
+  },
+  {
+   "v": "1102",
+   "n": "Complex Numbers"
+  },
+  {
+   "v": "1103",
+   "n": "Matrices"
+  },
+  {
+   "v": "1104",
+   "n": "Further Algebra and Functions"
+  },
+  {
+   "v": "1105",
+   "n": "Further Calculus"
+  },
+  {
+   "v": "1106",
+   "n": "Further Vectors"
+  },
+  {
+   "v": "1107",
+   "n": "Polar Coordinates"
+  },
+  {
+   "v": "1108",
+   "n": "Hyperbolic Functions"
+  },
+  {
+   "v": "1109",
+   "n": "Differential Equations"
+  },
+  {
+   "v": "1110",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "1111",
+   "n": "Numerical Methods"
+  },
+  {
+   "v": "2779",
+   "n": "Graphs"
+  },
+  {
+   "v": "2780",
+   "n": "Networks"
+  },
+  {
+   "v": "2781",
+   "n": "Network Flows"
+  },
+  {
+   "v": "2782",
+   "n": "Linear Programming"
+  },
+  {
+   "v": "2783",
+   "n": "Critical Path Analysis"
+  },
+  {
+   "v": "2784",
+   "n": "Game Theory for Zero-Sum Games"
+  },
+  {
+   "v": "2785",
+   "n": "Binary Operations"
+  },
+  {
+   "v": "2786",
+   "n": "Dimensional Analysis"
+  },
+  {
+   "v": "2787",
+   "n": "Momentum and Collisions"
+  },
+  {
+   "v": "2788",
+   "n": "Work, Energy & Power"
+  },
+  {
+   "v": "2789",
+   "n": "Circular Motion"
+  },
+  {
+   "v": "2790",
+   "n": "Centres of Mass and Moments"
+  },
+  {
+   "v": "2791",
+   "n": "Discrete Random Variables"
+  },
+  {
+   "v": "2792",
+   "n": "Poisson Distribution"
+  },
+  {
+   "v": "2793",
+   "n": "Type I and Type II Errors"
+  },
+  {
+   "v": "2794",
+   "n": "Continuous Random Variables"
+  },
+  {
+   "v": "2795",
+   "n": "Chi Squared Tests"
+  },
+  {
+   "v": "2796",
+   "n": "Exponential Distribution"
+  },
+  {
+   "v": "2797",
+   "n": "One Sample T-Distribution"
+  },
+  {
+   "v": "2798",
+   "n": "Confidence Intervals"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "576",
+   "n": "3D"
+  },
+  {
+   "v": "772",
+   "n": "3M"
+  },
+  {
+   "v": "773",
+   "n": "3S"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 17,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 453,
+  "label": "Further Mathematics (7367)"
+ },
+ "badges": [
+  "54",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:11:22+0000"
+}

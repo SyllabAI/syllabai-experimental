@@ -1,0 +1,166 @@
+{
+ "topics": [
+  {
+   "v": "220",
+   "n": "ATOMS,MOLECULES & STOICHIOMETRY"
+  },
+  {
+   "v": "221",
+   "n": "ATOMIC STRUCTURE"
+  },
+  {
+   "v": "320",
+   "n": "CHEMICAL BONDING"
+  },
+  {
+   "v": "321",
+   "n": "STATES OF MATTER"
+  },
+  {
+   "v": "322",
+   "n": "CHEMICAL ENERGETICS"
+  },
+  {
+   "v": "323",
+   "n": "ELECTROCHEMISTRY"
+  },
+  {
+   "v": "324",
+   "n": "EQUILIBRIA"
+  },
+  {
+   "v": "325",
+   "n": "REACTION KINETICS"
+  },
+  {
+   "v": "326",
+   "n": "THE PERIODIC TABLE : CHEMICAL PERIODICITY"
+  },
+  {
+   "v": "327",
+   "n": "GROUP 2"
+  },
+  {
+   "v": "328",
+   "n": "GROUP 17"
+  },
+  {
+   "v": "329",
+   "n": "AN INTRODUCTION TO THE CHEMISTRY OF TRANSITION ELEMENTS"
+  },
+  {
+   "v": "330",
+   "n": "NITROGEN & SULFUR"
+  },
+  {
+   "v": "331",
+   "n": "AN INTRODUCTION TO ORGANIC CHEMISTRY"
+  },
+  {
+   "v": "332",
+   "n": "HYDROCARBONS"
+  },
+  {
+   "v": "333",
+   "n": "HALOGEN DERIVATIVES"
+  },
+  {
+   "v": "334",
+   "n": "HYDROXY COMPOUNDS"
+  },
+  {
+   "v": "335",
+   "n": "CARBONYL COMPOUNDS"
+  },
+  {
+   "v": "336",
+   "n": "CARBOXYLIC ACIDS AND DERIVATIVES"
+  },
+  {
+   "v": "337",
+   "n": "NITROGEN COMPOUNDS"
+  },
+  {
+   "v": "338",
+   "n": "POLYMERISATTION"
+  },
+  {
+   "v": "339",
+   "n": "ANALYTICAL TECHNIQUES"
+  },
+  {
+   "v": "340",
+   "n": "ORGANIC SYNTHESIS"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 49,
+  "label": "Chemistry(9701)"
+ },
+ "badges": [
+  "3693",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:30:04+0000"
+}

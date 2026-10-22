@@ -1,0 +1,53 @@
+{
+ "topics": [
+  {
+   "v": "3479",
+   "n": "Tarih Bilimi (Science of History)"
+  },
+  {
+   "v": "3480",
+   "n": "İlk Çağ Uygarlıkları (Ancient Civilizations)"
+  },
+  {
+   "v": "3481",
+   "n": "Orta Çağ ve İslam Tarihi (Medieval and Islamic History)"
+  },
+  {
+   "v": "3482",
+   "n": "Osmanlı Devleti (Ottoman Empire)"
+  },
+  {
+   "v": "3483",
+   "n": "Yeni Çağ ve Yakın Çağ (Early Modern and Modern History)"
+  },
+  {
+   "v": "3484",
+   "n": "Kurtuluş Savaşı ve Atatürk Dönemi (War of Independence and Atatürk Era)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 764,
+  "label": "Tarih-1"
+ },
+ "badges": [
+  "20",
+  "1 - 20"
+ ],
+ "harvested_at": "2026-10-22T04:39:20+0000"
+}

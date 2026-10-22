@@ -1,0 +1,45 @@
+{
+ "topics": [
+  {
+   "v": "3143",
+   "n": "Bilgi felsefesi"
+  },
+  {
+   "v": "3144",
+   "n": "Varlık felsefesi"
+  },
+  {
+   "v": "3145",
+   "n": "Ahlak ve sanat felsefesi"
+  },
+  {
+   "v": "3146",
+   "n": "Akıl yürütme ve mantık"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 761,
+  "label": "Felsefe"
+ },
+ "badges": [
+  "20",
+  "1 - 20"
+ ],
+ "harvested_at": "2026-10-22T04:37:34+0000"
+}

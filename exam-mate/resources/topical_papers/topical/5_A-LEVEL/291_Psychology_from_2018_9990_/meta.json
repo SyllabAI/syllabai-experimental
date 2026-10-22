@@ -1,0 +1,103 @@
+{
+ "topics": [
+  {
+   "v": "796",
+   "n": "Approaches, Issues and Debates"
+  },
+  {
+   "v": "797",
+   "n": "Research Methods"
+  },
+  {
+   "v": "798",
+   "n": "Theory : Psychology and Abnormality"
+  },
+  {
+   "v": "799",
+   "n": "Theory : Psychology and Consumer Behaviour"
+  },
+  {
+   "v": "800",
+   "n": "Theory : Psychology and Health"
+  },
+  {
+   "v": "801",
+   "n": "Theory : Psychology and Organisations"
+  },
+  {
+   "v": "2845",
+   "n": "Clinical Psychology"
+  },
+  {
+   "v": "2846",
+   "n": "Consumer Psychology"
+  },
+  {
+   "v": "2847",
+   "n": "Health Psychology"
+  },
+  {
+   "v": "2848",
+   "n": "Organisational Psychology"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 291,
+  "label": "Psychology (from 2018)(9990)"
+ },
+ "badges": [
+  "457",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:49:48+0000"
+}

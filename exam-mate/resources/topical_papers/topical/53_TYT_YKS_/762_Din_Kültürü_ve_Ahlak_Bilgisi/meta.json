@@ -1,0 +1,41 @@
+{
+ "topics": [
+  {
+   "v": "3147",
+   "n": "Temel dini kavramlar"
+  },
+  {
+   "v": "3148",
+   "n": "İslam’da ibadet, ahlak"
+  },
+  {
+   "v": "3149",
+   "n": "Din ve kültür ilişkisi"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 762,
+  "label": "Din Kültürü ve Ahlak Bilgisi"
+ },
+ "badges": [
+  "10",
+  "1 - 10"
+ ],
+ "harvested_at": "2026-10-22T04:37:29+0000"
+}

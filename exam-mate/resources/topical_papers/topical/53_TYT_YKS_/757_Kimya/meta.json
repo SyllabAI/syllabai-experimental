@@ -1,0 +1,49 @@
+{
+ "topics": [
+  {
+   "v": "3124",
+   "n": "Maddenin yapısı ve özellikleri"
+  },
+  {
+   "v": "3125",
+   "n": "Kimyasal değişimler"
+  },
+  {
+   "v": "3126",
+   "n": "Asit – baz – tuzlar"
+  },
+  {
+   "v": "3127",
+   "n": "Karışımlar"
+  },
+  {
+   "v": "3128",
+   "n": "Günlük yaşamda kimya"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 757,
+  "label": "Kimya"
+ },
+ "badges": [
+  "14",
+  "1 - 14"
+ ],
+ "harvested_at": "2026-10-22T04:37:46+0000"
+}

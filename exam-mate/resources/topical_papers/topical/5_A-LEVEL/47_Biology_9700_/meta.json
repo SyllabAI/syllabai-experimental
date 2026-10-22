@@ -1,0 +1,150 @@
+{
+ "topics": [
+  {
+   "v": "218",
+   "n": "CELL STRUCTURE"
+  },
+  {
+   "v": "219",
+   "n": "BIOLOGICAL MOLECULES"
+  },
+  {
+   "v": "427",
+   "n": "ENZYMES"
+  },
+  {
+   "v": "428",
+   "n": "CELL MEMBRANES AND TRANSPORT"
+  },
+  {
+   "v": "429",
+   "n": "THE MITOTIC CELL CYCLE"
+  },
+  {
+   "v": "430",
+   "n": "NUCLEIC ACIDS AND PROTEIN SYNTHESIS"
+  },
+  {
+   "v": "431",
+   "n": "TRANSPORT IN PLANTS"
+  },
+  {
+   "v": "432",
+   "n": "TRANSPORT IN MAMMALS"
+  },
+  {
+   "v": "433",
+   "n": "GAS EXCHANGE AND SMOKING"
+  },
+  {
+   "v": "434",
+   "n": "INFECTIOUS DISEASE"
+  },
+  {
+   "v": "435",
+   "n": "IMMUNITY"
+  },
+  {
+   "v": "436",
+   "n": "ENERGY AND RESPIRATION"
+  },
+  {
+   "v": "437",
+   "n": "PHOTOSYNTHESIS"
+  },
+  {
+   "v": "438",
+   "n": "HOMEOSTASIS"
+  },
+  {
+   "v": "439",
+   "n": "CONTROL AND CO-ORDINATION"
+  },
+  {
+   "v": "440",
+   "n": "INHERITED CHANGE"
+  },
+  {
+   "v": "441",
+   "n": "SELECTION AND EVOLUTION"
+  },
+  {
+   "v": "442",
+   "n": "BIODIVERSITY, CLASSIFICATION AND CONSERVATION"
+  },
+  {
+   "v": "443",
+   "n": "GENETIC TECHNOLOGY"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 47,
+  "label": "Biology(9700)"
+ },
+ "badges": [
+  "3855",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:26:25+0000"
+}

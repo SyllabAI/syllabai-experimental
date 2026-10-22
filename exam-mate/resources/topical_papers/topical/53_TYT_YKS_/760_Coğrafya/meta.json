@@ -1,0 +1,49 @@
+{
+ "topics": [
+  {
+   "v": "3138",
+   "n": "Türkiye’nin coğrafi konumu"
+  },
+  {
+   "v": "3139",
+   "n": "Harita bilgisi"
+  },
+  {
+   "v": "3140",
+   "n": "İklim ve bitki örtüsü"
+  },
+  {
+   "v": "3141",
+   "n": "Nüfus ve yerleşme"
+  },
+  {
+   "v": "3142",
+   "n": "Ekonomik faaliyetler"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 53,
+  "label": "TYT (YKS)"
+ },
+ "subject": {
+  "id": 760,
+  "label": "Coğrafya"
+ },
+ "badges": [
+  "10",
+  "1 - 10"
+ ],
+ "harvested_at": "2026-10-22T04:37:23+0000"
+}

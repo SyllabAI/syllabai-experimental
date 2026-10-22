@@ -1,0 +1,177 @@
+{
+ "topics": [
+  {
+   "v": "425",
+   "n": "Roots of polynomial equations"
+  },
+  {
+   "v": "426",
+   "n": "Rational functions and graphs"
+  },
+  {
+   "v": "602",
+   "n": "Summation of series"
+  },
+  {
+   "v": "603",
+   "n": "Matrices"
+  },
+  {
+   "v": "604",
+   "n": "Polar coordinates"
+  },
+  {
+   "v": "605",
+   "n": "Vectors"
+  },
+  {
+   "v": "606",
+   "n": "Proof by induction"
+  },
+  {
+   "v": "607",
+   "n": "Hyperbolic functions"
+  },
+  {
+   "v": "608",
+   "n": "Differentiation"
+  },
+  {
+   "v": "609",
+   "n": "Integration"
+  },
+  {
+   "v": "610",
+   "n": "Complex numbers"
+  },
+  {
+   "v": "611",
+   "n": "Differential equations"
+  },
+  {
+   "v": "612",
+   "n": "Momentum and impulse"
+  },
+  {
+   "v": "613",
+   "n": "Circular motion"
+  },
+  {
+   "v": "614",
+   "n": "Equilibrium of a rigid body under coplanar forces"
+  },
+  {
+   "v": "615",
+   "n": "Rotation of a rigid body"
+  },
+  {
+   "v": "616",
+   "n": "Simple harmonic motion"
+  },
+  {
+   "v": "617",
+   "n": "Further work on distributions"
+  },
+  {
+   "v": "618",
+   "n": "Inference using normal and t-distributions"
+  },
+  {
+   "v": "619",
+   "n": "X2 Test"
+  },
+  {
+   "v": "620",
+   "n": "Bivariate data"
+  },
+  {
+   "v": "419",
+   "n": "Projectile motion"
+  },
+  {
+   "v": "624",
+   "n": "Linear motion under variable force"
+  },
+  {
+   "v": "625",
+   "n": "Non parametric test"
+  },
+  {
+   "v": "626",
+   "n": "Continuous random variable"
+  },
+  {
+   "v": "627",
+   "n": "Probability generating function"
+  },
+  {
+   "v": "709",
+   "n": "HOOK'S LAW"
+  },
+  {
+   "v": "3423",
+   "n": "Linear motion under a variable force"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 58,
+  "label": "Further Mathematics(9231)"
+ },
+ "badges": [
+  "1313",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:39:11+0000"
+}

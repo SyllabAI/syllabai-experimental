@@ -1,0 +1,167 @@
+{
+ "topics": [
+  {
+   "v": "297",
+   "n": "Mathematical Models in Mechanics"
+  },
+  {
+   "v": "298",
+   "n": "Vectors in Mechanics"
+  },
+  {
+   "v": "2879",
+   "n": "Kinematics of a Particle Moving in a Straight Line"
+  },
+  {
+   "v": "2880",
+   "n": "Dynamics of a Particle Moving in a Straight Line or Plane"
+  },
+  {
+   "v": "2881",
+   "n": "Statics of a Particle"
+  },
+  {
+   "v": "2882",
+   "n": "Moments"
+  },
+  {
+   "v": "2883",
+   "n": "Kinematics of a Particle Moving in a Straight Line or Plane"
+  },
+  {
+   "v": "2884",
+   "n": "Centres of Mass"
+  },
+  {
+   "v": "2885",
+   "n": "Work and Energy"
+  },
+  {
+   "v": "2886",
+   "n": "Collisions"
+  },
+  {
+   "v": "2887",
+   "n": "Statics of Rigid Bodies"
+  },
+  {
+   "v": "2888",
+   "n": "Further Kinematics"
+  },
+  {
+   "v": "2889",
+   "n": "Elastic Strings and Springs"
+  },
+  {
+   "v": "2890",
+   "n": "Further Dynamics"
+  },
+  {
+   "v": "2891",
+   "n": "Motion in a Circle"
+  },
+  {
+   "v": "2892",
+   "n": "Statics of Rigid Bodies"
+  },
+  {
+   "v": "2893",
+   "n": "Moments of Inertia"
+  }
+ ],
+ "zones": [],
+ "papers": [
+  {
+   "v": "74",
+   "n": "M1"
+  },
+  {
+   "v": "76",
+   "n": "M1(IAL)"
+  },
+  {
+   "v": "75",
+   "n": "M1R"
+  },
+  {
+   "v": "77",
+   "n": "M2"
+  },
+  {
+   "v": "82",
+   "n": "M2(IAL)"
+  },
+  {
+   "v": "80",
+   "n": "M2(WITHDRA)"
+  },
+  {
+   "v": "81",
+   "n": "M2R"
+  },
+  {
+   "v": "83",
+   "n": "M3"
+  },
+  {
+   "v": "85",
+   "n": "M3(IAL)"
+  },
+  {
+   "v": "84",
+   "n": "M3R"
+  },
+  {
+   "v": "86",
+   "n": "M4"
+  },
+  {
+   "v": "87",
+   "n": "M4R"
+  },
+  {
+   "v": "88",
+   "n": "M5"
+  },
+  {
+   "v": "89",
+   "n": "M5R"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 6,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 68,
+  "label": "Mathematics M1,M2,M3(WME01)"
+ },
+ "badges": [
+  "580",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:55:30+0000"
+}

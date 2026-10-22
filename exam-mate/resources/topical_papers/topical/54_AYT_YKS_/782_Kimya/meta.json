@@ -1,0 +1,73 @@
+{
+ "topics": [
+  {
+   "v": "3408",
+   "n": "Modern Atom Teorisi – Modern Atomic Theory"
+  },
+  {
+   "v": "3409",
+   "n": "Periyodik Sistem ve Kimyasal Bağlar – Periodic Table & Chemical Bonding"
+  },
+  {
+   "v": "3410",
+   "n": "Maddenin Halleri – States of Matter"
+  },
+  {
+   "v": "3411",
+   "n": "Kimyasal Hesaplamalar – Stoichiometry"
+  },
+  {
+   "v": "3412",
+   "n": "Termokimya – Thermochemistry"
+  },
+  {
+   "v": "3413",
+   "n": "Kimyasal Tepkimeler ve Hız – Chemical Reactions & Reaction Rate"
+  },
+  {
+   "v": "3414",
+   "n": "Kimyasal Denge – Chemical Equilibrium"
+  },
+  {
+   "v": "3415",
+   "n": "Asitler, Bazlar ve Tuzlar – Acids, Bases & Salts"
+  },
+  {
+   "v": "3416",
+   "n": "Elektrokimya – Electrochemistry"
+  },
+  {
+   "v": "3417",
+   "n": "Organik Kimya – Organic Chemistry"
+  },
+  {
+   "v": "3418",
+   "n": "Kimya ve Günlük Hayat – Chemistry in Daily Life"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 782,
+  "label": "Kimya"
+ },
+ "badges": [
+  "26",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:39:03+0000"
+}

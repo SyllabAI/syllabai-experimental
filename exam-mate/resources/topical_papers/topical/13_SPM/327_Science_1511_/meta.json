@@ -1,0 +1,109 @@
+{
+ "topics": [
+  {
+   "v": "904",
+   "n": "Scientific Investigation"
+  },
+  {
+   "v": "905",
+   "n": "Body Coordination"
+  },
+  {
+   "v": "906",
+   "n": "Heredity and Variation"
+  },
+  {
+   "v": "907",
+   "n": "Matter and Substance"
+  },
+  {
+   "v": "908",
+   "n": "Energy and Chemical Changes"
+  },
+  {
+   "v": "909",
+   "n": "Nuclear Energy"
+  },
+  {
+   "v": "910",
+   "n": "Light, Color and Sight"
+  },
+  {
+   "v": "911",
+   "n": "Chemicals in Industry"
+  },
+  {
+   "v": "912",
+   "n": "Microorganisms and Food Production"
+  },
+  {
+   "v": "913",
+   "n": "Preservation and Conservation of the Environment"
+  },
+  {
+   "v": "914",
+   "n": "Carbon Compounds"
+  },
+  {
+   "v": "915",
+   "n": "Motion"
+  },
+  {
+   "v": "916",
+   "n": "Food Technology and Production"
+  },
+  {
+   "v": "917",
+   "n": "Synthetic Materials in Industry"
+  },
+  {
+   "v": "918",
+   "n": "Electronics and Information and Communication Technology (ICT)"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "NONE",
+   "n": "None"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 13,
+  "label": "SPM"
+ },
+ "subject": {
+  "id": 327,
+  "label": "Science(1511)"
+ },
+ "badges": [
+  "310",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:42:24+0000"
+}

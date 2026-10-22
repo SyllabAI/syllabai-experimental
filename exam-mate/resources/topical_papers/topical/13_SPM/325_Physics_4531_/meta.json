@@ -1,0 +1,97 @@
+{
+ "topics": [
+  {
+   "v": "894",
+   "n": "Introduction to Physics"
+  },
+  {
+   "v": "895",
+   "n": "Forces and Motion"
+  },
+  {
+   "v": "896",
+   "n": "Forces and Pressure"
+  },
+  {
+   "v": "897",
+   "n": "Heat"
+  },
+  {
+   "v": "898",
+   "n": "Light"
+  },
+  {
+   "v": "899",
+   "n": "Waves"
+  },
+  {
+   "v": "900",
+   "n": "Electricity"
+  },
+  {
+   "v": "901",
+   "n": "Electromagnetism"
+  },
+  {
+   "v": "902",
+   "n": "Electronics"
+  },
+  {
+   "v": "903",
+   "n": "Radioactivity"
+  },
+  {
+   "v": "2843",
+   "n": "Modern Physics"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "NONE",
+   "n": "None"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 13,
+  "label": "SPM"
+ },
+ "subject": {
+  "id": 325,
+  "label": "Physics(4531)"
+ },
+ "badges": [
+  "330",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:42:00+0000"
+}

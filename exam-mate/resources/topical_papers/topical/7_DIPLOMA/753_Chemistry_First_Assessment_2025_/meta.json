@@ -1,0 +1,23 @@
+{
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 753,
+  "label": "Chemistry (First Assessment 2025)"
+ },
+ "harvested_at": "2026-10-22T04:14:36+0000",
+ "badges": [
+  "0",
+  "-"
+ ],
+ "total": 0,
+ "facet_evidence": {
+  "topics": 23,
+  "years": 11,
+  "papers": 3,
+  "seasons": 2
+ },
+ "note": "apply-path re-render served 0 rows; site itself reports no questions for this subject (facet evidence above)"
+}

@@ -1,0 +1,112 @@
+{
+ "topics": [
+  {
+   "v": "20",
+   "n": "CELL BIOLOGY"
+  },
+  {
+   "v": "21",
+   "n": "MOLECULAR BIOLOGY"
+  },
+  {
+   "v": "356",
+   "n": "GENETICS"
+  },
+  {
+   "v": "357",
+   "n": "ECOLOGY"
+  },
+  {
+   "v": "358",
+   "n": "EVOLUTION & BIODIVERSITY"
+  },
+  {
+   "v": "359",
+   "n": "HUMAN PHYSIOLOGY"
+  },
+  {
+   "v": "360",
+   "n": "NUCLEIC ACIDS (AHL)"
+  },
+  {
+   "v": "361",
+   "n": "METABOLISM,CELL RESPIRATION & PHOTOSYNTHESIS (AHL)"
+  },
+  {
+   "v": "362",
+   "n": "PLANT BIOLOGY (AHL)"
+  },
+  {
+   "v": "363",
+   "n": "GENETICS & EVOLUTION (AHL)"
+  },
+  {
+   "v": "364",
+   "n": "ANIMAL PHYSIOLOGY (AHL)"
+  },
+  {
+   "v": "365",
+   "n": "DATA ANALYSIS"
+  },
+  {
+   "v": "366",
+   "n": "DATABASE"
+  }
+ ],
+ "zones": [
+  "7",
+  "1",
+  "2",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 7,
+  "label": "DIPLOMA"
+ },
+ "subject": {
+  "id": 74,
+  "label": "Biology"
+ },
+ "badges": [
+  "3356",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:19:18+0000"
+}

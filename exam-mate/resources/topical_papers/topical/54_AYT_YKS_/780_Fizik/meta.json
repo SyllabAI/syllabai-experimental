@@ -1,0 +1,61 @@
+{
+ "topics": [
+  {
+   "v": "3434",
+   "n": "Kuvvet ve Hareket (Mechanics)"
+  },
+  {
+   "v": "3435",
+   "n": "Kütle Çekimi (Gravitation)"
+  },
+  {
+   "v": "3436",
+   "n": "Basit Harmonik Hareket (Simple Harmonic Motion)"
+  },
+  {
+   "v": "3437",
+   "n": "Dalgalar (Waves)"
+  },
+  {
+   "v": "3438",
+   "n": "Elektrik ve Manyetizma (Electricity and Magnetism)"
+  },
+  {
+   "v": "3439",
+   "n": "Optik (Optics)"
+  },
+  {
+   "v": "3440",
+   "n": "Modern Fizik (Modern Physics)"
+  },
+  {
+   "v": "3441",
+   "n": "Isı ve Termodinamik (Thermodynamics)"
+  }
+ ],
+ "zones": [],
+ "papers": [],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018"
+ ],
+ "category": {
+  "id": 54,
+  "label": "AYT (YKS)"
+ },
+ "subject": {
+  "id": 780,
+  "label": "Fizik"
+ },
+ "badges": [
+  "28",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T04:38:50+0000"
+}

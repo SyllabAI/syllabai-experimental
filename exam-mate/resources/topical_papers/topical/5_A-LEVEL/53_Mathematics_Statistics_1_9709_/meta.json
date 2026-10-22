@@ -1,0 +1,79 @@
+{
+ "topics": [
+  {
+   "v": "270",
+   "n": "REPRESENTATION OF DATA"
+  },
+  {
+   "v": "271",
+   "n": "PERMUTATION & COMBINATION"
+  },
+  {
+   "v": "420",
+   "n": "PROBABILITY"
+  },
+  {
+   "v": "421",
+   "n": "DISCRETE RANDOM VARIABLES"
+  },
+  {
+   "v": "422",
+   "n": "THE NORMAL DISTRIBUTION"
+  },
+  {
+   "v": "469",
+   "n": "THE BINOMIAL DISTRIBUTION"
+  },
+  {
+   "v": "629",
+   "n": "GEOMETRIC DISTRIBUTION"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "9",
+   "n": "6"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 5,
+  "label": "A-LEVEL"
+ },
+ "subject": {
+  "id": 53,
+  "label": "Mathematics Statistics 1(9709)"
+ },
+ "badges": [
+  "434",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:44:15+0000"
+}
