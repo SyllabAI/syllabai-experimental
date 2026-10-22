@@ -1,0 +1,97 @@
+[
+ {
+  "moduleType": "image-list",
+  "moduleId": "86b828c2-21ea-11e8-8c0c-d79041e9c8a6",
+  "moduleOrder": 1,
+  "userAnswer": {
+   "multipleChoice": {
+    "index": 3
+   },
+   "list": [
+    "gas",
+    "",
+    ""
+   ]
+  },
+  "score": 1,
+  "moduleScore": {
+   "score": 1,
+   "multipleChoice": {
+    "score": 1,
+    "inputScores": [
+     true
+    ]
+   },
+   "list": {
+    "score": 1,
+    "hits": [
+     false,
+     true,
+     false
+    ],
+    "inputScores": [
+     true
+    ]
+   }
+  },
+  "gaveUp": false,
+  "submitted": true,
+  "completed": true
+ },
+ {
+  "moduleType": "mindmap",
+  "moduleId": "86b828c3-21ea-11e8-8c0c-d79041e9c8a6",
+  "moduleOrder": 2,
+  "userAnswer": {
+   "multipleChoice": {
+    "index": 3
+   },
+   "list": [
+    "liquid"
+   ]
+  },
+  "score": 0.67,
+  "moduleScore": {
+   "score": 0.67,
+   "multipleChoice": {
+    "score": 1,
+    "inputScores": [
+     true
+    ]
+   },
+   "list": {
+    "score": 0.5,
+    "hits": [
+     true,
+     false,
+     false
+    ],
+    "inputScores": [
+     true,
+     false
+    ]
+   }
+  },
+  "gaveUp": true,
+  "submitted": false,
+  "completed": true
+ },
+ {
+  "moduleType": "multiple-choice",
+  "moduleId": "86b828c4-21ea-11e8-8c0c-d79041e9c8a6",
+  "moduleOrder": 4,
+  "userAnswer": {
+   "index": 1
+  },
+  "score": 1,
+  "moduleScore": {
+   "score": 1,
+   "inputScores": [
+    true
+   ]
+  },
+  "gaveUp": false,
+  "submitted": true,
+  "completed": true
+ }
+]

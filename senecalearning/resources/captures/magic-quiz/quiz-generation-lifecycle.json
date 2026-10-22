@@ -1,0 +1,28 @@
+{
+ "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+ "endpoint": "GET https://user-quiz.app.senecalearning.com/api/quizzes/me/{quizId}",
+ "pollIntervalMs": 2000,
+ "observedStates": [
+  {
+   "status": "generating",
+   "quizOverview": {
+    "entityType": "quizOverview",
+    "published": false,
+    "status": "generating",
+    "access": "private",
+    "contentIds": [],
+    "name": "Quiz d564a220-db24-43ba-91dc-31a55cde29cb",
+    "region": "GB"
+   }
+  },
+  {
+   "status": "complete",
+   "notes": "quizOverview gains name (LLM-generated title), contentIds populated, tags re-assigned by LLM (subject inferred), isPublic forced true (free tier)"
+  }
+ ],
+ "uiProgressStages": [
+  "Generating questions",
+  "Adding distractors to questions...",
+  "(~20-50s total)"
+ ]
+}

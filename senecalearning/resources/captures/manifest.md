@@ -63,3 +63,14 @@ capture with signed headers; token in `/tmp/seneca_token.txt` only.
 Not committed (local-only, per IP notes): raw `query-resources`
 responses incl. question bodies, mark schemes and generation scripts
 (`probe-results/rh3/local-only-full-payloads/`).
+
+## Phase 2 session 4 additions (2026-10-22, Magic Quiz + session-ws + memory)
+
+| Path | What | Source |
+|---|---|---|
+| `magic-quiz/README.md` + 3 files | AI quiz generator contract: generate request, polling lifecycle, generated quiz shape (21 modules; content redacted/truncated) | live `/teacher/quizzes/create` walkthrough + fetch instrumentation |
+| `sessions/README.md` + 5 files | study-session protocol captures: WS frame ledger, session emit body (client-computed BKT posterior 0→0.495), module answer/score samples, memory-palace read model, stats spaced-repetition record (`spacing`, proficiency) | live Adaptive session on States of Matter, in-page fetch+WS instrumentation |
+
+Local-only from this session (not committed): raw generated quiz JSON with full
+LLM output bodies (`/tmp/quiz_full.json` lineage), JWT-bearing WS URL, browser
+state (`/tmp/seneca_state.json`).

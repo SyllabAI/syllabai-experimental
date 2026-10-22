@@ -1,0 +1,358 @@
+{
+ "quizOverview": {
+  "type": "TEXT",
+  "creationDateTime": "2026-10-22T01:43:51.960Z",
+  "contentIds": [
+   "822aa719-2c6d-4fa4-b6cb-acb9a525e82e"
+  ],
+  "id": "d564a220-db24-43ba-91dc-31a55cde29cb",
+  "isPublic": true,
+  "numCopies": 1,
+  "tags": {
+   "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+    "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7"
+   ],
+   "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+    "f4c68c00-728c-472b-a715-e9c8dab47689"
+   ],
+   "8c71d055-ff40-4536-8629-5073c618ea53": [
+    "ae73bf6e-802a-4f72-9f8e-437aa6828a07"
+   ]
+  },
+  "name": "The Periodic Table: Groups, Trends & Reactivity",
+  "entityType": "quizOverview",
+  "published": false,
+  "status": "complete",
+  "region": "GB",
+  "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+  "creationDate": "2026-10-22",
+  "userId": "USER_ID_REDACTED",
+  "access": "private",
+  "creatorId": "USER_ID_REDACTED",
+  "userDetails": {
+   "givenName": "REDACTED",
+   "nickname": "REDACTED",
+   "creatorName": "REDACTED"
+  }
+ },
+ "contents": [
+  {
+   "contentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+   "modules": [
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "01a41133-3d62-475a-9763-0d70d1e59b5b",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "body": "**Structure of the Periodic Table**\n- Elements are arranged in order of increasing atomic number, so each element has on \u2026[TRUNCATED per IP notes]",
+      "title": "The Periodic Table: Groups, Trends & Reactivity"
+     },
+     "moduleType": "text-block",
+     "entityType": "module",
+     "title": "The Periodic Table: Groups, Trends & Reactivity",
+     "testingActive": false
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "c2c61636-d7a1-421a-b2da-a04dbf4ed411",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "Why do elements in the same group of the periodic table have similar chemical properties?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "Why do elements in the same group of the periodic table have similar chemical properties?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "bc192afe-5ae6-4fff-bd5a-6dd536561266",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "Noble gases are  u _________  because their outer electron shells are full",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "1e32d095-39ae-4309-baa1-fc5519a4e7f5",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "Which property do Group 1 metals share that makes them all highly reactive?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "Which property do Group 1 metals share that makes them all highly reactive?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "d2a19f8b-d75b-4af2-89e0-5aa7e46a2435",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "Which group of the periodic table contains the alkali metals?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "Which group of the periodic table contains the alkali metals?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "fecfe451-dfee-4146-85f8-ac66328982e1",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "What is the connection between an element's group number and its electron configuration?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "What is the connection between an element's group number and its electron configuration?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "53914bb6-ac9a-4cec-a522-3503c21c4330",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "The  p _____  number of an element indicates the number of electron shells its atoms contain",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "72c39fc6-74b9-43f0-b369-35759b4f403e",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "Group 7 elements are known as the  h _______  and are highly reactive non-metals",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "7d8bc3a4-2bd4-43e3-b07b-904116fce02e",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "Lithium, sodium, and potassium are all in Group 1. Which is the most reactive?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "Lithium, sodium, and potassium are all in Group 1. Which is the most reactive?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "87c5af1b-8764-4fb1-bf63-10d9c38e7211",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "The full outer shell of noble gases makes them chemically  s _____",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "f98cfed6-19c1-46f3-88a3-884a1ebdce78",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "Group 1 metals become more reactive down the group because the outer electron is  l ___  more easily",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "be93a730-ee88-4c67-b68e-a5424cfd4aa1",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "Fluorine is at the top of Group 7 and iodine is further down. Which element is more reactive?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "Fluorine is at the top of Group 7 and iodine is further down. Which element is more reactive?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "ef42d548-d133-4ce1-8500-576197a0a7f3",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "Which of the following statements about Group 0 elements is correct?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "Which of the following statements about Group 0 elements is correct?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "f59231b5-9e5c-4468-9df7-d4e72ea27e85",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "How does the number of electron shells change as you move down a group in the periodic table?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "How does the number of electron shells change as you move down a group in the periodic table?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "7738a241-7ded-47ae-aca1-d06780ed2f3d",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "The reactivity of Group 1 metals  i ________  down the group",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "7697b862-682d-4559-9098-e558d6f5b9ef",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "Halogens react by  g ______  one electron to form ions with a -1 charge",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "6b7c696e-cf32-4065-9890-b94fb1d2f062",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "Which of the following correctly describes the trend in reactivity of the halogens in Group 7?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "Which of the following correctly describes the trend in reactivity of the halogens in Group 7?",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "2da9beaf-cfb7-4985-99ca-c1dda6d1233b",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "Noble gases are found in Group  _  of the periodic table",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "56c38e9d-de84-461a-a607-2230e46f95c5",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "As you move across a period in the periodic table, the atomic number increases by  o __  each element",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "82cc8164-43c2-43b6-b27c-1b424cda9618",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "words": [
+       "[REDACTED per IP notes \u2014 wordfill token stream]"
+      ]
+     },
+     "moduleType": "wordfill",
+     "entityType": "module",
+     "title": "Group 1 metals react by losing their single outer-shell electron to form ions with a  + _  charge",
+     "testingActive": true
+    },
+    {
+     "quizId": "d564a220-db24-43ba-91dc-31a55cde29cb",
+     "id": "2b0daba1-1dc7-4038-b7d7-42953f56e2fc",
+     "parentId": "822aa719-2c6d-4fa4-b6cb-acb9a525e82e",
+     "content": {
+      "correctAnswer": "[REDACTED per IP notes]",
+      "question": "How are elements arranged in the modern periodic table?",
+      "wrongAnswers": [
+       "[REDACTED per IP notes]"
+      ]
+     },
+     "moduleType": "multiple-choice",
+     "entityType": "module",
+     "title": "How are elements arranged in the modern periodic table?",
+     "testingActive": true
+    }
+   ]
+  }
+ ]
+}

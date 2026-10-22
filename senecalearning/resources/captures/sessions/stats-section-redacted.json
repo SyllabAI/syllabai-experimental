@@ -1,0 +1,40 @@
+{
+ "stats": [
+  {
+   "userId": "USER_ID_REDACTED",
+   "sectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "sessionsCompleted": 1,
+   "totalStudyTime": 159,
+   "lastStudied": 1792634806,
+   "sessionModulesStudied": 5,
+   "sessionModulesCorrect": 2,
+   "averageScore": 0.89,
+   "averageSessionScore": 0.89,
+   "lastScore": 0.89,
+   "bestScore": 0.89,
+   "worstScore": 0.89,
+   "spacing": 1,
+   "recentSectionEvents": [
+    {
+     "averageScore": 0.89,
+     "endingSectionProficiency": 0.495,
+     "startingSectionProficiency": 0,
+     "timeFinished": 1792634806
+    }
+   ],
+   "proficiency": 0.495,
+   "hardestQuestionsSessionsCompleted": 0,
+   "hardestQuestionsTotalStudyTime": 0,
+   "hardestQuestionsSessionModulesStudied": 0,
+   "hardestQuestionsSessionModulesCorrect": 0,
+   "moduleIdsStudied": [
+    "86b828c0-21ea-11e8-8c0c-d79041e9c8a6",
+    "86b828c7-21ea-11e8-8c0c-d79041e9c8a6",
+    "86b828c2-21ea-11e8-8c0c-d79041e9c8a6",
+    "86b828c3-21ea-11e8-8c0c-d79041e9c8a6",
+    "86b828c4-21ea-11e8-8c0c-d79041e9c8a6"
+   ]
+  }
+ ]
+}

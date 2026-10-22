@@ -52,12 +52,30 @@ assignment-flow endpoint set. Remaining items below.
 - [~] Course taxonomy catalogue: list + query captured (2,761 courses,
       Elasticsearch-backed `queryCourses`, tag filters); **section/slide
       payloads are CloudFront-signed** — resolution flow still open
-- [ ] The learning session loop: `session.app…` + `wss://session-ws` —
-      session-scoped auth unresolved (403 observed)
-- [~] Memory model: `/api/memories` verified live (empty items — account
-      has no learning history; schema needs a session of study first)
+- [x] The learning session loop (session 4, 2026-10-22): **session-ws
+      protocol + session emit fully captured** — `wss://session-ws…?access-
+      key=<JWT>&sessionId=<uuid>` is lifecycle-only (start-session +
+      keep-connection-alive OUT, session-xp IN); all answers buffered
+      client-side and flushed by one `POST /api/session` carrying the full
+      module ledger incl. **client-computed BKT posterior** (0 → 0.495)
+      and per-input scoring (`moduleScore.hits[]`); see
+      research/2026-10-22-session-lifecycle.md + captures/sessions/
+- [x] Memory model (session 4, 2026-10-22): **both stores schema'd** —
+      memory service = palace-deposit ledger `(courseId, sectionId) →
+      location{name,country,lat/long}`; stats service = spaced-repetition
+      state (`proficiency`, `spacing` counter, `recentSectionEvents[]`
+      prior→posterior log); see research/2026-10-22-memory-model.md
+- [x] Magic Quiz AI flow (session 4, 2026-10-22): **full contract** —
+      `POST user-quiz…/api/quizzes/generate` {resourceText, type, tags,
+      options.maxQuestions} → poll `{status: generating→complete}` →
+      21-module quiz (text-block/MC/wordfill+distractors), 12-endpoint
+      client surface, entitlement gate `FREE_USER_CAN_ONLY_CREATE_PUBLIC_
+      QUIZ`; see research/2026-10-22-magic-quiz-ai-flow.md +
+      captures/magic-quiz/
 - [~] XP/gamification: `/api/xp/me?date=` verified (level thresholds 100
-      XP; daily/weekly/monthly/yearly buckets); tournaments service
+      XP; daily/weekly/monthly/yearly buckets); **session 4: XP formula
+      decoded from session-xp frame** (completion + score + memory
+      components; level thresholds 200→350); tournaments service
       rejects the token (auth-split family); leaderboards unprobed
 - [ ] AI surface: chatbot + short-answer payloads (deferred to a
       controlled micro-probe; costs their LLM budget)

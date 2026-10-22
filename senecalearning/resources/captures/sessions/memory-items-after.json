@@ -1,0 +1,21 @@
+{
+ "items": [
+  {
+   "id": "657b836a-6576-49d6-9551-1ae15d17e215",
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "sectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "locationId": "5c1f19e5-4a48-4c32-b461-2e9592148db4",
+   "timeEarned": "2026-10-22T02:06:46Z",
+   "courseName": "Chemistry: Edexcel iGCSE",
+   "sectionTitle": "States of Matter",
+   "location": {
+    "id": "5c1f19e5-4a48-4c32-b461-2e9592148db4",
+    "name": "Riddarholmen Cathedral",
+    "countryName": "Sweden",
+    "imageURL": "seneca-image-cdn:///memory-location-images/11thFebOnwards/Riddarholmen%20Cathedral%2C%20Sweden-min.jpg",
+    "latitude": 59.324681,
+    "longitude": 18.064578
+   }
+  }
+ ]
+}

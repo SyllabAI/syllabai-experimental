@@ -1,0 +1,20 @@
+{
+ "resourceText": "The periodic table arranges elements in order of increasing atomic number. Elements in the same group have similar chemical properties because they have the same number of outer-shell electrons. Group 1 metals are highly reactive, and reactivity increases down the group as the outer electron is lost more easily. Group 7 halogens are also highly reactive, but reactivity decreases down the group. Noble gases in Group 0 are unreactive because their outer shells are full.",
+ "type": "TEXT",
+ "tags": {
+  "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+   "f4c68c00-728c-472b-a715-e9c8dab47689"
+  ],
+  "8c71d055-ff40-4536-8629-5073c618ea53": [
+   "ae73bf6e-802a-4f72-9f8e-437aa6828a07"
+  ],
+  "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+   "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7"
+  ]
+ },
+ "shareWithSchool": false,
+ "isPublic": true,
+ "options": {
+  "maxQuestions": 25
+ }
+}

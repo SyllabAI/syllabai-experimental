@@ -68,3 +68,32 @@ this per day (`date` param required).
    nothing; browse a course as a student-equivalent teacher preview).
 4. Session loop protocol over `wss://session-ws` (needs a started session).
 5. Chatbot payload shapes (costs LLM calls — keep to 1–2 tiny probes).
+
+## Session 4 additions (2026-10-22 — Magic Quiz, session loop, memory)
+
+Verified live (fetch-instrumented walkthrough + curl replays):
+
+| Endpoint | Result shape |
+|---|---|
+| `POST user-quiz…/api/quizzes/generate` `{resourceText,type,tags,shareWithSchool,isPublic,options}` | `201 {quizId}` — AI quiz generation (full contract: magic-quiz note) |
+| `GET user-quiz…/api/quizzes/me/{quizId}` | `{quizOverview, contents[].modules[]}`; poll loop `generating→complete` |
+| `POST user-quiz…/api/quizzes/me/{quizId}/update` `{quizOverview,…}` | full-document update; 422 `{reason,pointer}`; free-tier gate `FREE_USER_CAN_ONLY_CREATE_PUBLIC_QUIZ` on `isPublic:false` |
+| `POST session…/api/session` (session emit) | `200`; full module ledger + client-computed BKT posterior (session-lifecycle note) |
+| `POST memory…/api/memories` `{courseId,courseName,sectionId,sectionTitle,locationId,timeEarned}` | `201` palace deposit |
+| `GET memory…/api/memories` | `{items:[{id,courseId,sectionId,locationId,timeEarned,courseName,sectionTitle,location{name,countryName,imageURL,latitude,longitude}}]}` |
+| `GET stats…/api/stats/sections?includeHardestQuestionsOnlyStats=true&courseId=` | `{stats:[{sessionsCompleted,totalStudyTime,lastStudied,averageScore,bestScore,worstScore,spacing,proficiency,recentSectionEvents[],moduleIdsStudied[],hardestQuestions*}]}` |
+| `GET xp…/api/xp/me?date=` | `214 XP, level 2 (200→350)` after 1 session + quiz probe |
+| `POST session…/api/session/quiz` | quiz-mode emit variant (client surface; same envelope) |
+| `POST chatbot…/api/prompt` `{prompts,skipModeration}` | Magic/Amelia prompt engine (client surface; InappropriateContentError on 400) |
+| `POST chatbot…/api/generate-prompts` / `POST …/api/search` | prompt-generation + search (client surface) |
+| `POST /api/files/upload-url` `{fileName,contentType}` (user-quiz host) | signed upload for quiz images/files |
+| `GET user-quiz…/api/quizzes/{quizId}` | PDF export (generateQuizPdf) |
+| `POST session…/api/get-speech/module` | TTS narration for modules (422 on unsupported modules, observed ×12) |
+
+WebSocket (see session-lifecycle note): `wss://session-ws…?access-key=<JWT>&sessionId=`
+— OUT `start-session` / `keep-connection-alive`; IN `session-xp`
+(`breakdown{completionXp,scoreXp,memoryXp}`, `reward`, level thresholds).
+
+Observed in UI, unverified: `/quiz-preview` route, Wrong-Answers mode (needs
+history), Exam-Questions mode, memory-palace map micro-question
+(geolocation guess scored 0–100), weekly-plan (`GET /api/weekly-plan/me?weekStartDate=`).

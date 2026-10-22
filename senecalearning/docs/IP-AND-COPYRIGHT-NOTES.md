@@ -82,3 +82,31 @@ structural name. Standing rule refined accordingly:
 - Metadata retained per question: id, type, tag values, topic
   breadcrumbs, marks, answer counts, publisher, questionType — enough
   for structure/coverage analysis, none of it teaches or assesses.
+
+## Session 4 addendum (2026-10-22) — session/quiz captures under operator authorisation
+
+Phase 2 session 4 walked a Magic Quiz generation and a real Adaptive study
+session under the operator-provided teacher account, per the operator's
+explicit direction to exercise the product's AI + session flows. Posture:
+
+- **Machine-generated output, not Seneca-authored content.** The Magic Quiz
+  artefact was generated from *our own probe paragraph* by Seneca's LLM
+  pipeline. Committed shape files truncate the generated bodies anyway
+  (title rule spirit): structural fields verbatim, `correctAnswer`,
+  `wrongAnswers`, and wordfill token streams redacted, markdown bodies cut
+  at ~120 chars.
+- **Lesson/question content in the session emit** (concept-card examples,
+  question text) is Seneca-authored course content: truncated at ~120
+  chars in committed captures, structure and scoring fields verbatim,
+  full payloads local-only (`/tmp` lineage, not committed).
+- **JWT hygiene**: the session-ws URL carries the Firebase token in its
+  query string; committed frame captures are scrubbed of tokens and
+  userIds. Tokens never leave RAM / `/tmp`.
+- **Account side-effects recorded**: one quiz draft (unpublished; free
+  tier forbids private quizzes — documented), one completed study session
+  + memory deposit on the teacher's own preview study, XP 214/level 2.
+  Zero assignments, zero class changes. The quiz draft cannot be deleted
+  (no delete endpoint); accepted as residual state of the throwaway
+  teacher account.
+- No automated bulk querying occurred this session; every request was a
+  page-action-driven interactive call.
