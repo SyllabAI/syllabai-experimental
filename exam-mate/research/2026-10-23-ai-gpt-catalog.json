@@ -1,0 +1,1422 @@
+{
+ "3:11": {
+  "category": "IGCSE",
+  "subject": "Additional Mathematics(0606)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-693fb620e04c8191a4bee4ceefb14b8f-igcse-additional-maths-0606-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:247": {
+  "category": "IGCSE",
+  "subject": "Biology 9-1(0970)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-69576e03d3a48191b1c73b2096d2654d-igcse-biology-9-1-0970-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:13": {
+  "category": "IGCSE",
+  "subject": "Biology(0610)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6918bd99b48881919988c698f0b6b11c-igcse-biology-0610-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:249": {
+  "category": "IGCSE",
+  "subject": "Chemistry 9-1(0971)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6957936a8dc08191af0861d38d96d3fa-igcse-chemistry-9-1-0971-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:16": {
+  "category": "IGCSE",
+  "subject": "Chemistry(0620)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6969c94713748191b12b8fe6460b9347-exam-mate-igcse-chemistry-revision",
+   "disabled": false
+  }
+ },
+ "3:250": {
+  "category": "IGCSE",
+  "subject": "Computer Science 9-1(0984)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:128": {
+  "category": "IGCSE",
+  "subject": "Computer Science(0478)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:252": {
+  "category": "IGCSE",
+  "subject": "Economics 9-1(0987)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:17": {
+  "category": "IGCSE",
+  "subject": "Economics(0455)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-69579736206081919e2c8e3f4cc82378-igcse-economics-0455-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:18": {
+  "category": "IGCSE",
+  "subject": "English 1st Language(0500)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:19": {
+  "category": "IGCSE",
+  "subject": "English 2nd Language(0510)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:24": {
+  "category": "IGCSE",
+  "subject": "History(0470)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-69576e03d3a48191b1c73b2096d2654d-igcse-biology-9-1-0970-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:23": {
+  "category": "IGCSE",
+  "subject": "ICT(0417)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:262": {
+  "category": "IGCSE",
+  "subject": "Mathematics 9-1(0980)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:136": {
+  "category": "IGCSE",
+  "subject": "Mathematics International(0607)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694a78f2162c8191930fbb2e9b999fea-igcse-international-math-0607-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:22": {
+  "category": "IGCSE",
+  "subject": "Mathematics(0580)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-691c2309481881919d09a2a6c193a8a4-igcse-mathematics-0580-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:265": {
+  "category": "IGCSE",
+  "subject": "Physics 9-1(0972)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695782ea8d208191bfa62ac36764def8-igcse-physics-9-1-0972-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:29": {
+  "category": "IGCSE",
+  "subject": "Physics(0625)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-691a0406c5c88191a945a84d2b0d8b2d-igcse-physics-0625-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "3:279": {
+  "category": "IGCSE",
+  "subject": "Religious Studies(0490)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:25": {
+  "category": "IGCSE",
+  "subject": "Science Combined(0653)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:26": {
+  "category": "IGCSE",
+  "subject": "Science Coordinate(0654)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:266": {
+  "category": "IGCSE",
+  "subject": "Sciences  Co-ordinated 9-1(0973)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "3:30": {
+  "category": "IGCSE",
+  "subject": "Sociology(0495)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:47": {
+  "category": "A-LEVEL",
+  "subject": "Biology(9700)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694bbf5dc0dc8191861d33d71595f74f-a-level-biology-9700-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:49": {
+  "category": "A-LEVEL",
+  "subject": "Chemistry(9701)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694bc90dda94819195b5e98075fc3283-a-level-chemistry-9701-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:642": {
+  "category": "A-LEVEL",
+  "subject": "Computer Science (from 2021)(9618)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:149": {
+  "category": "A-LEVEL",
+  "subject": "Computer Science(9608)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:50": {
+  "category": "A-LEVEL",
+  "subject": "Economics(9708)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695510a93e6881919fd7f084ee6c8068-a-level-economics-9708-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:58": {
+  "category": "A-LEVEL",
+  "subject": "Further Mathematics(9231)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694cf97bd9888191be43429bc85931a5-a-level-further-maths-9231-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:164": {
+  "category": "A-LEVEL",
+  "subject": "History(9389)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:675": {
+  "category": "A-LEVEL",
+  "subject": "History(9489)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:319": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Mechanics (9709)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694ce47641508191be160af258139738-a-level-pure-mechanics-9709-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:55": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Mechanics 1(9709)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:56": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Mechanics 2(9709)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:320": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Probability & Statistics 1 (9709)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:321": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Probability & Statistics 2 (9709)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:51": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Pure Math 1(9709)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694bdeec87888191904e1e5326e11935-a-level-pure-maths1-9709-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:52": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Pure Math 2,3(9709)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694ce078361481919f2f359df0f67752-a-level-pure-maths3-9709-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:53": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Statistics 1(9709)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:54": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Statistics 2(9709)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:174": {
+  "category": "A-LEVEL",
+  "subject": "Physical Education(9396)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:57": {
+  "category": "A-LEVEL",
+  "subject": "Physics(9702)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-694bd93dd4d481918439dc81cc09cf46-a-level-physics-9702-exam-prediction-ai",
+   "disabled": false
+  }
+ },
+ "5:291": {
+  "category": "A-LEVEL",
+  "subject": "Psychology (from 2018)(9990)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "5:186": {
+  "category": "A-LEVEL",
+  "subject": "Sociology(9699)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "4:32": {
+  "category": "IGCSE",
+  "subject": "Biology(4BI0)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "4:34": {
+  "category": "IGCSE",
+  "subject": "Chemistry(4CH0)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "4:45": {
+  "category": "IGCSE",
+  "subject": "Further Pure Math(4PM0)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "4:39": {
+  "category": "IGCSE",
+  "subject": "Mathematics A(4MA0)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "4:40": {
+  "category": "IGCSE",
+  "subject": "Mathematics B(4MB0)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "4:44": {
+  "category": "IGCSE",
+  "subject": "Physics(4PH0)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "21:613": {
+  "category": "IGCSE (9-1)",
+  "subject": "Biology 9-1(4BI1)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6957b6fbac48819180a71ac8029ec08e-edexcel-igcse-biology-9-1-4bi1-ai-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f324e2b108191ac5874c1e3bc2355-exam-mate-edexcel-igcse-biology-4bi1-revision",
+   "disabled": false
+  }
+ },
+ "21:614": {
+  "category": "IGCSE (9-1)",
+  "subject": "Chemistry 9-1(4CH1)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6957c05c3da08191b19f26a1e1000a71-edexcel-igcse-chemistry-9-1-4ch1-ai-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f3451a4548191a3a81ae94ebf930f-exam-mate-edexcel-igcse-chemistry-4ch1-revision",
+   "disabled": false
+  }
+ },
+ "21:634": {
+  "category": "IGCSE (9-1)",
+  "subject": "Further Pure Math 9-1(4PM1)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6957c4992b64819198907f6c25d9c3d4-edexcel-igcse-fp-mathematics-9-1-4pm1-ai-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f3587d4f88191b4717a41cfefb23c-exam-mate-edexcel-igcse-fp-mathematics-revision",
+   "disabled": false
+  }
+ },
+ "21:615": {
+  "category": "IGCSE (9-1)",
+  "subject": "Mathematics A 9-1(4MA1)",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6957c9ac33748191a9ee87d49b1a29aa-edexcel-igcse-mathematics-a-9-1-4ma1-ai-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f3748715481919c8fcdfeceec24fd-exam-mate-edexcel-igcse-mathematics-4ma1-revision",
+   "disabled": false
+  }
+ },
+ "21:637": {
+  "category": "IGCSE (9-1)",
+  "subject": "Mathematics B 9-1(4MB1)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f386c96288191b4260da360620e9e-exam-mate-edexcel-igcse-mathematics-4mb1-revision",
+   "disabled": false
+  }
+ },
+ "21:616": {
+  "category": "IGCSE (9-1)",
+  "subject": "Physics 9-1(4PH1)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f39fcccf88191a77ee2303cd6548c-exam-mate-edexcel-igcse-physics-4ph1-revision",
+   "disabled": false
+  }
+ },
+ "6:61": {
+  "category": "A-LEVEL",
+  "subject": "Biology(WBI01)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:617": {
+  "category": "A-LEVEL",
+  "subject": "Biology(WBI11)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:63": {
+  "category": "A-LEVEL",
+  "subject": "Chemistry(WCH01)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:618": {
+  "category": "A-LEVEL",
+  "subject": "Chemistry(WCH11)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:67": {
+  "category": "A-LEVEL",
+  "subject": "Further Pure Mathematics(WFM01)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:621": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics D1(WDM11)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:68": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics M1,M2,M3(WME01)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:620": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics Pure(WMA11)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:69": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics S1,S2,S3(WST01)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:65": {
+  "category": "A-LEVEL",
+  "subject": "Maths Core(WMA01/WMA02)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:70": {
+  "category": "A-LEVEL",
+  "subject": "Physics(WPH01)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "6:622": {
+  "category": "A-LEVEL",
+  "subject": "Physics(WPH11)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "7:74": {
+  "category": "DIPLOMA",
+  "subject": "Biology",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "7:751": {
+  "category": "DIPLOMA",
+  "subject": "Biology (First Assessment 2025)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f3d2bfa2c81918c811b46a18f8032-exam-mate-ib-diploma-biology-revision",
+   "disabled": false
+  }
+ },
+ "7:78": {
+  "category": "DIPLOMA",
+  "subject": "Chemistry",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "7:753": {
+  "category": "DIPLOMA",
+  "subject": "Chemistry (First Assessment 2025)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f4147e3ac81919a5bbdf85b168361-exam-mate-ib-diploma-chemistry-revision",
+   "disabled": false
+  }
+ },
+ "7:80": {
+  "category": "DIPLOMA",
+  "subject": "Economics",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f433d4e508191a1c11fc38e878ec5-exam-mate-ib-diploma-economics-revision",
+   "disabled": false
+  }
+ },
+ "7:86": {
+  "category": "DIPLOMA",
+  "subject": "Further Mathematics",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "7:116": {
+  "category": "DIPLOMA",
+  "subject": "Global Politics",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f434062a88191854660f9ef525b3e-exam-mate-ib-diploma-global-politics-revision",
+   "disabled": false
+  }
+ },
+ "7:112": {
+  "category": "DIPLOMA",
+  "subject": "Mathematical Studies",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "7:90": {
+  "category": "DIPLOMA",
+  "subject": "Mathematics",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "7:542": {
+  "category": "DIPLOMA",
+  "subject": "Mathematics AA",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-6917667646588191a26f9c195c090869-ib-math-aa-exam-prediction-ai",
+   "disabled": false
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f4573b8c88191bd54ea0c84e59c50-exam-mate-ib-diploma-mathematics-aa-revision",
+   "disabled": false
+  }
+ },
+ "7:541": {
+  "category": "DIPLOMA",
+  "subject": "Mathematics AI",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f457b11cc8191b439a309055cd86c-exam-mate-ib-diploma-mathematics-ai-revision",
+   "disabled": false
+  }
+ },
+ "7:118": {
+  "category": "DIPLOMA",
+  "subject": "Philosophy",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f4b654a2881919af54bc9997f82f3-exam-mate-ib-diploma-philosophy-revision",
+   "disabled": false
+  }
+ },
+ "7:92": {
+  "category": "DIPLOMA",
+  "subject": "Physics",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "7:752": {
+  "category": "DIPLOMA",
+  "subject": "Physics (First Assessment 2025)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f4223488c8191a2aefc8d721f53f7-exam-mate-ib-diploma-physics-revision",
+   "disabled": false
+  }
+ },
+ "7:94": {
+  "category": "DIPLOMA",
+  "subject": "Psychology",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f4d3176ac8191af98fb188b9ffac0-exam-mate-ib-diploma-psychology-revision",
+   "disabled": false
+  }
+ },
+ "7:121": {
+  "category": "DIPLOMA",
+  "subject": "World Religions",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "https://chatgpt.com/g/g-696f4ec29fe48191889b52af59275bc9-exam-mate-ib-diploma-world-religions-revision",
+   "disabled": false
+  }
+ },
+ "14:474": {
+  "category": "GCSE (9-1)",
+  "subject": "Biology A (9-1) - Gateway Science Suite J247",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695bb934dabc8191819dbdc58626240b-ocr-gcse-9-1-biology-a-ai-prediction-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:475": {
+  "category": "GCSE (9-1)",
+  "subject": "Biology B (9-1) - Twenty First Century Science Sui",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695bc0ad79888191bc6b6f3b75e3d49e-ocr-gcse-9-1-biology-b-ai-prediction-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:477": {
+  "category": "GCSE (9-1)",
+  "subject": "Chemistry A (9-1) - Gateway Science Suite J248",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695cb30211fc81919c2912be99409af2-ocr-gcse-9-1-chemistry-a-ai-prediction-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:478": {
+  "category": "GCSE (9-1)",
+  "subject": "Chemistry B (9-1) - Twenty First Century Science S",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695cb717f96081918d4a3e417dae6e2e-ocr-gcse-9-1-chemistry-b-ai-prediction-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:495": {
+  "category": "GCSE (9-1)",
+  "subject": "Mathematics (9-1) J560",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695cc27486248191a85f5b9c301a7e78-ocr-gcse-9-1-math-j560-ai-prediction-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:499": {
+  "category": "GCSE (9-1)",
+  "subject": "Physics A (9-1) - Gateway Science Suite J249",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695cc95f65748191bf5e4481480d591d-ocr-gcse-9-1-physics-a-ai-prediction-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:500": {
+  "category": "GCSE (9-1)",
+  "subject": "Physics B (9-1) - Twenty First Century Science Sui",
+  "prediction": {
+   "href": "https://chatgpt.com/g/g-695ccc3969e081918d62c980400f9c3b-ocr-gcse-9-1-physics-b-ai-prediction-exam",
+   "disabled": false
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:503": {
+  "category": "GCSE (9-1)",
+  "subject": "Science A, Combined (9-1) - Gateway Science Suite ",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "14:504": {
+  "category": "GCSE (9-1)",
+  "subject": "Science B, Combined (9-1) - Twenty First Century S",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:544": {
+  "category": "AS",
+  "subject": "Biology A (H020)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:545": {
+  "category": "AS",
+  "subject": "Biology B (Advancing Biology) (H022)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:551": {
+  "category": "AS",
+  "subject": "Chemistry A (H032)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:553": {
+  "category": "AS",
+  "subject": "Chemistry B (Salters) H033",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:567": {
+  "category": "AS",
+  "subject": "Mathematics A (H230)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:560": {
+  "category": "AS",
+  "subject": "Mathematics A, Further (H235)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:568": {
+  "category": "AS",
+  "subject": "Mathematics B (MEI) (H630)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:572": {
+  "category": "AS",
+  "subject": "Physics A (H156)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "19:573": {
+  "category": "AS",
+  "subject": "Physics B (Advancing Physics) (H157)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:507": {
+  "category": "A-LEVEL",
+  "subject": "Biology A (H420)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:508": {
+  "category": "A-LEVEL",
+  "subject": "Biology B (Advancing Biology) (H422)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:510": {
+  "category": "A-LEVEL",
+  "subject": "Chemistry A (H432)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:511": {
+  "category": "A-LEVEL",
+  "subject": "Chemistry B (Salters) (H433)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:529": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics A (H240)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:530": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics A, Further (H245)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:531": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics B (MEI) (H640)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:536": {
+  "category": "A-LEVEL",
+  "subject": "Physics A (H556)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "16:537": {
+  "category": "A-LEVEL",
+  "subject": "Physics B (Advancing Physics) (H557)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "15:363": {
+  "category": "GCSE",
+  "subject": "Biology (8461)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "15:365": {
+  "category": "GCSE",
+  "subject": "Chemistry (8462)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "15:368": {
+  "category": "GCSE",
+  "subject": "Combined Science: Synergy (8465)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "15:369": {
+  "category": "GCSE",
+  "subject": "Combined Science: Trilogy (8464)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "15:385": {
+  "category": "GCSE",
+  "subject": "Mathematics (8300)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "15:391": {
+  "category": "GCSE",
+  "subject": "Physics (8463)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "18:403": {
+  "category": "AS",
+  "subject": "Biology (7401)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "18:405": {
+  "category": "AS",
+  "subject": "Chemistry (7404)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "18:418": {
+  "category": "AS",
+  "subject": "Further Mathematics (7366)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "18:423": {
+  "category": "AS",
+  "subject": "Mathematics (7356)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "18:428": {
+  "category": "AS",
+  "subject": "Physics (7407)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "17:438": {
+  "category": "A-LEVEL",
+  "subject": "Biology (7402)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "17:440": {
+  "category": "A-LEVEL",
+  "subject": "Chemistry (7405)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "17:453": {
+  "category": "A-LEVEL",
+  "subject": "Further Mathematics (7367)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "17:458": {
+  "category": "A-LEVEL",
+  "subject": "Mathematics (7357)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "17:465": {
+  "category": "A-LEVEL",
+  "subject": "Physics (7408)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "13:323": {
+  "category": "SPM",
+  "subject": "Additional Mathematics(3472)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "13:326": {
+  "category": "SPM",
+  "subject": "Biology(4551)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "13:324": {
+  "category": "SPM",
+  "subject": "Chemistry(4541)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "13:322": {
+  "category": "SPM",
+  "subject": "Mathematics(1449)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "13:325": {
+  "category": "SPM",
+  "subject": "Physics(4531)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ },
+ "13:327": {
+  "category": "SPM",
+  "subject": "Science(1511)",
+  "prediction": {
+   "href": "#",
+   "disabled": true
+  },
+  "revision": {
+   "href": "#",
+   "disabled": true
+  }
+ }
+}

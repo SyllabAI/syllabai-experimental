@@ -63,10 +63,14 @@ class ExamMateClient:
     def _log_xhr(self, resp):
         rt = resp.request.resource_type
         if rt in ("xhr", "fetch"):
+            try:
+                post_data = resp.request.post_data
+            except Exception:
+                post_data = "<binary/undecodable>"
             self.xhr_log.append({
                 "url": resp.url, "status": resp.status,
                 "method": resp.request.method,
-                "post_data": resp.request.post_data,
+                "post_data": post_data,
             })
 
     def _csrf_from_page(self):
