@@ -1,6 +1,6 @@
 # znotes — reverse engineering of ZNotes (znotes.org)
 
-**Status**: Phase 1 + Phase 2 complete (2026-10-22). Phase 1 reconstructed
+**Status**: Phase 1 + Phase 2 complete (2026-10-22). **Recreation built & verified:** all four generators recreated with 100% structural fidelity vs live-captured anchors — see `research/2026-10-22-recreation.md` and `recreation/`. Phase 1 reconstructed
 the educator "My Teaching Toolkit" statically from public bundles; Phase 2
 verified everything **live** in the teacher account — all 4 generators
 driven end-to-end (1 free prompt each, 1 of 5 left), outputs inspected,
@@ -32,6 +32,9 @@ export surface directly informs SyllabAI's teacher-tool contracts.
 | `research/2026-10-22-technical-architecture.md` | stack, bundling, API host, auth model, session protocol |
 | `research/2026-10-22-teaching-toolkit.md` | **the core deliverable** — the 4 generators end-to-end |
 | `research/2026-10-22-syllabai-relevance.md` | what SyllabAI should adopt / avoid |
+| `research/2026-10-22-recreation.md` | **recreation proven** — feasibility, fidelity results, new intel (Claude-class backend hint) |
+| `recreation/` | runnable recreation app (original prompts, contract-mirrored, fidelity validator) |
+| `resources/captures/educator-ai-output-schemas.json` | content-free type-shape anchors from the 4 real responses |
 | `resources/captures/` | evidence: sitemap, robots, home/educators/subjects HTML, chunk manifest, toolkit registry JSON |
 | `resources/captures/chunks/` | 99 minified app chunks — **not committed** (5.8 MB, re-fetchable) |
 | `resources/scripts/fetch-app-bundles.sh` | reproduce the chunk corpus |

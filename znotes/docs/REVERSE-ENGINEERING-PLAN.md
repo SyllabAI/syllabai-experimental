@@ -88,6 +88,11 @@ were driven live and every static-reconstruction claim verified.
       auto-consume a prompt)
 
 ### Phase 3 — Content-model & pedagogy synthesis `[ ]`
+> 2026-10-22 addition: a **recreation of the 4 toolkit generators** was built and
+> verified at 100% structural fidelity against live-captured output anchors
+> (`research/2026-10-22-recreation.md`, `recreation/`). New intel: backend model
+> family is Claude-class (`originalUrl: "znotes-claude"`); rubric level scores are
+> computed client-side at 100/75/50/25 % of marksPerCriterion.
 
 - [ ] Chapter → notes-cards model vs question bank (`/v1/questionBank`,
       `/api/randomQuestions/5/{id}`) — how quizzes and cards relate

@@ -1,0 +1,729 @@
+{
+  "capture": "2026-10-22",
+  "source": "GET /api/educator-ai/responses?userId=...&limit=50 (live account, phase 2)",
+  "note": "Type-shape anchors only; all natural-language content stripped. Lengths are observed single samples (LLM output is non-deterministic).",
+  "backend_model_hint": "clarify response originalUrl field = \"znotes-claude\"",
+  "anchors": {
+    "clarify": {
+      "type": "clarify",
+      "metaData_keys": [
+        "audience",
+        "inputText",
+        "mode",
+        "subject"
+      ],
+      "top_level_keys": [
+        "audience",
+        "created_at",
+        "id",
+        "output",
+        "subject",
+        "type"
+      ],
+      "output_schema": {
+        "topic": {
+          "type": "string",
+          "observed_len": 70
+        },
+        "main_argument": {
+          "type": "string",
+          "observed_len": 220
+        },
+        "key_concepts": {
+          "type": "array",
+          "observed_len": 6,
+          "items": {
+            "title": {
+              "type": "string",
+              "observed_len": 36
+            },
+            "importance": {
+              "type": "string",
+              "observed_len": 4
+            },
+            "description": {
+              "type": "string",
+              "observed_len": 402
+            }
+          }
+        },
+        "critical_details": {
+          "type": "array",
+          "observed_len": 3,
+          "items": {
+            "type": "string",
+            "observed_len": 158
+          }
+        },
+        "applications_in_practice": {
+          "type": "array",
+          "observed_len": 3,
+          "items": {
+            "example": {
+              "type": "string",
+              "observed_len": 34
+            },
+            "description": {
+              "type": "string",
+              "observed_len": 344
+            }
+          }
+        },
+        "thinking_prompt": {
+          "type": "string",
+          "observed_len": 276
+        },
+        "connections": {
+          "type": "array",
+          "observed_len": 3,
+          "items": {
+            "concept": {
+              "type": "string",
+              "observed_len": 28
+            },
+            "relationship": {
+              "type": "string",
+              "observed_len": 237
+            }
+          }
+        }
+      }
+    },
+    "sow": {
+      "type": "sow",
+      "metaData_keys": [
+        "board",
+        "difficultyLevel",
+        "emphasisAreas",
+        "lessonDuration",
+        "level",
+        "subject",
+        "topic",
+        "totalLessons",
+        "userPreferences"
+      ],
+      "top_level_keys": [
+        "created_at",
+        "id",
+        "output",
+        "type"
+      ],
+      "output_schema": {
+        "subject": {
+          "type": "string",
+          "observed_len": 7
+        },
+        "topic": {
+          "type": "string",
+          "observed_len": 7
+        },
+        "overarchingObjectives": {
+          "type": "array",
+          "observed_len": 4,
+          "items": {
+            "type": "string",
+            "observed_len": 110
+          }
+        },
+        "lessons": {
+          "type": "array",
+          "observed_len": 4,
+          "items": {
+            "lessonNumber": {
+              "type": "integer",
+              "observed": 4
+            },
+            "title": {
+              "type": "string",
+              "observed_len": 49
+            },
+            "duration": {
+              "type": "integer",
+              "observed": 60
+            },
+            "learningObjectives": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 129
+              }
+            },
+            "activities": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "title": {
+                  "type": "string",
+                  "observed_len": 31
+                },
+                "description": {
+                  "type": "string",
+                  "observed_len": 436
+                },
+                "duration": {
+                  "type": "integer",
+                  "observed": 24
+                },
+                "resources": {
+                  "type": "array",
+                  "observed_len": 3,
+                  "items": {
+                    "type": "string",
+                    "observed_len": 86
+                  }
+                }
+              }
+            },
+            "assessment": {
+              "type": "array",
+              "observed_len": 6,
+              "items": {
+                "type": "string",
+                "observed_len": 114
+              }
+            },
+            "differentiation": {
+              "support": {
+                "type": "array",
+                "observed_len": 4,
+                "items": {
+                  "type": "string",
+                  "observed_len": 81
+                }
+              },
+              "core": {
+                "type": "array",
+                "observed_len": 3,
+                "items": {
+                  "type": "string",
+                  "observed_len": 64
+                }
+              },
+              "extension": {
+                "type": "array",
+                "observed_len": 4,
+                "items": {
+                  "type": "string",
+                  "observed_len": 115
+                }
+              }
+            },
+            "scaffoldingStrategies": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 99
+              }
+            },
+            "reflectionPrompts": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 92
+              }
+            },
+            "crossCurricularLinks": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 83
+              }
+            },
+            "stretchTasks": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 123
+              }
+            }
+          }
+        },
+        "metadata": {
+          "author": {
+            "type": "string",
+            "observed_len": 26
+          },
+          "createdAt": {
+            "type": "string",
+            "observed_len": 10
+          },
+          "version": {
+            "type": "string",
+            "observed_len": 3
+          }
+        }
+      }
+    },
+    "rubric": {
+      "type": "rubric",
+      "metaData_keys": [
+        "assessmentType",
+        "assignmentType",
+        "criteria",
+        "marksPerCriterion",
+        "subject",
+        "taskDescription",
+        "topic"
+      ],
+      "top_level_keys": [
+        "created_at",
+        "id",
+        "output",
+        "type"
+      ],
+      "output_schema": {
+        "metadata": {
+          "subject": {
+            "type": "string",
+            "observed_len": 7
+          },
+          "topic": {
+            "type": "string",
+            "observed_len": 7
+          },
+          "assignmentType": {
+            "type": "string",
+            "observed_len": 10
+          },
+          "taskDescription": {
+            "type": "string",
+            "observed_len": 132
+          },
+          "assessmentType": {
+            "type": "string",
+            "observed_len": 20
+          },
+          "assessor": {
+            "type": "string",
+            "observed_len": 7
+          },
+          "marksPerCriterion": {
+            "type": "integer",
+            "observed": 8
+          }
+        },
+        "overview": {
+          "assignmentPurpose": {
+            "type": "string",
+            "observed_len": 97
+          },
+          "submissionFormat": {
+            "type": "string",
+            "observed_len": 83
+          },
+          "criteriaAssessed": {
+            "type": "integer",
+            "observed": 1
+          },
+          "performanceScale": {
+            "type": "string",
+            "observed_len": 40
+          }
+        },
+        "rubric": {
+          "criteria": {
+            "type": "array",
+            "observed_len": 1,
+            "items": {
+              "name": {
+                "type": "string",
+                "observed_len": 15
+              },
+              "criterionIntent": {
+                "type": "string",
+                "observed_len": 115
+              },
+              "levels": {
+                "advanced": {
+                  "score": {
+                    "type": "integer",
+                    "observed": 8
+                  },
+                  "description": {
+                    "type": "string",
+                    "observed_len": 378
+                  },
+                  "feedback": {
+                    "type": "string",
+                    "observed_len": 103
+                  }
+                },
+                "proficient": {
+                  "score": {
+                    "type": "integer",
+                    "observed": 6
+                  },
+                  "description": {
+                    "type": "string",
+                    "observed_len": 326
+                  },
+                  "feedback": {
+                    "type": "string",
+                    "observed_len": 106
+                  }
+                },
+                "basic": {
+                  "score": {
+                    "type": "integer",
+                    "observed": 4
+                  },
+                  "description": {
+                    "type": "string",
+                    "observed_len": 370
+                  },
+                  "feedback": {
+                    "type": "string",
+                    "observed_len": 111
+                  }
+                },
+                "emerging": {
+                  "score": {
+                    "type": "integer",
+                    "observed": 2
+                  },
+                  "description": {
+                    "type": "string",
+                    "observed_len": 295
+                  },
+                  "feedback": {
+                    "type": "string",
+                    "observed_len": 101
+                  }
+                }
+              }
+            }
+          }
+        },
+        "moderationGuidance": {
+          "type": "array",
+          "observed_len": 2,
+          "items": {
+            "type": "string",
+            "observed_len": 181
+          }
+        }
+      }
+    },
+    "lesson-plan": {
+      "type": "lesson-plan",
+      "metaData_keys": [
+        "duration",
+        "homework",
+        "learningObjectives",
+        "subject",
+        "topic"
+      ],
+      "top_level_keys": [
+        "created_at",
+        "id",
+        "inputMetadata",
+        "output",
+        "type"
+      ],
+      "output_schema": {
+        "overview": {
+          "subject": {
+            "type": "string",
+            "observed_len": 7
+          },
+          "topic": {
+            "type": "string",
+            "observed_len": 7
+          },
+          "duration": {
+            "type": "integer",
+            "observed": 45
+          },
+          "teachingStyle": {
+            "type": "string",
+            "observed_len": 12
+          },
+          "learningObjectives": {
+            "type": "array",
+            "observed_len": 7,
+            "items": {
+              "type": "string",
+              "observed_len": 157
+            }
+          },
+          "initialPrompts": {
+            "type": "array",
+            "observed_len": 3,
+            "items": {
+              "type": "string",
+              "observed_len": 63
+            }
+          }
+        },
+        "lessonPlan": {
+          "starterActivity": {
+            "description": {
+              "type": "string",
+              "observed_len": 187
+            },
+            "duration": {
+              "type": "integer",
+              "observed": 7
+            },
+            "materials": {
+              "type": "array",
+              "observed_len": 3,
+              "items": {
+                "type": "string",
+                "observed_len": 27
+              }
+            },
+            "instructions": {
+              "type": "array",
+              "observed_len": 5,
+              "items": {
+                "type": "string",
+                "observed_len": 138
+              }
+            }
+          },
+          "mainActivities": {
+            "type": "array",
+            "observed_len": 3,
+            "items": {
+              "description": {
+                "type": "string",
+                "observed_len": 174
+              },
+              "duration": {
+                "type": "integer",
+                "observed": 13
+              },
+              "materials": {
+                "type": "array",
+                "observed_len": 3,
+                "items": {
+                  "type": "string",
+                  "observed_len": 52
+                }
+              },
+              "instructions": {
+                "type": "array",
+                "observed_len": 6,
+                "items": {
+                  "type": "string",
+                  "observed_len": 161
+                }
+              },
+              "differentiation": {
+                "support": {
+                  "type": "array",
+                  "observed_len": 2,
+                  "items": {
+                    "type": "string",
+                    "observed_len": 56
+                  }
+                },
+                "core": {
+                  "type": "array",
+                  "observed_len": 2,
+                  "items": {
+                    "type": "string",
+                    "observed_len": 53
+                  }
+                },
+                "extension": {
+                  "type": "array",
+                  "observed_len": 2,
+                  "items": {
+                    "type": "string",
+                    "observed_len": 83
+                  }
+                }
+              }
+            }
+          },
+          "plenary": {
+            "description": {
+              "type": "string",
+              "observed_len": 157
+            },
+            "duration": {
+              "type": "integer",
+              "observed": 5
+            },
+            "materials": {
+              "type": "array",
+              "observed_len": 2,
+              "items": {
+                "type": "string",
+                "observed_len": 37
+              }
+            },
+            "instructions": {
+              "type": "array",
+              "observed_len": 5,
+              "items": {
+                "type": "string",
+                "observed_len": 169
+              }
+            },
+            "teacherFollowUp": {
+              "type": "array",
+              "observed_len": 3,
+              "items": {
+                "type": "string",
+                "observed_len": 91
+              }
+            },
+            "successIndicators": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 94
+              }
+            }
+          }
+        },
+        "reflectionSuggestions": {
+          "type": "array",
+          "observed_len": 5,
+          "items": {
+            "type": "string",
+            "observed_len": 115
+          }
+        },
+        "differentiationAndSEN": {
+          "differentiation": {
+            "support": {
+              "type": "array",
+              "observed_len": 5,
+              "items": {
+                "type": "string",
+                "observed_len": 72
+              }
+            },
+            "core": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 69
+              }
+            },
+            "extension": {
+              "type": "array",
+              "observed_len": 5,
+              "items": {
+                "type": "string",
+                "observed_len": 81
+              }
+            }
+          },
+          "senSupport": {
+            "visual": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 83
+              }
+            },
+            "auditory": {
+              "type": "array",
+              "observed_len": 4,
+              "items": {
+                "type": "string",
+                "observed_len": 77
+              }
+            },
+            "cognitive": {
+              "type": "array",
+              "observed_len": 5,
+              "items": {
+                "type": "string",
+                "observed_len": 91
+              }
+            }
+          }
+        },
+        "crossCurricularLinks": {
+          "type": "array",
+          "observed_len": 3,
+          "items": {
+            "type": "string",
+            "observed_len": 98
+          }
+        },
+        "assessmentQuestions": {
+          "knowledge": {
+            "type": "array",
+            "observed_len": 2,
+            "items": {
+              "type": "string",
+              "observed_len": 84
+            }
+          },
+          "comprehension": {
+            "type": "array",
+            "observed_len": 2,
+            "items": {
+              "type": "string",
+              "observed_len": 118
+            }
+          },
+          "application": {
+            "type": "array",
+            "observed_len": 1,
+            "items": {
+              "type": "string",
+              "observed_len": 241
+            }
+          },
+          "analysis": {
+            "type": "array",
+            "observed_len": 2,
+            "items": {
+              "type": "string",
+              "observed_len": 123
+            }
+          },
+          "synthesis": {
+            "type": "array",
+            "observed_len": 1,
+            "items": {
+              "type": "string",
+              "observed_len": 131
+            }
+          },
+          "evaluation": {
+            "type": "array",
+            "observed_len": 1,
+            "items": {
+              "type": "string",
+              "observed_len": 145
+            }
+          }
+        },
+        "additionalNotes": {
+          "type": "array",
+          "observed_len": 3,
+          "items": {
+            "type": "string",
+            "observed_len": 168
+          }
+        }
+      },
+      "inputMetadata_keys": [
+        "assessmentPreference",
+        "duration",
+        "homework",
+        "studentAbility",
+        "subject",
+        "teachingStyle",
+        "topic"
+      ]
+    }
+  }
+}
