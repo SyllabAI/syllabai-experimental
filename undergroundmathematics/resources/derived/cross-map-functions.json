@@ -1,0 +1,875 @@
+{
+ "generatedAt": "2026-10-23",
+ "pilot": "P3c generalisation lane 2 (docs/INTEGRATION-PLAN.md §4) — extends cross-map-quadratics (lane 1, 2026-10-22)",
+ "ugmStation": {
+  "slug": "combining-functions",
+  "url": "https://undergroundmathematics.org/combining-functions",
+  "resources": 38
+ },
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-1",
+  "board": "Cambridge CIE",
+  "code": "9709",
+  "syllabusVersion": "2023-2025",
+  "specPoints": [
+   {
+    "code": "1.2.1",
+    "title": "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   },
+   {
+    "code": "1.2.2",
+    "title": "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   },
+   {
+    "code": "1.2.3",
+    "title": "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases"
+   },
+   {
+    "code": "1.2.4",
+    "title": "illustrate in graphical terms the relation between Sketches should include an indication of the mirror a one-one function and its inverse line"
+   },
+   {
+    "code": "1.2.5",
+    "title": "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   }
+  ]
+ },
+ "coverage": {
+  "resources": 38,
+  "aligned": 27,
+  "nonOverlap": 11,
+  "alignedShare": 0.711,
+  "successThreshold": 0.7,
+  "meetsThreshold": true,
+  "alignmentRows": 50,
+  "withExamProvenance": 24,
+  "perSpecPointCounts": {
+   "1.2.1": 11,
+   "1.2.2": 17,
+   "1.2.3": 10,
+   "1.2.4": 3,
+   "1.2.5": 9
+  },
+  "primaryPicks": {
+   "1.2.1": "forming-functions-defining-domains",
+   "1.2.2": "compose",
+   "1.2.3": "invertibles",
+   "1.2.4": "r9824",
+   "1.2.5": "order-order"
+  },
+  "stationScopeNote": "Sibling station thinking-about-functions (23 resources) is intentionally out of scope for 1.2: its modulus/asymptote/odd-even content serves CIE P3/IAL lanes. Lane 2 draws on combining-functions only, matching the one-station-per-lane shape of lane 1."
+ },
+ "modeNote": "modes recorded as [1] (facts of record) plus [4] where the resource is a pattern/doctrine exemplar (card sorts, packages, scaffolded tasks). Mode 2 (deep-link rendering) was dropped by operator directive 2026-10-22 before implementation and is no longer recorded; the direct text-import route is governed by ADR-UGM-0001 as amended 2026-10-23 + the operator attestation of 2026-10-23.",
+ "alignments": [
+  {
+   "friendlyName": "r7553",
+   "url": "https://undergroundmathematics.org/combining-functions/r7553",
+   "title": "Can we compose these polynomial functions?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Composition/iteration of polynomial functions f_n(f_n(...)); the maximum-value part rides P1 1.1 quadratics.",
+   "provenance": "Oxford (MAT) 2007 Q['Q2']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9527",
+   "url": "https://undergroundmathematics.org/combining-functions/r9527",
+   "title": "Can we compose two simple functions?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2",
+    "1.2.1"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Canonical composition builder: fg vs gf order, powers f^i, all forms yielding 4x+4, f^i g f^j g^k.",
+   "provenance": "Oxford (MAT) 2012 Q['Q2']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5362",
+   "url": "https://undergroundmathematics.org/combining-functions/r5362",
+   "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2",
+    "1.2.1",
+    "1.2.3"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions",
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Range of |x+[x]|; one-one question; inverse of a restricted mapping. Floor function is an extension beyond P1 \"simple cases\".",
+   "provenance": "UCLES 1979 Q['Q1'] [848/0]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5646",
+   "url": "https://undergroundmathematics.org/combining-functions/r5646",
+   "title": "Can we find an inverse and sketch a modulus function?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.3",
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Find f⁻¹ for f:x->1/(3-2x); ff(2); self-mapping values. The |x^2-4x+3| sketch part is modulus-graph work beyond P1 1.2 (P2/P3 territory).",
+   "provenance": "UCLES 1989 Q['Q17'] [8175/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8028",
+   "url": "https://undergroundmathematics.org/combining-functions/r8028",
+   "title": "Can we find the inverse of a function in three parts?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.3",
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Range of a three-part function, sketch, inverse relation and whether it is a function (one-one reasoning). Piecewise form extends \"simple cases\".",
+   "provenance": "UCLES 1972 Q['Q2'] [848/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7607",
+   "url": "https://undergroundmathematics.org/combining-functions/r7607",
+   "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2",
+    "1.2.3",
+    "1.2.1"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Ranges of log_a x and 1/x; f∘g with h(x)+f(x)=0; why g∘f needs a restricted domain (the composite-formation condition); define both inverses fully. log/exp vocabulary sits in 9709 P2/P3 — the range/composition/inverse skills are exactly 1.2.x.",
+   "provenance": "UCLES 1981 Q['Q4'] [9202/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5868",
+   "url": "https://undergroundmathematics.org/combining-functions/r5868",
+   "title": "Can we identify the right sketch graph of this reciprocal function?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: reciprocal-graph sketch via completing the square — rides 1.1.1/quadratics and curve sketching; the range work exceeds P1 1.2 \"simple cases\".",
+   "provenance": "Oxford (MAT) 2008 Q['Q1G']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8749",
+   "url": "https://undergroundmathematics.org/combining-functions/r8749",
+   "title": "Can we identify the right sketch of a product of functions?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: product of functions (2^-x sin^2 x^2) with trig beyond P1 — arithmetic combination, not composition/transformations.",
+   "provenance": "Oxford (MAT) 2007 Q['Q1G']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r7119",
+   "url": "https://undergroundmathematics.org/combining-functions/r7119",
+   "title": "Can we identify the right sketch of a transformed function?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Identify the sketch of y=-f(x+1): translation then reflection — exactly the 1.2.5 vocabulary.",
+   "provenance": "Oxford (MAT) Q['Q1B'] [Specimen 2]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6656",
+   "url": "https://undergroundmathematics.org/combining-functions/r6656",
+   "title": "Can we pick the graph of $y=\\sin^2{\\sqrt{x}}$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: graph identification via trig behaviour of sin^2(sqrt x); composite structure noted, but the tested skill is trig beyond P1.",
+   "provenance": "Oxford (MAT) 2010 Q['Q1D']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5595",
+   "url": "https://undergroundmathematics.org/combining-functions/r5595",
+   "title": "Can we sketch and describe these composite functions?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2",
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Sketch and describe f, gf, fg (e^x and x-1); the shifted-graph relationships read as translations. e^x vocabulary is P2/P3 in CIE.",
+   "provenance": "UCLES 1986 Q['Q13'] [9205/1 and 9206/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5764",
+   "url": "https://undergroundmathematics.org/combining-functions/r5764",
+   "title": "Can we sketch the graph of $g \\colon x \\to x - [x]$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2",
+    "1.2.1"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Ranges of [x] and x-[x]; sketch; solve f(x)=g(x) and fg(x)=gf(x). Floor function beyond P1 routine.",
+   "provenance": "UCLES 1976 Q['Q2'] [848/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9824",
+   "url": "https://undergroundmathematics.org/combining-functions/r9824",
+   "title": "Can we sketch the inverse of this composite function?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.4",
+    "1.2.3",
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "illustrate in graphical terms the relation between Sketches should include an indication of the mirror a one-one function and its inverse line",
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Define fg and f⁻¹; state the relationship between the graphs of f and fg and of f and f⁻¹ (mirror line); prove hf is not one-one. ln vocabulary is P2/P3 in CIE.",
+   "provenance": "UCLES 1988 Q['Q16'] [9205/1 and 9206/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8427",
+   "url": "https://undergroundmathematics.org/combining-functions/r8427",
+   "title": "Can we sketch these four related curves?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: rational + modulus curve sketching with asymptotes — |f(x)| is not in the P1 1.2.5 transformation list.",
+   "provenance": "UCLES 1988 Q['Q11'] [9205/2]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6653",
+   "url": "https://undergroundmathematics.org/combining-functions/r6653",
+   "title": "Can we solve this equation with a sum of square roots?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: surds-equation solving via curve sketching; rides P1 surds/quadratics work, not 1.2.x.",
+   "provenance": "UCLES 2011 Q['Q1']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r5966",
+   "url": "https://undergroundmathematics.org/combining-functions/r5966",
+   "title": "Can we work with the domain, codomain and range of a bijection?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.1",
+    "1.2.2",
+    "1.2.3"
+   ],
+   "cieTitles": [
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions",
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Domain/codomain/range/bijective vocabulary; range of f and of g∘f; bijectivity <-> inverse existence. phi/psi cycle extends beyond P1 routine.",
+   "provenance": "UCLES 1980 Q['Q3'] [9202/2]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "compose",
+   "url": "https://undergroundmathematics.org/combining-functions/compose",
+   "title": "Compose!",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.2",
+    "1.2.1"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Largest domain/range for A-D, then decompose composite functions — composition fluency package (pattern exemplar).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "composing-gets-me-nowhere",
+   "url": "https://undergroundmathematics.org/combining-functions/composing-gets-me-nowhere",
+   "title": "Composing gets me nowhere",
+   "resourceType": "building-blocks",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.2",
+    "1.2.3",
+    "1.2.1"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "ff(x)=x self-composition; self-inverse naming and examples — inverse fluency extension.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "domain-and-range-dominoes",
+   "url": "https://undergroundmathematics.org/combining-functions/domain-and-range-dominoes",
+   "title": "Domain and range dominoes",
+   "resourceType": "fluency-exercise",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.1",
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions",
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Describe domain/range in words then notation (domino fluency; pattern exemplar).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6735",
+   "url": "https://undergroundmathematics.org/combining-functions/r6735",
+   "title": "For which $x$-values does a function equal its inverse?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.3",
+    "1.2.2",
+    "1.2.4"
+   ],
+   "cieTitles": [
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function",
+    "illustrate in graphical terms the relation between Sketches should include an indication of the mirror a one-one function and its inverse line"
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "f⁻¹ and ff for f:x->1/(x+1); solve f=f⁻¹ and f=ff (both reduce to x^2+x-1=0). f=f⁻¹ invites the y=x mirror-line reading.",
+   "provenance": "UCLES 1979 Q['Q10'] [986/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "forming-functions-defining-domains",
+   "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains",
+   "title": "Forming functions — defining domains",
+   "resourceType": "building-blocks",
+   "level": "Introducing",
+   "cieSpecPoints": [
+    "1.2.1",
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions",
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Function = domain + rule + range; choose domains, state ranges, sketch; largest possible domain. Canonical 1.2.1 builder.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "function-builder-i",
+   "url": "https://undergroundmathematics.org/combining-functions/function-builder-i",
+   "title": "Function builder I",
+   "resourceType": "fluency-exercise",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: sums/products of functions (function algebra) — not a P1 1.2 mode of combination; the sketching rides 1.1.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "going-backwards",
+   "url": "https://undergroundmathematics.org/combining-functions/going-backwards",
+   "title": "Going backwards",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: bigger-picture page with no extractable text sections (interactive applet page) — no alignment claim possible.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9673",
+   "url": "https://undergroundmathematics.org/combining-functions/r9673",
+   "title": "How do these transformations change the graph of $f(x)$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Sketch y=f(x)+2, y=f(x+2), y=f(2x) tracking the maximum point — the spec list verbatim.",
+   "provenance": "UCLES 1988 Q['Q6'] [9205/1 and 9206/1]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9924",
+   "url": "https://undergroundmathematics.org/combining-functions/r9924",
+   "title": "How many solutions does this composite function equation have?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: composite shell (2^(sin^2 x)) but the tested skill is sin^2+cos^2=1 range bounding (P1 1.5.4) with P2/P3 exponential vocabulary.",
+   "provenance": "Oxford (MAT) 2009 Q['Q1E']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "invertibles",
+   "url": "https://undergroundmathematics.org/combining-functions/invertibles",
+   "title": "Invertibles",
+   "resourceType": "building-blocks",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.3",
+    "1.2.4",
+    "1.2.1"
+   ],
+   "cieTitles": [
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "illustrate in graphical terms the relation between Sketches should include an indication of the mirror a one-one function and its inverse line",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Match functions with their inverses (incl. domain-restricted quadratics <-> surds, fractional forms) and with graphs; draw inverse graphs. Card-sort pattern exemplar.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "its-a-matter-of-perspective",
+   "url": "https://undergroundmathematics.org/combining-functions/its-a-matter-of-perspective",
+   "title": "It's a matter of perspective",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Animated translation thinking on a parabola (GeoGebra applet; interactive recorded, not fetched).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "making-inverse-functions",
+   "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions",
+   "title": "Making inverse functions",
+   "resourceType": "scaffolded-task",
+   "level": "Introducing",
+   "cieSpecPoints": [
+    "1.2.3",
+    "1.2.1"
+   ],
+   "cieTitles": [
+    "determine whether or not a given function is one-one, and find the inverse of a one-one function in simple cases",
+    "understand the terms function, domain, range, one-one function, inverse function and composition of functions"
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Function-machine inversion of f(x)=2x+1, then algebraic rearranging — scaffolded 1.2.3 intro (pattern exemplar).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "maths-for-dinner",
+   "url": "https://undergroundmathematics.org/combining-functions/maths-for-dinner",
+   "title": "Maths for dinner",
+   "resourceType": "bigger-picture",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: bigger-picture page with no extractable text sections (interactive applet page).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "name-that-graph-again",
+   "url": "https://undergroundmathematics.org/combining-functions/name-that-graph-again",
+   "title": "Name that graph again",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Parabola equation via the parent/transformed (red/blue) reading; the equation-finding approaches ride 1.1/1.3.",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "order-order",
+   "url": "https://undergroundmathematics.org/combining-functions/order-order",
+   "title": "Order! Order!",
+   "resourceType": "investigation",
+   "level": "Introducing",
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Sketch transformed graphs for translations (-2,0)/(0,-4) and stretches x3 // x, 1/2 // y; write equations in terms of f. Investigation covering the full 1.2.5 list (pattern exemplar).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "picture-the-process-ii",
+   "url": "https://undergroundmathematics.org/combining-functions/picture-the-process-ii",
+   "title": "Picture the process II",
+   "resourceType": "food-for-thought",
+   "level": "Developing",
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: real-world graph modelling (bacteria/drug/oscillation); not a 1.2.x skill.",
+   "provenance": "NRICH",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "transformers",
+   "url": "https://undergroundmathematics.org/combining-functions/transformers",
+   "title": "Transformers",
+   "resourceType": "many-ways-problem",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "Sort 12 curve cards into transformation categories (translations/reflections/stretches) — many-ways-problem classification (pattern exemplar).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "translating-or-not",
+   "url": "https://undergroundmathematics.org/combining-functions/translating-or-not",
+   "title": "Translating or not?",
+   "resourceType": "package-of-problems",
+   "level": "Developing",
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "high",
+   "modes": [
+    1,
+    4
+   ],
+   "note": "y=1/(x+a) and y=1/(x^2+a) parameter study: genuine translations vs lookalikes (non-example design; pattern exemplar).",
+   "provenance": null,
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9798",
+   "url": "https://undergroundmathematics.org/combining-functions/r9798",
+   "title": "When does $f$ satisfy the identity $f(t)-f(1-t)=g(t)$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [],
+   "cieTitles": [],
+   "confidence": null,
+   "modes": [],
+   "note": "NON-OVERLAP for this lane: functional equations via substitution t->1-t — beyond P1 1.2 scope.",
+   "provenance": "Oxford (MAT) 2013 Q['Q2']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r8411",
+   "url": "https://undergroundmathematics.org/combining-functions/r8411",
+   "title": "When does this trig function have its maximum value?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "Greatest value of (3sin^2(10x+11)-7)^2 by inner->outer bounding — composite-range technique; the inner bounds come from P1 1.5.4.",
+   "provenance": "Oxford (MAT) 2007 Q['Q1B']",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r9523",
+   "url": "https://undergroundmathematics.org/combining-functions/r9523",
+   "title": "Which of these function statements are true?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.2"
+   ],
+   "cieTitles": [
+    "identify the range of a given function in simple cases, and find the composition of two given functions condition that a composite function"
+   ],
+   "confidence": "medium",
+   "modes": [
+    1
+   ],
+   "note": "True/false including the fg-order misconception (f:x^2, g:x^3 gives fg=x^6, not x^5); the implication-logic items sit beyond 1.2.",
+   "provenance": "UCLES 1979 Q['Q9'] [986/2]",
+   "hasTeacherSupport": false
+  },
+  {
+   "friendlyName": "r6607",
+   "url": "https://undergroundmathematics.org/combining-functions/r6607",
+   "title": "Which transformations give us the graph of $y=2^{x^2-4x+3}$?",
+   "resourceType": "review-question",
+   "level": null,
+   "cieSpecPoints": [
+    "1.2.5"
+   ],
+   "cieTitles": [
+    "understand and use the transformations of the Including use of the terms 'translation', 'reflection' graph of y = f( x ) given by and 'stretch' in describing transformations. Questions y = f( x ) + a , y = f( x + a ) , may involve algebraic or trigonometric functions, or other graphs with given features. y = a f( x ) , y = f( ax ) and simple combinations of these."
+   ],
+   "confidence": "high",
+   "modes": [
+    1
+   ],
+   "note": "Reach y=2^(x^2-4x+3) from y=2^(x^2) by stretch + translation — \"simple combinations of these\" verbatim. 2^x vocabulary is P2/P3 in CIE.",
+   "provenance": "Oxford (MAT) 2014 Q['Q1I']",
+   "hasTeacherSupport": false
+  }
+ ],
+ "perSpecPoint": {
+  "1.2.1": [
+   "r9527",
+   "r5362",
+   "r7607",
+   "r5764",
+   "r5966",
+   "compose",
+   "composing-gets-me-nowhere",
+   "domain-and-range-dominoes",
+   "forming-functions-defining-domains",
+   "invertibles",
+   "making-inverse-functions"
+  ],
+  "1.2.2": [
+   "r7553",
+   "r9527",
+   "r5362",
+   "r5646",
+   "r8028",
+   "r7607",
+   "r5595",
+   "r5764",
+   "r9824",
+   "r5966",
+   "compose",
+   "composing-gets-me-nowhere",
+   "domain-and-range-dominoes",
+   "r6735",
+   "forming-functions-defining-domains",
+   "r8411",
+   "r9523"
+  ],
+  "1.2.3": [
+   "r5362",
+   "r5646",
+   "r8028",
+   "r7607",
+   "r9824",
+   "r5966",
+   "composing-gets-me-nowhere",
+   "r6735",
+   "invertibles",
+   "making-inverse-functions"
+  ],
+  "1.2.4": [
+   "r9824",
+   "r6735",
+   "invertibles"
+  ],
+  "1.2.5": [
+   "r7119",
+   "r5595",
+   "r9673",
+   "its-a-matter-of-perspective",
+   "name-that-graph-again",
+   "order-order",
+   "transformers",
+   "translating-or-not",
+   "r6607"
+  ]
+ }
+}
