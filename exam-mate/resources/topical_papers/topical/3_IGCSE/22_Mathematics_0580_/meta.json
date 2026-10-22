@@ -1,0 +1,268 @@
+{
+ "topics": [
+  {
+   "v": "23",
+   "n": "DECIMALS"
+  },
+  {
+   "v": "24",
+   "n": "NUMBER FACTS"
+  },
+  {
+   "v": "25",
+   "n": "RATIONAL AND IRRATIONAL NUMBERS"
+  },
+  {
+   "v": "26",
+   "n": "APPROXIMATION AND ESTIMATION"
+  },
+  {
+   "v": "27",
+   "n": "UPPER AND LOWER BOUND"
+  },
+  {
+   "v": "28",
+   "n": "STANDARD FORM"
+  },
+  {
+   "v": "29",
+   "n": "RATIO AND PROPORTION"
+  },
+  {
+   "v": "30",
+   "n": "FOREIGN EXCHANGE"
+  },
+  {
+   "v": "31",
+   "n": "MAP SCALES"
+  },
+  {
+   "v": "32",
+   "n": "PERCENTAGES"
+  },
+  {
+   "v": "18",
+   "n": "SIMPLE AND COMPOUND INTEREST "
+  },
+  {
+   "v": "19",
+   "n": "SPEED,DISTANCE AND TIME"
+  },
+  {
+   "v": "22",
+   "n": "FORMULAEE"
+  },
+  {
+   "v": "84",
+   "n": "BRACKETS AND SYMPLIFYING"
+  },
+  {
+   "v": "85",
+   "n": "LINEAR EQUAETION"
+  },
+  {
+   "v": "86",
+   "n": "SIMULTANEOUS EQUATIONS"
+  },
+  {
+   "v": "87",
+   "n": "FACTORISING"
+  },
+  {
+   "v": "88",
+   "n": "QUADRATIC EQUATIONS"
+  },
+  {
+   "v": "89",
+   "n": "CHANGING THE SUBJECT"
+  },
+  {
+   "v": "90",
+   "n": "VARIATION"
+  },
+  {
+   "v": "91",
+   "n": "INDICES"
+  },
+  {
+   "v": "92",
+   "n": "SOLVING INEQUALITIES"
+  },
+  {
+   "v": "93",
+   "n": "MENSURATION"
+  },
+  {
+   "v": "94",
+   "n": "POLYGONS"
+  },
+  {
+   "v": "95",
+   "n": "PARALLEL LINES"
+  },
+  {
+   "v": "96",
+   "n": "PYTHAGORAS THEOREM"
+  },
+  {
+   "v": "97",
+   "n": "SYMMETRY"
+  },
+  {
+   "v": "98",
+   "n": "SIMILARITY"
+  },
+  {
+   "v": "99",
+   "n": "CONGRUENCE"
+  },
+  {
+   "v": "100",
+   "n": "AREAS & VOLUMES OF SIMILAR SHAPES"
+  },
+  {
+   "v": "101",
+   "n": "CIRCLE THEOREM"
+  },
+  {
+   "v": "102",
+   "n": "CONSTRUCTIONS AND LOCI"
+  },
+  {
+   "v": "103",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "104",
+   "n": "LINES"
+  },
+  {
+   "v": "105",
+   "n": "PLOTTING CURVES"
+  },
+  {
+   "v": "106",
+   "n": "GRAPHICAL SOLUTION OF EQUATIONS"
+  },
+  {
+   "v": "107",
+   "n": "DISTANCE-TIME GRAPHS"
+  },
+  {
+   "v": "108",
+   "n": "SPEED-TIME GRAPHS"
+  },
+  {
+   "v": "109",
+   "n": "SETS"
+  },
+  {
+   "v": "110",
+   "n": "VECTORS"
+  },
+  {
+   "v": "111",
+   "n": "MATRICES"
+  },
+  {
+   "v": "112",
+   "n": "TRANSFORMATOIN"
+  },
+  {
+   "v": "113",
+   "n": "STATISTICS"
+  },
+  {
+   "v": "114",
+   "n": "PROBABILITY"
+  },
+  {
+   "v": "115",
+   "n": "FUNCTIONS"
+  },
+  {
+   "v": "116",
+   "n": "LINEAR PROGRAMMING"
+  },
+  {
+   "v": "117",
+   "n": "SEQUENCES"
+  },
+  {
+   "v": "118",
+   "n": "ANGLES"
+  },
+  {
+   "v": "119",
+   "n": "NET "
+  },
+  {
+   "v": "623",
+   "n": "DIFFERENIATION"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3",
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "4",
+   "n": "1 (Core)"
+  },
+  {
+   "v": "6",
+   "n": "2 (Extended)"
+  },
+  {
+   "v": "5",
+   "n": "3 (Core)"
+  },
+  {
+   "v": "7",
+   "n": "4 (Extended)"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 22,
+  "label": "Mathematics(0580)"
+ },
+ "badges": [
+  "3958",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T03:01:47+0000"
+}

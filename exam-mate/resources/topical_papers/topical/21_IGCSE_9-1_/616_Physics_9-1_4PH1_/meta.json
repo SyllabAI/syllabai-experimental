@@ -1,0 +1,83 @@
+{
+ "topics": [
+  {
+   "v": "1597",
+   "n": "Forces and motion"
+  },
+  {
+   "v": "1658",
+   "n": "Electricity"
+  },
+  {
+   "v": "1659",
+   "n": "Waves"
+  },
+  {
+   "v": "1660",
+   "n": "Energy Resources and Energy Transfers"
+  },
+  {
+   "v": "1661",
+   "n": "Solids, Liquids and Gases"
+  },
+  {
+   "v": "1662",
+   "n": "Magnetism and Electromagnetism"
+  },
+  {
+   "v": "1663",
+   "n": "Radioactivity and Particles"
+  },
+  {
+   "v": "1664",
+   "n": "Astrophysics"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "14",
+   "n": "1P"
+  },
+  {
+   "v": "15",
+   "n": "1PR"
+  },
+  {
+   "v": "16",
+   "n": "2P"
+  },
+  {
+   "v": "17",
+   "n": "2PR"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019"
+ ],
+ "category": {
+  "id": 21,
+  "label": "IGCSE (9-1)"
+ },
+ "subject": {
+  "id": 616,
+  "label": "Physics 9-1(4PH1)"
+ },
+ "badges": [
+  "40",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:56:34+0000"
+}

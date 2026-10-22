@@ -1,0 +1,87 @@
+{
+ "topics": [
+  {
+   "v": "489",
+   "n": "Basic economic problem: choice and the allocation of resources"
+  },
+  {
+   "v": "544",
+   "n": "The allocation of resources: how the market works; market failure"
+  },
+  {
+   "v": "545",
+   "n": "The individual as producer, consumer and borrower"
+  },
+  {
+   "v": "546",
+   "n": "The private firm as producer and employer"
+  },
+  {
+   "v": "547",
+   "n": "Role of government in economy"
+  },
+  {
+   "v": "548",
+   "n": "Economic indicators"
+  },
+  {
+   "v": "549",
+   "n": "Developed and developing economies: trends in production, population and living standards"
+  },
+  {
+   "v": "550",
+   "n": "International aspects"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SPRING",
+   "n": "Spring"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 17,
+  "label": "Economics(0455)"
+ },
+ "badges": [
+  "1410",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T02:05:53+0000"
+}

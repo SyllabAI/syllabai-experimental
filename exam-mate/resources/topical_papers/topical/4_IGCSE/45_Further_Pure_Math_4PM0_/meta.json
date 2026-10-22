@@ -1,0 +1,121 @@
+{
+ "topics": [
+  {
+   "v": "195",
+   "n": "INTERSECTION POINT"
+  },
+  {
+   "v": "196",
+   "n": "INDICES"
+  },
+  {
+   "v": "197",
+   "n": "LOGARITHM"
+  },
+  {
+   "v": "198",
+   "n": "QUADRATICS"
+  },
+  {
+   "v": "199",
+   "n": "INEQUALITIS"
+  },
+  {
+   "v": "200",
+   "n": "GRAPHS & FUNCTIONS"
+  },
+  {
+   "v": "201",
+   "n": "3D PROBLEMS"
+  },
+  {
+   "v": "202",
+   "n": "CARTESIAN COORDINATES"
+  },
+  {
+   "v": "194",
+   "n": "SERIES"
+  },
+  {
+   "v": "239",
+   "n": "BINOMIAL SERIES"
+  },
+  {
+   "v": "240",
+   "n": "CIRCULAR MEASUREMENT"
+  },
+  {
+   "v": "241",
+   "n": "FACTOR THEOREM"
+  },
+  {
+   "v": "242",
+   "n": "VECTOR"
+  },
+  {
+   "v": "243",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "244",
+   "n": "DIFFERENTIATION"
+  },
+  {
+   "v": "245",
+   "n": "INTEGRATION"
+  },
+  {
+   "v": "246",
+   "n": "KINEMATIC"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 4,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 45,
+  "label": "Further Pure Math(4PM0)"
+ },
+ "badges": [
+  "335",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:51:03+0000"
+}

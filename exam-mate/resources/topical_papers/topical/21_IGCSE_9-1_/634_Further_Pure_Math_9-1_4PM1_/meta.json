@@ -1,0 +1,95 @@
+{
+ "topics": [
+  {
+   "v": "1622",
+   "n": "Logarithmic functions and indices"
+  },
+  {
+   "v": "1623",
+   "n": "The quadratic function"
+  },
+  {
+   "v": "1610",
+   "n": "Identities and inequalities"
+  },
+  {
+   "v": "1666",
+   "n": "Graphs"
+  },
+  {
+   "v": "1667",
+   "n": "Series"
+  },
+  {
+   "v": "1668",
+   "n": "The binomial series"
+  },
+  {
+   "v": "1669",
+   "n": "Scalar and vector quantities"
+  },
+  {
+   "v": "1670",
+   "n": "Rectangular Cartesian coordinates"
+  },
+  {
+   "v": "1671",
+   "n": "Calculus"
+  },
+  {
+   "v": "1672",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "1673",
+   "n": "Radians"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "12",
+   "n": "1R"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "13",
+   "n": "2R"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019"
+ ],
+ "category": {
+  "id": 21,
+  "label": "IGCSE (9-1)"
+ },
+ "subject": {
+  "id": 634,
+  "label": "Further Pure Math 9-1(4PM1)"
+ },
+ "badges": [
+  "44",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:55:32+0000"
+}

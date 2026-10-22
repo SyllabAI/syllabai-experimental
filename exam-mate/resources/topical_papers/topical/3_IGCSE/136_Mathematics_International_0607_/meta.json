@@ -1,0 +1,115 @@
+{
+ "topics": [
+  {
+   "v": "698",
+   "n": "Number"
+  },
+  {
+   "v": "697",
+   "n": "Algebra"
+  },
+  {
+   "v": "696",
+   "n": "Functions"
+  },
+  {
+   "v": "695",
+   "n": "Coordinate geometry"
+  },
+  {
+   "v": "694",
+   "n": "Geometry"
+  },
+  {
+   "v": "693",
+   "n": "Vectors and transformations"
+  },
+  {
+   "v": "721",
+   "n": "Mensuration"
+  },
+  {
+   "v": "722",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "723",
+   "n": "Sets"
+  },
+  {
+   "v": "724",
+   "n": "Probability"
+  },
+  {
+   "v": "725",
+   "n": "Statistics"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  },
+  {
+   "v": "10",
+   "n": "4"
+  },
+  {
+   "v": "8",
+   "n": "5"
+  },
+  {
+   "v": "9",
+   "n": "6"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 136,
+  "label": "Mathematics International(0607)"
+ },
+ "badges": [
+  "1906",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T02:09:36+0000"
+}

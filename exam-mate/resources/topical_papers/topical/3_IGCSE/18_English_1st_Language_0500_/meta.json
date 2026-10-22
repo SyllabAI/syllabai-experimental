@@ -1,0 +1,111 @@
+{
+ "topics": [
+  {
+   "v": "535",
+   "n": "Write a Letter - P2"
+  },
+  {
+   "v": "536",
+   "n": "Write an Article - P2"
+  },
+  {
+   "v": "537",
+   "n": "Write the Entry in Your Journal - P2"
+  },
+  {
+   "v": "538",
+   "n": "Write What You Say - P2"
+  },
+  {
+   "v": "539",
+   "n": "Write Newspaper Report - P2"
+  },
+  {
+   "v": "540",
+   "n": "Write Your Diary Entry - P2"
+  },
+  {
+   "v": "541",
+   "n": "Write a Report - P2"
+  },
+  {
+   "v": "542",
+   "n": "Writer's Effect - P2"
+  },
+  {
+   "v": "543",
+   "n": "Summary - P2"
+  },
+  {
+   "v": "530",
+   "n": "Directed Writing - Magazine Article - P3"
+  },
+  {
+   "v": "531",
+   "n": "Directed Writing - Letter - P3"
+  },
+  {
+   "v": "532",
+   "n": "Composition - Argumentative/Discursive Writing - P3"
+  },
+  {
+   "v": "533",
+   "n": "Composition - Descriptive Writing - P3"
+  },
+  {
+   "v": "534",
+   "n": "Composition - Narrative Writing - P3"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "3",
+   "n": "3"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 18,
+  "label": "English 1st Language(0500)"
+ },
+ "badges": [
+  "454",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T02:07:15+0000"
+}

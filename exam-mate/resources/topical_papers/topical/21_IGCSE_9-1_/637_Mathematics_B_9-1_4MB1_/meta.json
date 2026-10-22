@@ -1,0 +1,95 @@
+{
+ "topics": [
+  {
+   "v": "1611",
+   "n": "Number"
+  },
+  {
+   "v": "1612",
+   "n": "Sets"
+  },
+  {
+   "v": "1613",
+   "n": "Algebra"
+  },
+  {
+   "v": "1614",
+   "n": "Functions and Graphs"
+  },
+  {
+   "v": "1615",
+   "n": "Matrices"
+  },
+  {
+   "v": "1616",
+   "n": "Geometry"
+  },
+  {
+   "v": "1617",
+   "n": "Mensuration"
+  },
+  {
+   "v": "1618",
+   "n": "Vectors and transformation geometry"
+  },
+  {
+   "v": "1619",
+   "n": "Trigonometry"
+  },
+  {
+   "v": "1620",
+   "n": "Statistics and probability"
+  },
+  {
+   "v": "1621",
+   "n": "Differentiation and Kinematics"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "12",
+   "n": "1R"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "13",
+   "n": "2R"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019"
+ ],
+ "category": {
+  "id": 21,
+  "label": "IGCSE (9-1)"
+ },
+ "subject": {
+  "id": 637,
+  "label": "Mathematics B 9-1(4MB1)"
+ },
+ "badges": [
+  "235",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:56:16+0000"
+}

@@ -1,0 +1,95 @@
+{
+ "topics": [
+  {
+   "v": "1596",
+   "n": "Numbers and The Number System"
+  },
+  {
+   "v": "1646",
+   "n": "Equations, Formulae and Identities"
+  },
+  {
+   "v": "1647",
+   "n": "Sequences, Functions and Graphs"
+  },
+  {
+   "v": "1648",
+   "n": "Geometry and Trigonometry"
+  },
+  {
+   "v": "1649",
+   "n": "Vectors and Transformation Geometry"
+  },
+  {
+   "v": "1650",
+   "n": "Sets, Statistics and Probability"
+  },
+  {
+   "v": "1665",
+   "n": "Differentiation and Kinematics"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "21",
+   "n": "1F"
+  },
+  {
+   "v": "22",
+   "n": "1FR"
+  },
+  {
+   "v": "691",
+   "n": "1H"
+  },
+  {
+   "v": "692",
+   "n": "1HR"
+  },
+  {
+   "v": "23",
+   "n": "2F"
+  },
+  {
+   "v": "24",
+   "n": "2FR"
+  },
+  {
+   "v": "693",
+   "n": "2H"
+  },
+  {
+   "v": "694",
+   "n": "2HR"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019"
+ ],
+ "category": {
+  "id": 21,
+  "label": "IGCSE (9-1)"
+ },
+ "subject": {
+  "id": 615,
+  "label": "Mathematics A 9-1(4MA1)"
+ },
+ "badges": [
+  "566",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:55:39+0000"
+}

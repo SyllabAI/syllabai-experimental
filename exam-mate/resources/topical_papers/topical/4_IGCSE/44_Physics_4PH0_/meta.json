@@ -1,0 +1,165 @@
+{
+ "topics": [
+  {
+   "v": "168",
+   "n": "MOVEMENT AND POSITION"
+  },
+  {
+   "v": "169",
+   "n": "FORCES AND SHAPE"
+  },
+  {
+   "v": "170",
+   "n": "FORCES AND MOVEMENT"
+  },
+  {
+   "v": "171",
+   "n": "MOMENTUM"
+  },
+  {
+   "v": "172",
+   "n": "THE TURNING EFFECT OF FORCES"
+  },
+  {
+   "v": "173",
+   "n": "ASTRONOMY"
+  },
+  {
+   "v": "174",
+   "n": "MAINS ELECTRICITY"
+  },
+  {
+   "v": "175",
+   "n": "ELECTRIC CHARGE"
+  },
+  {
+   "v": "176",
+   "n": "CURRENT AND VOLTAGE IN CIRCUITS"
+  },
+  {
+   "v": "177",
+   "n": "ELECTRICAL RESISTANCE"
+  },
+  {
+   "v": "178",
+   "n": "PROPERTIES OF WAVES"
+  },
+  {
+   "v": "179",
+   "n": "USING WAVES"
+  },
+  {
+   "v": "180",
+   "n": "LIGHT WAVES"
+  },
+  {
+   "v": "181",
+   "n": "SOUND"
+  },
+  {
+   "v": "182",
+   "n": "ENERGY TRANSFERS"
+  },
+  {
+   "v": "183",
+   "n": "THERMAL ENERGY"
+  },
+  {
+   "v": "184",
+   "n": "WORK AND POWER"
+  },
+  {
+   "v": "185",
+   "n": "ENERGY RESOURCES AND ELECTRICITY GENERATION"
+  },
+  {
+   "v": "186",
+   "n": "DENSITY AND PRESSURE"
+  },
+  {
+   "v": "187",
+   "n": "SOLIDS, LIQUIDS AND GASES"
+  },
+  {
+   "v": "188",
+   "n": "MAGNETISM AND ELECTROMAGNETISM"
+  },
+  {
+   "v": "189",
+   "n": "ELECTRIC MOTORS AND ELECTROMAGNETIC INDUCTION"
+  },
+  {
+   "v": "190",
+   "n": "ATOMS AND RADIOACTIVITY"
+  },
+  {
+   "v": "191",
+   "n": "RADIATION AND HALF-LIFE"
+  },
+  {
+   "v": "192",
+   "n": "APPLICATION OF RADIOACTIVITY"
+  },
+  {
+   "v": "193",
+   "n": "PARTICLES"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "14",
+   "n": "1P"
+  },
+  {
+   "v": "15",
+   "n": "1PR"
+  },
+  {
+   "v": "16",
+   "n": "2P"
+  },
+  {
+   "v": "17",
+   "n": "2PR"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 4,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 44,
+  "label": "Physics(4PH0)"
+ },
+ "badges": [
+  "451",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:54:54+0000"
+}

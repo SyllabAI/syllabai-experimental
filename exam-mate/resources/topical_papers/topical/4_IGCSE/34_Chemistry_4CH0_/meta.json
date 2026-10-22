@@ -1,0 +1,165 @@
+{
+ "topics": [
+  {
+   "v": "120",
+   "n": "KINETIC THEORY AND DIFFUSION"
+  },
+  {
+   "v": "121",
+   "n": "ATOMIC STRUCTURE"
+  },
+  {
+   "v": "122",
+   "n": "BONDING"
+  },
+  {
+   "v": "123",
+   "n": "STRUCTURE"
+  },
+  {
+   "v": "124",
+   "n": "FORMULAE AND EQUATIONS"
+  },
+  {
+   "v": "125",
+   "n": "RATES OF REACTION"
+  },
+  {
+   "v": "126",
+   "n": "OXYGEN AND OXIDES"
+  },
+  {
+   "v": "127",
+   "n": "THE REACTIVITY SERIES"
+  },
+  {
+   "v": "128",
+   "n": "ACIDS"
+  },
+  {
+   "v": "129",
+   "n": "MAKING SALTS"
+  },
+  {
+   "v": "130",
+   "n": "SEPARATING AND ANALYSING"
+  },
+  {
+   "v": "131",
+   "n": "THE PERIODIC TABLE"
+  },
+  {
+   "v": "132",
+   "n": "ELECTROLYSIS"
+  },
+  {
+   "v": "133",
+   "n": "INTRODUCING ENERGY CHANGES IN REACTIONS"
+  },
+  {
+   "v": "134",
+   "n": "INTRODUCING REVERSIBLE REACTIONS"
+  },
+  {
+   "v": "135",
+   "n": "MANUFACTURING CHEMICALS"
+  },
+  {
+   "v": "136",
+   "n": "METALS"
+  },
+  {
+   "v": "137",
+   "n": "INTRODUCING ORGANIC CHEMISTRY"
+  },
+  {
+   "v": "138",
+   "n": "ALKANES,ALKENES AND ALCOHOLS"
+  },
+  {
+   "v": "139",
+   "n": "USEFUL PRODUCTS FROM CRUDE OIL"
+  },
+  {
+   "v": "140",
+   "n": "POLYMERS"
+  },
+  {
+   "v": "141",
+   "n": "RAMS AND MOLES"
+  },
+  {
+   "v": "142",
+   "n": "CALCULATIONS FROM EQUATIONS"
+  },
+  {
+   "v": "143",
+   "n": "ELECTROLYSIS CALCULATIONS"
+  },
+  {
+   "v": "144",
+   "n": "ENERGY CALCULATIONS"
+  },
+  {
+   "v": "145",
+   "n": "TITRATION CALCULATIONS"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "29",
+   "n": "1C"
+  },
+  {
+   "v": "30",
+   "n": "1CR"
+  },
+  {
+   "v": "31",
+   "n": "2C"
+  },
+  {
+   "v": "32",
+   "n": "2CR"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 4,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 34,
+  "label": "Chemistry(4CH0)"
+ },
+ "badges": [
+  "419",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:49:51+0000"
+}

@@ -1,0 +1,71 @@
+{
+ "topics": [
+  {
+   "v": "1595",
+   "n": "The Nature and Variety of Living Organisms"
+  },
+  {
+   "v": "1651",
+   "n": "Structure and Functions in Living Organisms"
+  },
+  {
+   "v": "1652",
+   "n": "Reproduction and Inheritance"
+  },
+  {
+   "v": "1653",
+   "n": "Ecology and The Environment"
+  },
+  {
+   "v": "1654",
+   "n": "Use of Biological Resources"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "18",
+   "n": "1B"
+  },
+  {
+   "v": "19",
+   "n": "1BR"
+  },
+  {
+   "v": "20",
+   "n": "2B"
+  },
+  {
+   "v": "90",
+   "n": "2BR"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019"
+ ],
+ "category": {
+  "id": 21,
+  "label": "IGCSE (9-1)"
+ },
+ "subject": {
+  "id": 613,
+  "label": "Biology 9-1(4BI1)"
+ },
+ "badges": [
+  "35",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:55:25+0000"
+}

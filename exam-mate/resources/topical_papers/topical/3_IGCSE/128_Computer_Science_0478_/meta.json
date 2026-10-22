@@ -1,0 +1,91 @@
+{
+ "topics": [
+  {
+   "v": "704",
+   "n": "Data Representation"
+  },
+  {
+   "v": "1710",
+   "n": "Communication and Internet Technologies"
+  },
+  {
+   "v": "1711",
+   "n": "Hardware and Software"
+  },
+  {
+   "v": "1712",
+   "n": "Security"
+  },
+  {
+   "v": "1713",
+   "n": "Ethics"
+  },
+  {
+   "v": "2859",
+   "n": "Algorithm design and problem-solving"
+  },
+  {
+   "v": "2860",
+   "n": "Programming"
+  },
+  {
+   "v": "2861",
+   "n": "Databases"
+  },
+  {
+   "v": "2862",
+   "n": "Boolean logic"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 128,
+  "label": "Computer Science(0478)"
+ },
+ "badges": [
+  "501",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T02:05:15+0000"
+}

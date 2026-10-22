@@ -1,0 +1,135 @@
+{
+ "topics": [
+  {
+   "v": "559",
+   "n": "Types and components of computer systems"
+  },
+  {
+   "v": "560",
+   "n": "Input and output devices"
+  },
+  {
+   "v": "561",
+   "n": "Storage devices and media"
+  },
+  {
+   "v": "562",
+   "n": "Networks and the effects of using them"
+  },
+  {
+   "v": "563",
+   "n": "The effects of using IT"
+  },
+  {
+   "v": "564",
+   "n": "ICT applications"
+  },
+  {
+   "v": "565",
+   "n": "The systems life cycle"
+  },
+  {
+   "v": "566",
+   "n": "Safety and security"
+  },
+  {
+   "v": "567",
+   "n": "Audience"
+  },
+  {
+   "v": "568",
+   "n": "Communication"
+  },
+  {
+   "v": "569",
+   "n": "File management"
+  },
+  {
+   "v": "570",
+   "n": "Images"
+  },
+  {
+   "v": "571",
+   "n": "Layout"
+  },
+  {
+   "v": "572",
+   "n": "Styles"
+  },
+  {
+   "v": "573",
+   "n": "Proofing"
+  },
+  {
+   "v": "574",
+   "n": "Graphs and charts"
+  },
+  {
+   "v": "575",
+   "n": "Document production"
+  },
+  {
+   "v": "576",
+   "n": "Data manipulation"
+  },
+  {
+   "v": "577",
+   "n": "Presentations"
+  },
+  {
+   "v": "578",
+   "n": "Data analysis"
+  },
+  {
+   "v": "579",
+   "n": "Website authoring"
+  }
+ ],
+ "zones": [
+  "1",
+  "2",
+  "3"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  },
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 3,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 23,
+  "label": "ICT(0417)"
+ },
+ "badges": [
+  "810",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T02:08:41+0000"
+}

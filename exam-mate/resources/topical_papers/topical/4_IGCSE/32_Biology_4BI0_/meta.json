@@ -1,0 +1,149 @@
+{
+ "topics": [
+  {
+   "v": "146",
+   "n": "LIFE PROCESSES"
+  },
+  {
+   "v": "147",
+   "n": "THE VARIETY OF LIVING ORGANISMS"
+  },
+  {
+   "v": "148",
+   "n": "BREATHING AND GAS EXCHANGE"
+  },
+  {
+   "v": "149",
+   "n": "FOOD AND DIGESTION"
+  },
+  {
+   "v": "150",
+   "n": "BLOOD AND CIRCULATION"
+  },
+  {
+   "v": "151",
+   "n": "COORDINATION"
+  },
+  {
+   "v": "152",
+   "n": "CHEMICAL COORDINATION"
+  },
+  {
+   "v": "153",
+   "n": "HOMEOSTASIS AND EXCRETION"
+  },
+  {
+   "v": "154",
+   "n": "REPRODUCTION IN HUMANS"
+  },
+  {
+   "v": "155",
+   "n": "PLANTS AND FOOD "
+  },
+  {
+   "v": "156",
+   "n": "TRANSPORT IN PLANTS"
+  },
+  {
+   "v": "157",
+   "n": "CHEMICAL COORDINATION IN PLANTS"
+  },
+  {
+   "v": "158",
+   "n": "REPRODUCTION IN PLANTS"
+  },
+  {
+   "v": "159",
+   "n": "ECOSYSTEMS"
+  },
+  {
+   "v": "160",
+   "n": "HUMAN INFLUENCES ON THE ENVIRONMENT"
+  },
+  {
+   "v": "161",
+   "n": "CHROMOSOMES, GENES AND DNA"
+  },
+  {
+   "v": "162",
+   "n": "CELL DIVISION"
+  },
+  {
+   "v": "163",
+   "n": "GENES AND INHERITANCE"
+  },
+  {
+   "v": "164",
+   "n": "NATURAL SELECTION AND EVOLUTION"
+  },
+  {
+   "v": "165",
+   "n": "SELECTIVE BREEDING"
+  },
+  {
+   "v": "166",
+   "n": "USING MICROORGANISMS"
+  },
+  {
+   "v": "167",
+   "n": "GENETIC MODIFICATION"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "18",
+   "n": "1B"
+  },
+  {
+   "v": "19",
+   "n": "1BR"
+  },
+  {
+   "v": "20",
+   "n": "2B"
+  },
+  {
+   "v": "90",
+   "n": "2BR"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 4,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 32,
+  "label": "Biology(4BI0)"
+ },
+ "badges": [
+  "415",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:50:35+0000"
+}

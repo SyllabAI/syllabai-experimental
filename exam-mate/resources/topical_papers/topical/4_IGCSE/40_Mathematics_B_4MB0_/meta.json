@@ -1,0 +1,113 @@
+{
+ "topics": [
+  {
+   "v": "203",
+   "n": "NUMBER"
+  },
+  {
+   "v": "204",
+   "n": "ALGEBRA"
+  },
+  {
+   "v": "205",
+   "n": "FUNCTIONS & GRAPHS"
+  },
+  {
+   "v": "206",
+   "n": "MENSURATION"
+  },
+  {
+   "v": "207",
+   "n": "GEOMETRY"
+  },
+  {
+   "v": "208",
+   "n": "TRIGONOMETRY"
+  },
+  {
+   "v": "209",
+   "n": "SETS"
+  },
+  {
+   "v": "210",
+   "n": "STATISTICS"
+  },
+  {
+   "v": "211",
+   "n": "PROBABILITY"
+  },
+  {
+   "v": "212",
+   "n": "VECTORS"
+  },
+  {
+   "v": "213",
+   "n": "MATRICES"
+  },
+  {
+   "v": "214",
+   "n": "TRANSFORMATION"
+  },
+  {
+   "v": "215",
+   "n": "DIFFERENTIATION & KINEMATICS"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "1",
+   "n": "1"
+  },
+  {
+   "v": "12",
+   "n": "1R"
+  },
+  {
+   "v": "2",
+   "n": "2"
+  },
+  {
+   "v": "13",
+   "n": "2R"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012",
+  "2011",
+  "2010",
+  "2009"
+ ],
+ "category": {
+  "id": 4,
+  "label": "IGCSE"
+ },
+ "subject": {
+  "id": 40,
+  "label": "Mathematics B(4MB0)"
+ },
+ "badges": [
+  "1102",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:53:47+0000"
+}
