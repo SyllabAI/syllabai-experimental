@@ -190,7 +190,7 @@ except the links — and those have a job watching them.
 |---|---|
 | 2026-10-22 | Drafted from phases 1–3 evidence; proposed to operator for ratification |
 | 2026-10-22 | **Ratified by operator** — Option B accepted as drafted (Mode-1/4 baseline, gated Mode-2 pilot on IAL P1 quadratics, CTR floors 1.0%/28d continue · 3.0% generalise, Mode 3 deferred-and-scoped); no amendments requested; `INTEGRATION-PLAN.md` P4 → `[x]` |
-| 2026-10-22 | P5 **implementation ticket + pilot kit authored** (`pilot/TICKET-P5-ugm-explore-further.md` + link set + tested health-job script + bootstrap script + 24/24-live dry-run) — hub implementation pending; **G1 finding: 0/24 resource pages Wayback-archived** ⇒ fail-closed render law + bootstrap as blocking launch gate (ticket §8) |
+| 2026-10-22 | P5 **implementation ticket + pilot kit authored** (`pilot/TICKET-P5-ugm-explore-further.md` + link set + tested health-job script + bootstrap script + 24/24-live dry-run), **filed as [syllabai-v2#305](https://github.com/SyllabAI/syllabai-v2/issues/305)** — hub implementation pending; **G1 finding: 0/24 resource pages Wayback-archived** ⇒ fail-closed render law + bootstrap as blocking launch gate (ticket §8) |
 | pending | Hub implementation of TICKET-P5 in `syllabai-v2` (flag + module + health job + CTR event) → enable → first CTR readout |
 | pending | First S1-bridge census run against `syllabai-pastpapers` (exhibit for any future Mode-3 ask) |
 | pending | 28-day CTR readout → generalise / kill decision |

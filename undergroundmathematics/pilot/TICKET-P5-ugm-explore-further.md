@@ -5,6 +5,7 @@
 | **Ticket** | TICKET-P5-UGM-PILOT |
 | **Status** | **READY** — implementation gate open per ADR-UGM-0001 (operator-ratified 2026-10-22) |
 | **Repo of record** | `SyllabAI/syllabai-v2` → `apps/hub/` (this ticket + pilot kit versioned in `SyllabAI/syllabai-experimental/undergroundmathematics/pilot/`) |
+| **Hub tracker** | [syllabai-v2#305](https://github.com/SyllabAI/syllabai-v2/issues/305) (filed 2026-10-22) |
 | **Basis** | `docs/ADR-UGM-0001-ugm-integration-mode.md` §Decision item 3 (Accepted) · `docs/cross-map-quadratics.md` §6 shortlists · `syllabai-v2/docs/adr/ADR-CLASS-0001` toggle practice · pilot kit: `pilot/pilot-links-quadratics.json`, `pilot/link-health-check.sh`, `pilot/wayback-bootstrap.sh` |
 | **Estimate** | ≈3 dev-days (bootstrap 0.5 · module 1 · health job 0.5 · instrumentation 0.5 · readout 0.25 · review 0.25) |
 | **Owners** | Hub track (implementation) + UGM track (curation, review, health-job support) |
