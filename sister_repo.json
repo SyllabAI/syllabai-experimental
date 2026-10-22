@@ -1,0 +1,41 @@
+{
+ "_readme": "Machine-readable pointer between the two SyllabAI experimental repos. This exact file exists in BOTH repos, so cloning either one is enough to discover the other. Read 'storage_policy' before doing any exam-mate work. Human-readable version: exam-mate/docs/STORAGE-SPLIT.md in either repo.",
+ "this_repo": "syllabai-experimental",
+ "updated": "2026-10-22",
+ "repos": {
+  "syllabai-experimental": {
+   "github": "https://github.com/SyllabAI/syllabai-experimental",
+   "local_path": "/home/z/my-project/syllabai-experimental",
+   "role": "primary experiment repo",
+   "holds": [
+    "exam-mate: reverse-engineering research + runbooks + full question harvest (questions.jsonl + meta.json for 132 subjects, 88,323 questions; source-of-record for questions)",
+    "exam-mate: image sets completed on 2026-10-22 (~4.4 GB, 16 verified subjects + 2 ledger-only) — see exam-mate/resources/topical_papers/",
+    "exam-mate: original harvest tooling (question-phase canonical)",
+    "senecalearning / undergroundmathematics / znotes experiments"
+   ],
+   "notes": "Local checkout at local_path is SPARSE-CHECKED OUT: the big images/ trees are NOT materialized on disk (they live on GitHub). Do not re-run image downloads against this repo."
+  },
+  "syllabai-experimental-2": {
+   "github": "https://github.com/SyllabAI/syllabai-experimental-2",
+   "local_path": "/home/z/my-project/syllabai-experimental-2",
+   "role": "image-storage continuation (created 2026-10-22 at disk ceiling)",
+   "holds": [
+    "ALL exam-mate image downloads from 2026-10-22 onward (~100k image URLs outstanding at split time)",
+    "fresh re-imaging of the two ledger-only subjects (4BI0, 9701)",
+    "split-storage image-phase tooling (canonical for images from now on)"
+   ]
+  }
+ },
+ "storage_policy": {
+  "questions": "source-of-record stays in syllabai-experimental (questions.jsonl, meta.json, catalog.json, subject_taxonomy.json)",
+  "images_before_2026-10-22": "stay in syllabai-experimental (immutable, never moved)",
+  "images_from_2026-10-22": "download into syllabai-experimental-2 under exam-mate/resources/topical_papers/topical/... (same subject-dir layout as the sister repo)",
+  "skip_list": "syllabai-experimental-2/exam-mate/resources/topical_papers/source_completed.json lists subjects already completely imaged in the sister repo — never re-download those into this repo",
+  "image_fetch_auth": "anonymous + unmetered (question-LIST serving is metered; images are not) — no exam-mate login needed for the image phase",
+  "commit_cadence": "git add + commit + push after every finished subject; monitor df -h /"
+ },
+ "credentials_state": {
+  "exam-mate login creds": "PREVIOUSLY at /home/z/my-project/exam-mate-probe/creds.json (git-ignored area) — LOST in the 2026-10-22 workspace wipe; only needed for question-LIST harvesting, not for images",
+  "github PAT": "at /home/z/my-project/exam-mate-probe/gh_pat (0600, never commit)"
+ }
+}

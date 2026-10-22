@@ -1,5 +1,18 @@
 # RESUME — exam-mate full-archive harvest & image download
 
+> ⚠️ **SUPERSEDED (2026-10-22): the image phase no longer downloads into
+> this repo.** All image downloads from 2026-10-22 onward go to the
+> companion repo **[`syllabai-experimental-2`](https://github.com/SyllabAI/syllabai-experimental-2)**
+> (split storage at the disk ceiling — see `STORAGE-SPLIT.md` in either
+> repo + `sister_repo.json`). The commands below are kept for history;
+> **running them again would re-download into the wrong repo.** The
+> current image-phase runbook lives in
+> `syllabai-experimental-2/exam-mate/docs/STORAGE-SPLIT.md`, and its
+> driver is `syllabai-experimental-2/exam-mate/scripts/exam_mate_images_all.py`
+> (reads questions from this repo, writes images there).
+>
+> Question harvest remains 100% complete and source-of-record in this repo.
+
 Status snapshot 2026-10-22 (see `progress.json` + driver state files for live
 numbers): **question harvest 100% complete** (132 subjects with data = 88,323
 questions; 48 subjects site-empty with facet evidence). **Image download

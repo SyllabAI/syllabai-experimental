@@ -3,6 +3,13 @@
 Experiment workspace inside `syllabai-experimental`. All work — research,
 scraped resources, and docs — lives in this folder.
 
+> **Storage split (2026-10-22):** image downloads from that date onward go
+> to the companion repo [`syllabai-experimental-2`](https://github.com/SyllabAI/syllabai-experimental-2)
+> (same `exam-mate/` folder name/layout). Image sets completed here are
+> frozen and immutable; questions remain source-of-record in this repo.
+> See `docs/STORAGE-SPLIT.md` + `../sister_repo.json`. The local checkout
+> of this repo is sparse — its `images/` trees exist on GitHub only.
+
 ## Current work: reverse-engineering exam-mate.com's TOPICAL PAST PAPERS
 
 Completed 2026-10-22. Highlights:
