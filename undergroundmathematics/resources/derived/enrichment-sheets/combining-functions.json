@@ -1,0 +1,2377 @@
+{
+ "station": {
+  "id": 6,
+  "friendlyId": "combining-functions",
+  "title": "Combining Functions",
+  "guidingQuestion": "How and when can functions be combined?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 38,
+  "reviewQuestions": 23,
+  "resourcesWithKeyQuestions": 38,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 18,
+  "withTeacherSupport": 0,
+  "withAssets": 14,
+  "withProvenance": 24
+ },
+ "keyQuestions": [
+  {
+   "id": 22,
+   "number": 1,
+   "friendlyName": "domain-and-range",
+   "content": "What are the domain and range of a function?"
+  },
+  {
+   "id": 23,
+   "number": 2,
+   "friendlyName": "functions-operations",
+   "content": "What happens if we add, subtract, multiply or divide functions?"
+  },
+  {
+   "id": 24,
+   "number": 3,
+   "friendlyName": "functions-composing",
+   "content": "What happens if we apply one function to the output of another?"
+  },
+  {
+   "id": 25,
+   "number": 4,
+   "friendlyName": "functions-tranformations",
+   "content": "What do we mean by transformations of functions?"
+  },
+  {
+   "id": 26,
+   "number": 5,
+   "friendlyName": "functions-inverses",
+   "content": "When does a function have an inverse?  "
+  }
+ ],
+ "resources": [
+  {
+   "id": 157,
+   "friendlyName": "compose",
+   "title": "Compose!",
+   "url": "https://undergroundmathematics.org/combining-functions/compose",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 5753,
+   "isReviewQuestion": false,
+   "description": "Students are given four functions and asked to compose them to create the given set of six new functions.",
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 154,
+     "relationship": "Around",
+     "title": "Composing gets me nowhere",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/composing-gets-me-nowhere"
+    }
+   ],
+   "keyphraseIds": [
+    38,
+    65,
+    88
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/compose/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 154,
+   "friendlyName": "composing-gets-me-nowhere",
+   "title": "Composing gets me nowhere",
+   "url": "https://undergroundmathematics.org/combining-functions/composing-gets-me-nowhere",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 9925,
+   "isReviewQuestion": false,
+   "description": "This resource is designed to be used as an introduction to self-inverse functions.\nStudents are asked to sketch a set of functions, work out which ones are self-inverse and find a graphical connection between them.",
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 157,
+     "relationship": "Around",
+     "title": "Compose!",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/compose"
+    }
+   ],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/composing-gets-me-nowhere/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 943,
+   "friendlyName": "domain-and-range-dominoes",
+   "title": "Domain and range dominoes",
+   "url": "https://undergroundmathematics.org/combining-functions/domain-and-range-dominoes",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 5980,
+   "isReviewQuestion": false,
+   "description": "This card sorting activity makes students think carefully about what we mean by the domain and range of a function and how to express them precisely. They will get lots of practise whilst arranging the cards into a loop.",
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 157,
+     "relationship": "Forward",
+     "title": "Compose!",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/compose"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    88,
+    184
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/domain-and-range-dominoes/components/blank-cards.pdf",
+    "/combining-functions/domain-and-range-dominoes/components/cards.pdf",
+    "/combining-functions/domain-and-range-dominoes/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 155,
+   "friendlyName": "forming-functions-defining-domains",
+   "title": "Forming functions — defining domains",
+   "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 7511,
+   "isReviewQuestion": false,
+   "description": "For each rule, define several different functions by choosing different domains. How does the choice of domain affect the range of the resulting function?",
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 134,
+     "relationship": "Back",
+     "title": "What relation are you?",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/what-relation-are-you"
+    },
+    {
+     "resourceId": 1142,
+     "relationship": "Forward",
+     "title": "Invertibles",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/invertibles"
+    },
+    {
+     "resourceId": 1146,
+     "relationship": "Forward",
+     "title": "Making inverse functions",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    88,
+    184
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/forming-functions-defining-domains/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 941,
+   "friendlyName": "function-builder-i",
+   "title": "Function builder I",
+   "url": "https://undergroundmathematics.org/combining-functions/function-builder-i",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 8608,
+   "isReviewQuestion": false,
+   "description": "This task is designed to build understanding of the properties of functions and their graphs. Students see how those properties affect the outcome of combining pairs of functions by adding, subtracting and multiplying, in order to fill the cells of a grid with an appropriate sketch.",
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 758,
+     "relationship": "Forward",
+     "title": "Function builder II",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/function-builder-ii"
+    }
+   ],
+   "keyphraseIds": [
+    52,
+    95,
+    179,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/function-builder-i/assets/cards.pdf",
+    "/combining-functions/function-builder-i/components/cards.pdf",
+    "/combining-functions/function-builder-i/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 162,
+   "friendlyName": "going-backwards",
+   "title": "Going backwards",
+   "url": "https://undergroundmathematics.org/combining-functions/going-backwards",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6729,
+   "isReviewQuestion": false,
+   "description": "An exploration and discussion of why some functions have inverses and others do not.",
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    121
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1142,
+   "friendlyName": "invertibles",
+   "title": "Invertibles",
+   "url": "https://undergroundmathematics.org/combining-functions/invertibles",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 5973,
+   "isReviewQuestion": false,
+   "description": "Pair up the functions so that each one is with its inverse function; match the pairs of functions with graphs and sketch in the missing curves.",
+   "keyQuestions": [
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 155,
+     "relationship": "Back",
+     "title": "Forming functions — defining domains",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains"
+    },
+    {
+     "resourceId": 1146,
+     "relationship": "Back",
+     "title": "Making inverse functions",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions"
+    }
+   ],
+   "keyphraseIds": [
+    95,
+    121,
+    193,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/invertibles/components/functions-cards.pdf",
+    "/combining-functions/invertibles/components/graphs-page.pdf",
+    "/combining-functions/invertibles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 156,
+   "friendlyName": "its-a-matter-of-perspective",
+   "title": "It's a matter of perspective",
+   "url": "https://undergroundmathematics.org/combining-functions/its-a-matter-of-perspective",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6114,
+   "isReviewQuestion": false,
+   "description": "This resource asks students to find the equation of a parabola given three points. It can be used as a follow-on from 'Name that graph again', and it introduces a wider range of transformations than those previously encountered.",
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 147,
+     "relationship": "Back",
+     "title": "Name that graph again",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/name-that-graph-again"
+    }
+   ],
+   "keyphraseIds": [
+    3,
+    148,
+    179,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/its-a-matter-of-perspective/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1146,
+   "friendlyName": "making-inverse-functions",
+   "title": "Making inverse functions",
+   "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Introducing",
+   "ref": 5938,
+   "isReviewQuestion": false,
+   "description": "Here we revisit the algebraic process of finding an inverse for a function, and explore the importance of specifying the domain and when we need to restrict the domain in order to make a function invertible.",
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 134,
+     "relationship": "Back",
+     "title": "What relation are you?",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/what-relation-are-you"
+    },
+    {
+     "resourceId": 155,
+     "relationship": "Back",
+     "title": "Forming functions — defining domains",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains"
+    },
+    {
+     "resourceId": 1142,
+     "relationship": "Forward",
+     "title": "Invertibles",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/invertibles"
+    },
+    {
+     "resourceId": 1168,
+     "relationship": "Forward",
+     "title": "Inverse trigonometric functions",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-trig-functions"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    114,
+    121,
+    184
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/combining-functions/making-inverse-functions/components/cards.pdf",
+    "/combining-functions/making-inverse-functions/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 159,
+   "friendlyName": "maths-for-dinner",
+   "title": "Maths for dinner",
+   "url": "https://undergroundmathematics.org/combining-functions/maths-for-dinner",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 5939,
+   "isReviewQuestion": false,
+   "description": "This is an introductory discussion of domains and ranges of functions and the properties 'injective', 'surjective' and 'bijective'.",
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 5,
+     "relationship": "Forward",
+     "title": "Counting fractions",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/counting-fractions"
+    },
+    {
+     "resourceId": 134,
+     "relationship": "Around",
+     "title": "What relation are you?",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/what-relation-are-you"
+    }
+   ],
+   "keyphraseIds": [
+    23,
+    65,
+    88,
+    114,
+    184,
+    223
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 147,
+   "friendlyName": "name-that-graph-again",
+   "title": "Name that graph again",
+   "url": "https://undergroundmathematics.org/combining-functions/name-that-graph-again",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8328,
+   "isReviewQuestion": false,
+   "description": "Students think about different ways in which they can determine the equation of a parabola given the coordinates of three points on the curve.",
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 114,
+     "relationship": "Back",
+     "title": "Name that graph",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/name-that-graph"
+    },
+    {
+     "resourceId": 156,
+     "relationship": "Forward",
+     "title": "It's a matter of perspective",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/its-a-matter-of-perspective"
+    }
+   ],
+   "keyphraseIds": [
+    148,
+    179,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/name-that-graph-again/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 153,
+   "friendlyName": "order-order",
+   "title": "Order! Order!",
+   "url": "https://undergroundmathematics.org/combining-functions/order-order",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 5176,
+   "isReviewQuestion": false,
+   "description": "Students are asked to think about and describe combinations of graph transformations with a view to seeing when the order matters and when it does not.",
+   "keyQuestions": [
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/combining-functions/order-order/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 898,
+   "friendlyName": "picture-the-process-ii",
+   "title": "Picture the process II",
+   "url": "https://undergroundmathematics.org/combining-functions/picture-the-process-ii",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7317,
+   "isReviewQuestion": false,
+   "description": "Students sketch graphs and match up existing graphs that go with descriptions of real world physical processes. As a further exercise, an equation can be matched up with each process and graph.",
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 901,
+     "relationship": "Back",
+     "title": "Picture the process I",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/picture-the-process-i"
+    }
+   ],
+   "keyphraseIds": [
+    88,
+    95,
+    139
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/combining-functions/picture-the-process-ii/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 767,
+   "friendlyName": "r5362",
+   "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5362",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5362,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 848,
+     "relationship": "Around",
+     "title": "Can we sketch the graph of $g \\colon x \\to x - [x]$?",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/r5764"
+    }
+   ],
+   "keyphraseIds": [
+    95,
+    121,
+    140,
+    161
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B Special paper",
+    "paperCode": "848/0",
+    "year": 1979,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 687,
+   "friendlyName": "r5595",
+   "title": "Can we sketch and describe these composite functions?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5595",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5595,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    38,
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 1",
+    "paperCode": "9205/1 and 9206/1",
+    "year": 1986,
+    "questions": [
+     "Q13"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 620,
+   "friendlyName": "r5646",
+   "title": "Can we find an inverse and sketch a modulus function?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5646",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5646,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    140
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Certificate in Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1989,
+    "questions": [
+     "Q17"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 848,
+   "friendlyName": "r5764",
+   "title": "Can we sketch the graph of $g \\colon x \\to x - [x]$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5764",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5764,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 767,
+     "relationship": "Around",
+     "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/r5362"
+    }
+   ],
+   "keyphraseIds": [
+    38,
+    88,
+    156
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "848/1",
+    "year": 1976,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 416,
+   "friendlyName": "r5868",
+   "title": "Can we identify the right sketch graph of this reciprocal function?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5868",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5868,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 358,
+   "friendlyName": "r5966",
+   "title": "Can we work with the domain, codomain and range of a bijection?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5966",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5966,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    23,
+    38,
+    88,
+    121,
+    184
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 2",
+    "paperCode": "9202/2",
+    "year": 1980,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1013,
+   "friendlyName": "r6607",
+   "title": "Which transformations give us the graph of $y=2^{x^2-4x+3}$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r6607",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6607,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    36,
+    77,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2014,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 378,
+   "friendlyName": "r6653",
+   "title": "Can we solve this equation with a sum of square roots?",
+   "url": "https://undergroundmathematics.org/combining-functions/r6653",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6653,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 725,
+   "friendlyName": "r6656",
+   "title": "Can we pick the graph of $y=\\sin^2{\\sqrt{x}}$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r6656",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6656,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    156,
+    209
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 316,
+   "friendlyName": "r6735",
+   "title": "For which $x$-values does a function equal its inverse?",
+   "url": "https://undergroundmathematics.org/combining-functions/r6735",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6735,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    38,
+    121
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1979,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 495,
+   "friendlyName": "r7119",
+   "title": "Can we identify the right sketch of a transformed function?",
+   "url": "https://undergroundmathematics.org/combining-functions/r7119",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7119,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/r7119/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 390,
+   "friendlyName": "r7553",
+   "title": "Can we compose these polynomial functions?",
+   "url": "https://undergroundmathematics.org/combining-functions/r7553",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7553,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    136
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 439,
+   "friendlyName": "r7607",
+   "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r7607",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7607,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    38,
+    65,
+    88,
+    121,
+    132,
+    184
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1981,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 269,
+   "friendlyName": "r8028",
+   "title": "Can we find the inverse of a function in three parts?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8028",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8028,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    95,
+    121
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "848/1",
+    "year": 1972,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 386,
+   "friendlyName": "r8411",
+   "title": "When does this trig function have its maximum value?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8411",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8411,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    136
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 464,
+   "friendlyName": "r8427",
+   "title": "Can we sketch these four related curves?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8427",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8427,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 2",
+    "paperCode": "9205/2",
+    "year": 1988,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 484,
+   "friendlyName": "r8749",
+   "title": "Can we identify the right sketch of a product of functions?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8749",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8749,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 635,
+   "friendlyName": "r9523",
+   "title": "Which of these function statements are true?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9523",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9523,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "986/2",
+    "year": 1979,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 429,
+   "friendlyName": "r9527",
+   "title": "Can we compose two simple functions?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9527",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9527,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 847,
+   "friendlyName": "r9673",
+   "title": "How do these transformations change the graph of $f(x)$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9673",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9673,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 1",
+    "paperCode": "9205/1 and 9206/1",
+    "year": 1988,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 599,
+   "friendlyName": "r9798",
+   "title": "When does $f$ satisfy the identity $f(t)-f(1-t)=g(t)$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9798",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9798,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    105
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 281,
+   "friendlyName": "r9824",
+   "title": "Can we sketch the inverse of this composite function?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9824",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9824,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 22,
+     "content": "What are the domain and range of a function?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    },
+    {
+     "id": 26,
+     "content": "When does a function have an inverse?  "
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    38,
+    88,
+    114,
+    121
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 1",
+    "paperCode": "9205/1 and 9206/1",
+    "year": 1988,
+    "questions": [
+     "Q16"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 347,
+   "friendlyName": "r9924",
+   "title": "How many solutions does this composite function equation have?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9924",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9924,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 24,
+     "content": "What happens if we apply one function to the output of another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    233
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1E"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 958,
+   "friendlyName": "transformers",
+   "title": "Transformers",
+   "url": "https://undergroundmathematics.org/combining-functions/transformers",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 7138,
+   "isReviewQuestion": false,
+   "description": "This resource offers students an opportunity to think more deeply about how graphs of functions are related to one another and encourages them to think about transformations when comparing similar graphs.",
+   "keyQuestions": [
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 114,
+     "relationship": "Around",
+     "title": "Name that graph",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/name-that-graph"
+    }
+   ],
+   "keyphraseIds": [
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/transformers/components/cards.pdf",
+    "/combining-functions/transformers/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 166,
+   "friendlyName": "translating-or-not",
+   "title": "Translating or not?",
+   "url": "https://undergroundmathematics.org/combining-functions/translating-or-not",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 6208,
+   "isReviewQuestion": false,
+   "description": "This resource is designed to make students think about sketching graphs of unfamiliar functions, in particular reciprocals of familiar functions. They are asked to explain the behaviour of $y=\\frac{1}{x^2+a}$ for different values of $a$.",
+   "keyQuestions": [
+    {
+     "id": 23,
+     "content": "What happens if we add, subtract, multiply or divide functions?"
+    },
+    {
+     "id": 25,
+     "content": "What do we mean by transformations of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    21,
+    95,
+    166,
+    268
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-functions/translating-or-not/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

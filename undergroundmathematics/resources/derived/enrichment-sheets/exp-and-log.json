@@ -1,0 +1,2360 @@
+{
+ "station": {
+  "id": 13,
+  "friendlyId": "exp-and-log",
+  "title": "Exponentials & Logarithms",
+  "guidingQuestion": "What does $2^x$ mean and what is its inverse?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 40,
+  "reviewQuestions": 23,
+  "resourcesWithKeyQuestions": 37,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 6,
+  "withTeacherSupport": 2,
+  "withAssets": 14,
+  "withProvenance": 25
+ },
+ "keyQuestions": [
+  {
+   "id": 56,
+   "number": 1,
+   "friendlyName": "growth-and-decay",
+   "content": "What are exponential growth and decay?"
+  },
+  {
+   "id": 57,
+   "number": 2,
+   "friendlyName": "exp-and-log-related",
+   "content": "How are the exponential and logarithmic functions related?"
+  },
+  {
+   "id": 58,
+   "number": 3,
+   "friendlyName": "how-are-logs-used",
+   "content": "How are logarithms used?"
+  },
+  {
+   "id": 59,
+   "number": 4,
+   "friendlyName": "rewrite-using-logs",
+   "content": "How can we rewrite expressions involving logarithms?"
+  },
+  {
+   "id": 60,
+   "number": 5,
+   "friendlyName": "solve-using-logs",
+   "content": "What sorts of equations can we solve using logarithms?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 117,
+   "friendlyName": "an-irrational-inequality",
+   "title": "An irrational inequality",
+   "url": "https://undergroundmathematics.org/exp-and-log/an-irrational-inequality",
+   "type": {
+    "id": 11,
+    "name": "Go and think about it...",
+    "friendlyId": "go-and-think"
+   },
+   "level": "Developing",
+   "ref": 7085,
+   "isReviewQuestion": false,
+   "description": "Students are asked to think about how we can prove that $e^\\pi> \\pi^e$. How do we even define those quantities given that $e$ and $\\pi$ are irrational?",
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 424,
+     "relationship": "Around",
+     "title": "Which is the greater of $e^{\\pi}$ and $\\pi^e$?",
+     "station": "product-rule",
+     "url": "https://undergroundmathematics.org/product-rule/r8671"
+    }
+   ],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/an-irrational-inequality/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "provenance-missing"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 31,
+   "friendlyName": "calculators1950",
+   "title": "1950s calculators",
+   "url": "https://undergroundmathematics.org/exp-and-log/calculators1950",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 8390,
+   "isReviewQuestion": false,
+   "description": "This resource is designed to develop a sense of what logarithms are, how they can be used and the sort of values they take. A set of short video clips demonstrate the use of 'log tables' to perform a selection of multiplications and other calculations.",
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 33,
+     "relationship": "Back",
+     "title": "See the power",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/see-the-power"
+    }
+   ],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/exp-and-log/calculators1950/assets/logtables.pdf",
+    "/exp-and-log/calculators1950/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "provenance-missing"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 36,
+   "friendlyName": "changing-bases",
+   "title": "Changing bases",
+   "url": "https://undergroundmathematics.org/exp-and-log/changing-bases",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 9018,
+   "isReviewQuestion": false,
+   "description": "In this resource students explore how logarithms of different bases are related. A set of graphical problems are presented, based on a graph of $\\log_5 x$, and a set of algebraic problems.",
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 32,
+     "relationship": "Around",
+     "title": "Summing to one",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/summing-to-one"
+    }
+   ],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/exp-and-log/changing-bases-teacher-support",
+    "sections": []
+   },
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/exp-and-log/changing-bases/components/graph.pdf",
+    "/exp-and-log/changing-bases/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1077,
+   "friendlyName": "changing-bases-teacher-support",
+   "title": "Changing bases - teacher support",
+   "url": "https://undergroundmathematics.org/exp-and-log/changing-bases-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 7555,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 21,
+   "friendlyName": "factorial-fragments",
+   "title": "Factorial fragments",
+   "url": "https://undergroundmathematics.org/exp-and-log/factorial-fragments",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 6099,
+   "isReviewQuestion": false,
+   "description": "In this open task, students explore the expression $\\log n!$ for different values of $n$ and thereby gain fluency in manipulation and understanding of logarithms.",
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    81,
+    110,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/factorial-fragments/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 27,
+   "friendlyName": "how-far-did-the-earth-move",
+   "title": "How far did the earth move?",
+   "url": "https://undergroundmathematics.org/exp-and-log/how-far-did-the-earth-move",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6001,
+   "isReviewQuestion": false,
+   "description": "This resource explores the use of the logarithmic magnitude scale to describe the severity of earthquakes. Students are then asked to do some graph linearisation to establish a power law relationship from experimental data.",
+   "keyQuestions": [
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    129,
+    132,
+    167
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/exp-and-log/how-far-did-the-earth-move/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 29,
+   "friendlyName": "how-fast-does-it-grow",
+   "title": "How fast does it grow?",
+   "url": "https://undergroundmathematics.org/exp-and-log/how-fast-does-it-grow",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 6176,
+   "isReviewQuestion": false,
+   "description": "This resource provides a framework for exploring the difference between an exponential and a power of $x$, thinking about values of expressions and also the graphs of their functions. This could be used either as a quick introductory activity or as a more open-ended investigation.",
+   "keyQuestions": [
+    {
+     "id": 56,
+     "content": "What are exponential growth and decay?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1071,
+     "relationship": "Around",
+     "title": "If we arrange $2^x, 2x$ and $x^2$ by size, what orders are possible?",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5156"
+    }
+   ],
+   "keyphraseIds": [
+    77,
+    167,
+    306
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/how-fast-does-it-grow/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 883,
+   "friendlyName": "log-lattice",
+   "title": "Logarithm lattice",
+   "url": "https://undergroundmathematics.org/exp-and-log/log-lattice",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 6986,
+   "isReviewQuestion": false,
+   "description": "This resource asks students to arrange some logarithms in size order and complete a grid. Students have to think about different bases as well as logarithms of different numbers. The task starts with specific numbers but can be generalised to thinking about increasing and decreasing logarithmic functions.",
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 927,
+     "relationship": "Forward",
+     "title": "Logarithm lineup",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/log-lineup"
+    }
+   ],
+   "keyphraseIds": [
+    55,
+    88,
+    109,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/log-lattice/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 927,
+   "friendlyName": "log-lineup",
+   "title": "Logarithm lineup",
+   "url": "https://undergroundmathematics.org/exp-and-log/log-lineup",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 5820,
+   "isReviewQuestion": false,
+   "description": "This can be used as a follow-up to 'Logarithm lattice' or can be used on its own. Students are challenged to arrange a set of log expressions in ascending order.",
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 36,
+     "relationship": "Back",
+     "title": "Changing bases",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/changing-bases"
+    },
+    {
+     "resourceId": 385,
+     "relationship": "Around",
+     "title": "Which is the largest of these four logarithms?",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7231"
+    },
+    {
+     "resourceId": 883,
+     "relationship": "Back",
+     "title": "Logarithm lattice",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/log-lattice"
+    }
+   ],
+   "keyphraseIds": [
+    55,
+    73,
+    109,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/log-lineup/assets/partially-sorted-cards.png",
+    "/exp-and-log/log-lineup/components/cards.pdf",
+    "/exp-and-log/log-lineup/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1144,
+   "friendlyName": "plotting-planets",
+   "title": "Plotting the planets",
+   "url": "https://undergroundmathematics.org/exp-and-log/plotting-planets",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Developing",
+   "ref": 9799,
+   "isReviewQuestion": false,
+   "description": "Students are asked to plot graphs of data about the Solar System to find lines of best fit. Logarithms are required to linearise the data and the modelled relationships are linked back to theoretical models used in astronomy.",
+   "keyQuestions": [
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    130,
+    132,
+    167
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/plotting-planets/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 928,
+   "friendlyName": "proving-laws-of-logs",
+   "title": "Proving the laws of logarithms",
+   "url": "https://undergroundmathematics.org/exp-and-log/proving-laws-of-logs",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 6156,
+   "isReviewQuestion": false,
+   "description": "Starting with some numeric examples of log laws, students are asked to generalise and then arrange and complete a set of cards to form a proof of one of the laws. This can be extended to cover the other log laws hence encouraging students to understand why they are true.",
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    110,
+    132,
+    171
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/exp-and-log/proving-laws-of-logs/components/cards.pdf",
+    "/exp-and-log/proving-laws-of-logs/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 488,
+   "friendlyName": "r5080",
+   "title": "Which is the smallest of these surd, log and trig expressions?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5080",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5080,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 365,
+   "friendlyName": "r5103",
+   "title": "How many roots are there to $x=8^{\\log_2x} -9^{\\log_3x}-4^{\\log_2x}+\\log_{0.5}{0.25}$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5103",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5103,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1071,
+   "friendlyName": "r5156",
+   "title": "If we arrange $2^x, 2x$ and $x^2$ by size, what orders are possible?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5156",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5156,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 56,
+     "content": "What are exponential growth and decay?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 29,
+     "relationship": "Around",
+     "title": "How fast does it grow?",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/how-fast-does-it-grow"
+    }
+   ],
+   "keyphraseIds": [
+    77,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2014,
+    "questions": [
+     "Q23"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 504,
+   "friendlyName": "r5462",
+   "title": "Can we solve these three simultaneous log equations?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5462",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5462,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 467,
+   "friendlyName": "r5940",
+   "title": "Can we solve these simultaneous exponential equations?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5940",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5940,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1975,
+    "questions": [
+     "Q2b"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 339,
+   "friendlyName": "r6045",
+   "title": "How large is $2^{100}$, and what is its starting digit?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r6045",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6045,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 487,
+   "friendlyName": "r6414",
+   "title": "When does this inequality have a finite number of integer solutions?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r6414",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6414,
+   "isReviewQuestion": true,
+   "description": "",
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 897,
+   "friendlyName": "r6806",
+   "title": "If $yz=a^2$, can we prove that $1/(a+y) + 1/(a+z) = 1/a$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r6806",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6806,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    105,
+    132,
+    167,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1 and Pure Mathematics 1",
+    "paperCode": "417/1 and 447/1",
+    "year": 1963,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 258,
+   "friendlyName": "r7015",
+   "title": "Given this log equation, when can $a$ be largest?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7015",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7015,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    68,
+    132,
+    136
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 409,
+   "friendlyName": "r7184",
+   "title": "Which of these log and trig expressions is the largest?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7184",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7184,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 385,
+   "friendlyName": "r7231",
+   "title": "Which is the largest of these four logarithms?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7231",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7231,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 927,
+     "relationship": "Around",
+     "title": "Logarithm lineup",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/log-lineup"
+    }
+   ],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1E"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 300,
+   "friendlyName": "r7298",
+   "title": "Can we find these log expressions in terms of $\\log_9 x$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7298",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7298,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1966,
+    "questions": [
+     "Q5(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 384,
+   "friendlyName": "r7384",
+   "title": "When does $9^x - 3^{x+1} = k$ have one or more real solutions?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7384",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7384,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    77,
+    178
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 602,
+   "friendlyName": "r7471",
+   "title": "Can we use the laws of logs to find $x$ and $y$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7471",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7471,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1960,
+    "questions": [
+     "Q6(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 677,
+   "friendlyName": "r7606",
+   "title": "How many real roots does $8^x+4=4^x+2^{x+2}$ have?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7606",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7606,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    77
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 747,
+   "friendlyName": "r7845",
+   "title": "Can we solve $ \\log_3 x + 2 \\log_x 3 = -3$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7845",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7845,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1978,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 653,
+   "friendlyName": "r8013",
+   "title": "When does this exponential function equal this linear one?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r8013",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8013,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 56,
+     "content": "What are exponential growth and decay?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "184",
+    "year": 1953,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 875,
+   "friendlyName": "r8260",
+   "title": "Can we solve the equation $\\log_2 x + \\log_3 x = 1 + \\log_4 x$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r8260",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8260,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "842/1",
+    "year": 1973,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 756,
+   "friendlyName": "r9366",
+   "title": "Can we find $a$ and $b$ as powers of $10$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9366",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9366,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "R826",
+    "year": 1975,
+    "questions": [
+     "Q2(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 346,
+   "friendlyName": "r9381",
+   "title": "Can we find bounds for $\\log_2 3$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9381",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9381,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 58,
+     "content": "How are logarithms used?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 393,
+   "friendlyName": "r9680",
+   "title": "Which of these four log expressions is the smallest?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9680",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9680,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 260,
+   "friendlyName": "r9747",
+   "title": "Can we use $\\log_{10}$ to find the first digit of $3^{100}$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9747",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9747,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2000,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 610,
+   "friendlyName": "r9976",
+   "title": "Can we evaluate  these log expressions without using a calculator?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r9976",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9976,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    78,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative A Algebra",
+    "paperCode": "450/3",
+    "year": 1973,
+    "questions": [
+     "Q6(i)",
+     "Q6(iii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 30,
+   "friendlyName": "reach-for-the-stars",
+   "title": "Reach for the stars",
+   "url": "https://undergroundmathematics.org/exp-and-log/reach-for-the-stars",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 8561,
+   "isReviewQuestion": false,
+   "description": "This task puts an exponential graph alongside some real-world (and some extra-terrestrial) objects as a way of exploring how fast exponential growth can be.",
+   "keyQuestions": [
+    {
+     "id": 56,
+     "content": "What are exponential growth and decay?"
+    },
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    73,
+    77,
+    132,
+    139,
+    306
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/reach-for-the-stars/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 39,
+   "friendlyName": "rediscovering-log-mercator",
+   "title": "Re-discovering the logarithm—Mercator",
+   "url": "https://undergroundmathematics.org/exp-and-log/rediscovering-log-mercator",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 5075,
+   "isReviewQuestion": false,
+   "description": "Some discussion about how in the seventeenth century Nicolaus Mercator discovered a series expansion for the natural logarithm.",
+   "keyQuestions": [
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 33,
+   "friendlyName": "see-the-power",
+   "title": "See the power",
+   "url": "https://undergroundmathematics.org/exp-and-log/see-the-power",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 5984,
+   "isReviewQuestion": false,
+   "description": "This problem is an introduction to logarithms, without formally defining them or even using the word.\nStudents are asked to estimate the power of ten needed to achieve a given value and hence solve an equation.",
+   "keyQuestions": [
+    {
+     "id": 56,
+     "content": "What are exponential growth and decay?"
+    },
+    {
+     "id": 57,
+     "content": "How are the exponential and logarithmic functions related?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 31,
+     "relationship": "Forward",
+     "title": "1950s calculators",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/calculators1950"
+    }
+   ],
+   "keyphraseIds": [
+    77,
+    110,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/see-the-power/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 32,
+   "friendlyName": "summing-to-one",
+   "title": "Summing to one",
+   "url": "https://undergroundmathematics.org/exp-and-log/summing-to-one",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 5170,
+   "isReviewQuestion": false,
+   "description": "This task explores the behaviour of logarithms to different bases, by asking for solutions to equations in which sums of logarithms are equal to one.",
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 36,
+     "relationship": "Around",
+     "title": "Changing bases",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/changing-bases"
+    }
+   ],
+   "keyphraseIds": [
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/exp-and-log/summing-to-one/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 915,
+   "friendlyName": "to-log-or-not-to-log",
+   "title": "To log or not to log?",
+   "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Developing",
+   "ref": 5413,
+   "isReviewQuestion": false,
+   "description": "Students are asked to sort a collection of equations (involving exponentials) according to the tools and methods required to solve them. Just because there is an exponential, you don't always have to use logarithms...",
+   "keyQuestions": [
+    {
+     "id": 59,
+     "content": "How can we rewrite expressions involving logarithms?"
+    },
+    {
+     "id": 60,
+     "content": "What sorts of equations can we solve using logarithms?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    77,
+    110,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log-teacher-support",
+    "sections": []
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/exp-and-log/to-log-or-not-to-log/components/cards.pdf",
+    "/exp-and-log/to-log-or-not-to-log/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1180,
+   "friendlyName": "to-log-or-not-to-log-teacher-support",
+   "title": "To log or not to log - teacher support",
+   "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 8629,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

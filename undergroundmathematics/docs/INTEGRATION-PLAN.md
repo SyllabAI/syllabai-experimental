@@ -100,12 +100,31 @@ worth doing regardless of any Mode-3 outcome.
       done 2026-10-22: 623 acks processed, 572 parsed (569 review + 3),
       boards/years/labels structured; S1 join key ready
 
-### P3b — enrichment data (this repo) `[ ]`
-- [ ] station→line→key-question→pervasive-idea relation graph export
-      (JSON, one node/edge table)
-- [ ] per-station **enrichment sheet**: resource inventory with type,
+### P3b — enrichment data (this repo) `[x]`
+- [x] station→line→key-question→pervasive-idea relation graph export
+      (JSON, one node/edge table) — done 2026-10-22:
+      `resources/derived/relation-graph.json` — 1,295 nodes / 7,783 edges
+      across 8 node kinds (station 29, line 5, key-question 113,
+      pervasive-idea 6, resource-type 14, tag 11, resource 855,
+      keyphrase 262 unresolved) and 9 edge relations (passes-through 64,
+      belongs-to 855, has-type 855, addresses 1,530, sits-on 1,272,
+      illustrates 331, related-to 290 unique [Around/Back/Forward],
+      tagged 300, keyphrased 2,286); GraphML twin
+      `relation-graph.graphml`; raw per-axis captures in
+      `resources/derived/relations/`. Key discovery: all six
+      per-resource relation endpoints are anonymously readable
+      (`/api/resources/{id}/…`, 5,130 calls, 0 failures)
+- [x] per-station **enrichment sheet**: resource inventory with type,
       level, key questions, has-teacher-support, asset links — the
-      catalog a course designer consumes
+      catalog a course designer consumes — done 2026-10-22:
+      `resources/derived/enrichment-sheets/{station}.json` (25 sheets,
+      855 resources) + `INDEX.md`; each resource carries type, level,
+      key questions, lines, pervasive ideas, tags, related resources,
+      teacher-support presence+sections, question-well source, asset
+      links, provenance tuple and interactivity labels; station-level
+      counts include KQ coverage (111/113 key questions addressed corpus-
+      wide). Consumes ugm-clean (wells), content (teacher support),
+      content-assets, review-question-provenance, relation graph
 
 ### P3c — spine cross-map pilot (this repo + `syllabai-resources`) `[x]`
 - [x] export lane list + item inventory for **one IAL Pure lane**

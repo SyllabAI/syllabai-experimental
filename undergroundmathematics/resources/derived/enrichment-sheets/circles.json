@@ -1,0 +1,2993 @@
+{
+ "station": {
+  "id": 5,
+  "friendlyId": "circles",
+  "title": "Circles",
+  "guidingQuestion": "What are some interesting properties of circles?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 47,
+  "reviewQuestions": 35,
+  "resourcesWithKeyQuestions": 47,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 23,
+  "withTeacherSupport": 1,
+  "withAssets": 9,
+  "withProvenance": 36
+ },
+ "keyQuestions": [
+  {
+   "id": 21,
+   "number": 1,
+   "friendlyName": "angle-measurement",
+   "content": "How are circles and angle measurement related?"
+  },
+  {
+   "id": 134,
+   "number": 2,
+   "friendlyName": "arcs-sectors",
+   "content": "How can we find the arc length and area of sectors of circles?"
+  },
+  {
+   "id": 135,
+   "number": 3,
+   "friendlyName": "cartesian-form",
+   "content": "How can we use the Cartesian equation of a circle?"
+  },
+  {
+   "id": 137,
+   "number": 4,
+   "friendlyName": "circle-theorems",
+   "content": "How are circle theorems useful?"
+  },
+  {
+   "id": 136,
+   "number": 5,
+   "friendlyName": "circle-generalisations",
+   "content": "In what ways can circles be generalised?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 215,
+   "friendlyName": "belt",
+   "title": "Belt",
+   "url": "https://undergroundmathematics.org/circles/belt",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8393,
+   "isReviewQuestion": false,
+   "description": "This resource brings together a range of geometric and algebraic ideas associated with circles.",
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    11,
+    12,
+    175,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/circles/belt/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1057,
+   "friendlyName": "cones",
+   "title": "Cones",
+   "url": "https://undergroundmathematics.org/circles/cones",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 9266,
+   "isReviewQuestion": false,
+   "description": "This resource poses a straight-forward question about the volume of part of a cone, and provides a structured approach to solving the problem in a number of different ways.",
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 217,
+     "relationship": "Forward",
+     "title": "Cutting spheres",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/cutting-spheres"
+    }
+   ],
+   "keyphraseIds": [
+    40,
+    186,
+    206,
+    222,
+    275
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/circles/cones/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 225,
+   "friendlyName": "conic-sections-in-real-life",
+   "title": "Conic sections in real life",
+   "url": "https://undergroundmathematics.org/circles/conic-sections-in-real-life",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9217,
+   "isReviewQuestion": false,
+   "description": "This resource introduces the idea of graphs from the conic sections and gives an example of how they can be used in real life.",
+   "keyQuestions": [
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 188,
+     "relationship": "Back",
+     "title": "Cartesian coordinates",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/cartesian-coordinates"
+    }
+   ],
+   "keyphraseIds": [
+    31,
+    40,
+    42,
+    68,
+    101,
+    148
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 217,
+   "friendlyName": "cutting-spheres",
+   "title": "Cutting spheres",
+   "url": "https://undergroundmathematics.org/circles/cutting-spheres",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7101,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    },
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1057,
+     "relationship": "Back",
+     "title": "Cones",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/cones"
+    }
+   ],
+   "keyphraseIds": [
+    13,
+    213,
+    222
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/circles/cutting-spheres/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 115,
+   "friendlyName": "elliptical-crossings",
+   "title": "Elliptical crossings",
+   "url": "https://undergroundmathematics.org/circles/elliptical-crossings",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 7710,
+   "isReviewQuestion": false,
+   "description": "Students are asked to describe the behaviour of the midpoint of the line segment formed by the intersection of a straight line with a particular ellipse.",
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 97,
+     "relationship": "Back",
+     "title": "Parabella",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/parabella"
+    }
+   ],
+   "keyphraseIds": [
+    42,
+    68,
+    120,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/circles/elliptical-crossings/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 195,
+   "friendlyName": "finding-circles",
+   "title": "Finding circles",
+   "url": "https://undergroundmathematics.org/circles/finding-circles",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 6917,
+   "isReviewQuestion": false,
+   "description": "This resource encourages students to consider how many points are required to define a circle. They will work with the graphical and algebraic representations of circles.",
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 526,
+     "relationship": "Forward",
+     "title": "Can we find the tangents to this circle from the origin?",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/r5903"
+    }
+   ],
+   "keyphraseIds": [
+    31,
+    69,
+    158
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/circles/finding-circles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 201,
+   "friendlyName": "olympic-rings",
+   "title": "Olympic rings",
+   "url": "https://undergroundmathematics.org/circles/olympic-rings",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Developing",
+   "ref": 8681,
+   "isReviewQuestion": false,
+   "description": "Students are asked to create an image of the Olympic rings using graph software. They will use the equation of the circle and can be encouraged to think about how it can be transformed to create the desired image.",
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 200,
+     "relationship": "Around",
+     "title": "Pairs of circles",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/pairs-of-circles"
+    }
+   ],
+   "keyphraseIds": [
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/circles/olympic-rings/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 200,
+   "friendlyName": "pairs-of-circles",
+   "title": "Pairs of circles",
+   "url": "https://undergroundmathematics.org/circles/pairs-of-circles",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 9580,
+   "isReviewQuestion": false,
+   "description": "In this resource students are invited to use graphing software to recreate an image involving inscribed triangles and circles. They practise using and manipulating the equation of a circle and have to think about the graphical representations of these. Geometrical reasoning is encouraged to simplify the problem.",
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 201,
+     "relationship": "Around",
+     "title": "Olympic rings",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/olympic-rings"
+    }
+   ],
+   "keyphraseIds": [
+    13,
+    69,
+    94,
+    120,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/circles/pairs-of-circles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 658,
+   "friendlyName": "r5624",
+   "title": "Can we find the equations of two circles that touch another?",
+   "url": "https://undergroundmathematics.org/circles/r5624",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5624,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "417/2",
+    "year": 1958,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 441,
+   "friendlyName": "r5717",
+   "title": "Can we show that these four points lie on a circle?",
+   "url": "https://undergroundmathematics.org/circles/r5717",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5717,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1987,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1145,
+   "friendlyName": "r5754",
+   "title": "What is the locus of these points fixed to a rod?",
+   "url": "https://undergroundmathematics.org/circles/r5754",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5754,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    68,
+    131,
+    152
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "840/0",
+    "year": 1979,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 993,
+   "friendlyName": "r5777",
+   "title": "Can we find the equation of the inscribed circle of the triangle $ABC$?",
+   "url": "https://undergroundmathematics.org/circles/r5777",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5777,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    33,
+    34,
+    107,
+    108,
+    224
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1985,
+    "questions": [
+     "Q13"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 526,
+   "friendlyName": "r5903",
+   "title": "Can we find the tangents to this circle from the origin?",
+   "url": "https://undergroundmathematics.org/circles/r5903",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5903,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 195,
+     "relationship": "Back",
+     "title": "Finding circles",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/finding-circles"
+    }
+   ],
+   "keyphraseIds": [
+    69,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2 and Pure Mathematics 2",
+    "paperCode": "417/2 and 447/2",
+    "year": 1963,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 647,
+   "friendlyName": "r6100",
+   "title": "Can we show that these two circles touch?",
+   "url": "https://undergroundmathematics.org/circles/r6100",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6100,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1986,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 708,
+   "friendlyName": "r6164",
+   "title": "What's the area of this square if it sits in this sector?",
+   "url": "https://undergroundmathematics.org/circles/r6164",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6164,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    11,
+    16
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "General Mathematics 1",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 256,
+   "friendlyName": "r6390",
+   "title": "Can we show these two circles lie entirely outside each other?",
+   "url": "https://undergroundmathematics.org/circles/r6390",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6390,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "185",
+    "year": 1953,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 413,
+   "friendlyName": "r6645",
+   "title": "If $x^2+y^2\\leq1$, when does $x+y$ have a maximum?",
+   "url": "https://undergroundmathematics.org/circles/r6645",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6645,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    101,
+    136,
+    194
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 845,
+   "friendlyName": "r6838",
+   "title": "What's the shared area for these two circles?",
+   "url": "https://undergroundmathematics.org/circles/r6838",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6838,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    16
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/circles/r6838/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1982,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 550,
+   "friendlyName": "r7171",
+   "title": "Where do this pair of tangents to a circle meet?",
+   "url": "https://undergroundmathematics.org/circles/r7171",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7171,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1970,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 865,
+   "friendlyName": "r7385",
+   "title": "How much of this log is below the surface?",
+   "url": "https://undergroundmathematics.org/circles/r7385",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7385,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 21,
+     "content": "How are circles and angle measurement related?"
+    },
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    11,
+    15,
+    16,
+    51
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1986,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 996,
+   "friendlyName": "r7495",
+   "title": "What's the area inside both the circle $C$ and the triangle $T$?",
+   "url": "https://undergroundmathematics.org/circles/r7495",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7495,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 21,
+     "content": "How are circles and angle measurement related?"
+    },
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    },
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    16,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 720,
+   "friendlyName": "r7549",
+   "title": "Can we show this quartic equation has exactly two real roots?",
+   "url": "https://undergroundmathematics.org/circles/r7549",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7549,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    181,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 2",
+    "paperCode": "9210/2",
+    "year": 1980,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1036,
+   "friendlyName": "r7599",
+   "title": "When does the origin lie inside this circle?",
+   "url": "https://undergroundmathematics.org/circles/r7599",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7599,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69,
+    112,
+    147
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 418,
+   "friendlyName": "r7656",
+   "title": "Can we show that (circle area)/(triangle area) $\\geq \\pi$?",
+   "url": "https://undergroundmathematics.org/circles/r7656",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7656,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 21,
+     "content": "How are circles and angle measurement related?"
+    },
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    15,
+    31,
+    32,
+    33,
+    34,
+    69,
+    160,
+    186
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 611,
+   "friendlyName": "r7816",
+   "title": "Can we find the ratio of the areas of these two sectors?",
+   "url": "https://undergroundmathematics.org/circles/r7816",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7816,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    93
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1976,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 812,
+   "friendlyName": "r7925",
+   "title": "What can we say if two circles cut at right angles?",
+   "url": "https://undergroundmathematics.org/circles/r7925",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7925,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    197,
+    198
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Special paper",
+    "paperCode": "417/0",
+    "year": 1965,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 556,
+   "friendlyName": "r7937",
+   "title": "What area do these intersecting circles share?",
+   "url": "https://undergroundmathematics.org/circles/r7937",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7937,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    16,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1970,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 493,
+   "friendlyName": "r7979",
+   "title": "When does a circle touch a parabola twice?",
+   "url": "https://undergroundmathematics.org/circles/r7979",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7979,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    32,
+    94,
+    148
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 995,
+   "friendlyName": "r8051",
+   "title": "Can we show the locus of the midpoint of $PQ$ is an ellipse?",
+   "url": "https://undergroundmathematics.org/circles/r8051",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8051,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    68,
+    131
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1972,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 345,
+   "friendlyName": "r8216",
+   "title": "Can we find the circles through the points where two ellipses meet?",
+   "url": "https://undergroundmathematics.org/circles/r8216",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8216,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 112,
+     "relationship": "Around",
+     "title": "Quadratic symmetry",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/quad-symmetry"
+    }
+   ],
+   "keyphraseIds": [
+    68,
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2002,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 595,
+   "friendlyName": "r8225",
+   "title": "Can we find the area between three touching circles?",
+   "url": "https://undergroundmathematics.org/circles/r8225",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8225,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    16,
+    175,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C",
+    "paperCode": "187",
+    "year": 1954,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 683,
+   "friendlyName": "r8275",
+   "title": "Which point on this circle is closest to the origin?",
+   "url": "https://undergroundmathematics.org/circles/r8275",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8275,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    62,
+    147
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 668,
+   "friendlyName": "r8419",
+   "title": "Can we find the two circles that satisfy these three conditions?",
+   "url": "https://undergroundmathematics.org/circles/r8419",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8419,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2 and Pure Mathematics 2",
+    "paperCode": "417/2 and 447/2",
+    "year": 1966,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 264,
+   "friendlyName": "r8509",
+   "title": "What can we deduce if the loci traced out by two points touch?",
+   "url": "https://undergroundmathematics.org/circles/r8509",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8509,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69,
+    131,
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "181",
+    "year": 1955,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 312,
+   "friendlyName": "r8946",
+   "title": "Can we find the areas enclosed between a circle and its tangent?",
+   "url": "https://undergroundmathematics.org/circles/r8946",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8946,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 21,
+     "content": "How are circles and angle measurement related?"
+    },
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    15,
+    16,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1001,
+   "friendlyName": "r9028",
+   "title": "When does this area within a circle have a maximum value?",
+   "url": "https://undergroundmathematics.org/circles/r9028",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9028,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 21,
+     "content": "How are circles and angle measurement related?"
+    },
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    16,
+    136,
+    224
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 657,
+   "friendlyName": "r9045",
+   "title": "If $AQ:QP=\\lambda:1$, can we show $Q$ lies on a  circle?",
+   "url": "https://undergroundmathematics.org/circles/r9045",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9045,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 196,
+     "relationship": "Back",
+     "title": "The circle of Apollonius... coordinate edition",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/the-circle-of-apollonius-coordinate-edition"
+    }
+   ],
+   "keyphraseIds": [
+    31,
+    32,
+    131,
+    152,
+    207
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "181",
+    "year": 1954,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 573,
+   "friendlyName": "r9368",
+   "title": "Given three clues, can we find the equation of this circle?",
+   "url": "https://undergroundmathematics.org/circles/r9368",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9368,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1968,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 506,
+   "friendlyName": "r9386",
+   "title": "Can we find the area bounded by these two graphs?",
+   "url": "https://undergroundmathematics.org/circles/r9386",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9386,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    },
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    15,
+    16,
+    31,
+    189,
+    208,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 636,
+   "friendlyName": "r9423",
+   "title": "If we know the difference in their areas, how big are these sectors?",
+   "url": "https://undergroundmathematics.org/circles/r9423",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9423,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    11,
+    16
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1979,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 391,
+   "friendlyName": "r9452",
+   "title": "Which point on the first circle is closest to the second?",
+   "url": "https://undergroundmathematics.org/circles/r9452",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9452,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    93,
+    207,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 688,
+   "friendlyName": "r9551",
+   "title": "Given two lines crossing a circle, can we show these lengths are equal?",
+   "url": "https://undergroundmathematics.org/circles/r9551",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9551,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    70,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 262,
+   "friendlyName": "r9768",
+   "title": "What's the locus of $(p, q)$ if the length of this tangent equals $p$?",
+   "url": "https://undergroundmathematics.org/circles/r9768",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9768,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    },
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    },
+    {
+     "id": 137,
+     "content": "How are circle theorems useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69,
+    131,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "9200/1",
+    "year": 1980,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 997,
+   "friendlyName": "sector-spirals",
+   "title": "Sector spirals",
+   "url": "https://undergroundmathematics.org/circles/sector-spirals",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Introducing",
+   "ref": 8478,
+   "isReviewQuestion": false,
+   "description": "Students are asked to calculate a selection of arc lengths and sector areas in a given diagram. They are also encouraged to think about how adaptations to the diagram affect these values and to think about the special case where arc length is equal to sector area.",
+   "keyQuestions": [
+    {
+     "id": 21,
+     "content": "How are circles and angle measurement related?"
+    },
+    {
+     "id": 134,
+     "content": "How can we find the arc length and area of sectors of circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    11,
+    16,
+    305
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/circles/sector-spirals/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 198,
+   "friendlyName": "teddy-bear",
+   "title": "Teddy bear",
+   "url": "https://undergroundmathematics.org/circles/teddy-bear",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 6355,
+   "isReviewQuestion": false,
+   "description": "Students are invited to match some circles on a graph with their equations. The circles are drawn to scale, but the axes are not labelled. For detailed notes on this resource, please see [Teddy bear - teacher support](/circles/teddy-bear-teacher-support).",
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/circles/teddy-bear-teacher-support",
+    "sections": [
+     "Outline",
+     "Opportunities for learning",
+     "Preliminary and follow-up tasks",
+     "Video clips"
+    ]
+   },
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 199,
+   "friendlyName": "teddy-bear-teacher-support",
+   "title": "Teddy bear - teacher support",
+   "url": "https://undergroundmathematics.org/circles/teddy-bear-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 5663,
+   "isReviewQuestion": false,
+   "description": "Detailed notes for Teddy bear, produced as part of an ongoing research project in collaboration with teachers.",
+   "keyQuestions": [
+    {
+     "id": 135,
+     "content": "How can we use the Cartesian equation of a circle?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    281
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 232,
+   "friendlyName": "where-are-you",
+   "title": "Where are you?",
+   "url": "https://undergroundmathematics.org/circles/where-are-you",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6870,
+   "isReviewQuestion": false,
+   "description": "This resources provides an introduction to finding your position using lines of lattitude and longitude.",
+   "keyQuestions": [
+    {
+     "id": 21,
+     "content": "How are circles and angle measurement related?"
+    },
+    {
+     "id": 136,
+     "content": "In what ways can circles be generalised?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 207,
+     "relationship": "Forward",
+     "title": "Lost but lovely: the haversine",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine"
+    },
+    {
+     "resourceId": 249,
+     "relationship": "Forward",
+     "title": "Calculating latitude",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/calculating-latitude"
+    },
+    {
+     "resourceId": 250,
+     "relationship": "Forward",
+     "title": "The longitude problem",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/the-longitude-problem"
+    }
+   ],
+   "keyphraseIds": [
+    46,
+    125,
+    134
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

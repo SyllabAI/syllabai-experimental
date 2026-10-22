@@ -1,0 +1,1743 @@
+{
+ "station": {
+  "id": 16,
+  "friendlyId": "introducing-calculus",
+  "title": "Introducing Calculus",
+  "guidingQuestion": "Why did calculus develop and how might we use it?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 27,
+  "reviewQuestions": 11,
+  "resourcesWithKeyQuestions": 27,
+  "keyQuestionsCovered": 4,
+  "keyQuestionsTotal": 4,
+  "resourcesWithPervasiveIdeas": 7,
+  "withTeacherSupport": 0,
+  "withAssets": 14,
+  "withProvenance": 15
+ },
+ "keyQuestions": [
+  {
+   "id": 70,
+   "number": 1,
+   "friendlyName": "why-is-gradient-useful",
+   "content": "What is the gradient of a curve and how might it be useful?"
+  },
+  {
+   "id": 71,
+   "number": 2,
+   "friendlyName": "area-under-curve",
+   "content": "What do we mean by the area 'under' a curve and what might it represent?"
+  },
+  {
+   "id": 72,
+   "number": 3,
+   "friendlyName": "rate-of-change",
+   "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+  },
+  {
+   "id": 73,
+   "number": 4,
+   "friendlyName": "features-of-graph-and-equation",
+   "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 729,
+   "friendlyName": "a-tangent-is",
+   "title": "A tangent is ...",
+   "url": "https://undergroundmathematics.org/introducing-calculus/a-tangent-is",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 9209,
+   "isReviewQuestion": false,
+   "description": "This resource is designed to provoke discussion and to help build up a sense of what a tangent is. Students are presented with several descriptions and asked to find or sketch an example to show that the proposed definition does not work for all curves.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 53,
+     "relationship": "Back",
+     "title": "Zooming in",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in"
+    },
+    {
+     "resourceId": 69,
+     "relationship": "Forward",
+     "title": "Binomials are the answer!",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer"
+    },
+    {
+     "resourceId": 728,
+     "relationship": "Forward",
+     "title": "Gradient spotting",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/gradient-spotting"
+    }
+   ],
+   "keyphraseIds": [
+    49,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/a-tangent-is/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": [
+    "geogebra"
+   ]
+  },
+  {
+   "id": 929,
+   "friendlyName": "approximating-areas",
+   "title": "Approximating areas",
+   "url": "https://undergroundmathematics.org/introducing-calculus/approximating-areas",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Developing",
+   "ref": 9188,
+   "isReviewQuestion": false,
+   "description": "Students are challenged to put four shaded areas in increasing order of size. This is a problem in which the concepts of area under a curve, over- and under-estimation, and the trapezium rule can be introduced.",
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 48,
+     "relationship": "Around",
+     "title": "Problem areas",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/problem-areas"
+    }
+   ],
+   "keyphraseIds": [
+    13,
+    73,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/approximating-areas/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 47,
+   "friendlyName": "average-speed",
+   "title": "Average speed",
+   "url": "https://undergroundmathematics.org/introducing-calculus/average-speed",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8281,
+   "isReviewQuestion": false,
+   "description": "This resource has two interesting situations that require students to think carefully about how average speed is calculated, and in turn, think about different types of averages.",
+   "keyQuestions": [
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    18,
+    22,
+    90,
+    212
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/introducing-calculus/average-speed/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 58,
+   "friendlyName": "discussing-distance",
+   "title": "Discussing distance",
+   "url": "https://undergroundmathematics.org/introducing-calculus/discussing-distance",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Introducing",
+   "ref": 7371,
+   "isReviewQuestion": false,
+   "description": "This resource asks students to decide what two unlabelled graphs represent. It goes on to ask students to think carefully about the difference between graphing distance and graphing displacement. Are the graphs always different?",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 59,
+     "relationship": "Forward",
+     "title": "Speed vs velocity",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/speed-vs-velocity"
+    },
+    {
+     "resourceId": 1141,
+     "relationship": "Forward",
+     "title": "Walk-sorting",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/walk-sorting"
+    }
+   ],
+   "keyphraseIds": [
+    61,
+    62,
+    212,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/discussing-distance/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 919,
+   "friendlyName": "gradient-match",
+   "title": "Gradient match",
+   "url": "https://undergroundmathematics.org/introducing-calculus/gradient-match",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 9607,
+   "isReviewQuestion": false,
+   "description": "A resource to get students thinking about the graphical links between a function and its gradient.  Students are given a set of sketch graphs and asked to pair them up as the graph of a function and the graph of its gradient function.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 762,
+     "relationship": "Forward",
+     "title": "Gradients of gradients",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/gradients-of-gradients"
+    },
+    {
+     "resourceId": 876,
+     "relationship": "Forward",
+     "title": "Estimating gradients",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/estimating-gradients"
+    },
+    {
+     "resourceId": 916,
+     "relationship": "Around",
+     "title": "Underneath the arches",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/underneath-the-arches"
+    },
+    {
+     "resourceId": 961,
+     "relationship": "Forward",
+     "title": "Trig gradient match",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/trig-gradient-match"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    94,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/gradient-match/components/cards.pdf",
+    "/introducing-calculus/gradient-match/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": [
+    "card-sort"
+   ]
+  },
+  {
+   "id": 49,
+   "friendlyName": "gradients-important-real-world",
+   "title": "Why are gradients important in the real world?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/gradients-important-real-world",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6272,
+   "isReviewQuestion": false,
+   "description": "An article that introduces the idea that any system that changes can be described using rates of change. These rates of change can be visualised as gradients of mathematical functions, so gradients play an important part in the real world.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    1,
+    62,
+    94,
+    185,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1129,
+   "friendlyName": "mapping-a-derivative",
+   "title": "Mapping a derivative",
+   "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 6509,
+   "isReviewQuestion": false,
+   "description": "Students are introduced to using mapping diagrams as a way to think about derivatives; this can later be used to prove the chain rule.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 53,
+     "relationship": "Around",
+     "title": "Zooming in",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in"
+    },
+    {
+     "resourceId": 69,
+     "relationship": "Around",
+     "title": "Binomials are the answer!",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer"
+    },
+    {
+     "resourceId": 1166,
+     "relationship": "Forward",
+     "title": "Chain mapping",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/chain-mapping"
+    },
+    {
+     "resourceId": 1176,
+     "relationship": "Back",
+     "title": "Mapping a function",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/mapping-a-function"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    88,
+    307
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/mapping-a-derivative/assets/mapping-diagrams-small.pdf",
+    "/introducing-calculus/mapping-a-derivative/assets/mapping-diagrams.pdf",
+    "/introducing-calculus/mapping-a-derivative/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 51,
+   "friendlyName": "newton-and-leibniz",
+   "title": "Newton and Leibniz",
+   "url": "https://undergroundmathematics.org/introducing-calculus/newton-and-leibniz",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 8473,
+   "isReviewQuestion": false,
+   "description": "Some brief thoughts on the relationship between these two great mathematicians.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 48,
+   "friendlyName": "problem-areas",
+   "title": "Problem areas",
+   "url": "https://undergroundmathematics.org/introducing-calculus/problem-areas",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7156,
+   "isReviewQuestion": false,
+   "description": "Students are asked to decide which of two functions has the greater area between $x = 1$ and $x = 2$ without using calculus. The functions share several key features, but one of the functions is not drawn for them, so students will have to sketch this function before thinking about the similarities and differences between the two.",
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 929,
+     "relationship": "Around",
+     "title": "Approximating areas",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/approximating-areas"
+    },
+    {
+     "resourceId": 951,
+     "relationship": "Forward",
+     "title": "Circular slice",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/circular-slice"
+    }
+   ],
+   "keyphraseIds": [
+    13,
+    73,
+    116,
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/problem-areas/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 598,
+   "friendlyName": "r5642",
+   "title": "When does the trapezium rule give the exact answer here?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r5642",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5642,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 603,
+   "friendlyName": "r5782",
+   "title": "At what time would these two trains meet?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r5782",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5782,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    61,
+    130,
+    212
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative B Paper 1",
+    "paperCode": "412/1",
+    "year": 1960,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 315,
+   "friendlyName": "r6592",
+   "title": "Can we use the trapezium rule to estimate this integral?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r6592",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6592,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91,
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1159,
+   "friendlyName": "r6841",
+   "title": "What is the stopping distance for this car?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r6841",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6841,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1078,
+     "relationship": "Forward",
+     "title": "Keep your distance",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/keep-your-distance"
+    }
+   ],
+   "keyphraseIds": [
+    1,
+    61,
+    71,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mechanics",
+    "paperCode": "710/1",
+    "year": 1960,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 604,
+   "friendlyName": "r7140",
+   "title": "What's the average speed of the second car?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7140",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7140,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative A Arithmetic",
+    "paperCode": "411/1",
+    "year": 1964,
+    "questions": [
+     "Q3(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 600,
+   "friendlyName": "r7250",
+   "title": "Can we calculate the total time taken for this car journey?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7250",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7250,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    },
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    61,
+    94,
+    130
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Syllabus D Paper 1",
+    "paperCode": "4004/1",
+    "year": 1982,
+    "questions": [
+     "Q29"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 967,
+   "friendlyName": "r7903",
+   "title": "Can the trapezium rule help us find the area under $y = x\\ln x$?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7903",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7903,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    10,
+    17,
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 1",
+    "paperCode": "852/1",
+    "year": 1973,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1118,
+   "friendlyName": "r7912",
+   "title": "Can we approximate the area under this sine curve?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7912",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7912,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    10,
+    17,
+    95,
+    209,
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "SMP Additional Mathematics 1",
+    "paperCode": "SMP 117",
+    "year": 1975,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1025,
+   "friendlyName": "r8140",
+   "title": "Can we apply the trapezium rule to $f(x) = x/2 - \\lfloor x/2 \\rfloor$?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r8140",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8140,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2015,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 350,
+   "friendlyName": "r9506",
+   "title": "When is this parabola's turning point nearest to the origin?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r9506",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9506,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    148,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1161,
+   "friendlyName": "r9586",
+   "title": "What is the acceleration of this particle?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r9586",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9586,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    1,
+    61,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1977,
+    "questions": [
+     "Q17"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 60,
+   "friendlyName": "rectangles-in-triangles",
+   "title": "Rectangles in triangles",
+   "url": "https://undergroundmathematics.org/introducing-calculus/rectangles-in-triangles",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 6214,
+   "isReviewQuestion": false,
+   "description": "This is a maximising problem that students are expected to tackle without calculus. Ideally students should be allowed the time to explore their own chosen approach before comparing its efficiency and accuracy to those of others.",
+   "keyQuestions": [
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    13,
+    136,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/rectangles-in-triangles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 57,
+   "friendlyName": "serpentine-lake",
+   "title": "Is the Serpentine Lake really 40 acres?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/serpentine-lake",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 8785,
+   "isReviewQuestion": false,
+   "description": "A ‘practical’ example to introduce the approximation of area using trapezia and the trapezium rule. It is claimed that the area of the Serpentine Lake is $40$ acres. Students are asked to test this claim by using a map of the lake and coordinates.",
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    10,
+    13,
+    17,
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/serpentine-lake/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 59,
+   "friendlyName": "speed-vs-velocity",
+   "title": "Speed vs velocity",
+   "url": "https://undergroundmathematics.org/introducing-calculus/speed-vs-velocity",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 7252,
+   "isReviewQuestion": false,
+   "description": "This resource asks students to sketch velocity-time graphs from displacement graphs, as well as vice versa, to develop an understanding of gradient functions and what the area under a curve can represent.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    },
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 58,
+     "relationship": "Back",
+     "title": "Discussing distance",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/discussing-distance"
+    },
+    {
+     "resourceId": 1141,
+     "relationship": "Forward",
+     "title": "Walk-sorting",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/walk-sorting"
+    }
+   ],
+   "keyphraseIds": [
+    17,
+    94,
+    185,
+    212,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/speed-vs-velocity/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 917,
+   "friendlyName": "talking-about-curves",
+   "title": "Talking about curves",
+   "url": "https://undergroundmathematics.org/introducing-calculus/talking-about-curves",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 9261,
+   "isReviewQuestion": false,
+   "description": "This investigation encourages students to look at curves with turning points and to think about the qualitative behaviour of their gradients.  How are the signs of the function and its gradient related?",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    94,
+    179,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/talking-about-curves/components/cards.pdf",
+    "/introducing-calculus/talking-about-curves/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 916,
+   "friendlyName": "underneath-the-arches",
+   "title": "Underneath the arches",
+   "url": "https://undergroundmathematics.org/introducing-calculus/underneath-the-arches",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 8638,
+   "isReviewQuestion": false,
+   "description": "Students are asked to use geometric features of sketch graphs to decide whether using the trapezium rule would give an underestimate or an overestimate.",
+   "keyQuestions": [
+    {
+     "id": 71,
+     "content": "What do we mean by the area 'under' a curve and what might it represent?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 918,
+     "relationship": "Around",
+     "title": "Choose your families",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/choose-your-families"
+    },
+    {
+     "resourceId": 919,
+     "relationship": "Around",
+     "title": "Gradient match",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/gradient-match"
+    }
+   ],
+   "keyphraseIds": [
+    10,
+    13,
+    231
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/underneath-the-arches/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1141,
+   "friendlyName": "walk-sorting",
+   "title": "Walk-sorting",
+   "url": "https://undergroundmathematics.org/introducing-calculus/walk-sorting",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 7870,
+   "isReviewQuestion": false,
+   "description": "This resource invites students to match displacement–time graphs with the corresponding velocity–time graphs and asks them to interpret them in a real context.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 72,
+     "content": "What do we mean by the rate of change of a physical quantity and how do we represent this?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 58,
+     "relationship": "Back",
+     "title": "Discussing distance",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/discussing-distance"
+    },
+    {
+     "resourceId": 59,
+     "relationship": "Back",
+     "title": "Speed vs velocity",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/speed-vs-velocity"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    61,
+    94,
+    116,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/introducing-calculus/walk-sorting/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 53,
+   "friendlyName": "zooming-in",
+   "title": "Zooming in",
+   "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Introducing",
+   "ref": 6920,
+   "isReviewQuestion": false,
+   "description": "This problem develops the idea that the gradient of a curve can be understood by zooming in to the graph. The collected results at the end can lead to a formula for the gradient function (derivative) of $x^2$.",
+   "keyQuestions": [
+    {
+     "id": 70,
+     "content": "What is the gradient of a curve and how might it be useful?"
+    },
+    {
+     "id": 73,
+     "content": "How can we make deeper connections between the appearance of a graph and the features of its equation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 69,
+     "relationship": "Forward",
+     "title": "Binomials are the answer!",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer"
+    },
+    {
+     "resourceId": 728,
+     "relationship": "Forward",
+     "title": "Gradient spotting",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/gradient-spotting"
+    },
+    {
+     "resourceId": 729,
+     "relationship": "Forward",
+     "title": "A tangent is ...",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/a-tangent-is"
+    },
+    {
+     "resourceId": 1129,
+     "relationship": "Around",
+     "title": "Mapping a derivative",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative"
+    }
+   ],
+   "keyphraseIds": [
+    94,
+    307
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/introducing-calculus/zooming-in/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

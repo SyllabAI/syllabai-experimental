@@ -1,0 +1,587 @@
+{
+ "station": {
+  "id": 15,
+  "friendlyId": "hyperbolic-functions",
+  "title": "Hyperbolic Functions",
+  "guidingQuestion": "What are hyperbolic functions and how are they useful?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 7,
+  "reviewQuestions": 1,
+  "resourcesWithKeyQuestions": 7,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 1,
+  "withTeacherSupport": 0,
+  "withAssets": 2,
+  "withProvenance": 1
+ },
+ "keyQuestions": [
+  {
+   "id": 65,
+   "number": 1,
+   "friendlyName": "how-defined",
+   "content": "How are hyperbolic sine and cosine defined?"
+  },
+  {
+   "id": 66,
+   "number": 2,
+   "friendlyName": "how-related",
+   "content": "How are hyperbolic functions related to each other and to circular trig functions?"
+  },
+  {
+   "id": 67,
+   "number": 3,
+   "friendlyName": "solve-equations",
+   "content": "How do we solve equations involving hyperbolic functions?"
+  },
+  {
+   "id": 68,
+   "number": 4,
+   "friendlyName": "differentiate",
+   "content": "How do we differentiate hyperbolic functions and their inverses?"
+  },
+  {
+   "id": 69,
+   "number": 5,
+   "friendlyName": "arc-length",
+   "content": "How can we measure arc length?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 42,
+   "friendlyName": "building-catenaries",
+   "title": "Building catenaries",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/building-catenaries",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6901,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 65,
+     "content": "How are hyperbolic sine and cosine defined?"
+    },
+    {
+     "id": 66,
+     "content": "How are hyperbolic functions related to each other and to circular trig functions?"
+    },
+    {
+     "id": 67,
+     "content": "How do we solve equations involving hyperbolic functions?"
+    },
+    {
+     "id": 68,
+     "content": "How do we differentiate hyperbolic functions and their inverses?"
+    },
+    {
+     "id": 69,
+     "content": "How can we measure arc length?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    27,
+    93
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 46,
+   "friendlyName": "from-parabolas-to-catenaries",
+   "title": "From parabolas to catenaries",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/from-parabolas-to-catenaries",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 7696,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 65,
+     "content": "How are hyperbolic sine and cosine defined?"
+    },
+    {
+     "id": 66,
+     "content": "How are hyperbolic functions related to each other and to circular trig functions?"
+    },
+    {
+     "id": 67,
+     "content": "How do we solve equations involving hyperbolic functions?"
+    },
+    {
+     "id": 68,
+     "content": "How do we differentiate hyperbolic functions and their inverses?"
+    },
+    {
+     "id": 69,
+     "content": "How can we measure arc length?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    27,
+    148
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 44,
+   "friendlyName": "how-long-is-a-piece-of-string",
+   "title": "How long is a piece of string?",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/how-long-is-a-piece-of-string",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 8320,
+   "isReviewQuestion": false,
+   "description": "In this resource students can use their prior knowledge of calculus from first principles to find a formula for arc length on both Cartesian and parametric curves.",
+   "keyQuestions": [
+    {
+     "id": 65,
+     "content": "How are hyperbolic sine and cosine defined?"
+    },
+    {
+     "id": 68,
+     "content": "How do we differentiate hyperbolic functions and their inverses?"
+    },
+    {
+     "id": 69,
+     "content": "How can we measure arc length?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    11,
+    27,
+    222
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/hyperbolic-functions/how-long-is-a-piece-of-string/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 662,
+   "friendlyName": "r9072",
+   "title": "Can we find this circle's integer and non-integer rational points?",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/r9072",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9072,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 65,
+     "content": "How are hyperbolic sine and cosine defined?"
+    },
+    {
+     "id": 66,
+     "content": "How are hyperbolic functions related to each other and to circular trig functions?"
+    },
+    {
+     "id": 67,
+     "content": "How do we solve equations involving hyperbolic functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    123,
+    188
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 45,
+   "friendlyName": "rolling-parabolas",
+   "title": "Rolling parabolas",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/rolling-parabolas",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 9182,
+   "isReviewQuestion": false,
+   "description": "This resource asks students to find the locus of the focus of a parabola if the parabola is rolled along the xx-axis.",
+   "keyQuestions": [
+    {
+     "id": 65,
+     "content": "How are hyperbolic sine and cosine defined?"
+    },
+    {
+     "id": 66,
+     "content": "How are hyperbolic functions related to each other and to circular trig functions?"
+    },
+    {
+     "id": 67,
+     "content": "How do we solve equations involving hyperbolic functions?"
+    },
+    {
+     "id": 68,
+     "content": "How do we differentiate hyperbolic functions and their inverses?"
+    },
+    {
+     "id": 69,
+     "content": "How can we measure arc length?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    27,
+    131,
+    148
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/hyperbolic-functions/rolling-parabolas/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 41,
+   "friendlyName": "square-wheels",
+   "title": "Square wheels",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/square-wheels",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6105,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 65,
+     "content": "How are hyperbolic sine and cosine defined?"
+    },
+    {
+     "id": 66,
+     "content": "How are hyperbolic functions related to each other and to circular trig functions?"
+    },
+    {
+     "id": 67,
+     "content": "How do we solve equations involving hyperbolic functions?"
+    },
+    {
+     "id": 68,
+     "content": "How do we differentiate hyperbolic functions and their inverses?"
+    },
+    {
+     "id": 69,
+     "content": "How can we measure arc length?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    27
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 40,
+   "friendlyName": "weight-pulling",
+   "title": "Weight pulling",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/weight-pulling",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8994,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 65,
+     "content": "How are hyperbolic sine and cosine defined?"
+    },
+    {
+     "id": 66,
+     "content": "How are hyperbolic functions related to each other and to circular trig functions?"
+    },
+    {
+     "id": 67,
+     "content": "How do we solve equations involving hyperbolic functions?"
+    },
+    {
+     "id": 68,
+     "content": "How do we differentiate hyperbolic functions and their inverses?"
+    },
+    {
+     "id": 69,
+     "content": "How can we measure arc length?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    27
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

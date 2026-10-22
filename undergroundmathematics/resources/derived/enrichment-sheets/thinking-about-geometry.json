@@ -1,0 +1,2365 @@
+{
+ "station": {
+  "id": 29,
+  "friendlyId": "thinking-about-geometry",
+  "title": "Thinking about Geometry",
+  "guidingQuestion": "How is geometric thinking useful?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 43,
+  "reviewQuestions": 22,
+  "resourcesWithKeyQuestions": 41,
+  "keyQuestionsCovered": 4,
+  "keyQuestionsTotal": 4,
+  "resourcesWithPervasiveIdeas": 9,
+  "withTeacherSupport": 2,
+  "withAssets": 16,
+  "withProvenance": 27
+ },
+ "keyQuestions": [
+  {
+   "id": 130,
+   "number": 1,
+   "friendlyName": "meaning-of-geometry",
+   "content": "What do we mean by geometry?"
+  },
+  {
+   "id": 131,
+   "number": 2,
+   "friendlyName": "pythagoras-theorem",
+   "content": "How can Pythagoras' Theorem be used?"
+  },
+  {
+   "id": 132,
+   "number": 3,
+   "friendlyName": "similar-triangles",
+   "content": "How are similar triangles useful?"
+  },
+  {
+   "id": 133,
+   "number": 4,
+   "friendlyName": "deductive-reasoning",
+   "content": "What can be deduced using our knowledge of simple shapes and angles?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 216,
+   "friendlyName": "a-limiting-circle-theorem",
+   "title": "A limiting circle theorem",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/a-limiting-circle-theorem",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 9833,
+   "isReviewQuestion": false,
+   "description": "This resource has a GeoGebra interactive to explore connections between circle theorems, and uses a geometric approach to limits.",
+   "keyQuestions": [
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    32,
+    127,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/a-limiting-circle-theorem/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 168,
+   "friendlyName": "all-about-ratios",
+   "title": "All about ratios",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/all-about-ratios",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Introducing",
+   "ref": 9387,
+   "isReviewQuestion": false,
+   "description": "These problems are ideal for practising an open-middled task where the method is not clear. Students can think about tackling the problem in several ways.",
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    186,
+    207
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/all-about-ratios/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 176,
+   "friendlyName": "distance-between-points",
+   "title": "Distance between points",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/distance-between-points",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Introducing",
+   "ref": 5575,
+   "isReviewQuestion": false,
+   "description": "A series of videos that show the stages in using Pythagoras' Theorem for finding the distance between two points.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 167,
+     "relationship": "Forward",
+     "title": "What type of triangle?",
+     "station": "thinking-about-geometry",
+     "url": "https://undergroundmathematics.org/thinking-about-geometry/what-type-of-triangle"
+    }
+   ],
+   "keyphraseIds": [
+    62,
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/thinking-about-geometry/distance-between-points-teacher-support",
+    "sections": []
+   },
+   "questionWell": null,
+   "assets": [
+    "/thinking-about-geometry/distance-between-points/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1108,
+   "friendlyName": "distance-between-points-teacher-support",
+   "title": "Distance between points - teacher support",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/distance-between-points-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 5094,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    46,
+    62,
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 13,
+   "friendlyName": "fermats-last-theorem",
+   "title": "Fermat's last theorem",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/fermats-last-theorem",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 8337,
+   "isReviewQuestion": false,
+   "description": "An article giving an overview of the history behind Fermat's Last Theorem.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    84,
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 181,
+   "friendlyName": "finding-triangles",
+   "title": "Finding triangles",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/finding-triangles",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 5908,
+   "isReviewQuestion": false,
+   "description": "Working through this exercise will consolidate understanding of similar triangles as well as reminding students of important points about scale factors with length and area. Some parts require manipulation of surds.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    13,
+    124,
+    155,
+    175,
+    197,
+    203,
+    207,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/finding-triangles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 175,
+   "friendlyName": "in-betweens",
+   "title": "In-betweens",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/in-betweens",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Introducing",
+   "ref": 8784,
+   "isReviewQuestion": false,
+   "description": "This invites students to find a point on a straight line between two other points. The problem can be tackled using many methods and should encourage reflection on the different approaches.",
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    119,
+    128,
+    207
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/in-betweens/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 170,
+   "friendlyName": "look-before-you-leap",
+   "title": "Look before you leap",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/look-before-you-leap",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 5162,
+   "isReviewQuestion": false,
+   "description": "A resource that encourages students to think about the multiple geometric approaches that could be taken to solve a problem presented in a single diagram.",
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    186,
+    207
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/look-before-you-leap/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 185,
+   "friendlyName": "napkin",
+   "title": "Napkin",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/napkin",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 7843,
+   "isReviewQuestion": false,
+   "description": "This resource offers a pretty starting point for looking at similar triangles. It can be used as a single closed problem which offers a chance for students to put together a logical chain of deduction or extended into a more open investigation.",
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    207
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/napkin/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 184,
+   "friendlyName": "perfect-fit",
+   "title": "A perfect fit",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/perfect-fit",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 9938,
+   "isReviewQuestion": false,
+   "description": "This problem requires students to develop a strong chain of reasoning as they are asked how they would construct a circle inside a right-angled triangle. As the problem develops there are opportunities to make connections between algebraic and geometric representations.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    41,
+    43,
+    107,
+    175,
+    207,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/perfect-fit/assets/table.pdf",
+    "/thinking-about-geometry/perfect-fit/components/suggestion-table.pdf",
+    "/thinking-about-geometry/perfect-fit/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 219,
+   "friendlyName": "pinning-down-pi",
+   "title": "Pinning down $\\pi$",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/pinning-down-pi",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 5124,
+   "isReviewQuestion": false,
+   "description": "An article that discusses the different approaches that mathematicians have used for approximating $\\pi$ throughout history.",
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    10,
+    160,
+    164
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/thinking-about-geometry/pinning-down-pi/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 178,
+   "friendlyName": "proving-pythag",
+   "title": "Proving Pythagoras",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/proving-pythag",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 8517,
+   "isReviewQuestion": false,
+   "description": "This resource provides four starting points for proofs of Pythagoras’ theorem. Students will need to finish off the arguments and compare and contrast them. This resource is useful for considering the merits of different arguments, and for reminding students of the importance of proof.",
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    },
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 183,
+     "relationship": "Forward",
+     "title": "The quintessential proof",
+     "station": "thinking-about-geometry",
+     "url": "https://undergroundmathematics.org/thinking-about-geometry/quintessential-proof"
+    }
+   ],
+   "keyphraseIds": [
+    171,
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/proving-pythag/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 171,
+   "friendlyName": "quadrature-of-the-lunes",
+   "title": "Quadrature of the lunes",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/quadrature-of-the-lunes",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8278,
+   "isReviewQuestion": false,
+   "description": "A problem that only requires basic geometrical knowledge leads to a slightly startling observation about the relationship between the areas of two shapes.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    175,
+    197,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/quadrature-of-the-lunes/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 183,
+   "friendlyName": "quintessential-proof",
+   "title": "The quintessential proof",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/quintessential-proof",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 6259,
+   "isReviewQuestion": false,
+   "description": "Students are invited to explore their understanding of similarity, before going on to give a proof of Pythagoras's theorem.  This argument is an excellent use of proportional reasoning, and can help students to get a sense of why Pythagoras's theorem is really true.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 178,
+     "relationship": "Back",
+     "title": "Proving Pythagoras",
+     "station": "thinking-about-geometry",
+     "url": "https://undergroundmathematics.org/thinking-about-geometry/proving-pythag"
+    }
+   ],
+   "keyphraseIds": [
+    175,
+    197,
+    207,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/quintessential-proof/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 591,
+   "friendlyName": "r5081",
+   "title": "Can we use similar triangles to find this side?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5081",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5081,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    207
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Syllabus D Paper 1",
+    "paperCode": "4024/1",
+    "year": 1987,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 293,
+   "friendlyName": "r5365",
+   "title": "Can we find $\\alpha$ if one length is twice another?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5365",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5365,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    62,
+    175,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1978,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 590,
+   "friendlyName": "r5386",
+   "title": "Can we show we have three corners of a rectangle?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5386",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5386,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    46
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "183",
+    "year": 1952,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 334,
+   "friendlyName": "r5442",
+   "title": "Can we show this triangle is right-angled and find its area?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5442",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5442,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    175,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1982,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1074,
+   "friendlyName": "r5492",
+   "title": "What fraction of the square is the pentagon?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5492",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5492,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    154,
+    214
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q23"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 265,
+   "friendlyName": "r5534",
+   "title": "Can we find a formula for an island's territorial waters?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5534",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5534,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    15,
+    164
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Cambridge Colleges",
+    "paper": "Examination for Entrance Scholarships Pure Mathematics (Group 2)",
+    "paperCode": null,
+    "year": 1952,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Colleges of the University of Cambridge",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1034,
+   "friendlyName": "r6223",
+   "title": "What is the length of one of the sides of this hexagon?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r6223",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6223,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    98,
+    124,
+    198,
+    214
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1083,
+   "friendlyName": "r6408",
+   "title": "What is the area of a square containing a regular hexagon?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r6408",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6408,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    13,
+    98,
+    150,
+    210,
+    214
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q21"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 628,
+   "friendlyName": "r6641",
+   "title": "Why is this quadrilateral a rhombus but not a square?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r6641",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6641,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    },
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    93,
+    175,
+    180
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI Additional Mathematics 1",
+    "paperCode": "MEI 109",
+    "year": 1974,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 562,
+   "friendlyName": "r6699",
+   "title": "Can we find the areas within the semicircles?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r6699",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6699,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI (St Dunstan's) Mathematics 2",
+    "paperCode": "MEI 82",
+    "year": 1972,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 563,
+   "friendlyName": "r6908",
+   "title": "How can we arrange regular polygons around a point?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r6908",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6908,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    164,
+    269
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI (St Dunstan's) Mathematics 2",
+    "paperCode": "MEI 82",
+    "year": 1972,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 566,
+   "friendlyName": "r7368",
+   "title": "What area needs to be searched to find the ship?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r7368",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7368,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI (St Dunstan's) Mathematics 2",
+    "paperCode": "MEI 82",
+    "year": 1972,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1091,
+   "friendlyName": "r7565",
+   "title": "What is the surface area of this cuboid?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r7565",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7565,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 8,
+     "title": "Dimensions",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    222
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q23"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 524,
+   "friendlyName": "r8022",
+   "title": "How far does this pool ball travel to reach the pocket?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r8022",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8022,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    207
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2006,
+    "questions": [
+     "Q21"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 521,
+   "friendlyName": "r8179",
+   "title": "What's the ratio of the circle's area to the square's area?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r8179",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8179,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/r8179/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Elementary Mathematics Alternative B Paper 2",
+    "paperCode": "47",
+    "year": 1954,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 575,
+   "friendlyName": "r8567",
+   "title": "What are the sides of this square and this triangle?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r8567",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8567,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    155,
+    176,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "N818",
+    "year": 1968,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 627,
+   "friendlyName": "r8917",
+   "title": "If these centres lie on a line, why is the triangle isosceles?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r8917",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8917,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    33,
+    93,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 1",
+    "paperCode": "437/1",
+    "year": 1959,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 664,
+   "friendlyName": "r9259",
+   "title": "What links this incircle and circumcircle?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r9259",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9259,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    34,
+    108,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2005,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 510,
+   "friendlyName": "r9585",
+   "title": "Can we find the point that divides a line in a given ratio?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r9585",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9585,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 568,
+   "friendlyName": "r9694",
+   "title": "If a cone sits on this sphere, what 's the cone's volume?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r9694",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9694,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    40,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI (St Dunstan's) Mathematics 1",
+    "paperCode": "MEI 81",
+    "year": 1972,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 333,
+   "friendlyName": "r9792",
+   "title": "Given two tangents to a circle, can we find these lengths?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r9792",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9792,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative B Paper 1",
+    "paperCode": "412/1",
+    "year": 1960,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1063,
+   "friendlyName": "r9973",
+   "title": "If a sphere contains this cuboid, what's the largest cube it can contain?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r9973",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9973,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 133,
+     "content": "What can be deduced using our knowledge of simple shapes and angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    213
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q23"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 169,
+   "friendlyName": "spider-fly-1",
+   "title": "The spider and the fly (Part 1)",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/spider-fly-1",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6580,
+   "isReviewQuestion": false,
+   "description": "This is a problem that requires students to find the shortest distance between two points in three dimensions. It should help them to practise visualising situations and to find all the different possibilities.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 116,
+     "relationship": "Forward",
+     "title": "The spider and the fly (Part 2)",
+     "station": "thinking-about-geometry",
+     "url": "https://undergroundmathematics.org/thinking-about-geometry/spider-fly-2"
+    }
+   ],
+   "keyphraseIds": [
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/spider-fly-1/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 116,
+   "friendlyName": "spider-fly-2",
+   "title": "The spider and the fly (Part 2)",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/spider-fly-2",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 5307,
+   "isReviewQuestion": false,
+   "description": "A follow on to Spider and the fly (Part 1) which requires a more general approach.",
+   "keyQuestions": [
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 169,
+     "relationship": "Back",
+     "title": "The spider and the fly (Part 1)",
+     "station": "thinking-about-geometry",
+     "url": "https://undergroundmathematics.org/thinking-about-geometry/spider-fly-1"
+    }
+   ],
+   "keyphraseIds": [
+    112,
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 255,
+   "friendlyName": "symmetry",
+   "title": "Symmetry",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/symmetry",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 8529,
+   "isReviewQuestion": false,
+   "description": "An article discussing the appearance of symmetry in mathematics, from simple lines of symmetry to group theory.",
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    96,
+    224
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 206,
+   "friendlyName": "triangles-are-the-strongest-shape",
+   "title": "Triangles are the strongest shape",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/triangles-are-the-strongest-shape",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9562,
+   "isReviewQuestion": false,
+   "description": "A short article that looks at the strength of triangles in two dimensions, and the Platonic solids in three dimensions. Includes a net for a flexible polyhedron that you can make.",
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    151,
+    165,
+    214,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/thinking-about-geometry/triangles-are-the-strongest-shape/assets/polyhedron-net.pdf",
+    "/thinking-about-geometry/triangles-are-the-strongest-shape/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 173,
+   "friendlyName": "what-geometry-means-to-me",
+   "title": "What geometry means to me",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/what-geometry-means-to-me",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 7691,
+   "isReviewQuestion": false,
+   "description": "A series of videos where an engineer, designer, mathematician and cosmologist answer the question - What does geometry mean to you?",
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    93
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 167,
+   "friendlyName": "what-type-of-triangle",
+   "title": "What type of triangle?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/what-type-of-triangle",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 6602,
+   "isReviewQuestion": false,
+   "description": "This resource offers plenty of practice at finding the distance between two points, but also looks at how you might reason your way to an answer without doing long calculations.",
+   "keyQuestions": [
+    {
+     "id": 130,
+     "content": "What do we mean by geometry?"
+    },
+    {
+     "id": 131,
+     "content": "How can Pythagoras' Theorem be used?"
+    },
+    {
+     "id": 132,
+     "content": "How are similar triangles useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 176,
+     "relationship": "Back",
+     "title": "Distance between points",
+     "station": "thinking-about-geometry",
+     "url": "https://undergroundmathematics.org/thinking-about-geometry/distance-between-points"
+    }
+   ],
+   "keyphraseIds": [
+    62,
+    175,
+    207,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/thinking-about-geometry/what-type-of-triangle-teacher-support",
+    "sections": []
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-geometry/what-type-of-triangle/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1112,
+   "friendlyName": "what-type-of-triangle-teacher-support",
+   "title": "What type of triangle? - teacher support",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/what-type-of-triangle-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 7884,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

@@ -96,3 +96,44 @@ booking), `/api/champion-applications*` (champion programme),
 `/api/stations` → loop `/api/stations/{id}/resources/all` (what
 `resources/api/all-resources.json` contains). Rate limiting: none observed
 at research volume (~30 calls, ~0.4 s spacing); keep it polite.
+
+## Phase-3b correction (2026-10-22, live-tested at corpus scale)
+
+The grouping above put the per-resource relation paths under
+"Resources (write + relations)" among auth-gated endpoints. **That is wrong
+for reads**: every per-resource relation GET is anonymously public, and they
+are the clean membership source for the relation graph.
+
+Verified at full scale (855 resources × 6 axes = 5,130 calls, ~0.35 s
+spacing, descriptive UA, 0 failures, no rate limiting observed):
+
+| Endpoint (per resource) | Anonymous GET | Edges captured |
+|---|---|---|
+| `/api/resources/{id}/key-questions` | 200 | 1,530 (843 resources have ≥1) |
+| `/api/resources/{id}/lines` | 200 | 1,272 (844 resources) |
+| `/api/resources/{id}/related-pervasive-ideas` | 200 | 331 (250 resources) |
+| `/api/resources/{id}/related-resources` | 200 | 306 raw / 290 unique — relationship vocabulary: `Around`, `Back`, `Forward` |
+| `/api/resources/{id}/keyphrases` | 200 | 2,286 (783 resources) |
+| `/api/resources/{id}/tags` | 200 | 300 (225 resources; `relevanceScore` weight) |
+
+Taxonomy status refined:
+
+- `/api/tags` — public (11 process-skill tags) — committed as
+  `resources/api/tags.json`.
+- `/api/interactivity-labels` — public (2: card-sort, geogebra) — committed
+  as `resources/api/interactivity-labels.json`.
+- `/api/keyphrases` (+ `/api/keyphrases/{id}`) — 401 `LoginRequired`
+  (list and single alike): keyphrase memberships are public but their
+  labels are not. Graph carries numeric keyphrase nodes flagged
+  `labelResolved: false`.
+- `/api/glossary` — public (term suggestions; not a keyphrase map).
+
+`/api/resource-list` addendum: its `page`/`pageSize`/`perPage` params are
+**ignored** — every response is the same first 25 rows (25 hard-paged);
+`totalRows: 843`. Only 25 unique records are reachable. For those 25, the
+embedded `lines` arrays match the per-resource capture exactly (0
+mismatches), which cross-validates the capture. 843 equals the count of
+resources with key-question memberships, suggesting the list is
+tubemap-scoped, not a full-corpus list (855). Evidence:
+`resources/derived/relations/`, graph meta in
+`resources/derived/relation-graph.json`.

@@ -1,0 +1,817 @@
+{
+ "station": {
+  "id": 7,
+  "friendlyId": "combining-vectors",
+  "title": "Combining Vectors",
+  "guidingQuestion": "How can we define and use products of vectors?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 12,
+  "reviewQuestions": 11,
+  "resourcesWithKeyQuestions": 12,
+  "keyQuestionsCovered": 3,
+  "keyQuestionsTotal": 4,
+  "resourcesWithPervasiveIdeas": 1,
+  "withTeacherSupport": 0,
+  "withAssets": 1,
+  "withProvenance": 12
+ },
+ "keyQuestions": [
+  {
+   "id": 27,
+   "number": 1,
+   "friendlyName": "scalar-product",
+   "content": "What is the scalar product?"
+  },
+  {
+   "id": 28,
+   "number": 2,
+   "friendlyName": "vector-product",
+   "content": "What is the vector product?"
+  },
+  {
+   "id": 29,
+   "number": 3,
+   "friendlyName": "lines-and-planes",
+   "content": "How can we describe lines and planes using vectors?"
+  },
+  {
+   "id": 31,
+   "number": 4,
+   "friendlyName": "applications",
+   "content": "What physical quantities arise as scalar or vector products?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 1133,
+   "friendlyName": "is-it-a-plane",
+   "title": "Is it a plane?",
+   "url": "https://undergroundmathematics.org/combining-vectors/is-it-a-plane",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 6831,
+   "isReviewQuestion": false,
+   "description": "Students are asked to sort a set of cards according to whether or not they uniquely define a plane in 3D space. The cards contain various combinations of points, direction vectors and normal vectors.",
+   "keyQuestions": [
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    144,
+    284,
+    288
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/combining-vectors/is-it-a-plane/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1053,
+   "friendlyName": "r5089",
+   "title": "Can we find the equation of the plane containing $l_1$ and $PQ$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r5089",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5089,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 28,
+     "content": "What is the vector product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 968,
+     "relationship": "Around",
+     "title": "Where are $P$ and $Q$ if $PQ$ is perpendicular to $l_1$ and $l_2$?",
+     "station": "combining-vectors",
+     "url": "https://undergroundmathematics.org/combining-vectors/r8828"
+    }
+   ],
+   "keyphraseIds": [
+    70,
+    157,
+    159,
+    202,
+    284,
+    285,
+    288
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics C 2",
+    "paperCode": "9225/2",
+    "year": 1988,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 730,
+   "friendlyName": "r5813",
+   "title": "Given three vectors, can we find a point equidistant from them all?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r5813",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5813,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    66,
+    120,
+    159,
+    232,
+    269,
+    288
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B Special paper",
+    "paperCode": "9202/0",
+    "year": 1980,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 977,
+   "friendlyName": "r6006",
+   "title": "Which point $P$ is on both this line and this plane?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r6006",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6006,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    202,
+    284,
+    288
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C Special paper",
+    "paperCode": "9205/0",
+    "year": 1986,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 965,
+   "friendlyName": "r6449",
+   "title": "Can we find the angle between the planes  $ABC$ and $ABD$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r6449",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6449,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    144,
+    202,
+    269,
+    284,
+    288
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 1",
+    "paperCode": "852/1",
+    "year": 1973,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 979,
+   "friendlyName": "r6493",
+   "title": "If $a\\mathbf{i}+b\\mathbf{j}+c\\mathbf{k}$ is perpendicular to these vectors, what is $a:b:c$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r6493",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6493,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    140,
+    202,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics A 1 and Pure Mathematics 2",
+    "paperCode": "9219/1 and 9208/2",
+    "year": 1985,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 982,
+   "friendlyName": "r7187",
+   "title": "Can we express a point in this plane in terms of two parameters?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r7187",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7187,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    269,
+    284,
+    288
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "SMP Further Mathematics 5",
+    "paperCode": "48",
+    "year": 1969,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 988,
+   "friendlyName": "r7272",
+   "title": "If $\\overrightarrow{OM}$ is the projection of $\\overrightarrow{OA}$ on $m$, where is $M$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r7272",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7272,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    120,
+    157,
+    202,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 2",
+    "paperCode": "9202/2",
+    "year": 1985,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 970,
+   "friendlyName": "r8456",
+   "title": "Where do $ST$ and $AB$ cross?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r8456",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8456,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    202,
+    269,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "4030/1",
+    "year": 1987,
+    "questions": [
+     "Q14"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1056,
+   "friendlyName": "r8565",
+   "title": "Can we show the direction of $P'Q'$ is independent of $P$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r8565",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8565,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    150,
+    284,
+    285,
+    288
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics C Special paper",
+    "paperCode": "9225/0",
+    "year": 1989,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 968,
+   "friendlyName": "r8828",
+   "title": "Where are $P$ and $Q$ if $PQ$ is perpendicular to $l_1$ and $l_2$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r8828",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8828,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 28,
+     "content": "What is the vector product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1053,
+     "relationship": "Around",
+     "title": "Can we find the equation of the plane containing $l_1$ and $PQ$?",
+     "station": "combining-vectors",
+     "url": "https://undergroundmathematics.org/combining-vectors/r5089"
+    }
+   ],
+   "keyphraseIds": [
+    70,
+    159,
+    202,
+    284,
+    285
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics C 1",
+    "paperCode": "9225/1",
+    "year": 1986,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 985,
+   "friendlyName": "r9794",
+   "title": "What's the position vector of the reflection of $O$ in the plane $ABC$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r9794",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9794,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 27,
+     "content": "What is the scalar product?"
+    },
+    {
+     "id": 29,
+     "content": "How can we describe lines and planes using vectors?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    47,
+    70,
+    202,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics Special paper",
+    "paperCode": "9208/0",
+    "year": 1985,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  }
+ ]
+}

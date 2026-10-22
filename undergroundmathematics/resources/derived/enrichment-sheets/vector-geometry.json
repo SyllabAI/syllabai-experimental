@@ -1,0 +1,1740 @@
+{
+ "station": {
+  "id": 27,
+  "friendlyId": "vector-geometry",
+  "title": "Vector Geometry",
+  "guidingQuestion": "How can we use vectors to interpret geometry?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 27,
+  "reviewQuestions": 18,
+  "resourcesWithKeyQuestions": 27,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 5,
+  "withTeacherSupport": 0,
+  "withAssets": 9,
+  "withProvenance": 20
+ },
+ "keyQuestions": [
+  {
+   "id": 124,
+   "number": 1,
+   "friendlyName": "vector-quantities",
+   "content": "What is a vector quantity and how is it different from a scalar quantity?"
+  },
+  {
+   "id": 121,
+   "number": 2,
+   "friendlyName": "unit-vectors",
+   "content": "What are the unit vectors $\\mathbf{i},\\mathbf{j},\\mathbf{k}$?"
+  },
+  {
+   "id": 122,
+   "number": 3,
+   "friendlyName": "define-lines",
+   "content": "How can we use vectors to define lines?"
+  },
+  {
+   "id": 123,
+   "number": 4,
+   "friendlyName": "geometric-problems",
+   "content": "How can vectors help us to tackle geometric problems?"
+  },
+  {
+   "id": 125,
+   "number": 5,
+   "friendlyName": "applications",
+   "content": "How can we use vectors in mechanics?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 1087,
+   "friendlyName": "frictional-story",
+   "title": "A frictional story",
+   "url": "https://undergroundmathematics.org/vector-geometry/frictional-story",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Developing",
+   "ref": 7558,
+   "isReviewQuestion": false,
+   "description": "This resource explores the classic situation of a particle on a slope. Students have to draw diagrams and resolve forces, but are also asked to think about what happens to the frictional force when a particle is not moving.",
+   "keyQuestions": [
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1149,
+     "relationship": "Around",
+     "title": "How fast are these particles sliding when they pass?",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/r6864"
+    },
+    {
+     "resourceId": 1164,
+     "relationship": "Around",
+     "title": "How are these connected particles held on a slope?",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8335"
+    }
+   ],
+   "keyphraseIds": [
+    284,
+    289,
+    290
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/frictional-story/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1060,
+   "friendlyName": "hit-the-spot",
+   "title": "Hit the spot",
+   "url": "https://undergroundmathematics.org/vector-geometry/hit-the-spot",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 5796,
+   "isReviewQuestion": false,
+   "description": "Students select vectors from a list so that the sum of the vectors gets you from the start to the target. They will convert between different representations of vectors\nand practise adding vectors in two dimensions.",
+   "keyQuestions": [
+    {
+     "id": 121,
+     "content": "What are the unit vectors $\\mathbf{i},\\mathbf{j},\\mathbf{k}$?"
+    },
+    {
+     "id": 124,
+     "content": "What is a vector quantity and how is it different from a scalar quantity?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    219,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/hit-the-spot/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1080,
+   "friendlyName": "lots-of-vector-lines",
+   "title": "Lots of vector lines!",
+   "url": "https://undergroundmathematics.org/vector-geometry/lots-of-vector-lines",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 7131,
+   "isReviewQuestion": false,
+   "description": "Students pair up equations of lines based on shared properties such as being parallel, perpendicular, sharing a $y$-intercept, etc.",
+   "keyQuestions": [
+    {
+     "id": 122,
+     "content": "How can we use vectors to define lines?"
+    },
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 937,
+     "relationship": "Back",
+     "title": "Lots of lines!",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/lots-of-lines"
+    },
+    {
+     "resourceId": 1095,
+     "relationship": "Forward",
+     "title": "Three lines",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/three-lines"
+    }
+   ],
+   "keyphraseIds": [
+    70,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/lots-of-vector-lines/components/cards.pdf",
+    "/vector-geometry/lots-of-vector-lines/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1122,
+   "friendlyName": "make-it-equal",
+   "title": "Make it equal",
+   "url": "https://undergroundmathematics.org/vector-geometry/make-it-equal",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Introducing",
+   "ref": 9706,
+   "isReviewQuestion": false,
+   "description": "Different particles are in equilibrium, each with three forces acting upon them. Students are given two of the forces and encouraged to use different approaches in order to find the third force.",
+   "keyQuestions": [
+    {
+     "id": 121,
+     "content": "What are the unit vectors $\\mathbf{i},\\mathbf{j},\\mathbf{k}$?"
+    },
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    },
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1086,
+     "relationship": "Forward",
+     "title": "Make it stop!",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/make-it-stop"
+    }
+   ],
+   "keyphraseIds": [
+    284,
+    289,
+    293
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/make-it-equal/components/cards.pdf",
+    "/vector-geometry/make-it-equal/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1086,
+   "friendlyName": "make-it-stop",
+   "title": "Make it stop!",
+   "url": "https://undergroundmathematics.org/vector-geometry/make-it-stop",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 8664,
+   "isReviewQuestion": false,
+   "description": "Given a particle moving under a system of forces, students are asked to add a further force to bring the particle to rest in a specified time. This offers opportunities to combine various ideas about vectors with kinematics and Newton's laws of motion.",
+   "keyQuestions": [
+    {
+     "id": 121,
+     "content": "What are the unit vectors $\\mathbf{i},\\mathbf{j},\\mathbf{k}$?"
+    },
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1122,
+     "relationship": "Back",
+     "title": "Make it equal",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/make-it-equal"
+    }
+   ],
+   "keyphraseIds": [
+    1,
+    237,
+    284,
+    289,
+    291,
+    292,
+    293,
+    294
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/make-it-stop/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1102,
+   "friendlyName": "one-windy-day",
+   "title": "One windy day",
+   "url": "https://undergroundmathematics.org/vector-geometry/one-windy-day",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7205,
+   "isReviewQuestion": false,
+   "description": "In this task, students are asked to model a projectile situation with the added effect of an acceleration due to the wind.\nThis leads to some work with parametric equations of curves.",
+   "keyQuestions": [
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 904,
+     "relationship": "Back",
+     "title": "Where did it land?",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/where-did-it-land"
+    }
+   ],
+   "keyphraseIds": [
+    1,
+    71,
+    136,
+    152,
+    237,
+    310,
+    311
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/one-windy-day/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1059,
+   "friendlyName": "r5153",
+   "title": "If $C$ is on this line, can we find the ratio $AC:CB$?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r5153",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5153,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 122,
+     "content": "How can we use vectors to define lines?"
+    },
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    157,
+    186,
+    202,
+    269,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1985,
+    "questions": [
+     "Q31"
+    ],
+    "permission": null,
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1127,
+   "friendlyName": "r5992",
+   "title": "If $ABCDEFGH$ is a regular octagon, what do these vectors add to?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r5992",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5992,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    150,
+    190,
+    214,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1977,
+    "questions": [
+     "Q30"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1130,
+   "friendlyName": "r6007",
+   "title": "Can we find the position vector of the intersection from the given ratios?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r6007",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6007,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    186,
+    208,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1978,
+    "questions": [
+     "Q30"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 770,
+   "friendlyName": "r6009",
+   "title": "In a $\\quantity{60}{km/h}$ wind, what bearing should this plane take?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r6009",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6009,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    },
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    210,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1974,
+    "questions": [
+     "Q18"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1054,
+   "friendlyName": "r6491",
+   "title": "Can we show the centre of mass moves in a straight line?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r6491",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6491,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 122,
+     "content": "How can we use vectors to define lines?"
+    },
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    },
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    28,
+    61,
+    131,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics C 2",
+    "paperCode": "9225/2",
+    "year": 1988,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 903,
+   "friendlyName": "r6670",
+   "title": "If a disc is missing two smaller discs, where’s its centre of gravity?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r6670",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6670,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    15,
+    28
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1050,
+   "friendlyName": "r7285",
+   "title": "If $A$, $P$ and $B$ are collinear, what's the value of $\\lambda$?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r7285",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7285,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 122,
+     "content": "How can we use vectors to define lines?"
+    },
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    129,
+    208,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1988,
+    "questions": [
+     "Q13"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1126,
+   "friendlyName": "r7678",
+   "title": "Given the position of a mass, can we find its velocity and acceleration?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r7678",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7678,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    1,
+    58,
+    185,
+    237,
+    284,
+    289
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "SMP Additional Mathematics 1",
+    "paperCode": "SMP 117",
+    "year": 1975,
+    "questions": [
+     "Q19"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1165,
+   "friendlyName": "r7982",
+   "title": "How fast do these connected particles move?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r7982",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7982,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    71,
+    311,
+    312
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1987,
+    "questions": [
+     "Q13b"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1157,
+   "friendlyName": "r8115",
+   "title": "Which direction should we steer to reach Rome?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r8115",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8115,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    },
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1979,
+    "questions": [
+     "Q20"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 956,
+   "friendlyName": "r8215",
+   "title": "What is the position vector of $D$ if $ABCD$ is a parallelogram?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r8215",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8215,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    151,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 2",
+    "paperCode": "848/2",
+    "year": 1973,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1164,
+   "friendlyName": "r8335",
+   "title": "How are these connected particles held on a slope?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r8335",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8335,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1087,
+     "relationship": "Around",
+     "title": "A frictional story",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/frictional-story"
+    }
+   ],
+   "keyphraseIds": [
+    289,
+    290,
+    293
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1979,
+    "questions": [
+     "Q21"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1100,
+   "friendlyName": "r8339",
+   "title": "What if we join the midpoints of opposite sides of a quadrilateral?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r8339",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8339,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 122,
+     "content": "How can we use vectors to define lines?"
+    },
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    28,
+    70,
+    180,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 2",
+    "paperCode": "852/2",
+    "year": 1973,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1120,
+   "friendlyName": "r8573",
+   "title": "If $PRBQ$ is a parallelogram, what is the position vector of $Q$?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r8573",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8573,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    151,
+    186,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1975,
+    "questions": [
+     "Q30"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1128,
+   "friendlyName": "r8704",
+   "title": "Can we  show that $OAQY$ is a parallelogram?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r8704",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8704,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    150,
+    151,
+    186,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1977,
+    "questions": [
+     "Q31"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1116,
+   "friendlyName": "r8798",
+   "title": "If $Z$ is on $OA$ and also on $BY$, what is its position vector?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r8798",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8798,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    186,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1972,
+    "questions": [
+     "Q12(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 974,
+   "friendlyName": "r9575",
+   "title": "How can we show that $P, Q$ and $R$ are collinear?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r9575",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9575,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics Scholarship paper",
+    "paperCode": "447/0",
+    "year": 1962,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1096,
+   "friendlyName": "r9629",
+   "title": "When are these vectors parallel/perpendicular/the same length?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r9629",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9629,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 123,
+     "content": "How can vectors help us to tackle geometric problems?"
+    },
+    {
+     "id": 124,
+     "content": "What is a vector quantity and how is it different from a scalar quantity?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    150,
+    157,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1985,
+    "questions": [
+     "Q32(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1095,
+   "friendlyName": "three-lines",
+   "title": "Three lines",
+   "url": "https://undergroundmathematics.org/vector-geometry/three-lines",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 9776,
+   "isReviewQuestion": false,
+   "description": "Students are given vector equations of three lines in 3D, and are asked to discover the geometric pattern they form.",
+   "keyQuestions": [
+    {
+     "id": 122,
+     "content": "How can we use vectors to define lines?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1080,
+     "relationship": "Back",
+     "title": "Lots of vector lines!",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/lots-of-vector-lines"
+    }
+   ],
+   "keyphraseIds": [
+    70,
+    93,
+    198,
+    284
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/three-lines/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1061,
+   "friendlyName": "vector-squares",
+   "title": "Vector squares",
+   "url": "https://undergroundmathematics.org/vector-geometry/vector-squares",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Introducing",
+   "ref": 8672,
+   "isReviewQuestion": false,
+   "description": "Can you find the area of a square enclosed by four lines, given by their vector equations?",
+   "keyQuestions": [
+    {
+     "id": 122,
+     "content": "How can we use vectors to define lines?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 99,
+     "relationship": "Back",
+     "title": "Simultaneous squares",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/simultaneous-squares"
+    }
+   ],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/vector-squares/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 904,
+   "friendlyName": "where-did-it-land",
+   "title": "Where did it land?",
+   "url": "https://undergroundmathematics.org/vector-geometry/where-did-it-land",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8367,
+   "isReviewQuestion": false,
+   "description": "This problem asks students to think about how a projectile behaves, in particular about the effect of the angle of projection on its horizontal displacement. Students are strongly encouraged to compare graphical representations to their algebraic work.",
+   "keyQuestions": [
+    {
+     "id": 124,
+     "content": "What is a vector quantity and how is it different from a scalar quantity?"
+    },
+    {
+     "id": 125,
+     "content": "How can we use vectors in mechanics?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1102,
+     "relationship": "Forward",
+     "title": "One windy day",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/one-windy-day"
+    },
+    {
+     "resourceId": 1160,
+     "relationship": "Around",
+     "title": "Bouncing to nothing",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/bouncing-to-nothing"
+    }
+   ],
+   "keyphraseIds": [
+    71,
+    148,
+    310,
+    311
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/vector-geometry/where-did-it-land/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

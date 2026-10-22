@@ -1,0 +1,1750 @@
+{
+ "station": {
+  "id": 20,
+  "friendlyId": "product-rule",
+  "title": "Product Rule & Integration by Parts",
+  "guidingQuestion": "When and how can we differentiate the product or quotient of two functions?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 28,
+  "reviewQuestions": 24,
+  "resourcesWithKeyQuestions": 27,
+  "keyQuestionsCovered": 4,
+  "keyQuestionsTotal": 4,
+  "resourcesWithPervasiveIdeas": 6,
+  "withTeacherSupport": 0,
+  "withAssets": 4,
+  "withProvenance": 25
+ },
+ "keyQuestions": [
+  {
+   "id": 87,
+   "number": 1,
+   "friendlyName": "area-of-rectangle",
+   "content": "How does the area of a rectangle change when we vary the lengths of the sides?"
+  },
+  {
+   "id": 88,
+   "number": 2,
+   "friendlyName": "differentiate-product",
+   "content": "How can we differentiate the product of two functions?"
+  },
+  {
+   "id": 89,
+   "number": 3,
+   "friendlyName": "differentiate-quotient",
+   "content": "Do we need a rule for differentiating a quotient of functions?"
+  },
+  {
+   "id": 90,
+   "number": 4,
+   "friendlyName": "integration-by-parts",
+   "content": "What do we mean by integration by parts, and when is it useful?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 1178,
+   "friendlyName": "constant-consistency",
+   "title": "Constant consistency",
+   "url": "https://undergroundmathematics.org/product-rule/constant-consistency",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 6507,
+   "isReviewQuestion": false,
+   "description": "Three different ways to work out an integral give results that appear to be very different. What is going on?",
+   "keyQuestions": [
+    {
+     "id": 90,
+     "content": "What do we mean by integration by parts, and when is it useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 947,
+     "relationship": "Around",
+     "title": "Which substitution?",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/which-substitution"
+    }
+   ],
+   "keyphraseIds": [
+    117,
+    230,
+    280
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/product-rule/constant-consistency/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "provenance-missing"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1131,
+   "friendlyName": "how-does-your-rectangle-grow",
+   "title": "How does your rectangle grow?",
+   "url": "https://undergroundmathematics.org/product-rule/how-does-your-rectangle-grow",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Introducing",
+   "ref": 8199,
+   "isReviewQuestion": false,
+   "description": "This two-part task looks at how the rate of change of the area of a rectangle depends on the side lengths. It offers a visual representation of the Product Rule.",
+   "keyQuestions": [
+    {
+     "id": 87,
+     "content": "How does the area of a rectangle change when we vary the lengths of the sides?"
+    },
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1035,
+     "relationship": "Around",
+     "title": "Producing a rule",
+     "station": "product-rule",
+     "url": "https://undergroundmathematics.org/product-rule/producing-a-rule"
+    }
+   ],
+   "keyphraseIds": [
+    13,
+    58,
+    170
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/product-rule/how-does-your-rectangle-grow/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1156,
+   "friendlyName": "integral-chasing-2",
+   "title": "Integral chasing II",
+   "url": "https://undergroundmathematics.org/product-rule/integral-chasing-2",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 7874,
+   "isReviewQuestion": false,
+   "description": "This resource is made up of four integrals that require the use of a variety of techniques. Students will have to decide which integration technique to use for each integral and solve them to find the unknowns $a, b, c$ and $d$.",
+   "keyQuestions": [
+    {
+     "id": 90,
+     "content": "What do we mean by integration by parts, and when is it useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 64,
+     "relationship": "Back",
+     "title": "Integral chasing",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/integral-chasing"
+    }
+   ],
+   "keyphraseIds": [
+    117,
+    280
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/product-rule/integral-chasing-2/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1035,
+   "friendlyName": "producing-a-rule",
+   "title": "Producing a rule",
+   "url": "https://undergroundmathematics.org/product-rule/producing-a-rule",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 5185,
+   "isReviewQuestion": false,
+   "description": "Students are invited to find a short-cut to differentiating quadratics written in factorised form. The rule may need to be adapted as more complicated examples are encountered.",
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1131,
+     "relationship": "Around",
+     "title": "How does your rectangle grow?",
+     "station": "product-rule",
+     "url": "https://undergroundmathematics.org/product-rule/how-does-your-rectangle-grow"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    170
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/product-rule/producing-a-rule/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 891,
+   "friendlyName": "r5126",
+   "title": "Can we find all three integrals?",
+   "url": "https://undergroundmathematics.org/product-rule/r5126",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5126,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 90,
+     "content": "What do we mean by integration by parts, and when is it useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    117,
+    153,
+    280
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 2",
+    "paperCode": "842/2",
+    "year": 1973,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 751,
+   "friendlyName": "r5196",
+   "title": "If this cubic has two equal roots, what can $p$ be?",
+   "url": "https://undergroundmathematics.org/product-rule/r5196",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5196,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    80,
+    94,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "840/0",
+    "year": 1978,
+    "questions": [
+     "Q1(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 276,
+   "friendlyName": "r5501",
+   "title": "Can we sketch $y=x^2/(1+x^4)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r5501",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5501,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    95,
+    170,
+    183
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 1",
+    "paperCode": "9205/1 and 9206/1",
+    "year": 1988,
+    "questions": [
+     "Q14(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 632,
+   "friendlyName": "r6530",
+   "title": "Can we differentiate $e^{2x}( 2 \\cos (3x) + 3 \\sin (3x))$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6530",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6530,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    29,
+    58,
+    170,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2 and Pure Mathematics 2",
+    "paperCode": "417/2 and 447/2",
+    "year": 1966,
+    "questions": [
+     "Q5(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 463,
+   "friendlyName": "r6549",
+   "title": "Where are the stationary points on $\\cot x-8\\cos x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6549",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6549,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    95,
+    183,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "9200/1",
+    "year": 1981,
+    "questions": [
+     "Q9b"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 280,
+   "friendlyName": "r6620",
+   "title": "If the gradient is $x(1-x^2)e^{-x^2}$ can we find the stationary points?",
+   "url": "https://undergroundmathematics.org/product-rule/r6620",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6620,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 90,
+     "content": "What do we mean by integration by parts, and when is it useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    77,
+    88,
+    94,
+    95,
+    117,
+    170
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2001,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 660,
+   "friendlyName": "r6855",
+   "title": "Can we sketch the curve $y=1/((x-a)^2-1)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6855",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6855,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 691,
+   "friendlyName": "r6863",
+   "title": "If we can sketch $y = f(x)$, can we sketch $y^2 = f(x)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6863",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6863,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "840/0",
+    "year": 1972,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 671,
+   "friendlyName": "r7129",
+   "title": "Can we sketch $y=ax/(x^2+x+1)$ when $a$ is positive?",
+   "url": "https://undergroundmathematics.org/product-rule/r7129",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7129,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "842/1",
+    "year": 1968,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 296,
+   "friendlyName": "r7410",
+   "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+   "url": "https://undergroundmathematics.org/product-rule/r7410",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7410,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    122,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1969,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 512,
+   "friendlyName": "r8134",
+   "title": "How could we integrate $e^{-x}\\sin^n x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8134",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8134,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 90,
+     "content": "What do we mean by integration by parts, and when is it useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    117,
+    170,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics C 1",
+    "paperCode": "9225/1",
+    "year": 1988,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1107,
+   "friendlyName": "r8152",
+   "title": "What is the average density of this spherical planet?",
+   "url": "https://undergroundmathematics.org/product-rule/r8152",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8152,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 90,
+     "content": "What do we mean by integration by parts, and when is it useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    },
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    116,
+    117,
+    153,
+    213,
+    239,
+    280
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Special paper",
+    "paperCode": "840/0",
+    "year": 1970,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 659,
+   "friendlyName": "r8387",
+   "title": "Can we sketch the graph of $y=x(x+1)(x-2)^4$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8387",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8387,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2004,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 424,
+   "friendlyName": "r8671",
+   "title": "Which is the greater of $e^{\\pi}$ and $\\pi^e$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8671",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8671,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 117,
+     "relationship": "Around",
+     "title": "An irrational inequality",
+     "station": "exp-and-log",
+     "url": "https://undergroundmathematics.org/exp-and-log/an-irrational-inequality"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    77,
+    106,
+    136,
+    160
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B Special paper",
+    "paperCode": "9202/0",
+    "year": 1981,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 700,
+   "friendlyName": "r8765",
+   "title": "If $y=(x^2+1)/(x^2-a^2)$, then $y$  cannot take which values?",
+   "url": "https://undergroundmathematics.org/product-rule/r8765",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8765,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    75,
+    95,
+    112,
+    183,
+    187
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 2",
+    "paperCode": "187",
+    "year": 1952,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 633,
+   "friendlyName": "r8774",
+   "title": "Can we find this body's displacement from $O$ when its velocity is $0$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8774",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8774,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    1,
+    58,
+    61,
+    116,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2 and Pure Mathematics 2",
+    "paperCode": "417/2 and 447/2",
+    "year": 1966,
+    "questions": [
+     "Q5(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 552,
+   "friendlyName": "r8936",
+   "title": "When will the arclength $QR$ take a maximum value?",
+   "url": "https://undergroundmathematics.org/product-rule/r8936",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8936,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 87,
+     "content": "How does the area of a rectangle change when we vary the lengths of the sides?"
+    },
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    32,
+    58,
+    136,
+    170,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1970,
+    "questions": [
+     "Q6(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 649,
+   "friendlyName": "r9082",
+   "title": "Can we find the repeated root for  $4x^4+x^2+3x+1=0$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9082",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9082,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    166,
+    170,
+    181
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 2",
+    "paperCode": "189",
+    "year": 1953,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 282,
+   "friendlyName": "r9312",
+   "title": "Can we find the area between $y=e^{-x}$ and $y=e^{-x}\\sin x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9312",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9312,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 90,
+     "content": "What do we mean by integration by parts, and when is it useful?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    117,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 342,
+   "friendlyName": "r9329",
+   "title": "Can we show the function $(2x+1)/(x^2-1)$ can take all real values?",
+   "url": "https://undergroundmathematics.org/product-rule/r9329",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9329,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    95,
+    162,
+    183
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 3",
+    "paperCode": "447/3",
+    "year": 1963,
+    "questions": [
+     "Q1(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 518,
+   "friendlyName": "r9391",
+   "title": "Which values can $x(x-3)/(x-4)$ take?",
+   "url": "https://undergroundmathematics.org/product-rule/r9391",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9391,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "842/1",
+    "year": 1971,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 896,
+   "friendlyName": "r9484",
+   "title": "Can we sketch the curve $y=e^{-x}/(1+x^2)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9484",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9484,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    94,
+    95,
+    183
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 3 and Applied Mathematics 1",
+    "paperCode": "417/3 and 457/1",
+    "year": 1963,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 799,
+   "friendlyName": "r9795",
+   "title": "Given that $y = (x+6)^7(x-9)^8$, can we find $dy/dx$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9795",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9795,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    29,
+    58,
+    170
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1970,
+    "questions": [
+     "Q3(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 259,
+   "friendlyName": "r9898",
+   "title": "Can we sketch the curve $y=(x-a)e^x/(x-b)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9898",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9898,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 88,
+     "content": "How can we differentiate the product of two functions?"
+    },
+    {
+     "id": 89,
+     "content": "Do we need a rule for differentiating a quotient of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    77,
+    95,
+    187
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  }
+ ]
+}

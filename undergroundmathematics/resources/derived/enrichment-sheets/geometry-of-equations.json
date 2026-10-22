@@ -1,0 +1,2533 @@
+{
+ "station": {
+  "id": 14,
+  "friendlyId": "geometry-of-equations",
+  "title": "Geometry of Equations",
+  "guidingQuestion": "How are equations and geometry connected?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 38,
+  "reviewQuestions": 27,
+  "resourcesWithKeyQuestions": 38,
+  "keyQuestionsCovered": 4,
+  "keyQuestionsTotal": 4,
+  "resourcesWithPervasiveIdeas": 9,
+  "withTeacherSupport": 0,
+  "withAssets": 10,
+  "withProvenance": 31
+ },
+ "keyQuestions": [
+  {
+   "id": 61,
+   "number": 1,
+   "friendlyName": "straight-lines",
+   "content": "How can we use algebra to describe straight lines in the plane?"
+  },
+  {
+   "id": 62,
+   "number": 2,
+   "friendlyName": "parallel-perpendicular",
+   "content": "How can we consider parallel and perpendicular lines using algebra?"
+  },
+  {
+   "id": 63,
+   "number": 3,
+   "friendlyName": "geometry-to-algebra",
+   "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+  },
+  {
+   "id": 64,
+   "number": 4,
+   "friendlyName": "simultaneous-eqns",
+   "content": "How is the process of solving simultaneous equations related to geometry?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 186,
+   "friendlyName": "between-the-lines",
+   "title": "Between the lines",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/between-the-lines",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7172,
+   "isReviewQuestion": false,
+   "description": "Find the area of a region between two straight lines given minimal information. This task involves the geometry and equations of straight lines.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 73,
+     "relationship": "Forward",
+     "title": "What else do you know?",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/what-else-do-you-know"
+    }
+   ],
+   "keyphraseIds": [
+    13,
+    94,
+    128,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/geometry-of-equations/between-the-lines/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 188,
+   "friendlyName": "cartesian-coordinates",
+   "title": "Cartesian coordinates",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/cartesian-coordinates",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 7323,
+   "isReviewQuestion": false,
+   "description": "A brief history of the development of coordinates from their origins to their use in modern-day mathematics.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 225,
+     "relationship": "Forward",
+     "title": "Conic sections in real life",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/conic-sections-in-real-life"
+    }
+   ],
+   "keyphraseIds": [
+    26,
+    31,
+    46,
+    120,
+    128,
+    148,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 191,
+   "friendlyName": "describing-straight-lines",
+   "title": "Straight lines",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/describing-straight-lines",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 5341,
+   "isReviewQuestion": false,
+   "description": "Students are given a list of equations and geometrical conditions and are asked to decide which ones describe a straight line.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    128
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/geometry-of-equations/describing-straight-lines/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 937,
+   "friendlyName": "lots-of-lines",
+   "title": "Lots of lines!",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/lots-of-lines",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 9561,
+   "isReviewQuestion": false,
+   "description": "Students match pairs of straight line equations according to a number of criteria. The resource offers a chance to revise parallel and perpendicular lines and related matters.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1080,
+     "relationship": "Forward",
+     "title": "Lots of vector lines!",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/lots-of-vector-lines"
+    }
+   ],
+   "keyphraseIds": [
+    70,
+    120,
+    128,
+    150,
+    157
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/geometry-of-equations/lots-of-lines/assets/a10.pdf",
+    "/geometry-of-equations/lots-of-lines/components/cards.pdf",
+    "/geometry-of-equations/lots-of-lines/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 95,
+   "friendlyName": "near-miss",
+   "title": "Near miss",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/near-miss",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7749,
+   "isReviewQuestion": false,
+   "description": "Students are invited to consider two very similar pairs of simultaneous linear equations and to explain why their solutions are so different.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 6,
+     "relationship": "Around",
+     "title": "Irrational vs rational: does it matter?",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/irrational-vs-rational-does-it-matter"
+    }
+   ],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/geometry-of-equations/near-miss/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 194,
+   "friendlyName": "negatively-triangular",
+   "title": "Negatively triangular",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/negatively-triangular",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 8455,
+   "isReviewQuestion": false,
+   "description": "Given four straight line equations, which three enclose a triangle with negative coordinates? Students are asked to create a similar problem for themselves.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/geometry-of-equations/negatively-triangular/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 257,
+   "friendlyName": "r5202",
+   "title": "Where is the foot of the perpendicular from a point to a line?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5202",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5202,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    46,
+    70,
+    157
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2003,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 619,
+   "friendlyName": "r5255",
+   "title": "What's the locus of the intersection of these variable lines?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5255",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5255,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    131,
+    152,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "986/2",
+    "year": 1978,
+    "questions": [
+     "Q14"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 274,
+   "friendlyName": "r5281",
+   "title": "Can we find an integer solution to three simultaneous inequalities?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5281",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5281,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "417/0",
+    "year": 1958,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 637,
+   "friendlyName": "r5661",
+   "title": "Given a right angle and the equations of two sides, can we find the third?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5661",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5661,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    128,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1979,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 303,
+   "friendlyName": "r5737",
+   "title": "Which four inequalities define this region?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5737",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5737,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Syllabus C Paper 1",
+    "paperCode": "453/1",
+    "year": 1978,
+    "questions": [
+     "Q23"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 557,
+   "friendlyName": "r5887",
+   "title": "If we know the sum and product of two numbers, what are they?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5887",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5887,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1970,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 745,
+   "friendlyName": "r5948",
+   "title": "Can we calculate an approximation to the root of this function?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5948",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5948,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    119,
+    296
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 2",
+    "paperCode": "840/2",
+    "year": 1978,
+    "questions": [
+     "Q16"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 616,
+   "friendlyName": "r5967",
+   "title": "Can we find a rectangle from two vertices and a diagonal?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5967",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5967,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "R517",
+    "year": 1973,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 682,
+   "friendlyName": "r6230",
+   "title": "Can we reflect this point in this line?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6230",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6230,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    193
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 678,
+   "friendlyName": "r6234",
+   "title": "Can we show that this point moves on a circle?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6234",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6234,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 196,
+     "relationship": "Back",
+     "title": "The circle of Apollonius... coordinate edition",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/the-circle-of-apollonius-coordinate-edition"
+    }
+   ],
+   "keyphraseIds": [
+    26,
+    31,
+    46
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2005,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 326,
+   "friendlyName": "r6366",
+   "title": "Can we find the coordinates of this tilted rectangle?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6366",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6366,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    130,
+    190
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1986,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 538,
+   "friendlyName": "r6514",
+   "title": "No solutions, or infinitely many?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6514",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6514,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    135,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1983,
+    "questions": [
+     "Q30b"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 710,
+   "friendlyName": "r6583",
+   "title": "A point $Y$ moves to define a point $P$ — can we find the locus of $P\\,$?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6583",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6583,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "F339",
+    "year": 1957,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 330,
+   "friendlyName": "r6803",
+   "title": "A line cuts the axes to make a triangle; can we find its area?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6803",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6803,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    130,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1981,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 541,
+   "friendlyName": "r6835",
+   "title": "A line through a variable point creates a triangle; can we find its area?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r6835",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6835,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1980,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 302,
+   "friendlyName": "r7296",
+   "title": "Can we plot this graph and use it to solve two equations?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7296",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7296,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    148
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Syllabus B Paper 1",
+    "paperCode": "451/1",
+    "year": 1978,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 608,
+   "friendlyName": "r7320",
+   "title": "Can we illustrate this pair of inequalities on a graph?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7320",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7320,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    194
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Elementary Mathematics 2 (St Dunstan's College)",
+    "paperCode": "S505",
+    "year": 1964,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 622,
+   "friendlyName": "r7642",
+   "title": "Can we maximise the profit for this tractor-making business?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7642",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7642,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Applicable Mathematics 1",
+    "paperCode": "8485/1",
+    "year": 1989,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 380,
+   "friendlyName": "r7757",
+   "title": "Can we match this equation to its graph?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r7757",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7757,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    93
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 329,
+   "friendlyName": "r8080",
+   "title": "One distance is double another; can we find a locus?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8080",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8080,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 196,
+     "relationship": "Forward",
+     "title": "The circle of Apollonius... coordinate edition",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/the-circle-of-apollonius-coordinate-edition"
+    }
+   ],
+   "keyphraseIds": [
+    131,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1985,
+    "questions": [
+     "Q16(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 304,
+   "friendlyName": "r8408",
+   "title": "Can we find the three inequalities that define this region?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8408",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8408,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/geometry-of-equations/r8408/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI Additional Mathematics 1",
+    "paperCode": "MEI 36",
+    "year": 1969,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 593,
+   "friendlyName": "r8449",
+   "title": "Can we show this parallelogram is a rectangle?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8449",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8449,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    128,
+    175
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Certificate in Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1989,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 640,
+   "friendlyName": "r8471",
+   "title": "Can we find the area of this inscribed quadrilateral?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8471",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8471,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    68,
+    180
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q16"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 796,
+   "friendlyName": "r8748",
+   "title": "Can we find the area of this quadrilateral?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r8748",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8748,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    158
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1988,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 520,
+   "friendlyName": "r9273",
+   "title": "Can we find the point midway between an intersection and a line?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r9273",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9273,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    120
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1973,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1000,
+   "friendlyName": "r9617",
+   "title": "Which of these graphs shows the area $A(c)$ as $c$ varies?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r9617",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9617,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    13,
+    95,
+    148,
+    214
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 359,
+   "friendlyName": "r9709",
+   "title": "What is the largest $x$ to satisfy these three inequalities?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r9709",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9709,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 99,
+   "friendlyName": "simultaneous-squares",
+   "title": "Simultaneous squares",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/simultaneous-squares",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 7942,
+   "isReviewQuestion": false,
+   "description": "Given three straight line equations, can you find the fourth one needed to enclose a square? Or given the area and two equations...",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1061,
+     "relationship": "Forward",
+     "title": "Vector squares",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/vector-squares"
+    }
+   ],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/geometry-of-equations/simultaneous-squares/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 135,
+   "friendlyName": "spot-the-difference",
+   "title": "Spot the difference",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/spot-the-difference",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 9577,
+   "isReviewQuestion": false,
+   "description": "Given six equations appearing as only two straight lines on a graph, can you explain what is going on?",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 3
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    69,
+    70,
+    95,
+    128
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/geometry-of-equations/spot-the-difference/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 102,
+   "friendlyName": "straight-line-pairs",
+   "title": "Straight line pairs",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/straight-line-pairs",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 8460,
+   "isReviewQuestion": false,
+   "description": "Can you find a pair of straight lines given a set of constraints linking their gradients and intercepts?",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 64,
+     "content": "How is the process of solving simultaneous equations related to geometry?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    94,
+    118,
+    128
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/geometry-of-equations/straight-line-pairs/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 196,
+   "friendlyName": "the-circle-of-apollonius-coordinate-edition",
+   "title": "The circle of Apollonius... coordinate edition",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/the-circle-of-apollonius-coordinate-edition",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 7968,
+   "isReviewQuestion": false,
+   "description": "Coordinate geometry is used to explore and solve an ancient geometry problem involving loci.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 678,
+     "relationship": "Forward",
+     "title": "Can we show that this point moves on a circle?",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r6234"
+    }
+   ],
+   "keyphraseIds": [
+    69,
+    131
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/geometry-of-equations/the-circle-of-apollonius-coordinate-edition/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 193,
+   "friendlyName": "the-equation-of-a-straight-line",
+   "title": "The equation of a straight line",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/the-equation-of-a-straight-line",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9820,
+   "isReviewQuestion": false,
+   "description": "An exposition on the various forms for equations of straight lines.",
+   "keyQuestions": [
+    {
+     "id": 61,
+     "content": "How can we use algebra to describe straight lines in the plane?"
+    },
+    {
+     "id": 62,
+     "content": "How can we consider parallel and perpendicular lines using algebra?"
+    },
+    {
+     "id": 63,
+     "content": "How can we translate between geometric and algebraic descriptions of lines and curves?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    128
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

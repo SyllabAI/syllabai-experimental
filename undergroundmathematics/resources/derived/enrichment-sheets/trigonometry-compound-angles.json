@@ -1,0 +1,1801 @@
+{
+ "station": {
+  "id": 24,
+  "friendlyId": "trigonometry-compound-angles",
+  "title": "Trigonometry: Compound Angles",
+  "guidingQuestion": "How can we work with trigonometric functions of sums and differences?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 27,
+  "reviewQuestions": 20,
+  "resourcesWithKeyQuestions": 27,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 10,
+  "withTeacherSupport": 0,
+  "withAssets": 7,
+  "withProvenance": 21
+ },
+ "keyQuestions": [
+  {
+   "id": 105,
+   "number": 1,
+   "friendlyName": "compound-angle-formulae",
+   "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+  },
+  {
+   "id": 107,
+   "number": 2,
+   "friendlyName": "double-angle",
+   "content": "What are the double-angle formulae?"
+  },
+  {
+   "id": 106,
+   "number": 3,
+   "friendlyName": "compound-angle-geometric",
+   "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+  },
+  {
+   "id": 108,
+   "number": 4,
+   "friendlyName": "linear-combinations",
+   "content": "What do graphs such as $y=3 \\cos x + 4 \\sin x$ look like?"
+  },
+  {
+   "id": 109,
+   "number": 5,
+   "friendlyName": "factor-formulae",
+   "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 231,
+   "friendlyName": "equation-or-identity-ii",
+   "title": "Equation or identity? (II)",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/equation-or-identity-ii",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 5687,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    },
+    {
+     "id": 109,
+     "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 214,
+     "relationship": "Back",
+     "title": "Equation or identity? (I)",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/equation-or-identity-i"
+    }
+   ],
+   "keyphraseIds": [
+    39,
+    67,
+    105,
+    233,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-compound-angles/equation-or-identity-ii/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 230,
+   "friendlyName": "inspecting-identities",
+   "title": "Inspecting identities",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 8935,
+   "isReviewQuestion": false,
+   "description": "In this resource, students are asked to use the half-angle formulae to help them sketch graphs of  $y=\\cos^2{\\frac{\\theta}{2}}$ and $y=\\sin^{2}\\frac{\\theta}{2}$.",
+   "keyQuestions": [
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 4
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 6
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 204,
+     "relationship": "Around",
+     "title": "How high am I?",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/how-high-am-i"
+    },
+    {
+     "resourceId": 228,
+     "relationship": "Around",
+     "title": "$t$ for $\\tan$",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/t-for-tan"
+    },
+    {
+     "resourceId": 932,
+     "relationship": "Around",
+     "title": "Proving half-angle formulae",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/proving-half-angle-formulae"
+    }
+   ],
+   "keyphraseIds": [
+    2,
+    18,
+    97,
+    105,
+    171,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-compound-angles/inspecting-identities/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 932,
+   "friendlyName": "proving-half-angle-formulae",
+   "title": "Proving half-angle formulae",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/proving-half-angle-formulae",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 6029,
+   "isReviewQuestion": false,
+   "description": "Students use diagrams to construct a geometric proof of the formula $\\cos^{2} \\frac{\\theta}{2}=\\frac{1}{2}(1+\\cos \\theta)$.  The same ideas can be adapted to give proofs of related results for $\\sin^{2}\\tfrac{\\theta}{2}$ and $\\tan^{2}\\tfrac{\\theta}{2}$.",
+   "keyQuestions": [
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 204,
+     "relationship": "Around",
+     "title": "How high am I?",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/how-high-am-i"
+    },
+    {
+     "resourceId": 228,
+     "relationship": "Around",
+     "title": "$t$ for $\\tan$",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/t-for-tan"
+    },
+    {
+     "resourceId": 230,
+     "relationship": "Around",
+     "title": "Inspecting identities",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities"
+    }
+   ],
+   "keyphraseIds": [
+    2,
+    105,
+    171,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-compound-angles/proving-half-angle-formulae/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1104,
+   "friendlyName": "r5113",
+   "title": "Can we solve the equation $3\\cos x + 1 = 2\\sin x$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5113",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5113,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 108,
+     "content": "What do graphs such as $y=3 \\cos x + 4 \\sin x$ look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    39,
+    233,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "840/1",
+    "year": 1970,
+    "questions": [
+     "Q5(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 665,
+   "friendlyName": "r5129",
+   "title": "If $bc=a^2+1$,  what is $\\arctan[(a+b)^{-1}]+\\arctan[(a+c)^{-1}]$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5129",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5129,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2005,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 537,
+   "friendlyName": "r5723",
+   "title": "Can we solve these trig equations for $x, y$ and $z$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5723",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5723,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    67,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1983,
+    "questions": [
+     "Q14"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 869,
+   "friendlyName": "r5988",
+   "title": "If $R$ is the circumradius of triangle $ABC$, can we show $a\\:/\\sin A = 2R$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5988",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5988,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 106,
+     "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    },
+    {
+     "id": 109,
+     "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    32,
+    34,
+    47,
+    209,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 2",
+    "paperCode": "840/2",
+    "year": 1973,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 588,
+   "friendlyName": "r6018",
+   "title": "Can we find the value of $\\sin 18^\\circ$ as a surd?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6018",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6018,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    39,
+    67,
+    233,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "184",
+    "year": 1953,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 654,
+   "friendlyName": "r6039",
+   "title": "Can we solve $\\tan\\theta\\tan(\\theta+\\pi/3)=2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6039",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6039,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    67,
+    97,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "186",
+    "year": 1953,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 587,
+   "friendlyName": "r6120",
+   "title": "Can we write $\\cos \\theta - 2 \\cos 3 \\theta + \\cos 5\\theta$ using $\\sin$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6120",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6120,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 109,
+     "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    105,
+    233,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "182",
+    "year": 1952,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 362,
+   "friendlyName": "r6696",
+   "title": "Can we write $\\sin\\theta$ and $\\cos\\theta$ in terms of $\\tan(\\theta/2)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6696",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6696,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    97,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "182",
+    "year": 1952,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 516,
+   "friendlyName": "r6807",
+   "title": "Can we simplify $\\cos 3\\theta \\sin 2\\theta - \\cos 4\\theta \\sin \\theta$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6807",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6807,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    },
+    {
+     "id": 109,
+     "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    2,
+    39
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "9200/1",
+    "year": 1980,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 651,
+   "friendlyName": "r7021",
+   "title": "Using angles in a pentagon...",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7021,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 106,
+     "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    154,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "180",
+    "year": 1954,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 478,
+   "friendlyName": "r7050",
+   "title": "An exact value for $\\sin 15^{\\circ}$...",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7050",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7050,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 106,
+     "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    67,
+    221,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Cambridge Colleges",
+    "paper": "Examination for Entrance Scholarships and Exhibitions Pure Mathematics for Candidates in Natural Sciences (Group 4)",
+    "paperCode": null,
+    "year": 1952,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Colleges of the University of Cambridge",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1105,
+   "friendlyName": "r7581",
+   "title": "Can we sketch the curve $y = \\cos x - \\sin x +2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7581",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7581,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 108,
+     "content": "What do graphs such as $y=3 \\cos x + 4 \\sin x$ look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1132,
+     "relationship": "Forward",
+     "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r8679"
+    }
+   ],
+   "keyphraseIds": [
+    39,
+    47,
+    209,
+    233
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "840/2",
+    "year": 1970,
+    "questions": [
+     "Q17a"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 440,
+   "friendlyName": "r7604",
+   "title": "Can we solve these simultaneous trigonometric equations?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7604",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7604,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    39,
+    52,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "9200/0",
+    "year": 1981,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 695,
+   "friendlyName": "r8525",
+   "title": "Can we prove $\\sin a \\sin b \\leq \\sin^2\\frac{1}{2}(a+b)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8525",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8525,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    39,
+    112,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "183",
+    "year": 1954,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 639,
+   "friendlyName": "r8557",
+   "title": "Can we find the height of a tower using its reflection?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8557",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8557,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 109,
+     "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    39,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "184",
+    "year": 1953,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 585,
+   "friendlyName": "r8648",
+   "title": "Can we solve $\\cos\\theta - \\sin (2\\theta) + \\cos (3\\theta) - \\sin (4\\theta) = 0$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8648",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8648,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 109,
+     "content": "How can products such as $\\sin x \\cos 3x$ be written as a sum or difference of trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    233,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 2",
+    "paperCode": "187",
+    "year": 1952,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1119,
+   "friendlyName": "r8709",
+   "title": "For which $0^\\circ < \\theta < 500^\\circ$ is $3\\cos \\theta + 4\\sin \\theta > 2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8709",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8709,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 108,
+     "content": "What do graphs such as $y=3 \\cos x + 4 \\sin x$ look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    47,
+    95,
+    112,
+    209,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "SMP Additional Mathematics 2",
+    "paperCode": "SMP 118",
+    "year": 1975,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 343,
+   "friendlyName": "r8713",
+   "title": "When is $\\sin\\theta > \\sin 3\\theta$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8713",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8713,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    233
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 3",
+    "paperCode": "447/3",
+    "year": 1963,
+    "questions": [
+     "Q1(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 738,
+   "friendlyName": "r9740",
+   "title": "If $\\sin \\alpha = 3/5, \\cos \\beta = 12/13$, what's $\\cos(\\alpha + \\beta)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9740",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9740,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 106,
+     "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    47,
+    209,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1980,
+    "questions": [
+     "Q4(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 641,
+   "friendlyName": "r9782",
+   "title": "Why is $\\cos \\theta + \\cos (\\theta + 2\\pi/3) + \\cos(\\theta + 4\\pi/3)=0$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9782",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9782,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 106,
+     "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    37,
+    39,
+    232,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "186",
+    "year": 1951,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 228,
+   "friendlyName": "t-for-tan",
+   "title": "$t$ for $\\tan$",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/t-for-tan",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 8131,
+   "isReviewQuestion": false,
+   "description": "This resource gives students a simple diagram which they can use to deduce the double angle formulae in terms of $\\tan \\theta$.",
+   "keyQuestions": [
+    {
+     "id": 106,
+     "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 230,
+     "relationship": "Around",
+     "title": "Inspecting identities",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities"
+    }
+   ],
+   "keyphraseIds": [
+    47,
+    67,
+    209,
+    226,
+    276
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-compound-angles/t-for-tan/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 210,
+   "friendlyName": "the-great-circle-distance",
+   "title": "The great circle distance",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/the-great-circle-distance",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6251,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 107,
+     "content": "What are the double-angle formulae?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 207,
+     "relationship": "Back",
+     "title": "Lost but lovely: the haversine",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine"
+    }
+   ],
+   "keyphraseIds": [
+    97,
+    213,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/trigonometry-compound-angles/the-great-circle-distance/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 152,
+   "friendlyName": "transformation-or-not",
+   "title": "Transformation... or not?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/transformation-or-not",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 7043,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    },
+    {
+     "id": 106,
+     "content": "What is a geometrical interpretation of expressions such as $\\cos(x+30^{\\circ})$?"
+    },
+    {
+     "id": 108,
+     "content": "What do graphs such as $y=3 \\cos x + 4 \\sin x$ look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-compound-angles/transformation-or-not/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 914,
+   "friendlyName": "trig-countdown",
+   "title": "Trig countdown",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/trig-countdown",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 8599,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 105,
+     "content": "How can expressions such as $\\sin (x+y)$ be expanded?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/trigonometry-compound-angles/trig-countdown/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

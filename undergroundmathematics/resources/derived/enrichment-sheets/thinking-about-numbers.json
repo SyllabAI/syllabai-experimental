@@ -1,0 +1,1815 @@
+{
+ "station": {
+  "id": 26,
+  "friendlyId": "thinking-about-numbers",
+  "title": "Thinking about Numbers",
+  "guidingQuestion": "Which numbers can't be written as the ratio of two integers?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 30,
+  "reviewQuestions": 14,
+  "resourcesWithKeyQuestions": 30,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 8,
+  "withTeacherSupport": 0,
+  "withAssets": 11,
+  "withProvenance": 17
+ },
+ "keyQuestions": [
+  {
+   "id": 116,
+   "number": 1,
+   "friendlyName": "integer-families",
+   "content": "What are our key examples of interesting families of integers?"
+  },
+  {
+   "id": 117,
+   "number": 2,
+   "friendlyName": "rational-irrational",
+   "content": "What are rational and irrational numbers?"
+  },
+  {
+   "id": 118,
+   "number": 3,
+   "friendlyName": "numerical-expressions",
+   "content": "How can we manipulate numerical expressions involving surds?"
+  },
+  {
+   "id": 119,
+   "number": 4,
+   "friendlyName": "irrational-proof",
+   "content": "How can we show that a number is rational or irrational?"
+  },
+  {
+   "id": 142,
+   "number": 5,
+   "friendlyName": "infinity",
+   "content": "What does it mean to say that something is infinite?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 811,
+   "friendlyName": "absurd",
+   "title": "Ab-surd!",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/absurd",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 5271,
+   "isReviewQuestion": false,
+   "description": "Students are asked to complete some rows of equivalent fractions that contain surds in the numerator and the denominator. Can they notice any patterns that will help them to rationalise fractions?",
+   "keyQuestions": [
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 12,
+     "relationship": "Forward",
+     "title": "Scary sum",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/scary-sum"
+    },
+    {
+     "resourceId": 857,
+     "relationship": "Forward",
+     "title": "Ab-surder!",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/absurder"
+    },
+    {
+     "resourceId": 966,
+     "relationship": "Around",
+     "title": "Divide and conquer",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/divide-and-conquer"
+    }
+   ],
+   "keyphraseIds": [
+    189,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/thinking-about-numbers/absurd/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 5,
+   "friendlyName": "counting-fractions",
+   "title": "Counting fractions",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/counting-fractions",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6547,
+   "isReviewQuestion": false,
+   "description": "An article that introduces the idea of countable and uncountable infinite sets by showing us how Georg Cantor dealt with these ideas for rational and irrational numbers.",
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    },
+    {
+     "id": 142,
+     "content": "What does it mean to say that something is infinite?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 159,
+     "relationship": "Back",
+     "title": "Maths for dinner",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/maths-for-dinner"
+    }
+   ],
+   "keyphraseIds": [
+    50,
+    87,
+    113
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 3,
+   "friendlyName": "death-by-number",
+   "title": "Death by number",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/death-by-number",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6342,
+   "isReviewQuestion": false,
+   "description": "A short overview of some of the stories surrounding the group of mathematicians called the Pythagoreans.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 119,
+     "content": "How can we show that a number is rational or irrational?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    123,
+    175,
+    188
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 906,
+   "friendlyName": "difference-of-two-fractions",
+   "title": "A difference of two fractions",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/difference-of-two-fractions",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Introducing",
+   "ref": 5224,
+   "isReviewQuestion": false,
+   "description": "A problem about Egyptian fractions is presented from an unusual angle. It will require students to think carefully about the structure that appears when subtracting unit fractions.",
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 10,
+     "title": "Probability",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    87,
+    115
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/difference-of-two-fractions/components/cards.pdf",
+    "/thinking-about-numbers/difference-of-two-fractions/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 966,
+   "friendlyName": "divide-and-conquer",
+   "title": "Divide and conquer",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/divide-and-conquer",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Introducing",
+   "ref": 5837,
+   "isReviewQuestion": false,
+   "description": "Students are asked to calculate $1 \\div \\sqrt{2}$ without a calculator, helping them to develop their ability to estimate values of expressions involving surds.",
+   "keyQuestions": [
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 811,
+     "relationship": "Around",
+     "title": "Ab-surd!",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/absurd"
+    }
+   ],
+   "keyphraseIds": [
+    10,
+    73,
+    189,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/divide-and-conquer/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 247,
+   "friendlyName": "embracing-infinity",
+   "title": "Embracing infinity",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/embracing-infinity",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 6741,
+   "isReviewQuestion": false,
+   "description": "A brief description of infinity, including some examples of how it arises and is used in mathematics.",
+   "keyQuestions": [
+    {
+     "id": 142,
+     "content": "What does it mean to say that something is infinite?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    45,
+    63,
+    113,
+    211
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 4,
+   "friendlyName": "fractions-everywhere",
+   "title": "Fractions everywhere",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/fractions-everywhere",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9558,
+   "isReviewQuestion": false,
+   "description": "An article that looks at the reasoning behind the statement that there are infinitely many rational numbers between any two given numbers.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 119,
+     "content": "How can we show that a number is rational or irrational?"
+    },
+    {
+     "id": 142,
+     "content": "What does it mean to say that something is infinite?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    87,
+    113,
+    188
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/thinking-about-numbers/fractions-everywhere/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 8,
+   "friendlyName": "irrational-constructions",
+   "title": "Irrational constructions",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/irrational-constructions",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 8972,
+   "isReviewQuestion": false,
+   "description": "This investigation is an opportunity for students to develop a better understanding of the relative size of irrational numbers and where they can occur. It also links together a variety of mathematical concepts such as accurate construction, Pythagoras’ theorem, sequences, similarity, and manipulation of surds.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    123,
+    175,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/irrational-constructions/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 6,
+   "friendlyName": "irrational-vs-rational-does-it-matter",
+   "title": "Irrational vs rational: does it matter?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/irrational-vs-rational-does-it-matter",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 5403,
+   "isReviewQuestion": false,
+   "description": "A short article that discusses how rounding off a number can impact mathematical calculations very significantly.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 95,
+     "relationship": "Around",
+     "title": "Near miss",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/near-miss"
+    }
+   ],
+   "keyphraseIds": [
+    54,
+    123,
+    188,
+    201
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 220,
+   "friendlyName": "pi-whats-in-a-number",
+   "title": "$\\pi$ — what's in a number?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/pi-whats-in-a-number",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 5244,
+   "isReviewQuestion": false,
+   "description": "This piece talks about the number $\\pi$ and discusses the implications of its supposed normality.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 119,
+     "content": "How can we show that a number is rational or irrational?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    123,
+    160
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 699,
+   "friendlyName": "prime-triangles",
+   "title": "Prime triangles",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/prime-triangles",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 9971,
+   "isReviewQuestion": false,
+   "description": "A simple starting point asks students to think about which numbers are both prime and triangular, and then asks them to justify their answers using different aspects of mathematics.",
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    115,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/prime-triangles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 310,
+   "friendlyName": "r5519",
+   "title": "How many integers less than $100$ have digits that add to $8$?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r5519",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5519,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    50
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 583,
+   "friendlyName": "r5927",
+   "title": "When is $4^n-1$ prime?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r5927",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5927,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1075,
+   "friendlyName": "r6256",
+   "title": "Which of these numbers does not have a square root of the form $x + y\\sqrt{2}$?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r6256",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6256,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    216,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q21"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 494,
+   "friendlyName": "r6962",
+   "title": "What is this multiple of $13$'s final digit?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r6962",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6962,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 306,
+   "friendlyName": "r7162",
+   "title": "What's the smallest number with four different prime factors?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r7162",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7162,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    168
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Syllabus C Paper 1",
+    "paperCode": "453/1",
+    "year": 1978,
+    "questions": [
+     "Q22"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 569,
+   "friendlyName": "r7228",
+   "title": "Which values does this flowchart print out?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r7228",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7228,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    7,
+    82,
+    115
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI (St Dunstan's) Mathematics 1",
+    "paperCode": "MEI 81",
+    "year": 1972,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 373,
+   "friendlyName": "r7626",
+   "title": "How many grid-points can be inside this circle?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r7626",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7626,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    },
+    {
+     "id": 119,
+     "content": "How can we show that a number is rational or irrational?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    123,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1062,
+   "friendlyName": "r7658",
+   "title": "Can we write $\\sqrt{2016}+\\sqrt{56}$ as a power of $14$?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r7658",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7658,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    168,
+    216,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q16"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 372,
+   "friendlyName": "r8276",
+   "title": "Why is at most one of these numbers rational?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r8276",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8276,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 119,
+     "content": "How can we show that a number is rational or irrational?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    49,
+    123,
+    172,
+    188
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1070,
+   "friendlyName": "r9229",
+   "title": "Given five numbers of the form $a-b\\sqrt{c}$, which is smallest?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r9229",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9229,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    55,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2014,
+    "questions": [
+     "Q24"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 322,
+   "friendlyName": "r9507",
+   "title": "What links any three consecutive squares?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r9507",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9507,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    7,
+    204,
+    215
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "SMP Elementary Mathematics 2",
+    "paperCode": null,
+    "year": 1975,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 400,
+   "friendlyName": "r9583",
+   "title": "Can we express this unit fraction as the sum of two others?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r9583",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9583,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    87,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 2000,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 417,
+   "friendlyName": "r9596",
+   "title": "Will these lockers be open or closed?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r9596",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9596,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    115
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1081,
+   "friendlyName": "r9624",
+   "title": "Can we write $\\sqrt{2}+\\sqrt{2}+\\sqrt{2}+\\sqrt{2}$ as a power of $2$?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r9624",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9624,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    167,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 12,
+   "friendlyName": "scary-sum",
+   "title": "Scary sum",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/scary-sum",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8846,
+   "isReviewQuestion": false,
+   "description": "This task requires the manipulation of fractions involving surds in the denominator.  By manipulating individual fractions and looking for the relationship between the fractions, students may find the problem easier to handle.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 811,
+     "relationship": "Back",
+     "title": "Ab-surd!",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/absurd"
+    },
+    {
+     "resourceId": 1124,
+     "relationship": "Forward",
+     "title": "Frightening function",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/frightening-function"
+    }
+   ],
+   "keyphraseIds": [
+    189,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/scary-sum/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 934,
+   "friendlyName": "square-root-of-2-is-irrational",
+   "title": "$\\sqrt{2}$ is irrational",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/square-root-of-2-is-irrational",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 9697,
+   "isReviewQuestion": false,
+   "description": "Students are presented with several statements which they have to sort into the correct order to obtain a proof that $\\sqrt{2}$ is irrational.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 119,
+     "content": "How can we show that a number is rational or irrational?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1173,
+     "relationship": "Forward",
+     "title": "Connect three?",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/connect-three"
+    }
+   ],
+   "keyphraseIds": [
+    123,
+    172,
+    216
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/square-root-of-2-is-irrational/components/cards.pdf",
+    "/thinking-about-numbers/square-root-of-2-is-irrational/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 7,
+   "friendlyName": "staircase-sequences",
+   "title": "Staircase sequences",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 7292,
+   "isReviewQuestion": false,
+   "description": "Given two sequences involving continued fractions, students are asked to pose questions and explore. The resource offers practice at manipulating fractions and offers an opportunity to introduce the idea of limits.",
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    },
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 142,
+     "content": "What does it mean to say that something is infinite?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1,
+     "relationship": "Forward",
+     "title": "Comparing continued fractions",
+     "station": "thinking-about-algebra",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/comparing-continued-fractions"
+    },
+    {
+     "resourceId": 16,
+     "relationship": "Forward",
+     "title": "Staircase sequences revisited",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences-revisited"
+    },
+    {
+     "resourceId": 401,
+     "relationship": "Around",
+     "title": "Can we find a sequence of solutions to the equation $x^2 - 2y^2 = 1?$",
+     "station": "counting-and-binomials",
+     "url": "https://undergroundmathematics.org/counting-and-binomials/r8033"
+    }
+   ],
+   "keyphraseIds": [
+    44,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/staircase-sequences/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 16,
+   "friendlyName": "staircase-sequences-revisited",
+   "title": "Staircase sequences revisited",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences-revisited",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 6344,
+   "isReviewQuestion": false,
+   "description": "By exploring which numbers can be given written as continued fractions, students will consolidate their understanding of fractions, both numerical and algebraic, and will gain a better understanding for why continued fractions are useful as rational approximations for irrational numbers.",
+   "keyQuestions": [
+    {
+     "id": 117,
+     "content": "What are rational and irrational numbers?"
+    },
+    {
+     "id": 118,
+     "content": "How can we manipulate numerical expressions involving surds?"
+    },
+    {
+     "id": 142,
+     "content": "What does it mean to say that something is infinite?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 7,
+     "relationship": "Back",
+     "title": "Staircase sequences",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences"
+    }
+   ],
+   "keyphraseIds": [
+    10,
+    44,
+    123,
+    216
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/staircase-sequences-revisited/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 14,
+   "friendlyName": "whats-possible",
+   "title": "What's possible?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/whats-possible",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 5184,
+   "isReviewQuestion": false,
+   "description": "Students are given two calculations involving subtracting square numbers and asked to make their own conjectures or investigate the questions given.",
+   "keyQuestions": [
+    {
+     "id": 116,
+     "content": "What are our key examples of interesting families of integers?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    57,
+    115,
+    215
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-numbers/whats-possible/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  }
+ ]
+}

@@ -73,5 +73,15 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   mode-2 deep-link shortlists per spec point, S1 provenance-bridge status;
   `docs/cross-map-quadratics.md` + machine-readable twin. Ready for
   operator review; generalisation to all lanes proposed (doc §8).
-- Next: **P3b** (relation-graph export + per-station enrichment sheets),
-  then **P4** (ADR: UGM integration mode) — see `docs/INTEGRATION-PLAN.md`.
+- 2026-10-22: **Phase 3b (enrichment data)** — captured all six per-resource
+  relation axes anonymously (855×6 API calls, 0 failures; GETs on
+  `/api/resources/{id}/…` are public — phase-1 grouping corrected);
+  canonical relation graph 1,295 nodes / 7,783 edges →
+  `resources/derived/relation-graph.json` + `.graphml`; per-station
+  enrichment sheets (25 stations, 855 resources: type, level, key
+  questions, lines, pervasive ideas, tags, related resources,
+  teacher support, question wells, assets, provenance) →
+  `resources/derived/enrichment-sheets/` + `INDEX.md`.
+- Next: **P4** (ADR: UGM integration mode decision) — see
+  `docs/INTEGRATION-PLAN.md`; P3c generalisation to all lanes awaits
+  operator review.

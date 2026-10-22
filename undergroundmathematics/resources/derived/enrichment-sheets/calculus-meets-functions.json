@@ -1,0 +1,2827 @@
+{
+ "station": {
+  "id": 1,
+  "friendlyId": "calculus-meets-functions",
+  "title": "Calculus meets Functions",
+  "guidingQuestion": "How does calculus deepen our understanding of functions, and vice versa?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 40,
+  "reviewQuestions": 28,
+  "resourcesWithKeyQuestions": 40,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 16,
+  "withTeacherSupport": 1,
+  "withAssets": 9,
+  "withProvenance": 30
+ },
+ "keyQuestions": [
+  {
+   "id": 1,
+   "number": 1,
+   "friendlyName": "calculus-sketch",
+   "content": "How does calculus help us to sketch graphs of functions?"
+  },
+  {
+   "id": 2,
+   "number": 2,
+   "friendlyName": "min-max",
+   "content": "How can we classify stationary points on graphs of functions?"
+  },
+  {
+   "id": 3,
+   "number": 3,
+   "friendlyName": "function-calculus",
+   "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+  },
+  {
+   "id": 4,
+   "number": 4,
+   "friendlyName": "second-derivative",
+   "content": "What does the second derivative tell us about a function?"
+  },
+  {
+   "id": 5,
+   "number": 5,
+   "friendlyName": "transformations-derivatives-integrals",
+   "content": "How do transformations of functions affect derivatives and integrals?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 925,
+   "friendlyName": "additional-integrals",
+   "title": "Additional integrals",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/additional-integrals",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 7826,
+   "isReviewQuestion": false,
+   "description": "This problem asks students to think about links between two given integrals and other related integrals.",
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 73,
+     "relationship": "Around",
+     "title": "What else do you know?",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/what-else-do-you-know"
+    }
+   ],
+   "keyphraseIds": [
+    88,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1985,
+    "questions": [
+     "Q9"
+    ],
+    "permission": null,
+    "parseStatus": "parsed-derived"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 902,
+   "friendlyName": "average-turning-points",
+   "title": "Average turning points",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/average-turning-points",
+   "type": {
+    "id": 11,
+    "name": "Go and think about it...",
+    "friendlyId": "go-and-think"
+   },
+   "level": "Developing",
+   "ref": 9187,
+   "isReviewQuestion": false,
+   "description": "Can a cubic have a stationary (turning) point midway between two intersection points?",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 75,
+     "relationship": "Back",
+     "title": "Can you find... curvy cubics edition",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics"
+    }
+   ],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 75,
+   "friendlyName": "can-you-find-curvy-cubics",
+   "title": "Can you find... curvy cubics edition",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 9412,
+   "isReviewQuestion": false,
+   "description": "This activity asks students to think about how they can use information about derivatives and stationary points to work  \"backwards\" to possible curves.",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 4
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 76,
+     "relationship": "Around",
+     "title": "Two-way calculus",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus"
+    },
+    {
+     "resourceId": 164,
+     "relationship": "Around",
+     "title": "Curvy cubics",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/curvy-cubics"
+    },
+    {
+     "resourceId": 902,
+     "relationship": "Forward",
+     "title": "Average turning points",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/average-turning-points"
+    }
+   ],
+   "keyphraseIds": [
+    52,
+    58,
+    95,
+    116,
+    136,
+    138,
+    166,
+    217,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-meets-functions/can-you-find-curvy-cubics/assets/sample-work-printable.pdf",
+    "/calculus-meets-functions/can-you-find-curvy-cubics/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 918,
+   "friendlyName": "choose-your-families",
+   "title": "Choose your families",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/choose-your-families",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Developing",
+   "ref": 9531,
+   "isReviewQuestion": false,
+   "description": "A resource offering practice in thinking about features of graphs and functions. Students decide which features of the graphs they will use to put the graphs into families.",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 76,
+     "relationship": "Forward",
+     "title": "Two-way calculus",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus"
+    },
+    {
+     "resourceId": 762,
+     "relationship": "Around",
+     "title": "Gradients of gradients",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/gradients-of-gradients"
+    },
+    {
+     "resourceId": 916,
+     "relationship": "Around",
+     "title": "Underneath the arches",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/underneath-the-arches"
+    }
+   ],
+   "keyphraseIds": [
+    55,
+    109,
+    136,
+    138,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-meets-functions/choose-your-families/assets/families.pdf",
+    "/calculus-meets-functions/choose-your-families/components/cards.pdf",
+    "/calculus-meets-functions/choose-your-families/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 164,
+   "friendlyName": "curvy-cubics",
+   "title": "Curvy cubics",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/curvy-cubics",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 7457,
+   "isReviewQuestion": false,
+   "description": "Students are asked to investigate what the equations of four somewhat different cubic functions could be.",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 75,
+     "relationship": "Around",
+     "title": "Can you find... curvy cubics edition",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics"
+    },
+    {
+     "resourceId": 76,
+     "relationship": "Around",
+     "title": "Two-way calculus",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus"
+    },
+    {
+     "resourceId": 143,
+     "relationship": "Back",
+     "title": "Can you find... cubic edition",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/can-you-find-cubic-edition"
+    }
+   ],
+   "keyphraseIds": [
+    52,
+    95,
+    136,
+    138,
+    166,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/calculus-meets-functions/curvy-cubics/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 762,
+   "friendlyName": "gradients-of-gradients",
+   "title": "Gradients of gradients",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/gradients-of-gradients",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 6781,
+   "isReviewQuestion": false,
+   "description": "This introduces the second derivative through a sketching task and then builds on ideas using some specific examples.",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 919,
+     "relationship": "Back",
+     "title": "Gradient match",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/gradient-match"
+    }
+   ],
+   "keyphraseIds": [
+    55,
+    88,
+    94,
+    109,
+    136,
+    138,
+    162,
+    217,
+    274
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-meets-functions/gradients-of-gradients/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1078,
+   "friendlyName": "keep-your-distance",
+   "title": "Keep your distance",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/keep-your-distance",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Developing",
+   "ref": 5333,
+   "isReviewQuestion": false,
+   "description": "In this task, students explore the safe stopping distance and the two-second rule as defined by the Highway Code. These are used to model traffic flow rates and to find a maximum flow rate based on various assumptions.",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1159,
+     "relationship": "Back",
+     "title": "What is the stopping distance for this car?",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/r6841"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    136,
+    179,
+    183,
+    187
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/calculus-meets-functions/keep-your-distance/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "MEI",
+    "paper": "Applied Mathematics 1",
+    "paperCode": "9656/1/2",
+    "year": 1983,
+    "questions": [
+     "C13"
+    ],
+    "permission": null,
+    "parseStatus": "parsed-derived"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1047,
+   "friendlyName": "r5090",
+   "title": "What does it mean if a function $f(x)=f(2\\alpha-x)$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r5090",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5090,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    75,
+    224,
+    278
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 408,
+   "friendlyName": "r5324",
+   "title": "If the trapezium rule overestimates $\\int^1_0 f(x)\\, dx$, what can we deduce?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r5324",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5324,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 817,
+   "friendlyName": "r5329",
+   "title": "If we increase $r$ by a small amount, what happens to $A$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r5329",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5329,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    109
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1967,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 999,
+   "friendlyName": "r5549",
+   "title": "If we know $f(x)$, can we find $\\int_{-1}^1 f(x^2-1) \\:dx$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r5549",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5549,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    161,
+    230,
+    278
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 355,
+   "friendlyName": "r6076",
+   "title": "Can we solve these simultaneous equations with integrals?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r6076",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6076,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 519,
+   "friendlyName": "r6180",
+   "title": "Can we maximise the volume of this metal tin?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r6180",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6180,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    53,
+    136,
+    222,
+    239
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "9200/1",
+    "year": 1980,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 383,
+   "friendlyName": "r6537",
+   "title": "When does $3x^4-16x^3+18x^2=k$ have exactly two real roots?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r6537",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6537,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 353,
+     "relationship": "Around",
+     "title": "When does $3x^4 - 16x^3 +18x^2 + k = 0$ have four real solutions?",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r8959"
+    }
+   ],
+   "keyphraseIds": [
+    136,
+    138,
+    181,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1983,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 341,
+   "friendlyName": "r6703",
+   "title": "When does this cubic equation have three distinct real roots?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r6703",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6703,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    57,
+    58,
+    199,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 2",
+    "paperCode": "437/2",
+    "year": 1958,
+    "questions": [
+     "Q3(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 621,
+   "friendlyName": "r6867",
+   "title": "When is the cost of producing this chemical a minimum?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r6867",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6867,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    138,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Applicable Mathematics 1",
+    "paperCode": "8485/1",
+    "year": 1989,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 696,
+   "friendlyName": "r6868",
+   "title": "When is $f(x) = 2x^3 − 9x^2 + 12x + 3$ smallest over this range?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r6868",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6868,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    138
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 348,
+   "friendlyName": "r7196",
+   "title": "Can we sketch the graph of this piecewise function?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7196",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7196,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    82,
+    95,
+    136,
+    161
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 299,
+   "friendlyName": "r7212",
+   "title": "What's the minimum area of this variable triangle?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7212",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7212,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    138,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1966,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 483,
+   "friendlyName": "r7386",
+   "title": "What's the area enclosed by $y=x(x-3)^2$ and a tangent?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7386,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    116,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "186",
+    "year": 1951,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 404,
+   "friendlyName": "r7461",
+   "title": "When is $I(c) = \\int^1_0 2^{-(x-c)^2} dx$ largest?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7461",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7461,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    136,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 606,
+   "friendlyName": "r7720",
+   "title": "How small can this triangle be?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7720",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7720,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    70,
+    138,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1964,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 481,
+   "friendlyName": "r7861",
+   "title": "When does a cubic curve have two turning points?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7861",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7861,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 690,
+   "friendlyName": "r7998",
+   "title": "If $y=f(x)$ has a turning point when $x=\\frac{1}{4}$, can we find $\\lambda$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7998",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7998,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    95,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1983,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1014,
+   "friendlyName": "r8105",
+   "title": "If $f(x)$ always satisfies this equation, what is $\\int_{-1}^1 f(x)\\: dx$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8105",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8105,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    75,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2014,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 309,
+   "friendlyName": "r8130",
+   "title": "What's the area between $f_k(x) = x(x-k)(x-2)$ and the $x$-axis?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8130",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8130,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    52,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 517,
+   "friendlyName": "r8287",
+   "title": "What can we say if $y = m(x-a)$ is tangent to $y = x^3 - x$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8287",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8287,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 376,
+   "friendlyName": "r8396",
+   "title": "When is this integral less than or equal to $1 - A/(n+B)$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8396",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8396,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 498,
+   "friendlyName": "r8588",
+   "title": "Given $f'(x)$ and $g'(x)$, what is $f''(2x)$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8588",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8588,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 353,
+   "friendlyName": "r8959",
+   "title": "When does $3x^4 - 16x^3 +18x^2 + k = 0$ have four real solutions?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8959",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8959,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 383,
+     "relationship": "Around",
+     "title": "When does $3x^4-16x^3+18x^2=k$ have exactly two real roots?",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r6537"
+    }
+   ],
+   "keyphraseIds": [
+    181,
+    199,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 800,
+   "friendlyName": "r8987",
+   "title": "Can we show that the area of this hexagon is $2(x^2 + xy + y^2)$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8987",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8987,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    58,
+    138,
+    175,
+    198
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1970,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1022,
+   "friendlyName": "r9099",
+   "title": "For the functions $f$ and $g$, is $g(f(A))$ always bigger than $f(g(A))$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r9099",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9099,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2015,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 402,
+   "friendlyName": "r9582",
+   "title": "How many stationary points does $y = 2x^3 - 6x^2 + 5x - 7$  have?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r9582",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9582,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 324,
+   "friendlyName": "r9671",
+   "title": "When does this function of two variables have a minimum?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r9671",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9671,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1984,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 623,
+   "friendlyName": "r9781",
+   "title": "When does this cubic equation have distinct real positive solutions?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r9781",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9781,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    136,
+    138,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2003,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 72,
+   "friendlyName": "slippery-slopes",
+   "title": "Slippery slopes",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/slippery-slopes",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8481,
+   "isReviewQuestion": false,
+   "description": "Students are presented with graphs of related (but unknown) functions and asked to determine the gradients of these graphs at certain points.",
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 73,
+     "relationship": "Around",
+     "title": "What else do you know?",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/what-else-do-you-know"
+    },
+    {
+     "resourceId": 86,
+     "relationship": "Forward",
+     "title": "Slippery slopes... another derivative",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-slopes-another-derivative"
+    },
+    {
+     "resourceId": 880,
+     "relationship": "Around",
+     "title": "Slippery areas",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-areas"
+    }
+   ],
+   "keyphraseIds": [
+    88,
+    94,
+    95,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-meets-functions/slippery-slopes/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 740,
+   "friendlyName": "thinking-constantly",
+   "title": "Thinking constantly",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/thinking-constantly",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 8986,
+   "isReviewQuestion": false,
+   "description": "A kinematics problem focusing on integration constants and how altering the initial conditions affects the movement of an object.",
+   "keyQuestions": [
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    1,
+    61,
+    116,
+    237,
+    310
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/calculus-meets-functions/thinking-constantly/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 76,
+   "friendlyName": "two-way-calculus",
+   "title": "Two-way calculus",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 5564,
+   "isReviewQuestion": false,
+   "description": "Students generate examples and identify common features by linking together stationary points, increasing and decreasing behaviour, integration and differentiation. For detailed notes on this resource, please see [Two-way calculus - teacher support](/calculus-meets-functions/two-way-calculus-teacher-support).",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 75,
+     "relationship": "Around",
+     "title": "Can you find... curvy cubics edition",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics"
+    },
+    {
+     "resourceId": 164,
+     "relationship": "Around",
+     "title": "Curvy cubics",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/curvy-cubics"
+    }
+   ],
+   "keyphraseIds": [
+    55,
+    58,
+    88,
+    94,
+    95,
+    109,
+    116,
+    162,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus-teacher-support",
+    "sections": [
+     "Outline",
+     "Opportunities for learning",
+     "Preliminary and follow-up tasks",
+     "Student work"
+    ]
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-meets-functions/two-way-calculus-teacher-support/assets/twowaycalculus-studentwork.pdf",
+    "/calculus-meets-functions/two-way-calculus/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 77,
+   "friendlyName": "two-way-calculus-teacher-support",
+   "title": "Two-way calculus - teacher support",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 7712,
+   "isReviewQuestion": false,
+   "description": "Detailed notes for Two-way calculus, produced as part of an ongoing research project in collaboration with teachers.",
+   "keyQuestions": [
+    {
+     "id": 1,
+     "content": "How does calculus help us to sketch graphs of functions?"
+    },
+    {
+     "id": 2,
+     "content": "How can we classify stationary points on graphs of functions?"
+    },
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 4,
+     "content": "What does the second derivative tell us about a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    281
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 73,
+   "friendlyName": "what-else-do-you-know",
+   "title": "What else do you know?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/what-else-do-you-know",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8489,
+   "isReviewQuestion": false,
+   "description": "Students are given the area under an unknown curve in a specified region and asked to consider what they can deduce about a selection of integrals involving transformations of the original function.",
+   "keyQuestions": [
+    {
+     "id": 3,
+     "content": "How does the language of functions help us to talk about calculus, and vice versa?"
+    },
+    {
+     "id": 5,
+     "content": "How do transformations of functions affect derivatives and integrals?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 72,
+     "relationship": "Around",
+     "title": "Slippery slopes",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/slippery-slopes"
+    },
+    {
+     "resourceId": 186,
+     "relationship": "Back",
+     "title": "Between the lines",
+     "station": "geometry-of-equations",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/between-the-lines"
+    },
+    {
+     "resourceId": 828,
+     "relationship": "Forward",
+     "title": "Trigsy integrals",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/trigsy-integrals"
+    },
+    {
+     "resourceId": 880,
+     "relationship": "Forward",
+     "title": "Slippery areas",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-areas"
+    }
+   ],
+   "keyphraseIds": [
+    17,
+    95,
+    116,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-meets-functions/what-else-do-you-know/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

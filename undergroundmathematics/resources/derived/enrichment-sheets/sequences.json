@@ -1,0 +1,2495 @@
+{
+ "station": {
+  "id": 23,
+  "friendlyId": "sequences",
+  "title": "Sequences",
+  "guidingQuestion": "What are some interesting sequences of numbers?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 42,
+  "reviewQuestions": 31,
+  "resourcesWithKeyQuestions": 42,
+  "keyQuestionsCovered": 6,
+  "keyQuestionsTotal": 6,
+  "resourcesWithPervasiveIdeas": 12,
+  "withTeacherSupport": 0,
+  "withAssets": 10,
+  "withProvenance": 33
+ },
+ "keyQuestions": [
+  {
+   "id": 99,
+   "number": 1,
+   "friendlyName": "sequence-vs-series",
+   "content": "What is the difference between a sequence and a series?"
+  },
+  {
+   "id": 100,
+   "number": 2,
+   "friendlyName": "properties-of-ap",
+   "content": "What properties does an arithmetic progression have?"
+  },
+  {
+   "id": 101,
+   "number": 3,
+   "friendlyName": "properties-of-gp",
+   "content": "What properties does a geometric progression have?"
+  },
+  {
+   "id": 102,
+   "number": 4,
+   "friendlyName": "sums-of-powers",
+   "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+  },
+  {
+   "id": 103,
+   "number": 5,
+   "friendlyName": "sum-of-infinite-series",
+   "content": "When and how can we sum an infinite series?"
+  },
+  {
+   "id": 104,
+   "number": 6,
+   "friendlyName": "converge-or-diverge",
+   "content": "What does it mean for a sequence or series to converge or diverge?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 38,
+   "friendlyName": "achilles-and-the-tortoise",
+   "title": "Achilles and the tortoise",
+   "url": "https://undergroundmathematics.org/sequences/achilles-and-the-tortoise",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 7823,
+   "isReviewQuestion": false,
+   "description": "An article describing Zeno's famous paradox involving the sum of an infinite sequence. A short animated video that also tells the tale is included.",
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    },
+    {
+     "id": 104,
+     "content": "What does it mean for a sequence or series to converge or diverge?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    92
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1160,
+   "friendlyName": "bouncing-to-nothing",
+   "title": "Bouncing to nothing",
+   "url": "https://undergroundmathematics.org/sequences/bouncing-to-nothing",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Developing",
+   "ref": 9023,
+   "isReviewQuestion": false,
+   "description": "Students use projectile motion and sequences to work out what happens to a bouncing ball.",
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 904,
+     "relationship": "Around",
+     "title": "Where did it land?",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/where-did-it-land"
+    }
+   ],
+   "keyphraseIds": [
+    45,
+    71,
+    92,
+    220,
+    311
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/bouncing-to-nothing/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1153,
+   "friendlyName": "can-you-find-series-edition",
+   "title": "Can you find... series edition",
+   "url": "https://undergroundmathematics.org/sequences/can-you-find-series-edition",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 6818,
+   "isReviewQuestion": false,
+   "description": "Students are asked to construct examples of infinite series that meet a set of constraints. This could consolidate understanding of convergence of series, or be used to introduce series following work on sequences.",
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    },
+    {
+     "id": 104,
+     "content": "What does it mean for a sequence or series to converge or diverge?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 3
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    20,
+    45,
+    92
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/can-you-find-series-edition/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1136,
+   "friendlyName": "change-one-thing",
+   "title": "Change one thing",
+   "url": "https://undergroundmathematics.org/sequences/change-one-thing",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Introducing",
+   "ref": 6517,
+   "isReviewQuestion": false,
+   "description": "Students are asked to think carefully about the different ways they can solve an arithmetic sequences question, and about what happens when they change one aspect of an arithmetic sequence.",
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    129,
+    130
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/change-one-thing/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1155,
+   "friendlyName": "common-terms",
+   "title": "Common terms",
+   "url": "https://undergroundmathematics.org/sequences/common-terms",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 8700,
+   "isReviewQuestion": false,
+   "description": "A set of four related questions about geometric and arithmetic sequences which have matching terms. How many common terms can they have?",
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    91,
+    186
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/common-terms/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1173,
+   "friendlyName": "connect-three",
+   "title": "Connect three?",
+   "url": "https://undergroundmathematics.org/sequences/connect-three",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 5401,
+   "isReviewQuestion": false,
+   "description": "Can we find an arithmetic progression containing any three given numbers (in some order)? What if one or more of those numbers were irrational? There are opportunities to further develop students thinking with discussions about proof by contradiction.",
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 1
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 934,
+     "relationship": "Back",
+     "title": "$\\sqrt{2}$ is irrational",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/square-root-of-2-is-irrational"
+    }
+   ],
+   "keyphraseIds": [
+    19,
+    123,
+    172
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/connect-three/components/cards.pdf",
+    "/sequences/connect-three/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1150,
+   "friendlyName": "puzzling-pentagon",
+   "title": "A puzzling pentagon",
+   "url": "https://undergroundmathematics.org/sequences/puzzling-pentagon",
+   "type": {
+    "id": 11,
+    "name": "Go and think about it...",
+    "friendlyId": "go-and-think"
+   },
+   "level": "Developing",
+   "ref": 8787,
+   "isReviewQuestion": false,
+   "description": "This interactive image offers a whole host of different mathematics to explore. It was created with geometric series in mind, but ideas such as rate of change, similarity and curves of pursuit could also be discussed.",
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1147,
+     "relationship": "Back",
+     "title": "Square spirals",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/square-spirals"
+    }
+   ],
+   "keyphraseIds": [
+    91,
+    93,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/sequences/puzzling-pentagon/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 788,
+   "friendlyName": "r5345",
+   "title": "If AP terms $a_4,a_8, a_{16}$ are in GP, are $a_3, a_6, a_{12}$ in GP too?",
+   "url": "https://undergroundmathematics.org/sequences/r5345",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5345,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    91
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "420/1",
+    "year": 1963,
+    "questions": [
+     "Q5(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 472,
+   "friendlyName": "r5416",
+   "title": "Can we sum the first $2n$ terms of $1^2-3^2+5^2-7^2+\\cdots$?",
+   "url": "https://undergroundmathematics.org/sequences/r5416",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5416,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    57
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "180",
+    "year": 1955,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 763,
+   "friendlyName": "r5602",
+   "title": "Can we show  $L  < \\int_1^r \\frac{1}{x} \\:dx <  R$?",
+   "url": "https://undergroundmathematics.org/sequences/r5602",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5602,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1171,
+     "relationship": "Around",
+     "title": "Sum estimating",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/sum-estimating"
+    }
+   ],
+   "keyphraseIds": [
+    219,
+    220,
+    268
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B Special paper",
+    "paperCode": "848/0",
+    "year": 1979,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 693,
+   "friendlyName": "r5849",
+   "title": "Can we find the sum of the integers from $2k$ to $4k$ inclusive?",
+   "url": "https://undergroundmathematics.org/sequences/r5849",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5849,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    20,
+    91,
+    188,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "9200/1",
+    "year": 1981,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 793,
+   "friendlyName": "r5995",
+   "title": "If $x_2 = 1/(1 - x_1), x_3 = 1/(1 - x_2)$, can we show $x_1x_2x_3+1=0$?",
+   "url": "https://undergroundmathematics.org/sequences/r5995",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5995,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 104,
+     "content": "What does it mean for a sequence or series to converge or diverge?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    191,
+    192,
+    204
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "842/1",
+    "year": 1979,
+    "questions": [
+     "Q1(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 431,
+   "friendlyName": "r6137",
+   "title": "How are the $p$th, $q$th and $r$th terms of an AP related?",
+   "url": "https://undergroundmathematics.org/sequences/r6137",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6137,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    91
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "186",
+    "year": 1951,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 791,
+   "friendlyName": "r6143",
+   "title": "Find an expression for the sum of $r^2$",
+   "url": "https://undergroundmathematics.org/sequences/r6143",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6143,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1171,
+     "relationship": "Back",
+     "title": "Sum estimating",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/sum-estimating"
+    }
+   ],
+   "keyphraseIds": [
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2003,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 465,
+   "friendlyName": "r6153",
+   "title": "If $u_n = a + bn + c2^n$, what's the sum of the first $n$ terms?",
+   "url": "https://undergroundmathematics.org/sequences/r6153",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6153,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    20,
+    92,
+    204,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "184",
+    "year": 1953,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 374,
+   "friendlyName": "r6257",
+   "title": "Can we sum the first $2n$ terms of $1,1,2,\\frac{1}{2},4,\\frac{1}{4},8,\\frac{1}{8},..$?",
+   "url": "https://undergroundmathematics.org/sequences/r6257",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6257,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 434,
+   "friendlyName": "r6405",
+   "title": "What can we say if $a, x_1, x_2, x_3, x_4, x_5, b$ are in arithmetic progression?",
+   "url": "https://undergroundmathematics.org/sequences/r6405",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6405,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    91,
+    205
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1984,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 412,
+   "friendlyName": "r6555",
+   "title": "How are these recursively defined sequences related?",
+   "url": "https://undergroundmathematics.org/sequences/r6555",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6555,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    63,
+    186,
+    191
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 707,
+   "friendlyName": "r6608",
+   "title": "If a GP has $S_n=(3^n - 2^n)/2^{n-5}$, what's its common ratio?",
+   "url": "https://undergroundmathematics.org/sequences/r6608",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6608,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q1(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 455,
+   "friendlyName": "r7240",
+   "title": "What's the sum of the $r^{th}$ bracket in $(1), (2,3), (4,5,6),\\cdots$?",
+   "url": "https://undergroundmathematics.org/sequences/r7240",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7240,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    35,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1975,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 543,
+   "friendlyName": "r7258",
+   "title": "If $27$, $x$, $y$ are in GP, with sum $21$, what are $x$ and $y$?",
+   "url": "https://undergroundmathematics.org/sequences/r7258",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7258,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1980,
+    "questions": [
+     "Q12(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 760,
+   "friendlyName": "r7424",
+   "title": "Can we sum from $1000$ to $2000$ excluding multiples of 5?",
+   "url": "https://undergroundmathematics.org/sequences/r7424",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7424,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    20,
+    91,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "848/1",
+    "year": 1978,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 273,
+   "friendlyName": "r7487",
+   "title": "When does the sum of this series first exceed $2999/4000$?",
+   "url": "https://undergroundmathematics.org/sequences/r7487",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7487,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    92,
+    219,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "417/1",
+    "year": 1958,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 580,
+   "friendlyName": "r8121",
+   "title": "When does the sum of this series equal $60$?",
+   "url": "https://undergroundmathematics.org/sequences/r8121",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8121,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    204
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2006,
+    "questions": [
+     "Q22"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 854,
+   "friendlyName": "r8163",
+   "title": "If $S_n =  6 - 2^{n+1}/3^{n-1}$, can we show that we have a GP?",
+   "url": "https://undergroundmathematics.org/sequences/r8163",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8163,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1981,
+    "questions": [
+     "Q1(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1041,
+   "friendlyName": "r8248",
+   "title": "Given the sequence $(x_n)$, what is  $\\sum_{k=0}^\\infty 1/x_k$?",
+   "url": "https://undergroundmathematics.org/sequences/r8248",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8248,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91,
+    92,
+    191,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 451,
+   "friendlyName": "r8249",
+   "title": "What is the sum of the multiples of 5 or 8 but not both?",
+   "url": "https://undergroundmathematics.org/sequences/r8249",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8249,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    4,
+    19,
+    205,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1985,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 877,
+   "friendlyName": "r8404",
+   "title": "If $x_1 = (x_0 + 2)/(x_0 + 1)$, can we show $\\sqrt{2}$ lies between $x_0$ and $x_1$?",
+   "url": "https://undergroundmathematics.org/sequences/r8404",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8404,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 104,
+     "content": "What does it mean for a sequence or series to converge or diverge?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    44,
+    45,
+    112,
+    191
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "842/1",
+    "year": 1973,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 971,
+   "friendlyName": "r8493",
+   "title": "How are the sums of $n$, $2n$ and $3n$ terms connected here?",
+   "url": "https://undergroundmathematics.org/sequences/r8493",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8493,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 104,
+     "content": "What does it mean for a sequence or series to converge or diverge?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    91,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C",
+    "paperCode": "187",
+    "year": 1953,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 978,
+   "friendlyName": "r8617",
+   "title": "How do we add the odd-numbered terms of a geometric series?",
+   "url": "https://undergroundmathematics.org/sequences/r8617",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8617,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    92,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 1",
+    "paperCode": "9205/1 and 9206/1",
+    "year": 1986,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 320,
+   "friendlyName": "r8907",
+   "title": "If an AP has $S_{10}=3S_5$, what's the ratio of $u_{10}$ to $u_5$?",
+   "url": "https://undergroundmathematics.org/sequences/r8907",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8907,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    204,
+    205,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1986,
+    "questions": [
+     "Q2(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 354,
+   "friendlyName": "r8998",
+   "title": "When does $1-2+3-4+5-\\cdots +(-1)^{n+1}n$ reach $100$?",
+   "url": "https://undergroundmathematics.org/sequences/r8998",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8998,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    204,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1152,
+   "friendlyName": "r9177",
+   "title": "What are the first term and common ratio given two facts about this geometric progression?",
+   "url": "https://undergroundmathematics.org/sequences/r9177",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9177,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1987,
+    "questions": [
+     "Q2(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 831,
+   "friendlyName": "r9185",
+   "title": "When does $1 + 2/3 + (2/3)^2 + \\dotsb$ first exceed $0.9999S_\\infty$?",
+   "url": "https://undergroundmathematics.org/sequences/r9185",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9185,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1976,
+    "questions": [
+     "Q3(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 749,
+   "friendlyName": "r9375",
+   "title": "Should I hire a TV or borrow to buy it?",
+   "url": "https://undergroundmathematics.org/sequences/r9375",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9375,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    91
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI Additional Mathematics 1",
+    "paperCode": "MEI 109",
+    "year": 1974,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1158,
+   "friendlyName": "r9468",
+   "title": "What can we tell about the signs of this arithmetic sequence?",
+   "url": "https://undergroundmathematics.org/sequences/r9468",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9468,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "TMUA",
+    "paper": "paper 2",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 674,
+   "friendlyName": "r9613",
+   "title": "Given $S_n = S_{3n}$, can we express $a$ in terms of $n$?",
+   "url": "https://undergroundmathematics.org/sequences/r9613",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9613,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 1",
+    "paperCode": "9205/1 and 9206/1",
+    "year": 1988,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 286,
+   "friendlyName": "r9819",
+   "title": "Can we sum $1^2-2^2+3^2-4^2+\\dotsb+ (2n-1)^2-(2n)^2$?",
+   "url": "https://undergroundmathematics.org/sequences/r9819",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9819,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1972,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1170,
+   "friendlyName": "same-different",
+   "title": "Same or different?",
+   "url": "https://undergroundmathematics.org/sequences/same-different",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 5639,
+   "isReviewQuestion": false,
+   "description": "Students are asked to compare three sums written in sigma notation and asked if they are the same or different. Generalisation is encouraged.",
+   "keyQuestions": [
+    {
+     "id": 99,
+     "content": "What is the difference between a sequence and a series?"
+    },
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    205,
+    314
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/same-different/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1154,
+   "friendlyName": "sort-it-out",
+   "title": "Sort it out",
+   "url": "https://undergroundmathematics.org/sequences/sort-it-out",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 9070,
+   "isReviewQuestion": false,
+   "description": "Students are encouraged to recognise the properties of different sequences, leading them to build and develop their own definitions and classifications of sequences.",
+   "keyQuestions": [
+    {
+     "id": 100,
+     "content": "What properties does an arithmetic progression have?"
+    },
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 104,
+     "content": "What does it mean for a sequence or series to converge or diverge?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    45,
+    63,
+    91,
+    109
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/sort-it-out/components/sequence-cards.pdf",
+    "/sequences/sort-it-out/components/sequence-groupings.pdf",
+    "/sequences/sort-it-out/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1147,
+   "friendlyName": "square-spirals",
+   "title": "Square spirals",
+   "url": "https://undergroundmathematics.org/sequences/square-spirals",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Introducing",
+   "ref": 6381,
+   "isReviewQuestion": false,
+   "description": "This resource presents diagrams that offer an interesting and concrete way for students to think about infinite geometric series without needing prior knowledge of geometric sequences.",
+   "keyQuestions": [
+    {
+     "id": 101,
+     "content": "What properties does a geometric progression have?"
+    },
+    {
+     "id": 103,
+     "content": "When and how can we sum an infinite series?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1150,
+     "relationship": "Forward",
+     "title": "A puzzling pentagon",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/puzzling-pentagon"
+    }
+   ],
+   "keyphraseIds": [
+    92,
+    220
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/square-spirals/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1171,
+   "friendlyName": "sum-estimating",
+   "title": "Sum estimating",
+   "url": "https://undergroundmathematics.org/sequences/sum-estimating",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 9016,
+   "isReviewQuestion": false,
+   "description": "This problem explores the links between integration and summation. Often when introducing integration we use sums to approximate integrals. Here the idea is turned on its head and students are asked to approximate the value of the sum of $r^2$ using integrals.",
+   "keyQuestions": [
+    {
+     "id": 102,
+     "content": "How can we evaluate sums such as $\\sum_{k=1}^n k$ and $\\sum_{k=1}^n k^2$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 763,
+     "relationship": "Around",
+     "title": "Can we show  $L  < \\int_1^r \\frac{1}{x} \\:dx <  R$?",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/r5602"
+    },
+    {
+     "resourceId": 791,
+     "relationship": "Forward",
+     "title": "Find an expression for the sum of $r^2$",
+     "station": "sequences",
+     "url": "https://undergroundmathematics.org/sequences/r6143"
+    }
+   ],
+   "keyphraseIds": [
+    116,
+    205,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/sequences/sum-estimating/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

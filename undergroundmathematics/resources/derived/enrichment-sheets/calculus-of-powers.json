@@ -1,0 +1,2827 @@
+{
+ "station": {
+  "id": 2,
+  "friendlyId": "calculus-of-powers",
+  "title": "Calculus of Powers",
+  "guidingQuestion": "How do we calculate the gradient of a curve or the area underneath it?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 48,
+  "reviewQuestions": 39,
+  "resourcesWithKeyQuestions": 47,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 13,
+  "withTeacherSupport": 0,
+  "withAssets": 9,
+  "withProvenance": 39
+ },
+ "keyQuestions": [
+  {
+   "id": 7,
+   "number": 1,
+   "friendlyName": "power-of-x",
+   "content": "How can we find the derivative or integral of a power of $x$?"
+  },
+  {
+   "id": 8,
+   "number": 2,
+   "friendlyName": "diff-int-related",
+   "content": "How are differentiation and integration related?"
+  },
+  {
+   "id": 138,
+   "number": 3,
+   "friendlyName": "max-or-min",
+   "content": "How can we locate a maximum or minimum point on a graph?"
+  },
+  {
+   "id": 9,
+   "number": 4,
+   "friendlyName": "tangent-normal",
+   "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+  },
+  {
+   "id": 10,
+   "number": 5,
+   "friendlyName": "calculate-area",
+   "content": "How and when can we use integration to find the area under a curve?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 69,
+   "friendlyName": "binomials-are-the-answer",
+   "title": "Binomials are the answer!",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 7692,
+   "isReviewQuestion": false,
+   "description": "Starting with quadratics and cubics, students explore gradients of chords, leading to gradients of tangents to curves and finally a general result for the gradient of $y=x^n$.",
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 53,
+     "relationship": "Back",
+     "title": "Zooming in",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in"
+    },
+    {
+     "resourceId": 728,
+     "relationship": "Back",
+     "title": "Gradient spotting",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/gradient-spotting"
+    },
+    {
+     "resourceId": 1129,
+     "relationship": "Around",
+     "title": "Mapping a derivative",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative"
+    },
+    {
+     "resourceId": 1184,
+     "relationship": "Forward",
+     "title": "Powerful derivatives",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/powerful-derivatives"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    166,
+    167,
+    307
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/calculus-of-powers/binomials-are-the-answer/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 43,
+   "friendlyName": "calculus-of-variations",
+   "title": "Calculus of variations—finding the best possible way",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/calculus-of-variations",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9306,
+   "isReviewQuestion": false,
+   "description": "This resource looks at extending the idea of calculus and gives some historical background.",
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 85,
+     "relationship": "Back",
+     "title": "The law of reflection and saving time",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/the-law-of-reflection-and-saving-time"
+    }
+   ],
+   "keyphraseIds": [
+    27,
+    136,
+    138,
+    146
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/calculus-of-powers/calculus-of-variations/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 741,
+   "friendlyName": "floppy-hair",
+   "title": "Floppy hair",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/floppy-hair",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 5439,
+   "isReviewQuestion": false,
+   "description": "Students use differentiation to locate stationary points on curves. They also have to manipulate some fractional indices and solve equations in order to decide which equation goes with which curve.",
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    136,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-of-powers/floppy-hair/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 728,
+   "friendlyName": "gradient-spotting",
+   "title": "Gradient spotting",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/gradient-spotting",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 6979,
+   "isReviewQuestion": false,
+   "description": "Students use an applet to look for patterns in the gradients of quadratics and cubics, with the aim of understanding the contribution of each coefficient to the gradient and thus producing a rule for finding the gradient function (derivative) of these polynomials.",
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 53,
+     "relationship": "Back",
+     "title": "Zooming in",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in"
+    },
+    {
+     "resourceId": 69,
+     "relationship": "Forward",
+     "title": "Binomials are the answer!",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer"
+    },
+    {
+     "resourceId": 729,
+     "relationship": "Back",
+     "title": "A tangent is ...",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/a-tangent-is"
+    }
+   ],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/calculus-of-powers/gradient-spotting/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": [
+    "geogebra"
+   ]
+  },
+  {
+   "id": 64,
+   "friendlyName": "integral-chasing",
+   "title": "Integral chasing",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/integral-chasing",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 8245,
+   "isReviewQuestion": false,
+   "description": "Students work out four definite integrals, giving results in terms of unknowns whose values can then be determined. The task offers lots of practice of algebra skills and integration together.",
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1156,
+     "relationship": "Forward",
+     "title": "Integral chasing II",
+     "station": "product-rule",
+     "url": "https://undergroundmathematics.org/product-rule/integral-chasing-2"
+    }
+   ],
+   "keyphraseIds": [
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-of-powers/integral-chasing/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 83,
+   "friendlyName": "meaningful-areas",
+   "title": "Meaningful areas",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/meaningful-areas",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 6999,
+   "isReviewQuestion": false,
+   "description": "Students are asked to find the areas of regions between the graphs of a set of functions. This can be done by integration but we explore a variety of other techniques that can be used and make connections with other areas of mathematics.",
+   "keyQuestions": [
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 131,
+     "relationship": "Back",
+     "title": "Curve match",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/curve-match"
+    },
+    {
+     "resourceId": 882,
+     "relationship": "Forward",
+     "title": "Inverse integrals",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals"
+    }
+   ],
+   "keyphraseIds": [
+    13,
+    18,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-of-powers/meaningful-areas/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 221,
+   "friendlyName": "queen-dido",
+   "title": "Queen Dido's problem",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/queen-dido",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 8762,
+   "isReviewQuestion": false,
+   "description": "We describe a historical problem whose answer seems obvious but which led to the development of the calculus of variations.",
+   "keyQuestions": [
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    146
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/calculus-of-powers/queen-dido/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 806,
+   "friendlyName": "r5007",
+   "title": "What volume is generated when $y = ax - x^2$ is rotated about the x-axis?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5007",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5007,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    116,
+    240
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "Q816",
+    "year": 1972,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 870,
+   "friendlyName": "r5584",
+   "title": "Can we find the centre of mass of a solid hemisphere?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5584",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5584,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    28,
+    213,
+    240
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 2",
+    "paperCode": "840/2",
+    "year": 1973,
+    "questions": [
+     "Q17"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 663,
+   "friendlyName": "r5703",
+   "title": "Where do two tangents cross, and where do two normals cross?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5703",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5703,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    70,
+    88,
+    95,
+    101,
+    144,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 371,
+   "friendlyName": "r5732",
+   "title": "Where does $f(x) = x^2 - 2px + 3$ have its minimum?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5732",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5732,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 572,
+   "friendlyName": "r5768",
+   "title": "Can we find a curve from its gradient function?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5768",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5768,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 8,
+     "content": "How are differentiation and integration related?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1968,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 328,
+   "friendlyName": "r6067",
+   "title": "Can we find the area under a parabola?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6067",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6067,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 594,
+   "friendlyName": "r6345",
+   "title": "Can we find a percentage increase using the gradient?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6345",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6345,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1978,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 398,
+   "friendlyName": "r6352",
+   "title": "When does the normal to a parabola pass through this point?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6352",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6352,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 808,
+   "friendlyName": "r6372",
+   "title": "Can we sketch the graph of $y^2 = x^3$?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6372",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6372,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    94,
+    95,
+    116,
+    240
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1968,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 545,
+   "friendlyName": "r6584",
+   "title": "Can we find the area inside a parabola, a tangent, and the $x$-axis?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6584",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6584,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    58,
+    116,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1980,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 292,
+   "friendlyName": "r6820",
+   "title": "When is the area of a face of this pyramid a minimum?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6820",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6820,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    146,
+    174,
+    239
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2 and Pure Mathematics 2",
+    "paperCode": "417/2 and 447/2",
+    "year": 1964,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 578,
+   "friendlyName": "r6877",
+   "title": "Can we find the area of the triangle created by a common tangent?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6877",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6877,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    29,
+    106
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1967,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 881,
+   "friendlyName": "r6959",
+   "title": "Can we track this constantly growing patch of fluid?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6959,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    15,
+    185
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1979,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 308,
+   "friendlyName": "r7236",
+   "title": "When does this definite integral have a minimum?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7236",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7236,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 746,
+   "friendlyName": "r7280",
+   "title": "What's the most economical speed for this ship's journey?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7280",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7280,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    62,
+    138,
+    146,
+    212
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI Additional Mathematics 1",
+    "paperCode": "MEI 109",
+    "year": 1974,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 592,
+   "friendlyName": "r7391",
+   "title": "What is the gradient of this curve at its $x$-intercepts?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7391",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7391,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    94
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Certificate in Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1989,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 771,
+   "friendlyName": "r7433",
+   "title": "Is the gradient function increasing or decreasing on this curve?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7433",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7433,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    94,
+    109,
+    162,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1973,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 549,
+   "friendlyName": "r7444",
+   "title": "Can we find the area inside a straight line, a parabola and the x-axis?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7444",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7444,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1977,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 656,
+   "friendlyName": "r7586",
+   "title": "Given the line $PRQ$, when is $OP + OQ$ a minimum?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7586",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7586,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    62,
+    128,
+    138
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 818,
+   "friendlyName": "r7628",
+   "title": "If we take a slice from this sphere, where is its centre of gravity?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7628",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7628,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    28,
+    240
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "General Mathematics 2",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 946,
+   "friendlyName": "r7724",
+   "title": "Can we explain why this integral is zero?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7724",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7724,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    116
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "N818",
+    "year": 1968,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 576,
+   "friendlyName": "r7734",
+   "title": "Given three clues, can we find the equation of the curve?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7734",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7734,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 8,
+     "content": "How are differentiation and integration related?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "N817",
+    "year": 1968,
+    "questions": [
+     "Q8(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 344,
+   "friendlyName": "r7750",
+   "title": "How many common tangents can two parabolas have?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7750",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7750,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    141,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2005,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 837,
+   "friendlyName": "r7785",
+   "title": "When is the volume of this cylinder inside a cone a maximum?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7785",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7785,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    40,
+    53,
+    58,
+    136,
+    146,
+    239
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1 QP9200/1 and 9208/1",
+    "paperCode": null,
+    "year": 1982,
+    "questions": [
+     "Q17"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 579,
+   "friendlyName": "r8065",
+   "title": "What (approximately) is the square root of $26$?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8065",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8065,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 1",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q7(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 514,
+   "friendlyName": "r8231",
+   "title": "A cubic has one real root—can we find an approximation to it?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8231,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    10,
+    52,
+    199,
+    296,
+    297
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Cambridge Colleges",
+    "paper": "Examination for Entrance Scholarships and Exhibitions Calculus (Group 3)",
+    "paperCode": null,
+    "year": 1952,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Colleges of the University of Cambridge",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 288,
+   "friendlyName": "r8286",
+   "title": "Can we find the triangle areas given by a tangent?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8286",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8286,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    42,
+    101,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "181",
+    "year": 1954,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1042,
+   "friendlyName": "r8350",
+   "title": "When is the area of this region bigger than the area of this one?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8350",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8350,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 546,
+   "friendlyName": "r8399",
+   "title": "Can we find the locus of a midpoint created by a parabola?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8399",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8399,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1977,
+    "questions": [
+     "Q14"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1005,
+   "friendlyName": "r8441",
+   "title": "When does $y=kx^3-(k+1)x^2+(2-k)x-k$ have a minimum at $x =1$?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8441",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8441,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    138,
+    162,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2014,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 501,
+   "friendlyName": "r8543",
+   "title": "Can we show these two cubic curves touch?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8543",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8543,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    95,
+    120,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 888,
+   "friendlyName": "r8548",
+   "title": "What's the least surface area of this rocket-shaped solid?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8548",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8548,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    40,
+    53,
+    58,
+    136,
+    222,
+    239
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 2",
+    "paperCode": "842/2",
+    "year": 1973,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 480,
+   "friendlyName": "r8716",
+   "title": "What happens if we integrate, then differentiate?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8716",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8716,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 8,
+     "content": "How are differentiation and integration related?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 503,
+   "friendlyName": "r8931",
+   "title": "What happens if we expand, then differentiate?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8931",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8931,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1E"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 789,
+   "friendlyName": "r9138",
+   "title": "Can we find the area enclosed by this quadratic and the $x$-axis?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r9138",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9138,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    94,
+    116,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1963,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 318,
+   "friendlyName": "r9260",
+   "title": "When is the volume of this cuboid a maximum?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9260,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    136,
+    222,
+    239
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1986,
+    "questions": [
+     "Q12(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 697,
+   "friendlyName": "r9357",
+   "title": "Can we find the area between a parabola and a line?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r9357",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9357,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 777,
+   "friendlyName": "r9599",
+   "title": "What can we say about the combined area of these two shapes?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r9599",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9599,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 138,
+     "content": "How can we locate a maximum or minimum point on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    58,
+    138,
+    146
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "4030/1",
+    "year": 1987,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 547,
+   "friendlyName": "r9942",
+   "title": "If we increase $x$ by a small amount, what happens to $y$?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9942,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1977,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 814,
+   "friendlyName": "stretch-the-function",
+   "title": "Stretch the function",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/stretch-the-function",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6033,
+   "isReviewQuestion": false,
+   "description": "Students evaluate definite integrals in order to find a scale factor that makes each function satisfy a pair of conditions.\nA connection is made between the definite integral and the area between the graph and the axis.",
+   "keyQuestions": [
+    {
+     "id": 7,
+     "content": "How can we find the derivative or integral of a power of $x$?"
+    },
+    {
+     "id": 10,
+     "content": "How and when can we use integration to find the area under a curve?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    21,
+    88,
+    95,
+    116,
+    279
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-of-powers/stretch-the-function/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1169,
+   "friendlyName": "tangent-or-normal",
+   "title": "Tangent or normal",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/tangent-or-normal",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 5249,
+   "isReviewQuestion": false,
+   "description": "This structured activity starts with matching straight lines in pairs that could be tangents and normals, and leads on to finding the equations of corresponding curves given a set of gradient functions.",
+   "keyQuestions": [
+    {
+     "id": 8,
+     "content": "How are differentiation and integration related?"
+    },
+    {
+     "id": 9,
+     "content": "How can we find and interpret the tangent or normal to a curve at a point?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    94,
+    116,
+    144,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/calculus-of-powers/tangent-or-normal/components/cards-single.pdf",
+    "/calculus-of-powers/tangent-or-normal/components/cards.pdf",
+    "/calculus-of-powers/tangent-or-normal/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

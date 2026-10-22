@@ -1,0 +1,3194 @@
+{
+ "station": {
+  "id": 4,
+  "friendlyId": "chain-rule",
+  "title": "Chain Rule & Integration by Substitution",
+  "guidingQuestion": "What is the rate of change of a composite function?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 49,
+  "reviewQuestions": 32,
+  "resourcesWithKeyQuestions": 49,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 19,
+  "withTeacherSupport": 0,
+  "withAssets": 16,
+  "withProvenance": 33
+ },
+ "keyQuestions": [
+  {
+   "id": 16,
+   "number": 1,
+   "friendlyName": "rate-of-change-related",
+   "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+  },
+  {
+   "id": 18,
+   "number": 2,
+   "friendlyName": "differentiate-inverse",
+   "content": "When and how can the inverse of a function be differentiated?"
+  },
+  {
+   "id": 19,
+   "number": 3,
+   "friendlyName": "implicit-differentiation",
+   "content": "What is implicit differentiation?"
+  },
+  {
+   "id": 141,
+   "number": 4,
+   "friendlyName": "parametric",
+   "content": "How can gradients of parametric curves be found?"
+  },
+  {
+   "id": 20,
+   "number": 5,
+   "friendlyName": "integration-by-substitution",
+   "content": "What is integration by substitution, and how is it related to the chain rule?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 994,
+   "friendlyName": "can-you-find-chain-rule-edition",
+   "title": "Can you find... chain rule edition",
+   "url": "https://undergroundmathematics.org/chain-rule/can-you-find-chain-rule-edition",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 9008,
+   "isReviewQuestion": false,
+   "description": "Students use the chain rule to work backwards from conditions that the derivative of a function of a function must satisfy.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 18,
+     "content": "When and how can the inverse of a function be differentiated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 75,
+     "relationship": "Back",
+     "title": "Can you find... curvy cubics edition",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics"
+    }
+   ],
+   "keyphraseIds": [
+    29,
+    38,
+    55,
+    109,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/can-you-find-chain-rule-edition/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1166,
+   "friendlyName": "chain-mapping",
+   "title": "Chain mapping",
+   "url": "https://undergroundmathematics.org/chain-rule/chain-mapping",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 9648,
+   "isReviewQuestion": false,
+   "description": "Students are led to an understanding of what the chain rule means and why it works, using mapping diagrams.  It builds on two earlier mapping diagrams resources.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1129,
+     "relationship": "Back",
+     "title": "Mapping a derivative",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative"
+    },
+    {
+     "resourceId": 1176,
+     "relationship": "Back",
+     "title": "Mapping a function",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/mapping-a-function"
+    }
+   ],
+   "keyphraseIds": [
+    29
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/chain-mapping/assets/mapping-diagrams-composite-2.pdf",
+    "/chain-rule/chain-mapping/assets/mapping-diagrams-composite.pdf",
+    "/chain-rule/chain-mapping/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": [
+    "geogebra"
+   ]
+  },
+  {
+   "id": 951,
+   "friendlyName": "circular-slice",
+   "title": "Circular slice",
+   "url": "https://undergroundmathematics.org/chain-rule/circular-slice",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Developing",
+   "ref": 7726,
+   "isReviewQuestion": false,
+   "description": "Students are asked to solve $\\int_a^b \\sqrt{1-x^2} \\, dx$ by substitution, before looking at how they can link their answer to a geometric representation of the problem.",
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 48,
+     "relationship": "Back",
+     "title": "Problem areas",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/problem-areas"
+    }
+   ],
+   "keyphraseIds": [
+    16,
+    271,
+    280
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/circular-slice/assets/circular-slice-worksheet.pdf",
+    "/chain-rule/circular-slice/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 90,
+   "friendlyName": "differentiating-exponentials",
+   "title": "Differentiating exponentials",
+   "url": "https://undergroundmathematics.org/chain-rule/differentiating-exponentials",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 6380,
+   "isReviewQuestion": false,
+   "description": "The aim of the resource is to derive a general form for differentiating $a^x$ for $a$ a positive number.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 959,
+     "relationship": "Back",
+     "title": "To the limit",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/to-the-limit"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    77
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/chain-rule/differentiating-exponentials/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 976,
+   "friendlyName": "i-can-see-u",
+   "title": "I can see $u$!",
+   "url": "https://undergroundmathematics.org/chain-rule/i-can-see-u",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 6535,
+   "isReviewQuestion": false,
+   "description": "Students are asked to identify a suitable $u$ or ‘inner function’ for each of the given functions and then find $\\tfrac{dy}{dx}.$ Different ways of rewriting the expressions involved may lead to alternative options for $u.$",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1010,
+     "relationship": "Forward",
+     "title": "Odd one out",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/odd-one-out"
+    }
+   ],
+   "keyphraseIds": [
+    29,
+    38,
+    58,
+    218
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/i-can-see-u/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 975,
+   "friendlyName": "implicit-circles",
+   "title": "Implicit circles",
+   "url": "https://undergroundmathematics.org/chain-rule/implicit-circles",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Introducing",
+   "ref": 5027,
+   "isReviewQuestion": false,
+   "description": "Students are asked to find the gradient of three points on the graph of a circle, thinking about different ways to solve this problem. The specific problem is then generalised as a way of introducing implicit differentiation.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    68,
+    94,
+    106
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/implicit-circles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 962,
+   "friendlyName": "integral-sorting",
+   "title": "Integral sorting",
+   "url": "https://undergroundmathematics.org/chain-rule/integral-sorting",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 6859,
+   "isReviewQuestion": false,
+   "description": "Students are asked to pair up cards containing integrals and their answers, as well as find a suitable substitution that could be used to solve the integral.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    29,
+    280
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/integral-sorting/components/cards.pdf",
+    "/chain-rule/integral-sorting/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1010,
+   "friendlyName": "odd-one-out",
+   "title": "Odd one out",
+   "url": "https://undergroundmathematics.org/chain-rule/odd-one-out",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 7277,
+   "isReviewQuestion": false,
+   "description": "Students decide why each function is the odd one out in its row or column. Based on the idea of looking for similarities and differences between functions, this resource aims to make links between properties of functions composed from other functions, using features of their formulae, graphs and derivatives.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 976,
+     "relationship": "Back",
+     "title": "I can see $u$!",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/i-can-see-u"
+    }
+   ],
+   "keyphraseIds": [
+    29,
+    38,
+    94,
+    274
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/odd-one-out/assets/table-graphs.pdf",
+    "/chain-rule/odd-one-out/assets/table.pdf",
+    "/chain-rule/odd-one-out/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1103,
+   "friendlyName": "parametric-paths",
+   "title": "Parametric paths",
+   "url": "https://undergroundmathematics.org/chain-rule/parametric-paths",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 8570,
+   "isReviewQuestion": false,
+   "description": "Students have to match curves with their parametric coordinates and sketch two missing curves. The table layout encourages thinking about  what happens when one of the parametric equations is fixed while the other changes, and may help to reinforce understanding of the role the parameter plays in determining the shape of the curve.",
+   "keyQuestions": [
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1023,
+     "relationship": "Forward",
+     "title": "Parametric points",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/parametric-points"
+    },
+    {
+     "resourceId": 1134,
+     "relationship": "Back",
+     "title": "Parametric preliminaries",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/parametric-preliminaries"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    152,
+    156,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/parametric-paths/components/cards.pdf",
+    "/chain-rule/parametric-paths/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1023,
+   "friendlyName": "parametric-points",
+   "title": "Parametric points",
+   "url": "https://undergroundmathematics.org/chain-rule/parametric-points",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 8891,
+   "isReviewQuestion": false,
+   "description": "Students are asked to match up parametric equations with locations of stationary points and with their graphs. This requires use of the Chain Rule in the context of parametrics. We encounter some interesting looking curves.",
+   "keyQuestions": [
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1103,
+     "relationship": "Back",
+     "title": "Parametric paths",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/parametric-paths"
+    },
+    {
+     "resourceId": 1134,
+     "relationship": "Back",
+     "title": "Parametric preliminaries",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/parametric-preliminaries"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    94,
+    118,
+    152,
+    217
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/parametric-points/components/cards.pdf",
+    "/chain-rule/parametric-points/components/x-cards.pdf",
+    "/chain-rule/parametric-points/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1134,
+   "friendlyName": "parametric-preliminaries",
+   "title": "Parametric preliminaries",
+   "url": "https://undergroundmathematics.org/chain-rule/parametric-preliminaries",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 8446,
+   "isReviewQuestion": false,
+   "description": "This resource introduces parametric equations by looking at the locus of a point as its position changes according to some geometric constraints. Students are asked to visualise the path the point will trace out and express the coordinates of the point in terms of a parameter.",
+   "keyQuestions": [
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1023,
+     "relationship": "Forward",
+     "title": "Parametric points",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/parametric-points"
+    },
+    {
+     "resourceId": 1103,
+     "relationship": "Forward",
+     "title": "Parametric paths",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/parametric-paths"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    152
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/parametric-preliminaries/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1184,
+   "friendlyName": "powerful-derivatives",
+   "title": "Powerful derivatives",
+   "url": "https://undergroundmathematics.org/chain-rule/powerful-derivatives",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 5348,
+   "isReviewQuestion": false,
+   "description": "Students are invited to prove that the derivative of $x^a$ is $ax^{a-1}$ for any real value of $a$.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 69,
+     "relationship": "Back",
+     "title": "Binomials are the answer!",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer"
+    }
+   ],
+   "keyphraseIds": [
+    58
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/powerful-derivatives/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 522,
+   "friendlyName": "r5053",
+   "title": "How many normals to a parabola pass through $P$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5053",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5053,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    },
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    106,
+    144,
+    148,
+    152,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 1",
+    "paperCode": "186",
+    "year": 1952,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 644,
+   "friendlyName": "r5237",
+   "title": "What can we say if a normal to an ellipse passes through this point?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5237",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5237,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    68,
+    106,
+    144,
+    152
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "183",
+    "year": 1952,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 819,
+   "friendlyName": "r5251",
+   "title": "Can we sketch $y=3 \\cos x - \\cos 3x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5251",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5251,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    39,
+    47,
+    58,
+    95,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "General Mathematics 2",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 523,
+   "friendlyName": "r5376",
+   "title": "What can we say if this hyperbola and parabola meet at right angles?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5376",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5376,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    101,
+    106,
+    144,
+    148,
+    152,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "183",
+    "year": 1952,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 816,
+   "friendlyName": "r5640",
+   "title": "Can we find the minimum value of $x^2+2/x$ for $x$ positive?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5640",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5640,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    24,
+    25,
+    29,
+    58,
+    138
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1967,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 285,
+   "friendlyName": "r5678",
+   "title": "Can we find the angle between these two tangents?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5678",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5678,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 68,
+     "relationship": "Around",
+     "title": "Parabolic mirrors",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/parabolic-mirrors"
+    }
+   ],
+   "keyphraseIds": [
+    42,
+    101,
+    148,
+    225,
+    269
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "417/2",
+    "year": 1958,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 757,
+   "friendlyName": "r5696",
+   "title": "Can we show that these normals meet on the $x$-axis?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5696",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5696,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    144,
+    148,
+    152
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1974,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 661,
+   "friendlyName": "r5739",
+   "title": "What is implied if these two parabolas touch exactly once?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5739",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5739,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 804,
+   "friendlyName": "r5990",
+   "title": "What happens when we differentiate $\\sin^4x + 2 \\cos^2x - \\cos^4x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5990",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5990,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    29,
+    47,
+    58,
+    105,
+    185,
+    209
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1970,
+    "questions": [
+     "Q6(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 357,
+   "friendlyName": "r6710",
+   "title": "What can we say if a point $P$ on an ellipse is directly above the focus?",
+   "url": "https://undergroundmathematics.org/chain-rule/r6710",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6710,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    42,
+    68,
+    144,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "181",
+    "year": 1954,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 643,
+   "friendlyName": "r6843",
+   "title": "Where does this chord of an ellipse cut the $x$-axis?",
+   "url": "https://undergroundmathematics.org/chain-rule/r6843",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6843,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    30,
+    68,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "188",
+    "year": 1951,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 645,
+   "friendlyName": "r7042",
+   "title": "Can we show this parabola and this ellipse meet at right angles?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7042",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7042,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    68,
+    106,
+    144,
+    148,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "184",
+    "year": 1952,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 802,
+   "friendlyName": "r7115",
+   "title": "When does this cone have a maximum volume?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7115",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7115,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    40,
+    136,
+    146,
+    222
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Special paper",
+    "paperCode": "417/0",
+    "year": 1964,
+    "questions": [
+     "Q5(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 435,
+   "friendlyName": "r7431",
+   "title": "Can we show $x>\\ln(1+x^2)$ for all $x>0$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7431",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7431,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    29,
+    58,
+    109,
+    112,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1985,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 669,
+   "friendlyName": "r7792",
+   "title": "How many real roots does $(x-1)(x+2)(x+3)=3x$ have?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7792",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7792,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    153,
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1984,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 351,
+   "friendlyName": "r7833",
+   "title": "Can we show these tangents to this hyperbola form a square?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7833",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7833,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    101,
+    214,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2000,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 867,
+   "friendlyName": "r7839",
+   "title": "Can we sketch $y = x^2(2-x)$, and from this, $y^2 = x^2(2-x)$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7839",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7839,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    95,
+    106
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1973,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 852,
+   "friendlyName": "r8620",
+   "title": "Can we find the equation of the normal to the curve when $t = 2$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8620",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8620,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    144,
+    152
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1977,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 721,
+   "friendlyName": "r8625",
+   "title": "If we know the object's speed, can we find the speed of the image?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8625",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8625,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    106,
+    183,
+    212,
+    268
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 2",
+    "paperCode": "9210/2",
+    "year": 1980,
+    "questions": [
+     "Q1(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 868,
+   "friendlyName": "r8694",
+   "title": "How could we integrate $\\tan^3 \\theta$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8694",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8694,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    116,
+    218,
+    226
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1973,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 839,
+   "friendlyName": "r8778",
+   "title": "Can we carry out these three tricky integrals?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8778",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8778,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    116,
+    218,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 2",
+    "paperCode": "842/2",
+    "year": 1976,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 871,
+   "friendlyName": "r8836",
+   "title": "Where is the centre of mass of half this cylinder?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8836",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8836,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    28,
+    53,
+    116,
+    218,
+    235,
+    239
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "840/0",
+    "year": 1973,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 807,
+   "friendlyName": "r8890",
+   "title": "Can we use integration by substitution on these integrals?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8890",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8890,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    116,
+    218
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1968,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 336,
+   "friendlyName": "r8939",
+   "title": "Can we find where the normal is parallel to $y=x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8939",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8939,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    94,
+    101,
+    144,
+    152
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics C 1",
+    "paperCode": "9205/1 and 9206/1",
+    "year": 1988,
+    "questions": [
+     "Q14(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 685,
+   "friendlyName": "r9085",
+   "title": "Can we find a tangent to $y=1/(1+x^2)$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9085",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9085,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    112,
+    120,
+    225,
+    240
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2002,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 772,
+   "friendlyName": "r9297",
+   "title": "How could we integrate $\\tan^4x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9297",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9297,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    226,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1973,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 607,
+   "friendlyName": "r9325",
+   "title": "Where does this tangent to this ellipse meet $x=a$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9325",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9325,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    30,
+    68,
+    118,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "417/2",
+    "year": 1958,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 289,
+   "friendlyName": "r9413",
+   "title": "Can we show that these normals intersect on this circle?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9413",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9413,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    94,
+    120,
+    144,
+    152,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "183",
+    "year": 1954,
+    "questions": [
+     "Q6"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 858,
+   "friendlyName": "r9701",
+   "title": "Can we find $\\int 1/(\\sqrt{x+2} - \\sqrt{x+1}) dx$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9701",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9701,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    47,
+    116,
+    153,
+    216
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B Special paper",
+    "paperCode": "9202/0",
+    "year": 1981,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 284,
+   "friendlyName": "r9809",
+   "title": "When do these normals to a parabola meet on the parabola?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9809",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9809,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    },
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    },
+    {
+     "id": 141,
+     "content": "How can gradients of parametric curves be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    33,
+    34,
+    144,
+    148,
+    152,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "183",
+    "year": 1954,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 476,
+   "friendlyName": "r9815",
+   "title": "Can we find this area by integrating with respect to $y$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9815",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9815,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 19,
+     "content": "What is implicit differentiation?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    95,
+    106,
+    121,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "184",
+    "year": 1953,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 719,
+   "friendlyName": "r9905",
+   "title": "When is the volume of this pyramid a maximum?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9905",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9905,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    136,
+    146,
+    174,
+    239
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics Special paper",
+    "paperCode": "9210/0",
+    "year": 1980,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 87,
+   "friendlyName": "reflecting-on-change",
+   "title": "Reflecting on change",
+   "url": "https://undergroundmathematics.org/chain-rule/reflecting-on-change",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 5760,
+   "isReviewQuestion": false,
+   "description": "Taking a geometric approach, this resource could prompt a discussion of intuition relating to differentiating inverse functions. Students are asked to complete statements about how inverse functions behave, and prompted to think about visualising or sketching some examples.",
+   "keyQuestions": [
+    {
+     "id": 18,
+     "content": "When and how can the inverse of a function be differentiated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 882,
+     "relationship": "Around",
+     "title": "Inverse integrals",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals"
+    }
+   ],
+   "keyphraseIds": [
+    88,
+    94,
+    121,
+    193
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/chain-rule/reflecting-on-change/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 880,
+   "friendlyName": "slippery-areas",
+   "title": "Slippery areas",
+   "url": "https://undergroundmathematics.org/chain-rule/slippery-areas",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 5441,
+   "isReviewQuestion": false,
+   "description": "In this problem students are invited to explore what happens to areas under graphs when the graphs are stretched or translated. They are then asked to apply this way of thinking to some concrete examples.",
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 72,
+     "relationship": "Around",
+     "title": "Slippery slopes",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/slippery-slopes"
+    },
+    {
+     "resourceId": 73,
+     "relationship": "Back",
+     "title": "What else do you know?",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/what-else-do-you-know"
+    },
+    {
+     "resourceId": 86,
+     "relationship": "Around",
+     "title": "Slippery slopes... another derivative",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-slopes-another-derivative"
+    },
+    {
+     "resourceId": 899,
+     "relationship": "Back",
+     "title": "Sine stretching",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/sine-stretching"
+    }
+   ],
+   "keyphraseIds": [
+    17,
+    278,
+    279,
+    280
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/slippery-areas/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 86,
+   "friendlyName": "slippery-slopes-another-derivative",
+   "title": "Slippery slopes... another derivative",
+   "url": "https://undergroundmathematics.org/chain-rule/slippery-slopes-another-derivative",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 7765,
+   "isReviewQuestion": false,
+   "description": "This resource discusses how the derivatives of functions like $(2x+1)^{-1}$ can be obtained by viewing them as translations of functions that we already know how to differentiate. This could precede work on the chain rule.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 72,
+     "relationship": "Back",
+     "title": "Slippery slopes",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/slippery-slopes"
+    },
+    {
+     "resourceId": 880,
+     "relationship": "Around",
+     "title": "Slippery areas",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-areas"
+    }
+   ],
+   "keyphraseIds": [
+    88,
+    94,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/slippery-slopes-another-derivative/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 85,
+   "friendlyName": "the-law-of-reflection-and-saving-time",
+   "title": "The law of reflection and saving time",
+   "url": "https://undergroundmathematics.org/chain-rule/the-law-of-reflection-and-saving-time",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9986,
+   "isReviewQuestion": false,
+   "description": "This resource uses the chain rule to explain why the angle of reflection is equal to the angle of incidence.",
+   "keyQuestions": [
+    {
+     "id": 16,
+     "content": "How is the rate of change of $f(g(x))$ related to $f'(x)$ and $g'(x)$?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 43,
+     "relationship": "Forward",
+     "title": "Calculus of variations—finding the best possible way",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/calculus-of-variations"
+    }
+   ],
+   "keyphraseIds": [
+    133,
+    171
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 947,
+   "friendlyName": "which-substitution",
+   "title": "Which substitution?",
+   "url": "https://undergroundmathematics.org/chain-rule/which-substitution",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Developing",
+   "ref": 6297,
+   "isReviewQuestion": false,
+   "description": "Students are asked to do the same integral twice, using a different substitution each time. The problem highlights that you can arrive at different answers because of this, and asks students to think about how the two answers are related.",
+   "keyQuestions": [
+    {
+     "id": 20,
+     "content": "What is integration by substitution, and how is it related to the chain rule?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1178,
+     "relationship": "Around",
+     "title": "Constant consistency",
+     "station": "product-rule",
+     "url": "https://undergroundmathematics.org/product-rule/constant-consistency"
+    }
+   ],
+   "keyphraseIds": [
+    116,
+    218
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/chain-rule/which-substitution/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

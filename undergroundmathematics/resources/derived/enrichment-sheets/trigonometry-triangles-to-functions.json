@@ -1,0 +1,3316 @@
+{
+ "station": {
+  "id": 25,
+  "friendlyId": "trigonometry-triangles-to-functions",
+  "title": "Trigonometry: Triangles to Functions",
+  "guidingQuestion": "How do we move from triangles to graphs, functions and equations?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 48,
+  "reviewQuestions": 27,
+  "resourcesWithKeyQuestions": 46,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 20,
+  "withTeacherSupport": 3,
+  "withAssets": 15,
+  "withProvenance": 28
+ },
+ "keyQuestions": [
+  {
+   "id": 110,
+   "number": 1,
+   "friendlyName": "trig-functions-circles",
+   "content": "How are trigonometric functions related to circles?"
+  },
+  {
+   "id": 111,
+   "number": 2,
+   "friendlyName": "trig-all-angles",
+   "content": "How can we define trigonometric functions for all angles?"
+  },
+  {
+   "id": 112,
+   "number": 3,
+   "friendlyName": "trig-function-features",
+   "content": "What are the key features of trigonometric functions and their graphs?"
+  },
+  {
+   "id": 113,
+   "number": 4,
+   "friendlyName": "trig-identities",
+   "content": "How are trigonometric functions related to each other?"
+  },
+  {
+   "id": 114,
+   "number": 5,
+   "friendlyName": "solve-trig-equations",
+   "content": "How can we solve equations and inequalities involving trigonometric functions?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 227,
+   "friendlyName": "big-trig",
+   "title": "Big trig",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/big-trig",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 5795,
+   "isReviewQuestion": false,
+   "description": "This provides an opportunity for students to consider how the sine and cosine functions behave in a \"which is bigger?\" context. Working on this problem could help to reinforce students' understanding of the behaviour of trigonometric functions and the problem can be attempted in a variety of different ways.",
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 366,
+     "relationship": "Around",
+     "title": "How many solutions does $\\cos (\\sin x)=\\frac{1}{2}$ have?",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8386"
+    }
+   ],
+   "keyphraseIds": [
+    47,
+    112,
+    209,
+    234,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/big-trig/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 249,
+   "friendlyName": "calculating-latitude",
+   "title": "Calculating latitude",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/calculating-latitude",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9134,
+   "isReviewQuestion": false,
+   "description": "This short piece describes how triangles and trigonometry helped sailors to use the sun and stars to navigate.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 232,
+     "relationship": "Back",
+     "title": "Where are you?",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/where-are-you"
+    },
+    {
+     "resourceId": 250,
+     "relationship": "Forward",
+     "title": "The longitude problem",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/the-longitude-problem"
+    }
+   ],
+   "keyphraseIds": [
+    9,
+    125,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 213,
+   "friendlyName": "can-you-find-trigonometry-edition",
+   "title": "Can you find... trigonometry edition",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 5463,
+   "isReviewQuestion": false,
+   "description": "Students are asked to suggest graphs of trigonometric functions which satisfy certain conditions. In the first part of the problem students are asked to suggest one graph, while in the second they are asked to suggest two or three graphs which simultaneously satisfy a set of conditions.",
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    234,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition-teacher-support",
+    "sections": []
+   },
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1182,
+   "friendlyName": "can-you-find-trigonometry-edition-teacher-support",
+   "title": "Can you find...trigonometry edition - teacher support",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 9258,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 149,
+   "friendlyName": "catching-waves",
+   "title": "Catching waves",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/catching-waves",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9878,
+   "isReviewQuestion": false,
+   "description": "This piece describes how sine and cosine are used to describe the different kinds of waveforms that occur in the world around us.",
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    47,
+    86,
+    209,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 214,
+   "friendlyName": "equation-or-identity-i",
+   "title": "Equation or identity? (I)",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/equation-or-identity-i",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 6680,
+   "isReviewQuestion": false,
+   "description": "Here students consider some trigonometric equations in the context of triangles only, deciding whether any of these is in fact an identity. This should help to reinforce the distinction between equations and identities. There are plenty of opportunities for students try to justify their decisions, prove identities and find counter examples.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 231,
+     "relationship": "Forward",
+     "title": "Equation or identity? (II)",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/equation-or-identity-ii"
+    },
+    {
+     "resourceId": 743,
+     "relationship": "Back",
+     "title": "Going round in circles",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles"
+    }
+   ],
+   "keyphraseIds": [
+    105,
+    233,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/equation-or-identity-i/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 151,
+   "friendlyName": "from-stars-to-waves",
+   "title": "From stars to waves",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/from-stars-to-waves",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Introducing",
+   "ref": 5880,
+   "isReviewQuestion": false,
+   "description": "This piece explores how right-angled triangles and circles give us the sine and cosine waves and also touches on some of the historical development of these ideas.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    30,
+    31,
+    47,
+    156,
+    209,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 161,
+   "friendlyName": "general-solutions",
+   "title": "General solutions",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/general-solutions",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Introducing",
+   "ref": 9026,
+   "isReviewQuestion": false,
+   "description": "The first question asks students what they can say about $A$ and $B$ if $\\tan A=\\tan B$. This resource offers interactive graphs to help students find general solutions of trigonometric equations and understand the relationship between solutions.",
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 160,
+     "relationship": "Around",
+     "title": "Inverse or not?",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-or-not"
+    },
+    {
+     "resourceId": 1168,
+     "relationship": "Around",
+     "title": "Inverse trigonometric functions",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-trig-functions"
+    }
+   ],
+   "keyphraseIds": [
+    156,
+    233,
+    236,
+    271
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/general-solutions/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 743,
+   "friendlyName": "going-round-in-circles",
+   "title": "Going round in circles",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 6460,
+   "isReviewQuestion": false,
+   "description": "Right-angled triangles are used to introduce $\\sec \\theta$, $\\cosec \\theta$ and $\\cot \\theta$ and identities relating all six trigonometric functions.  Then the unit circle is used to explore how these functions behave as $\\theta$ varies.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 203,
+     "relationship": "Around",
+     "title": "Have a sine",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/have-a-sine"
+    },
+    {
+     "resourceId": 910,
+     "relationship": "Forward",
+     "title": "Similar derivatives",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/similar-derivatives"
+    }
+   ],
+   "keyphraseIds": [
+    9,
+    234,
+    235,
+    236,
+    269,
+    270
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/trigonometry-triangles-to-functions/going-round-in-circles/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": [
+    "geogebra"
+   ]
+  },
+  {
+   "id": 203,
+   "friendlyName": "have-a-sine",
+   "title": "Have a sine",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/have-a-sine",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 9239,
+   "isReviewQuestion": false,
+   "description": "Students express several lengths in a unit circle diagram using trigonometric functions and thereby develop their understanding of how trigonometric functions are related to each other. This problem is accessible to any student with a basic understanding of trigonometry in right-angled triangles and offers opportunities to discuss what happens if $\\theta$ varies.  There is also a historical link with names for expressions such as $\\tfrac{1}{2}(1-\\cos \\theta).$",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 207,
+     "relationship": "Forward",
+     "title": "Lost but lovely: the haversine",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine"
+    },
+    {
+     "resourceId": 743,
+     "relationship": "Back",
+     "title": "Going round in circles",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles"
+    }
+   ],
+   "keyphraseIds": [
+    31,
+    198,
+    225,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/have-a-sine/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 204,
+   "friendlyName": "how-high-am-i",
+   "title": "How high am I?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/how-high-am-i",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8159,
+   "isReviewQuestion": false,
+   "description": "This offers an opportunity to apply some basic trigonometry to a situation that students start by visualising. Asking students to explain why their solutions work for all angles from $0$ to $2\\pi$ could help to make links with graphs of trigonometric functions and how these relate to the original situation.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 230,
+     "relationship": "Forward",
+     "title": "Inspecting identities",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities"
+    }
+   ],
+   "keyphraseIds": [
+    31,
+    185,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/how-high-am-i/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 160,
+   "friendlyName": "inverse-or-not",
+   "title": "Inverse or not?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-or-not",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8344,
+   "isReviewQuestion": false,
+   "description": "This graph-matching problem can be used to introduce the principal-value ranges of $\\arcsin$, $\\arccos$ and $\\arctan$ and to reinforce ideas of what happens when functions are composed, using specific examples such as $\\arcsin(\\sin x).$",
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 161,
+     "relationship": "Around",
+     "title": "General solutions",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/general-solutions"
+    },
+    {
+     "resourceId": 1168,
+     "relationship": "Back",
+     "title": "Inverse trigonometric functions",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-trig-functions"
+    }
+   ],
+   "keyphraseIds": [
+    121,
+    234,
+    236,
+    271,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/inverse-or-not/components/graphs-cards.pdf",
+    "/trigonometry-triangles-to-functions/inverse-or-not/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1168,
+   "friendlyName": "inverse-trig-functions",
+   "title": "Inverse trigonometric functions",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-trig-functions",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Introducing",
+   "ref": 9923,
+   "isReviewQuestion": false,
+   "description": "This resource introduces principal value ranges of inverse trigonometric functions by thinking about the choices available when restricting the domains of  many-to-one functions.",
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    },
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 160,
+     "relationship": "Forward",
+     "title": "Inverse or not?",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-or-not"
+    },
+    {
+     "resourceId": 161,
+     "relationship": "Around",
+     "title": "General solutions",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/general-solutions"
+    },
+    {
+     "resourceId": 1146,
+     "relationship": "Back",
+     "title": "Making inverse functions",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions"
+    }
+   ],
+   "keyphraseIds": [
+    121,
+    234,
+    236,
+    271
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/trigonometry-triangles-to-functions/inverse-trig-functions/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 207,
+   "friendlyName": "lost-but-lovely-the-haversine",
+   "title": "Lost but lovely: the haversine",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 9437,
+   "isReviewQuestion": false,
+   "description": "Starting with the question \"What’s the shortest route between two points?\" This piece puts the resource Have a sine in context. It provides information about some unusual trigonometric functions, how they arose and why they have fallen out of use.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 203,
+     "relationship": "Back",
+     "title": "Have a sine",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/have-a-sine"
+    },
+    {
+     "resourceId": 210,
+     "relationship": "Forward",
+     "title": "The great circle distance",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/the-great-circle-distance"
+    },
+    {
+     "resourceId": 232,
+     "relationship": "Back",
+     "title": "Where are you?",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/where-are-you"
+    }
+   ],
+   "keyphraseIds": [
+    213,
+    236,
+    272
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 938,
+   "friendlyName": "muddled-trig",
+   "title": "Muddled trig",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/muddled-trig",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 5337,
+   "isReviewQuestion": false,
+   "description": "Students are asked to match various trigonometric functions with their graphs, at the same time as thinking about the notational anomalies involved. The integer scale on the $x$-axis provides an opportunity to discuss radians and degrees and estimations of $\\pi$, $\\frac{\\pi}{2}$ and so on.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 227,
+     "relationship": "Forward",
+     "title": "Big trig",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/big-trig"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    95,
+    184,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/muddled-trig/components/function-cards.pdf",
+    "/trigonometry-triangles-to-functions/muddled-trig/components/graphs-cards.pdf",
+    "/trigonometry-triangles-to-functions/muddled-trig/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 369,
+   "friendlyName": "r5199",
+   "title": "When is $\\sin x$ or $\\sin 2x$ larger than a half?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5199",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5199,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 703,
+   "friendlyName": "r5269",
+   "title": "Can we prove this trig identity to solve this equation?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5269",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5269,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 1",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 405,
+   "friendlyName": "r5497",
+   "title": "How are these three angles connected?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5497",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5497,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    93,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1E"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 732,
+   "friendlyName": "r5533",
+   "title": "Given a picture hanging from a wall, can we find these angles?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5533",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5533,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI Additional Mathematics 1",
+    "paperCode": "MEI 109",
+    "year": 1974,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 298,
+   "friendlyName": "r6049",
+   "title": "How far are these two ships from the shore?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6049",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6049,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    210,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Elementary Mathematics Alternative B Paper 2",
+    "paperCode": "47",
+    "year": 1954,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 395,
+   "friendlyName": "r6138",
+   "title": "How many solutions does $\\sin^2x+3\\sin x\\cos x+2\\cos^2 x=0$ have?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6138",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6138,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 629,
+   "friendlyName": "r6144",
+   "title": "Can we find the lengths and angles in this diagram of a roof?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6144",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6144,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    175,
+    232,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "182",
+    "year": 1952,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 261,
+   "friendlyName": "r6589",
+   "title": "Can we find the lengths and angles in this pyramid?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6589",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6589,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    48,
+    174,
+    175,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1984,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 560,
+   "friendlyName": "r7000",
+   "title": "If $\\sin X$ and $\\cos Y$ are both negative, what can we say about $X + Y$?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7000",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7000,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    47,
+    95,
+    112,
+    209,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1972,
+    "questions": [
+     "Q3(iii)",
+     "Q3(iv)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 388,
+   "friendlyName": "r7370",
+   "title": "How many solutions do these simultaneous trig equations have?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7370",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7370,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    120,
+    208,
+    233
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 360,
+   "friendlyName": "r7374",
+   "title": "Which points in the $x$-$y$ plane satisfy $\\sin y=\\sin x$?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7374",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7374,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 686,
+   "friendlyName": "r7378",
+   "title": "When does this equation in $x, y$ and $\\theta$ represent a circle?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7378",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7378,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    36,
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 497,
+   "friendlyName": "r7577",
+   "title": "What's the result when we reflect $y=\\sin x$ twice?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7577",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7577,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1B"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 331,
+   "friendlyName": "r7596",
+   "title": "Two swimmers cross a river - can we calculate its width?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7596",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7596,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative A Arithmetic",
+    "paperCode": "411/1",
+    "year": 1960,
+    "questions": [
+     "Q11"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 642,
+   "friendlyName": "r7756",
+   "title": "What's this angle of elevation given two others?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7756",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7756,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    232,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "186",
+    "year": 1951,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 581,
+   "friendlyName": "r7973",
+   "title": "Are any of these four trig expressions equal to each other?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7973",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7973,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    198,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2006,
+    "questions": [
+     "Q16"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 403,
+   "friendlyName": "r8136",
+   "title": "How many solutions does this equation involving $\\sin^8x$ have?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8136",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8136,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 428,
+   "friendlyName": "r8330",
+   "title": "Which of these area and perimeter statements is true?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8330",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8330,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 366,
+   "friendlyName": "r8386",
+   "title": "How many solutions does $\\cos (\\sin x)=\\frac{1}{2}$ have?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8386",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8386,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 227,
+     "relationship": "Around",
+     "title": "Big trig",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/big-trig"
+    }
+   ],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1E"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 381,
+   "friendlyName": "r8658",
+   "title": "Can we find the area of a pedal triangle?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8658",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8658,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    157,
+    198
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 377,
+   "friendlyName": "r8923",
+   "title": "Can we show this polynomial has roots $1$, $\\cos\\theta$ and $\\sin\\theta$?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8923",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8923,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    199,
+    233
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 297,
+   "friendlyName": "r9200",
+   "title": "Can we find the distance of the tree from the road?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9200",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9200,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1969,
+    "questions": [
+     "Q3(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 694,
+   "friendlyName": "r9491",
+   "title": "How many solutions does $2 \\cos^2x + 5\\sin x = 4$ have?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9491",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9491,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    47,
+    112,
+    209,
+    233
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 389,
+   "friendlyName": "r9702",
+   "title": "What's the distance from a point to a line in the $x\\text{-}y$ plane?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9702",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9702,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    128,
+    159
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "187",
+    "year": 1951,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1002,
+   "friendlyName": "r9770",
+   "title": "As $\\theta$ varies, what's the largest this ratio of areas can be?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9770",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9770,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    14,
+    15,
+    47,
+    112,
+    136,
+    209
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 387,
+   "friendlyName": "r9817",
+   "title": "When is $\\sin^8 x+\\cos^6 x$ equal to $1$?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9817",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9817,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    233,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 368,
+   "friendlyName": "r9837",
+   "title": "How many solutions does $7\\sin x +2\\cos ^2 x =5$ have?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9837",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9837,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 177,
+   "friendlyName": "sine-ing-the-way",
+   "title": "Sine-ing the way",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/sine-ing-the-way",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 6079,
+   "isReviewQuestion": false,
+   "description": "This resource reminds students of their knowledge of angles in circles before leading them through an elegant proof of the Sine Rule which incorporates the use of circle theorems. It also gives an interesting relationship between a triangle and the diameter of its circumcircle.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    32,
+    171,
+    210,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/sine-ing-the-way/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 202,
+   "friendlyName": "slices-of-pi",
+   "title": "Slices of $\\pi$",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 7866,
+   "isReviewQuestion": false,
+   "description": "When is $\\sin \\theta$ bigger than $\\cos \\theta$?  When is $\\tan \\theta$ smaller than $\\cos \\theta$?  In this resource, inequalities of the form $\\sin \\theta < \\tan \\theta < \\cos \\theta$ have been used to slice up a semi-circle.  Which inequality defines each slice?",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi-teacher-support",
+    "sections": []
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/slices-of-pi/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1143,
+   "friendlyName": "slices-of-pi-teacher-support",
+   "title": "Slices of $\\pi$ - teacher support",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 6776,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 250,
+   "friendlyName": "the-longitude-problem",
+   "title": "The longitude problem",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/the-longitude-problem",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 7806,
+   "isReviewQuestion": false,
+   "description": "This piece describes some of the difficulty sailors had in trying to measure longitude reliably.",
+   "keyQuestions": [
+    {
+     "id": 110,
+     "content": "How are trigonometric functions related to circles?"
+    },
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 232,
+     "relationship": "Back",
+     "title": "Where are you?",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/where-are-you"
+    },
+    {
+     "resourceId": 249,
+     "relationship": "Back",
+     "title": "Calculating latitude",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/calculating-latitude"
+    }
+   ],
+   "keyphraseIds": [
+    9,
+    134,
+    269
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 718,
+   "friendlyName": "trig-tables",
+   "title": "Trig tables",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 9623,
+   "isReviewQuestion": false,
+   "description": "Students are asked to fill the empty cells of two partially completed tables. This resource can be used to strengthen students’ fluency and understanding of links between trig function values in different quadrants and between different trig ratios of the same angle. There is then an option for students to craft their own incomplete table for others to try.",
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 112,
+     "content": "What are the key features of trigonometric functions and their graphs?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    184,
+    234,
+    235,
+    236,
+    268,
+    305
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables-teacher-support",
+    "sections": []
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/trigonometry-triangles-to-functions/trig-tables-teacher-support/assets/problem-modified.pdf",
+    "/trigonometry-triangles-to-functions/trig-tables/assets/problem-modified.pdf",
+    "/trigonometry-triangles-to-functions/trig-tables/assets/table-worksheet.pdf",
+    "/trigonometry-triangles-to-functions/trig-tables/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1177,
+   "friendlyName": "trig-tables-teacher-support",
+   "title": "Trig tables - teacher support",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 6205,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 111,
+     "content": "How can we define trigonometric functions for all angles?"
+    },
+    {
+     "id": 113,
+     "content": "How are trigonometric functions related to each other?"
+    },
+    {
+     "id": 114,
+     "content": "How can we solve equations and inequalities involving trigonometric functions?"
+    }
+   ],
+   "lines": [],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    9,
+    234,
+    235,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/trigonometry-triangles-to-functions/trig-tables-teacher-support/assets/problem-modified.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

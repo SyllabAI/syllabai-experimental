@@ -1,0 +1,1881 @@
+{
+ "station": {
+  "id": 28,
+  "friendlyId": "thinking-about-algebra",
+  "title": "Thinking about Algebra",
+  "guidingQuestion": "How did algebra develop and why do we use it?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 32,
+  "reviewQuestions": 22,
+  "resourcesWithKeyQuestions": 32,
+  "keyQuestionsCovered": 4,
+  "keyQuestionsTotal": 4,
+  "resourcesWithPervasiveIdeas": 7,
+  "withTeacherSupport": 0,
+  "withAssets": 10,
+  "withProvenance": 26
+ },
+ "keyQuestions": [
+  {
+   "id": 126,
+   "number": 1,
+   "friendlyName": "equations-inequalities",
+   "content": "How do we recognise and work with different types of equations and inequalities?"
+  },
+  {
+   "id": 127,
+   "number": 2,
+   "friendlyName": "surds-indices-fractions",
+   "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+  },
+  {
+   "id": 128,
+   "number": 3,
+   "friendlyName": "form-equations",
+   "content": "How are equations formed and what do they mean?"
+  },
+  {
+   "id": 129,
+   "number": 4,
+   "friendlyName": "generalise",
+   "content": "How can algebra be used to generalise our thinking?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 1,
+   "friendlyName": "comparing-continued-fractions",
+   "title": "Comparing continued fractions",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/comparing-continued-fractions",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6799,
+   "isReviewQuestion": false,
+   "description": "This problem uses continued fractions to provide a further opportunity for students to practise manipulating fractions, both numeric and algebraic. It could help students to develop a deeper understanding of how to compare fractions and the effect of dividing by a larger or smaller value.",
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    },
+    {
+     "id": 129,
+     "content": "How can algebra be used to generalise our thinking?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 7,
+     "relationship": "Back",
+     "title": "Staircase sequences",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences"
+    }
+   ],
+   "keyphraseIds": [
+    44,
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/comparing-continued-fractions/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 96,
+   "friendlyName": "equation-sudoku",
+   "title": "Equation Sudoku",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/equation-sudoku",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 7811,
+   "isReviewQuestion": false,
+   "description": "Two Sudoku puzzles that offer students practice at solving multiple linear simultaneous equations.",
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 128,
+     "content": "How are equations formed and what do they mean?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    129,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/equation-sudoku/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 22,
+   "friendlyName": "index-issues",
+   "title": "Index issues",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/index-issues",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 7665,
+   "isReviewQuestion": false,
+   "description": "This is a set of equations designed to help students think about what fractional and negative indices mean, and when they are or are not defined. Students will practise their manipulation of indices as they work through the questions.",
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    },
+    {
+     "id": 129,
+     "content": "How can algebra be used to generalise our thinking?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    78,
+    110,
+    216
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/index-issues/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 94,
+   "friendlyName": "multiple-manipulations",
+   "title": "Multiple manipulations",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/multiple-manipulations",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 9326,
+   "isReviewQuestion": false,
+   "description": "The resource contains three collections of expressions, equations and inequalities. It aims to highlight inconsistencies that can appear in methods that students may use to manipulate algebra.",
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    4,
+    6,
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/multiple-manipulations/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 237,
+   "friendlyName": "n5-n",
+   "title": "$n^5 - n$",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/n5-n",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7279,
+   "isReviewQuestion": false,
+   "description": "This resource allows students to use their numerical reasoning alongside their algebraic manipulation skills in order to generalise their findings about the sequence given.",
+   "keyQuestions": [
+    {
+     "id": 129,
+     "content": "How can algebra be used to generalise our thinking?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    57,
+    99,
+    115,
+    126
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/n5-n/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 907,
+   "friendlyName": "nested-surds",
+   "title": "Nested surds",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/nested-surds",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 5589,
+   "isReviewQuestion": false,
+   "description": "Given some statements about surds, students are asked to decide for what values the statements are true. This should encourage students to question the ‘facts’ they might know about surds and to explore some less familiar statements.",
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    },
+    {
+     "id": 129,
+     "content": "How can algebra be used to generalise our thinking?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 22,
+     "relationship": "Around",
+     "title": "Index issues",
+     "station": "thinking-about-algebra",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/index-issues"
+    }
+   ],
+   "keyphraseIds": [
+    216,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/nested-surds/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 2,
+   "friendlyName": "powerful-fractions",
+   "title": "Powerful fractions",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/powerful-fractions",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8042,
+   "isReviewQuestion": false,
+   "description": "Students are asked to compare algebraic fractions involving indices. Alongside practising their manipulation skills there are different approaches to the problem that can give students an opportunity to develop different ways of thinking.",
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    87,
+    110,
+    112,
+    167
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/powerful-fractions/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 712,
+   "friendlyName": "r5364",
+   "title": "Can we simplify these algebraic fractions?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r5364",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5364,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    6
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Elementary Mathematics 1 (Alternative Paper)",
+    "paperCode": "S665",
+    "year": 1956,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 332,
+   "friendlyName": "r5505",
+   "title": "If we know the area-sum and the perimeter-sum, what are the sides?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r5505",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5505,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 128,
+     "content": "How are equations formed and what do they mean?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    13,
+    138,
+    155,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative A Algebra",
+    "paperCode": "411/3",
+    "year": 1960,
+    "questions": [
+     "Q9"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 631,
+   "friendlyName": "r5701",
+   "title": "Can we show this surd is less than $6$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r5701",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5701,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1 and Pure Mathematics 1",
+    "paperCode": "417/1 and 447/1",
+    "year": 1965,
+    "questions": [
+     "Q1(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 565,
+   "friendlyName": "r6121",
+   "title": "How long was the walk to Glastonbury Tor?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r6121",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6121,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    },
+    {
+     "id": 128,
+     "content": "How are equations formed and what do they mean?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    62,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI (St Dunstan's) Mathematics 2",
+    "paperCode": "MEI 82",
+    "year": 1972,
+    "questions": [
+     "Q3(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 294,
+   "friendlyName": "r6127",
+   "title": "Can we find the dimensions of this rectangle?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r6127",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6127,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 128,
+     "content": "How are equations formed and what do they mean?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    13,
+    138,
+    175,
+    190
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1978,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 515,
+   "friendlyName": "r6155",
+   "title": "Can we solve these equations in $x, y, z, a$ and $b$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r6155",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6155,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Cambridge Colleges",
+    "paper": "Examination for Entrance Scholarships Pure Mathematics (Group 1)",
+    "paperCode": null,
+    "year": 1952,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Colleges of the University of Cambridge",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 714,
+   "friendlyName": "r6327",
+   "title": "If these equations have an infinity of solutions, how are $a$ and $b$ related?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r6327",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6327,
+   "isReviewQuestion": true,
+   "description": "",
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 129,
+     "content": "How can algebra be used to generalise our thinking?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1985,
+    "questions": [
+     "Q30(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 426,
+   "friendlyName": "r6694",
+   "title": "Can we solve these two equations involving $x,y,1/x$ and $1/y$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r6694",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6694,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    69
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1 and Pure Mathematics 1",
+    "paperCode": "417/1 and 447/1",
+    "year": 1964,
+    "questions": [
+     "Q1(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 601,
+   "friendlyName": "r6797",
+   "title": "Can we solve these simultaneous equations of degree 1 and 2?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r6797",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6797,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1960,
+    "questions": [
+     "Q6(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 268,
+   "friendlyName": "r6983",
+   "title": "When is this product of powers an integer?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r6983",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6983,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    78,
+    115,
+    167
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 555,
+   "friendlyName": "r7032",
+   "title": "Can we find the radii of two circles given two clues?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r7032",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7032,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 128,
+     "content": "How are equations formed and what do they mean?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    15,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1970,
+    "questions": [
+     "Q5(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 667,
+   "friendlyName": "r7077",
+   "title": "Can we prove these bounds for this fraction involving surds?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r7077",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7077,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    78,
+    189,
+    216
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "9200/1",
+    "year": 1980,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 744,
+   "friendlyName": "r7354",
+   "title": "Given that $a, b > 0$, can we prove that $a/b + b/a \\ge 2$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r7354",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7354,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    18,
+    90,
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "9200/0",
+    "year": 1980,
+    "questions": [
+     "Q1(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 454,
+   "friendlyName": "r7865",
+   "title": "Can we prove these inequalities involving $a, b, c$ and $d$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r7865",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7865,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Cambridge Colleges",
+    "paper": "Examination for Entrance Scholarships and Exhibitions Algebra and Geometry (Group 3)",
+    "paperCode": null,
+    "year": 1952,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Colleges of the University of Cambridge",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 769,
+   "friendlyName": "r8056",
+   "title": "Can we prove that, for a triangle, $4(s-b)(s-c) \\le a^2$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r8056",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8056,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    155,
+    232
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics Special paper",
+    "paperCode": "842/0",
+    "year": 1979,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 491,
+   "friendlyName": "r8158",
+   "title": "When do these simultaneous equations have a positive solution?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r8158",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8158,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 129,
+     "content": "How can algebra be used to generalise our thinking?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 785,
+   "friendlyName": "r8219",
+   "title": "Can we fully factorise $x^4+4y^4$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r8219",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8219,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82,
+    181
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative A Algebra",
+    "paperCode": "411/3",
+    "year": 1963,
+    "questions": [
+     "Q5(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 797,
+   "friendlyName": "r8779",
+   "title": "Can we simplify  these expressions involving indices?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r8779",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8779,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    78,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative A Algebra",
+    "paperCode": "450/3",
+    "year": 1973,
+    "questions": [
+     "Q6(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 706,
+   "friendlyName": "r9160",
+   "title": "Given these power facts, can we show $z^6=cx$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r9160",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9160,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    78
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": null,
+    "year": 1967,
+    "questions": [
+     "Q2(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 716,
+   "friendlyName": "r9354",
+   "title": "Can we list all $p/q$ between $0$ and $1$ if  $2 \\le q \\le 5$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r9354",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9354,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    },
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    188,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Alternative C Paper 2",
+    "paperCode": "453/2",
+    "year": 1971,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 822,
+   "friendlyName": "r9404",
+   "title": "Can we factorise  $(x+y)^6 - (x-y)^6$ completely?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r9404",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9404,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    }
+   ],
+   "lines": [],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    57,
+    82
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1979,
+    "questions": [
+     "Q3(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1003,
+   "friendlyName": "r9603",
+   "title": "When is the inequality  $x^4<8x^2+9$ satisfied?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r9603",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9603,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    178,
+    181
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2014,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 11,
+   "friendlyName": "real-world-problems",
+   "title": "Real-world problems?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/real-world-problems",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Developing",
+   "ref": 9547,
+   "isReviewQuestion": false,
+   "description": "Here are several problems that require the creation and manipulation of algebraic or numerical fractions. Students have to select the parameters for each problem themselves and so they will need to think about appropriate values for each situation.",
+   "keyQuestions": [
+    {
+     "id": 128,
+     "content": "How are equations formed and what do they mean?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    6,
+    212
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/real-world-problems/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 120,
+   "friendlyName": "two-way-algebra",
+   "title": "Two-way algebra",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/two-way-algebra",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Introducing",
+   "ref": 8982,
+   "isReviewQuestion": false,
+   "description": "This resource encourages students to appreciate the different types of solutions that various equations and inequalities can give by asking them to fill in headings and empty cells in a two-way table.",
+   "keyQuestions": [
+    {
+     "id": 126,
+     "content": "How do we recognise and work with different types of equations and inequalities?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    129,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-algebra/two-way-algebra/assets/printabletable.pdf",
+    "/thinking-about-algebra/two-way-algebra/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 905,
+   "friendlyName": "which-is-bigger",
+   "title": "Which is bigger?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/which-is-bigger",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Introducing",
+   "ref": 8005,
+   "isReviewQuestion": false,
+   "description": "The task asks students to consider two fractions and decide which is bigger. It warms up with numerical pairs before moving on to algebraic fractions.",
+   "keyQuestions": [
+    {
+     "id": 127,
+     "content": "How can we manipulate algebraic expressions involving surds, indices, and fractions?"
+    },
+    {
+     "id": 129,
+     "content": "How can algebra be used to generalise our thinking?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    6,
+    87
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/thinking-about-algebra/which-is-bigger/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  }
+ ]
+}

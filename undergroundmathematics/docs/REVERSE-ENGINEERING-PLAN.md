@@ -56,8 +56,16 @@ dataset of the corpus if the experiment graduates.
 - [x] Structured provenance: all 623 acknowledgements parsed into tuples,
       published `resources/derived/review-question-provenance.json`
       (2026-10-22)
-- [ ] Station→line→key-question→pervasive-idea relation graph export
-      (JSON/GraphML)
+- [x] Station→line→key-question→pervasive-idea relation graph export
+      (JSON/GraphML) — done 2026-10-22 (P3b): captured the six per-resource
+      relation axes anonymously (`/api/resources/{id}/{key-questions,lines,
+      related-pervasive-ideas,related-resources,keyphrases,tags}`, 855×6
+      calls, 0 failures — GETs on these paths are public, correcting the
+      phase-1 grouping); canonical graph `resources/derived/relation-graph.json`
+      (1,295 nodes / 7,783 edges, one node + one edge table) +
+      `relation-graph.graphml` (validated); evidence base in
+      `resources/derived/relations/`; per-station enrichment sheets in
+      `resources/derived/enrichment-sheets/` (25 sheets, 855 resources)
 - [x] Cross-map UGM stations/lines to CIE (and Edexcel) spines from
       `syllabai-v2` — **quadratics pilot complete** (2026-10-22):
       lane exports in `resources/derived/spine-export/`, pilot map in

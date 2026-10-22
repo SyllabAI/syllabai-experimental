@@ -1,0 +1,3208 @@
+{
+ "station": {
+  "id": 18,
+  "friendlyId": "polynomials",
+  "title": "Polynomials & Rational Functions",
+  "guidingQuestion": "How can we deepen our understanding of these functions and their graphs?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 51,
+  "reviewQuestions": 39,
+  "resourcesWithKeyQuestions": 51,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 15,
+  "withTeacherSupport": 0,
+  "withAssets": 10,
+  "withProvenance": 40
+ },
+ "keyQuestions": [
+  {
+   "id": 81,
+   "number": 1,
+   "friendlyName": "roots-of-polynomials",
+   "content": "How are the roots of polynomials related to their equations and graphs?"
+  },
+  {
+   "id": 80,
+   "number": 2,
+   "friendlyName": "polynomial-division",
+   "content": "What happens when one polynomial is divided by another?"
+  },
+  {
+   "id": 82,
+   "number": 3,
+   "friendlyName": "rewriting",
+   "content": "How can we rewrite polynomials and rational functions?"
+  },
+  {
+   "id": 83,
+   "number": 4,
+   "friendlyName": "sketch-rational-functions",
+   "content": "Which techniques can be used to sketch rational functions?"
+  },
+  {
+   "id": 140,
+   "number": 5,
+   "friendlyName": "solving-inequalities",
+   "content": "How can inequalities involving polynomials and rational functions be solved?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 857,
+   "friendlyName": "absurder",
+   "title": "Ab-surder!",
+   "url": "https://undergroundmathematics.org/polynomials/absurder",
+   "type": {
+    "id": 11,
+    "name": "Go and think about it...",
+    "friendlyId": "go-and-think"
+   },
+   "level": "Developing",
+   "ref": 8348,
+   "isReviewQuestion": false,
+   "description": "Students are invited to extend their repertoire of techniques for rationalising the denominator to include denominators involving cube roots.",
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 18,
+     "relationship": "Back",
+     "title": "Irrational roots",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/irrational-roots"
+    },
+    {
+     "resourceId": 811,
+     "relationship": "Back",
+     "title": "Ab-surd!",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/absurd"
+    }
+   ],
+   "keyphraseIds": [
+    52,
+    189,
+    199,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/polynomials/absurder/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 165,
+   "friendlyName": "can-you-find-asymptote-edition",
+   "title": "Can you find... asymptote edition",
+   "url": "https://undergroundmathematics.org/polynomials/can-you-find-asymptote-edition",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 5530,
+   "isReviewQuestion": false,
+   "description": "The graph of a function is provided. Students are asked to come up with a function that would have a graph like it by considering the important features of the graph.",
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    },
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    21,
+    95,
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/can-you-find-asymptote-edition/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 143,
+   "friendlyName": "can-you-find-cubic-edition",
+   "title": "Can you find... cubic edition",
+   "url": "https://undergroundmathematics.org/polynomials/can-you-find-cubic-edition",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 6487,
+   "isReviewQuestion": false,
+   "description": "Students are given constraints on where some cubic curves cross the axes and are asked to come up with possible equations for these curves.",
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 4
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 4
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 164,
+     "relationship": "Forward",
+     "title": "Curvy cubics",
+     "station": "calculus-meets-functions",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/curvy-cubics"
+    },
+    {
+     "resourceId": 887,
+     "relationship": "Around",
+     "title": "How not to solve a cubic...",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/how-not-to-solve-a-cubic"
+    }
+   ],
+   "keyphraseIds": [
+    52,
+    95,
+    166,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/can-you-find-cubic-edition/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 884,
+   "friendlyName": "divide-it-up",
+   "title": "Divide it up",
+   "url": "https://undergroundmathematics.org/polynomials/divide-it-up",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Introducing",
+   "ref": 5105,
+   "isReviewQuestion": false,
+   "description": "This resource is designed to help students to make links between multiplication and division of polynomials using multiplication grids.",
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 101,
+     "relationship": "Back",
+     "title": "Quadratic grids",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/quadratic-grids"
+    },
+    {
+     "resourceId": 128,
+     "relationship": "Forward",
+     "title": "What's left?",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/whats-left"
+    }
+   ],
+   "keyphraseIds": [
+    64
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/divide-it-up/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1124,
+   "friendlyName": "frightening-function",
+   "title": "Frightening function",
+   "url": "https://undergroundmathematics.org/polynomials/frightening-function",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Introducing",
+   "ref": 7040,
+   "isReviewQuestion": false,
+   "description": "Students have to decide how to manipulate algebraic fractions in order to simplify a frightening looking function. This can be used as an introduction to partial fractions.",
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 12,
+     "relationship": "Back",
+     "title": "Scary sum",
+     "station": "thinking-about-numbers",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/scary-sum"
+    }
+   ],
+   "keyphraseIds": [
+    6,
+    153,
+    187
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/frightening-function/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 758,
+   "friendlyName": "function-builder-ii",
+   "title": "Function builder II",
+   "url": "https://undergroundmathematics.org/polynomials/function-builder-ii",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 9446,
+   "isReviewQuestion": false,
+   "description": "Students combine functions by taking reciprocals and by dividing and find the sketches of the results to fill the cells of a grid. This task builds understanding of the properties of functions and practises visualisation and sketching of graphs of rational functions.",
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    },
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 911,
+     "relationship": "Back",
+     "title": "Worth 1000 words",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/worth-1000-words"
+    },
+    {
+     "resourceId": 941,
+     "relationship": "Back",
+     "title": "Function builder I",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/function-builder-i"
+    }
+   ],
+   "keyphraseIds": [
+    6,
+    95,
+    187,
+    268,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/function-builder-ii/components/cards.pdf",
+    "/polynomials/function-builder-ii/components/printable-table.pdf",
+    "/polynomials/function-builder-ii/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 124,
+   "friendlyName": "general-tragedy",
+   "title": "General tragedy",
+   "url": "https://undergroundmathematics.org/polynomials/general-tragedy",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 5358,
+   "isReviewQuestion": false,
+   "description": "We know the formula for solving quadratic equations, but is there a corresponding formula for solving cubic, quartic or quintic equations? This article looks at the answer to this question as well the lives of the mathematicians who answered it.",
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    129,
+    166,
+    176,
+    181,
+    182
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 163,
+   "friendlyName": "happy-families",
+   "title": "Happy families",
+   "url": "https://undergroundmathematics.org/polynomials/happy-families",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7200,
+   "isReviewQuestion": false,
+   "description": "This problem provides opportunities for students to apply their thinking about functions to an implicit equation. The Geogebra applet allows students to explore a family of curves before relating features back to an algebraic representation.",
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    },
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    65,
+    95,
+    295,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/happy-families/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 887,
+   "friendlyName": "how-not-to-solve-a-cubic",
+   "title": "How not to solve a cubic...",
+   "url": "https://undergroundmathematics.org/polynomials/how-not-to-solve-a-cubic",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 9677,
+   "isReviewQuestion": false,
+   "description": "Students are invited to find a cubic which can (surprisingly) be partially solved using an obviously incorrect method.",
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 143,
+     "relationship": "Around",
+     "title": "Can you find... cubic edition",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/can-you-find-cubic-edition"
+    }
+   ],
+   "keyphraseIds": [
+    80,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/how-not-to-solve-a-cubic/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1135,
+   "friendlyName": "inequalities",
+   "title": "Inequality sets",
+   "url": "https://undergroundmathematics.org/polynomials/inequalities",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 7416,
+   "isReviewQuestion": false,
+   "description": "This resource encourages students to think flexibly about inequalities by providing a table where they are asked to fill in the blank spaces so that each row contains a solution set, a graph and an inequality.",
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 140,
+     "content": "How can inequalities involving polynomials and rational functions be solved?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 11,
+     "title": "Doing and undoing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    178,
+    299
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/inequalities/download/problem.pdf",
+    "/polynomials/inequalities/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 724,
+   "friendlyName": "r5032",
+   "title": "Can we prove that $26^n$ always ends in the same two digits?",
+   "url": "https://undergroundmathematics.org/polynomials/r5032",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5032,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    80
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "9210/1",
+    "year": 1980,
+    "questions": [
+     "Q1(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 427,
+   "friendlyName": "r5248",
+   "title": "Given three remainders, what is the function?",
+   "url": "https://undergroundmathematics.org/polynomials/r5248",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5248,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    196
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1 and Pure Mathematics 1",
+    "paperCode": "417/1 and 447/1",
+    "year": 1964,
+    "questions": [
+     "Q1(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 505,
+   "friendlyName": "r5276",
+   "title": "What is the remainder when $p_n (x)$ is divided by $p_{n-1} (x)$?",
+   "url": "https://undergroundmathematics.org/polynomials/r5276",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5276,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1028,
+   "friendlyName": "r5685",
+   "title": "How many regions are created by the graphs $y=x^3, y=x^4$ and $y=x^5$?",
+   "url": "https://undergroundmathematics.org/polynomials/r5685",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5685,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    95,
+    181,
+    182,
+    194
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2015,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 349,
+   "friendlyName": "r5854",
+   "title": "Can we sketch this curve with an oblique asymptote?",
+   "url": "https://undergroundmathematics.org/polynomials/r5854",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5854,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    21,
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2004,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 711,
+   "friendlyName": "r5949",
+   "title": "Two values of $x$ that differ by $5$ satisfy $x^2 - 12x + k = 0$, what is $k$?",
+   "url": "https://undergroundmathematics.org/polynomials/r5949",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5949,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82,
+    199,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "F339",
+    "year": 1957,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 432,
+   "friendlyName": "r6219",
+   "title": "Given this equation, what's the value of $a+b+c+d$?",
+   "url": "https://undergroundmathematics.org/polynomials/r6219",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6219,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    82
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q25"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 638,
+   "friendlyName": "r6276",
+   "title": "What can we say if the roots of a cubic are in arithmetic progression?",
+   "url": "https://undergroundmathematics.org/polynomials/r6276",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6276,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    91,
+    166,
+    199,
+    204
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics B 1",
+    "paperCode": "9220/1",
+    "year": 1984,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 722,
+   "friendlyName": "r6299",
+   "title": "Can we sketch the reciprocal of a polynomial?",
+   "url": "https://undergroundmathematics.org/polynomials/r6299",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6299,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    },
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    21,
+    80,
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "9210/1",
+    "year": 1980,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 717,
+   "friendlyName": "r6317",
+   "title": "Can we sketch the graph of $y = (4x-1)/(x+5)$?",
+   "url": "https://undergroundmathematics.org/polynomials/r6317",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6317,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    },
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    },
+    {
+     "id": 140,
+     "content": "How can inequalities involving polynomials and rational functions be solved?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    6,
+    21,
+    112,
+    178,
+    187
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 1",
+    "paperCode": "9220/1",
+    "year": 1980,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 666,
+   "friendlyName": "r6431",
+   "title": "Can we solve  $\\sqrt{4x+13}-\\sqrt{x+1}=\\sqrt{12-x}?$",
+   "url": "https://undergroundmathematics.org/polynomials/r6431",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6431,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    216,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics Scholarship paper",
+    "paperCode": "183",
+    "year": 1954,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 534,
+   "friendlyName": "r6488",
+   "title": "If dividing by $x+a$ or $x-2a$ gives the same remainder, what's $a$?",
+   "url": "https://undergroundmathematics.org/polynomials/r6488",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6488,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    64,
+    80,
+    195,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1983,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 379,
+   "friendlyName": "r6543",
+   "title": "How many pairs of positive integers $(x,y)$ satisfy this equation?",
+   "url": "https://undergroundmathematics.org/polynomials/r6543",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6543,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 307,
+   "friendlyName": "r6546",
+   "title": "Can we prove the Arithmetic and Geometric Mean Inequality?",
+   "url": "https://undergroundmathematics.org/polynomials/r6546",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6546,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 140,
+     "content": "How can inequalities involving polynomials and rational functions be solved?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    18,
+    90,
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "9210/1",
+    "year": 1980,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 323,
+   "friendlyName": "r6577",
+   "title": "Can we factorise $6x^3+5x^2-17x-6$ completely?",
+   "url": "https://undergroundmathematics.org/polynomials/r6577",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6577,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    80,
+    82,
+    166,
+    196,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1984,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 684,
+   "friendlyName": "r6612",
+   "title": "Can we sketch the graph $y=x^3-x^2-x+1$?",
+   "url": "https://undergroundmathematics.org/polynomials/r6612",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6612,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 363,
+   "friendlyName": "r6674",
+   "title": "When is $(1-x)^n (2-x)^{2n} (3-x)^{3n} (4-x)^{4n} (5-x)^{5n}$ negative?",
+   "url": "https://undergroundmathematics.org/polynomials/r6674",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6674,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    },
+    {
+     "id": 140,
+     "content": "How can inequalities involving polynomials and rational functions be solved?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2007,
+    "questions": [
+     "Q1E"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 673,
+   "friendlyName": "r6714",
+   "title": "When are  $y < x+1, y+6x < 20, x = 5y-7$ true together?",
+   "url": "https://undergroundmathematics.org/polynomials/r6714",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6714,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    },
+    {
+     "id": 140,
+     "content": "How can inequalities involving polynomials and rational functions be solved?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 2",
+    "paperCode": "9202/2",
+    "year": 1980,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 396,
+   "friendlyName": "r6790",
+   "title": "If we divide by $x-1$, the remainder is?",
+   "url": "https://undergroundmathematics.org/polynomials/r6790",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6790,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    64,
+    196
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 670,
+   "friendlyName": "r6871",
+   "title": "Can we solve these equations for $a, b, x$ and $y$?",
+   "url": "https://undergroundmathematics.org/polynomials/r6871",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6871,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2008,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 486,
+   "friendlyName": "r7017",
+   "title": "Does $(x-1)(x-2)\\times \\cdots \\times (x-n) = k$ have a solution?",
+   "url": "https://undergroundmathematics.org/polynomials/r7017",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7017,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    166,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 311,
+   "friendlyName": "r7036",
+   "title": "When is $n^2 x^{2n+3} - 25n x^{n+1} + 150x^7$ divisible by $x^2-1$?",
+   "url": "https://undergroundmathematics.org/polynomials/r7036",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7036,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    80,
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1I"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 571,
+   "friendlyName": "r7108",
+   "title": "When is  $x^n + 1$ divisible by $x + 1$?",
+   "url": "https://undergroundmathematics.org/polynomials/r7108",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7108,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    80,
+    82
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1968,
+    "questions": [
+     "Q5(iii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 586,
+   "friendlyName": "r7111",
+   "title": "What if the roots of this equation are in geometric progression?",
+   "url": "https://undergroundmathematics.org/polynomials/r7111",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7111,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 2",
+    "paperCode": "187",
+    "year": 1952,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1040,
+   "friendlyName": "r7243",
+   "title": "When is $x^2 +1$ a factor of  $(3+x^4)^n-(x^2+3)^n(x^2-1)^n$?",
+   "url": "https://undergroundmathematics.org/polynomials/r7243",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7243,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    80,
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2016,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 317,
+   "friendlyName": "r7809",
+   "title": "Can we factorise $x^4 + Ax^2 + B$?",
+   "url": "https://undergroundmathematics.org/polynomials/r7809",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7809,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82,
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 473,
+   "friendlyName": "r7991",
+   "title": "Can we factorise $a^3(b-c)+b^3(c-a)+c^3(a-b)$?",
+   "url": "https://undergroundmathematics.org/polynomials/r7991",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7991,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82,
+    166,
+    189,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "180",
+    "year": 1955,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 489,
+   "friendlyName": "r8160",
+   "title": "Which of these quintic equations fit this graph?",
+   "url": "https://undergroundmathematics.org/polynomials/r8160",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8160,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 83,
+     "content": "Which techniques can be used to sketch rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    182,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1E"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 539,
+   "friendlyName": "r8468",
+   "title": "If two remainders are related can we find $a$?",
+   "url": "https://undergroundmathematics.org/polynomials/r8468",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8468,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    64,
+    166,
+    195
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1980,
+    "questions": [
+     "Q12(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 825,
+   "friendlyName": "r8682",
+   "title": "What if dividing $f(x)$ by $(x-a)(x-b)$ and by $(x-a)(x-c)$ gives the same remainder?",
+   "url": "https://undergroundmathematics.org/polynomials/r8682",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8682,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    64,
+    196,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "840/0",
+    "year": 1976,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 438,
+   "friendlyName": "r8701",
+   "title": "What if the remainder when we divide by $x-k$ is $k$?",
+   "url": "https://undergroundmathematics.org/polynomials/r8701",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8701,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    166,
+    195
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 2",
+    "paperCode": "9202/2",
+    "year": 1981,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 752,
+   "friendlyName": "r8711",
+   "title": "How many real roots does this cubic polynomial have?",
+   "url": "https://undergroundmathematics.org/polynomials/r8711",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8711,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "840/0",
+    "year": 1978,
+    "questions": [
+     "Q1(c)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 713,
+   "friendlyName": "r8732",
+   "title": "If the roots of $2x^2+kx+3=0$, are $\\alpha$ and $\\beta$, what is $k$?",
+   "url": "https://undergroundmathematics.org/polynomials/r8732",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8732,
+   "isReviewQuestion": true,
+   "description": "",
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1985,
+    "questions": [
+     "Q12(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 698,
+   "friendlyName": "r9006",
+   "title": "What kind of roots does $x^3 - 30x^2 + 108x - 104 = 0$ have?",
+   "url": "https://undergroundmathematics.org/polynomials/r9006",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9006,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    52
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 474,
+   "friendlyName": "r9108",
+   "title": "Can we show $(x^2+1)(x+1)=(a^2+1)(a+1)$ has just one real root?",
+   "url": "https://undergroundmathematics.org/polynomials/r9108",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9108,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    166,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "9200/0",
+    "year": 1980,
+    "questions": [
+     "Q2(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 874,
+   "friendlyName": "r9189",
+   "title": "Can we show $ x^4 - px^3 - 6x^2 + px +1 =0$ always has four real roots?",
+   "url": "https://undergroundmathematics.org/polynomials/r9189",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9189,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82,
+    191,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics Special paper",
+    "paperCode": "447/0",
+    "year": 1967,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 672,
+   "friendlyName": "r9330",
+   "title": "Can we find the coefficients and factorise this quartic?",
+   "url": "https://undergroundmathematics.org/polynomials/r9330",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9330,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    },
+    {
+     "id": 140,
+     "content": "How can inequalities involving polynomials and rational functions be solved?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    80,
+    82,
+    166,
+    181,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1984,
+    "questions": [
+     "Q10"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 582,
+   "friendlyName": "r9499",
+   "title": "If $\\sqrt{x}-\\sqrt{11}=\\sqrt{y}$, when is $x/y$ a maximum?",
+   "url": "https://undergroundmathematics.org/polynomials/r9499",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9499,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    216
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q20"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 364,
+   "friendlyName": "r9754",
+   "title": "How many solutions are there to $(x^2+1)^{10} = 2x - x^2 - 2$?",
+   "url": "https://undergroundmathematics.org/polynomials/r9754",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9754,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    166,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 222,
+   "friendlyName": "squaring-the-circle",
+   "title": "Squaring the circle",
+   "url": "https://undergroundmathematics.org/polynomials/squaring-the-circle",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 5608,
+   "isReviewQuestion": false,
+   "description": "Can we square the circle? This article looks at what the question means, how long people have been trying to do so, and why we now know that we can't.",
+   "keyQuestions": [
+    {
+     "id": 81,
+     "content": "How are the roots of polynomials related to their equations and graphs?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 5,
+     "title": "History",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    123,
+    160,
+    166
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 128,
+   "friendlyName": "whats-left",
+   "title": "What's left?",
+   "url": "https://undergroundmathematics.org/polynomials/whats-left",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 8162,
+   "isReviewQuestion": false,
+   "description": "What's left? provides students with an opportunity to practise algebraic division while being asked to think about what form the remainder and quotient functions will take.",
+   "keyQuestions": [
+    {
+     "id": 80,
+     "content": "What happens when one polynomial is divided by another?"
+    },
+    {
+     "id": 82,
+     "content": "How can we rewrite polynomials and rational functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 884,
+     "relationship": "Back",
+     "title": "Divide it up",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/divide-it-up"
+    }
+   ],
+   "keyphraseIds": [
+    64,
+    195
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/polynomials/whats-left/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

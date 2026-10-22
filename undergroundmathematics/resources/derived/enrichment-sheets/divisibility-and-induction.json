@@ -1,0 +1,1646 @@
+{
+ "station": {
+  "id": 12,
+  "friendlyId": "divisibility-and-induction",
+  "title": "Divisibility & Induction",
+  "guidingQuestion": "How can recursion and induction be used to describe and analyse situations?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 25,
+  "reviewQuestions": 12,
+  "resourcesWithKeyQuestions": 25,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 7,
+  "withTeacherSupport": 0,
+  "withAssets": 13,
+  "withProvenance": 18
+ },
+ "keyQuestions": [
+  {
+   "id": 51,
+   "number": 1,
+   "friendlyName": "fibonacci",
+   "content": "What are the Fibonacci numbers, and what properties do they have?"
+  },
+  {
+   "id": 52,
+   "number": 2,
+   "friendlyName": "highest-common-factor",
+   "content": "How can the highest common factor of two numbers be found?"
+  },
+  {
+   "id": 53,
+   "number": 3,
+   "friendlyName": "fundamental-theorem-of-arithmetic",
+   "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+  },
+  {
+   "id": 54,
+   "number": 4,
+   "friendlyName": "recursive",
+   "content": "What does it mean to describe situations recursively?"
+  },
+  {
+   "id": 55,
+   "number": 5,
+   "friendlyName": "induction",
+   "content": "How can results be proved using induction?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 235,
+   "friendlyName": "a-diophantine-equation",
+   "title": "A Diophantine equation",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/a-diophantine-equation",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6316,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 243,
+     "relationship": "Back",
+     "title": "Division game",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/division-game"
+    }
+   ],
+   "keyphraseIds": [
+    59,
+    167,
+    168
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/a-diophantine-equation/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 240,
+   "friendlyName": "an-olympiad-question",
+   "title": "An olympiad question",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/an-olympiad-question",
+   "type": {
+    "id": 11,
+    "name": "Go and think about it...",
+    "friendlyId": "go-and-think"
+   },
+   "level": "Developing",
+   "ref": 7342,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    99
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/divisibility-and-induction/an-olympiad-question/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "provenance-missing"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 246,
+   "friendlyName": "buckets-and-ponds",
+   "title": "Buckets and ponds",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/buckets-and-ponds",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Developing",
+   "ref": 7426,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 241,
+     "relationship": "Back",
+     "title": "Picture this!",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/picture-this"
+    },
+    {
+     "resourceId": 242,
+     "relationship": "Back",
+     "title": "Euclid's algorithm",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/euclids-algorithm"
+    },
+    {
+     "resourceId": 243,
+     "relationship": "Forward",
+     "title": "Division game",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/division-game"
+    }
+   ],
+   "keyphraseIds": [
+    59,
+    129
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/buckets-and-ponds/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 243,
+   "friendlyName": "division-game",
+   "title": "Division game",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/division-game",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 9948,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 235,
+     "relationship": "Forward",
+     "title": "A Diophantine equation",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/a-diophantine-equation"
+    },
+    {
+     "resourceId": 246,
+     "relationship": "Back",
+     "title": "Buckets and ponds",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/buckets-and-ponds"
+    }
+   ],
+   "keyphraseIds": [
+    79,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/division-game/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 242,
+   "friendlyName": "euclids-algorithm",
+   "title": "Euclid's algorithm",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/euclids-algorithm",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Developing",
+   "ref": 8510,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 51,
+     "content": "What are the Fibonacci numbers, and what properties do they have?"
+    },
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 4
+    },
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 241,
+     "relationship": "Back",
+     "title": "Picture this!",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/picture-this"
+    },
+    {
+     "resourceId": 246,
+     "relationship": "Forward",
+     "title": "Buckets and ponds",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/buckets-and-ponds"
+    }
+   ],
+   "keyphraseIds": [
+    74,
+    99
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/divisibility-and-induction/euclids-algorithm/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 238,
+   "friendlyName": "factorial-fun",
+   "title": "Factorial fun",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/factorial-fun",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7688,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    81,
+    168
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/factorial-fun/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 234,
+   "friendlyName": "lcm-sudoku",
+   "title": "LCM Sudoku",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/lcm-sudoku",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6182,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    126
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/lcm-sudoku/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 245,
+   "friendlyName": "multiplication-magic-square",
+   "title": "Multiplication magic square",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/multiplication-magic-square",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Developing",
+   "ref": 7244,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/multiplication-magic-square/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 252,
+   "friendlyName": "one-step-two-step",
+   "title": "One step, two step",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/one-step-two-step",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 8499,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    },
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    85,
+    111,
+    173,
+    204
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/one-step-two-step/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 241,
+   "friendlyName": "picture-this",
+   "title": "Picture this!",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/picture-this",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 7188,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 51,
+     "content": "What are the Fibonacci numbers, and what properties do they have?"
+    },
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 3,
+     "title": "Conjecturing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 242,
+     "relationship": "Forward",
+     "title": "Euclid's algorithm",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/euclids-algorithm"
+    },
+    {
+     "resourceId": 246,
+     "relationship": "Forward",
+     "title": "Buckets and ponds",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/buckets-and-ponds"
+    }
+   ],
+   "keyphraseIds": [
+    74,
+    99
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/picture-this/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 477,
+   "friendlyName": "r5634",
+   "title": "Can we show the sum of this series to $n$ terms is $n/(3n-1)$?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r5634",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5634,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 51,
+     "content": "What are the Fibonacci numbers, and what properties do they have?"
+    },
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    },
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    173
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Cambridge Colleges",
+    "paper": "Examination for Entrance Scholarships and Exhibitions Pure Mathematics for Candidates in Natural Sciences (Group 4)",
+    "paperCode": null,
+    "year": 1952,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Colleges of the University of Cambridge",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 490,
+   "friendlyName": "r6171",
+   "title": "Can we write 33127 as the difference of two squares?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r6171",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6171,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    57,
+    82,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2006,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 502,
+   "friendlyName": "r7096",
+   "title": "Can we find integers that satisfy $a^3 + 3b^3 = 9c^3$?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r7096",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7096,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    59,
+    79,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 513,
+   "friendlyName": "r7465",
+   "title": "What's the smallest integer with 426 proper factors?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r7465",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7465,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 436,
+   "friendlyName": "r7943",
+   "title": "Two rules generate a sequence; what do the first 100 terms add to?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r7943",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7943,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    191,
+    219
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 437,
+   "friendlyName": "r8586",
+   "title": "If $x^3 = 2x+1$, what is  $x^k$ as a quadratic?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r8586",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8586,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 51,
+     "content": "What are the Fibonacci numbers, and what properties do they have?"
+    },
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    },
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 433,
+   "friendlyName": "r8677",
+   "title": "Are any two Fermat numbers relatively prime?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r8677",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8677,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 51,
+     "content": "What are the Fibonacci numbers, and what properties do they have?"
+    },
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    },
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    83,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics B Special paper",
+    "paperCode": "9220/0",
+    "year": 1984,
+    "questions": [
+     "Q13"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 442,
+   "friendlyName": "r8811",
+   "title": "What is the primorial of a number?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r8811",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8811,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q12"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 421,
+   "friendlyName": "r8880",
+   "title": "For how many integers $n$ is $n/(100-n)$ also an integer?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r8880",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8880,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    87
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 652,
+   "friendlyName": "r9868",
+   "title": "Can we prove these Fibonacci number results?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r9868",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9868,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 51,
+     "content": "What are the Fibonacci numbers, and what properties do they have?"
+    },
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    },
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    85,
+    173
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 1996,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 411,
+   "friendlyName": "r9916",
+   "title": "What's the next number to occur in both sequences?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r9916",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9916,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    19,
+    126,
+    204
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2005,
+    "questions": [
+     "Q7"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 479,
+   "friendlyName": "r9919",
+   "title": "Can we find a solution to $(n-3)^3+n^3=(n+3)^3$?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r9919",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9919,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 51,
+     "content": "What are the Fibonacci numbers, and what properties do they have?"
+    },
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    },
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    59,
+    79
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 1998,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 239,
+   "friendlyName": "s-prime-numbers",
+   "title": "$S$-prime numbers",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/s-prime-numbers",
+   "type": {
+    "id": 11,
+    "name": "Go and think about it...",
+    "friendlyId": "go-and-think"
+   },
+   "level": "Developing",
+   "ref": 8580,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    79,
+    169
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/s-prime-numbers/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 933,
+   "friendlyName": "the-fundamental-theorem-of-arithmetic",
+   "title": "The Fundamental Theorem of Arithmetic",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/the-fundamental-theorem-of-arithmetic",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 6677,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 52,
+     "content": "How can the highest common factor of two numbers be found?"
+    },
+    {
+     "id": 53,
+     "content": "What is the Fundamental theorem of arithmetic, and why does it matter?"
+    },
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 235,
+     "relationship": "Forward",
+     "title": "A Diophantine equation",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/a-diophantine-equation"
+    },
+    {
+     "resourceId": 243,
+     "relationship": "Back",
+     "title": "Division game",
+     "station": "divisibility-and-induction",
+     "url": "https://undergroundmathematics.org/divisibility-and-induction/division-game"
+    }
+   ],
+   "keyphraseIds": [
+    168
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/the-fundamental-theorem-of-arithmetic/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 251,
+   "friendlyName": "triominoes",
+   "title": "Triominoes",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/triominoes",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 9981,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 54,
+     "content": "What does it mean to describe situations recursively?"
+    },
+    {
+     "id": 55,
+     "content": "How can results be proved using induction?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    111,
+    173
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/divisibility-and-induction/triominoes/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  }
+ ]
+}

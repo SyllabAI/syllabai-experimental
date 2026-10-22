@@ -1,0 +1,1374 @@
+{
+ "station": {
+  "id": 3,
+  "friendlyId": "calculus-trig-log",
+  "title": "Calculus of Trigonometry & Logarithms",
+  "guidingQuestion": "How can calculus be used with functions that are not powers of $x$?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 20,
+  "reviewQuestions": 8,
+  "resourcesWithKeyQuestions": 19,
+  "keyQuestionsCovered": 3,
+  "keyQuestionsTotal": 3,
+  "resourcesWithPervasiveIdeas": 8,
+  "withTeacherSupport": 1,
+  "withAssets": 11,
+  "withProvenance": 10
+ },
+ "keyQuestions": [
+  {
+   "id": 12,
+   "number": 1,
+   "friendlyName": "sin-and-cos",
+   "content": "How can trigonometric functions be differentiated and integrated?"
+  },
+  {
+   "id": 13,
+   "number": 2,
+   "friendlyName": "function-equals-derivative",
+   "content": "Is the derivative function always different from the original function?"
+  },
+  {
+   "id": 14,
+   "number": 3,
+   "friendlyName": "exp-and-log",
+   "content": "How can exponentials and logarithmic functions be differentiated and integrated?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 876,
+   "friendlyName": "estimating-gradients",
+   "title": "Estimating gradients",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/estimating-gradients",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Introducing",
+   "ref": 5303,
+   "isReviewQuestion": false,
+   "description": "Students are asked to estimate the gradient of a sine graph at three different points. Can they then sketch the graph of the derivative?",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 872,
+     "relationship": "Around",
+     "title": "Rotating derivatives",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/rotating-derivatives"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    94,
+    234,
+    236,
+    305
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/estimating-gradients/assets/student-worksheet.pdf",
+    "/calculus-trig-log/estimating-gradients/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 882,
+   "friendlyName": "inverse-integrals",
+   "title": "Inverse integrals",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 7564,
+   "isReviewQuestion": false,
+   "description": "Students are asked to think about inverse functions in order to find a definite integral involving $\\ln x$. Can they find a method to calculate certain integrals without knowing how to integrate the function directly?",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    },
+    {
+     "id": 14,
+     "content": "How can exponentials and logarithmic functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 87,
+     "relationship": "Around",
+     "title": "Reflecting on change",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/reflecting-on-change"
+    },
+    {
+     "resourceId": 828,
+     "relationship": "Around",
+     "title": "Trigsy integrals",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/trigsy-integrals"
+    }
+   ],
+   "keyphraseIds": [
+    77,
+    116,
+    121,
+    132
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals-teacher-support",
+    "sections": [
+     "Video clips",
+     "Student work"
+    ]
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/inverse-integrals/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1106,
+   "friendlyName": "inverse-integrals-teacher-support",
+   "title": "Inverse integrals - teacher support",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 8132,
+   "isReviewQuestion": false,
+   "description": null,
+   "keyQuestions": [],
+   "lines": [],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 492,
+   "friendlyName": "r6622",
+   "title": "Can the integral of $\\sin(\\sin t)$ be zero?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r6622",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6622,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1H"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1117,
+   "friendlyName": "r6938",
+   "title": "Can we find the turning points on the curve $y = \\sin x + \\cos x$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r6938",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6938,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    39,
+    47,
+    58,
+    209,
+    217,
+    235
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1974,
+    "questions": [
+     "Q16(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1058,
+   "friendlyName": "r7074",
+   "title": "Where do the curves $y=\\sin 2x$ and $y=\\sin x$ cross?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7074",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7074,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 558,
+     "relationship": "Around",
+     "title": "Can we find the area between $\\sin x$ and $\\sin 2x$?",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r9184"
+    }
+   ],
+   "keyphraseIds": [
+    17,
+    47,
+    116,
+    209
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1985,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 508,
+   "friendlyName": "r7106",
+   "title": "Can we find this integral involving the floor function?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7106",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7106,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 14,
+     "content": "How can exponentials and logarithmic functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 407,
+   "friendlyName": "r7616",
+   "title": "Is this product of integrals positive or negative?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7616",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7616,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2012,
+    "questions": [
+     "Q1F"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1162,
+   "friendlyName": "r8071",
+   "title": "Can we find the velocity and acceleration of this particle?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r8071",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8071,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    61,
+    237
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1977,
+    "questions": [
+     "Q16"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1132,
+   "friendlyName": "r8679",
+   "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r8679",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8679,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 1105,
+     "relationship": "Back",
+     "title": "Can we sketch the curve $y = \\cos x - \\sin x +2$?",
+     "station": "trigonometry-compound-angles",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7581"
+    }
+   ],
+   "keyphraseIds": [
+    10,
+    17,
+    47,
+    209,
+    233,
+    296,
+    297
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2",
+    "paperCode": "840/2",
+    "year": 1970,
+    "questions": [
+     "Q17b"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 558,
+   "friendlyName": "r9184",
+   "title": "Can we find the area between $\\sin x$ and $\\sin 2x$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r9184",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9184,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 899,
+     "relationship": "Around",
+     "title": "Sine stretching",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/sine-stretching"
+    },
+    {
+     "resourceId": 1058,
+     "relationship": "Around",
+     "title": "Where do the curves $y=\\sin 2x$ and $y=\\sin x$ cross?",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r7074"
+    }
+   ],
+   "keyphraseIds": [
+    17,
+    95,
+    116,
+    209,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1972,
+    "questions": [
+     "Q8"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 872,
+   "friendlyName": "rotating-derivatives",
+   "title": "Rotating derivatives",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/rotating-derivatives",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Introducing",
+   "ref": 9337,
+   "isReviewQuestion": false,
+   "description": "By considering a particle or point moving around a unit circle, students are asked to interpret diagrams which lead to the derivatives of $\\sin t$ and $\\cos t$.",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 3
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 910,
+     "relationship": "Around",
+     "title": "Similar derivatives",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/similar-derivatives"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    185,
+    236
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/rotating-derivatives/components/diagrams-cards.pdf",
+    "/calculus-trig-log/rotating-derivatives/components/suggestion-cards.pdf",
+    "/calculus-trig-log/rotating-derivatives/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 910,
+   "friendlyName": "similar-derivatives",
+   "title": "Similar derivatives",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/similar-derivatives",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 5178,
+   "isReviewQuestion": false,
+   "description": "By considering a small change in angle, students use similar triangles to give a geometric explanation of the derivatives of $\\tan \\theta$, $\\sec \\theta$, $\\cot \\theta$ and $\\cosec \\theta$. There are opportunities to make geometric sense of the factors of $\\sec \\theta$ and $\\cosec \\theta$ that arise in the derivatives.",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 743,
+     "relationship": "Back",
+     "title": "Going round in circles",
+     "station": "trigonometry-triangles-to-functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles"
+    },
+    {
+     "resourceId": 872,
+     "relationship": "Around",
+     "title": "Rotating derivatives",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/rotating-derivatives"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    207,
+    236,
+    270
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/similar-derivatives/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1179,
+   "friendlyName": "sine-on-the-dotted-line",
+   "title": "Sine on the dotted line",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/sine-on-the-dotted-line",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 6925,
+   "isReviewQuestion": false,
+   "description": "Students decide which of the given expressions evaluate to the shaded area under a graph of $\\sin x$. Ideas of equivalent areas, decomposition and transformations are explored as well as the difference between area and definite integral.",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    17,
+    116,
+    209
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/sine-on-the-dotted-line/components/expressions.pdf",
+    "/calculus-trig-log/sine-on-the-dotted-line/components/sketches.pdf",
+    "/calculus-trig-log/sine-on-the-dotted-line/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "986/1",
+    "year": 1979,
+    "questions": [
+     "Q13"
+    ],
+    "permission": null,
+    "parseStatus": "parsed-derived"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 899,
+   "friendlyName": "sine-stretching",
+   "title": "Sine stretching",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/sine-stretching",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 8896,
+   "isReviewQuestion": false,
+   "description": "Students are asked to use their knowledge of the derviatives of $\\sin x$ and $\\cos x$, alongside some graphical reasoning in order to find the derivative of the function $\\sin (ax)$.",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 558,
+     "relationship": "Around",
+     "title": "Can we find the area between $\\sin x$ and $\\sin 2x$?",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r9184"
+    },
+    {
+     "resourceId": 880,
+     "relationship": "Forward",
+     "title": "Slippery areas",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-areas"
+    }
+   ],
+   "keyphraseIds": [
+    29,
+    58,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/sine-stretching/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 91,
+   "friendlyName": "stretching-an-integral",
+   "title": "Stretching an integral",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/stretching-an-integral",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 8619,
+   "isReviewQuestion": false,
+   "description": "How can we integrate $\\frac{1}{x}$?  Students are asked what happens to areas under the graph of $y=\\frac{1}{x}$ when it is stretched, leading to a formula for the integral without requiring calculus tools.",
+   "keyQuestions": [
+    {
+     "id": 14,
+     "content": "How can exponentials and logarithmic functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    116,
+    132,
+    230
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/stretching-an-integral/components/diagrams.pdf",
+    "/calculus-trig-log/stretching-an-integral/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 959,
+   "friendlyName": "to-the-limit",
+   "title": "To the limit",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/to-the-limit",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Introducing",
+   "ref": 9151,
+   "isReviewQuestion": false,
+   "description": "Using a series of statements, students are asked to put together a chain of reasoning to find the derivative of $a^x$. This leads on to looking at a special case of this derivative.",
+   "keyQuestions": [
+    {
+     "id": 13,
+     "content": "Is the derivative function always different from the original function?"
+    },
+    {
+     "id": 14,
+     "content": "How can exponentials and logarithmic functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 90,
+     "relationship": "Forward",
+     "title": "Differentiating exponentials",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/differentiating-exponentials"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    77,
+    307
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/calculus-trig-log/to-the-limit/components/cards.pdf",
+    "/calculus-trig-log/to-the-limit/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 961,
+   "friendlyName": "trig-gradient-match",
+   "title": "Trig gradient match",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/trig-gradient-match",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 8321,
+   "isReviewQuestion": false,
+   "description": "Students are asked to pair up graphs of certain trig functions and their gradient functions and sketch some missing graphs.  The graphs are not labelled, so students will have to focus on the shapes of the graphs.",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 919,
+     "relationship": "Back",
+     "title": "Gradient match",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/gradient-match"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    94,
+    230,
+    234,
+    274
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/trig-gradient-match/components/alternative-cards.pdf",
+    "/calculus-trig-log/trig-gradient-match/components/cards.pdf",
+    "/calculus-trig-log/trig-gradient-match/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 828,
+   "friendlyName": "trigsy-integrals",
+   "title": "Trigsy integrals",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/trigsy-integrals",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 8150,
+   "isReviewQuestion": false,
+   "description": "Students are asked to think about the different ways they can integrate trigonometric functions such as $\\sin ^2 x$ and $\\arccos x$ using their knowledge of these functions and basic ideas from calculus. They do not need to have met any trigonometric integration before.",
+   "keyQuestions": [
+    {
+     "id": 12,
+     "content": "How can trigonometric functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 880,
+     "relationship": "Forward",
+     "title": "Slippery areas",
+     "station": "chain-rule",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-areas"
+    },
+    {
+     "resourceId": 882,
+     "relationship": "Around",
+     "title": "Inverse integrals",
+     "station": "calculus-trig-log",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals"
+    }
+   ],
+   "keyphraseIds": [
+    116,
+    234
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/trigsy-integrals/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 981,
+   "friendlyName": "two-for-one",
+   "title": "Two for one",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/two-for-one",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 5833,
+   "isReviewQuestion": false,
+   "description": "What do we get when we integrate $\\frac{1}{x}$? $\\ln x$ or $\\ln |x|$? In this task, students are asked to think about when and why we use the modulus sign.",
+   "keyQuestions": [
+    {
+     "id": 14,
+     "content": "How can exponentials and logarithmic functions be differentiated and integrated?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    },
+    {
+     "id": 5,
+     "name": "Calculus",
+     "colour": "#18b300"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    58,
+    116,
+    132,
+    140,
+    273,
+    278
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/calculus-trig-log/two-for-one/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

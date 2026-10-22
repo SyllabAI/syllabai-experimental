@@ -1,0 +1,27 @@
+{
+ "source": "https://undergroundmathematics.org/api/interactivity-labels",
+ "captured": "2026-10-22",
+ "count": 2,
+ "results": [
+  {
+   "updatedByUserId": 7,
+   "friendlyId": "card-sort",
+   "icon": "interactive-card-sort",
+   "updatedDate": "2016-12-12T09:39:17Z",
+   "createdDate": "2016-12-07T09:49:40Z",
+   "name": "card sort",
+   "createdByUserId": 1,
+   "id": 2
+  },
+  {
+   "updatedByUserId": 1,
+   "friendlyId": "geogebra",
+   "icon": "geogebra",
+   "updatedDate": "2016-12-07T09:49:26Z",
+   "createdDate": "2016-12-07T09:49:26Z",
+   "name": "GeoGebra",
+   "createdByUserId": 1,
+   "id": 1
+  }
+ ]
+}

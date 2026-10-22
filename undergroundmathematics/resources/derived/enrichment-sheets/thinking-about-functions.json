@@ -1,0 +1,1605 @@
+{
+ "station": {
+  "id": 21,
+  "friendlyId": "thinking-about-functions",
+  "title": "Thinking about Functions",
+  "guidingQuestion": "What are key properties of functions?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 23,
+  "reviewQuestions": 9,
+  "resourcesWithKeyQuestions": 23,
+  "keyQuestionsCovered": 5,
+  "keyQuestionsTotal": 5,
+  "resourcesWithPervasiveIdeas": 10,
+  "withTeacherSupport": 1,
+  "withAssets": 13,
+  "withProvenance": 12
+ },
+ "keyQuestions": [
+  {
+   "id": 91,
+   "number": 1,
+   "friendlyName": "what-is-function",
+   "content": "What is a function and what are some examples of functions?"
+  },
+  {
+   "id": 92,
+   "number": 2,
+   "friendlyName": "features-graph",
+   "content": "What features of functions are visible on a graph?"
+  },
+  {
+   "id": 93,
+   "number": 3,
+   "friendlyName": "functions-asymptotes",
+   "content": "What is an asymptote and what are some functions which have them?"
+  },
+  {
+   "id": 94,
+   "number": 4,
+   "friendlyName": "absolute-value-modulus",
+   "content": "What does the graph of the absolute value or modulus function look like?"
+  },
+  {
+   "id": 95,
+   "number": 5,
+   "friendlyName": "function-symmetry",
+   "content": "What do we mean by symmetry of a function?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 133,
+   "friendlyName": "absolutely",
+   "title": "Absolutely!",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/absolutely",
+   "type": {
+    "id": 7,
+    "name": "Investigation",
+    "friendlyId": "investigation"
+   },
+   "level": "Introducing",
+   "ref": 7065,
+   "isReviewQuestion": false,
+   "description": "Students are shown the graph of the modulus function and asked what they can say about it. Questions about various features are suggested to support classroom discussion and prompt thinking about defining the modulus function as a piecewise linear function, transformations of the graph and applications of the function.",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    95,
+    140,
+    161,
+    273
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/absolutely/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 924,
+   "friendlyName": "approaching-asymptotes",
+   "title": "Approaching asymptotes",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/approaching-asymptotes",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 6163,
+   "isReviewQuestion": false,
+   "description": "This algebra-free resource is designed to provoke discussion and help build up students’ sense of what asymptotes are.  This extends ideas beyond the classic example of $y=\\tfrac{1}{x}$, which is used as a warm-up.",
+   "keyQuestions": [
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 729,
+     "relationship": "Around",
+     "title": "A tangent is ...",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/a-tangent-is"
+    },
+    {
+     "resourceId": 911,
+     "relationship": "Around",
+     "title": "Worth 1000 words",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/worth-1000-words"
+    }
+   ],
+   "keyphraseIds": [
+    21,
+    88,
+    94,
+    95,
+    113,
+    127,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/thinking-about-functions/approaching-asymptotes/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": [
+    "card-sort"
+   ]
+  },
+  {
+   "id": 131,
+   "friendlyName": "curve-match",
+   "title": "Curve match",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/curve-match",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 6285,
+   "isReviewQuestion": false,
+   "description": "This offers an exploration of the graphs of powers of $x$ and related functions.  By comparing the graphs with each other, students are asked to match a set of graphs to their equations.",
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 4
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 83,
+     "relationship": "Forward",
+     "title": "Meaningful areas",
+     "station": "calculus-of-powers",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/meaningful-areas"
+    }
+   ],
+   "keyphraseIds": [
+    88,
+    95,
+    120
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/curve-match/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 136,
+   "friendlyName": "function-squares",
+   "title": "Function squares",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/function-squares",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 7445,
+   "isReviewQuestion": false,
+   "description": "Students can start to build familiarity with a basic library of functions and their properties using this resource. The functions are available as graphs or equations on cards.",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 940,
+     "relationship": "Forward",
+     "title": "Two-way functions",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/two-way-functions"
+    }
+   ],
+   "keyphraseIds": [
+    21,
+    88,
+    224
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/thinking-about-functions/function-squares/components/functions-cards2.pdf",
+    "/thinking-about-functions/function-squares/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 144,
+   "friendlyName": "inequality-flip-flop",
+   "title": "Inequality flip-flop",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/inequality-flip-flop",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 5356,
+   "isReviewQuestion": false,
+   "description": "The resource is intended to support students’ understanding of algebraic manipulation by encouraging them to think in terms of functions. In particular, how applying certain functions to inequalities affects the inequality sign.",
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    55,
+    88,
+    109,
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/inequality-flip-flop/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 1176,
+   "friendlyName": "mapping-a-function",
+   "title": "Mapping a function",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/mapping-a-function",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Introducing",
+   "ref": 7480,
+   "isReviewQuestion": false,
+   "description": "Students are introduced to using mapping diagrams as a way to visualise a function; this is developed in later resources to visualise derivatives and then to understand the chain rule.",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 53,
+     "relationship": "Around",
+     "title": "Zooming in",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in"
+    },
+    {
+     "resourceId": 1129,
+     "relationship": "Forward",
+     "title": "Mapping a derivative",
+     "station": "introducing-calculus",
+     "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative"
+    }
+   ],
+   "keyphraseIds": [
+    58,
+    88
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/mapping-a-function/assets/mapping-diagrams-small.pdf",
+    "/thinking-about-functions/mapping-a-function/assets/mapping-diagrams.pdf",
+    "/thinking-about-functions/mapping-a-function/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 923,
+   "friendlyName": "odd-or-even-or",
+   "title": "Odd or even or...",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/odd-or-even-or",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 9711,
+   "isReviewQuestion": false,
+   "description": "In this activity students are asked to decide whether functions are odd or even or have some other kind of symmetry. As well as working with the graphs and equations of functions, there are opportunities to think about the effects of graph transformations.",
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 4
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 136,
+     "relationship": "Around",
+     "title": "Function squares",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/function-squares"
+    },
+    {
+     "resourceId": 138,
+     "relationship": "Back",
+     "title": "That's odd ... or even",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/thats-odd-or-even"
+    }
+   ],
+   "keyphraseIds": [
+    75,
+    88,
+    95,
+    145,
+    193,
+    200
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/thinking-about-functions/odd-or-even-or/components/cards.pdf",
+    "/thinking-about-functions/odd-or-even-or/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 901,
+   "friendlyName": "picture-the-process-i",
+   "title": "Picture the process I",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/picture-the-process-i",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 5052,
+   "isReviewQuestion": false,
+   "description": "Students are asked to relate real life situations to their algebraic models via graphical representations. This offers lots of opportunities for discussion as well as reflection on working with different representations.",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 6
+    },
+    {
+     "id": 7,
+     "title": "Modelling",
+     "weight": 7
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 898,
+     "relationship": "Forward",
+     "title": "Picture the process II",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/picture-the-process-ii"
+    }
+   ],
+   "keyphraseIds": [
+    88,
+    95,
+    139
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/thinking-about-functions/picture-the-process-i/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 912,
+   "friendlyName": "piece-it-together",
+   "title": "Piece it together",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/piece-it-together",
+   "type": {
+    "id": 6,
+    "name": "Problem requiring decisions",
+    "friendlyId": "problem-decisions"
+   },
+   "level": "Introducing",
+   "ref": 6041,
+   "isReviewQuestion": false,
+   "description": "Students are asked to describe four piecewise graphs for others to sketch. This may encourage informal discussion about the domains of different sections and help students to develop ideas of how we might write equations of piecewise functions. To take the task further, a set of equations that match to some of the graphs is provided.",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 133,
+     "relationship": "Around",
+     "title": "Absolutely!",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/absolutely"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    88,
+    112,
+    161
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/piece-it-together/components/equation-cards.pdf",
+    "/thinking-about-functions/piece-it-together/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 367,
+   "friendlyName": "r5559",
+   "title": "Can we sketch this function with its asymptotes?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r5559",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5559,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics A 1 and Pure Mathematics 2",
+    "paperCode": "9219/1 and 9208/2",
+    "year": 1986,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 338,
+   "friendlyName": "r6008",
+   "title": "When is one of these functions greater than the other?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r6008",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6008,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1981,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1110,
+   "friendlyName": "r6392",
+   "title": "Where is $|x|$ less than $|y|$?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r6392",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6392,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    140,
+    194
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1981,
+    "questions": [
+     "Q2(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 356,
+   "friendlyName": "r6896",
+   "title": "How many roots does this equation have?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r6896",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6896,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "842/1",
+    "year": 1970,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 352,
+   "friendlyName": "r8027",
+   "title": "Can we sketch this periodic, parabolic function?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r8027",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8027,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    88,
+    95,
+    156,
+    214
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics A 1 and Pure Mathematics 2",
+    "paperCode": "9219/1 and 9208/2",
+    "year": 1984,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 340,
+   "friendlyName": "r8079",
+   "title": "Where does the graph of this modulus function cross $y = 1/x$?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r8079",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8079,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    112,
+    140
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1985,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 855,
+   "friendlyName": "r9056",
+   "title": "What are the greatest and least values of $f(x) - g(x)$ on this interval?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r9056",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9056,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    136,
+    138,
+    178
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 1",
+    "paperCode": "9202/1",
+    "year": 1981,
+    "questions": [
+     "Q2(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 783,
+   "friendlyName": "r9130",
+   "title": "Can we sketch the graph of $y = |x| + |x-1| + |x-4|$?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r9130",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9130,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    120,
+    140,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "842/1",
+    "year": 1979,
+    "questions": [
+     "Q4"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 337,
+   "friendlyName": "r9896",
+   "title": "Can we solve this inequality involving two modulus functions?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r9896",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9896,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    140
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1984,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 138,
+   "friendlyName": "thats-odd-or-even",
+   "title": "That's odd ... or even",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/thats-odd-or-even",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Introducing",
+   "ref": 6000,
+   "isReviewQuestion": false,
+   "description": "A formal introduction to odd and even functions: students are asked to evaluate functions at 1, −1, 2, −2, and so on, and then asked to sketch the functions. Students may start to notice common features when evaluating the functions. The relationship between these features and the formal definitions of odd and even functions can then be discussed.",
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 923,
+     "relationship": "Forward",
+     "title": "Odd or even or...",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/odd-or-even-or"
+    }
+   ],
+   "keyphraseIds": [
+    75,
+    88,
+    95,
+    145
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/thats-odd-or-even/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 940,
+   "friendlyName": "two-way-functions",
+   "title": "Two-way functions",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/two-way-functions",
+   "type": {
+    "id": 4,
+    "name": "Many ways problem",
+    "friendlyId": "many-ways-problem"
+   },
+   "level": "Developing",
+   "ref": 9796,
+   "isReviewQuestion": false,
+   "description": "This resource gives students an opportunity to explore their understanding of roots and asymptotes of functions, both by identifying properties that functions have in common and also by seeking functions that have particular properties. For detailed notes on this resource, please see [Two-way functions - teacher support](/thinking-about-functions/two-way-functions-teacher-support).",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 136,
+     "relationship": "Back",
+     "title": "Function squares",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/function-squares"
+    }
+   ],
+   "keyphraseIds": [
+    21,
+    65,
+    88,
+    95,
+    140,
+    199,
+    224,
+    268,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/thinking-about-functions/two-way-functions-teacher-support",
+    "sections": [
+     "Outline",
+     "Opportunities for learning",
+     "Preliminary and follow-up tasks",
+     "Student work",
+     "Video clips"
+    ]
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/two-way-functions-teacher-support/assets/twowayfunctions-studentwork.pdf",
+    "/thinking-about-functions/two-way-functions/assets/printabletable.pdf",
+    "/thinking-about-functions/two-way-functions/components/cards.pdf",
+    "/thinking-about-functions/two-way-functions/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 141,
+   "friendlyName": "two-way-functions-teacher-support",
+   "title": "Two-way functions - teacher support",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/two-way-functions-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 8777,
+   "isReviewQuestion": false,
+   "description": "Detailed notes for Two-way functions, produced as part of an ongoing research project in collaboration with teachers.",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    },
+    {
+     "id": 94,
+     "content": "What does the graph of the absolute value or modulus function look like?"
+    },
+    {
+     "id": 95,
+     "content": "What do we mean by symmetry of a function?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    281
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 134,
+   "friendlyName": "what-relation-are-you",
+   "title": "What relation are you?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/what-relation-are-you",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Introducing",
+   "ref": 8971,
+   "isReviewQuestion": false,
+   "description": "This can be used to introduce the concepts of relations and functions. Students are asked to consider, and draw, diagrams to represent non-mathematical situations that introduce relations such as one-to-one and one-to-many before deciding which of these are functions.",
+   "keyQuestions": [
+    {
+     "id": 91,
+     "content": "What is a function and what are some examples of functions?"
+    },
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 155,
+     "relationship": "Forward",
+     "title": "Forming functions — defining domains",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains"
+    },
+    {
+     "resourceId": 159,
+     "relationship": "Around",
+     "title": "Maths for dinner",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/maths-for-dinner"
+    },
+    {
+     "resourceId": 1146,
+     "relationship": "Forward",
+     "title": "Making inverse functions",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions"
+    }
+   ],
+   "keyphraseIds": [
+    65,
+    88,
+    184
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "qwell-consensus",
+   "assets": [
+    "/thinking-about-functions/what-relation-are-you/assets/worksheet.pdf",
+    "/thinking-about-functions/what-relation-are-you/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 911,
+   "friendlyName": "worth-1000-words",
+   "title": "Worth 1000 words",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/worth-1000-words",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 5592,
+   "isReviewQuestion": false,
+   "description": "This is intended to help students build up confidence in sketching graphs by helping them to focus on how the equation of a function gives information about features of its graph. First students reflect on what they think about when sketching graphs. Then they are given several graphs and asked to decide which gives the best representation of a particular function that they are unlikely to have met before.",
+   "keyQuestions": [
+    {
+     "id": 92,
+     "content": "What features of functions are visible on a graph?"
+    },
+    {
+     "id": 93,
+     "content": "What is an asymptote and what are some functions which have them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 4,
+     "name": "Functions",
+     "colour": "#c600d1"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 758,
+     "relationship": "Forward",
+     "title": "Function builder II",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/function-builder-ii"
+    },
+    {
+     "resourceId": 924,
+     "relationship": "Around",
+     "title": "Approaching asymptotes",
+     "station": "thinking-about-functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/approaching-asymptotes"
+    }
+   ],
+   "keyphraseIds": [
+    21,
+    88,
+    95,
+    118,
+    199,
+    301
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/thinking-about-functions/worth-1000-words/components/function-cards.pdf",
+    "/thinking-about-functions/worth-1000-words/components/graphs-cards.pdf",
+    "/thinking-about-functions/worth-1000-words/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  }
+ ]
+}

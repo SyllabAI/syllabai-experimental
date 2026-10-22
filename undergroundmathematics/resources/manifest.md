@@ -21,6 +21,8 @@ decision and its conditions). Site binaries/assets remain excluded.
 | `api/resource-types.json` | `GET /api/resource-types/converted` | 2026-10-22 | 14 | types with official descriptions |
 | `api/all-resources.json` | `GET /api/stations/{id}/resources/all` (24 live stations, looped; per-station responses retained locally, not committed) | 2026-10-22 | 855 | master inventory; each record stamped `_station`; wrapper records source + capture date + total |
 | `api/key-questions.json` | `GET /api/stations/{id}/key-questions` (looped) | 2026-10-22 | 113 | per-station key questions; 4 under-construction stations return 401 (absent) |
+| `api/tags.json` | `GET /api/tags` | 2026-10-22 | 11 | process-skill tags (conjecturing, convincing-proving, visualising, …); captured during P3b |
+| `api/interactivity-labels.json` | `GET /api/interactivity-labels` | 2026-10-22 | 2 | card-sort, geogebra; captured during P3b |
 
 ### Content (Phase 2 crawl + extraction — see operator decision in `../docs/IP-AND-COPYRIGHT-NOTES.md`)
 
@@ -38,6 +40,10 @@ decision and its conditions). Site binaries/assets remain excluded.
 | `derived/spine-export/cie-a-level-maths-20-pure-1.json` | `syllabai-v2` apps/hub spines + content maps (read-only) | 2026-10-22 | 5 spec points | Quadratics lane (1.1.1–1.1.5) spec points + item attachment inventory (IDs/counts only, no item text) |
 | `derived/spine-export/cie-igcse-maths-25-extended.json` | `syllabai-v2` apps/hub spines + content maps (read-only) | 2026-10-22 | 10 spec points | IGCSE 0580 Extended quadratics-bearing spec points (contrast lane) |
 | `derived/cross-map-quadratics.json` | ugm-clean + provenance + spine export + authored alignments | 2026-10-22 | 59 alignments | pilot cross-map; twin of `../docs/cross-map-quadratics.md` |
+| `derived/relations/{axis}.json` (6 files) | `GET /api/resources/{id}/{axis}` anonymous (P3b capture: 855×6 calls, 0 failures) | 2026-10-22 | 6,225 edges | per-axis membership evidence: key-questions 1,530 · lines 1,272 · related-pervasive-ideas 331 · related-resources 306 raw/290 unique · keyphrases 2,286 · tags 300 |
+| `derived/relation-graph.json` | api taxonomies + derived/relations | 2026-10-22 | 1,295 nodes / 7,783 edges | canonical relation graph: one node table + one edge table; 8 node kinds, 9 edge relations; meta carries counts, cross-checks (resource-list page param ignored; embedded lines match capture 25/25), related-resources vocabulary (Around/Back/Forward), interactivity labels (6 resources); keyphrase labels unresolved (taxonomy login-gated) |
+| `derived/relation-graph.graphml` | derived/relation-graph.json | 2026-10-22 | same | GraphML twin for yEd/Gephi; well-formedness validated |
+| `derived/enrichment-sheets/{station}.json` (25) + `INDEX.md` | relation graph + ugm-clean + content (teacher support) + content-assets + review-question-provenance | 2026-10-22 | 855 resources | per-station course-designer catalog: type, level, key questions, lines, pervasive ideas, tags, related resources, teacher-support presence+sections, question-well source, asset links, provenance tuple, interactivity labels; KQ coverage 111/113 corpus-wide |
 
 ## Local-only artifacts (analysis inputs, not committed)
 
@@ -50,6 +56,8 @@ decision and its conditions). Site binaries/assets remain excluded.
 | `sitemap.xml` probe | `GET /sitemap.xml` | 404 — no sitemap exists |
 | per-station `station-*.json` | `/api/stations/{id}/resources/all` | superseded by `all-resources.json` aggregate; dropped from commit to avoid duplication |
 | Phase-2 raw crawl store (`ugm-crawl/raw/`, 2,486 HTML files, ~46 MB) | full site crawl 2026-10-22 | raw © markup retained locally for verification; the committed canonical form is `content/{station}.json` |
+| P3b relation-capture state (`ugm-relations/`, 6 axis files + `resource-list.json` + `failures.json`) | `/api/resources/{id}/…` capture working state | raw capture state; canonical committed form is `derived/relations/` + `derived/relation-graph.json` (resource-list dump redundant — its page param is ignored, first 25 rows only) |
+| P3b generator scripts (`ugm_relations.py`, `ugm_graph_build.py`, `ugm_enrichment.py`) | local `scripts/` | pipeline code; regenerate outputs from captures deterministically |
 
 ## Capture method
 

@@ -1,0 +1,3632 @@
+{
+ "station": {
+  "id": 22,
+  "friendlyId": "quadratics",
+  "title": "Quadratics",
+  "guidingQuestion": "How do different representations help us to understand quadratics?"
+ },
+ "generated": "2026-10-22T13:22:59Z",
+ "source": "UGM API captures + P3b relation graph + P3a ugm-clean + review-question-provenance",
+ "counts": {
+  "resources": 59,
+  "reviewQuestions": 41,
+  "resourcesWithKeyQuestions": 59,
+  "keyQuestionsCovered": 3,
+  "keyQuestionsTotal": 3,
+  "resourcesWithPervasiveIdeas": 15,
+  "withTeacherSupport": 1,
+  "withAssets": 17,
+  "withProvenance": 48
+ },
+ "keyQuestions": [
+  {
+   "id": 96,
+   "number": 1,
+   "friendlyName": "connect-alg-graph",
+   "content": "How are the graphical and algebraic representations of quadratics connected?"
+  },
+  {
+   "id": 97,
+   "number": 2,
+   "friendlyName": "quad-roots",
+   "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+  },
+  {
+   "id": 98,
+   "number": 3,
+   "friendlyName": "discriminant",
+   "content": "What is the discriminant of a quadratic, and what can it tell us?"
+  }
+ ],
+ "resources": [
+  {
+   "id": 921,
+   "friendlyName": "discriminating",
+   "title": "Discriminating",
+   "url": "https://undergroundmathematics.org/quadratics/discriminating",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 9676,
+   "isReviewQuestion": false,
+   "description": "Discriminating can be used to consolidate understanding of the discriminant and make connections between graphs and algebra. Students are given statements about the number of solutions of a quadratic equation and asked to decide whether MUST, MAY or CAN’T is the correct choice of word within the statement. For detailed notes on this resource, please see [Discriminating - teacher support](/quadratics/discriminating-teacher-support).",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 3,
+     "title": "Limits"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": {
+    "url": "https://undergroundmathematics.org/quadratics/discriminating-teacher-support",
+    "sections": [
+     "Outline",
+     "Opportunites for learning",
+     "Preliminary and Follow-up tasks",
+     "Sample work"
+    ]
+   },
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/discriminating/components/cards.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 110,
+   "friendlyName": "discriminating-teacher-support",
+   "title": "Discriminating - teacher support",
+   "url": "https://undergroundmathematics.org/quadratics/discriminating-teacher-support",
+   "type": {
+    "id": 13,
+    "name": "Resource in action",
+    "friendlyId": "resource-in-action"
+   },
+   "level": "Developing",
+   "ref": 9158,
+   "isReviewQuestion": false,
+   "description": "Detailed notes for Discriminating, produced as part of an ongoing research project in collaboration with teachers.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    281
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 107,
+   "friendlyName": "factorisable-quads",
+   "title": "Factorisable quadratics",
+   "url": "https://undergroundmathematics.org/quadratics/factorisable-quads",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 7954,
+   "isReviewQuestion": false,
+   "description": "This problem encourages students to think about the structure of factorisable quadratics and how the coefficients of such quadratics are related to each other.  It also offers practice in factorisation and multiplying out pairs of brackets.",
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/factorisable-quads/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 113,
+   "friendlyName": "geogebra-constructions-quadratic",
+   "title": "GeoGebra constructions... quadratic edition",
+   "url": "https://undergroundmathematics.org/quadratics/geogebra-constructions-quadratic",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 9425,
+   "isReviewQuestion": false,
+   "description": "Students are challenged to use GeoGebra to construct quadratics that meet certain constraints. This activity encourages them to generalise and make links between different forms of a quadratic and its graph.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    89,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/geogebra-constructions-quadratic/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 922,
+   "friendlyName": "inequalities-for-some-occasions",
+   "title": "Inequalities for some occasions",
+   "url": "https://undergroundmathematics.org/quadratics/inequalities-for-some-occasions",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 5194,
+   "isReviewQuestion": false,
+   "description": "Students are given three conditions and asked to fill a Venn diagram with quadratic inequalities that satisfy some, none, or all of the conditions.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    178,
+    299
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/inequalities-for-some-occasions/assets/venninequalities.pdf",
+    "/quadratics/inequalities-for-some-occasions/components/cards.pdf",
+    "/quadratics/inequalities-for-some-occasions/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "provenance-missing"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 18,
+   "friendlyName": "irrational-roots",
+   "title": "Irrational roots",
+   "url": "https://undergroundmathematics.org/quadratics/irrational-roots",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 6573,
+   "isReviewQuestion": false,
+   "description": "This problem offers students the opportunity to think about the solutions to quadratic equations in a more challenging context. Students are given an irrational root and work backwards to find the original quadratic polynomial.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 857,
+     "relationship": "Forward",
+     "title": "Ab-surder!",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/absurder"
+    }
+   ],
+   "keyphraseIds": [
+    176,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/irrational-roots/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 114,
+   "friendlyName": "name-that-graph",
+   "title": "Name that graph",
+   "url": "https://undergroundmathematics.org/quadratics/name-that-graph",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 8067,
+   "isReviewQuestion": false,
+   "description": "Students are encouraged to think about the different forms of a quadratic equation and how they are related to a quadratic graph.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 147,
+     "relationship": "Forward",
+     "title": "Name that graph again",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/name-that-graph-again"
+    },
+    {
+     "resourceId": 958,
+     "relationship": "Around",
+     "title": "Transformers",
+     "station": "combining-functions",
+     "url": "https://undergroundmathematics.org/combining-functions/transformers"
+    }
+   ],
+   "keyphraseIds": [
+    148,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/name-that-graph/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 17,
+   "friendlyName": "paired-parabolas",
+   "title": "Paired parabolas",
+   "url": "https://undergroundmathematics.org/quadratics/paired-parabolas",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 9672,
+   "isReviewQuestion": false,
+   "description": "This is an exercise in visualising pairs of quadratic equations which have symmetrical properties about the axes and how this symmetry shows up in their algebraic form.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    57,
+    148,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/paired-parabolas/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 97,
+   "friendlyName": "parabella",
+   "title": "Parabella",
+   "url": "https://undergroundmathematics.org/quadratics/parabella",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 9637,
+   "isReviewQuestion": false,
+   "description": "An opportunity for students to engage with problem solving using accessible algebra and geometry. This shows a beautiful result about parabolas.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 2,
+     "title": "Averages"
+    }
+   ],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 115,
+     "relationship": "Forward",
+     "title": "Elliptical crossings",
+     "station": "circles",
+     "url": "https://undergroundmathematics.org/circles/elliptical-crossings"
+    },
+    {
+     "resourceId": 335,
+     "relationship": "Around",
+     "title": "Can we find the midpoint of a chord of this parabola?",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/r8045"
+    }
+   ],
+   "keyphraseIds": [
+    128,
+    148,
+    150
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/parabella/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 68,
+   "friendlyName": "parabolic-mirrors",
+   "title": "Parabolic mirrors",
+   "url": "https://undergroundmathematics.org/quadratics/parabolic-mirrors",
+   "type": {
+    "id": 12,
+    "name": "Bigger picture",
+    "friendlyId": "bigger-picture"
+   },
+   "level": "Developing",
+   "ref": 7132,
+   "isReviewQuestion": false,
+   "description": "This resource gives an example of using the shape of a parabola in real life. It includes some animations and a video.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    148,
+    149
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/quadratics/parabolic-mirrors/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 969,
+   "friendlyName": "pick-a-card",
+   "title": "Pick a card...",
+   "url": "https://undergroundmathematics.org/quadratics/pick-a-card",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 9150,
+   "isReviewQuestion": false,
+   "description": "A set of toggle cards revealing different properties of a quadratic; from one revealed card, students are asked to fill in the rest.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/quadratics/pick-a-card/components/printabletable1.pdf",
+    "/quadratics/pick-a-card/components/printabletable2.pdf",
+    "/quadratics/pick-a-card/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": null,
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": null,
+    "parseStatus": "provenance-missing"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 98,
+   "friendlyName": "powerful-quads",
+   "title": "Powerful quadratics",
+   "url": "https://undergroundmathematics.org/quadratics/powerful-quads",
+   "type": {
+    "id": 9,
+    "name": "Food for thought",
+    "friendlyId": "food-for-thought"
+   },
+   "level": "Developing",
+   "ref": 8475,
+   "isReviewQuestion": false,
+   "description": "This problem offers a thought-provoking challenge, but one which is accessible if students are given some time to think about the problem. It is great for practising both quadratics and laws of indices.",
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    78,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/powerful-quads/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 931,
+   "friendlyName": "proving-quad-formula",
+   "title": "Proving the quadratic formula",
+   "url": "https://undergroundmathematics.org/quadratics/proving-quad-formula",
+   "type": {
+    "id": 3,
+    "name": "Scaffolded task",
+    "friendlyId": "scaffolded-task"
+   },
+   "level": "Developing",
+   "ref": 8731,
+   "isReviewQuestion": false,
+   "description": "This resource provides a route for students to understand the derivation of the quadratic formula. Students are asked to arrange the steps of an argument into the correct order.",
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    171,
+    176,
+    177
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/proving-quad-formula/components/cards.pdf",
+    "/quadratics/proving-quad-formula/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 930,
+   "friendlyName": "quad-solving-sorter",
+   "title": "Quadratic solving sorter",
+   "url": "https://undergroundmathematics.org/quadratics/quad-solving-sorter",
+   "type": {
+    "id": 8,
+    "name": "Fluency exercise",
+    "friendlyId": "fluency-exercise"
+   },
+   "level": "Developing",
+   "ref": 5991,
+   "isReviewQuestion": false,
+   "description": "Students are often unclear as to which is the most appropriate method for solving a particular quadratic equation. In this resource they sort a set of equations according to how they might solve them.",
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/quad-solving-sorter/components/equations-cards.pdf",
+    "/quadratics/quad-solving-sorter/components/groups-cards.pdf",
+    "/quadratics/quad-solving-sorter/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 112,
+   "friendlyName": "quad-symmetry",
+   "title": "Quadratic symmetry",
+   "url": "https://undergroundmathematics.org/quadratics/quad-symmetry",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 8685,
+   "isReviewQuestion": false,
+   "description": "Are all quadratic graphs symmetrical? Students are asked to come up with a convincing argument to answer this question.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [
+    {
+     "id": 2,
+     "title": "Convincing and proving",
+     "weight": 3
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    148,
+    179,
+    224
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/quad-symmetry/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 101,
+   "friendlyName": "quadratic-grids",
+   "title": "Quadratic grids",
+   "url": "https://undergroundmathematics.org/quadratics/quadratic-grids",
+   "type": {
+    "id": 2,
+    "name": "Rich example",
+    "friendlyId": "rich-example"
+   },
+   "level": "Introducing",
+   "ref": 6090,
+   "isReviewQuestion": false,
+   "description": "This resource explores a method for factorising quadratic expressions using multiplication grids.",
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 884,
+     "relationship": "Forward",
+     "title": "Divide it up",
+     "station": "polynomials",
+     "url": "https://undergroundmathematics.org/polynomials/divide-it-up"
+    }
+   ],
+   "keyphraseIds": [
+    82,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/quadratic-grids/download/teacher-notes.pdf"
+   ],
+   "provenance": null,
+   "interactivityLabels": []
+  },
+  {
+   "id": 612,
+   "friendlyName": "r5059",
+   "title": "When is $12x^2+7x-10$ negative?",
+   "url": "https://undergroundmathematics.org/quadratics/r5059",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5059,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    178
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1962,
+    "questions": [
+     "Q7(ii)",
+     "Q7(iii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 655,
+   "friendlyName": "r5138",
+   "title": "When are the roots for $x^2-bx+c=0$ real and positive?",
+   "url": "https://undergroundmathematics.org/quadratics/r5138",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5138,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    112,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics III",
+    "paperCode": null,
+    "year": 2001,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 471,
+   "friendlyName": "r5287",
+   "title": "When does $y=mx-5$ intersect $y=x^2-1$  twice?",
+   "url": "https://undergroundmathematics.org/quadratics/r5287",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5287,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    120,
+    140,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1986,
+    "questions": [
+     "Q5(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 470,
+   "friendlyName": "r5316",
+   "title": "When does $x^2-4x-1=2k(x-5)$ have equal roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r5316",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5316,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1966,
+    "questions": [
+     "Q7(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 860,
+   "friendlyName": "r5682",
+   "title": "Can we solve the simultaneous equations $x + y + \\sqrt{xy} = 39$ and $x^2 + y^2 + xy = 741$?",
+   "url": "https://undergroundmathematics.org/quadratics/r5682",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5682,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    82,
+    208,
+    216,
+    218
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Pure Mathematics 1",
+    "paperCode": "9210/1",
+    "year": 1981,
+    "questions": [
+     "Q4(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 554,
+   "friendlyName": "r5847",
+   "title": "How do we solve an equation containing three square roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r5847",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 5847,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1970,
+    "questions": [
+     "Q5(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 646,
+   "friendlyName": "r6215",
+   "title": "How do we  solve $x + 3\\sqrt{x} − 1/2 = 0$?",
+   "url": "https://undergroundmathematics.org/quadratics/r6215",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6215,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176,
+    218
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 680,
+   "friendlyName": "r6246",
+   "title": "Can we solve $nx^2+2x\\sqrt{pn^2+q}+rn+s=0$?",
+   "url": "https://undergroundmathematics.org/quadratics/r6246",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6246,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    95,
+    112,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics II",
+    "paperCode": null,
+    "year": 1999,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 275,
+   "friendlyName": "r6387",
+   "title": "Can we solve this inequality with three square roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r6387",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6387,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    178,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Further Mathematics 2",
+    "paperCode": "437/2",
+    "year": 1958,
+    "questions": [
+     "Q3(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 533,
+   "friendlyName": "r6429",
+   "title": "Can we solve these simultaneous equations, one linear, one quadratic?",
+   "url": "https://undergroundmathematics.org/quadratics/r6429",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6429,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1983,
+    "questions": [
+     "Q5"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 319,
+   "friendlyName": "r6526",
+   "title": "For what values of $k$ is $x^2 + 6kx +144$ always positive?",
+   "url": "https://undergroundmathematics.org/quadratics/r6526",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6526,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    36,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1981,
+    "questions": [
+     "Q12(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 458,
+   "friendlyName": "r6638",
+   "title": "Can we find both roots if one is double the other?",
+   "url": "https://undergroundmathematics.org/quadratics/r6638",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6638,
+   "isReviewQuestion": true,
+   "description": "",
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    4,
+    176,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1 and Pure Mathematics 1",
+    "paperCode": "9200/1 and 9208/1",
+    "year": 1985,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 614,
+   "friendlyName": "r6712",
+   "title": "How do we increase the roots of a quadratic equation by $1$?",
+   "url": "https://undergroundmathematics.org/quadratics/r6712",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6712,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "420/2",
+    "year": 1962,
+    "questions": [
+     "Q7(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 468,
+   "friendlyName": "r6756",
+   "title": "Given the minimum point, what's this parabola's equation?",
+   "url": "https://undergroundmathematics.org/quadratics/r6756",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6756,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    36,
+    60,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "417/1",
+    "year": 1958,
+    "questions": [
+     "Q2(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 589,
+   "friendlyName": "r6804",
+   "title": "Can we find the tangents to a circle from a point?",
+   "url": "https://undergroundmathematics.org/quadratics/r6804",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6804,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    31,
+    128,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 2 and Pure Mathematics 2",
+    "paperCode": "417/2 and 447/2",
+    "year": 1964,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 863,
+   "friendlyName": "r6816",
+   "title": "If $2y = a^x + a^{-x}$, can we find $a^x$?",
+   "url": "https://undergroundmathematics.org/quadratics/r6816",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6816,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    77,
+    102,
+    105,
+    177
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1973,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 469,
+   "friendlyName": "r6828",
+   "title": "When does $x^2+(3k-7)x+(2k+6)=0$ have real roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r6828",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6828,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    36,
+    60,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics 1",
+    "paperCode": "417/1",
+    "year": 1958,
+    "questions": [
+     "Q2(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 1149,
+   "friendlyName": "r6864",
+   "title": "How fast are these particles sliding when they pass?",
+   "url": "https://undergroundmathematics.org/quadratics/r6864",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 6864,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 9,
+     "title": "Mechanics",
+     "weight": 5
+    }
+   ],
+   "related": [
+    {
+     "resourceId": 1087,
+     "relationship": "Around",
+     "title": "A frictional story",
+     "station": "vector-geometry",
+     "url": "https://undergroundmathematics.org/vector-geometry/frictional-story"
+    }
+   ],
+   "keyphraseIds": [
+    71,
+    290
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Applied Mathematics 1",
+    "paperCode": "844/1",
+    "year": 1974,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 731,
+   "friendlyName": "r7035",
+   "title": "Can we solve $12/(x-3) < x+1$?",
+   "url": "https://undergroundmathematics.org/quadratics/r7035",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7035,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    187
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B 2",
+    "paperCode": "9202/2",
+    "year": 1980,
+    "questions": [
+     "Q2"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 548,
+   "friendlyName": "r7328",
+   "title": "When is this line a tangent to this parabola?",
+   "url": "https://undergroundmathematics.org/quadratics/r7328",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7328,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "471/1",
+    "year": 1977,
+    "questions": [
+     "Q13(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 584,
+   "friendlyName": "r7350",
+   "title": "When are the coefficients of a quadratic equal to its roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r7350",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7350,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UKMT",
+    "paper": "Senior Mathematical Challenge",
+    "paperCode": null,
+    "year": 2011,
+    "questions": [
+     "Q15"
+    ],
+    "permission": "United Kingdom Mathematics Trust",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 325,
+   "friendlyName": "r7455",
+   "title": "When does $(p+1)x^2+4px+9=0$ have a repeated root?",
+   "url": "https://undergroundmathematics.org/quadratics/r7455",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7455,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    179,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1986,
+    "questions": [
+     "Q5(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 823,
+   "friendlyName": "r7485",
+   "title": "Can we solve $\\sqrt{3-3x} - \\sqrt{2-x} = 1$?",
+   "url": "https://undergroundmathematics.org/quadratics/r7485",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7485,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208,
+    221
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1979,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 475,
+   "friendlyName": "r7520",
+   "title": "Can we solve these simultaneous equations, both of degree two?",
+   "url": "https://undergroundmathematics.org/quadratics/r7520",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7520,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A Special paper",
+    "paperCode": "9200/0",
+    "year": 1980,
+    "questions": [
+     "Q2(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 425,
+   "friendlyName": "r7533",
+   "title": "Can we prove this inequality involving two square roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r7533",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7533,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    178,
+    216
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics B Special paper",
+    "paperCode": "9202/0",
+    "year": 1981,
+    "questions": [
+     "Q6(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 648,
+   "friendlyName": "r7588",
+   "title": "Given two simultaneous equations of degree two, can we solve them?",
+   "url": "https://undergroundmathematics.org/quadratics/r7588",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7588,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 564,
+   "friendlyName": "r7972",
+   "title": "If we know two values satisfying a quadratic, can we find the quadratic?",
+   "url": "https://undergroundmathematics.org/quadratics/r7972",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 7972,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "O&C (Oxford & Cambridge SEG)",
+    "paper": "MEI (St Dunstan's) Mathematics 2",
+    "paperCode": "MEI 82",
+    "year": 1972,
+    "questions": [
+     "Q3(i)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 335,
+   "friendlyName": "r8045",
+   "title": "Can we find the midpoint of a chord of this parabola?",
+   "url": "https://undergroundmathematics.org/quadratics/r8045",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8045,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [
+    {
+     "resourceId": 97,
+     "relationship": "Around",
+     "title": "Parabella",
+     "station": "quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/parabella"
+    }
+   ],
+   "keyphraseIds": [
+    60,
+    177,
+    179,
+    225
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1982,
+    "questions": [
+     "Q13"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 466,
+   "friendlyName": "r8128",
+   "title": "Can we solve these simultaneous equations that involve reciprocals?",
+   "url": "https://undergroundmathematics.org/quadratics/r8128",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8128,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Mathematics A 1",
+    "paperCode": "840/1",
+    "year": 1975,
+    "questions": [
+     "Q2a"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 650,
+   "friendlyName": "r8407",
+   "title": "When can this equation involving algebraic fractions hold?",
+   "url": "https://undergroundmathematics.org/quadratics/r8407",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8407,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 3,
+     "title": "Limits"
+    },
+    {
+     "id": 5,
+     "title": "Constraints"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    176,
+    187,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "STEP Mathematics I",
+    "paperCode": null,
+    "year": 2005,
+    "questions": [
+     "Q3"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 577,
+   "friendlyName": "r8775",
+   "title": "Can we fit a quadratic to this given data?",
+   "url": "https://undergroundmathematics.org/quadratics/r8775",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8775,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "420/1",
+    "year": 1967,
+    "questions": [
+     "Q1"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 675,
+   "friendlyName": "r8781",
+   "title": "Into how many regions do these parabolas divide the plane?",
+   "url": "https://undergroundmathematics.org/quadratics/r8781",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8781,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 2",
+    "year": null,
+    "questions": [
+     "Q1J"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 540,
+   "friendlyName": "r8812",
+   "title": "Can we show $(b^2 - 2ac)x^2 + 4(a + c)x = 8$ always has real roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r8812",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8812,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    176,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1980,
+    "questions": [
+     "Q12(b)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 500,
+   "friendlyName": "r8855",
+   "title": "What does the curve $x^4-y^2=y+1$ look like?",
+   "url": "https://undergroundmathematics.org/quadratics/r8855",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 8855,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1D"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 679,
+   "friendlyName": "r9546",
+   "title": "When does $x^4=(x-c)^2$ have four real roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r9546",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9546,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    }
+   ],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    181,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2009,
+    "questions": [
+     "Q1C"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 414,
+   "friendlyName": "r9614",
+   "title": "When does $y=kx$ intersect the parabola $y=(x-1)^2$?",
+   "url": "https://undergroundmathematics.org/quadratics/r9614",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9614,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    120,
+    179
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2010,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 559,
+   "friendlyName": "r9658",
+   "title": "When do these simultaneous equations have no real solutions?",
+   "url": "https://undergroundmathematics.org/quadratics/r9658",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9658,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    176,
+    208
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "471/2",
+    "year": 1972,
+    "questions": [
+     "Q5(ii)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 496,
+   "friendlyName": "r9659",
+   "title": "When does $x^2 + ax + a = 1$ have distinct real roots?",
+   "url": "https://undergroundmathematics.org/quadratics/r9659",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9659,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    176,
+    199
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": null,
+    "year": 2013,
+    "questions": [
+     "Q1A"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 542,
+   "friendlyName": "r9724",
+   "title": "If $7 - px - x^2 = 16 - (q + x)^2$, what are $p$ and $q$?",
+   "url": "https://undergroundmathematics.org/quadratics/r9724",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9724,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    36,
+    112,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 1",
+    "paperCode": "8175/1",
+    "year": 1980,
+    "questions": [
+     "Q13"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 536,
+   "friendlyName": "r9742",
+   "title": "Where does $y = px^2 + 8x + p - 6$ cross the $x$-axis?",
+   "url": "https://undergroundmathematics.org/quadratics/r9742",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9742,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 98,
+     "content": "What is the discriminant of a quadratic, and what can it tell us?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    60,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "UCLES",
+    "paper": "Additional Mathematics 2",
+    "paperCode": "8175/2",
+    "year": 1983,
+    "questions": [
+     "Q13(a)"
+    ],
+    "permission": "Cambridge Assessment Group Archives",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 676,
+   "friendlyName": "r9989",
+   "title": "When are these quadratic inequalities true together?",
+   "url": "https://undergroundmathematics.org/quadratics/r9989",
+   "type": {
+    "id": 10,
+    "name": "Review question",
+    "friendlyId": "review-question"
+   },
+   "level": null,
+   "ref": 9989,
+   "isReviewQuestion": true,
+   "description": null,
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 1,
+     "name": "Number",
+     "colour": "#00a8e6"
+    },
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [],
+   "tags": [],
+   "related": [],
+   "keyphraseIds": [
+    112,
+    178
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [],
+   "provenance": {
+    "board": "Oxford (MAT)",
+    "paper": "University Mathematics Aptitude Test",
+    "paperCode": "Specimen 1",
+    "year": null,
+    "questions": [
+     "Q1G"
+    ],
+    "permission": "The University of Oxford",
+    "parseStatus": "parsed"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 108,
+   "friendlyName": "which-parabola",
+   "title": "Which parabola?",
+   "url": "https://undergroundmathematics.org/quadratics/which-parabola",
+   "type": {
+    "id": 5,
+    "name": "Package of problems",
+    "friendlyId": "package-of-problems"
+   },
+   "level": "Developing",
+   "ref": 6672,
+   "isReviewQuestion": false,
+   "description": "This problem is good for thinking about how the equation of a parabola relates to its appearance on the graph, and for starting to think about transformations of graphs.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    },
+    {
+     "id": 97,
+     "content": "What do we mean by the roots of a quadratic equation and how can we find them?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    },
+    {
+     "id": 6,
+     "title": "Invariance"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 6
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    },
+    {
+     "id": 6,
+     "title": "Generalising and specialising",
+     "weight": 4
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    148,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": "question-section",
+   "assets": [
+    "/quadratics/which-parabola/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  },
+  {
+   "id": 908,
+   "friendlyName": "which-quadratic",
+   "title": "Which quadratic?",
+   "url": "https://undergroundmathematics.org/quadratics/which-quadratic",
+   "type": {
+    "id": 1,
+    "name": "Building blocks",
+    "friendlyId": "building-blocks"
+   },
+   "level": "Developing",
+   "ref": 8301,
+   "isReviewQuestion": false,
+   "description": "Students ask one another questions to determine which of a set of quadratics has been chosen. They have to move between the graph and the equation written in a number of forms.",
+   "keyQuestions": [
+    {
+     "id": 96,
+     "content": "How are the graphical and algebraic representations of quadratics connected?"
+    }
+   ],
+   "lines": [
+    {
+     "id": 2,
+     "name": "Geometry",
+     "colour": "#ed1c24"
+    },
+    {
+     "id": 3,
+     "name": "Algebra",
+     "colour": "#1900a4"
+    }
+   ],
+   "pervasiveIdeas": [
+    {
+     "id": 1,
+     "title": "Symmetry"
+    },
+    {
+     "id": 4,
+     "title": "Transforming"
+    }
+   ],
+   "tags": [
+    {
+     "id": 1,
+     "title": "Representing",
+     "weight": 5
+    },
+    {
+     "id": 4,
+     "title": "Visualising",
+     "weight": 5
+    }
+   ],
+   "related": [],
+   "keyphraseIds": [
+    36,
+    148,
+    176
+   ],
+   "keyphrasesNote": "ids only — /api/keyphrases taxonomy login-gated",
+   "teacherSupport": null,
+   "questionWell": null,
+   "assets": [
+    "/quadratics/which-quadratic/components/cards.pdf",
+    "/quadratics/which-quadratic/download/teacher-notes.pdf"
+   ],
+   "provenance": {
+    "board": "NRICH",
+    "paper": null,
+    "paperCode": null,
+    "year": null,
+    "questions": [],
+    "permission": "NRICH",
+    "parseStatus": "non-exam-provenance"
+   },
+   "interactivityLabels": []
+  }
+ ]
+}
