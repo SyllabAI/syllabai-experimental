@@ -48,7 +48,8 @@ keeps Mode 3 behind an operator decision + licensing conversation.
 
 ### 2.1 The provenance bridge (the highest-value, lowest-risk move)
 
-UGM's 569 review questions each carry a machine-readable acknowledgement,
+UGM carries acknowledgements on 623 of 855 extracted records (the 569
+review questions plus sourced teaching resources), e.g.
 e.g. *"UCLES O level Additional Mathematics 2, QP 420/2, 1962, Q7(ii),
 7(iii)"*. SyllabAI already owns a canonical exam-question corpus with
 manifests (`syllabai-resources` Official-ExamQuestion, `syllabai-pastpapers`
