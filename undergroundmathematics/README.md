@@ -97,11 +97,19 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   **lane 2 Combining Functions → CIE 9709 P1 1.2** (cross-map
   `cross-map-functions.json` @ `e59276be`, 27/38 aligned; corpus #61 →
   `a32c6c0f`, MANIFEST v2 multi-lane; hub `syllabai-v2#312` → `635264b2`,
-  bundle 1.1: 2 stations, 10 spec points, 97 resources). Mode-2 deep-link
+  bundle 1.1: 2 stations, 10 spec points, 97 resources) and
+  **lane 3 Geometry of Equations + Circles → CIE 9709 P1 1.3 Coordinate
+  geometry** — the first two-station lane (cross-map
+  `cross-map-coordinate-geometry.json` @ `cb947595`, 61/85 aligned = 71.8%,
+  77 rows over folded codes 1.3.1/1.3.2 with hub-spine fragments
+  1.3.1a/1.3.2a folded of record; 24 honest non-overlaps; enrichment + 85
+  text bodies filed as `syllabai-resources#66`, MANIFEST v3; hub
+  `T-UGM-HUB-CONSUME-3` pending on the syllabai-v2 side). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: further lanes by spine adjacency on operator ack (1.3 Coordinate
-  geometry: `geometry-of-equations` + `circles`; then 1.5 Trigonometry) —
+- Next: hub consumption for lane 3 (`T-UGM-HUB-CONSUME-3`, mirrors #308/#312);
+  further lanes by spine adjacency on operator ack (1.5 Trigonometry:
+  `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`) —
   recipe of record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run
   still pending.
