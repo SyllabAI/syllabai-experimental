@@ -1,0 +1,46 @@
+{
+ "startDate": "2026-10-22T00:30:00.767Z",
+ "dueDate": "2026-10-29T00:45:00.767Z",
+ "classId": "s11w5yatia",
+ "id": "cd2cc906-fc2a-4c5b-b72d-45242d29ba18",
+ "numAssignees": 0,
+ "timeCreated": "2026-10-22T00:42:39.215Z",
+ "timeUpdated": "2026-10-22T00:44:55.859Z",
+ "archived": false,
+ "name": "SyllabAI Research - structural probe (draft)",
+ "spec": {
+  "tasks": [
+   {
+    "id": "242377c1-835e-4ac9-a755-46942035b181",
+    "taskType": "resource",
+    "resourceType": "exam-question",
+    "courseId": "4c2bb850-1d46-11e8-840a-ed991cd3461d"
+   },
+   {
+    "id": "bd04e8be-7780-4e80-94f2-c74ec58f1852",
+    "taskType": "resource",
+    "resourceType": "exam-question",
+    "courseId": "4c2bb850-1d46-11e8-840a-ed991cd3461d"
+   }
+  ]
+ },
+ "creatorId": "<REDACTED-userId>",
+ "autoEnrolNewUsers": true,
+ "assignees": [],
+ "assignmentCutoffDate": "2026-11-12T00:45:00+00:00",
+ "sectionAggregations": [],
+ "contentAggregations": [],
+ "questionAggregations": {
+  "questions": [],
+  "marksTotal": 0,
+  "averageMark": 0
+ },
+ "totalAggregations": {
+  "completionRate": 0,
+  "averageScore": 0,
+  "bestScore": 0,
+  "averageStudyTime": 0,
+  "totalCompleted": 0
+ },
+ "teacherName": "Nawaf Sir"
+}

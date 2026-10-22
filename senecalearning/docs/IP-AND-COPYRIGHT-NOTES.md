@@ -65,3 +65,20 @@ If Seneca Learning Ltd or GoStudent objects to any committed artifact
 (their config files, bundle analyses), we remove it on request — the
 experiment is internal research, and nothing here is load-bearing for
 SyllabAI of-record systems.
+
+## Session 3 addendum (2026-10-22) — the title rule
+
+Phase 2 session 3 (Resource Hub catalogue) exposed a nuance the original
+rule set didn't anticipate: for `examQuestion` resources the `title`
+field is the plain-text **question stem** — the content itself, not a
+structural name. Standing rule refined accordingly:
+
+- **Structural titles** (course names, section names, quiz names) remain
+  committable metadata — they are the catalogue/ToC layer.
+- **Exam-question titles (= stems)** are treated as content: nulled in
+  committed metadata files (`"title": null`), full text kept only in the
+  local-only payload store, same posture as mark schemes and generation
+  scripts.
+- Metadata retained per question: id, type, tag values, topic
+  breadcrumbs, marks, answer counts, publisher, questionType — enough
+  for structure/coverage analysis, none of it teaches or assesses.

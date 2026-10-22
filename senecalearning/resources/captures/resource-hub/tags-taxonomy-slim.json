@@ -1,0 +1,1098 @@
+[
+ {
+  "id": "4ebb7452-8417-48fd-9d7b-d68fc1b06003",
+  "text": "Physics",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "0f350d41-f4d9-4057-a8e4-5a3b5abc2c24",
+  "text": "Other",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "9628e90d-c878-4482-a3cf-e6f58391fa1d",
+  "text": "Film",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "b9d84609-76a4-476a-8085-cf078c98e258",
+  "text": "Environmental Science",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da",
+  "text": "Price",
+  "semanticCategory": "price",
+  "parentId": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "86b3bd00-86e7-4314-8add-20173ee2267d",
+  "text": "International Baccalaureate Diploma",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "4f42dc2c-6f78-4268-991b-e5ac8ce258cb",
+  "text": "German",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MFL",
+  "aliases": null
+ },
+ {
+  "id": "8257c2f4-ba16-4570-a89b-96e37385622d",
+  "text": "Mandarin",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MFL",
+  "aliases": null
+ },
+ {
+  "id": "2a8c672c-808c-43a3-a72d-9df8328311a2",
+  "text": "Childcare",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "a12a3039-2476-46b8-ae4e-a03093697b76",
+  "text": "Biology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "1cc1a727-5978-4901-9c0a-12495e39af10",
+  "text": "Teacher CPD",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "987c29fd-1370-4834-b00a-480446713b50",
+  "text": "Triple",
+  "semanticCategory": "pathway",
+  "parentId": "1b3ca540-6e48-45d4-88cb-26d2dc5bba88",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "d24d58ed-0506-4b6b-a160-fabce0556fdb",
+  "text": "Geography",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": "geog"
+ },
+ {
+  "id": "ca1e3e72-9dfc-48e8-bd59-c8cea2081e51",
+  "text": "International A Level",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "583c18de-143f-4d1d-8bef-6e8c0ab46534",
+  "text": "KS2",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "4113abbb-48a1-46bd-bb39-8c5636b9df9a",
+  "text": "Sports Studies",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+  "text": "Premium Knowledge",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "text": "Type",
+  "semanticCategory": "type",
+  "parentId": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "95910ecc-6dd5-4e60-b5dc-e2b522c5c6a7",
+  "text": "A Level",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "f4c68c00-728c-472b-a715-e9c8dab47689",
+  "text": "GCSE",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "1e0f81d3-ab06-4c21-b34e-5a4f7b1e7d55",
+  "text": "Premium Free Trial",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "7313f780-8839-4196-8976-afe97977b8fd",
+  "text": "BTEC",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "e680ccd6-4aca-49e0-882c-e3b7722c0e40",
+  "text": "Geology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "a60ebeff-0b67-4207-a65d-6f1a46bf2efa",
+  "text": "Summer Accelerator",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "8afed04e-e16e-457a-be15-9aa2e0ff8a64",
+  "text": "Co-ordinated Science",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "300b66f5-f8f1-495e-adb0-6402915372d1",
+  "text": "English Language",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "a26a0eda-abf2-485c-827f-2d8aa290c459",
+  "text": "Citizenship",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "5b5b540e-0ec1-494e-9953-3f7b1c51560f",
+  "text": "Non-Verbal Reasoning",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "5f548090-0dae-4f73-aade-71452bb1e542",
+  "text": "Free",
+  "semanticCategory": "price",
+  "parentId": "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "fe314e85-f5bc-4017-9de5-f096100be49c",
+  "text": "T Level",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "24e3d5aa-941d-4e50-82e8-5b5c76fa5642",
+  "text": "Health & Social Care",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "7e906cab-38b4-4d0f-9bcb-799bda241a7c",
+  "text": "Standardised Assessments",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "f051e02f-10dd-4ea5-bdeb-c4c1e4748b5c",
+  "text": "Law",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "95008576-7bac-4aa6-bc32-faf2025d1142",
+  "text": "Driving Theory",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "caabb9a9-b786-46fe-b018-7de29b784ce7",
+  "text": "Agriculture",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "97425b6f-d99e-4066-8ac5-dfb2c7c1519a",
+  "text": "Tier",
+  "semanticCategory": "tier",
+  "parentId": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "7f8f64f9-1dde-437a-ad59-f2b33b063efc",
+  "text": "Science",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "b32d09ad-c5ba-4152-a799-cc554379c859",
+  "text": "Reach Feltham",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "aae26745-8369-421c-ac04-0483c47b4d8e",
+  "text": "History",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+  "text": "iGCSE",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": "international gcse"
+ },
+ {
+  "id": "19f73658-2f15-4a7a-89e0-002a71c2a45c",
+  "text": "Cambridge International",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "00870f38-b7cc-4e8e-b3a7-5682a16fd4b1",
+  "text": "Vocabulary",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "9abc4305-f7ce-4a00-a1d6-5300e5dd9303",
+  "text": "Statistics",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MATHEMATICAL",
+  "aliases": null
+ },
+ {
+  "id": "322605bb-0221-448d-a622-70c80797c7ff",
+  "text": "English Literature",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "49eef5e1-0add-4f71-b3c3-944b8b064b40",
+  "text": "Psychology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "d925c59d-04d9-48e1-b98d-273d28c5abe8",
+  "text": "Diagnostic Misconceptions",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "9f80896f-2b7e-497c-8aeb-24015264f1fd",
+  "text": "English",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "72781d4e-934e-43c0-9a16-8b8fdd71e694",
+  "text": "AET Summer School",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "fd5d8049-fc6a-4e32-bcad-4a3f62af2c00",
+  "text": "Digital",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "4a875fd9-8f51-4ab9-95ac-3994e566e0d1",
+  "text": "Information and Communication Technology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": "ICT"
+ },
+ {
+  "id": "3eeb126c-85f3-46ac-bd39-f81a8cb2a25d",
+  "text": "Combined",
+  "semanticCategory": "pathway",
+  "parentId": "1b3ca540-6e48-45d4-88cb-26d2dc5bba88",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+  "text": "4-5 Booster",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "685b5064-808a-4e9a-b6c6-a43a7ba51880",
+  "text": "Standard",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "c3b90e96-66db-4098-b8d3-d69cda2238a1",
+  "text": "English Literature - Quotations",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "698a6039-662d-4eee-9ae3-e95e0d80dee2",
+  "text": "Business",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "3033ce24-8a25-4b7f-bf6d-ea25a5dfa631",
+  "text": "DaZ/DaF",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MFL",
+  "aliases": null
+ },
+ {
+  "id": "68a202b8-15c9-4353-ac16-4e69eeb80a1d",
+  "text": "Art & Design",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "e4be1b69-d978-4adc-b213-b82be13b7cc0",
+  "text": "Creative iMedia",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "OTHER",
+  "aliases": null
+ },
+ {
+  "id": "11a5c564-c98f-4f2e-b794-68ee45bd5733",
+  "text": "Spanish",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MFL",
+  "aliases": null
+ },
+ {
+  "id": "6d1ca807-a5c9-4b8e-a1b4-fdf2d5e7d8dd",
+  "text": "Drama",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "1e985647-afb6-43a3-a6d7-65ea3a973bfc",
+  "text": "Dance",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "f3ff4e69-6109-4659-8ee2-99d7edc722b2",
+  "text": "Higher",
+  "semanticCategory": "tier",
+  "parentId": "97425b6f-d99e-4066-8ac5-dfb2c7c1519a",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "aa5cfc42-aa1b-402f-9b94-e4d4b6f28f30",
+  "text": "Updated",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "7e046302-3970-4cd5-bdb8-ba16a80ac07f",
+  "text": "National Curriculum",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "0409b093-ad2b-41be-af38-ab047eaf1850",
+  "text": "OxfordAQA International",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "e764a9a6-f033-4792-98cf-43981fc77768",
+  "text": "Design Technology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "83355b22-3585-44ab-9d60-517a2e0b527f",
+  "text": "WJEC",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "0976a178-88b2-46ba-8a0d-765f41efdb88",
+  "text": "Verbal Reasoning",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "8f17973d-c5b9-4319-88fe-50c37e645fb4",
+  "text": "Construction",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "73cbd91b-e2cf-4702-8923-dc2983fb7703",
+  "text": "Hardest Questions",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "8d9c5580-9acf-44df-a89f-34fbc75439f8",
+  "text": "Combined Science",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+  "text": "Predicted Papers",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+  "text": "Premium",
+  "semanticCategory": "price",
+  "parentId": "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "6ff3d0f3-2920-45a2-aa30-48a9e0aa128f",
+  "text": "HyperFlashcards",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "665c49bd-eb8e-4af9-84eb-a439b7d70f75",
+  "text": "Italian",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MFL",
+  "aliases": null
+ },
+ {
+  "id": "e6d11855-67f5-484c-a4f1-33d0ac9372e3",
+  "text": "Ancient History",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "eea6fc40-55c1-4ea6-b40f-72e31f045662",
+  "text": "Media Studies",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+  "text": "Edexcel iGCSE",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "42bc057b-7f1e-40da-8d26-0dfeca0bc206",
+  "text": "Education",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "ec8e0660-d603-4fa4-a3bd-29ab6479b222",
+  "text": "Information Technology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "OTHER",
+  "aliases": null
+ },
+ {
+  "id": "bc381707-cb71-4e20-8b70-1cf7e739b385",
+  "text": "Philosophy",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "0d3fe69d-13e2-4a6c-8ef5-e08a2d414d48",
+  "text": "IB",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "f8e9b23c-7325-4cf7-9b3e-d36bd9a35631",
+  "text": "Coding",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "e818ef11-fa9f-4bc6-8404-64840df861a8",
+  "text": "Literature in English",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "f4efe535-d21f-4b3b-b6e3-528c68228078",
+  "text": "Ancient Languages",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+  "text": "HyperLearning",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "a390df25-db9b-4026-9492-5b9898b6a598",
+  "text": "Economics",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "1b3ca540-6e48-45d4-88cb-26d2dc5bba88",
+  "text": "Pathway",
+  "semanticCategory": "pathway",
+  "parentId": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "8b215c64-328d-4600-82b8-18cbe38ca289",
+  "text": "AQA",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "536897b8-427d-4fd2-987f-a10b792faaf2",
+  "text": "French",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MFL",
+  "aliases": null
+ },
+ {
+  "id": "88c4bc25-b0f1-485d-94dc-3a5a93746c47",
+  "text": "Eduqas",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "ac8376f9-4398-4754-9cfa-083915682c17",
+  "text": "Physical Education",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "text": "Subject",
+  "semanticCategory": "subject",
+  "parentId": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "744cf97b-1656-41f6-a82d-a1a60d6617b0",
+  "text": "Functional Skills",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "text": "Exam Board",
+  "semanticCategory": "examBoard",
+  "parentId": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "3a8d961c-3623-422e-8d7e-8606191a7bca",
+  "text": "EducationType",
+  "semanticCategory": null,
+  "parentId": null,
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+  "text": "Chemistry",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "ae203cad-c506-43af-bdda-817356a176d8",
+  "text": "Foundation",
+  "semanticCategory": "tier",
+  "parentId": "97425b6f-d99e-4066-8ac5-dfb2c7c1519a",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "4744db40-2ce4-4d4f-aff3-9df0e9ff1167",
+  "text": "Other",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "7615d146-1ce9-4930-b35b-9286ff8c95cc",
+  "text": "Primary",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "44da9282-34df-4c1d-8c19-755a3a589c32",
+  "text": "Engineering",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MATHEMATICAL",
+  "aliases": null
+ },
+ {
+  "id": "fd7a99aa-5538-40eb-9b96-fc8a3af5e33d",
+  "text": "OCR",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "859eb213-8926-4212-9136-b81ff2f6d811",
+  "text": "Sociology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "a34a54ca-8958-4d2f-b70b-e6dc67059e7a",
+  "text": "Computer Science",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "a0fdbec6-4f4c-4f36-bf22-0b960a77f72e",
+  "text": "Skills",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "da52bfcd-43b1-4e7a-bf05-17914f20791d",
+  "text": "Latin",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MFL",
+  "aliases": null
+ },
+ {
+  "id": "c2ea5542-277a-45eb-8ce8-195859515cf0",
+  "text": "ICT",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": "Information and Communication Technology"
+ },
+ {
+  "id": "645fe8a7-2ee7-4909-ae29-03a74408e3e5",
+  "text": "Food Preparation & Nutrition",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "43c8774f-96d9-412d-b90e-f66239384676",
+  "text": "11+",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "98b79af7-df40-4e8c-9132-03c1e4b7e386",
+  "text": "AET Summer School",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+  "text": "The Night Before",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "fecf2fbc-8840-4534-8ada-3a6e1c638920",
+  "text": "Travel & Tourism",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "4a75d86d-9fcc-4c08-871f-fee1b2b16d0d",
+  "text": "IB Diploma",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "d595de02-f0d6-49a7-8e43-ca59684f3b12",
+  "text": "Classical Civilisation",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "e47d10fb-4cf2-497d-aca5-0021427ff22b",
+  "text": "Hair & Beauty",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "OTHER",
+  "aliases": null
+ },
+ {
+  "id": "99ceefea-0e60-482e-8b43-f4143f52e1f8",
+  "text": "Archaeology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "a3881671-2e12-4cbf-bdbb-39ef9ffe2b81",
+  "text": "Half-Term HyperCram",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "9c002d87-e618-4a74-8b40-005ce9b73167",
+  "text": "Other",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "OTHER",
+  "aliases": null
+ },
+ {
+  "id": "72c59cb7-b6ad-478b-9a61-029146635bf2",
+  "text": "Science Practicals",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "6cc8f637-5add-48b0-8431-3c5467d19316",
+  "text": "Hospitality",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "e563d175-00ea-49fb-b82e-c37446f6be6a",
+  "text": "Uni & Uni Entrance",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "b6373f01-0507-4d6c-8f0e-cfdd2c2257f4",
+  "text": "PSHE",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "4103df23-0b70-4f23-8c5b-1b5bf5d35cbc",
+  "text": "Edexcel",
+  "semanticCategory": "examBoard",
+  "parentId": "29304df7-aad4-4b2f-ac43-2fb169c04ebd",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "547179df-0e9b-4fca-8f04-ba90763c2705",
+  "text": "Political Studies",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "d2c06b0f-dbf6-4c62-b75b-e12ec5c2400a",
+  "text": "Applying to Uni",
+  "semanticCategory": "type",
+  "parentId": "be426768-2fd2-4231-9c25-22354a89c1b2",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "2f28216e-5070-40a6-8fb9-cae090f79fad",
+  "text": "Religious Studies",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "c86dae48-d95b-4dab-95fa-40f9841d5b3d",
+  "text": "Music",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "3d0c78f4-0865-4c31-a350-846396d819fa",
+  "text": "International A Levels",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "913aa8e9-929c-48c3-919b-4d8b09174b8f",
+  "text": "KS3",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "26bbc68d-7561-406b-84c8-dbde008472fd",
+  "text": "Maths",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "MATHEMATICAL",
+  "aliases": null
+ },
+ {
+  "id": "2fe25b84-e938-4f6d-9558-9c22a61c3e79",
+  "text": "Astronomy",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "22388c44-b321-4eb2-9aa5-3bde545cdffe",
+  "text": "Electronics",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "STEM",
+  "aliases": null
+ },
+ {
+  "id": "363b040f-3988-4493-9b5f-b7d67de4107a",
+  "text": "Politics",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "5db51073-53a5-4a83-af7b-f084bc2195da",
+  "text": "Common Entrance",
+  "semanticCategory": "ageGroup",
+  "parentId": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "2518f853-1fe9-4f96-bb4b-606f89605e7a",
+  "text": "Criminology",
+  "semanticCategory": "subject",
+  "parentId": "8c71d055-ff40-4536-8629-5073c618ea53",
+  "subjectGroup": "HUMANITIES",
+  "aliases": null
+ },
+ {
+  "id": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "text": "Schools",
+  "semanticCategory": null,
+  "parentId": "3a8d961c-3623-422e-8d7e-8606191a7bca",
+  "subjectGroup": null,
+  "aliases": null
+ },
+ {
+  "id": "3df4913a-5a19-4777-9fdf-1c1d74f40491",
+  "text": "Age Group",
+  "semanticCategory": "ageGroup",
+  "parentId": "0a732c92-cc18-45f4-ab43-e6adf3018259",
+  "subjectGroup": null,
+  "aliases": null
+ }
+]

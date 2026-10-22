@@ -1,0 +1,23 @@
+{
+ "startDate": "2026-10-22T00:30:00.767Z",
+ "dueDate": "2026-10-29T00:45:00.767Z",
+ "name": "SyllabAI Research - structural probe (draft)",
+ "assignees": [],
+ "spec": {
+  "tasks": [
+   {
+    "id": "242377c1-835e-4ac9-a755-46942035b181",
+    "taskType": "resource",
+    "resourceType": "exam-question",
+    "courseId": "4c2bb850-1d46-11e8-840a-ed991cd3461d"
+   },
+   {
+    "id": "bd04e8be-7780-4e80-94f2-c74ec58f1852",
+    "taskType": "resource",
+    "resourceType": "exam-question",
+    "courseId": "4c2bb850-1d46-11e8-840a-ed991cd3461d"
+   }
+  ]
+ },
+ "autoEnrolNewUsers": true
+}

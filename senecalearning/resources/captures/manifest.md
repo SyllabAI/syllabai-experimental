@@ -46,3 +46,20 @@ endpoints with a descriptive UA. Sizes approximate.
 
 Live session log (kept local, not committed): fetch/XHR instrumentation
 capture with signed headers; token in `/tmp/seneca_token.txt` only.
+
+## Phase 2 session 3 additions (2026-10-22, assignment creation + Resource Hub)
+
+| Path | What | Source |
+|---|---|---|
+| `assignments/README.md` + 4 exemplars | full assignment CRUD payload set (create/update/class-view, redacted) | live UI funnel + fetch instrumentation |
+| `resource-hub/README.md` | categorisation + schema guide for the catalogue | this session |
+| `resource-hub/tags-taxonomy-slim.json` | 132-tag taxonomy (74 subjects, 21 age groups, 12 boards, price/pathway/tier) | `tags…/api/tags` |
+| `resource-hub/subject-resource-counts.csv` | 74 subjects × 3 types = 207,629 resources | `tutor-resources…/api/v2/query-resources` aggregations |
+| `resource-hub/chemistry-resources-metadata.jsonl.gz` | every Chemistry resource, metadata only (18,306 rows; examQuestion stems nulled) | same, paginated |
+| `resource-hub/all-subjects-sample-metadata.jsonl.gz` | ≤200/type sample for 69 other subjects (18,890 rows; examQuestion stems nulled) | same |
+| `resource-hub/edexcel-igcse-chemistry-*.json` | 14-course family records + 872 sections + readable tree of the Free course | `course…/api/courses/queryCourses` (types=[section]) |
+| `scripts/resourcehub-download*.py`, `scripts/sections-download.py`, `scripts/build-repo-artifacts.py` | reproducible pipeline for the above | — |
+
+Not committed (local-only, per IP notes): raw `query-resources`
+responses incl. question bodies, mark schemes and generation scripts
+(`probe-results/rh3/local-only-full-payloads/`).

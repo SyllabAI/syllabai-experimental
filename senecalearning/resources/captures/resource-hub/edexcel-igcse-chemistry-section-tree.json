@@ -1,0 +1,257 @@
+{
+ "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+ "courseTitle": "Chemistry: Edexcel iGCSE",
+ "subscriptionTier": "FREE",
+ "sections": [
+  {
+   "num": "1",
+   "id": "ffead730-21e8-11e8-8c0c-d79041e9c8a6",
+   "title": "States of Matter",
+   "level": "top",
+   "children": [
+    {
+     "id": "0cce8dc0-21e9-11e8-8c0c-d79041e9c8a6",
+     "title": "States of Matter",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "id": "135fb270-21eb-11e8-8c0c-d79041e9c8a6",
+   "title": "Elements, Compounds & Mixtures",
+   "level": "top",
+   "children": [
+    {
+     "id": "1b9c9d40-21eb-11e8-8c0c-d79041e9c8a6",
+     "title": "Elements, Mixtures & Compounds",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "id": "695cd490-21ec-11e8-8c0c-d79041e9c8a6",
+   "title": "Atomic Structure",
+   "level": "top",
+   "children": [
+    {
+     "id": "6c778210-21ec-11e8-8c0c-d79041e9c8a6",
+     "title": "Atoms",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "id": "881fd240-21ee-11e8-8c0c-d79041e9c8a6",
+   "title": "The Periodic Table",
+   "level": "top",
+   "children": [
+    {
+     "id": "8c584bd0-21ee-11e8-8c0c-d79041e9c8a6",
+     "title": "The Periodic Table",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "id": "9ff596a0-21f0-11e8-8c0c-d79041e9c8a6",
+   "title": "Chemical Formulae, Equations & Calculations",
+   "level": "top",
+   "children": [
+    {
+     "id": "a51bcb90-21f0-11e8-8c0c-d79041e9c8a6",
+     "title": "Equations",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "id": "d02b9700-21f2-11e8-8c0c-d79041e9c8a6",
+   "title": "Bonding",
+   "level": "top",
+   "children": [
+    {
+     "id": "f0b0f010-21f2-11e8-8c0c-d79041e9c8a6",
+     "title": "Ionic Bonding",
+     "level": "middle"
+    },
+    {
+     "id": "31707620-21f8-11e8-8c0c-d79041e9c8a6",
+     "title": "Covalent Bonding",
+     "level": "middle"
+    },
+    {
+     "id": "5bacba60-21f9-11e8-8c0c-d79041e9c8a6",
+     "title": "Metallic Bonding",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "id": "8e521f00-21f9-11e8-8c0c-d79041e9c8a6",
+   "title": "Electrolysis",
+   "level": "top",
+   "children": [
+    {
+     "id": "90d71c30-21f9-11e8-8c0c-d79041e9c8a6",
+     "title": "Electrolysis",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "id": "76c3e390-21fa-11e8-8c0c-d79041e9c8a6",
+   "title": "Groups of the Periodic Table",
+   "level": "top",
+   "children": [
+    {
+     "id": "795bf390-21fa-11e8-8c0c-d79041e9c8a6",
+     "title": "Alkali Metals & Halogens",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "9",
+   "id": "10143db0-21fb-11e8-8c0c-d79041e9c8a6",
+   "title": "The Atmosphere",
+   "level": "top",
+   "children": [
+    {
+     "id": "16cd6eb0-21fb-11e8-8c0c-d79041e9c8a6",
+     "title": "Gases in the Atmosphere",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "id": "98b504d0-21fe-11e8-8c0c-d79041e9c8a6",
+   "title": "Reactivity Series",
+   "level": "top",
+   "children": [
+    {
+     "id": "a0f37640-21fe-11e8-8c0c-d79041e9c8a6",
+     "title": "Reactivity Series",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "id": "20101670-220b-11e8-84be-43a7670f6e01",
+   "title": "Metal Extraction",
+   "level": "top",
+   "children": [
+    {
+     "id": "23aff980-220b-11e8-84be-43a7670f6e01",
+     "title": "Metal Extraction",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "id": "0724e310-220c-11e8-84be-43a7670f6e01",
+   "title": "Acids & Alkalis",
+   "level": "top",
+   "children": [
+    {
+     "id": "09a0b880-220c-11e8-84be-43a7670f6e01",
+     "title": "Acids, Alkalis & Titrations",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "id": "2a39d8f0-2212-11e8-84be-43a7670f6e01",
+   "title": "Chemical Tests",
+   "level": "top",
+   "children": [
+    {
+     "id": "2c7dd580-2212-11e8-84be-43a7670f6e01",
+     "title": "Identifying Gases",
+     "level": "middle"
+    },
+    {
+     "id": "1b2b36a0-2213-11e8-84be-43a7670f6e01",
+     "title": "Testing Anions, Cations & Water",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "14",
+   "id": "77dedfc0-2216-11e8-84be-43a7670f6e01",
+   "title": "Physical Chemistry",
+   "level": "top",
+   "children": [
+    {
+     "id": "7a10b3e0-2216-11e8-84be-43a7670f6e01",
+     "title": "Energetics",
+     "level": "middle"
+    },
+    {
+     "id": "31ce4000-2218-11e8-84be-43a7670f6e01",
+     "title": "Rates of Reaction",
+     "level": "middle"
+    },
+    {
+     "id": "3cf99830-2218-11e8-84be-43a7670f6e01",
+     "title": "Reversible Reactions & Equilibria",
+     "level": "middle"
+    }
+   ]
+  },
+  {
+   "num": "15",
+   "id": "80de1e40-2218-11e8-84be-43a7670f6e01",
+   "title": "Organic Chemistry",
+   "level": "top",
+   "children": [
+    {
+     "id": "83466bb0-2218-11e8-84be-43a7670f6e01",
+     "title": "Hydrocarbons",
+     "level": "middle"
+    },
+    {
+     "id": "7b149d10-221b-11e8-84be-43a7670f6e01",
+     "title": "Alkanes & Alkenes",
+     "level": "middle"
+    },
+    {
+     "id": "045e1230-221d-11e8-84be-43a7670f6e01",
+     "title": "Alcohols",
+     "level": "middle"
+    },
+    {
+     "id": "04854940-221d-11e8-84be-43a7670f6e01",
+     "title": "Carboxylic Acids",
+     "level": "middle"
+    },
+    {
+     "id": "f96f14d0-221e-11e8-84be-43a7670f6e01",
+     "title": "Esters",
+     "level": "middle"
+    },
+    {
+     "id": "2e4f4e40-221f-11e8-84be-43a7670f6e01",
+     "title": "Synthetic Polymers",
+     "level": "middle"
+    },
+    {
+     "id": "5bd50f15-5c47-4062-b02e-c53ee68f4ac5",
+     "title": "End of Topic - Organic Chemistry",
+     "level": "middle"
+    }
+   ]
+  }
+ ]
+}

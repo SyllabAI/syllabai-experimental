@@ -1,0 +1,1077 @@
+{
+ "count": 14,
+ "courses": [
+  {
+   "headerImageURL": "seneca-image-cdn:///2019-02/19ab68a6-72f2-4bca-9867-c2ca85d83335/flasks-606611_1920.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "The most entertaining & efficient way to boost your grades in Edexcel iGCSE Chemistry.\nchem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE - HyperLearning",
+   "firstPublished": "2023-08-16T13:44:53.697Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "314b4215-6d4e-4c34-9cbf-e8ed7c6fbfeb",
+    "63e5ff57-d591-462e-9ed3-2206c0c4a9db",
+    "2002ee4f-53a5-4fd0-9692-c7bccb47414b",
+    "f3f30aba-3d86-46c9-a288-012229af1989",
+    "5ef54c46-2f59-4d67-9402-7dd584083b30",
+    "e31790b4-f1aa-412e-90aa-72152137bcc0",
+    "9d0aceec-b2c3-484e-b2d2-4bc1024f84a8",
+    "5cdaf96d-c140-482c-af0f-0369e5c10e61",
+    "b769602e-78d0-4d89-bf63-c1a55102e259",
+    "c0419394-285d-4b1e-a457-86a034ab9bec",
+    "db353add-8405-4732-8a18-0c4a7ddfd851",
+    "a8babfa3-2b92-4b32-91ba-8f264905d381",
+    "61ab2685-dce9-4e30-a496-efd8702cfc6c"
+   ],
+   "startingSectionId": "fc25a381-5ce5-4903-94ec-099f000d8640",
+   "id": "9836ed1c-b35e-4c36-9e3f-14aef22ee6de",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "9836ed1c-b35e-4c36-9e3f-14aef22ee6de",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Chemistry: Edexcel iGCSE - HyperLearning",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2025-07/f9f30447-4c72-496b-a90a-8071a9adda9f/4db0c0d2-e28e-4054-a88e-2af1e1d1d0fe.png",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 1430,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE",
+   "firstPublished": "2023-08-16T13:46:49.086Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "aliases": null,
+      "id": "685b5064-808a-4e9a-b6c6-a43a7ba51880",
+      "value": "Standard"
+     },
+     {
+      "aliases": null,
+      "id": "aa5cfc42-aa1b-402f-9b94-e4d4b6f28f30",
+      "value": "Updated"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "5f548090-0dae-4f73-aade-71452bb1e542",
+      "value": "Free"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "ffead730-21e8-11e8-8c0c-d79041e9c8a6",
+    "135fb270-21eb-11e8-8c0c-d79041e9c8a6",
+    "695cd490-21ec-11e8-8c0c-d79041e9c8a6",
+    "881fd240-21ee-11e8-8c0c-d79041e9c8a6",
+    "9ff596a0-21f0-11e8-8c0c-d79041e9c8a6",
+    "d02b9700-21f2-11e8-8c0c-d79041e9c8a6",
+    "8e521f00-21f9-11e8-8c0c-d79041e9c8a6",
+    "76c3e390-21fa-11e8-8c0c-d79041e9c8a6",
+    "10143db0-21fb-11e8-8c0c-d79041e9c8a6",
+    "98b504d0-21fe-11e8-8c0c-d79041e9c8a6",
+    "20101670-220b-11e8-84be-43a7670f6e01",
+    "0724e310-220c-11e8-84be-43a7670f6e01",
+    "2a39d8f0-2212-11e8-84be-43a7670f6e01",
+    "77dedfc0-2216-11e8-84be-43a7670f6e01",
+    "80de1e40-2218-11e8-84be-43a7670f6e01"
+   ],
+   "startingSectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "alias": "iGCSE",
+   "id": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "subscriptionTier": "FREE",
+   "authors": [
+    "Dr Eric Demoncheaux",
+    "Luke Jones",
+    "Dr Lewis Broomfield"
+   ],
+   "name": "Chemistry: Edexcel iGCSE",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2025-07/4567bff6-db29-41d9-bb83-79fc82b38e4b/f3a7a052-e11f-4f92-8d5b-5d9fdee75b0b.png",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "Science (Double Award) - Chemistry: Edexcel iGCSE\nchem",
+   "examQuestionsCount": 15,
+   "type": "course",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE",
+   "firstPublished": "2023-08-16T13:45:53.213Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "aliases": null,
+      "id": "685b5064-808a-4e9a-b6c6-a43a7ba51880",
+      "value": "Standard"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "5f548090-0dae-4f73-aade-71452bb1e542",
+      "value": "Free"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "1b209189-d79e-463a-ba60-3279bd0427e8",
+    "94962176-3137-456d-a350-e9a5309b038e",
+    "398af7d2-4bb1-41da-9112-9107d104cdc7",
+    "de133b1f-f9e6-484e-9a8f-02bc4f215015",
+    "f048f3cb-640d-4003-bc13-dee69fa34233"
+   ],
+   "startingSectionId": "1c056164-df83-4aa4-b7c8-30f3ddbd7a6e",
+   "id": "ce0bd53d-5588-4b5c-948d-2b8517097cab",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "ce0bd53d-5588-4b5c-948d-2b8517097cab",
+   "subscriptionTier": "FREE",
+   "authors": [
+    "Dr Eric Demoncheaux",
+    "Luke Jones",
+    "Dr Lewis Broomfield"
+   ],
+   "name": "Science (Double Award) Chemistry: Edexcel iGCSE",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///courseImages/chemistry/2.3.1- Chemical properties/bottle-302772_1280 - Edited-min - Edited.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE - HyperFlashcards",
+   "firstPublished": "2023-08-16T11:06:15.388Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "6ff3d0f3-2920-45a2-aa30-48a9e0aa128f",
+      "value": "HyperFlashcards"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "5d07fd1e-107f-40e5-81a1-ca7a47a42078",
+    "e611578a-12d2-4afc-a6d6-71abefbc8c6e",
+    "4ecd0155-fda3-48f1-9ad2-52b7afa2f907",
+    "9c12fc58-0ea4-4a23-8ebe-032edd1000db",
+    "78ff7eae-c75c-4ebc-baa3-208011faccbb",
+    "f7143c0a-a496-43aa-9499-8ed6add460c7",
+    "0dbac9c0-4953-4c34-ba6d-62f61d71f3bb",
+    "8209a219-d7a9-451a-bd6a-3054b9544c78",
+    "023bd339-10dd-4436-a9f1-c59925025bc6",
+    "427d4739-eb6c-4b94-9e41-82a9d4e0b1e3",
+    "d6d62172-1b4a-480a-b82c-f4ed36e0693d",
+    "d6cec0fd-248a-4b57-b4af-d22d1a691d65",
+    "56a59dea-7d8a-49e1-bfa5-b4ea0fc7921b",
+    "bd0fbaf6-5679-4d47-ae4d-97abb12eb0c3",
+    "86f450dc-2644-453f-bf55-cf306f647d8d"
+   ],
+   "startingSectionId": "b90171fc-b823-4fb5-ad40-63af28864719",
+   "id": "1767b92a-5740-4593-9bf6-d8b5dafa22cc",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "1767b92a-5740-4593-9bf6-d8b5dafa22cc",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Chemistry: Edexcel iGCSE - HyperFlashcards",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2019-02/4bbd968b-1f14-401e-bf2a-8ec465117a7b/chemistry-min.png",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "Check out our predicted papers to boost your grades in Edexcel iGCSE Chemistry. We base these exam-style papers on the exact syllabus & historic patterns to give you the perfect head start on your exam prep.\nchem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE - Predicted Papers",
+   "firstPublished": "2023-08-16T13:46:14.373Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "aliases": null,
+      "id": "1e5b5cd9-1029-44f5-9899-a449b285fa57",
+      "value": "Predicted Papers"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "8f0edca6-10df-4478-ad79-73ab5ee054ec",
+    "6ed389c2-547d-4c9a-9b13-d900d2c6863c"
+   ],
+   "id": "f99d966e-51d8-43aa-b4b3-c9363cd3829e",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "f99d966e-51d8-43aa-b4b3-c9363cd3829e",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Chemistry: Edexcel iGCSE - Predicted Papers",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2019-02/fb24108d-afa4-4dc2-a3e7-0ab7679f85cd/clear-1205688_1920.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "The most entertaining & efficient way to boost your grades in Edexcel iGCSE Combined Science Chemistry.\nchem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE - HyperLearning",
+   "firstPublished": "2023-08-16T13:45:09.727Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "4b670c20-6f49-40c3-9da5-4a80ec5d4e24",
+      "value": "HyperLearning"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "1d1d22ee-efc9-42fb-b012-e8c00de1086c",
+    "73125bdc-64c2-48c9-9394-c8be774cfa43",
+    "79b8b297-1fc5-4c42-8cb0-5ed190409d67",
+    "cb87043c-8fa0-4417-87f1-7e86577078cc"
+   ],
+   "startingSectionId": "84542cd7-2f5e-4cd0-9fe5-cc20e24bc3c2",
+   "id": "a755f766-2510-47f3-9570-16118aee927b",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "a755f766-2510-47f3-9570-16118aee927b",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Science (Double Award) Chemistry: Edexcel iGCSE - HyperLearning",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2019-05/82e8128c-5c5e-4f6a-8269-f5c335ccd060/sharosh-rajasekher-731673-unsplash-min.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE 4-5 Booster",
+   "firstPublished": "2023-08-16T11:06:56.122Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "e7ea8ca6-9d3b-4e8c-abfa-58375102adbe",
+      "value": "4-5 Booster"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "33f1a778-5af9-400f-a3d4-0117a6515465",
+    "8df1bed6-e328-4d17-8646-2419fbbf41dd",
+    "051f162a-ce86-4aa2-8905-0edef3cf8992",
+    "e772b206-91c8-41e2-93c1-6705a83e7b7c",
+    "bc1c1a82-4334-4ce7-b697-c624eeea710f",
+    "9332eb02-78d2-44da-96e9-007f4df04a84",
+    "190871c7-aa22-44e8-bd18-d109bc47fa94",
+    "7158fe8e-c7d4-4817-9f6a-dc6c8ebf5256"
+   ],
+   "id": "73dec96a-6362-41d8-a3e6-a20a72f591f8",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "73dec96a-6362-41d8-a3e6-a20a72f591f8",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Chemistry: Edexcel iGCSE 4-5 Booster",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2018-08/b8bb70f7-42fe-49c2-92ea-beda66b45667/shutterstock_10122130.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE - HyperFlashcards",
+   "firstPublished": "2023-08-16T11:06:20.182Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "6ff3d0f3-2920-45a2-aa30-48a9e0aa128f",
+      "value": "HyperFlashcards"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "d7f364c5-5ce7-4c0d-94ee-8f098c5cd7cb",
+    "6fd1eed0-bba3-4ae8-ba52-284e2df0e93e",
+    "a2cd56d9-c71b-4d01-9e91-9a35231da0b0",
+    "7b846139-952e-43f8-894f-3c67b7c6359c",
+    "fa1960c9-ecd7-4206-b729-01a3a1ddac01",
+    "30bec749-c2fd-481a-bab4-2b67f539a5bc",
+    "789fdf56-68e5-4d5e-a673-7d73fbcf6fad",
+    "e2175b12-bd50-4df1-b2c8-011a3888ac7b",
+    "17c51a96-1b9f-4107-83f4-5b6811eda272",
+    "4d68096f-9978-4883-bc70-71b36c9fb937",
+    "b3416e12-e07a-444c-ae7b-a808d15d1975",
+    "f26c54fe-10c2-4515-9c6f-a5f442cc75b7",
+    "dcaf5341-e38c-4cdf-82f0-c9af2c3615c1"
+   ],
+   "id": "24c886ee-bdaf-44c7-bffc-735d018f93e5",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "24c886ee-bdaf-44c7-bffc-735d018f93e5",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Science (Double Award) Chemistry: Edexcel iGCSE - HyperFlashcards",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///memory-location-images/Seattle, USA-min.jpeg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE Paper 1 - The Night Before",
+   "firstPublished": "2023-08-16T13:46:15.055Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "aliases": null,
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "84870106-84eb-42db-a29a-8adca12d7058",
+    "f482bd65-ff64-418d-96c6-697d56eadcf8"
+   ],
+   "id": "f960827b-923e-4843-b817-8cea5c4620b8",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "f960827b-923e-4843-b817-8cea5c4620b8",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Chemistry: Edexcel iGCSE Paper 1 - The Night Before",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///courseImages/chemistry/2.3.1- Chemical properties/(s) 2.2.4.1 - hydrochloric acid-min.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE Paper 2 - Half-Term HyperCram",
+   "firstPublished": "2023-08-16T11:06:06.322Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "aliases": null,
+      "id": "a3881671-2e12-4cbf-bdbb-39ef9ffe2b81",
+      "value": "Half-Term HyperCram"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "629ad35d-713f-4c10-8dcc-587c9564bc8b",
+    "8e44cb76-9afe-472a-a396-0039c4eb1b09",
+    "79167322-7195-49d2-9e9e-c8fefc183589"
+   ],
+   "startingSectionId": "07fc58bf-2417-4e81-9949-798a063aa8c0",
+   "id": "02dc4b91-0ea2-4fbe-99d0-023cebf96074",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "02dc4b91-0ea2-4fbe-99d0-023cebf96074",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "- "
+   ],
+   "name": "Chemistry: Edexcel iGCSE Paper 2 - Half-Term HyperCram",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2019-06/d47032e0-eaab-4ba3-9da4-115abcf4fd15/fireworks-768706_1920-min.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before",
+   "firstPublished": "2023-08-16T11:06:27.746Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "aliases": null,
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "70f2e3d0-13fc-462d-812b-fe9888a48431",
+    "600dd093-ed5a-4f7f-847c-56acbfd35f1a"
+   ],
+   "id": "3716c1c2-ccbf-4987-930a-396953fcb776",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "3716c1c2-ccbf-4987-930a-396953fcb776",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "- "
+   ],
+   "name": "Chemistry: Edexcel iGCSE Paper 2 - The Night Before",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///courseImages/biology/2.2.2 Enzymes 2/solid-glycerol.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+   "firstPublished": "2023-08-16T11:06:39.565Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "4f8962fd-e04f-46cf-9029-89c211ec7537",
+    "cfc1c780-4fa0-48d2-98f3-d144440668e2",
+    "72132b42-fcd8-4e69-a641-6f0654e48478",
+    "d01f36e3-2be3-4e35-8831-0ead9aa48105",
+    "ff47dd51-a3c7-476f-966f-17d960aa685c",
+    "b7c47d43-fff3-4d46-b8e9-0561465b7392",
+    "0e89f5c0-d5ee-4dfd-b6b7-5f5ee271f092",
+    "99ff4889-4bdc-4eb1-8d59-5fb8b309684a"
+   ],
+   "startingSectionId": "9d2e68bb-8333-4fb3-81e0-3d3af1b0936c",
+   "id": "4dd916c9-6c3d-45ff-9030-0daad2af7527",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "4dd916c9-6c3d-45ff-9030-0daad2af7527",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2019-05/3cb4d1d0-d7c6-43fb-aba8-8eb4f70e2274/-night-moon-building-sky-min.jpg",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE Paper 1 - The Night Before",
+   "firstPublished": "2023-08-16T13:44:48.165Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "aliases": null,
+      "id": "3fda64af-1ec4-4849-a651-7f11711b7dac",
+      "value": "The Night Before"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "2b8a818a-656d-4378-87a3-31263e1ed8d8",
+    "063c9a6d-f4f2-4534-957f-1ad4df4c17ed"
+   ],
+   "id": "8eb9dead-229d-48cf-8621-d248168f2161",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "8eb9dead-229d-48cf-8621-d248168f2161",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Science (Double Award) Chemistry: Edexcel iGCSE Paper 1 - The Night Before",
+   "regions": [
+    "GB"
+   ]
+  },
+  {
+   "headerImageURL": "seneca-image-cdn:///2018-08/14f081c3-1a9d-48eb-8f6b-f319871eac40/decompose%20(1).png",
+   "references": [],
+   "visibility": "PUBLIC",
+   "description": "chem",
+   "examQuestionsCount": 0,
+   "type": "course",
+   "title": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+   "firstPublished": "2023-08-16T11:06:14.491Z",
+   "tags": {
+    "29304df7-aad4-4b2f-ac43-2fb169c04ebd": [
+     {
+      "aliases": null,
+      "id": "b38ff4d5-9228-4e43-b1d6-3d3243b9d9f7",
+      "value": "Edexcel iGCSE"
+     }
+    ],
+    "1b3ca540-6e48-45d4-88cb-26d2dc5bba88": [
+     {
+      "aliases": null,
+      "id": "987c29fd-1370-4834-b00a-480446713b50",
+      "value": "Triple"
+     }
+    ],
+    "be426768-2fd2-4231-9c25-22354a89c1b2": [
+     {
+      "id": "973b765d-7980-4ead-8574-f61faa000dd0",
+      "value": "Premium Knowledge"
+     }
+    ],
+    "8c71d055-ff40-4536-8629-5073c618ea53": [
+     {
+      "aliases": null,
+      "id": "ae73bf6e-802a-4f72-9f8e-437aa6828a07",
+      "value": "Chemistry"
+     }
+    ],
+    "bdf3e1a7-ef2e-46a7-8e70-52d3370da3da": [
+     {
+      "aliases": null,
+      "id": "56223000-77a8-4f7a-b9d9-9a73eb9e7930",
+      "value": "Premium"
+     }
+    ],
+    "3df4913a-5a19-4777-9fdf-1c1d74f40491": [
+     {
+      "aliases": "international gcse",
+      "id": "56556db5-014f-4f19-8de4-8201b60efefe",
+      "value": "iGCSE"
+     }
+    ]
+   },
+   "textToSpeechEnabled": true,
+   "sectionIds": [
+    "04c47d56-8dd0-40b7-a019-110d04da2576",
+    "b2ff4c79-b633-4243-b19e-99f559691812",
+    "81146070-0265-426f-bc2a-36ca2880331d",
+    "84980f83-e97b-4bb7-bf66-05ca862d77c8"
+   ],
+   "id": "18de8a55-f847-447a-8203-768bde746d33",
+   "region": "GB",
+   "vocabularyEnabled": false,
+   "courseId": "18de8a55-f847-447a-8203-768bde746d33",
+   "subscriptionTier": "PREMIUM",
+   "authors": [
+    "-"
+   ],
+   "name": "Science (Double Award) Chemistry: Edexcel iGCSE - 7-9 Exclusive: Premium Knowledge\n\n",
+   "regions": [
+    "GB"
+   ]
+  }
+ ]
+}

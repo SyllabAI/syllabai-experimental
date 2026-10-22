@@ -64,6 +64,20 @@ assignment-flow endpoint set. Remaining items below.
 - [~] Teacher flows: class (`/api/classes/me`), assignments
       (`/api/teacher/me/assignments*`, `/api/classes/{id}/assignments`),
       tags/subjects funnel verified; analytics/MIS/report-cards open
+      **Session 3 (2026-10-22): assignment CRUD contract fully cracked**
+      — create (`POST /api/teacher/assignments` → 201), update
+      (`PATCH /api/classes/{classId}/assignments/{id}`), delete
+      (`DELETE` → 204), share-link + `autoEnrolNewUsers` mechanism,
+      cutoff = due+14d, aggregation blocks; see
+      research/2026-10-22-assignments-model.md. Resource Hub also
+      mapped (below).
+- [x] Resource Hub (session 3, 2026-10-22): `query-resources` ES
+      contract, 132-tag taxonomy, 74-subject × type count matrix
+      (207,629 resources), full Chemistry metadata slice (18,305 rows),
+      69-subject samples, Edexcel iGCSE Chemistry section tree
+      (`queryCourses types=["section"]` — course/section enumeration
+      solved without the walled course API); see
+      research/2026-10-22-resource-hub.md + captures/resource-hub/
 - [ ] Parent flows (needs a parent-linked view — open)
 - [~] Premium/entitlements: catalogue `subscriptionTier` FREE/PREMIUM
       split captured (1,789/971); runtime gate placement open

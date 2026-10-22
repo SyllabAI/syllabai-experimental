@@ -1,8 +1,13 @@
 # senecalearning — reverse engineering of Seneca Learning (app.senecalearning.com)
 
-**Status**: Phase 1 complete + Phase 2 session 1 (2026-10-22) — live
-teacher session: auth token flow verified, service auth matrix, XP model,
-feature flags, 2,761-course catalogue captured, assignment-flow endpoints.
+**Status**: Phase 1 complete + Phase 2 sessions 1–3 (2026-10-22).
+S1: live teacher session — auth token flow, service auth matrix, XP
+model, feature flags, 2,761-course catalogue. S3 (this update): full
+**assignment CRUD contract** (create/update/delete/share payloads
+verified live) and the **Resource Hub catalogue** — 207,629 resources
+mapped across 74 subjects, full Chemistry metadata slice (18,305 rows),
+Edexcel iGCSE Chemistry section tree, 132-tag taxonomy. Content bodies
+stay local-only per IP notes.
 **Target**: https://app.senecalearning.com/ (the student/teacher/parent SPA)
 and its supporting services. Marketing site: https://senecalearning.com/en-gb.
 
@@ -31,9 +36,12 @@ Mark scale-out, memory/decay model, tutor chat, entitlement gates).
 | `research/2026-10-22-url-schemes.md` | app routes + mobile deep-link scheme |
 | `research/2026-10-22-pedagogy-model.md` | the learning loop: memories, XP, sessions, AI marking |
 | `research/2026-10-22-syllabai-relevance.md` | what SyllabAI should adopt / avoid |
-| `resources/captures/` | evidence: env.js, versions.js, manifest, AASA, chunk manifest, extracted paths |
+| `resources/captures/` | evidence: env.js, versions.js, manifest, AASA, chunk manifest, extracted paths, assignment payload exemplars, Resource Hub metadata catalogue (`resource-hub/`) |
 | `resources/captures/js/` | 290 minified app chunks — **not committed** (4.6 MB, re-fetchable via script) |
 | `resources/scripts/fetch-app-bundles.sh` | reproduce the bundle capture |
+| `resources/scripts/resourcehub-download*.py`, `sections-download.py`, `build-repo-artifacts.py` | reproduce the Resource Hub metadata catalogue + artefacts |
+| `research/2026-10-22-assignments-model.md` | assignment creation funnel, CRUD/share contract, aggregation model |
+| `research/2026-10-22-resource-hub.md` | Hub model, query-resources API, taxonomy, catalogue size |
 
 ## Key facts (Phase 1 headline)
 
