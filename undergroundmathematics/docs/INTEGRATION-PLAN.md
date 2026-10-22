@@ -168,7 +168,16 @@ worth doing regardless of any Mode-3 outcome.
       S1 match census = negotiation exhibit; conversation starts only
       after pilot CTR evidence exists
 
-### P5 — conditional Mode-2 pilot in hub `[ ]` *(ADR ratified 2026-10-22 — gate open; needs hub change)*
+### P5 — conditional Mode-2 pilot in hub `[ ]` *(ADR ratified 2026-10-22 — gate open; implementation ticket + pilot kit authored 2026-10-22: `pilot/TICKET-P5-ugm-explore-further.md` — hub implementation pending)*
+- [x] author the implementation ticket + pilot kit — done 2026-10-22:
+      `pilot/` = ticket (flag spec, render spec, health-job state machine,
+      CTR instrumentation + floors, acceptance criteria, ADR conformance
+      map) + `pilot-links-quadratics.json` (24-link pool, 5 primary) +
+      `link-health-check.sh` (state-machine tested: SWAP/HIDE/alert,
+      fail-closed) + `wayback-bootstrap.sh` + dry-run report (24/24 live
+      200). **Launch gate G1 found: 0/24 resource pages have Wayback
+      snapshots** (availability API + CDX verified 2026-10-22) →
+      fail-closed render law added; bootstrap is blocking before enable
 - [ ] hub lane page: "Explore further" module rendering 3–5 curated UGM
       deep links per lane (from the cross-map), rel-nofollow, link-health
       check job (site is dormant — guard against rot, Wayback fallback)

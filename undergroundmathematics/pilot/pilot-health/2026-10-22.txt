@@ -1,0 +1,27 @@
+# UGM pilot link-health report 2026-10-22 (UTC)
+# probed 24 links; law: 3 consecutive fails -> SWAP (or HIDE if no snapshot)
+OK   name-that-graph 200
+OK   paired-parabolas 200
+OK   quad-symmetry 200
+OK   which-parabola 200
+OK   which-quadratic 200
+OK   discriminating 200
+OK   r5138 200
+OK   r5316 200
+OK   r6526 200
+OK   r6828 200
+OK   factorisable-quads 200
+OK   inequalities-for-some-occasions 200
+OK   irrational-roots 200
+OK   pick-a-card 200
+OK   quad-solving-sorter 200
+OK   r5287 200
+OK   r6429 200
+OK   r7328 200
+OK   r8045 200
+OK   r9614 200
+OK   r6215 200
+OK   r6816 200
+OK   r7485 200
+OK   r9546 200
+# summary: 24/24 ok; actions=0
