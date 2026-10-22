@@ -1,0 +1,38 @@
+{
+ "items": [
+  {
+   "classId": "s11w5yatia",
+   "name": "Nawaf Sir's class",
+   "numStudents": 0,
+   "numTeachers": 1,
+   "timeCreated": "2026-10-22T00:03:45.809Z",
+   "userId": "vJOkUXixUB…REDACTED",
+   "teachers": [
+    {
+     "userId": "vJOkUXixUB…REDACTED",
+     "classId": "s11w5yatia",
+     "role": "OWNER",
+     "timeCreated": "2026-10-22T00:03:45.983Z",
+     "status": "ACTIVE",
+     "meta": {},
+     "timeEnrolled": "2026-10-22T00:03:45.983Z",
+     "name": "hussainna071@gmail.com",
+     "email": "hussainna071@gmail.com"
+    }
+   ],
+   "enrollments": [],
+   "myTeacherAccessors": [
+    {
+     "userId": "vJOkUXixUB…REDACTED",
+     "classId": "s11w5yatia",
+     "role": "OWNER",
+     "timeCreated": "2026-10-22T00:03:45.983Z",
+     "status": "ACTIVE",
+     "meta": {},
+     "timeEnrolled": "2026-10-22T00:03:45.983Z"
+    }
+   ]
+  }
+ ],
+ "count": 1
+}

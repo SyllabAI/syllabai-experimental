@@ -34,3 +34,15 @@ endpoints with a descriptive UA. Sizes approximate.
 | `GET authentication /v2/passwordPolicy`, `/v2/recaptchaConfig`, `/v1/token` | 404 generic (not the protocol host) |
 | `GET /.well-known/apple-app-site-association` | 200, captured |
 | `GET /assets/ServiceClientRegistry-*.js.map` | 200 but SPA-fallback HTML — source maps NOT published |
+
+## Phase 2 additions (2026-10-22, live session)
+
+| Path | What | Source |
+|---|---|---|
+| `courses-taxonomy.jsonl` (713 KB, 2,761 rows) | slim course taxonomy: courseId, name, tier, visibility, regions, section counts, TTS | `course-cdn-v2…/api/courses?limit=3000&maxVisibility=HIDDEN` (full 3.9 MB dump local only) |
+| `feature-flags.json` (3.4 KB) | static + release flag set of record | `feature-flags…/api/flags` |
+| `class-me-redacted.json` | teacher class record (`/api/classes/me`), userId redacted | live session |
+| `xp-me-shape.json` | XP response shape (levels, buckets) | `xp…/api/xp/me?date=` |
+
+Live session log (kept local, not committed): fetch/XHR instrumentation
+capture with signed headers; token in `/tmp/seneca_token.txt` only.

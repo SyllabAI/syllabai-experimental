@@ -1,0 +1,12 @@
+{
+ "totalUserXp": 0,
+ "yearlyUserXp": 0,
+ "monthlyUserXp": 0,
+ "weeklyUserXp": 0,
+ "dailyUserXp": 0,
+ "userLevel": {
+  "level": 0,
+  "currentLevelXpThreshold": 0,
+  "nextLevelXpThreshold": 100
+ }
+}

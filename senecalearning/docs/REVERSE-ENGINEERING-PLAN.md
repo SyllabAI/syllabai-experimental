@@ -37,38 +37,36 @@ before any authenticated capture.
 - [x] Evidence captured to resources/captures/ (env.js, versions.js,
       manifest.json, AASA, chunk manifest, extracted paths)
 
-### Phase 2 — Anonymous + account surface `[ ]`
+### Phase 2 — Anonymous + account surface `[~]` (session 1: 2026-10-22)
 
-**Needs an operator decision: create a free student account (and a free
-teacher account) for authenticated recon.** Nothing beyond the anonymous
-surface can be catalogue-verified until then. Candidate credentials: a
-throwaway student signup (email + password; reCAPTCHA will apply) and, if
-possible, a teacher demo class. See `docs/IP-AND-COPYRIGHT-NOTES.md` for
-the conduct rules we hold ourselves to (own account only, no scraping of
-paid content bodies, no redist of copyrighted course material).
+**Operator provided a teacher account (2026-10-22) — session 1 executed.**
+Captured: verified auth token flow (Firebase ID token as `access-key`
+header — Cognito demoted to secondary), service auth matrix, XP model,
+feature-flag dump, teacher class record, full 2,761-course catalogue
+(+ slim taxonomy committed), Elasticsearch queryCourses, tag tree,
+assignment-flow endpoint set. Remaining items below.
 
-- [ ] Account creation + Cognito token flow capture (SRP vs custom
-      `identity.app...` endpoints; JWT claims shape; refresh semantics)
-- [ ] Course taxonomy catalogue: `course.app.senecalearning.com` +
-      `course-cdn-v2` — subjects → courses → sections → lessons structure,
-      legacy vs new course IDs (`courses/:legacyCourseId`)
-- [ ] The learning session loop: `session.app...` + `wss://session-ws` —
-      slide/section sequence, question events, timing/telemetry cadence
-- [ ] Memory model: `memory.app...` `/api/memories` read + write cadence —
-      what the "memory strength" bar actually persists (interval, decay,
-      per-section granularity?)
-- [ ] XP/gamification: `xp.app...`, tournaments, challenges, class/school
-      leaderboards — event schema and rate limits
-- [ ] AI surface: chatbot `/api/query`, `/api/explain`,
-      `/api/explain-wrong-answer`, `/api/exam-question-conversation` —
-      request/response shape, streaming behaviour, guardrails; short-answer
-      service (`short-answer.app...`) for free-text AI marking; exam
-      question stats service
-- [ ] Teacher flows: class service, assignments, school analytics, MIS
-      sync, target grades, report cards
-- [ ] Parent flows: parents service, parent quiz, monitoring overview
-- [ ] Premium/entitlements: subscriptions + trials services — what gates
-      free vs premium (maps onto SyllabAI's DC3 entitlement work)
+- [x] Account session + Cognito token flow capture — superseded by the
+      real finding: **Firebase ID token** rides the `access-key` header;
+      see research/2026-10-22-auth-token-flow.md
+- [~] Course taxonomy catalogue: list + query captured (2,761 courses,
+      Elasticsearch-backed `queryCourses`, tag filters); **section/slide
+      payloads are CloudFront-signed** — resolution flow still open
+- [ ] The learning session loop: `session.app…` + `wss://session-ws` —
+      session-scoped auth unresolved (403 observed)
+- [~] Memory model: `/api/memories` verified live (empty items — account
+      has no learning history; schema needs a session of study first)
+- [~] XP/gamification: `/api/xp/me?date=` verified (level thresholds 100
+      XP; daily/weekly/monthly/yearly buckets); tournaments service
+      rejects the token (auth-split family); leaderboards unprobed
+- [ ] AI surface: chatbot + short-answer payloads (deferred to a
+      controlled micro-probe; costs their LLM budget)
+- [~] Teacher flows: class (`/api/classes/me`), assignments
+      (`/api/teacher/me/assignments*`, `/api/classes/{id}/assignments`),
+      tags/subjects funnel verified; analytics/MIS/report-cards open
+- [ ] Parent flows (needs a parent-linked view — open)
+- [~] Premium/entitlements: catalogue `subscriptionTier` FREE/PREMIUM
+      split captured (1,789/971); runtime gate placement open
 
 ### Phase 3 — Content-model synthesis `[ ]`
 

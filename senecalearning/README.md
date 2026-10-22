@@ -1,7 +1,8 @@
 # senecalearning — reverse engineering of Seneca Learning (app.senecalearning.com)
 
-**Status**: Phase 1 complete (2026-10-22) — identification, tech stack,
-full microservice map, auth model, API surface sample, app routes.
+**Status**: Phase 1 complete + Phase 2 session 1 (2026-10-22) — live
+teacher session: auth token flow verified, service auth matrix, XP model,
+feature flags, 2,761-course catalogue captured, assignment-flow endpoints.
 **Target**: https://app.senecalearning.com/ (the student/teacher/parent SPA)
 and its supporting services. Marketing site: https://senecalearning.com/en-gb.
 
