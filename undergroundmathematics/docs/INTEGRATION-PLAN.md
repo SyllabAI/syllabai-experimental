@@ -146,13 +146,27 @@ worth doing regardless of any Mode-3 outcome.
       facts/links — safe to land) — **pilot ready for operator review**;
       generalisation proposal in the doc §8
 
-### P4 — decision doc for operator `[ ]`
-- [ ] draft ADR (in `syllabai-v2/docs/adr` style, content authored here
+### P4 — decision doc for operator `[x]`
+- [x] draft ADR (in `syllabai-v2/docs/adr` style, content authored here
       first): **"UGM integration mode"** — recommend Mode 2 pilot + Mode 4
-      adoption list; Mode 3 contingent on licensing
-- [ ] the ADR records the licensing-ask scope if operator wants Mode 3
+      adoption list; Mode 3 contingent on licensing — done 2026-10-22:
+      `docs/ADR-UGM-0001-ugm-integration-mode.md` — adopts Option B
+      (Mode 1 facts + Mode 4 doctrine baseline, Mode-2 "Explore further"
+      pilot on the IAL P1 quadratics lane behind a feature flag with
+      link-health job + Wayback fallback + CTR floor 1.0%/28d continue,
+      3.0% generalise, below-floor kill), explicitly rejects shipping UGM
+      body text of record in any mode; early-revisit triggers (site dark,
+      floor missed, licensing opens, hub arch change); status Proposed
+      awaiting operator ratification
+- [x] the ADR records the licensing-ask scope if operator wants Mode 3
       (worked solutions + suggestion wrappers for matched provenance only —
-      a narrow, grantable ask, not the whole corpus)
+      a narrow, grantable ask, not the whole corpus) — done 2026-10-22:
+      ADR §Decision item 4 — provenance-matched questions only (S1 tuple
+      match), non-exclusive, attribution in UI mirroring their
+      acknowledgement strings, schema after their `copyright-licences`
+      entity; outreach order Cambridge Mathematics → CA Group Archives;
+      S1 match census = negotiation exhibit; conversation starts only
+      after pilot CTR evidence exists
 
 ### P5 — conditional Mode-2 pilot in hub `[ ]` *(needs ADR + hub change)*
 - [ ] hub lane page: "Explore further" module rendering 3–5 curated UGM

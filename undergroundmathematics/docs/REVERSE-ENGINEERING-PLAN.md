@@ -73,17 +73,23 @@ dataset of the corpus if the experiment graduates.
       `resources/derived/cross-map-quadratics.json` (56/59 aligned = 95%,
       threshold ≥70% met); generalisation awaits operator review
 
-### Phase 4 — Design synthesis `[ ]`
+### Phase 4 — Design synthesis `[~]`
 
-- [ ] Decision doc: what SyllabAI adopts (candidates: review-question
-      schema + acknowledgement model; suggestion-before-solution section
-      layer; type/level tagging; teacher-support as separate content
-      objects; modal-navigation UX; markdown+LaTeX→HTML+PDF pipeline with
-      their retrospective taken into account).
-- [ ] Decision doc: licensing path for any content reuse (see IP notes) —
-      Cambridge Mathematics contact before any content lands of record.
+- [x] Decision doc: what SyllabAI adopts — done 2026-10-22:
+      `docs/ADR-UGM-0001-ugm-integration-mode.md` (Mode 1 facts +
+      Mode 4 patterns baseline, gated Mode-2 deep-link pilot with CTR
+      floor, Mode 3 deferred with a narrow provenance-matched licensing
+      ask; adoption candidates below land via the owning specs: review-
+      question schema + acknowledgement model via the provenance bridge,
+      suggestion-before-solution hint layer, type/level tagging, teacher-
+      support as separate content objects, tubemap IA as future option)
+- [x] Decision doc: licensing path for any content reuse (see IP notes) —
+      done 2026-10-22: scoped in ADR-UGM-0001 §Decision item 4 (narrow,
+      provenance-matched ask; Cambridge Mathematics first, CA Group
+      Archives second; census + pilot evidence before conversation)
 - [ ] If graduating: proper PR(s) against the receiving of-record repo per
-      repo ground rules.
+      repo ground rules — awaiting operator ratification of the ADR;
+      first PR = quadratics mode-1 artifacts into `syllabai-resources`
 
 ## Working rules
 

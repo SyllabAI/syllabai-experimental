@@ -82,6 +82,15 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   questions, lines, pervasive ideas, tags, related resources,
   teacher support, question wells, assets, provenance) →
   `resources/derived/enrichment-sheets/` + `INDEX.md`.
-- Next: **P4** (ADR: UGM integration mode decision) — see
-  `docs/INTEGRATION-PLAN.md`; P3c generalisation to all lanes awaits
-  operator review.
+- 2026-10-22: **Phase 4 (ADR)** — `docs/ADR-UGM-0001-ugm-integration-mode.md`:
+  adopt Mode 1 (facts of-record-eligible via PRs) + Mode 4 (hint layer,
+  archetypes, second tagging axis, teacher prompt tables — via owning
+  specs), gated Mode-2 "Explore further" pilot on IAL P1 quadratics
+  (feature flag, link-health job, Wayback fallback, CTR floor 1.0%/28d —
+  3.0% generalise, below-floor kill), Mode 3 deferred with a narrow
+  provenance-matched licensing ask (Cambridge Mathematics first, census +
+  pilot evidence before conversation). Status **Proposed** — operator
+  ratification requested.
+- Next: operator ratifies/amends the ADR → **P5** (hub pilot ticket),
+  first S1-bridge census run, quadratics mode-1 PR to
+  `syllabai-resources`; P3c generalisation to further lanes on ack.
