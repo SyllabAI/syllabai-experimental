@@ -204,9 +204,19 @@ worth doing regardless of any Mode-3 outcome.
       **`T-UGM-IMPORT-1`**; text-only: images/PDF/GeoGebra recorded as
       front-matter refs, not fetched; math byte-true; MANIFEST.json sha256
       identity; spec points SUGGESTED with primaryPick cross-referenced to
-      `UGM-Enrichment/` #55; 3 resources honestly unmapped)
-- [ ] hub consumption wiring (syllabai-v2 surfaces the corpus on lane
-      pages — the content successor of the dropped #305 link module)
+      `UGM-Enrichment/` #55; 3 resources honestly unmapped) — **MERGED of
+      record 2026-10-23 with #55** (`main@91eed732`; both LEDGER entries
+      ordered; operator-delegated review + merge with evidence comments;
+      self-approval impossible on the shared PAT)
+- [x] hub consumption wiring (syllabai-v2 surfaces the corpus on lane
+      pages — the content successor of the dropped #305 link module) —
+      **PR opened: [syllabai-v2#308](https://github.com/SyllabAI/syllabai-v2/pull/308)**
+      (task **`T-UGM-HUB-CONSUME-1`**; importer `import_ugm.py` with
+      fail-closed audits → `content/cie-a-level-maths-20-pure-1/ugm-resources.json`;
+      flag law `content/flags.json` absent=OFF per ADR-CLASS-0001 practice;
+      hub card + spec-point index + reader behind `src/lib/ugm.ts`; math
+      byte-true through the shared renderer; SUGGESTED + rights surfaces
+      mandatory; tsc/eslint/prebuild gates green locally)
 - [ ] further lanes (other UGM stations ↔ spine exports) lane-by-lane on
       operator ack — reuse `scripts/ugm_import_build.py` (builder kept in
       the agent workspace; re-emit per lane with a new task id)
