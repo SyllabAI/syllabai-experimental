@@ -114,9 +114,13 @@ sessions).
 ```
 
 **Notable:** the client computes and submits `endingProficiency` itself — the
-knowledge-tracing update (BKT-style: 0 → 0.495 after one 0.89-score session) happens
-in the SPA, and the server trusts it. SyllabAI's server-side BKT (per its docs) is
+knowledge-tracing update (0 → 0.495 after one 0.89-score session) happens in the
+SPA, and the server trusts it. SyllabAI's server-side update (per its docs) is
 strictly more trustworthy; Seneca's choice optimises for offline play.
+(Session-5 addendum: the *durable* client model is an exponential forgetting
+curve + fractional spacing counter, not BKT — exact formulas in
+`2026-10-22-memory-math.md`; the in-session posterior formula itself remains
+unrecovered, §5 there.)
 
 ### Module ledger entry shape (5 modules captured)
 

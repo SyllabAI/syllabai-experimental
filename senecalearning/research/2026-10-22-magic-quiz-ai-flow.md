@@ -170,6 +170,24 @@ Editor also offers **"See how it looks"** → `/quiz-preview` (student-view prev
 non-interactive for teachers in our test) and per-module **add-image** (via
 `/api/files/upload-url`).
 
+## Generation constants (session-5 addendum, `out-BsbuqlBf.js`)
+
+Decoded distractor-pipeline tuning constants alongside the client:
+
+```js
+MC_MIN_GENERATION_COUNT = 2            // min MC questions per generation batch
+WF_MIN_GENERATION_COUNT = 2            // min wordfill items per batch
+WF_MIN_GENERATION_ALTERNATIVE_WORDS = 0
+WF_MAX_GENERATION_ALTERNATIVE_WORDS = 2 // otherPermittedWords budget
+WF_MIN_GENERATION_DISTRACTOR_WORDS = 3  // distractor pool size per blank
+GENERATE_ID_PLACEHOLDER = "generate!"   // client-side id for in-flight items
+UPLOADED_CONTENT_MAX_FILE_SIZE = 26_214_400  // 25 MB
+```
+
+Confirms the two-stage server pipeline observed live (questions → distractors)
+has per-type minimums and a 3-distractor-per-blank floor for wordfill, matching
+the captured module shape (`distractors: [3]`).
+
 ## SyllabAI relevance
 
 - **Direct analogue of SyllabAI's "AI-generated quiz from syllabus source" story** —

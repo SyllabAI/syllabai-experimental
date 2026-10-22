@@ -74,3 +74,17 @@ responses incl. question bodies, mark schemes and generation scripts
 Local-only from this session (not committed): raw generated quiz JSON with full
 LLM output bodies (`/tmp/quiz_full.json` lineage), JWT-bearing WS URL, browser
 state (`/tmp/seneca_state.json`).
+
+## Phase 2 session 5 additions (2026-10-22, learner-model math)
+
+No new server captures — static bundle analysis only. The local JS corpus was
+extended from 292 → ~360 chunks by extracting the lazy classroom/session-player
+dep graph (`Routes-BWEsPjqk.js` `__vite__mapDeps` array, 1,445 assets) and
+politely fetching targeted candidates from the public asset CDN
+(`assets/<name>`, descriptive UA, bounded set). Chunks remain local-only per IP
+notes; the discovery recipe is documented in
+`research/2026-10-22-memory-math.md` §6. Key chunks decoded:
+`state-B6uAS2cl.js` (fade + spacing math), `out-58RVUDXs.js` / `state-Dd7llvej.js`
+(stats projections), `store-NUmMdL8-.js` (session reducer),
+`generateModuleStudiedEvent-BjZaYd-1.js` (module ledger + reconcile action),
+`out-BsbuqlBf.js` (Magic Quiz client + generation constants).

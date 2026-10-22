@@ -110,3 +110,23 @@ explicit direction to exercise the product's AI + session flows. Posture:
   teacher account.
 - No automated bulk querying occurred this session; every request was a
   page-action-driven interactive call.
+
+## Session 5 addendum (2026-10-22) — lazy-chunk extension for learner-model math
+
+Session 5 was static analysis only (no authenticated API traffic, no content
+fetches). The Phase-1 bundle-corpus policy was extended as follows:
+
+- The local JS corpus grew 292 → ~360 chunks by fetching **public static app
+  assets** (`app.senecalearning.com/assets/<name>`) discovered from the
+  router's lazy-import dependency array. Same posture as Phase 1: descriptive
+  UA, bounded candidate set (not the full 1,445-asset graph), chunks kept out
+  of git (`.gitignore`); the reproducible recipe is committed in
+  `research/2026-10-22-memory-math.md` §6.
+- What was committed: **mathematical formulas, constants, and behavioral
+  facts** decoded from the code (fade equation, scheduler increments, endpoint
+  list, enum values). Formulas and constants are facts, not copyrightable
+  expression; no Seneca code is reproduced in the repository beyond short
+  verbatim snippets already necessary to document protocol shapes, consistent
+  with the existing notes.
+- Source maps were probed once (`.js.map` → SPA HTML shell) and abandoned —
+  no de-obfuscation beyond ordinary bundle reading was performed or needed.

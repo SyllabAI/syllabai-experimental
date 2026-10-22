@@ -98,6 +98,13 @@ Captured per-section record (redacted):
 
 ### Interpretation (BKT + forgetting curve)
 
+> **Session-5 update:** the exact math behind `proficiency` and `spacing` has
+> since been decoded from the bundles — it is an **exponential forgetting curve**
+> (`P·exp(−Δt_days / 4·e^(spacing^1.4))`) plus a fractional spacing scheduler
+> (`optimal = 1.5s²+1.5s−2` days; early reviews earn partial credit, overdue ones
+> decay linearly to zero at 15× optimal; spacing never decreases). See
+> `2026-10-22-memory-math.md` — it supersedes the BKT framing below.
+
 - **`proficiency`** ∈ [0,1] — per-section knowledge estimate. One adaptive session
   with score 0.89 moved it 0 → **0.495** (and the same posterior was already
   client-computed in the session emit, so stats-service values are derived from the

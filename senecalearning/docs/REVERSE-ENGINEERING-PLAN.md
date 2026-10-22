@@ -65,6 +65,13 @@ assignment-flow endpoint set. Remaining items below.
       location{name,country,lat/long}`; stats service = spaced-repetition
       state (`proficiency`, `spacing` counter, `recentSectionEvents[]`
       prior→posterior log); see research/2026-10-22-memory-model.md
+- [x] Learner-model math (session 5, 2026-10-22): **decoded from bundles** —
+      NOT BKT: exponential forgetting curve
+      `P·exp(−Δt_days / 4·e^(spacing^1.4))` + fractional spacing scheduler
+      (`optimal = 1.5s²+1.5s−2` days; at-optimal review doubles spacing,
+      >15× overdue earns nothing, spacing never decreases). In-session
+      posterior formula remains the one honest gap (client player chunk,
+      source maps unpublished); see research/2026-10-22-memory-math.md
 - [x] Magic Quiz AI flow (session 4, 2026-10-22): **full contract** —
       `POST user-quiz…/api/quizzes/generate` {resourceText, type, tags,
       options.maxQuestions} → poll `{status: generating→complete}` →

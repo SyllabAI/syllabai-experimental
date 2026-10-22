@@ -65,13 +65,12 @@ T&Cs PDF) is the retention engine that makes free viable at scale.
 
 ## Open questions for Phase 2
 
-1. Memory schema: what exactly is a memory row? (per user×section?
-   interval? ease? last-seen?) Write cadence per answer or per session?
-2. Session event protocol over `session-ws` — what is streamed (timing,
-   hints, heartbeats, teacher live views)?
-3. How the planner consumes memory+stats to allocate weekly minutes
-   (the visible adaptive layer).
-4. Whether the chatbot is grounded in course content (RAG over their own
-   sections) or open-generation — guardrail surface will hint.
-5. Entitlement: which of the above actually gate on
-   subscriptions/trials (premium vs free split).
+> **Session-4/5 status update:** 1 and 2 are answered — memory schema captured
+> (`2026-10-22-memory-model.md`) and the session protocol is lifecycle-only WS +
+> single REST emit (`2026-10-22-session-lifecycle.md`). The learner model itself
+> is now *decoded*, not inferred: an exponential forgetting curve
+> (`τ = 4·e^(spacing^1.4)` days) with a fractional spacing scheduler — **not BKT**
+> — with the posterior computed client-side (exact formulas and the honest
+> residual gap in `2026-10-22-memory-math.md`). Remaining open: 3 (planner
+> contract), 4 (chatbot grounding), 5 (entitlement split — partially answered by
+> the Magic Quiz forced-public gate).
