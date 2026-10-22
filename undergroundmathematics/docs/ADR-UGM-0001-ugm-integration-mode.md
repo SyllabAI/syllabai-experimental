@@ -112,7 +112,7 @@ Declare phases 1–3 sufficient; archive the corpus; adopt nothing.
      insight-oriented) feeding the learner model;
    - teacher prompt tables in the Workbench (re-authored per CIE lane,
      UGM-patterned — never copied verbatim).
-3. **Mode 2 (approve as a one-lane pilot, gated)** — "Explore further" on
+3. **Mode 2 (approved as a one-lane pilot, gated)** — "Explore further" on
    the IAL P1 quadratics lane only, behind a feature flag (class-toggle
    style per `syllabai-v2` ADR-CLASS-0001 practice), links
    `rel="nofollow"`, a weekly link-health job (three consecutive failures
@@ -123,6 +123,12 @@ Declare phases 1–3 sufficient; archive the corpus; adopt nothing.
    and the ADR is amended, not argued**. Generalisation to further lanes
    requires: floor met + cross-map for that lane completed + operator
    ack.
+
+   > **Amended 2026-10-22 (operator directive):** Mode-2 is **dropped before
+   implementation** — "don't need links to UGM; you already downloaded the
+   resources". Hub ticket syllabai-v2#305 closed not_planned; the prepared
+   pilot kit stays in `pilot/` as record. Mode-1/4 continue; Mode-3 remains
+   the only route for UGM content of record. See Status Tracking.
 4. **Mode 3 (deferred, operator-gated — but the ask is now scoped)** — the
    licensing-ask scope, if and when the operator wants it, is **narrow and
    grantable**: worked-solution bodies + suggestion wrappers **only for
@@ -191,6 +197,8 @@ except the links — and those have a job watching them.
 | 2026-10-22 | Drafted from phases 1–3 evidence; proposed to operator for ratification |
 | 2026-10-22 | **Ratified by operator** — Option B accepted as drafted (Mode-1/4 baseline, gated Mode-2 pilot on IAL P1 quadratics, CTR floors 1.0%/28d continue · 3.0% generalise, Mode 3 deferred-and-scoped); no amendments requested; `INTEGRATION-PLAN.md` P4 → `[x]` |
 | 2026-10-22 | P5 **implementation ticket + pilot kit authored** (`pilot/TICKET-P5-ugm-explore-further.md` + link set + tested health-job script + bootstrap script + 24/24-live dry-run), **filed as [syllabai-v2#305](https://github.com/SyllabAI/syllabai-v2/issues/305)** — hub implementation pending; **G1 finding: 0/24 resource pages Wayback-archived** ⇒ fail-closed render law + bootstrap as blocking launch gate (ticket §8) |
-| pending | Hub implementation of TICKET-P5 in `syllabai-v2` (flag + module + health job + CTR event) → enable → first CTR readout |
+| pending | Hub implementation of TICKET-P5 in `syllabai-v2` (flag + module + health job + CTR event) → enable → first CTR readout — **VOIDED, see amendment below** |
+| 2026-10-22 | **Amended by operator directive**: Mode-2 deep-link pilot **dropped before implementation** ("don't need links to UGM; you already downloaded the resources — create them in syllabai"); syllabai-v2#305 closed not_planned; pilot kit retained in `pilot/` as historical record. Mode-1/4 continue; Mode-3 unchanged |
+| 2026-10-22 | Mode-1 first landing: **[syllabai-resources PR #55](https://github.com/SyllabAI/syllabai-resources/pull/55)** — new `UGM-Enrichment/` domain, `syllabai.ugm-spec-enrichment/1.0`, quadratics cross-map as facts-only SUGGESTED enrichment (61 rows over 1.1.1–1.1.5, 3 non-overlaps recorded, 5 primary picks; no UGM text bodies); repo LEDGER entry appended; review/promotion gate = operator |
 | pending | First S1-bridge census run against `syllabai-pastpapers` (exhibit for any future Mode-3 ask) |
-| pending | 28-day CTR readout → generalise / kill decision |
+| pending | 28-day CTR readout → generalise / kill decision — **VOIDED with Mode-2 (amendment 2026-10-22)** |

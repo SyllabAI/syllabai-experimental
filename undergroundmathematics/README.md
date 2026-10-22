@@ -91,7 +91,9 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   provenance-matched licensing ask (Cambridge Mathematics first, census +
   pilot evidence before conversation). Status **Accepted** — ratified by
   operator 2026-10-22, without amendments.
-- Next: **P5** (hub pilot ticket: feature flag + "Explore further" module
-  + link-health job + CTR event), first S1-bridge census run, quadratics
-  mode-1 PR to `syllabai-resources`; P3c generalisation to further lanes
-  on ack.
+- Next: mode-1 facts PR in review ([syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55)
+  — quadratics enrichment, SUGGESTED), S1-bridge census run, P3c
+  generalisation to further lanes on ack; Mode-2 deep-link pilot was
+  **dropped by operator directive 2026-10-22** (ADR amended; kit retained
+  in `pilot/` as record); Mode-3 licensing remains operator-gated (its
+  evidence source is now the S1 census).

@@ -87,9 +87,12 @@ dataset of the corpus if the experiment graduates.
       done 2026-10-22: scoped in ADR-UGM-0001 §Decision item 4 (narrow,
       provenance-matched ask; Cambridge Mathematics first, CA Group
       Archives second; census + pilot evidence before conversation)
-- [ ] If graduating: proper PR(s) against the receiving of-record repo per
-      repo ground rules — ADR **ratified 2026-10-22** (gate open); first
-      PR = quadratics mode-1 artifacts into `syllabai-resources`
+- [~] If graduating: proper PR(s) against the receiving of-record repo per
+      repo ground rules — **quadratics mode-1 facts PR opened:
+      [syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55)**
+      (`UGM-Enrichment/` domain, SUGGESTED, facts-only, ledger recorded);
+      ADR ratified + Mode-2 dropped by operator directive 2026-10-22;
+      merge + row promotion = repo review/promotion gate
 
 ## Working rules
 

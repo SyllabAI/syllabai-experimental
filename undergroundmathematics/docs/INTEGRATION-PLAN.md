@@ -168,7 +168,7 @@ worth doing regardless of any Mode-3 outcome.
       S1 match census = negotiation exhibit; conversation starts only
       after pilot CTR evidence exists
 
-### P5 — conditional Mode-2 pilot in hub `[ ]` *(ADR ratified 2026-10-22 — gate open; implementation ticket + pilot kit authored 2026-10-22: `pilot/TICKET-P5-ugm-explore-further.md`, filed as [syllabai-v2#305](https://github.com/SyllabAI/syllabai-v2/issues/305) — hub implementation pending)*
+### P5 — conditional Mode-2 pilot in hub `[~]` *(DROPPED by operator directive 2026-10-22 — "don't need links to UGM"; ticket + pilot kit retained below as record; syllabai-v2#305 closed not_planned. Mode-1 data landing continues: quadratics facts PR = [syllabai-resources#55](https://github.com/SyllabAI/syllabai-resources/pull/55))*
 - [x] author the implementation ticket + pilot kit — done 2026-10-22:
       `pilot/` = ticket (flag spec, render spec, health-job state machine,
       CTR instrumentation + floors, acceptance criteria, ADR conformance
