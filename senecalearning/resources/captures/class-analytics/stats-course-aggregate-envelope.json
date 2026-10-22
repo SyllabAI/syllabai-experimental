@@ -1,0 +1,20 @@
+{
+  "stats": [
+    {
+      "userId": "<userId-redacted>",
+      "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+      "sessionsCompleted": 4,
+      "totalStudyTime": 1305,
+      "lastStudied": 1792667022,
+      "sessionModulesStudied": 19,
+      "sessionModulesCorrect": 9,
+      "proficiency": 0.0021875,
+      "score": 0.004098360655737705,
+      "hardestQuestionsTotalStudyTime": 0,
+      "hardestQuestionsSessionsCompleted": 0,
+      "hardestQuestionsSessionModulesStudied": 0,
+      "hardestQuestionsSessionModulesCorrect": 0
+    }
+  ],
+  "count": 1
+}

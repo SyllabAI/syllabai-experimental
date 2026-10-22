@@ -1,0 +1,148 @@
+{
+  "session": "S9 \u2014 class analytics / teacher reporting (2026-10-22)",
+  "services": {
+    "school-analytics": "school-analytics.app.senecalearning.com",
+    "stats": "stats.app.senecalearning.com",
+    "class": "class.app.senecalearning.com",
+    "user-info": "user-info.app.senecalearning.com",
+    "memory": "memory.app.senecalearning.com",
+    "schools": "schools.app.senecalearning.com"
+  },
+  "verified_endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/classes/me",
+      "host": "class",
+      "status": 200,
+      "note": "teacher's class list (Phase 2)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/classes/me/{classId}",
+      "host": "class",
+      "status": 200,
+      "note": "full class record: courseIds[], teachers[] (lastViewed), enrollments[], myTeacherAccessors[]"
+    },
+    {
+      "method": "GET",
+      "path": "/api/classes/skeletons/me?limit=100",
+      "host": "class",
+      "status": 200,
+      "note": "lightweight class list for pickers"
+    },
+    {
+      "method": "POST",
+      "path": "/api/enrollments/me/classes/{classId}/last-viewed",
+      "host": "class",
+      "status": 200,
+      "note": "view tracking"
+    },
+    {
+      "method": "POST",
+      "path": "/api/classes/section-stats",
+      "host": "class",
+      "status": 500,
+      "note": "knowledge-gap aggregation {courseId, schoolId, classIds[], sectionIds[], bestScoreThreshold:0.8}; 500-on-empty observed from UI too; {reason,pointer} validation"
+    },
+    {
+      "method": "GET",
+      "path": "/api/stats/users",
+      "host": "stats",
+      "status": 200,
+      "note": "caller's own aggregate {userId, sessionsCompleted, totalStudyTime(s), lastStudied(epoch), sessionModulesStudied, sessionModulesCorrect, recentlyStudiedCourses[]}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/stats/users/{userId}/windowed/courses?startTime&endTime[&withStatsGroupedByDateRanges=true][&lastKey]",
+      "host": "stats",
+      "status": 200,
+      "note": "per-user per-course windowed stats; 403 {reason:'Not allowed to access this user's data'} for non-context users"
+    },
+    {
+      "method": "POST",
+      "path": "/api/stats/users/windowed/courses/{courseId}?startTime&endTime",
+      "host": "stats",
+      "status": 200,
+      "note": "CLASS-ANALYTICS CORE: body {userIds[], contextId?}; response {userIds(resolved), courseId, startTime, endTime, stats:{userId: {...per-course}}}; unknown userIds dropped"
+    },
+    {
+      "method": "POST",
+      "path": "/api/stats/sections/{sectionId}/enriched",
+      "host": "stats",
+      "status": 200,
+      "note": "body {userIds[], courseId, schoolId}; per-user enriched array ([] when unstudied); 400 {pointer,reason}; 403 ForbiddenStatsAccess"
+    },
+    {
+      "method": "GET",
+      "path": "/api/stats/{courses|sections|contents}?ids=a,b,c[&includeHardestQuestionsOnlyStats=true]",
+      "host": "stats",
+      "status": 200,
+      "note": "collection op-contract: ?ids= REQUIRED (comma-joined, ~2k URL budget); no-ids -> 400 'Unknown operation requested' (resolves Phase-2 mystery)"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin/stats/sections/aggregated",
+      "host": "stats",
+      "status": 404,
+      "note": "admin-gated for free teacher ({courseId, sectionIds[], userIds[], bestScoreThreshold})"
+    },
+    {
+      "method": "POST",
+      "path": "/api/schoolAnalytics/me",
+      "host": "school-analytics",
+      "status": 201,
+      "note": "async report: {classIds[], includeTargetGroupsData, dateRange:'last7', wholeSchoolReport, startDate, endDate}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/schoolAnalytics/me/{requestId}",
+      "host": "school-analytics",
+      "status": 200,
+      "note": "{status: succeeded, downloadUrl (S3 presigned, 24h), isMISEnabled, isPremium, meta.classIds, wholeSchoolReport, start/endDate}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/schoolAnalytics/retry/me/\u2026",
+      "host": "school-analytics",
+      "status": 200,
+      "note": "client surface (retry path)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/user-info/me",
+      "host": "user-info",
+      "status": 200,
+      "note": "profile {type:'schoolteacher', teacherRole:'classroom_teacher', displayName, givenName, familyName, nickname}; requires Origin/Referer (403 without)"
+    },
+    {
+      "method": "GET",
+      "path": "/api/user-prefs/me",
+      "host": "user-info",
+      "status": 200,
+      "note": "preferences; Origin-gated like user-info"
+    },
+    {
+      "method": "GET",
+      "path": "/api/school-info/me",
+      "host": "schools",
+      "status": 404,
+      "note": "standalone teacher has no school record"
+    },
+    {
+      "method": "GET",
+      "path": "/api/memories?limit=N",
+      "host": "memory",
+      "status": 200,
+      "note": "palace deposits (known)"
+    }
+  ],
+  "access_control": {
+    "rule": "stats endpoints authorize the requester against the TARGET user via class/school context (teacher-of relationship); self-access allowed; foreign userId -> 403 Not allowed to access this user's data",
+    "deny_case": "GET /api/stats/users/{random-uuid}/windowed/courses -> 403"
+  },
+  "empty_class_behavior": {
+    "section-stats": "500 Internal Server Error (observed identically from the real UI)",
+    "multi-user-windowed": "200 with userIds:[] and stats:{} (requester's uid filtered out when not enrolled in contextId class)",
+    "custom-report": "XLSX generated with header-only sheets + an explicit 'no students' error cell"
+  }
+}

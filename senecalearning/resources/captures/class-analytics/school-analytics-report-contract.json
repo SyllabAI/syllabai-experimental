@@ -1,0 +1,17 @@
+{
+  "endDate": "2026-10-22T23:59:59.000Z",
+  "isMISEnabled": false,
+  "isPremium": false,
+  "meta": {
+    "classIds": [
+      "s11w5yatia"
+    ]
+  },
+  "requestDate": "2026-10-22T15:34:02.072Z",
+  "startDate": "2026-10-15T00:00:00.000Z",
+  "status": "succeeded",
+  "userId": "<userId-redacted>",
+  "wholeSchoolReport": false,
+  "requestId": "9b66ec5f-9f6f-4cb8-a459-17fc9ed0f631",
+  "downloadUrl": "<s3-presigned-GET seneca-school-analytics-v1 / userId=<uid>/reportId=<uuid> expires=86400>"
+}

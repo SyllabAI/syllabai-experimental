@@ -1,0 +1,24 @@
+{
+  "userIds": [
+    "<userId-redacted>"
+  ],
+  "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+  "startTime": "2026-10-15T15:42:15.000Z",
+  "endTime": "2026-10-22T15:42:15.000Z",
+  "stats": {
+    "<userId-redacted>": {
+      "userId": "<userId-redacted>",
+      "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+      "modulesStudied": 19,
+      "modulesTested": 14,
+      "modulesCorrect": 9,
+      "modulesIncorrect": 5,
+      "modulesGaveUp": 1,
+      "averageScore": 0.776666671037674,
+      "studyDuration": 1543,
+      "sessionsCompleted": 4,
+      "earliestStudySession": "2026-10-22T02:03:11.000Z",
+      "latestStudySession": "2026-10-22T11:03:42.000Z"
+    }
+  }
+}

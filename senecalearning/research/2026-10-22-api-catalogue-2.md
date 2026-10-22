@@ -139,3 +139,34 @@ pre-validation (`/api/query` → 200 + stream body `403 Forbidden`; `/api/prompt
 Freemium quota: `FreemiumRewardFeature` = {explainMyAnswer, examQuestion,
 wrongAnswers, hardestQuestions} granted as XP level-up rewards;
 `remainingInvocation = premium ? Infinity : data?.explainMyAnswer ?? 0`.
+
+## Session 9 additions (2026-10-22 — class analytics / school reporting / MIS)
+
+Full contract in research/2026-10-22-class-analytics.md +
+captures/class-analytics/. Per-student envelopes captured using the
+teacher's own study history (no enrolled students needed).
+
+| Endpoint | Style | Notes |
+|---|---|---|
+| `GET stats…/api/stats/users` | JSON | caller's own aggregate (sessionsCompleted, totalStudyTime, sessionModules*, recentlyStudiedCourses[]) |
+| `GET stats…/api/stats/users/{uid}/windowed/courses?startTime&endTime[&withStatsGroupedByDateRanges=true][&lastKey]` | JSON | per-course windowed stats; 403 for non-context users; cursor-paged |
+| `POST stats…/api/stats/users/windowed/courses/{courseId}?startTime&endTime` `{userIds[],contextId?}` | JSON | **class-analytics core**; `stats` map keyed by userId; foreign uid → 403 |
+| `POST stats…/api/stats/sections/{sectionId}/enriched` `{userIds[],courseId,schoolId}` | JSON | per-user enriched section stats; 400 `{reason,pointer}` |
+| `GET stats…/api/stats/{courses\|sections\|contents}?ids=a,b,c` | JSON | **collection op-contract** — no-ids → 400 "Unknown operation requested" (Phase-2 mystery solved); returns server-stored `proficiency`/`score` per (user,course) |
+| `POST stats…/api/admin/stats/sections/aggregated` | JSON | 404 for free teacher (admin knowledge-gap path) |
+| `POST class…/api/classes/section-stats` `{courseId,schoolId,classIds[],sectionIds[],bestScoreThreshold:0.8}` | JSON | knowledge-gap aggregation; **500 on empty class** (UI hits it too) |
+| `GET class…/api/classes/me/{classId}` | JSON | detail path resolved (Phase-2 `/api/classes/{id}` 404 was a path miss): courseIds[], teachers[]+lastViewed, enrollments[] |
+| `GET class…/api/classes/skeletons/me?limit=100` | JSON | lightweight class pickers |
+| `POST class…/api/enrollments/me/classes/{classId}/last-viewed` | JSON | view tracking |
+| `POST school-analytics…/api/schoolAnalytics/me` `{classIds[],includeTargetGroupsData,dateRange:"last7",wholeSchoolReport,startDate,endDate}` | JSON | **201** async report; requestId; XLSX over S3 presigned (24 h) |
+| `GET school-analytics…/api/schoolAnalytics/me/{requestId}` | JSON | `{status:succeeded, downloadUrl, isMISEnabled, isPremium, meta}`; retry path `/retry/me` |
+| `GET user-info…/api/user-info/me` · `/api/user-prefs/me` | JSON | profile/prefs — **requires Origin/Referer allowlist** (bare curl → 403) |
+| `GET schools…/api/school-info/me` | JSON | 404 for standalone teacher (school-linked only) |
+
+Access control: stats authorize requester→target via class/school context
+(teacher-of); self allowed; foreign uid → `403 Not allowed to access this
+user's data`. Knowledge gap = section best-score < 0.8. MIS "School Sync" =
+sales lead form (`get-a-quote?formType=mis`), free-first-year bundle. Scheme
+of learning = premium AI concierge beta (upload-learning-scheme flag; email
+intake, no public endpoint). School Reports KPI cards render hard-coded
+demo constants (267 / 5h 33m / 73%) on empty schools.

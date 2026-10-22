@@ -127,3 +127,20 @@ call capture, JWT. Session-3's `chemistry-resources-metadata.jsonl.gz`
 Not committed (local-only): raw probe bodies (`probe-results/chatbot/`, token-free
 but kept out of git by policy), JWT (`/tmp`, removed), chunk corpus
 (`captures/js/`, 1,920 files incl. the dynamic-import closure the chat UI lives in).
+
+## Phase 2 session 9 additions (2026-10-22, class analytics / school reporting / MIS)
+
+| Path | What | Source |
+|---|---|---|
+| `class-analytics/endpoints-contract.json` | Master contract: 18 verified endpoints across stats/class/school-analytics/user-info/schools, access-control rule, empty-class behaviour matrix | network-instrumented teacher walkthrough + curl replays (≤1 req/s) |
+| `class-analytics/stats-windowed-envelope.json` | `GET /api/stats/users/{uid}/windowed/courses` populated response (2 courses, real study history) | live replay, teacher's own data |
+| `class-analytics/stats-multi-user-windowed-envelope.json` | `POST /api/stats/users/windowed/courses/{courseId}` — class-dashboard engine, `stats` keyed by userId | live replay |
+| `class-analytics/stats-course-aggregate-envelope.json` | `GET /api/stats/courses?ids=` — per-(user,course) aggregate with server-stored `proficiency`/`score` | live replay |
+| `class-analytics/section-stats-request-contract.json` | knowledge-gap aggregation request (bestScoreThreshold 0.8; section list truncated) | in-page fetch hook |
+| `class-analytics/school-analytics-report-contract.json` | async custom-report record: requestId, status, S3 presigned download (sketch), flags | live wizard run |
+| `class-analytics/custom-report-xlsx-structure.json` | generated report structure: 3 sheets (Students/Classes/Subjects) + column schema + empty-class error cell | OOXML inspection of the downloaded artifact |
+| `class-analytics/README.md` | redaction policy + provenance | this session |
+
+Not committed (local-only): raw probe bodies (`probe-results/s9/`), the XLSX
+binary artifact, JWT (`/tmp`, removed), chunk corpus (`captures/js/`, 1,920
+chunks re-derived to the recursive import closure).

@@ -106,9 +106,9 @@ assignment-flow endpoint set. Remaining items below.
       captures/chatbot/. Open remainder: short-answer marking payloads
       (AutoMarkType/LLM_MARKING_PROMPT_IDS discovered — Smart Mark
       family, needs a real marking event)
-- [~] Teacher flows: class (`/api/classes/me`), assignments
+- [x] Teacher flows: class (`/api/classes/me`), assignments
       (`/api/teacher/me/assignments*`, `/api/classes/{id}/assignments`),
-      tags/subjects funnel verified; analytics/MIS/report-cards open
+      tags/subjects funnel verified
       **Session 3 (2026-10-22): assignment CRUD contract fully cracked**
       — create (`POST /api/teacher/assignments` → 201), update
       (`PATCH /api/classes/{classId}/assignments/{id}`), delete
@@ -116,6 +116,17 @@ assignment-flow endpoint set. Remaining items below.
       cutoff = due+14d, aggregation blocks; see
       research/2026-10-22-assignments-model.md. Resource Hub also
       mapped (below).
+- [x] **Class analytics / school reporting (session 9, 2026-10-22): FULL
+      contracts** — stats-service op-contract (`?ids=` collections; windowed
+      per-user + multi-user `POST /api/stats/users/windowed/courses/{courseId}`
+      with context-scoped 403 access control), knowledge-gap machinery
+      (`POST class /api/classes/section-stats`, best-score threshold 0.8,
+      500-on-empty server bug), async custom-report pipeline
+      (`school-analytics` service → S3-presigned 3-sheet XLSX), class detail
+      path (`/api/classes/me/{id}`), user-info Origin-allowlist. MIS "School
+      Sync" = sales lead form only; Scheme of learning = premium AI
+      concierge beta (email intake). see
+      research/2026-10-22-class-analytics.md + captures/class-analytics/
 - [x] Resource Hub (sessions 3 + 7, 2026-10-22): `query-resources` ES
       contract, 132-tag taxonomy, 74-subject × type count matrix
       (207,629 resources), Edexcel iGCSE Chemistry section tree
