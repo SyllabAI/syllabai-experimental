@@ -1,0 +1,5 @@
+# Minified app chunks — re-fetchable public static assets (~5.8 MB).
+# Kept locally for analysis only; NOT committed (mirrors senecalearning posture).
+# Reproduce with: resources/scripts/fetch-app-bundles.sh
+*
+!.gitignore

@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
+<!-- Main Pages -->
+<url>
+<loc>https://znotes.org/</loc>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+
+<!-- Landing Pages -->
+<url>
+<loc>https://znotes.org/for/schools/</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/for/educators/</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<!-- Authentication Pages -->
+<url>
+<loc>https://znotes.org/login/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/register/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/register/student/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/register/educator/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<!-- Core Academic Content -->
+<url>
+<loc>https://znotes.org/subjects</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/skills</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/uni-guides/</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<!-- Premium Services -->
+<url>
+<loc>https://znotes.org/subscription</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/boost</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- Company Information -->
+<url>
+<loc>https://znotes.org/our-story</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/team</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/impact</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/testimonials</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/partners</loc>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<!-- Join/Career Pages -->
+<url>
+<loc>https://znotes.org/join</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/join/intern</loc>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/join/ambassador</loc>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/join/contributor</loc>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/join/expert</loc>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/join/partner</loc>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<!-- Support & Community -->
+<url>
+<loc>https://znotes.org/contribution</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/donate</loc>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<!-- Legal Pages -->
+<url>
+<loc>https://znotes.org/privacy</loc>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/terms</loc>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+
+<!-- ========== CAIE CONTENT ========== -->
+
+<!-- CAIE IGCSE -->
+<url>
+<loc>https://znotes.org/caie/igcse/food-and-nutrition-0648</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/latin-0480</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/pakistan-studies-0448</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/german-0525</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/sociology-0495</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/english-as-a-second-language</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/ict-0417</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/mathematics-0580</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/first-language-english-0500</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/biology-0610</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/chemistry-0620</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/literature-in-english-0475</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/additional-mathematics-0606</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/arabic-as-a-foreign-language-0544</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/business-studies-0450</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/economics-0455</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/islamiyat-0493</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/environmental-management-0680</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/physics-0625</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/geography-0460</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/history-0470</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/accounting-0452</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/mandarin-chinese-0547</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/french-0520</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/computer-science-0478</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/urdu-as-a-second-language-0539</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/design-and-technology-0445</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/international-mathematics-0607</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/co-ordinated-sciences-0654</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/spanish-as-a-foreign-language-0530</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/global-perspectives-0457</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/arabic-as-a-first-language-0508</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/enterprise-0454</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/hindi-as-a-second-language-0549</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/igcse/first-language-vietnamese-0695</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- CAIE AS Level -->
+<url>
+<loc>https://znotes.org/caie/as-level/law-9084</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/accounting-9706</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/english-literature-9695</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/history-9489</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/mathematics-9709</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/economics-9708</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/psychology-9990</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/chemistry-9701</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/it-9626</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/geography-9696</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/computer-science-9618</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/english-language-9093</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/physics-9702</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/further-mathematics-9231</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/biology-9700</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/business-9609</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/english-general-paper-8021</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/as-level/sociology-9699</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- CAIE A2 Level -->
+<url>
+<loc>https://znotes.org/caie/a2-level/business-9609</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/mathematics-9709</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/biology-9700</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/accounting-9706</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/computer-science-9618</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/economics-9708</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/psychology-9990</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/physics-9702</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/chemistry-9701</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/further-mathematics-9231</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/it-9626</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/geography-9696</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/a2-level/law-9084</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- CAIE Checkpoint -->
+<url>
+<loc>https://znotes.org/caie/checkpoint/esl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/checkpoint/english</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/checkpoint/science</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/checkpoint/mathematics</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<!-- CAIE O Level -->
+<url>
+<loc>https://znotes.org/caie/o-level/bengali-3204</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/o-level/english-language-1123</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/o-level/mathematics-4024</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/caie/o-level/bangladesh-studies-7094</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+
+
+<!-- ========== IB CONTENT ========== -->
+
+<!-- IB Diploma Programme -->
+<url>
+<loc>https://znotes.org/ib/diploma-programme/mathematics-application-and-approaches-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/economics-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/mathematics-application-and-approaches-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/biology-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/history-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/psychology</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/physics-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/physics-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/chemistry-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/spanish-ab-initio-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/global-politics-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/economics-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/chemistry-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/computer-science-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/biology-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/english-language-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/english-language-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/history-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/environmental-systems-and-societies-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/mathematics-applications-and-interpretation-hl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/diploma-programme/mathematics-applications-and-interpretation-sl</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- IB Middle Years Program -->
+<url>
+<loc>https://znotes.org/ib/middle-years-program/biology</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/middle-years-program/mathematics</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/middle-years-program/english</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/middle-years-program/physics</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/middle-years-program/chemistry</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/middle-years-program/integrated-humanities</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/ib/middle-years-program/spanish</loc>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<!-- ========== EDEXCEL CONTENT ========== -->
+
+<!-- Edexcel IGCSE -->
+<url>
+<loc>https://znotes.org/edexcel/igcse/economics</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/igcse/physics-4ph1</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/igcse/history</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/igcse/biology-4bi1</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/igcse/business-4bs1</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/igcse/psychology-1ps0</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/igcse/chemistry-4ch1</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/igcse/accounting-4ac1</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- Edexcel International A Level -->
+<url>
+<loc>https://znotes.org/edexcel/international-a-level/physics-xph11-and-yph11</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/international-a-level/biology</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/international-a-level/chemistry</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/international-a-level/maths</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://znotes.org/edexcel/international-a-level/political-science-9pl0</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+
+  <url>
+    <loc>https://znotes.org/waec/wassce/biology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/igcse/co-ordinated-sciences-0654</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/creativity/creative-writing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/business-and-finance/economics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/middle-years-program/integrated-humanities</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/igcse/spanish-as-a-foreign-language-0530</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/igcse/global-perspectives-0457</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/college-board/ap/japanese</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/college-board/ap/physics-1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/igcse/arabic-as-a-first-language-0508</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/careers/power-up-your-skills-to-lead</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/business-and-finance/accounting-and-finance</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/business-and-finance/management-business</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/engineering-and-technology/engineering</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/engineering-and-technology/civil-engineering</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/engineering-and-technology/electrical-and-electronic-engineering</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/engineering-and-technology/mechanical-engineering</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/engineering-and-technology/chemical-engineering</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/engineering-and-technology/computer-science</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/engineering-and-technology/architecture</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/health-sciences/medicine</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/health-sciences/biomedical-sciences</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/health-sciences/dentistry</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/health-sciences/veterinary-medicine</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/health-sciences/psychology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/health-sciences/neuroscience</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/natural-sciences/mathematics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/natural-sciences/physics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/natural-sciences/biology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/natural-sciences/chemistry</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/arts-and-humanities/english</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/arts-and-humanities/french</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/arts-and-humanities/linguistics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/arts-and-humanities/history</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/arts-and-humanities/philosophy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/arts-and-humanities/theology-and-religious-studies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/sociology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/anthropology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/education</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/geography</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/law</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/politics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/hspspolitics-and-social-sciences</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/uni-guide/social-sciences/ppe-philosophy-politics-and-economics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/waec/wassce/mathematics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/waec/wassce/chemistry</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/edexcel/gcse/physics-1ph0</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/sat/math</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/school/change-catalysts</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/o-level/bengali-3204</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/college-board/ap/english-literature</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/ecat/iq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/ecat/mathematics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/ecat/physics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/ecat/english</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/o-level/english-language-1123</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/o-level/mathematics-4024</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/igcse/enterprise-0454</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/offical-language-exams/a1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/offical-language-exams/a2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/offical-language-exams/b1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/offical-language-exams/b2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/economics-hl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/edexcel/international-a-level/english-literature</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/college-board/ap/computer-science-a</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/college-board/ap/european-history</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/middle-years-program/spanish</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/sat/reading-and-writing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/cbse/class-xi/computer-science</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/edexcel/international-a-level/further-math</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/careers/getting-a-job-at-the-un</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/edexcel/igcse/accounting-4ac1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/fbise/hssc-2/physics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/ecat/university-exam-patterns</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/university-admission-resources/oxford/pat</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/college-board/ap/biology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/o-level/bangladesh-studies-7094</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/chemistry-hl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/careers/learning-to-learn-executive-function-skills</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/computer-science-hl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/careers/znotes-teacher-training-and-professional-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/biology-hl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/english-language-hl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/english-language-sl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/history-hl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/environmental-systems-and-societies-sl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/edexcel/international-a-level/business-xbs01</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/mathematics-applications-and-interpretation-hl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/ib/diploma-programme/mathematics-applications-and-interpretation-sl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/igcse/hindi-as-a-second-language-0549</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/careers/znotes-onboarding-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/oxfordaqa/ias/chemistry-9620</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/skills/careers/project-management-for-changemakers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/cbse/class-xii/biology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/aqa/a-level/history-7042</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/caie/igcse/first-language-vietnamese-0695</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://znotes.org/edexcel/international-a-level/political-science-9pl0</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

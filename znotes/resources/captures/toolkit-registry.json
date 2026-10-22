@@ -1,0 +1,79 @@
+{
+  "capture": "2026-10-22",
+  "method": "static analysis of public app bundles (anonymous, no account)",
+  "sources": {
+    "main_bundle": "assets/app-D0RKGZIv.js",
+    "dashboard_chunk": "assets/index-D157Rw1H.js",
+    "components_chunk": "assets/styles-Cbdz7pEk.js",
+    "boost_chunk": "assets/index-t7YzLEaD.js",
+    "educators_chunk": "assets/educators-C4gTZwu-.js"
+  },
+  "api_base": "https://api.znotes.org",
+  "toolkit_registry": [
+    { "id": "lesson-plan-generator", "title": "Lesson Plan Generator", "type": "lesson-plan-generator", "iconColor": "#E25881" },
+    { "id": "rubric-generator", "title": "Rubric Developer", "type": "rubric-generator", "iconColor": "#F89900" },
+    { "id": "sow-generator", "title": "Curriculum Mapper", "type": "sow-generator", "iconColor": "#26B3E8" },
+    { "id": "clarify-challenge", "title": "Learning Coach", "type": "clarify-challenge", "iconColor": "#49B081" }
+  ],
+  "endpoints": {
+    "submit": "POST /api/znotes-educator-ai { type, userId, data }",
+    "poll": "GET /api/educator-ai/responses/{responseId}",
+    "list": "GET /api/educator-ai/responses?userId={id}&limit=50"
+  },
+  "async_protocol": {
+    "statuses": ["pending", "processing", "success", "error"],
+    "poll_interval_ms": 20000,
+    "timeout_ms": 300000,
+    "events": ["educator-ai-resource-created", "educator-ai-response-completed"],
+    "deep_link": "/?panel=educator-ai&responseId={id}"
+  },
+  "quota": { "FREE": 5, "PLUS": 100, "counters": ["educatorAiUsageCount", "lifetimeEducatorAiUsageCount"], "plus_plan": "boosterPlus" },
+  "context_source": {
+    "boards": "GET /v1/boards",
+    "modules": "GET /v1/modules?subject={id}",
+    "chapters_with_cards": "GET /v1/chapters/withCards/dashboard",
+    "url_sniff": "/{board}/{level}/{subject}/... excludes dashboard|content|skills|booster|register|login|profile|settings"
+  },
+  "payloads": {
+    "lesson-plan-generator": {
+      "required": ["subject", "subjectId", "module", "moduleId", "topic", "duration(30-60)", "learningObjectives(auto=chapter.outcomes)"],
+      "optional": ["teachingStyle", "studentAbility", "assessmentPreference", "homework(Yes|No)"]
+    },
+    "sow-generator": {
+      "required": ["subject", "subjectId", "module", "moduleId", "topic", "board", "level", "totalLessons(1-5)", "lessonDuration(30-180)", "userPreferences.difficultyLevel(foundation|intermediate|advanced)", "userPreferences.emphasisAreas[>=1]"],
+      "optional": ["userPreferences.teachingApproach"]
+    },
+    "rubric-generator": {
+      "required": ["subject", "subjectId", "module", "moduleId", "assignmentType(16 presets)", "taskDescription", "assessmentType(10 presets)", "topic(chapter)", "marksPerCriterion(4|5|8|10|12|20|25)", "criteria[>=1 of 16 presets]"]
+    },
+    "clarify-challenge": {
+      "required": ["subject", "subjectId", "module", "moduleId", "type(clarify|challenge)", "audience(beginner|intermediate|advanced|teacher|parent)", "inputText(typed OR full notes-card content)"]
+    }
+  },
+  "output_schemas": {
+    "lesson-plan-generator": "output.lessonPlan | output.lessonOptions[0]; overview + starterActivity{duration,description,materials,instructions} + mainActivities[{duration,description,materials,instructions,differentiation{}}] + plenary + homework",
+    "sow-generator": "output.overarchingObjectives[] + output.lessons[{lessonNumber,title,duration,learningObjectives[],activities[{title,description,resources[]}],crossCurricularLinks[]}]",
+    "rubric-generator": "output.metadata{topic,subject,assignmentType,assessmentType,assessor,marksPerCriterion,assignmentPurpose,submissionFormat,criteriaAssessed,performanceScale} + output.rubric.criteria[{name,levels{Exceptional|Advancing|Basic|Emerging}}] + moderationGuidance[]",
+    "clarify-challenge": "explanatory body + meta(type,subject,audience)"
+  },
+  "exports": ["pdf", "docx", "csv", "json"],
+  "exports_mechanism": "client-side (docx + JSZip bundled)",
+  "presets": {
+    "assignmentTypes": ["Essay", "Research Project", "Presentation", "Poster", "Lab Report", "Report", "Practical Investigation", "Case Study", "Debate", "Portfolio", "Creative Writing", "Prototype / Design Task", "Problem-Solving Task", "Reflection", "Group Project", "Multimedia Project"],
+    "assessmentTypes_rubric": ["Formative Assessment", "Summative Assessment", "Observation", "Oral Questioning", "Quiz", "Exit Ticket", "Peer Assessment", "Self Assessment", "Performance Task", "Teacher Assessment"],
+    "assessmentTypes_lessonPlan": ["Formative Assessment", "Summative Assessment", "Observation", "Oral Questioning", "Quiz", "Exit Ticket", "Peer Assessment", "Self Assessment", "Performance Task"],
+    "criteria": ["Knowledge & Understanding", "Accuracy", "Application", "Analysis", "Evaluation", "Critical Thinking", "Problem Solving", "Creativity", "Communication", "Organisation", "Research", "Use of Evidence", "Presentation", "Teamwork", "Practical Skills", "Reflection"],
+    "marksPerCriterion": [4, 5, 8, 10, 12, 20, 25],
+    "teachingStyles": ["Teacher-led", "Student-centred", "Inquiry-based", "Discussion-based", "Project-based Learning (PBL)", "Collaborative Learning", "Hands-on / Practical", "Flipped Classroom", "Blended Learning"],
+    "teachingApproaches_sow": ["Traditional", "Inquiry-Based", "Project-Based Learning", "Collaborative Learning", "Problem-Based Learning", "Discussion-Based", "Practical / Hands-on", "Blended Learning"],
+    "studentAbility": ["Mixed Ability", "Developing", "Intermediate", "Advanced"],
+    "difficultyLevels": ["Foundation", "Intermediate", "Advanced"],
+    "emphasisAreas": ["Critical Thinking", "Problem Solving", "Creativity", "Communication", "Collaboration", "Digital Literacy", "Research Skills", "Inquiry Skills", "Real-world Applications", "Practical Skills", "Scientific Thinking", "Mathematical Reasoning", "Literacy", "Numeracy", "Sustainability", "Global Citizenship", "Ethics", "Careers & Future Skills", "Independent Learning", "Metacognition"],
+    "audiences": ["Beginner", "Intermediate", "Advanced", "Teacher", "Parent"]
+  },
+  "auth_probe": {
+    "endpoint": "POST /v2/auth/login",
+    "observed_401": "{\"message\":\"INCORRECT_PASSWORD\"}",
+    "note": "supplied teacher credentials rejected; phase-2 walkthrough blocked"
+  }
+}
