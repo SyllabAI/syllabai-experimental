@@ -59,16 +59,26 @@ no-ops into a wedged Livewire commit bus (Alpine `filterResults` re-init race)
 and pagination silently dies. Loading the page and paginating directly works
 reliably for all 54 pages.
 
-### 3. Per-subject question harvest with a legitimate account
+### 3. Per-subject question harvest with a logged-in session
 
-The crawler does not implement login. To extend per-subject coverage:
+**Implemented 2026-10-22.** The blocker on non-default subjects is
+anonymous-session-specific: with any authenticated account (even one showing
+"You are not subscribed"), the apply-button path (`subjectID` `$set` →
+`.filter-button` click) and deep-link navigation both serve the subject's
+list. Recipe as executed for 4CH1 (`scripts/exam_mate_harvest_4ch1.py`,
+adapt `select_subject()` for any `categoryID`/`subjectID`):
 
-1. Log in manually in a headed browser, export storage state, and point
-   `ExamMateClient` at it (`restore_state=True` + your state file).
-2. Run per subject: the list-reload limitation observed anonymously is
-   subscription-gated server behaviour; a subscribed session is the intended
-   path for it.
-3. Respect the subscription's own limits — the 403 message is the boundary.
+1. Log in once via `scripts/exam_mate_login.py` (credentials in
+   `exam-mate-probe/creds.json`, git-ignored; session state saved to
+   `exam-mate-probe/auth_state.json` and propagated to the client state).
+2. `Crawler(fresh_session=False)` restores the authenticated cookies.
+3. Select category/subject, click the apply button, then
+   `Crawler.harvest_subject(cat, subj, state, resp_marker=...)` —
+   meta.json + questions.jsonl per subject.
+4. Bulk images: `python3 exam-mate/scripts/exam_mate_image_bulk.py --phase all
+   --subject-dir topical/<cat>_<label>/<subj>_<label>_`.
+
+Respect the subscription's own limits — the 403 message is the boundary.
 
 ### 4. Question-image bulk downloader (executed 2026-10-22)
 

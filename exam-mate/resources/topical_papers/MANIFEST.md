@@ -14,6 +14,7 @@ and `scripts/`).
 | `topical/3_IGCSE/11_Additional_Mathematics_0606_/meta.json` | Subject 11 filter metadata snapshot at harvest time | — |
 | `topical/3_IGCSE/11_Additional_Mathematics_0606_/questions.jsonl` | Every question of CIE IGCSE Additional Mathematics 0606 (the site's default subject), one JSON per line: `qid`, `eventKey`, `page`, `payload{question_images[], answer_images[], mcq_answer, topics, question_text, answer_text}` | **1,333 questions** (= the site's own total badge), 1,579 question-image URLs, 1,509 answer-image URLs, 1,333 MCQ answers, 28 distinct topic strings |
 | `topical/3_IGCSE/11_Additional_Mathematics_0606_/images/` | **Complete image set + per-image metadata ledger** (`INDEX.jsonl`: sha256, bytes, dimensions, both site id spaces, paper_ref, topics, MCQ answer, download timestamp) + derived views `by_paper.json` / `by_topic.json` + `MANIFEST.md` | 3,087/3,088 PNGs (64.96 MB), 1 origin-404 recorded |
+| `topical/21_IGCSE_9-1_/614_Chemistry_9-1_4CH1_/` | **Edexcel IGCSE Chemistry 9-1 (4CH1)** — first logged-in harvest (apply-button path; account shows "not subscribed" but list serving works): meta.json + questions.jsonl (all MCQ-paper questions, Summer 2019) + complete `images/` set with the same ledger structure | **40/40 questions**, 73 q + 77 a images = **150/150 PNGs** (14.01 MB), all 40 MCQ-answered |
 
 ## Provenance & integrity notes
 

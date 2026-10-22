@@ -1,0 +1,840 @@
+{
+ "_note": "Derived view of INDEX.jsonl — provenance lives there.",
+ "source": "exam-mate.com TOPICAL PAST PAPERS (see images/MANIFEST.md for the subject this folder belongs to)",
+ "generated_at": "2026-10-22T01:41:06Z",
+ "images_dir": "images/",
+ "url_reconstruction": "https://www.exam-mate.com/<file>",
+ "_kind": "by_paper",
+ "papers": {
+  "4CH1/1C_Summer_2019_Q1": {
+   "qid": 120032,
+   "page": 2,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "1"
+   },
+   "question_images": [
+    "questions/33163/122443/33163_q_122443_1_1.png",
+    "questions/33163/122443/33163_q_122443_1_2.png"
+   ],
+   "answer_images": [
+    "questions/33163/122443/33163_a_122443_1_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q2": {
+   "qid": 120033,
+   "page": 2,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "2"
+   },
+   "question_images": [
+    "questions/33163/122444/33163_q_122444_2_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122444/33163_a_122444_2_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q3": {
+   "qid": 120035,
+   "page": 2,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "3"
+   },
+   "question_images": [
+    "questions/33163/122446/33163_q_122446_3_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122446/33163_a_122446_3_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q4": {
+   "qid": 120036,
+   "page": 2,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "4"
+   },
+   "question_images": [
+    "questions/33163/122447/33163_q_122447_4_1.png",
+    "questions/33163/122447/33163_q_122447_4_2.png"
+   ],
+   "answer_images": [
+    "questions/33163/122447/33163_a_122447_4_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q5": {
+   "qid": 120038,
+   "page": 2,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "5"
+   },
+   "question_images": [
+    "questions/33163/122449/33163_q_122449_5_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122449/33163_a_122449_5_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q6": {
+   "qid": 120039,
+   "page": 2,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "6"
+   },
+   "question_images": [
+    "questions/33163/122450/33163_q_122450_6_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122450/33163_a_122450_6_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q7": {
+   "qid": 120040,
+   "page": 2,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "7"
+   },
+   "question_images": [
+    "questions/33163/122451/33163_q_122451_7_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122451/33163_a_122451_7_1.png",
+    "questions/33163/122451/33163_a_122451_7_2.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q8": {
+   "qid": 120041,
+   "page": 2,
+   "topics": "Organic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "8"
+   },
+   "question_images": [
+    "questions/33163/122452/33163_q_122452_8_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122452/33163_a_122452_8_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q9": {
+   "qid": 120043,
+   "page": 2,
+   "topics": "Inorganic Chemistry, Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "9"
+   },
+   "question_images": [
+    "questions/33163/122454/33163_q_122454_9_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122454/33163_a_122454_9_1.png",
+    "questions/33163/122454/33163_a_122454_9_2.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q10": {
+   "qid": 120044,
+   "page": 2,
+   "topics": "Organic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "10"
+   },
+   "question_images": [
+    "questions/33163/122455/33163_q_122455_10_1.png"
+   ],
+   "answer_images": [
+    "questions/33163/122455/33163_a_122455_10_1.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q11": {
+   "qid": 120046,
+   "page": 2,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "11"
+   },
+   "question_images": [
+    "questions/33163/122457/33163_q_122457_11_1.png",
+    "questions/33163/122457/33163_q_122457_11_2.png"
+   ],
+   "answer_images": [
+    "questions/33163/122457/33163_a_122457_11_1.png",
+    "questions/33163/122457/33163_a_122457_11_2.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q12": {
+   "qid": 120048,
+   "page": 2,
+   "topics": "Physical Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "12"
+   },
+   "question_images": [
+    "questions/33163/122459/33163_q_122459_12_1.png",
+    "questions/33163/122459/33163_q_122459_12_2.png"
+   ],
+   "answer_images": [
+    "questions/33163/122459/33163_a_122459_12_1.png",
+    "questions/33163/122459/33163_a_122459_12_2.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q13": {
+   "qid": 120049,
+   "page": 2,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "13"
+   },
+   "question_images": [
+    "questions/33163/122460/33163_q_122460_13_1.png",
+    "questions/33163/122460/33163_q_122460_13_2.png",
+    "questions/33163/122460/33163_q_122460_13_3.png"
+   ],
+   "answer_images": [
+    "questions/33163/122460/33163_a_122460_13_1.png",
+    "questions/33163/122460/33163_a_122460_13_2.png",
+    "questions/33163/122460/33163_a_122460_13_3.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q14": {
+   "qid": 120051,
+   "page": 2,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "14"
+   },
+   "question_images": [
+    "questions/33163/122462/33163_q_122462_14_1.png",
+    "questions/33163/122462/33163_q_122462_14_2.png",
+    "questions/33163/122462/33163_q_122462_14_3.png"
+   ],
+   "answer_images": [
+    "questions/33163/122462/33163_a_122462_14_1.png",
+    "questions/33163/122462/33163_a_122462_14_2.png",
+    "questions/33163/122462/33163_a_122462_14_3.png"
+   ]
+  },
+  "4CH1/1C_Summer_2019_Q15": {
+   "qid": 120052,
+   "page": 2,
+   "topics": "Physical Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "15"
+   },
+   "question_images": [
+    "questions/33163/122463/33163_q_122463_15_1.png",
+    "questions/33163/122463/33163_q_122463_15_2.png"
+   ],
+   "answer_images": [
+    "questions/33163/122463/33163_a_122463_15_1.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q1": {
+   "qid": 120057,
+   "page": 1,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "1"
+   },
+   "question_images": [
+    "questions/33165/122468/33165_q_122468_1_1.png"
+   ],
+   "answer_images": [
+    "questions/33165/122468/33165_a_122468_1_1.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q2": {
+   "qid": 120058,
+   "page": 1,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "2"
+   },
+   "question_images": [
+    "questions/33165/122469/33165_q_122469_2_1.png"
+   ],
+   "answer_images": [
+    "questions/33165/122469/33165_a_122469_2_1.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q3": {
+   "qid": 120059,
+   "page": 1,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "3"
+   },
+   "question_images": [
+    "questions/33165/122470/33165_q_122470_3_1.png",
+    "questions/33165/122470/33165_q_122470_3_2.png",
+    "questions/33165/122470/33165_q_122470_3_3.png"
+   ],
+   "answer_images": [
+    "questions/33165/122470/33165_a_122470_3_1.png",
+    "questions/33165/122470/33165_a_122470_3_2.png",
+    "questions/33165/122470/33165_a_122470_3_3.png",
+    "questions/33165/122470/33165_a_122470_3_4.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q4": {
+   "qid": 120060,
+   "page": 1,
+   "topics": "Organic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "4"
+   },
+   "question_images": [
+    "questions/33165/122471/33165_q_122471_4_1.png",
+    "questions/33165/122471/33165_q_122471_4_2.png"
+   ],
+   "answer_images": [
+    "questions/33165/122471/33165_a_122471_4_1.png",
+    "questions/33165/122471/33165_a_122471_4_2.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q5": {
+   "qid": 120061,
+   "page": 1,
+   "topics": "Physical Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "5"
+   },
+   "question_images": [
+    "questions/33165/122472/33165_q_122472_5_1.png",
+    "questions/33165/122472/33165_q_122472_5_2.png",
+    "questions/33165/122472/33165_q_122472_5_3.png"
+   ],
+   "answer_images": [
+    "questions/33165/122472/33165_a_122472_5_1.png",
+    "questions/33165/122472/33165_a_122472_5_2.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q6": {
+   "qid": 120062,
+   "page": 1,
+   "topics": "Physical Chemistry, Organic Chemistry, Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "6"
+   },
+   "question_images": [
+    "questions/33165/122473/33165_q_122473_6_1.png",
+    "questions/33165/122473/33165_q_122473_6_2.png"
+   ],
+   "answer_images": [
+    "questions/33165/122473/33165_a_122473_6_1.png",
+    "questions/33165/122473/33165_a_122473_6_2.png",
+    "questions/33165/122473/33165_a_122473_6_3.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q7": {
+   "qid": 120063,
+   "page": 1,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "7"
+   },
+   "question_images": [
+    "questions/33165/122474/33165_q_122474_7_1.png",
+    "questions/33165/122474/33165_q_122474_7_2.png"
+   ],
+   "answer_images": [
+    "questions/33165/122474/33165_a_122474_7_1.png",
+    "questions/33165/122474/33165_a_122474_7_2.png",
+    "questions/33165/122474/33165_a_122474_7_3.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q8": {
+   "qid": 120064,
+   "page": 1,
+   "topics": "Physical Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "8"
+   },
+   "question_images": [
+    "questions/33165/122475/33165_q_122475_8_1.png",
+    "questions/33165/122475/33165_q_122475_8_2.png"
+   ],
+   "answer_images": [
+    "questions/33165/122475/33165_a_122475_8_1.png",
+    "questions/33165/122475/33165_a_122475_8_2.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q9": {
+   "qid": 120065,
+   "page": 1,
+   "topics": "Organic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "9"
+   },
+   "question_images": [
+    "questions/33165/122476/33165_q_122476_9_1.png",
+    "questions/33165/122476/33165_q_122476_9_2.png"
+   ],
+   "answer_images": [
+    "questions/33165/122476/33165_a_122476_9_1.png",
+    "questions/33165/122476/33165_a_122476_9_2.png",
+    "questions/33165/122476/33165_a_122476_9_3.png"
+   ]
+  },
+  "4CH1/1CR_Summer_2019_Q10": {
+   "qid": 120067,
+   "page": 1,
+   "topics": "Physical Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "1CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "10"
+   },
+   "question_images": [
+    "questions/33165/122478/33165_q_122478_10_1.png",
+    "questions/33165/122478/33165_q_122478_10_2.png"
+   ],
+   "answer_images": [
+    "questions/33165/122478/33165_a_122478_10_1.png",
+    "questions/33165/122478/33165_a_122478_10_2.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q1": {
+   "qid": 120078,
+   "page": 1,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "1"
+   },
+   "question_images": [
+    "questions/33166/122489/33166_q_122489_1_1.png"
+   ],
+   "answer_images": [
+    "questions/33166/122489/33166_a_122489_1_1.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q2": {
+   "qid": 120079,
+   "page": 1,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "2"
+   },
+   "question_images": [
+    "questions/33166/122490/33166_q_122490_2_1.png"
+   ],
+   "answer_images": [
+    "questions/33166/122490/33166_a_122490_2_1.png",
+    "questions/33166/122490/33166_a_122490_2_2.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q3": {
+   "qid": 120080,
+   "page": 1,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "3"
+   },
+   "question_images": [
+    "questions/33166/122491/33166_q_122491_3_1.png",
+    "questions/33166/122491/33166_q_122491_3_2.png"
+   ],
+   "answer_images": [
+    "questions/33166/122491/33166_a_122491_3_1.png",
+    "questions/33166/122491/33166_a_122491_3_2.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q4": {
+   "qid": 120081,
+   "page": 1,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "4"
+   },
+   "question_images": [
+    "questions/33166/122492/33166_q_122492_4_1.png",
+    "questions/33166/122492/33166_q_122492_4_2.png"
+   ],
+   "answer_images": [
+    "questions/33166/122492/33166_a_122492_4_1.png",
+    "questions/33166/122492/33166_a_122492_4_2.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q5": {
+   "qid": 120082,
+   "page": 1,
+   "topics": "Physical Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "5"
+   },
+   "question_images": [
+    "questions/33166/122493/33166_q_122493_5_1.png",
+    "questions/33166/122493/33166_q_122493_5_2.png",
+    "questions/33166/122493/33166_q_122493_5_3.png"
+   ],
+   "answer_images": [
+    "questions/33166/122493/33166_a_122493_5_1.png",
+    "questions/33166/122493/33166_a_122493_5_2.png",
+    "questions/33166/122493/33166_a_122493_5_3.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q6": {
+   "qid": 120083,
+   "page": 1,
+   "topics": "Organic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "6"
+   },
+   "question_images": [
+    "questions/33166/122494/33166_q_122494_6_1.png",
+    "questions/33166/122494/33166_q_122494_6_2.png"
+   ],
+   "answer_images": [
+    "questions/33166/122494/33166_a_122494_6_1.png",
+    "questions/33166/122494/33166_a_122494_6_2.png",
+    "questions/33166/122494/33166_a_122494_6_3.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q7": {
+   "qid": 120084,
+   "page": 1,
+   "topics": "Physical Chemistry, Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "7"
+   },
+   "question_images": [
+    "questions/33166/122495/33166_q_122495_7_1.png",
+    "questions/33166/122495/33166_q_122495_7_2.png"
+   ],
+   "answer_images": [
+    "questions/33166/122495/33166_a_122495_7_1.png",
+    "questions/33166/122495/33166_a_122495_7_2.png",
+    "questions/33166/122495/33166_a_122495_7_3.png"
+   ]
+  },
+  "4CH1/2C_Summer_2019_Q8": {
+   "qid": 120085,
+   "page": 1,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2C",
+    "season": "Summer",
+    "year": "2019",
+    "question": "8"
+   },
+   "question_images": [
+    "questions/33166/122496/33166_q_122496_8_1.png"
+   ],
+   "answer_images": [
+    "questions/33166/122496/33166_a_122496_8_1.png"
+   ]
+  },
+  "4CH1/2CR_Summer_2019_Q1": {
+   "qid": 120086,
+   "page": 1,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "1"
+   },
+   "question_images": [
+    "questions/33167/122497/33167_q_122497_1_1.png"
+   ],
+   "answer_images": [
+    "questions/33167/122497/33167_a_122497_1_1.png"
+   ]
+  },
+  "4CH1/2CR_Summer_2019_Q2": {
+   "qid": 120087,
+   "page": 1,
+   "topics": "Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "2"
+   },
+   "question_images": [
+    "questions/33167/122498/33167_q_122498_2_1.png",
+    "questions/33167/122498/33167_q_122498_2_2.png"
+   ],
+   "answer_images": [
+    "questions/33167/122498/33167_a_122498_2_1.png"
+   ]
+  },
+  "4CH1/2CR_Summer_2019_Q3": {
+   "qid": 120096,
+   "page": 1,
+   "topics": "Organic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "3"
+   },
+   "question_images": [
+    "questions/33167/122507/33167_q_122507_3_1.png",
+    "questions/33167/122507/33167_q_122507_3_2.png"
+   ],
+   "answer_images": [
+    "questions/33167/122507/33167_a_122507_3_1.png"
+   ]
+  },
+  "4CH1/2CR_Summer_2019_Q4": {
+   "qid": 120097,
+   "page": 1,
+   "topics": "Inorganic Chemistry, Principles Of Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "4"
+   },
+   "question_images": [
+    "questions/33167/122508/33167_q_122508_4_1.png",
+    "questions/33167/122508/33167_q_122508_4_2.png",
+    "questions/33167/122508/33167_q_122508_4_3.png"
+   ],
+   "answer_images": [
+    "questions/33167/122508/33167_a_122508_4_1.png",
+    "questions/33167/122508/33167_a_122508_4_2.png",
+    "questions/33167/122508/33167_a_122508_4_3.png",
+    "questions/33167/122508/33167_a_122508_4_4.png"
+   ]
+  },
+  "4CH1/2CR_Summer_2019_Q5": {
+   "qid": 120099,
+   "page": 1,
+   "topics": "Organic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "5"
+   },
+   "question_images": [
+    "questions/33167/122510/33167_q_122510_5_1.png",
+    "questions/33167/122510/33167_q_122510_5_2.png"
+   ],
+   "answer_images": [
+    "questions/33167/122510/33167_a_122510_5_1.png",
+    "questions/33167/122510/33167_a_122510_5_2.png"
+   ]
+  },
+  "4CH1/2CR_Summer_2019_Q6": {
+   "qid": 120101,
+   "page": 1,
+   "topics": "Inorganic Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "6"
+   },
+   "question_images": [
+    "questions/33167/122512/33167_q_122512_6_1.png",
+    "questions/33167/122512/33167_q_122512_6_2.png",
+    "questions/33167/122512/33167_q_122512_6_3.png"
+   ],
+   "answer_images": [
+    "questions/33167/122512/33167_a_122512_6_1.png",
+    "questions/33167/122512/33167_a_122512_6_2.png",
+    "questions/33167/122512/33167_a_122512_6_3.png"
+   ]
+  },
+  "4CH1/2CR_Summer_2019_Q7": {
+   "qid": 120103,
+   "page": 1,
+   "topics": "Physical Chemistry",
+   "mcq_answer": "A",
+   "parsed": {
+    "syllabus": "4CH1",
+    "paper": "2CR",
+    "season": "Summer",
+    "year": "2019",
+    "question": "7"
+   },
+   "question_images": [
+    "questions/33167/122514/33167_q_122514_7_1.png",
+    "questions/33167/122514/33167_q_122514_7_2.png"
+   ],
+   "answer_images": [
+    "questions/33167/122514/33167_a_122514_7_1.png",
+    "questions/33167/122514/33167_a_122514_7_2.png"
+   ]
+  }
+ }
+}

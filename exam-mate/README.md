@@ -31,6 +31,14 @@ Completed 2026-10-22. Highlights:
   per-image SHA-256 + metadata ledger (`INDEX.jsonl`) and derived
   by-paper / by-topic views →
   `resources/topical_papers/topical/3_IGCSE/11_Additional_Mathematics_0606_/images/`.
+- **Logged-in session unlocks non-default subjects (2026-10-22)** — with any
+  authenticated account (even "not subscribed"), the apply-button and
+  deep-link paths serve other subjects' lists (the anonymous blocker is
+  session-specific; subscription only gates exports/MCQ products). First
+  logged-in harvest: **Edexcel IGCSE Chemistry 9-1 (4CH1)** — the SyllabAI
+  Cycle 1 subject — 40/40 questions + 150/150 images with full ledger →
+  `resources/topical_papers/topical/21_IGCSE_9-1_/614_Chemistry_9-1_4CH1_/`.
+  Probed counts: 4CH0 = 419, CIE 0620 = 6,398 (not yet harvested).
 - **Gating model documented** — question-list serving is metered per session
   (403 "request limit or no active subscription"); the crawler detects it and
   stops cleanly.

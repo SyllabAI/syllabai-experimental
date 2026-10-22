@@ -34,9 +34,10 @@ sys.path.insert(0, HERE)
 from exam_mate_client import ExamMateClient  # noqa: E402
 
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
-SUBJECT_DIR = os.path.join(
-    REPO, "exam-mate", "resources", "topical_papers", "topical",
-    "3_IGCSE", "11_Additional_Mathematics_0606_")
+TP = os.path.join(REPO, "exam-mate", "resources", "topical_papers")
+DEFAULT_SUBJECT_DIR = os.path.join(
+    TP, "topical", "3_IGCSE", "11_Additional_Mathematics_0606_")
+SUBJECT_DIR = DEFAULT_SUBJECT_DIR  # overridable via --subject-dir
 QUESTIONS = os.path.join(SUBJECT_DIR, "questions.jsonl")
 IMAGES_DIR = os.path.join(SUBJECT_DIR, "images")
 INDEX_PATH = os.path.join(IMAGES_DIR, "INDEX.jsonl")
@@ -91,6 +92,15 @@ def parse_paper_ref(text):
         return None
     return {"syllabus": m.group(1), "paper": m.group(2),
             "season": m.group(3), "year": m.group(4), "question": m.group(5)}
+
+
+def set_subject_dir(path):
+    global SUBJECT_DIR, QUESTIONS, IMAGES_DIR, INDEX_PATH, SAMPLES_DIR
+    SUBJECT_DIR = path if os.path.isabs(path) else os.path.join(TP, path)
+    QUESTIONS = os.path.join(SUBJECT_DIR, "questions.jsonl")
+    IMAGES_DIR = os.path.join(SUBJECT_DIR, "images")
+    INDEX_PATH = os.path.join(IMAGES_DIR, "INDEX.jsonl")
+    SAMPLES_DIR = os.path.join(SUBJECT_DIR, "image_samples")
 
 
 def build_tasks():
@@ -279,6 +289,100 @@ def phase_download(batch, delay, limit):
 
 # ---------------------------------------------------------------- organize --
 
+def write_manifest(entries, summary_obj):
+    """Auto-generate images/MANIFEST.md for any subject dir."""
+    meta = {}
+    mp = os.path.join(SUBJECT_DIR, "meta.json")
+    if os.path.exists(mp):
+        meta = json.load(open(mp))
+    cat = meta.get("category", {})
+    subj = meta.get("subject", {})
+    n_q = sum(1 for e in entries if e["kind"] == "question")
+    n_a = sum(1 for e in entries if e["kind"] == "answer")
+    n_bad = sum(1 for e in entries if e.get("bytes") == 0)
+    total_mb = sum(e["bytes"] for e in entries) / 1e6
+    refs = sorted({e.get("paper_ref") or "?" for e in entries})
+    years = sorted({(e.get("parsed") or {}).get("year", "?") for e in entries})
+    topics = sorted({t.strip() for e in entries
+                     for t in (e.get("topics") or "").split(",") if t.strip()})
+    n_urls_total = len(entries) + n_bad
+    lines = [
+        f"# MANIFEST — images/ ({subj.get('label', '?')}, complete set)",
+        "",
+        f"Downloaded: {summary_obj['generated_at']} · Source: "
+        "`https://www.exam-mate.com` TOPICAL PAST PAPERS, subject "
+        f"`categoryID={cat.get('id')}` ({cat.get('label')}) / "
+        f"`subjectID={subj.get('id')}` ({subj.get('label')}) · Method: "
+        "fixed-fingerprint headless Chromium, in-page `fetch()` pipeline "
+        "(WAF-immune; `scripts/exam_mate_image_bulk.py`) · Rate: batches of "
+        "4 concurrent fetches, 1 s between batches.",
+        "",
+        "## Contents",
+        "",
+        "| Path | What |",
+        "|---|---|",
+        "| `INDEX.jsonl` | **Per-image metadata ledger — the provenance "
+        "record.** One JSON object per unique image URL. |",
+        "| `questions/{qfolder}/{src_qid}/{original_filename}.png` | PNGs, "
+        "original site filenames preserved. Local path after `images/` == "
+        "URL path, so `https://www.exam-mate.com/` + `<file>` reconstructs "
+        "the source URL. |",
+        "| `by_paper.json` | Derived view: `paper_ref` → qid, topics, MCQ "
+        "answer, parsed fields, image lists. Sorted newest-first. |",
+        "| `by_topic.json` | Derived view: individual topic → entries "
+        "(site topic strings verbatim). |",
+        "| `_summary.json` | Machine summary of the download + integrity "
+        "run. |",
+        "",
+        "## Coverage vs. harvest",
+        "",
+        f"- {n_urls_total} unique image URLs referenced by "
+        f"{meta.get('badges', ['?'])[0] if meta.get('badges') else '?'} "
+        "harvested questions (`questions.jsonl`) → "
+        f"**{len(entries)} downloaded** ({total_mb:.2f} MB).",
+        f"- {n_q} question images, {n_a} answer images.",
+        f"- Years covered (parsed from paper refs): {', '.join(years)}.",
+        f"- Topics ({len(topics)}): {', '.join(topics)}.",
+        f"- Harvested at: {meta.get('harvested_at', '?')}.",
+    ]
+    if n_bad:
+        lines += ["", "## Failed URLs", ""]
+        for e in entries:
+            if e.get("bytes") == 0:
+                lines.append(f"- HTTP {e.get('status')} `{e['url']}` — "
+                             "recorded in INDEX.jsonl, not substituted.")
+    lines += [
+        "",
+        "## INDEX.jsonl fields",
+        "",
+        "`file`, `url` (source), `kind` (question|answer), `sha256`, "
+        "`bytes`, `content_type`, `status`, `width`/`height`/`format`, "
+        "`qid` (site list id), `src_qid` (image-store id from the URL "
+        "path — both id spaces preserved), `qfolder`, `event_key`, "
+        "`page`, `paper_ref` (site's own reference string), `parsed` "
+        "{syllabus, paper, season, year, question}, `topics` (verbatim), "
+        "`mcq_answer`, `category_id`, `subject_id`, `downloaded_at`.",
+        "",
+        "## Integrity",
+        "",
+        "- Every file's SHA-256 recorded at download time in "
+        "`INDEX.jsonl`.",
+        f"- Coverage cross-check: {len(entries)}/{n_urls_total} unique "
+        "URLs on disk.",
+        "",
+        "## Copyright note",
+        "",
+        "These PNGs reproduce exam-board copyrighted questions via the "
+        "third-party site exam-mate.com. Experimental research copy only — "
+        "license review required before any of this content ships "
+        "(same discipline as `syllabai-pastpapers`).",
+        "",
+    ]
+    with open(os.path.join(IMAGES_DIR, "MANIFEST.md"), "w") as f:
+        f.write("\n".join(lines))
+    print(f"[organize] wrote images/MANIFEST.md")
+
+
 def load_index():
     entries = []
     with open(INDEX_PATH) as f:
@@ -329,8 +433,8 @@ def phase_organize(prune_samples):
 
     header = {
         "_note": "Derived view of INDEX.jsonl — provenance lives there.",
-        "source": "exam-mate.com TOPICAL PAST PAPERS, CIE IGCSE Additional "
-                  "Mathematics 0606 (categoryID=3, subjectID=11)",
+        "source": "exam-mate.com TOPICAL PAST PAPERS (see images/MANIFEST.md "
+                  "for the subject this folder belongs to)",
         "generated_at": now_iso(),
         "images_dir": "images/",
         "url_reconstruction": "https://www.exam-mate.com/" + "<file>",
@@ -372,6 +476,7 @@ def phase_organize(prune_samples):
         "samples_pruned": bool(prune_samples and ok_samples == len(sample_report)
                                and sample_report),
     }
+    write_manifest(entries, summary)
     with open(os.path.join(IMAGES_DIR, "_summary.json"), "w") as f:
         json.dump(summary, f, indent=1)
     print(json.dumps({k: v for k, v in summary.items()
@@ -390,7 +495,13 @@ if __name__ == "__main__":
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--prune-samples", action="store_true")
+    ap.add_argument("--subject-dir", default=None,
+                    help="subject folder (absolute, or relative to "
+                         "topical_papers/); default = subject 11 Add Maths 0606")
     args = ap.parse_args()
+    if args.subject_dir:
+        set_subject_dir(args.subject_dir)
+        print(f"[bulk] subject dir: {SUBJECT_DIR}")
     if args.phase in ("download", "all"):
         phase_download(args.batch, args.delay, args.limit)
     if args.phase in ("organize", "all"):

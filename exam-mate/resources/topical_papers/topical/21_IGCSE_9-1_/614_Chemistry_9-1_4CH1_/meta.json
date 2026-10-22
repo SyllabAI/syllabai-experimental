@@ -1,0 +1,67 @@
+{
+ "topics": [
+  {
+   "v": "1594",
+   "n": "Principles of chemistry"
+  },
+  {
+   "v": "1655",
+   "n": "Inorganic Chemistry"
+  },
+  {
+   "v": "1656",
+   "n": "Physical Chemistry"
+  },
+  {
+   "v": "1657",
+   "n": "Organic Chemistry"
+  }
+ ],
+ "zones": [
+  "69"
+ ],
+ "papers": [
+  {
+   "v": "29",
+   "n": "1C"
+  },
+  {
+   "v": "30",
+   "n": "1CR"
+  },
+  {
+   "v": "31",
+   "n": "2C"
+  },
+  {
+   "v": "32",
+   "n": "2CR"
+  }
+ ],
+ "seasons": [
+  {
+   "v": "SUMMER",
+   "n": "Summer"
+  },
+  {
+   "v": "WINTER",
+   "n": "Winter"
+  }
+ ],
+ "years": [
+  "2019"
+ ],
+ "category": {
+  "id": 21,
+  "label": "IGCSE (9-1)"
+ },
+ "subject": {
+  "id": 614,
+  "label": "Chemistry 9-1(4CH1)"
+ },
+ "badges": [
+  "40",
+  "1 - 25"
+ ],
+ "harvested_at": "2026-10-22T01:37:37+0000"
+}

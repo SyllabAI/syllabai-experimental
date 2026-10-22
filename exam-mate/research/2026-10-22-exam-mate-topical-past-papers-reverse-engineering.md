@@ -180,6 +180,17 @@ the request limit or don't have an active subscription."]}
    (filters arrive as strings from the deep-link path or the list keeps stale
    state). A subscription login is the likely intended path; all anonymous
    avenues were exhausted.
+   **UPDATE (same day, logged-in session):** with any authenticated account
+   (verified against an account whose subscription status shows "You are
+   not subscribed"), both the **apply button** after a subject switch AND
+   **deep-link navigation** serve the non-default subject's list correctly —
+   badge, rows and pagination all live (Edexcel IGCSE 4CH1: 40 questions;
+   4CH0: 419; CIE 0620: 6,398). The blocker is therefore anonymous-session
+   -specific, and **active subscription is NOT required for list serving** —
+   the "not subscribed" gate only blocks worksheet/export features and the
+   MCQ Papers product. Login route: `/login` (plain Laravel form POST,
+   `email`/`password`/`remember`; authenticated session = `exam_mate_session`
+   cookie, reuse via client state restore).
 2. **Livewire replay chaining** works (request `serverMemo` → response
    `serverMemo`), but chained `gotoPage` occasionally 500s when the chained
    memo goes stale after a WAF re-clearance; the DOM `nextPage` walk is the
