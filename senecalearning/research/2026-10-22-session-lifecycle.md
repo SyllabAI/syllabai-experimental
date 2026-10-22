@@ -196,3 +196,16 @@ Hardest Questions · Exam Questions. `sessionType` in the emit enum mirrors this
   robust; SyllabAI can replicate without streaming answers.
 - **XP breakdown as data** (`completion/score/memory`) is a clean motivation model;
   the memory-palace deposit + `memoryXp` couples retention mechanics to reward.
+
+---
+
+## Addendum (session 6, 2026-10-22): "client-computed BKT posterior" corrected
+
+The phrase used above and in the session-4 captures README is wrong about the
+mechanism (right about the trust boundary). The posterior is client-computed
+and server-trusted, but it is not BKT — it is a two-component saturating blend
+(`50·min(1, timesStudied/(spacing·3)) + 50·min(1, averageScore/0.9)`,
+group-averaged, 3-dp rounded) decoded and verified on four emits in
+`2026-10-22-posterior-formula.md`. Two additional controlled-session emits
+(`session-emit-A-mixed.json`, `session-emit-C-mostly-wrong.json`) now sit
+alongside the session-4 exemplar in `resources/captures/sessions/`.

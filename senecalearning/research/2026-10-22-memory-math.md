@@ -213,3 +213,23 @@ Useful discovery shortcuts that paid off here:
 - The **two-time-constant split** (scheduler interval `1.5s²+1.5s−2` days vs
   decay τ `4·e^(s^1.4)` days) decouples "when to show it again" from "how fast
   it fades" — cleaner than coupling both to one interval.
+
+---
+
+## Addendum (session 6, 2026-10-22): both formulas live-confirmed
+
+Two controlled sessions in one authenticated pass re-verified this note's math
+against fresh server data with no revisions needed:
+
+- **Fade**: stored 0.435 displayed as `startingProficiency 0.4348007590641192`
+  ≈ 20 min later (τ = 18.12 d at spacing 1.3452 → predicted 0.434796…);
+  stored 0.465 → 0.4645320376226589 ≈ 40 min after the prior session. Exact
+  within timestamp precision.
+- **Spacing**: 1.3451737338 → 1.3492407596 across a 16 m 08 s gap =
+  `f = gap/optimal(s) = 0.0040670` added — matches the fractional bump rule
+  (`optimal = 1440·(1.5s²+1.5s−2)` min, early reviews earn proportional
+  credit) to 10 dp.
+- The **displayed** proficiency input to these formulas is itself the decoded
+  posterior from `2026-10-22-posterior-formula.md` — the two notes now form a
+  closed loop: blend → 3-dp store → fade for display → spacing ladder from
+  the same `spacing` state.

@@ -1,0 +1,322 @@
+{
+ "_note": "Session A (mixed performance) \u2014 live capture 2026-10-22, adaptive mode. Companion evidence for research/2026-10-22-posterior-formula.md. userId redacted.",
+ "platform": "seneca",
+ "clientVersion": "4.6.264",
+ "userId": "USER_ID_REDACTED",
+ "session": {
+  "sessionId": "8bed2211-1337-4df9-91aa-76360b5a0ab8",
+  "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+  "timeStarted": "2026-10-22T10:02:32+00:00",
+  "timeFinished": "2026-10-22T10:11:36Z",
+  "startingProficiency": 0.48020854690452436,
+  "endingProficiency": 0.465,
+  "startingCourseProficiency": 0.0023086949370409826,
+  "endingCourseProficiency": 0.002235576923076923,
+  "endingCourseScore": 0.0036475409836065576,
+  "sessionScore": 0.6666666666666666,
+  "completed": true,
+  "modulesCorrect": 2,
+  "modulesIncorrect": 1,
+  "averageScore": 0.6666666666666666,
+  "modulesGaveUp": 0,
+  "modulesStudied": 5,
+  "modulesTested": 3,
+  "sessionType": "adaptive",
+  "sectionIds": [
+   "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6"
+  ],
+  "contentIds": [],
+  "options": {
+   "hasHardestQuestionContent": false
+  }
+ },
+ "modules": [
+  {
+   "sessionId": "8bed2211-1337-4df9-91aa-76360b5a0ab8",
+   "moduleOrder": 0,
+   "moduleId": "86b828c0-21ea-11e8-8c0c-d79041e9c8a6",
+   "timeStarted": "2026-10-22T10:02:39+00:00",
+   "timeFinished": "2026-10-22T10:04:54+00:00",
+   "gaveUp": false,
+   "submitted": false,
+   "completed": true,
+   "moduleType": "concept",
+   "testingActive": false,
+   "content": {
+    "title": "States of Matter",
+    "explanation": "Substances can exist in 3 different states of matter.",
+    "examples": [
+     {
+      "title": "Solid",
+      "example": "- In solids, particles are very close together and vibrate in a fixed position. \n- Solids have a fixed shape and volume.\n- When heated, the particles vibrate with a greater amplitude. ",
+      "image": {
+       "url": "https://image-v2.cdn.app.senecalearning.com/courseImages/chemistry/2.2.1%20States%20of%20matter/stone-2715446_640-min%20-%20Edited,f_cover,h_400,w_600.jpg",
+       "fallbackUrl": null
+      }
+     },
+     {
+      "title": "Liquid",
+      "example": "- In liquids, particles are very close together but they move and flow randomly past one another. \n- Liquids have a fixed volume but can change shape and fill a container.\n- When heated, the average speed of particles increases. ",
+      "image": {
+       "url": "https://image-v2.cdn.app.senecalearning.com/courseImages/chemistry/2.2.1%20States%20of%20matter/water-glass-theme-water-16490-min-min,f_cover,h_400,w_600.jpg",
+       "fallbackUrl": null
+      }
+     },
+     {
+      "title": "Gas",
+      "example": "- In gases, particles are far apart and move randomly in all directions.\n- Gases change shape and volume to fill whatever container they are in.\n- When heated, the average speed of particles increases.",
+      "image": {
+       "url": "https://image-v2.cdn.app.senecalearning.com/courseImages/chemistry/2.2.1%20States%20of%20matter/sky-1441936_640-min-min,f_cover,h_400,w_600.jpg",
+       "fallbackUrl": null
+      }
+     }
+    ]
+   },
+   "score": 0,
+   "moduleDifficulty": null,
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "sectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "contentId": "86b801b0-21ea-11e8-8c0c-d79041e9c8a6"
+  },
+  {
+   "sessionId": "8bed2211-1337-4df9-91aa-76360b5a0ab8",
+   "moduleOrder": 1,
+   "moduleId": "86b828c3-21ea-11e8-8c0c-d79041e9c8a6",
+   "timeStarted": "2026-10-22T10:04:54+00:00",
+   "timeFinished": "2026-10-22T10:09:01+00:00",
+   "gaveUp": false,
+   "submitted": true,
+   "completed": true,
+   "moduleType": "mindmap",
+   "testingActive": true,
+   "content": {
+    "pretest": "ALWAYS",
+    "multipleChoice": {
+     "question": "How many states of matter are there?",
+     "answers": [
+      "6",
+      "7",
+      "2",
+      "3"
+     ],
+     "correctAnswerIndex": 3
+    },
+    "list": {
+     "statement": "States of matter",
+     "values": [
+      {
+       "value": [
+        "L",
+        {
+         "otherPermittedWords": [
+          "liquid"
+         ],
+         "word": "iquid"
+        }
+       ],
+       "testing": true
+      },
+      {
+       "value": [
+        "S",
+        {
+         "otherPermittedWords": [
+          "solid"
+         ],
+         "word": "olid"
+        }
+       ],
+       "testing": false
+      },
+      {
+       "value": [
+        "G",
+        {
+         "otherPermittedWords": [
+          "gas"
+         ],
+         "word": "as"
+        }
+       ],
+       "testing": true
+      }
+     ]
+    }
+   },
+   "userAnswer": {
+    "multipleChoice": {
+     "index": 3
+    },
+    "list": [
+     "Liquid",
+     "Gas"
+    ]
+   },
+   "score": 1,
+   "moduleScore": {
+    "score": 1,
+    "multipleChoice": {
+     "score": 1,
+     "inputScores": [
+      true
+     ]
+    },
+    "list": {
+     "score": 1,
+     "hits": [
+      true,
+      false,
+      true
+     ],
+     "inputScores": [
+      true,
+      true
+     ]
+    }
+   },
+   "moduleDifficulty": null,
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "sectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "contentId": "86b801b0-21ea-11e8-8c0c-d79041e9c8a6"
+  },
+  {
+   "sessionId": "8bed2211-1337-4df9-91aa-76360b5a0ab8",
+   "moduleOrder": 2,
+   "moduleId": "86b828c6-21ea-11e8-8c0c-d79041e9c8a6",
+   "timeStarted": "2026-10-22T10:09:01+00:00",
+   "timeFinished": "2026-10-22T10:09:37+00:00",
+   "gaveUp": false,
+   "submitted": true,
+   "completed": true,
+   "moduleType": "multiple-choice",
+   "testingActive": true,
+   "content": {
+    "question": "Which state of matter can change shape and volume to fill a container?",
+    "answers": [
+     "Solid",
+     "Gas",
+     "Liquid"
+    ],
+    "correctAnswerIndex": 1,
+    "image": {
+     "url": "https://media.giphy.com/media/QrhmZ20vMYSwE/giphy.mp4",
+     "fallbackUrl": "https://gif.app.senecalearning.com/media/QrhmZ20vMYSwE/giphy.mp4"
+    }
+   },
+   "userAnswer": {
+    "index": 2
+   },
+   "score": 0,
+   "moduleScore": {
+    "score": 0,
+    "inputScores": [
+     false
+    ]
+   },
+   "moduleDifficulty": null,
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "sectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "contentId": "86b801b0-21ea-11e8-8c0c-d79041e9c8a6"
+  },
+  {
+   "sessionId": "8bed2211-1337-4df9-91aa-76360b5a0ab8",
+   "moduleOrder": 3,
+   "moduleId": "86b828c7-21ea-11e8-8c0c-d79041e9c8a6",
+   "timeStarted": "2026-10-22T10:09:37+00:00",
+   "timeFinished": "2026-10-22T10:10:18+00:00",
+   "gaveUp": false,
+   "submitted": false,
+   "completed": true,
+   "moduleType": "concept",
+   "testingActive": false,
+   "content": {
+    "randomExampleOrder": true,
+    "title": "States of Matter",
+    "explanation": "Particles behave differently in each of the 3 states of matter.",
+    "examples": [
+     {
+      "title": "Gas",
+      "image": {
+       "url": "https://media.giphy.com/media/DfYlKozSP9OCs/giphy.mp4",
+       "fallbackUrl": "https://gif.app.senecalearning.com/media/DfYlKozSP9OCs/giphy.mp4"
+      }
+     },
+     {
+      "title": "Liquid",
+      "image": {
+       "url": "https://media.giphy.com/media/A9fBChN4s0wXS/giphy.mp4",
+       "fallbackUrl": "https://gif.app.senecalearning.com/media/A9fBChN4s0wXS/giphy.mp4"
+      }
+     },
+     {
+      "title": "Solid",
+      "image": {
+       "url": "https://media.giphy.com/media/tkTQVHhQrmySA/giphy.mp4",
+       "fallbackUrl": "https://gif.app.senecalearning.com/media/tkTQVHhQrmySA/giphy.mp4"
+      }
+     }
+    ]
+   },
+   "score": 0,
+   "moduleDifficulty": null,
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "sectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "contentId": "86b801b0-21ea-11e8-8c0c-d79041e9c8a6"
+  },
+  {
+   "sessionId": "8bed2211-1337-4df9-91aa-76360b5a0ab8",
+   "moduleOrder": 4,
+   "moduleId": "86b828c1-21ea-11e8-8c0c-d79041e9c8a6",
+   "timeStarted": "2026-10-22T10:10:18+00:00",
+   "timeFinished": "2026-10-22T10:11:36+00:00",
+   "gaveUp": false,
+   "submitted": true,
+   "completed": true,
+   "moduleType": "toggles",
+   "testingActive": true,
+   "content": {
+    "statement": "Comparing solids and gases:",
+    "toggles": [
+     {
+      "index1": "Solid particles are close together, gas particles are far apart",
+      "index0": "Gas particles are close together, solid particles are far apart",
+      "correctAnswer": 1
+     },
+     {
+      "index0": "A solid has a fixed shape and volume, a gas has neither",
+      "index1": "A gas has a fixed shape and volume, a solid has neither",
+      "correctAnswer": 0
+     },
+     {
+      "index1": "Solid particles vibrate in place, gas particles move freely",
+      "index0": "Gas particles vibrate in place, solid particles move freely",
+      "correctAnswer": 1
+     }
+    ],
+    "initialAnswer": [
+     1,
+     0,
+     0
+    ]
+   },
+   "userAnswer": [
+    1,
+    0,
+    1
+   ],
+   "score": 1,
+   "moduleScore": {
+    "score": 1,
+    "inputScores": [
+     true,
+     true,
+     true
+    ]
+   },
+   "moduleDifficulty": null,
+   "courseId": "967b4370-21e8-11e8-8c0c-d79041e9c8a6",
+   "sectionId": "0fde17b0-21e9-11e8-8c0c-d79041e9c8a6",
+   "contentId": "86b801b0-21ea-11e8-8c0c-d79041e9c8a6"
+  }
+ ]
+}

@@ -88,3 +88,18 @@ notes; the discovery recipe is documented in
 (stats projections), `store-NUmMdL8-.js` (session reducer),
 `generateModuleStudiedEvent-BjZaYd-1.js` (module ledger + reconcile action),
 `out-BsbuqlBf.js` (Magic Quiz client + generation constants).
+
+## Phase 2 session 6 additions (2026-10-22, posterior formula decoded)
+
+| Path | What | Source |
+|---|---|---|
+| `sessions/session-emit-A-mixed.json` | controlled second-session emit (prior 0.4802 → 0.465 @ score 0.667) | live adaptive session, fetch instrumentation |
+| `sessions/session-emit-C-mostly-wrong.json` | controlled third-session emit (prior 0.4645 → 0.435 @ score 0.55, toggles all-false) | live adaptive session |
+| `sessions/README.md` (extended) | session-6 evidence table + correction pointer | — |
+
+Local-only: the JS corpus grew to 948 chunks (full player + end-session closure
+set, all now decompressed — 602 had been saved gzip and were invisible to
+grep), runtime stack-trace captures, and the three controlled-session raw
+emits. Research output: `research/2026-10-22-posterior-formula.md` — the
+in-session mastery update is `y = round(50·min(1,timesStudied/(spacing·3)) +
+50·min(1,averageScore/0.9))`, group-averaged and 3-dp rounded; **not BKT**.

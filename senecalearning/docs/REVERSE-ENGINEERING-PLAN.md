@@ -57,7 +57,8 @@ assignment-flow endpoint set. Remaining items below.
       key=<JWT>&sessionId=<uuid>` is lifecycle-only (start-session +
       keep-connection-alive OUT, session-xp IN); all answers buffered
       client-side and flushed by one `POST /api/session` carrying the full
-      module ledger incl. **client-computed BKT posterior** (0 → 0.495)
+      module ledger incl. the client-computed mastery posterior (0 → 0.495;
+      ~~BKT~~ — mechanism decoded in session 6, see below)
       and per-input scoring (`moduleScore.hits[]`); see
       research/2026-10-22-session-lifecycle.md + captures/sessions/
 - [x] Memory model (session 4, 2026-10-22): **both stores schema'd** —
@@ -69,9 +70,19 @@ assignment-flow endpoint set. Remaining items below.
       NOT BKT: exponential forgetting curve
       `P·exp(−Δt_days / 4·e^(spacing^1.4))` + fractional spacing scheduler
       (`optimal = 1.5s²+1.5s−2` days; at-optimal review doubles spacing,
-      >15× overdue earns nothing, spacing never decreases). In-session
-      posterior formula remains the one honest gap (client player chunk,
-      source maps unpublished); see research/2026-10-22-memory-math.md
+      >15× overdue earns nothing, spacing never decreases). Both live-
+      re-confirmed in session 6; see research/2026-10-22-memory-math.md
+- [x] **In-session posterior formula (session 6, 2026-10-22): DECODED** —
+      NOT BKT, no slip/guess, per-input evidence ignored: mastery =
+      `y = round(50·min(1, timesStudied/(spacing·3)) + 50·min(1,
+      averageScore/0.9))` per unit, group-averaged `Σy/(100·N)`, stored at
+      3 dp, faded for display by the session-5 curve; course fields are
+      exact aggregates (/208 proficiency, bestScore/244). Verified on 4
+      emits incl. two controlled-score sessions; server write is blind.
+      Tooling lesson: 602 corpus chunks were gzip-saved and greps skipped
+      them — decompress before mining. See
+      research/2026-10-22-posterior-formula.md + captures/sessions/
+      (emit-A, emit-C)
 - [x] Magic Quiz AI flow (session 4, 2026-10-22): **full contract** —
       `POST user-quiz…/api/quizzes/generate` {resourceText, type, tags,
       options.maxQuestions} → poll `{status: generating→complete}` →

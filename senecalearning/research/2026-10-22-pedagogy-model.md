@@ -74,3 +74,18 @@ T&Cs PDF) is the retention engine that makes free viable at scale.
 > residual gap in `2026-10-22-memory-math.md`). Remaining open: 3 (planner
 > contract), 4 (chatbot grounding), 5 (entitlement split — partially answered by
 > the Magic Quiz forced-public gate).
+
+---
+
+## Addendum (session 6, 2026-10-22): the posterior is decoded — final answer on BKT
+
+The "client-side posterior" flagged throughout this note is now fully decoded
+(see `2026-10-22-posterior-formula.md`): it is **not BKT under any framing**.
+The mastery value is `y = round(50·min(1, timesStudied/(spacing·3)) +
+50·min(1, averageScore/0.9))` per unit, group-averaged `Σy/(100·N)`, rounded
+to 3 dp, and faded by the exponential curve above for display. No slip/guess
+parameters exist; the per-input `hits[]` evidence ledger does not feed the
+update (only final module scores do). The SyllabAI comparison in §"BKT-style"
+should be read as: Seneca = SR-bookkeeping blend trusted from the client;
+SyllabAI = server-side BKT over the response ledger — strictly more
+informative, and now demonstrably differentiated from the incumbent.

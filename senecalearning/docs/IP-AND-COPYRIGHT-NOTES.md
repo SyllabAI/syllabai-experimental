@@ -130,3 +130,24 @@ fetches). The Phase-1 bundle-corpus policy was extended as follows:
   with the existing notes.
 - Source maps were probed once (`.js.map` → SPA HTML shell) and abandoned —
   no de-obfuscation beyond ordinary bundle reading was performed or needed.
+
+## Session 6 addendum (2026-10-22, posterior-formula chase)
+
+- Three additional controlled-scoring study sessions were walked on the same
+  section (same authorization scope as session 4; ≤1 req/s API pacing; all
+  evidence stays client-side captures). Two emit bodies committed as
+  `resources/captures/sessions/session-emit-{A,C}-*.json` with `userId`
+  redacted; question stems/answers are short course metadata consistent with
+  the existing session-4 exemplar treatment (the "title rule" extension for
+  bulk resource-hub exports is not implicated — these are single exemplars,
+  bodies truncated where long).
+- The JS corpus grew to 948 chunks (player + end-session closure set) and was
+  **fully decompressed in place** — 602 files had been saved gzip-encoded by
+  curl and were invisible to prior greps (tooling lesson recorded in the
+  research note). Chunks remain local-only per `.gitignore`; nothing from the
+  bundles enters git except short verbatim snippets required to document the
+  decoded formula (constants `h=3, g=0.9, 50/50` weights — facts, not
+  protectable expression).
+- The runtime store tap (React fiber walk → redux `subscribe`) is documented
+  as a reproduction recipe; no anti-bot circumvention was involved (standard
+  web APIs on the operator's own logged-in session).

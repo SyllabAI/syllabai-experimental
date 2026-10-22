@@ -10,8 +10,11 @@ tree, 132-tag taxonomy. S4 (this update): **Magic Quiz AI generator**
 full contract (generate→poll→21-module quiz; entitlement gate decoded),
 **session-ws protocol** (lifecycle-only socket; REST answer emit with
 client-computed BKT posterior) and **memory + spaced-repetition schemas**
-(palace deposits vs stats proficiency/spacing). Content bodies stay
-local-only / truncated per IP notes.
+(palace deposits vs stats proficiency/spacing). S6 (this update): the
+**in-session mastery formula decoded** — `round(50·sat(timesStudied/
+(spacing·3)) + 50·sat(avg/0.9))`, group-averaged, 3-dp stored — verified
+on 4 emits; **not BKT** (see research/2026-10-22-posterior-formula.md).
+Content bodies stay local-only / truncated per IP notes.
 **Target**: https://app.senecalearning.com/ (the student/teacher/parent SPA)
 and its supporting services. Marketing site: https://senecalearning.com/en-gb.
 
