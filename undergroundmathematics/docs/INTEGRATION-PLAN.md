@@ -156,8 +156,8 @@ worth doing regardless of any Mode-3 outcome.
       link-health job + Wayback fallback + CTR floor 1.0%/28d continue,
       3.0% generalise, below-floor kill), explicitly rejects shipping UGM
       body text of record in any mode; early-revisit triggers (site dark,
-      floor missed, licensing opens, hub arch change); status Proposed
-      awaiting operator ratification
+      floor missed, licensing opens, hub arch change); status **Accepted**
+      — ratified by operator 2026-10-22, without amendments
 - [x] the ADR records the licensing-ask scope if operator wants Mode 3
       (worked solutions + suggestion wrappers for matched provenance only —
       a narrow, grantable ask, not the whole corpus) — done 2026-10-22:
@@ -168,7 +168,7 @@ worth doing regardless of any Mode-3 outcome.
       S1 match census = negotiation exhibit; conversation starts only
       after pilot CTR evidence exists
 
-### P5 — conditional Mode-2 pilot in hub `[ ]` *(needs ADR + hub change)*
+### P5 — conditional Mode-2 pilot in hub `[ ]` *(ADR ratified 2026-10-22 — gate open; needs hub change)*
 - [ ] hub lane page: "Explore further" module rendering 3–5 curated UGM
       deep links per lane (from the cross-map), rel-nofollow, link-health
       check job (site is dormant — guard against rot, Wayback fallback)

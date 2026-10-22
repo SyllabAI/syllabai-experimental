@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | **Proposed** — awaiting operator ratification (merge of this ADR + `docs/INTEGRATION-PLAN.md` P4 checkbox = acceptance of record for this experiment) |
+| **Status** | **Accepted** — ratified by the operator on 2026-10-22, without amendments (acceptance of record for this experiment; graduates into `syllabai-v2/docs/adr/` under a hub-scoped number when P5 lands of record) |
 | **Deciders** | SyllabAI operator; authored by the undergroundmathematics reverse-engineering track |
 | **Date** | 2026-10-22 |
 | **Evidence base** | Phases 1–3 of this repo: 855 resources crawled (0 failures), 791 canonical question wells (`resources/ugm-clean/`), 623 structured provenance tuples (`resources/derived/review-question-provenance.json`), relation graph 1,295 nodes / 7,783 edges (`resources/derived/relation-graph.json`), 25 enrichment sheets (`resources/derived/enrichment-sheets/`), quadratics cross-map pilot 56/59 = 95% (`docs/cross-map-quadratics.md`) |
@@ -92,7 +92,7 @@ Declare phases 1–3 sufficient; archive the corpus; adopt nothing.
   questions with parsed board/paper/year/Q tuples) has direct value to
   `syllabai-pastpapers`.
 
-## Decision (draft — operator ratification requested)
+## Decision (ratified by operator 2026-10-22)
 
 **Adopt Option B.** Specifically, all of:
 
@@ -189,7 +189,7 @@ except the links — and those have a job watching them.
 | When | What |
 |---|---|
 | 2026-10-22 | Drafted from phases 1–3 evidence; proposed to operator for ratification |
-| pending | Operator ratification (merge + `INTEGRATION-PLAN.md` P4 → `[x]`) |
+| 2026-10-22 | **Ratified by operator** — Option B accepted as drafted (Mode-1/4 baseline, gated Mode-2 pilot on IAL P1 quadratics, CTR floors 1.0%/28d continue · 3.0% generalise, Mode 3 deferred-and-scoped); no amendments requested; `INTEGRATION-PLAN.md` P4 → `[x]` |
 | pending | P5 pilot implementation ticket in hub (flag + module + health job + CTR event) |
 | pending | First S1-bridge census run against `syllabai-pastpapers` (exhibit for any future Mode-3 ask) |
 | pending | 28-day CTR readout → generalise / kill decision |

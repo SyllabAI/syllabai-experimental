@@ -88,8 +88,8 @@ dataset of the corpus if the experiment graduates.
       provenance-matched ask; Cambridge Mathematics first, CA Group
       Archives second; census + pilot evidence before conversation)
 - [ ] If graduating: proper PR(s) against the receiving of-record repo per
-      repo ground rules — awaiting operator ratification of the ADR;
-      first PR = quadratics mode-1 artifacts into `syllabai-resources`
+      repo ground rules — ADR **ratified 2026-10-22** (gate open); first
+      PR = quadratics mode-1 artifacts into `syllabai-resources`
 
 ## Working rules
 

@@ -89,8 +89,9 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   (feature flag, link-health job, Wayback fallback, CTR floor 1.0%/28d —
   3.0% generalise, below-floor kill), Mode 3 deferred with a narrow
   provenance-matched licensing ask (Cambridge Mathematics first, census +
-  pilot evidence before conversation). Status **Proposed** — operator
-  ratification requested.
-- Next: operator ratifies/amends the ADR → **P5** (hub pilot ticket),
-  first S1-bridge census run, quadratics mode-1 PR to
-  `syllabai-resources`; P3c generalisation to further lanes on ack.
+  pilot evidence before conversation). Status **Accepted** — ratified by
+  operator 2026-10-22, without amendments.
+- Next: **P5** (hub pilot ticket: feature flag + "Explore further" module
+  + link-health job + CTR event), first S1-bridge census run, quadratics
+  mode-1 PR to `syllabai-resources`; P3c generalisation to further lanes
+  on ack.
