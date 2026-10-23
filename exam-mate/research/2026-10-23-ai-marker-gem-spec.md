@@ -170,3 +170,5 @@ g-id prefixes (predictions Nov–Dec 2025, revisions Jan 2026):
 - After extraction: consolidate a persona-spec book (per-subject prompt
   structures, topic-list organization) → then option (b): a SyllabAI
   prediction/revision/marker spec built on our corpus grounding.
+  **Drafted 2026-10-23:** the marker spec is at
+  `syllabai/specs/2026-10-23-ai-exam-marker-spec.md`.
