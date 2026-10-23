@@ -1,0 +1,1451 @@
+{
+ "generatedAt": "2026-10-23",
+ "pilot": "P3c generalisation lane 5 — CIE 9709 Pure 1 subtopic 1.5 Trigonometry (operator instruction: “lane 5”)",
+ "ugmStations": {
+  "trigonometry-triangles-to-functions": {
+   "title": "Trigonometry: Triangles to Functions",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions",
+   "resources": 48,
+   "aligned": 36,
+   "nonOverlap": 12
+  },
+  "trigonometry-compound-angles": {
+   "title": "Trigonometry: Compound Angles",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles",
+   "resources": 27,
+   "aligned": 3,
+   "nonOverlap": 24
+  }
+ },
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-1",
+  "subtopic": "1.5 Trigonometry",
+  "specPoints": [
+   "1.5.1",
+   "1.5.2",
+   "1.5.3",
+   "1.5.4",
+   "1.5.5"
+  ],
+  "noFoldFragments": true
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 299,
+  "substrateResources": 75,
+  "ugmResourcesConsidered": 75,
+  "aligned": 41,
+  "alignedSubstrate": 39,
+  "alignedShare": 0.52,
+  "nonOverlap": 36,
+  "crossLaneAligned": 2,
+  "routed": 220,
+  "alignmentRows": 55,
+  "withExamProvenance": 23,
+  "perSpecPointCounts": {
+   "1.5.1": 23,
+   "1.5.2": 6,
+   "1.5.3": 3,
+   "1.5.4": 12,
+   "1.5.5": 11
+  },
+  "alignmentRowsPerSpecPoint": {
+   "1.5.1": 23,
+   "1.5.2": 6,
+   "1.5.3": 3,
+   "1.5.4": 12,
+   "1.5.5": 11
+  },
+  "stationBreakdown": {
+   "trigonometry-compound-angles": {
+    "resources": 27,
+    "aligned": 3,
+    "nonOverlap": 24
+   },
+   "trigonometry-triangles-to-functions": {
+    "resources": 48,
+    "aligned": 36,
+    "nonOverlap": 12
+   }
+  },
+  "coverageNote": "Station-lane semantics (two dedicated trigonometry stations): coverage counts the full substrate (75 resources across Trigonometry: Triangles to Functions and Trigonometry: Compound Angles); plus two cross-station strays imported (r7912, r7184) and two cross-lane fact joins to already-of-record lane-2 bodies (r9924, r8411). Every one of the 299 sweep candidates is aligned, non-overlap-noted, cross-lane-joined, or routed with a recorded reason."
+ },
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/doctrine exemplar (compare-before-compute, describe-the-image, graph-reconstruction). Mode-2 deep-link rendering was dropped by operator directive 2026-10-22; text ships directly under ADR-UGM-0001 as amended 2026-10-23.",
+ "perSpecPoint": {
+  "1.5.1": {
+   "officialCode": "1.5",
+   "officialText": "sketch and use graphs of the sine, cosine and tangent functions (for angles of any size, and using either degrees or radians)",
+   "spineTitleVerbatim": "sketch and use graphs of the sine, cosine and Including e.g. tangent functions (for angles of any size, and using either degrees or radians)",
+   "ugmStation": "Exponentials & Logarithms + Introducing Calculus + Trigonometry: Compound Angles + Trigonometry: Triangles to Functions",
+   "resourceCount": 23,
+   "primaryPick": "going-round-in-circles",
+   "resources": [
+    {
+     "ugmSlug": "going-round-in-circles",
+     "title": "Going round in circles",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles",
+     "resourceType": "building-blocks",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "unit-circle definitions: similar right triangles give sinθ, cosθ, tanθ and the point (cosθ, sinθ) on the circle — the canonical 1.5.1 foundation",
+     "examProvenance": null,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "big-trig",
+     "title": "Big trig",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/big-trig",
+     "resourceType": "food-for-thought",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "compare sin(cos x) and cos(sin x): range and behaviour reasoning over sine and cosine for angles of any size",
+     "examProvenance": "Based on this",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "calculating-latitude",
+     "title": "Calculating latitude",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/calculating-latitude",
+     "resourceType": "bigger-picture",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "triangles and trigonometry helped sailors use the sun and stars to navigate — applied sine/cosine use (excerpt-only capture, per the of-record bigger-picture law)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "can-you-find-trigonometry-edition",
+     "title": "Can you find... trigonometry edition",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition",
+     "resourceType": "many-ways-problem",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "find sine/cosine/tangent graphs under constraints — stretches, reflections, translations of y=sin x and the behaviour that follows",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "can-you-find-trigonometry-edition-teacher-support",
+     "title": "Can you find...trigonometry edition - teacher support",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/can-you-find-trigonometry-edition-teacher-support",
+     "resourceType": "resource-in-action",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      4
+     ],
+     "evidence": "teacher-support twin of can-you-find... trigonometry edition (excerpt-only capture)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "catching-waves",
+     "title": "Catching waves",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/catching-waves",
+     "resourceType": "bigger-picture",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "how sine and cosine describe real waveforms — graph behaviour in context (excerpt-only capture)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "from-stars-to-waves",
+     "title": "From stars to waves",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/from-stars-to-waves",
+     "resourceType": "bigger-picture",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "right-angled triangles and circles give the sine and cosine waves (excerpt-only capture)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "have-a-sine",
+     "title": "Have a sine",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/have-a-sine",
+     "resourceType": "food-for-thought",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tangent obtained from sine and cosine; historic auxiliary functions; reciprocals (sec/cosec/cot) recorded beyond P1",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "how-high-am-i",
+     "title": "How high am I?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/how-high-am-i",
+     "resourceType": "food-for-thought",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ferris-wheel rider height as a cosine/sine model of the turned angle — graph use in context",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "muddled-trig",
+     "title": "Muddled trig",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/muddled-trig",
+     "resourceType": "building-blocks",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "match plotted graphs to sin x, sin^2 x, sin(sin x), sin 2x, arcsin(sin x)... — graph recognition including inverse notation",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5199",
+     "title": "When is $\\sin x$ or $\\sin 2x$ larger than a half?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5199",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "fraction of 0≤x≤2π for which sin x ≥ 1/2 and sin 2x ≥ 1/2 — graph reading plus solution sets",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2011, Q1D",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5497",
+     "title": "How are these three angles connected?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5497",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "circle-with-tangent diagram: choose the correct relation among cos α = sin(β+γ) etc. — complementary-angle structure read from a diagram",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2011, Q1E",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7000",
+     "title": "If $\\sin X$ and $\\cos Y$ are both negative, what can we say about $X + Y$?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7000",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "count values of z with sin 3z° = k in 0–360; quadrant signs of sin X and cos Y — graph/behaviour reasoning",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1972, Q3(iii,iv)",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7184",
+     "title": "Which of these log and trig expressions is the largest?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7184",
+     "resourceType": "review-question",
+     "station": "exp-and-log",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "largest of tan(5π/4), sin^2(5π/4), log values — tan's period π and sin(π−x)=sinx symmetry with exact values; the log comparison rides 2.2 — recorded",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q1C",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7374",
+     "title": "Which points in the $x$-$y$ plane satisfy $\\sin y=\\sin x$?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7374",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the graph of all points with sin y = sin x — solution-set structure as a picture",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2009, Q1G",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7577",
+     "title": "What's the result when we reflect $y=\\sin x$ twice?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7577",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "reflect y = sin x in x = π then in y = 2 — the result is y = cos x; transformations of trig graphs",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2013, Q1B",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7912",
+     "title": "Can we approximate the area under this sine curve?",
+     "url": "https://undergroundmathematics.org/introducing-calculus/r7912",
+     "resourceType": "review-question",
+     "station": "introducing-calculus",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "plot y = sin x at π/6 intervals using exact values (1/2, √3/2, 1), then trapezium-area approximation of ∫sin — the area work rides 1.8 (recorded)",
+     "examProvenance": "O&C O level SMP Additional Mathematics 1, QP SMP 117, 1975, Q11",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7973",
+     "title": "Are any of these four trig expressions equal to each other?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7973",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "how many distinct values among sinα sinβ, sinα cosβ, cosα sinβ, cosα cosβ — ratio definitions and ordering",
+     "examProvenance": "UKMT Senior Mathematical Challenge, 2006, Q16",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8386",
+     "title": "How many solutions does $\\cos (\\sin x)=\\frac{1}{2}$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8386",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos(sin x) = 1/2 solution count — composite range reasoning over sin and cos",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q1E",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8713",
+     "title": "When is $\\sin\\theta > \\sin 3\\theta$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8713",
+     "resourceType": "review-question",
+     "station": "trigonometry-compound-angles",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sinθ > sin 3θ: sketch both curves on 0–2π (solution suggested); triple-angle alternative rides P3 — recorded",
+     "examProvenance": "UCLES A level Pure Mathematics 3, QP 447/3, 1963, Q1(ii)",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "slices-of-pi",
+     "title": "Slices of $\\pi$",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi",
+     "resourceType": "many-ways-problem",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "semicircle divided by inequalities in sinθ, cosθ, tanθ — exact values and identities read off graphs",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "slices-of-pi-teacher-support",
+     "title": "Slices of $\\pi$ - teacher support",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi-teacher-support",
+     "resourceType": "resource-in-action",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      4
+     ],
+     "evidence": "teacher-support twin of slices of pi (excerpt-only capture)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "trig-tables",
+     "title": "Trig tables",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables",
+     "resourceType": "fluency-exercise",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "complete tables of sinθ, cosθ, tanθ values — exact-value fluency at 30°/45°/60° and related angles",
+     "examProvenance": null,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.5.2": {
+   "officialCode": "1.5",
+   "officialText": "use the exact values of the sine, cosine and tangent of 30°, 45°, 60°, and related angles",
+   "spineTitleVerbatim": "use the exact values of the sine, cosine and tangent of 30 °, 45 °, 60 °, and related angles",
+   "ugmStation": "Introducing Calculus + Trigonometry: Compound Angles + Trigonometry: Triangles to Functions",
+   "resourceCount": 6,
+   "primaryPick": "trig-tables",
+   "resources": [
+    {
+     "ugmSlug": "trig-tables",
+     "title": "Trig tables",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables",
+     "resourceType": "fluency-exercise",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "complete tables of sinθ, cosθ, tanθ values — exact-value fluency at 30°/45°/60° and related angles",
+     "examProvenance": null,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r7021",
+     "title": "Using angles in a pentagon...",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
+     "resourceType": "review-question",
+     "station": "trigonometry-compound-angles",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "regular pentagon projection: cos(π/5) − cos(2π/5) = 1/2 — exact-value derivation beyond the standard 30/45/60 set (extension recorded)",
+     "examProvenance": "UCLES A level Mathematics 1, QP 180, 1954, Q9",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7912",
+     "title": "Can we approximate the area under this sine curve?",
+     "url": "https://undergroundmathematics.org/introducing-calculus/r7912",
+     "resourceType": "review-question",
+     "station": "introducing-calculus",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "plot y = sin x at π/6 intervals using exact values (1/2, √3/2, 1), then trapezium-area approximation of ∫sin — the area work rides 1.8 (recorded)",
+     "examProvenance": "O&C O level SMP Additional Mathematics 1, QP SMP 117, 1975, Q11",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8330",
+     "title": "Which of these area and perimeter statements is true?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8330",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "equilateral triangle on a circle of circumference 10: area via (1/2)r^2 sin(2π/3) with exact sin(2π/3)=√3/2",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2012, Q1I",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "trig-countdown",
+     "title": "Trig countdown",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/trig-countdown",
+     "resourceType": "fluency-exercise",
+     "station": "trigonometry-compound-angles",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "card game pairing function cards with value cards against targets — evaluating trig functions at chosen angles (title-only capture; teacher notes on source page)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "trig-tables-teacher-support",
+     "title": "Trig tables - teacher support",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables-teacher-support",
+     "resourceType": "resource-in-action",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      4
+     ],
+     "evidence": "teacher-support twin of trig tables (excerpt-only capture)",
+     "examProvenance": null,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.5.3": {
+   "officialCode": "1.5",
+   "officialText": "use the notations sin⁻¹x, cos⁻¹x, tan⁻¹x to denote the principal values of the inverse trigonometric functions",
+   "spineTitleVerbatim": "use the notations sin x , cos­ x , tan x to denote No specialised knowledge of these functions is the principal values of the inverse trigonometric required, but understanding of them as examples of relations inverse functions is expected. sin i",
+   "ugmStation": "Trigonometry: Triangles to Functions",
+   "resourceCount": 3,
+   "primaryPick": "inverse-or-not",
+   "resources": [
+    {
+     "ugmSlug": "inverse-or-not",
+     "title": "Inverse or not?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-or-not",
+     "resourceType": "food-for-thought",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "one graph is y=arctan(tan x), another y=tan(arctan x) — inverse trig notation and principal values made visible",
+     "examProvenance": null,
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "inverse-trig-functions",
+     "title": "Inverse trigonometric functions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/inverse-trig-functions",
+     "resourceType": "bigger-picture",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "principal value ranges of inverse trigonometric functions via domain restriction (excerpt-only capture)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "muddled-trig",
+     "title": "Muddled trig",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/muddled-trig",
+     "resourceType": "building-blocks",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "match plotted graphs to sin x, sin^2 x, sin(sin x), sin 2x, arcsin(sin x)... — graph recognition including inverse notation",
+     "examProvenance": null,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.5.4": {
+   "officialCode": "1.5",
+   "officialText": "use the identities tan θ ≡ sin θ / cos θ and sin²θ + cos²θ ≡ 1",
+   "spineTitleVerbatim": "use the identities / tan i and cos i sin i + cos i / 1",
+   "ugmStation": "Trigonometry: Triangles to Functions",
+   "resourceCount": 12,
+   "primaryPick": "r5269",
+   "resources": [
+    {
+     "ugmSlug": "r5269",
+     "title": "Can we prove this trig identity to solve this equation?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5269",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "prove sinA/(1+cosA) + (1+cosA)/sinA = 2/sinA using sin^2+cos^2=1, then solve the resulting equation in 0°–360°",
+     "examProvenance": "O&C O level Additional Mathematics 1, 1967, Q3",
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "equation-or-identity-i",
+     "title": "Equation or identity? (I)",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/equation-or-identity-i",
+     "resourceType": "package-of-problems",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "identity-vs-equation discipline on triangle-angle statements: complementary/supplementary symmetry (sin(pi/2−A)=cos A, sin(pi−A)=sin B) and sin^2+cos^2 work; the reciprocal (sec^2−tan^2=1) and compound (tan(A+B)=−tan C) statements ride P3/0606 — recorded",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6138",
+     "title": "How many solutions does $\\sin^2x+3\\sin x\\cos x+2\\cos^2 x=0$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6138",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sin^2x + 3sinx cosx + 2cos^2x = 0 solution count: divide by cos^2x, use tan x = sin x/cos x, solve the quadratic in tan",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2010, Q1C",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7370",
+     "title": "How many solutions do these simultaneous trig equations have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7370",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "simultaneous (cosθ)x − (sinθ)y = 2, (sinθ)x + (cosθ)y = 1: determinant cos^2θ + sin^2θ = 1 is why the system is solvable for every θ",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2008, Q1C",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7378",
+     "title": "When does this equation in $x, y$ and $\\theta$ represent a circle?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7378",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "x^2+y^2+4x cosθ+8y sinθ+10=0 represents a circle iff 4cos^2θ+16sin^2θ>10 — the deciding sin^2θ range comes from the identity (circle-equation carrier rides 1.3.2)",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2011, Q1F",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8136",
+     "title": "How many solutions does this equation involving $\\sin^8x$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8136",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(3+cos x)^2 = 4 − 2sin^8x solution count via sin^2+cos^2=1 and range bounds (sin^8 depth recorded)",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2008, Q1J",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8923",
+     "title": "Can we show this polynomial has roots $1$, $\\cos\\theta$ and $\\sin\\theta$?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8923",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cubic with roots 1, cosθ, sinθ — factorisation closes with the sin^2+cos^2=1 identity (polynomial carrier rides 1.1.4)",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q2",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9491",
+     "title": "How many solutions does $2 \\cos^2x + 5\\sin x = 4$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9491",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "2cos^2x + 5sin x = 4 solution count: substitute cos^2x = 1 − sin^2x, solve the quadratic in sin",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1F",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9770",
+     "title": "As $\\theta$ varies, what's the largest this ratio of areas can be?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9770",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "half-disc regions with −cosθ ≤ x ≤ sinθ: area comparison powered by (sinθ−cosθ)^2; the rational sketch rides 1.2 and the optimisation extension 1.7 — recorded",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2013, Q4",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9817",
+     "title": "When is $\\sin^8 x+\\cos^6 x$ equal to $1$?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9817",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sin^8x + cos^6x = 1 solution count — identity plus bounding argument",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2011, Q1I",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9837",
+     "title": "How many solutions does $7\\sin x +2\\cos ^2 x =5$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9837",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "7sin x + 2cos^2x = 5 solution count via sin^2+cos^2=1",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2007, Q1C",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "slices-of-pi",
+     "title": "Slices of $\\pi$",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/slices-of-pi",
+     "resourceType": "many-ways-problem",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "semicircle divided by inequalities in sinθ, cosθ, tanθ — exact values and identities read off graphs",
+     "examProvenance": null,
+     "primaryPick": false
+    }
+   ]
+  },
+  "1.5.5": {
+   "officialCode": "1.5",
+   "officialText": "find all the solutions of simple trigonometrical equations lying in a specified interval (general forms of solution are not included)",
+   "spineTitleVerbatim": "find all the solutions of simple trigonometrical equations lying in a specified interval (general forms of solution are not included).",
+   "ugmStation": "Trigonometry: Compound Angles + Trigonometry: Triangles to Functions",
+   "resourceCount": 11,
+   "primaryPick": "r6138",
+   "resources": [
+    {
+     "ugmSlug": "r6138",
+     "title": "How many solutions does $\\sin^2x+3\\sin x\\cos x+2\\cos^2 x=0$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6138",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sin^2x + 3sinx cosx + 2cos^2x = 0 solution count: divide by cos^2x, use tan x = sin x/cos x, solve the quadratic in tan",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2010, Q1C",
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "general-solutions",
+     "title": "General solutions",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/general-solutions",
+     "resourceType": "food-for-thought",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "if tan A = tan B, what are A and B? — structure of trig solution sets; extends beyond P1's specified interval to general solutions (extension recorded)",
+     "examProvenance": null,
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5199",
+     "title": "When is $\\sin x$ or $\\sin 2x$ larger than a half?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5199",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "fraction of 0≤x≤2π for which sin x ≥ 1/2 and sin 2x ≥ 1/2 — graph reading plus solution sets",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2011, Q1D",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5269",
+     "title": "Can we prove this trig identity to solve this equation?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5269",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "prove sinA/(1+cosA) + (1+cosA)/sinA = 2/sinA using sin^2+cos^2=1, then solve the resulting equation in 0°–360°",
+     "examProvenance": "O&C O level Additional Mathematics 1, 1967, Q3",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7000",
+     "title": "If $\\sin X$ and $\\cos Y$ are both negative, what can we say about $X + Y$?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7000",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "count values of z with sin 3z° = k in 0–360; quadrant signs of sin X and cos Y — graph/behaviour reasoning",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1972, Q3(iii,iv)",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7374",
+     "title": "Which points in the $x$-$y$ plane satisfy $\\sin y=\\sin x$?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7374",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the graph of all points with sin y = sin x — solution-set structure as a picture",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2009, Q1G",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8136",
+     "title": "How many solutions does this equation involving $\\sin^8x$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8136",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(3+cos x)^2 = 4 − 2sin^8x solution count via sin^2+cos^2=1 and range bounds (sin^8 depth recorded)",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2008, Q1J",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8386",
+     "title": "How many solutions does $\\cos (\\sin x)=\\frac{1}{2}$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8386",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos(sin x) = 1/2 solution count — composite range reasoning over sin and cos",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q1E",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8713",
+     "title": "When is $\\sin\\theta > \\sin 3\\theta$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8713",
+     "resourceType": "review-question",
+     "station": "trigonometry-compound-angles",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sinθ > sin 3θ: sketch both curves on 0–2π (solution suggested); triple-angle alternative rides P3 — recorded",
+     "examProvenance": "UCLES A level Pure Mathematics 3, QP 447/3, 1963, Q1(ii)",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9491",
+     "title": "How many solutions does $2 \\cos^2x + 5\\sin x = 4$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9491",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "2cos^2x + 5sin x = 4 solution count: substitute cos^2x = 1 − sin^2x, solve the quadratic in sin",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1F",
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9837",
+     "title": "How many solutions does $7\\sin x +2\\cos ^2 x =5$ have?",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9837",
+     "resourceType": "review-question",
+     "station": "trigonometry-triangles-to-functions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "7sin x + 2cos^2x = 5 solution count via sin^2+cos^2=1",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2007, Q1C",
+     "primaryPick": false
+    }
+   ]
+  }
+ },
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "equation-or-identity-ii",
+   "title": "Equation or identity? (II)",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/equation-or-identity-ii",
+   "resourceType": "package-of-problems",
+   "station": "trigonometry-compound-angles",
+   "reason": "All seven statements need compound/double-angle identities — P3 2.3 bearing (sibling of Equation or identity? (I), whose P1-accessible core is recorded in this lane)."
+  },
+  {
+   "ugmSlug": "inspecting-identities",
+   "title": "Inspecting identities",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities",
+   "resourceType": "many-ways-problem",
+   "station": "trigonometry-compound-angles",
+   "reason": "Half-angle identities and their graph-sketching use — the identities are P3 2.3 derivations (the sketching application is 1.5.1-adjacent, recorded)."
+  },
+  {
+   "ugmSlug": "lost-but-lovely-the-haversine",
+   "title": "Lost but lovely: the haversine",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine",
+   "resourceType": "bigger-picture",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Haversine navigation formula: derivation rides half-angle/compound identities — P3 2.3 bearing; put Have a sine in context."
+  },
+  {
+   "ugmSlug": "proving-half-angle-formulae",
+   "title": "Proving half-angle formulae",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/proving-half-angle-formulae",
+   "resourceType": "scaffolded-task",
+   "station": "trigonometry-compound-angles",
+   "reason": "Derives cos^2(θ/2)=(1+cosθ)/2 from the double-angle identity — P3 2.3 bearing. (Refines lane 4's routed-1.5 preview.)"
+  },
+  {
+   "ugmSlug": "r5113",
+   "title": "Can we solve the equation $3\\cos x + 1 = 2\\sin x$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5113",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "Recorded solution rewrites 2sinx − 3cosx as R sin(x−α) — R-form is P3 2.3; a P1-viable squaring route (13cos^2x+6cosx−3=0) is recorded as an alternative."
+  },
+  {
+   "ugmSlug": "r5129",
+   "title": "If $bc=a^2+1$,  what is $\\arctan[(a+b)^{-1}]+\\arctan[(a+c)^{-1}]$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5129",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "arctan addition identity via tan(A+B) expansion — P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r5533",
+   "title": "Given a picture hanging from a wall, can we find these angles?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r5533",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Tested skill is right-angle/Pythagoras modelling of a hanging picture (cos 15° vocabulary touches 1.5.2) — triangle work is IGCSE/0606 bearing; recorded, never forced."
+  },
+  {
+   "ugmSlug": "r5723",
+   "title": "Can we solve these trig equations for $x, y$ and $z$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5723",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "tan(x+60°)=1 is P1-viable by translation, but the recorded solutions use general-solution forms (excluded from P1 1.5.5) and sec y reciprocal work — 0606/P3 bearing (the tan-quadratic part is P1-viable, recorded)."
+  },
+  {
+   "ugmSlug": "r5988",
+   "title": "If $R$ is the circumradius of triangle $ABC$, can we show $a\\:/\\sin A = 2R$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5988",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "Proves a/sinA = 2R for the circumradius — extended sine rule, IGCSE/0606 bearing."
+  },
+  {
+   "ugmSlug": "r6018",
+   "title": "Can we find the value of $\\sin 18^\\circ$ as a surd?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6018",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "sin 18° as a surd via cos3θ = sin2θ — triple/compound angle work, P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r6039",
+   "title": "Can we solve $\\tan\\theta\\tan(\\theta+\\pi/3)=2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6039",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "tanθ·tan(θ+α)=k ⇒ (k+1)cos(2θ+α)=(1−k)cosα — compound-angle product work, P3 2.3 bearing. (Refines lane 4's routed-1.5 preview.)"
+  },
+  {
+   "ugmSlug": "r6049",
+   "title": "How far are these two ships from the shore?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6049",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Two ships observed from a coastline: tested skill is the triangle solution (sine/cosine rules) — IGCSE/0606 bearing, not in P1 1.5 of record."
+  },
+  {
+   "ugmSlug": "r6120",
+   "title": "Can we write $\\cos \\theta - 2 \\cos 3 \\theta + \\cos 5\\theta$ using $\\sin$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6120",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "cosθ − 2cos3θ + cos5θ = 2sinθ(sin2θ − sin4θ) — sum-to-product compound identities, P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r6144",
+   "title": "Can we find the lengths and angles in this diagram of a roof?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6144",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Roof geometry: lengths and angles in a 3D diagram — 3D triangle trig is IGCSE/0606 bearing."
+  },
+  {
+   "ugmSlug": "r6589",
+   "title": "Can we find the lengths and angles in this pyramid?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6589",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Pyramid altitudes and angles: 3D right-angle trig — IGCSE/0606 bearing. (Refines lane 4's routed-1.5 preview, which never claimed a final verdict.)"
+  },
+  {
+   "ugmSlug": "r6696",
+   "title": "Can we write $\\sin\\theta$ and $\\cos\\theta$ in terms of $\\tan(\\theta/2)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6696",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "t = tan(θ/2) half-angle substitution for sinθ and cosθ — P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r6807",
+   "title": "Can we simplify $\\cos 3\\theta \\sin 2\\theta - \\cos 4\\theta \\sin \\theta$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6807",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "cos3θ sin2θ − cos4θ sinθ = cos2θ sinθ — compound-angle products, P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r7050",
+   "title": "An exact value for $\\sin 15^{\\circ}$...",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7050",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "sin 15° = (√6−√2)/4 without tables — derivation needs compound/half-angle identities — P3/0606 bearing (15° sits beyond the P1 related-angle set)."
+  },
+  {
+   "ugmSlug": "r7581",
+   "title": "Can we sketch the curve $y = \\cos x - \\sin x +2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7581",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "Sketch y = cosx − sinx + 2: recorded solution uses R cos(x+θ) — P3 2.3 bearing (a value-table sketch is 1.5.1-adjacent, recorded)."
+  },
+  {
+   "ugmSlug": "r7596",
+   "title": "Two swimmers cross a river - can we calculate its width?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7596",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Swimmers crossing a river: bearings/velocity triangle — IGCSE/0606 bearing."
+  },
+  {
+   "ugmSlug": "r7604",
+   "title": "Can we solve these simultaneous trigonometric equations?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7604",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "x = 1+2cosθ ⇒ x^3−3x^2+1 = 2cos3θ−1 — triple-angle identity, P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r7756",
+   "title": "What's this angle of elevation given two others?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7756",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Mountain elevation from three points on a road: triangle solution — IGCSE/0606 bearing."
+  },
+  {
+   "ugmSlug": "r8525",
+   "title": "Can we prove $\\sin a \\sin b \\leq \\sin^2\\frac{1}{2}(a+b)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8525",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "sin a sin b ≤ sin^2((a+b)/2) — product-to-sum compound identities, P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r8557",
+   "title": "Can we find the height of a tower using its reflection?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8557",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "Tower height via reflection: recorded solution uses sin(α+β) and cosec(β−α) — compound-angle work, P3 2.3 bearing. (Refines lane 4's routed-1.5 preview.)"
+  },
+  {
+   "ugmSlug": "r8648",
+   "title": "Can we solve $\\cos\\theta - \\sin (2\\theta) + \\cos (3\\theta) - \\sin (4\\theta) = 0$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8648",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "General solutions of multi-angle equations (sin3θ, cos2θ, sin2θ mixes) — P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r8658",
+   "title": "Can we find the area of a pedal triangle?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r8658",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Pedal triangle area: tested skill is extended sine-rule triangle work — IGCSE/0606 bearing."
+  },
+  {
+   "ugmSlug": "r8709",
+   "title": "For which $0^\\circ < \\theta < 500^\\circ$ is $3\\cos \\theta + 4\\sin \\theta > 2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8709",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "3cosθ + 4sinθ = r cos(θ−α), then solutions to 500° — R-form plus general solutions, P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r9200",
+   "title": "Can we find the distance of the tree from the road?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9200",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Tree bearing from two points 500 yd apart: triangle solution — IGCSE/0606 bearing."
+  },
+  {
+   "ugmSlug": "r9702",
+   "title": "What's the distance from a point to a line in the $x\\text{-}y$ plane?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r9702",
+   "resourceType": "review-question",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Perpendicular distance to the line x cosα + y sinα = p: tested skill is line geometry (1.3.1 bearing); the trig enters as a parameterisation."
+  },
+  {
+   "ugmSlug": "r9740",
+   "title": "If $\\sin \\alpha = 3/5, \\cos \\beta = 12/13$, what's $\\cos(\\alpha + \\beta)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9740",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "cos(α+β) from sinα=3/5, cosβ=12/13 — compound-angle expansion, P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "r9782",
+   "title": "Why is $\\cos \\theta + \\cos (\\theta + 2\\pi/3) + \\cos(\\theta + 4\\pi/3)=0$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9782",
+   "resourceType": "review-question",
+   "station": "trigonometry-compound-angles",
+   "reason": "Proves cos(A+B)=cosAcosB−sinAsinB, then the three-cosine sum identity — P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "sine-ing-the-way",
+   "title": "Sine-ing the way",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/sine-ing-the-way",
+   "resourceType": "scaffolded-task",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Derives the extended sine rule (a/sinA = 2R) from an inscribed triangle — triangle rules are IGCSE/0606 bearing; the circle-sine connection is recorded. (Refines lane 4's routed-1.5 preview.)"
+  },
+  {
+   "ugmSlug": "t-for-tan",
+   "title": "$t$ for $\\tan$",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/t-for-tan",
+   "resourceType": "building-blocks",
+   "station": "trigonometry-compound-angles",
+   "reason": "Double-angle formulae in t = tanθ — the t-substitution building block is P3 2.3 bearing."
+  },
+  {
+   "ugmSlug": "the-great-circle-distance",
+   "title": "The great circle distance",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/the-great-circle-distance",
+   "resourceType": "bigger-picture",
+   "station": "trigonometry-compound-angles",
+   "reason": "Spherical great-circle navigation — beyond P1 1.5."
+  },
+  {
+   "ugmSlug": "the-longitude-problem",
+   "title": "The longitude problem",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/the-longitude-problem",
+   "resourceType": "bigger-picture",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Navigation history: the longitude problem rides spherical/astronomical methods beyond P1 1.5."
+  },
+  {
+   "ugmSlug": "transformation-or-not",
+   "title": "Transformation... or not?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/transformation-or-not",
+   "resourceType": "investigation",
+   "station": "trigonometry-compound-angles",
+   "reason": "y = 3sinx + 4cosx described as R sin(x+α) — R-form, P3 2.3 bearing (the transformation reading is 1.5.1-adjacent, recorded)."
+  }
+ ],
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "r8411",
+   "station": "combining-functions",
+   "title": "When does this trig function have its maximum value?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8411",
+   "resourceType": "review-question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "greatest value of (3sin^2(10x+11) − 7)^2 needs sin^2 ∈ [0,1], the range forced by sin^2+cos^2=1 (one-to-many extension; the recorded 1.2.x alignment stands)",
+   "specPoints": [
+    "1.5.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+   "ofRecordLane": "pure-1-functions"
+  },
+  {
+   "ugmSlug": "r9924",
+   "station": "combining-functions",
+   "title": "How many solutions does this composite function equation have?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9924",
+   "resourceType": "review-question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "2^{sin^2x} + 2^{cos^2x} = 2 has no solutions because sin^2x + cos^2x = 1 forces the exponent sum to 1 — the identity substitution is the solution engine (one-to-many extension; the recorded 1.2.x alignment stands)",
+   "specPoints": [
+    "1.5.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+   "ofRecordLane": "pure-1-functions"
+  }
+ ],
+ "sweepRouting": {
+  "a-limiting-circle-theorem": "1.3 (circle theorems; tangent-line vocabulary false positive)",
+  "a-tangent-is": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "absurder": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "approaching-asymptotes": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "approximating-areas": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "average-turning-points": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "belt": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "binomials-are-the-answer": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "bouncing-to-nothing": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "can-you-find-asymptote-edition": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "can-you-find-chain-rule-edition": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "changing-bases": "2.2 Logarithmic and exponential functions",
+  "choose-your-families": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "circular-slice": "already of record under pure-1-circular-measure — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "cones": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "constant-consistency": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "cutting-spheres": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "discussing-distance": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "estimating-gradients": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "frictional-story": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "from-parabolas-to-catenaries": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "geogebra-constructions-quadratic": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "gradient-spotting": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "how-does-your-rectangle-grow": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "how-long-is-a-piece-of-string": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "i-can-see-u": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "implicit-circles": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "integral-chasing-2": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "integral-sorting": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "inverse-integrals": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "inverse-integrals-teacher-support": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "invertibles": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "keep-your-distance": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "log-lineup": "2.2 Logarithmic and exponential functions",
+  "look-before-you-leap": "1.3 (angle-bisector geometry)",
+  "make-it-equal": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "make-it-stop": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "making-inverse-functions": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "odd-one-out": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "one-windy-day": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "pairs-of-circles": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "parametric-paths": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "parametric-points": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "parametric-preliminaries": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "perfect-fit": "1.3/IGCSE (incircle construction)",
+  "picture-the-process-i": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "picture-the-process-ii": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "plotting-planets": "2.2 Logarithmic and exponential functions",
+  "powerful-fractions": "2.2 Logarithmic and exponential functions",
+  "problem-areas": "already of record under pure-1-circular-measure — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "producing-a-rule": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r5080": "2.2 Logarithmic and exponential functions",
+  "r5126": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r5138": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5237": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r5245": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "r5251": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r5362": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5376": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r5386": "1.3 (line/angle coordinate work)",
+  "r5534": "already of record under pure-1-circular-measure — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5584": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r5640": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "r5646": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5678": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r5703": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r5717": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5754": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5813": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r5854": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r5875": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "r5903": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5966": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r5990": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6009": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r6067": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6100": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6102": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "r6164": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6299": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "r6345": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6352": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6408": "IGCSE/0606 (triangle rules, bearings, 3D trig)",
+  "r6449": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r6530": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6546": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6549": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r6584": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6620": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r6622": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r6638": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6645": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6656": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6670": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r6710": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r6735": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6797": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "r6804": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6838": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6843": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r6864": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r6877": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r6938": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r7042": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r7074": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r7077": "2.2 Logarithmic and exponential functions",
+  "r7171": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7187": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r7272": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r7328": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7368": "IGCSE/0606 (triangle rules, bearings, 3D trig)",
+  "r7385": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7386": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r7433": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r7495": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7520": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7553": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7588": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7607": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7616": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r7656": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7678": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r7734": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r7750": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r7816": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7833": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r7839": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r7937": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7979": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r7982": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r7991": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "r8045": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r8051": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r8071": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r8079": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "r8115": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r8130": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r8134": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r8152": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r8225": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r8231": "P3 numerical methods (root-finding)",
+  "r8260": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "r8286": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r8287": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r8335": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r8387": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r8399": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r8419": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r8456": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r8543": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r8625": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "r8679": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r8682": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "r8694": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r8701": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "r8749": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r8778": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r8779": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "r8836": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r8890": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r8917": "IGCSE/0606 (triangle rules, bearings, 3D trig)",
+  "r8931": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r8936": "already of record under pure-1-circular-measure — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r8939": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r8946": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r8987": "IGCSE/0606 (triangle rules, bearings, 3D trig)",
+  "r9028": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9045": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9072": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "r9085": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r9184": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r9259": "IGCSE/0606 (triangle rules, bearings, 3D trig)",
+  "r9297": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r9312": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r9325": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r9386": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9404": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "r9413": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "r9423": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9586": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r9599": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r9694": "IGCSE/0606 (triangle rules, bearings, 3D trig)",
+  "r9701": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "r9742": "already of record under pure-1-quadratics — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9747": "2.2 Logarithmic and exponential functions",
+  "r9768": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9792": "IGCSE/0606 (triangle rules, bearings, 3D trig)",
+  "r9794": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "r9798": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9815": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r9824": "already of record under pure-1-functions — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "r9942": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "r9976": "2.2 Logarithmic and exponential functions",
+  "reach-for-the-stars": "2.2 Logarithmic and exponential functions",
+  "rolling-parabolas": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "rotating-derivatives": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "sector-spirals": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "see-the-power": "2.2 Logarithmic and exponential functions",
+  "similar-derivatives": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "sine-on-the-dotted-line": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "sine-stretching": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "slippery-slopes": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "slippery-slopes-another-derivative": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "sort-it-out": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "speed-vs-velocity": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "stretch-the-function": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "sum-estimating": "1.6 Series (binomial/sequences; trig terms incidental)",
+  "tangent-or-normal": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "teddy-bear-teacher-support": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "the-circle-of-apollonius-coordinate-edition": "already of record under pure-1-coordinate-geometry — the trigonometry content is incidental to its recorded alignment (false-positive keyword hit)",
+  "to-the-limit": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "trigsy-integrals": "1.8 Integration (trig integrals/areas; the integration is the object)",
+  "two-way-calculus": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "two-way-calculus-teacher-support": "1.7 Differentiation (the calculus is the object; radians/degrees are units)",
+  "two-way-functions-teacher-support": "1.2 Functions (graph transformations/composition; trig graphs as carriers)",
+  "weight-pulling": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "whats-left": "1.1/Algebra (quadratics/indices/proof; trig incidental)",
+  "where-did-it-land": "Vectors & mechanics (bearings, components, resultant — not P1 1.5)",
+  "which-substitution": "Pure 3 (compound/double-angle, R-form, parametric, hyperbolic, arcsin integral)",
+  "worth-1000-words": "1.2 Functions (graph transformations/composition; trig graphs as carriers)"
+ }
+}
