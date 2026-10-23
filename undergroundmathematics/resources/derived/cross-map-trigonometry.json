@@ -68,7 +68,7 @@
     "nonOverlap": 12
    }
   },
-  "coverageNote": "Station-lane semantics (two dedicated trigonometry stations): coverage counts the full substrate (75 resources across Trigonometry: Triangles to Functions and Trigonometry: Compound Angles); plus two cross-station strays imported (r7912, r7184) and two cross-lane fact joins to already-of-record lane-2 bodies (r9924, r8411). Every one of the 299 sweep candidates is aligned, non-overlap-noted, cross-lane-joined, or routed with a recorded reason."
+  "coverageNote": "Station-lane semantics (two dedicated trigonometry stations): coverage counts the full substrate (75 resources across Trigonometry: Triangles to Functions and Trigonometry: Compound Angles); per the station-lane corpus law (lane-3 shape) the WHOLE substrate ships as text of record — aligned resources mapped, the 36 non-overlaps imported UNMAPPED with the coverage note. Plus two cross-station strays imported and mapped (r7912, r7184) and two cross-lane fact joins to already-of-record lane-2 bodies (r9924, r8411). Every one of the 299 sweep candidates is aligned, non-overlap-noted, cross-lane-joined, or routed with a recorded reason."
  },
  "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/doctrine exemplar (compare-before-compute, describe-the-image, graph-reconstruction). Mode-2 deep-link rendering was dropped by operator directive 2026-10-22; text ships directly under ADR-UGM-0001 as amended 2026-10-23.",
  "perSpecPoint": {
