@@ -152,6 +152,13 @@ own 6-step workflow is explicit about the contract:
 `/mockexam` disambiguation: same nav region but human service — "Our
 qualified teachers will grade your exam", an APPLY NOW form, no AI.
 
+**2026-10-23 update:** the operator extracted the Gem's full instructions
+via the manual route — see `2026-10-23-ai-marker-gem-spec.md`. Prompt-level
+confirmation of everything above (the 6-step contract is literal chat
+choreography, zero knowledge files) plus one new fact: the "estimated
+grade" is produced with **no grade-boundaries input anywhere in the
+prompt** (unstated percentage heuristic).
+
 ## 5. Data-quality observations in exam-mate's own wiring
 
 - `3:24` **History(0470)** resolves to the Biology 9-1 (0970) prediction GPT

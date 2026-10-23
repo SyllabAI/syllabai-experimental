@@ -6,6 +6,16 @@ harness `scripts/exam_mate_probe_gpt_chat.py` and this runbook. **No account
 exists in the sandbox** — every no-auth avenue was exhausted first, and is
 documented here so it never gets re-tried.
 
+> **RESULT 2026-10-23 (Gemini side) — manual fallback executed.** The
+> operator ran the three-prompt battery against the AI Marker Gem from a
+> personal Google account: the recitation-leak prompt made the Gem print
+> its **complete instructions** (~700 words) into a code block, the files
+> probe returned "no files attached", and the workflow self-description
+> matched the instructions. Full analysis:
+> `2026-10-23-ai-marker-gem-spec.md`. Raw transcripts held privately
+> (`exam-mate-probe/persona/gemini/`, not committed — public repo). The
+> ChatGPT side (47 GPTs) is still pending the same battery.
+
 ## 1. No-auth avenues tried (2026-10-23) — all negative
 
 | Avenue | Result |
