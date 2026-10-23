@@ -1,0 +1,1113 @@
+{
+ "generatedAt": "2026-10-24",
+ "pilot": "P3c generalisation lane 8 — CIE 9709 Pure 1 subtopic 1.8 Integration (operator order: next lane per INTEGRATION-PLAN)",
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-1",
+  "subtopic": "1.8 Integration",
+  "specPoints": [
+   "1.8.1",
+   "1.8.2",
+   "1.8.3",
+   "1.8.4"
+  ],
+  "noFoldFragments": true
+ },
+ "ugmStations": {},
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/doctrine exemplar (the primary picks). Mode-2 (deep-link rendering on lane pages) was dropped by operator directive 2026-10-22 and is not used.",
+ "perSpecPoint": {
+  "1.8.1": {
+   "officialCode": "1.8.1",
+   "officialText": "understand integration as the reverse process of differentiation, and integrate ( ax + b ) (for any rational n except –1), together with constant multiples, sums and differences",
+   "spineTitleVerbatim": "understand integration as the reverse process of differentiation, and integrate ( ax + b ) (for any rational n except –1), together with constant multiples, sums and differences",
+   "primaryPick": "r8716",
+   "resourceCount": 2,
+   "ugmStation": "Calculus of Powers + Chain Rule",
+   "ugmStationUrl": "https://undergroundmathematics.org/calculus-of-powers",
+   "resources": [
+    {
+     "ugmSlug": "r8716",
+     "title": "What happens if we integrate, then differentiate?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r8716",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "dI/da for I(a) = integral over [0,a] of (4-2^(x^2)) resolved by the integration-differentiation inverse relation — the reverse-process understanding of 1.8.1 clause one is the tested skill",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.1"
+     ],
+     "primaryPick": true,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r9701",
+     "title": "Can we find $\\int 1/(\\sqrt{x+2} - \\sqrt{x+1}) dx$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9701",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "part (i) rationalises 1/(sqrt(x+2)-sqrt(x+1)) into sqrt(x+2)+sqrt(x+1) and integrates the (x+c)^(1/2) terms — canonical (ax+b)^n antiderivatives; the surrounding parts (trig substitution, partial fractions) are P3-dressed and the lane-6 routing named 1.8 Integration as the home",
+     "examProvenance": "UCLES A level Mathematics B Special paper, QP 9202/0, 1981, Q3",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.1"
+     ],
+     "primaryPick": false,
+     "station": "chain-rule",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    }
+   ]
+  },
+  "1.8.2": {
+   "officialCode": "1.8.2",
+   "officialText": "solve problems involving the evaluation of a constant of integration",
+   "spineTitleVerbatim": "solve problems involving the evaluation of a constant of integration",
+   "primaryPick": "r7734",
+   "resourceCount": 4,
+   "ugmStation": "Calculus Meets Functions + Calculus of Powers + Product Rule",
+   "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
+   "resources": [
+    {
+     "ugmSlug": "r5768",
+     "title": "Can we find a curve from its gradient function?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r5768",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "integrates dy/dx = 4x-3 to y = 2x^2-3x+c and evaluates c from the minimum value -1/8 — the constant-of-integration step is 1.8.2 load-bearing",
+     "examProvenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1968, Q3",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.2"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "1.7.4"
+    },
+    {
+     "ugmSlug": "r7410",
+     "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+     "url": "https://undergroundmathematics.org/product-rule/r7410",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "part (ii) integrates dy/dx = 4/x^2 to y = -4/x + d and evaluates d from y(2)=1 — reverse-process integration of x^(-2) with constant-of-integration evaluation; part (i) is product-rule turning-point work (1.7.4-dressed)",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1969, Q4",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.2"
+     ],
+     "primaryPick": false,
+     "station": "product-rule",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r7734",
+     "title": "Given three clues, can we find the equation of the curve?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r7734",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "gradient ax+b integrated to y = ax^2/2+bx+c with c evaluated from a point — the constant-of-integration reconstruction is the decisive step",
+     "examProvenance": "Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.2"
+     ],
+     "primaryPick": true,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "1.7.3"
+    },
+    {
+     "ugmSlug": "thinking-constantly",
+     "title": "Thinking constantly",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/thinking-constantly",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "displacement recovered from velocity by integration with initial-condition constants — reverse-process integration plus constant-of-integration evaluation (mechanics context is a wrapper; the lane-7 routing recorded the 1.8 bearing)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.2"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    }
+   ]
+  },
+  "1.8.3": {
+   "officialCode": "1.8.3",
+   "officialText": "evaluate definite integrals",
+   "spineTitleVerbatim": "evaluate definite integrals",
+   "primaryPick": "r6067",
+   "resourceCount": 10,
+   "ugmStation": "Calculus Meets Functions + Calculus of Powers + Chain Rule",
+   "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
+   "resources": [
+    {
+     "ugmSlug": "additional-integrals",
+     "title": "Additional integrals",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/additional-integrals",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "given definite integrals of f and g over [0,3], evaluate linear combinations, reversed limits and shifted-argument integrals — linearity and order-reversal properties of the definite integral are the tested skill",
+     "examProvenance": "UCLES Additional Mathematics 1, QP 8175/1, 1985 Q9.",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "integral-chasing",
+     "title": "Integral chasing",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/integral-chasing",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "four chained definite integrals of 10x+3, b*sqrt(x)+a/sqrt(x), 1/x^5-1/x^2 and x^(b/a)(sqrt(x)-1/sqrt(x)) plus an area check — power-rule integration with fractional and negative indices is the tested skill",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r5090",
+     "title": "What does it mean if a function $f(x)=f(2\\alpha-x)$?",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r5090",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "bilateral-function question proves the order-reversal identity for polynomial definite integrals and reasons about G(t) as a signed area — polynomial definite integration is load-bearing (extension-style framing)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r5549",
+     "title": "If we know $f(x)$, can we find $\\int_{-1}^1 f(x^2-1) \\:dx$?",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r5549",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "evaluates a definite integral of a piecewise-linear f composed with x^2-1 by reducing to the integral of x^2 over [-1,1] — definite integration of x^2 after composition",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r6067",
+     "title": "Can we find the area under a parabola?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6067",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "I(c) = integral over [0,1] of ((x-c)^2+c^2) expanded, integrated and minimised by completing the square — canonical polynomial definite integral",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": true,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r7236",
+     "title": "When does this definite integral have a minimum?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r7236",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "I(a) = integral over [0,1] of (x^2-a)^2 evaluated and minimised — polynomial definite integral",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r8105",
+     "title": "If $f(x)$ always satisfies this equation, what is $\\int_{-1}^1 f(x)\\: dx$?",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r8105",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "functional-equation multiple choice resolved by integrating a polynomial identity over [-1,1] with the definite integral as an unknown constant",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "slippery-areas",
+     "title": "Slippery areas",
+     "url": "https://undergroundmathematics.org/chain-rule/slippery-areas",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "definite-integral values recovered from area data under transformations, with the sqrt(x+5) evaluation reducing to an (x+5)^(3/2) antiderivative — (ax+b)^n technique inside definite-interval evaluation (the lane-7 routing recorded the 1.8 bearing)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "chain-rule",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "stretch-the-function",
+     "title": "Stretch the function",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/stretch-the-function",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "scaling functions to satisfy an integral-equals-1 condition over [-1,2] — linearity, signed value and definite evaluation incl. x^(1/2) and x^(-2) (rational n != -1)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "what-else-do-you-know",
+     "title": "What else do you know?",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/what-else-do-you-know",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "from an area datum, evaluates definite integrals of f+5, f(x+2) and -f over shifted intervals — linearity and translation properties of the definite integral (the lane-7 routing recorded the 1.8 bearing)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.3"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    }
+   ]
+  },
+  "1.8.4": {
+   "officialCode": "1.8.4",
+   "officialText": "use definite integration to find lines parallel to the axes, or between a curve and a line or between two curves: • the area of a region bounded by a curve and • a volume of revolution about one of the axes.",
+   "spineTitleVerbatim": "use definite integration to find lines parallel to the axes, or between a curve and a line or between two curves: • the area of a region bounded by a curve and • a volume of revolution about one of the axes.",
+   "primaryPick": "r9357",
+   "resourceCount": 12,
+   "ugmStation": "Calculus Meets Functions + Calculus of Powers",
+   "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
+   "resources": [
+    {
+     "ugmSlug": "meaningful-areas",
+     "title": "Meaningful areas",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/meaningful-areas",
+     "resourceType": "Investigation",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "areas of the regions enclosed by sqrt(x), x^2, x, (x^2+x)/2 and 2*sqrt(x)-x — area between curves by definite integration",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r5007",
+     "title": "What volume is generated when $y = ax - x^2$ is rotated about the x-axis?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r5007",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the area under ax-x^2 given as 36 finds a, then the solid of revolution about the x-axis is evaluated as pi*integral((6x-x^2)^2)dx — the canonical P1 area-then-volume-of-revolution question",
+     "examProvenance": "Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r5584",
+     "title": "Can we find the centre of mass of a solid hemisphere?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r5584",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "volume of revolution of y = b(a^2-x^2)^(1/2)/a about the x-axis evaluated as a polynomial integral; the centre-of-mass parts are Mechanics dressing",
+     "examProvenance": "UCLES A level Mathematics A 2, QP 840/2, 1973, Q17",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r6372",
+     "title": "Can we sketch the graph of $y^2 = x^3$?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6372",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "area enclosed by y^2 = x^3 and x = 4 evaluated as 2*integral(x^(3/2))dx and the volume of revolution as pi*integral(x^3)dx — rational-index powers rotated about an axis",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1968, Q4",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r7386",
+     "title": "What's the area enclosed by $y=x(x-3)^2$ and a tangent?",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "part (b) area between the cubic and the tangent/chord PQ as a definite integral of curve minus line — the tangent-revisit area carries the recorded 1.8 bearing",
+     "examProvenance": "UCLES A level Mathematics 1, QP 186, 1951, Q9",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "1.7.2, 1.7.4"
+    },
+    {
+     "ugmSlug": "r7444",
+     "title": "Can we find the area inside a straight line, a parabola and the x-axis?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r7444",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "area of the region bounded by y = x^2, 2x+y=15 and the x-axis split into an integrated region and a triangle",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1977, Q3",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r7628",
+     "title": "If we take a slice from this sphere, where is its centre of gravity?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r7628",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "volume of a spherical cap as pi*integral(a^2-x^2)dx; the centre-of-gravity parts are Mechanics dressing",
+     "examProvenance": "Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r7861",
+     "title": "When does a cubic curve have two turning points?",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r7861",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "part (iv) area enclosed by the x-axis and the translated cubic g(x) = x^2(x-t) — polynomial definite integration is the load-bearing step",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "1.7.4"
+    },
+    {
+     "ugmSlug": "r8130",
+     "title": "What's the area between $f_k(x) = x(x-k)(x-2)$ and the $x$-axis?",
+     "url": "https://undergroundmathematics.org/calculus-meets-functions/r8130",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "area between a cubic and the x-axis written as a difference of two definite integrals with the sign split at the interior root — area-as-signed-integrals is the tested 1.8.4 skill",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-meets-functions",
+     "textOfRecordUnder": null,
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r8350",
+     "title": "When is the area of this region bigger than the area of this one?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r8350",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "compares the areas bounded by the x-axis and a-x^2 vs x^4-a via definite integrals with irrational limits",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    },
+    {
+     "ugmSlug": "r9138",
+     "title": "Can we find the area enclosed by this quadratic and the $x$-axis?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r9138",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "area between y = 2x^2-6x+4 and the x-axis after gradient-condition reconstruction — the area computation carries the recorded 1.8 bearing",
+     "examProvenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1963, Q4",
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": false,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "1.7.3"
+    },
+    {
+     "ugmSlug": "r9357",
+     "title": "Can we find the area between a parabola and a line?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r9357",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1,
+      4
+     ],
+     "evidence": "area between y = x^2 and y = x+2 as the difference of two definite integrals — the canonical curve-line area question",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "1.8.4"
+     ],
+     "primaryPick": true,
+     "station": "calculus-of-powers",
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null
+    }
+   ]
+  }
+ },
+ "nonOverlapRows": [],
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "integral-chasing",
+   "station": "calculus-of-powers",
+   "title": "Integral chasing",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/integral-chasing",
+   "resourceType": "Fluency exercise",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "four chained definite integrals of 10x+3, b*sqrt(x)+a/sqrt(x), 1/x^5-1/x^2 and x^(b/a)(sqrt(x)-1/sqrt(x)) plus an area check — power-rule integration with fractional and negative indices is the tested skill",
+   "codes": [
+    "1.8.3"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "meaningful-areas",
+   "station": "calculus-of-powers",
+   "title": "Meaningful areas",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/meaningful-areas",
+   "resourceType": "Investigation",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "areas of the regions enclosed by sqrt(x), x^2, x, (x^2+x)/2 and 2*sqrt(x)-x — area between curves by definite integration",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r5007",
+   "station": "calculus-of-powers",
+   "title": "What volume is generated when $y = ax - x^2$ is rotated about the x-axis?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5007",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "the area under ax-x^2 given as 36 finds a, then the solid of revolution about the x-axis is evaluated as pi*integral((6x-x^2)^2)dx — the canonical P1 area-then-volume-of-revolution question",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r5584",
+   "station": "calculus-of-powers",
+   "title": "Can we find the centre of mass of a solid hemisphere?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5584",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "volume of revolution of y = b(a^2-x^2)^(1/2)/a about the x-axis evaluated as a polynomial integral; the centre-of-mass parts are Mechanics dressing",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r5768",
+   "station": "calculus-of-powers",
+   "title": "Can we find a curve from its gradient function?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r5768",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "integrates dy/dx = 4x-3 to y = 2x^2-3x+c and evaluates c from the minimum value -1/8 — the constant-of-integration step is 1.8.2 load-bearing",
+   "codes": [
+    "1.8.2"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": false,
+   "priorAlignmentOfRecord": "1.7.4"
+  },
+  {
+   "ugmSlug": "r6067",
+   "station": "calculus-of-powers",
+   "title": "Can we find the area under a parabola?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6067",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1,
+    4
+   ],
+   "note": "I(c) = integral over [0,1] of ((x-c)^2+c^2) expanded, integrated and minimised by completing the square — canonical polynomial definite integral",
+   "codes": [
+    "1.8.3"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r6372",
+   "station": "calculus-of-powers",
+   "title": "Can we sketch the graph of $y^2 = x^3$?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6372",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "area enclosed by y^2 = x^3 and x = 4 evaluated as 2*integral(x^(3/2))dx and the volume of revolution as pi*integral(x^3)dx — rational-index powers rotated about an axis",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r7236",
+   "station": "calculus-of-powers",
+   "title": "When does this definite integral have a minimum?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7236",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "I(a) = integral over [0,1] of (x^2-a)^2 evaluated and minimised — polynomial definite integral",
+   "codes": [
+    "1.8.3"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r7386",
+   "station": "calculus-meets-functions",
+   "title": "What's the area enclosed by $y=x(x-3)^2$ and a tangent?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "part (b) area between the cubic and the tangent/chord PQ as a definite integral of curve minus line — the tangent-revisit area carries the recorded 1.8 bearing",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": false,
+   "priorAlignmentOfRecord": "1.7.2, 1.7.4"
+  },
+  {
+   "ugmSlug": "r7444",
+   "station": "calculus-of-powers",
+   "title": "Can we find the area inside a straight line, a parabola and the x-axis?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7444",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "area of the region bounded by y = x^2, 2x+y=15 and the x-axis split into an integrated region and a triangle",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r7628",
+   "station": "calculus-of-powers",
+   "title": "If we take a slice from this sphere, where is its centre of gravity?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7628",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "volume of a spherical cap as pi*integral(a^2-x^2)dx; the centre-of-gravity parts are Mechanics dressing",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r7734",
+   "station": "calculus-of-powers",
+   "title": "Given three clues, can we find the equation of the curve?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r7734",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1,
+    4
+   ],
+   "note": "gradient ax+b integrated to y = ax^2/2+bx+c with c evaluated from a point — the constant-of-integration reconstruction is the decisive step",
+   "codes": [
+    "1.8.2"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": false,
+   "priorAlignmentOfRecord": "1.7.3"
+  },
+  {
+   "ugmSlug": "r7861",
+   "station": "calculus-meets-functions",
+   "title": "When does a cubic curve have two turning points?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7861",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "part (iv) area enclosed by the x-axis and the translated cubic g(x) = x^2(x-t) — polynomial definite integration is the load-bearing step",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": false,
+   "priorAlignmentOfRecord": "1.7.4"
+  },
+  {
+   "ugmSlug": "r8350",
+   "station": "calculus-of-powers",
+   "title": "When is the area of this region bigger than the area of this one?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8350",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "compares the areas bounded by the x-axis and a-x^2 vs x^4-a via definite integrals with irrational limits",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r8716",
+   "station": "calculus-of-powers",
+   "title": "What happens if we integrate, then differentiate?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8716",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1,
+    4
+   ],
+   "note": "dI/da for I(a) = integral over [0,a] of (4-2^(x^2)) resolved by the integration-differentiation inverse relation — the reverse-process understanding of 1.8.1 clause one is the tested skill",
+   "codes": [
+    "1.8.1"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "r9138",
+   "station": "calculus-of-powers",
+   "title": "Can we find the area enclosed by this quadratic and the $x$-axis?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r9138",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "area between y = 2x^2-6x+4 and the x-axis after gradient-condition reconstruction — the area computation carries the recorded 1.8 bearing",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": false,
+   "priorAlignmentOfRecord": "1.7.3"
+  },
+  {
+   "ugmSlug": "r9357",
+   "station": "calculus-of-powers",
+   "title": "Can we find the area between a parabola and a line?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r9357",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1,
+    4
+   ],
+   "note": "area between y = x^2 and y = x+2 as the difference of two definite integrals — the canonical curve-line area question",
+   "codes": [
+    "1.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  },
+  {
+   "ugmSlug": "stretch-the-function",
+   "station": "calculus-of-powers",
+   "title": "Stretch the function",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/stretch-the-function",
+   "resourceType": "Food for thought",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "note": "scaling functions to satisfy an integral-equals-1 condition over [-1,2] — linearity, signed value and definite evaluation incl. x^(1/2) and x^(-2) (rational n != -1)",
+   "codes": [
+    "1.8.3"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "differentiation",
+   "flipOfPriorNonOverlap": true,
+   "priorAlignmentOfRecord": null
+  }
+ ],
+ "sweepRouting": {
+  "r7461": "P3/exp bearings — the integrand 2^-(x-c)^2 is not integrable at P1; the maximisation is transformation/area reasoning (lane-7 routing stands)",
+  "inverse-integrals": "P3 Integration — ln x and arcsin x integrals via inverse-function areas (lane-7 routing stands)",
+  "inverse-integrals-teacher-support": "teacher-support page of inverse-integrals (routed) — ships only alongside its main task",
+  "r6622": "the integrand sin(sin t) is not integrable at P1/P3 — area-symmetry reasoning on a trig curve; out of P1 technique scope",
+  "r7616": "P3 Integration — sign analysis of trig integrals (lane-7 routing stands)",
+  "r8679": "P3 Integration — trig antiderivatives of cos x - sin x + 2 plus a numerical root-finding tail",
+  "r9184": "P3 Integration — area between sin x and sin 2x needs trig antiderivatives",
+  "sine-on-the-dotted-line": "P3 Integration — areas under sin x need the trig antiderivative; the area-decomposition reasoning is 1.8.4-shaped but the technique is out of P1 (the lane-7 1.8/P3 routing resolves to P3)",
+  "stretching-an-integral": "P3 Integration — the 1/x integral toward ln (lane-7 routing stands)",
+  "trigsy-integrals": "P3 Integration — trig and inverse-trig integrals (lane-7 routing stands)",
+  "two-for-one": "P3 Integration — ln|x| and the modulus (lane-7 routing stands)",
+  "integral-sorting": "P3 Integration — substitution matching with ln/arcsin/(x^3-3x)^(3/2) (lane-7 routing stands)",
+  "r8694": "P3 Integration — tan^3 and sqrt(x+1)/(x-3) substitution (lane-7 routing stands)",
+  "r8778": "P3 Integration — x*sqrt(2x-1) beyond linear substitution, 1/sqrt(2x-x^2) to arcsin, sec^4 (lane-7 routing stands)",
+  "r8836": "P3/Mechanics — volume by slicing with a product integrand needing substitution; centre of mass (the lane-7 1.8/Mechanics routing resolves to P3/Mechanics)",
+  "r8890": "P3 Integration — integration by substitution (u=1-x^2, u=cos theta) (lane-7 routing stands)",
+  "r9085": "P3 — arctan integrand 1/(1+x^2) and rotation about the y-axis; the pi>3 and ln2>2/3 inequalities are not P1 technique",
+  "r9297": "P3 Integration — tan^4 reduction (lane-7 routing stands)",
+  "which-substitution": "P3 Integration — the arcsin antiderivative of 1/sqrt(1-x^2) via substitution (lane-7 routing stands)",
+  "from-parabolas-to-catenaries": "P3/beyond — catenary derivation with arc length and cosh (resource flagged draft upstream)",
+  "how-long-is-a-piece-of-string": "P3/beyond — arc length of parametric and cosh curves",
+  "rolling-parabolas": "P3/beyond — rolling-parabola locus via parametric arc length",
+  "weight-pulling": "P3/beyond — tractrix/involutes (draft upstream)",
+  "constant-consistency": "P3 Integration — the cos x sin x integral by identity/substitution/parts (lane-7 routing stands)",
+  "integral-chasing-2": "P3 Integration — ln, parts (axe^(2x)), trig substitution, x^2 sin cx (lane-7 routing stands)",
+  "r5126": "P3 Integration — partial fractions plus substitution, (ln x)^2 by parts (lane-7 routing stands)",
+  "r6620": "P3 Integration — stationary points of curves with e^(-x^2) gradients; y(x) needs parts (lane-7 routing stands)",
+  "r8134": "P3 Integration — reduction formula for e^(-x) sin^n x (lane-7 routing stands)",
+  "r8152": "P3/Mechanics — average density by shell integration; exp and partial-fraction integrands (the lane-7 1.8/P3 routing resolves to P3/Mechanics)",
+  "r8774": "P3/Mechanics — displacement from velocity v=(2t-1)/(4(2t+1)) needs the ln|2t+1| antiderivative (the lane-7 1.8/Mechanics routing resolves to P3/Mechanics)",
+  "circular-slice": "P3 Integration — the sqrt(1-x^2) integral via x=cos theta substitution; the geometric sector/triangle route is the recorded 1.4 circular-measure skill (of record, stands)",
+  "r9815": "P3 — integration with respect to y / inverse-function area; lane-7 recorded the bearings beyond P1 1.8 and the 1.7.3 alignment stands",
+  "r5324": "trapezium-rule estimate logic — the trapezium rule is not in the 9709 P1 spine and no other-lane skill is load-bearing; stays an integration-family non-overlap of record",
+  "can-you-find-chain-rule-edition": "chain-rule function construction — differentiation only; integrate_verb marker false positive",
+  "division-game": "number theory — 'fundamental theorem' marker false positive (FTA, not FTC)",
+  "the-fundamental-theorem-of-arithmetic": "number theory — 'fundamental theorem' marker false positive (FTA, not FTC)",
+  "odd-or-even-or": "odd/even function symmetry — 'rotated about' marker false positive",
+  "thats-odd-or-even": "odd/even function symmetry — 'rotated about' marker false positive",
+  "proving-pythag": "Pythagoras proofs — rotation marker false positive",
+  "r9259": "incircle/circumcircle ratio — pure geometry; area marker false positive",
+  "average-turning-points": "stationary-point debate — differentiation only (1.7.4 of record); markers false positives",
+  "can-you-find-curvy-cubics": "cubic construction from stationary points — differentiation of record (1.7.2/1.7.4); no integration skill",
+  "curvy-cubics": "cubic construction from stationary points — differentiation of record (1.7.2/1.7.4); no integration skill",
+  "r9599": "wire-optimisation — canonical 1.7.2/1.7.4 optimisation of record; area marker false positive",
+  "r6838": "shared area of two circles by sector/triangle geometry (1.3/1.4 skills of record) — no integration technique",
+  "r7495": "circle-triangle intersection area by sector geometry (1.3/1.4 skills of record) — no integration technique",
+  "r8225": "area between three touching circles by triangle-minus-sectors geometry — no integration technique",
+  "r9386": "semicircle-line area by sector/triangle geometry — 1.3.2 of record; no integration technique",
+  "r6102": "binomial coefficient identities (1.6.1 of record) — integrate_verb marker false positive",
+  "r6835": "triangle area under a variable line — coordinate geometry of record (1.3.x)",
+  "approximating-areas": "area-order estimation with exact values quoted in the check — estimation skill; no integration technique tested (the lane-7 non-overlap of record stands)",
+  "problem-areas": "semicircle-quadrant area vs bounding arguments — 1.4.1 of record; no integration technique",
+  "r5642": "trapezium-rule exactness on a piecewise-linear graph — the trapezium rule is not in the 9709 P1 spine (lane-7 non-overlap of record stands)",
+  "r7903": "trapezium-rule derivation plus x ln x estimate — trapezium rule not in the P1 spine; the integrand is P3-dressed (lane-7 non-overlap of record stands)",
+  "r8140": "trapezium rule on a saw-tooth function — not in the 9709 P1 spine (lane-7 non-overlap of record stands)",
+  "underneath-the-arches": "trapezium-rule over/under estimates on given graphs — not in the 9709 P1 spine (lane-7 non-overlap of record stands)",
+  "serpentine-lake": "map-area estimation — no integration technique (lane-7 non-overlap of record stands)",
+  "r6592": "trapezium rule on 2^x — the decisive GP-sum step is the recorded 1.6.3 alignment (lane 6); the trapezium rule is not in the P1 spine",
+  "r7912": "polygon approximation to the area under sin x — estimation; 1.5.1/1.5.2 of record (lane 5); the trig antiderivative is only quoted",
+  "r6841": "stopping distance from a velocity-time graph by rectangles and triangles — Mechanics reasoning, no integration (lane-7 non-overlap of record stands)",
+  "r9586": "constant-acceleration kinematics from distances — Mechanics; no integration (lane-7 non-overlap of record stands)",
+  "two-way-calculus-teacher-support": "teacher-support of two-way-calculus (of record via lane 7 without it) — ships only alongside its main task",
+  "r9312": "area between e^-x and e^-x sin x closes as a GP sum (1.6.4 of record); the integration vehicle is parts (P3) — no 1.8 row"
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 91,
+  "substrateResources": 10,
+  "ugmResourcesConsidered": 10,
+  "aligned": 28,
+  "alignedSubstrate": 10,
+  "nonOverlap": 0,
+  "crossLaneAligned": 18,
+  "routed": 32,
+  "alignmentRows": 28,
+  "withExamProvenance": 12,
+  "perSpecPointCounts": {
+   "1.8.1": 2,
+   "1.8.2": 4,
+   "1.8.3": 10,
+   "1.8.4": 12
+  },
+  "alignmentRowsPerSpecPoint": {
+   "1.8.1": 2,
+   "1.8.2": 4,
+   "1.8.3": 10,
+   "1.8.4": 12
+  },
+  "stationBreakdown": {
+   "calculus-meets-functions": {
+    "resources": 7,
+    "aligned": 7,
+    "nonOverlap": 0
+   },
+   "chain-rule": {
+    "resources": 2,
+    "aligned": 2,
+    "nonOverlap": 0
+   },
+   "product-rule": {
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0
+   }
+  },
+  "alignedShare": 1.0,
+  "coverageNote": "Strand-lane semantics (lane-4 shape, applied to a spec section with no dedicated UGM station): UGM's two dedicated calculus stations are fully of record via lane 7 (Introducing Calculus 27/27, Calculus of Powers 48/48), so the 1.8 new-text universe is the 10 unrecorded resources of the wider seven-station calculus family whose tested skill is 1.8.x — all 10 ship mapped under pure-1-integration/ and none ship unmapped. The 18 further 1.8 rows are cross-lane fact joins to already-of-record bodies under pure-1-differentiation/ (13 flip the lane-7 Calculus-of-Powers non-overlaps of record — the integration-dressed honesty lane 7 deferred to this lane; 5 add one-to-many rows alongside standing 1.7 alignments; text untouched either way). 32 further candidates are routed to recorded homes (P3-integration technique pools, P3/Mechanics, trapezium-rule resources with no spine home, marker false positives, teacher-support pages) and recorded in sweepRouting — never forced (AGENT.md rule 3). Full-fidelity picture: 91 sweep candidates = 28 aligned (10 new-text + 18 cross-lane joins; 28 alignment rows) + 32 routed + 31 rejected with reasons."
+ }
+}
