@@ -98,14 +98,35 @@
           "title": "Can we find the coefficient of $x^2$ in $(5 + 4x)(1 - x/2)^{10}$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r7078",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1,
             4
           ],
           "evidence": "first four terms of (1-x/2)^10 then coefficient of x^2 in (5+4x)(1-x/2)^10 — the canonical CIE P1 binomial question",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"471/2\", \"year\": 1970, \"questions\": [\"Q4(ii)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7078",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r7078",
+            "ref": 7078,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1970,
+            "questions": [
+              "Q4(ii)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1970, Q4(ii)",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1970, Q4(ii)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -118,13 +139,34 @@
           "title": "Can we find the minimum value of $x^2+2/x$ for $x$ positive?",
           "url": "https://undergroundmathematics.org/chain-rule/r5640",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "part 1 is the binomial expansion: coefficient of x^7 in (x^2+2/x)^8 (parts 2-3 are calculus — 1.7/1.8 bearings recorded in the cross-map)",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"420/2\", \"year\": 1967, \"questions\": [\"Q4\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r5640",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/r5640",
+            "ref": 5640,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "420/2",
+            "year": 1967,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1967, Q4",
+            "raw": "UCLES O level Additional Mathematics 2, QP 420/2, 1967, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -137,13 +179,34 @@
           "title": "Which power of $x$ has the greatest coefficient?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r5563",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "greatest-coefficient comparison for (1+1/2 x)^10 via c_{k+1}/c_k or direct ℒ₂ evaluation",
-          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": \"Specimen 1\", \"year\": null, \"questions\": [\"Q1I\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r5563",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r5563",
+            "ref": 5563,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 1",
+            "year": null,
+            "questions": [
+              "Q1I"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1I",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1I\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -156,13 +219,34 @@
           "title": "What is the coefficient of $x^3y^5$ in the expansion of  $(1+xy+y^2)^n$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r5965",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "coefficient of x^3 y^5 in (1+xy+y^2)^n by writing (1+y(x+y))^n and applying the binomial expansion twice",
-          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2014, \"questions\": [\"Q1G\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r5965",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r5965",
+            "ref": 5965,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2014,
+            "questions": [
+              "Q1G"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2014, Q1G",
+            "raw": "Oxford University Mathematics Aptitude Test, 2014, Q1G\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -175,13 +259,34 @@
           "title": "Can we prove these four binomial coefficient identities?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r6102",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "binomial-coefficient identities (ΣC=2^n, kΣ, ΣC/(k+1), k²Σ) proved by substituting x=1/x=-1-style values into (1+x)^n",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": null, \"paper\": \"STEP Mathematics I\", \"paperCode\": null, \"year\": 2010, \"questions\": [\"Q5\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6102",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r6102",
+            "ref": 6102,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2010,
+            "questions": [
+              "Q5"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2010, Q5",
+            "raw": "UCLES STEP Mathematics I, 2010, Q5\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -194,13 +299,34 @@
           "title": "Can we estimate a difference of eighth powers?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r6503",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "expand (1+x)^8, then evaluate (1.001)^8-(0.999)^8 by combining the (1±x)^8 expansions — canonical numerical binomial question",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Mathematics Alternative C\", \"paperCode\": \"189\", \"year\": 1951, \"questions\": [\"Q5\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6503",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r6503",
+            "ref": 6503,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Mathematics Alternative C",
+            "paperCode": "189",
+            "year": 1951,
+            "questions": [
+              "Q5"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Mathematics Alternative C, QP 189, 1951, Q5",
+            "raw": "UCLES O level Mathematics Alternative C, QP 189, 1951, Q5\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -213,13 +339,34 @@
           "title": "Can we find an inequality from the expansion of $[ 1+1/\\sqrt{n}]^n$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r6770",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "first three terms of [1+1/√n]^n truncated to prove an inequality — extension-level application of the expansion",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Pure Mathematics 1\", \"paperCode\": \"9210/1\", \"year\": 1980, \"questions\": [\"Q5(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6770",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r6770",
+            "ref": 6770,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Pure Mathematics 1",
+            "paperCode": "9210/1",
+            "year": 1980,
+            "questions": [
+              "Q5(b)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Pure Mathematics 1, QP 9210/1, 1980, Q5(b)",
+            "raw": "UCLES A level Pure Mathematics 1, QP 9210/1, 1980, Q5(b)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -232,13 +379,34 @@
           "title": "Can we find an approximation to $(1.0099)^6$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r7489",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "expand (1+p)^6, substitute p=x-x^2, then choose x to evaluate (1.0099)^6 — expansion with substitution and numerical use",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"8175/1\", \"year\": 1983, \"questions\": [\"Q6\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7489",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r7489",
+            "ref": 7489,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "8175/1",
+            "year": 1983,
+            "questions": [
+              "Q6"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 1, QP 8175/1, 1983, Q6",
+            "raw": "UCLES AO level Additional Mathematics 1, QP 8175/1, 1983, Q6\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -251,13 +419,34 @@
           "title": "Can we use a binomial expansion to evaluate $\\left(19\\tfrac{3}{4}\\right)^6$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r7978",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "expand (x-y)^6 by the binomial theorem and evaluate (19 3/4)^6 to the nearest thousand — canonical (a-b)^n numerical question",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"186\", \"year\": 1951, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7978",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r7978",
+            "ref": 7978,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "186",
+            "year": 1951,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 186, 1951, Q3",
+            "raw": "UCLES A level Mathematics 1, QP 186, 1951, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -270,13 +459,34 @@
           "title": "Can we show $\\binom{n}{r}=\\binom{n-1}{r-1}+\\binom{n-2}{r-1}+\\binom{n-3}{r-1}+\\dotsb+\\binom{r-1}{r-1}$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r8014",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "ΣC(n,r)=2^n, Vandermonde-style ℒ(2n,n) identity and the hockey-stick identity — binomial-theorem identities with combinatorial proofs",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Further Mathematics B Special paper\", \"paperCode\": \"9220/0\", \"year\": 1984, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8014",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r8014",
+            "ref": 8014,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Further Mathematics B Special paper",
+            "paperCode": "9220/0",
+            "year": 1984,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Further Mathematics B Special paper, QP 9220/0, 1984, Q1",
+            "raw": "UCLES A level Further Mathematics B Special paper, QP 9220/0, 1984, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -289,13 +499,34 @@
           "title": "Can we find the coefficients of $x^{−12}$ and $x^2$ in this expansion?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r9207",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "coefficients of x^-12 and x^2 in (x^4-1/x^2)^5 (x-1/x)^6 by expanding both brackets — binomial expansion with negative powers of the variable",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": null, \"paper\": \"STEP Mathematics I\", \"paperCode\": null, \"year\": 2000, \"questions\": [\"Q2\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9207",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r9207",
+            "ref": 9207,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2000,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2000, Q2",
+            "raw": "UCLES STEP Mathematics I, 2000, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -308,13 +539,34 @@
           "title": "If $x - 1/x = u$, what's $x^3 - 1/x^3$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r9928",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "x^3-1/x^3 and x^5-1/x^5 in terms of u=x-1/x by expanding (x-1/x)^3 and (x-1/x)^5 with the binomial theorem",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1978, \"questions\": [\"Q3(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9928",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r9928",
+            "ref": 9928,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "840/1",
+            "year": 1978,
+            "questions": [
+              "Q3(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 840/1, 1978, Q3(a)",
+            "raw": "UCLES A level Mathematics A 1, QP 840/1, 1978, Q3(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -327,13 +579,34 @@
           "title": "Can we factorise  $(x+y)^6 - (x-y)^6$ completely?",
           "url": "https://undergroundmathematics.org/thinking-about-algebra/r9404",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "all three solution routes run through binomial expansions of (x±y)^6 (factorisation is the wrapper)",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1979, \"questions\": [\"Q3(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9404",
+            "station": {
+              "id": 28,
+              "friendlyId": "thinking-about-algebra",
+              "title": "Thinking about Algebra"
+            },
+            "url": "https://undergroundmathematics.org/thinking-about-algebra/r9404",
+            "ref": 9404,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "840/1",
+            "year": 1979,
+            "questions": [
+              "Q3(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 840/1, 1979, Q3(a)",
+            "raw": "UCLES A level Mathematics A 1, QP 840/1, 1979, Q3(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.1"
@@ -357,14 +630,13 @@
           "title": "Sort it out",
           "url": "https://undergroundmathematics.org/sequences/sort-it-out",
           "resourceType": "building-blocks",
-          "level": "Introducing",
           "confidence": "high",
           "modesRecorded": [
             1,
             4
           ],
           "evidence": "sort a deck of infinite sequences into self-chosen groups — builds the AP/GP classification from properties (increasing, arithmetic, geometric)",
-          "provenance": null,
+          "examProvenance": null,
           "hasTeacherSupport": false,
           "codes": [
             "1.6.2"
@@ -377,13 +649,12 @@
           "title": "Common terms",
           "url": "https://undergroundmathematics.org/sequences/common-terms",
           "resourceType": "package-of-problems",
-          "level": "Developing",
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "construct an AP and a GP sharing u_2=6, u_4=54 — d=(54-6)/2=24 vs r^2=9; nth-term formulae of both progressions load-bearing",
-          "provenance": null,
+          "examProvenance": null,
           "hasTeacherSupport": false,
           "codes": [
             "1.6.2",
@@ -397,13 +668,32 @@
           "title": "Connect three?",
           "url": "https://undergroundmathematics.org/sequences/connect-three",
           "resourceType": "food-for-thought",
-          "level": "Developing",
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "find an arithmetic progression containing any three given numbers — AP structure recognition and construction",
-          "provenance": "{\"board\": \"NRICH\", \"qualification\": null, \"paper\": null, \"paperCode\": null, \"year\": null, \"questions\": [], \"permission\": \"NRICH\", \"parseStatus\": \"non-exam-provenance\"}",
+          "examProvenance": {
+            "friendlyName": "connect-three",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/connect-three",
+            "ref": 5401,
+            "isReviewQuestion": false,
+            "board": "NRICH",
+            "qualification": null,
+            "paper": null,
+            "paperCode": null,
+            "year": null,
+            "questions": [],
+            "permission": "NRICH",
+            "parseStatus": "non-exam-provenance",
+            "provenance": "Based on this NRICH resource , used with permission.",
+            "raw": "Based on this\nNRICH resource\n, used with permission. The NRICH resource remains Copyright University of Cambridge,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.2"
@@ -427,14 +717,35 @@
           "title": "If an AP has $S_{10}=3S_5$, what's the ratio of $u_{10}$ to $u_5$?",
           "url": "https://undergroundmathematics.org/sequences/r8907",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1,
             4
           ],
           "evidence": "S_10=3S_5 gives a=3d; ratio u_10/u_5=12/7; then S_200 from u_5=0.14 — S_n and u_n formulae together",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"8175/2\", \"year\": 1986, \"questions\": [\"Q2(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8907",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8907",
+            "ref": 8907,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1986,
+            "questions": [
+              "Q2(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q2(a)",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q2(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -447,13 +758,34 @@
           "title": "If $f(n) > k$ for all $n \\geq 1$, what can we say about $k$?",
           "url": "https://undergroundmathematics.org/counting-and-binomials/r7031",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "worst case at n=1 then arithmetic-series sum 2+3+⋯+101 = 100(2+101)/2 = 5150 — the AP sum is the load-bearing computation in a STEP-style MC",
-          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2007, \"questions\": [\"Q1J\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7031",
+            "station": {
+              "id": 10,
+              "friendlyId": "counting-and-binomials",
+              "title": "Counting & Binomials"
+            },
+            "url": "https://undergroundmathematics.org/counting-and-binomials/r7031",
+            "ref": 7031,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2007,
+            "questions": [
+              "Q1J"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2007, Q1J",
+            "raw": "Oxford University Mathematics Aptitude Test, 2007, Q1J\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -466,13 +798,34 @@
           "title": "What's the next number to occur in both sequences?",
           "url": "https://undergroundmathematics.org/divisibility-and-induction/r9916",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "common term of two APs via nth-term forms 2005+7j and 2005+9k (LCM structure)",
-          "provenance": "{\"board\": \"UKMT\", \"qualification\": null, \"paper\": \"Senior Mathematical Challenge\", \"paperCode\": null, \"year\": 2005, \"questions\": [\"Q7\"], \"permission\": \"United Kingdom Mathematics Trust\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9916",
+            "station": {
+              "id": 12,
+              "friendlyId": "divisibility-and-induction",
+              "title": "Divisibility & Induction"
+            },
+            "url": "https://undergroundmathematics.org/divisibility-and-induction/r9916",
+            "ref": 9916,
+            "isReviewQuestion": true,
+            "board": "UKMT",
+            "qualification": null,
+            "paper": "Senior Mathematical Challenge",
+            "paperCode": null,
+            "year": 2005,
+            "questions": [
+              "Q7"
+            ],
+            "permission": "United Kingdom Mathematics Trust",
+            "parseStatus": "parsed",
+            "provenance": "UKMT Senior Mathematical Challenge, 2005, Q7",
+            "raw": "UKMT Senior Mathematical Challenge, 2005, Q7\nQuestion reproduced by kind permission of the\nUnited Kingdom Mathematics Trust\n. The question remains Copyright UKMT,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -485,13 +838,34 @@
           "title": "Can we solve the equation $\\log_2 x + \\log_3 x = 1 + \\log_4 x$?",
           "url": "https://undergroundmathematics.org/exp-and-log/r8260",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "part 1 proves the GP-term log identity via a = AR^{p-1} (part 2 is a log-change-of-base equation — exp-and-log bearing)",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Pure Mathematics 1\", \"paperCode\": \"842/1\", \"year\": 1973, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8260",
+            "station": {
+              "id": 13,
+              "friendlyId": "exp-and-log",
+              "title": "Exponentials & Logarithms"
+            },
+            "url": "https://undergroundmathematics.org/exp-and-log/r8260",
+            "ref": 8260,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Pure Mathematics 1",
+            "paperCode": "842/1",
+            "year": 1973,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Pure Mathematics 1, QP 842/1, 1973, Q1",
+            "raw": "UCLES A level Pure Mathematics 1, QP 842/1, 1973, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -504,13 +878,34 @@
           "title": "Can we use the trapezium rule to estimate this integral?",
           "url": "https://undergroundmathematics.org/introducing-calculus/r6592",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "the trapezium-rule MC resolves by summing the GP 2^{1/N}+...+2^{(N-1)/N} — the GP sum formula is the decisive step",
-          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2009, \"questions\": [\"Q1H\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6592",
+            "station": {
+              "id": 16,
+              "friendlyId": "introducing-calculus",
+              "title": "Introducing Calculus"
+            },
+            "url": "https://undergroundmathematics.org/introducing-calculus/r6592",
+            "ref": 6592,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2009,
+            "questions": [
+              "Q1H"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2009, Q1H",
+            "raw": "Oxford University Mathematics Aptitude Test, 2009, Q1H\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -523,13 +918,32 @@
           "title": "Change one thing",
           "url": "https://undergroundmathematics.org/sequences/change-one-thing",
           "resourceType": "rich-example",
-          "level": "Introducing",
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "last term of the AP 3, 3.5, 4, ... with 25 terms, solved several ways — a_n = a_1+(n-1)d consolidation (acknowledged capture)",
-          "provenance": "{\"board\": null, \"qualification\": null, \"paper\": null, \"paperCode\": null, \"year\": null, \"questions\": [], \"permission\": null, \"parseStatus\": \"non-exam-provenance\"}",
+          "examProvenance": {
+            "friendlyName": "change-one-thing",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/change-one-thing",
+            "ref": 6517,
+            "isReviewQuestion": false,
+            "board": null,
+            "qualification": null,
+            "paper": null,
+            "paperCode": null,
+            "year": null,
+            "questions": [],
+            "permission": null,
+            "parseStatus": "non-exam-provenance",
+            "provenance": "Inspired by the participants of the Underground Mathematics webinar ‘Asking questions in the classroom’.",
+            "raw": "Inspired by the participants of the Underground Mathematics webinar ‘Asking questions in the classroom’."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -542,13 +956,12 @@
           "title": "Common terms",
           "url": "https://undergroundmathematics.org/sequences/common-terms",
           "resourceType": "package-of-problems",
-          "level": "Developing",
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "construct an AP and a GP sharing u_2=6, u_4=54 — d=(54-6)/2=24 vs r^2=9; nth-term formulae of both progressions load-bearing",
-          "provenance": null,
+          "examProvenance": null,
           "hasTeacherSupport": false,
           "codes": [
             "1.6.2",
@@ -562,13 +975,34 @@
           "title": "If AP terms $a_4,a_8, a_{16}$ are in GP, are $a_3, a_6, a_{12}$ in GP too?",
           "url": "https://undergroundmathematics.org/sequences/r5345",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "a_4, a_8, a_16 of an AP are consecutive GP terms; show a_3, a_6, a_12 too — nth-term formulae of AP and GP interplay",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"420/1\", \"year\": 1963, \"questions\": [\"Q5(ii)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r5345",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r5345",
+            "ref": 5345,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "420/1",
+            "year": 1963,
+            "questions": [
+              "Q5(ii)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 1, QP 420/1, 1963, Q5(ii)",
+            "raw": "UCLES O level Additional Mathematics 1, QP 420/1, 1963, Q5(ii)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -581,13 +1015,34 @@
           "title": "Can we find the sum of the integers from $2k$ to $4k$ inclusive?",
           "url": "https://undergroundmathematics.org/sequences/r5849",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "sums over 2k..4k; prove the GP sum formula a(1-r^n)/(1-r); recurring decimal 0.075075... as an infinite GP — AP sum + GP sum + sum to infinity",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"9200/1\", \"year\": 1981, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r5849",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r5849",
+            "ref": 5849,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "9200/1",
+            "year": 1981,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 9200/1, 1981, Q3",
+            "raw": "UCLES A level Mathematics A 1, QP 9200/1, 1981, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -601,13 +1056,34 @@
           "title": "How are the $p$th, $q$th and $r$th terms of an AP related?",
           "url": "https://undergroundmathematics.org/sequences/r6137",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "P(q-r)+Q(r-p)+R(p-q)=0 for AP terms and the log analogue for GP terms — nth-term formulae of both progressions",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"186\", \"year\": 1951, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6137",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r6137",
+            "ref": 6137,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "186",
+            "year": 1951,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 186, 1951, Q1",
+            "raw": "UCLES A level Mathematics 1, QP 186, 1951, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -620,13 +1096,34 @@
           "title": "If $u_n = a + bn + c2^n$, what's the sum of the first $n$ terms?",
           "url": "https://undergroundmathematics.org/sequences/r6153",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "u_n = a+bn+c 2^n summed over n terms — the sum splits into an AP part (a n + b Σk) and a GP part (c Σ2^k); both 1.6.3 formulae load-bearing",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"184\", \"year\": 1953, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6153",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r6153",
+            "ref": 6153,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "184",
+            "year": 1953,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 184, 1953, Q1",
+            "raw": "UCLES A level Mathematics 1, QP 184, 1953, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -639,13 +1136,34 @@
           "title": "Can we sum the first $2n$ terms of $1,1,2,\\frac{1}{2},4,\\frac{1}{4},8,\\frac{1}{8},..$?",
           "url": "https://undergroundmathematics.org/sequences/r6257",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "sum of first 2n terms of 1,1,2,1/2,4,1/4,... by separating the two interleaved GPs — GP sum formula twice",
-          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2010, \"questions\": [\"Q1B\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6257",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r6257",
+            "ref": 6257,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2010,
+            "questions": [
+              "Q1B"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2010, Q1B",
+            "raw": "Oxford University Mathematics Aptitude Test, 2010, Q1B\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -658,13 +1176,34 @@
           "title": "What can we say if $a, x_1, x_2, x_3, x_4, x_5, b$ are in arithmetic progression?",
           "url": "https://undergroundmathematics.org/sequences/r6405",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "seven terms in AP; a,x_2,b in GP; then GP series with |r|<1 — express r via S_n, S_∞ and prove S_{2n}=S_n(2S-S_n)/S",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"9202/1\", \"year\": 1984, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6405",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r6405",
+            "ref": 6405,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics B 1",
+            "paperCode": "9202/1",
+            "year": 1984,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics B 1, QP 9202/1, 1984, Q1",
+            "raw": "UCLES A level Mathematics B 1, QP 9202/1, 1984, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -678,13 +1217,34 @@
           "title": "If a GP has $S_n=(3^n - 2^n)/2^{n-5}$, what's its common ratio?",
           "url": "https://undergroundmathematics.org/sequences/r6608",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "S_n=(3^n-2^n)/2^{n-5} — find first term and common ratio — canonical GP-sum-formula problem",
-          "provenance": "{\"board\": \"O&C (Oxford & Cambridge SEG)\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": null, \"year\": 1967, \"questions\": [\"Q1(ii)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6608",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r6608",
+            "ref": 6608,
+            "isReviewQuestion": true,
+            "board": "O&C (Oxford & Cambridge SEG)",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": null,
+            "year": 1967,
+            "questions": [
+              "Q1(ii)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "O&C O level Additional Mathematics 2, 1967, Q1(ii)",
+            "raw": "O&C O level Additional Mathematics 2, 1967, Q1(ii)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -697,13 +1257,34 @@
           "title": "If $27$, $x$, $y$ are in GP, with sum $21$, what are $x$ and $y$?",
           "url": "https://undergroundmathematics.org/sequences/r7258",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "27, x, y in GP with sum 21 — common-ratio quadratic with two solution pairs",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"8175/1\", \"year\": 1980, \"questions\": [\"Q12(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7258",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r7258",
+            "ref": 7258,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "8175/1",
+            "year": 1980,
+            "questions": [
+              "Q12(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 1, QP 8175/1, 1980, Q12(a)",
+            "raw": "UCLES AO level Additional Mathematics 1, QP 8175/1, 1980, Q12(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -716,13 +1297,34 @@
           "title": "Can we sum from $1000$ to $2000$ excluding multiples of 5?",
           "url": "https://undergroundmathematics.org/sequences/r7424",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "prove the AP range-sum formula, sum 1000..2000 excluding multiples of 5; GP r=0.95 least n with S-S_n<1",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"848/1\", \"year\": 1978, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7424",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r7424",
+            "ref": 7424,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics B 1",
+            "paperCode": "848/1",
+            "year": 1978,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics B 1, QP 848/1, 1978, Q1",
+            "raw": "UCLES A level Mathematics B 1, QP 848/1, 1978, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -736,13 +1338,34 @@
           "title": "When does the sum of this series first exceed $2999/4000$?",
           "url": "https://undergroundmathematics.org/sequences/r7487",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "sum of 1/2+1/6+1/18+... (formula must be proved), sum to infinity, least n exceeding 2999/4000",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"417/1\", \"year\": 1958, \"questions\": [\"Q4\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7487",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r7487",
+            "ref": 7487,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "417/1",
+            "year": 1958,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 417/1, 1958, Q4",
+            "raw": "UCLES A level Mathematics 1, QP 417/1, 1958, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -756,13 +1379,34 @@
           "title": "When does the sum of this series equal $60$?",
           "url": "https://undergroundmathematics.org/sequences/r8121",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "recognise 3/n^3+4/n^3+...+(n^3-3)/n^3 as an AP and solve for n — AP recognition + sum formula",
-          "provenance": "{\"board\": \"UKMT\", \"qualification\": null, \"paper\": \"Senior Mathematical Challenge\", \"paperCode\": null, \"year\": 2006, \"questions\": [\"Q22\"], \"permission\": \"United Kingdom Mathematics Trust\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8121",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8121",
+            "ref": 8121,
+            "isReviewQuestion": true,
+            "board": "UKMT",
+            "qualification": null,
+            "paper": "Senior Mathematical Challenge",
+            "paperCode": null,
+            "year": 2006,
+            "questions": [
+              "Q22"
+            ],
+            "permission": "United Kingdom Mathematics Trust",
+            "parseStatus": "parsed",
+            "provenance": "UKMT Senior Mathematical Challenge, 2006, Q22",
+            "raw": "UKMT Senior Mathematical Challenge, 2006, Q22\nQuestion reproduced by kind permission of the\nUnited Kingdom Mathematics Trust\n. The question remains Copyright UKMT,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -775,13 +1419,34 @@
           "title": "If $S_n =  6 - 2^{n+1}/3^{n-1}$, can we show that we have a GP?",
           "url": "https://undergroundmathematics.org/sequences/r8163",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "S_n = 6 - 2^{n+1}/3^{n-1} — show the series is geometric; state a and r — canonical S_n-to-GP question",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"9202/1\", \"year\": 1981, \"questions\": [\"Q1(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8163",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8163",
+            "ref": 8163,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics B 1",
+            "paperCode": "9202/1",
+            "year": 1981,
+            "questions": [
+              "Q1(b)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics B 1, QP 9202/1, 1981, Q1(b)",
+            "raw": "UCLES A level Mathematics B 1, QP 9202/1, 1981, Q1(b)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -794,13 +1459,34 @@
           "title": "What is the sum of the multiples of 5 or 8 but not both?",
           "url": "https://undergroundmathematics.org/sequences/r8249",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "sum of multiples of 5 or 8 but not both up to 1000 — three AP-sum applications with inclusion-exclusion",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1 and Pure Mathematics 1\", \"paperCode\": \"9200/1 and 9208/1\", \"year\": 1985, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8249",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8249",
+            "ref": 8249,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1 and Pure Mathematics 1",
+            "paperCode": "9200/1 and 9208/1",
+            "year": 1985,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP 9200/1 and 9208/1, 1985, Q3",
+            "raw": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP 9200/1 and 9208/1, 1985, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -813,13 +1499,34 @@
           "title": "How are the sums of $n$, $2n$ and $3n$ terms connected here?",
           "url": "https://undergroundmathematics.org/sequences/r8493",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "S_3=3(S_2-S_1) for an AP; sum of 1+3x/(1+2x^2)+... and the |r|<1 condition for a sum to infinity",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Mathematics C\", \"paperCode\": \"187\", \"year\": 1953, \"questions\": [\"Q9\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8493",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8493",
+            "ref": 8493,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Mathematics C",
+            "paperCode": "187",
+            "year": 1953,
+            "questions": [
+              "Q9"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Mathematics C, QP 187, 1953, Q9",
+            "raw": "UCLES O level Mathematics C, QP 187, 1953, Q9\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -833,13 +1540,34 @@
           "title": "What are the first term and common ratio given two facts about this geometric progression?",
           "url": "https://undergroundmathematics.org/sequences/r9177",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "GP with a exceeds second term by 2, u_2+u_3=4/3 — two (a,r) pairs; positive-terms branch summed to infinity",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"8175/2\", \"year\": 1987, \"questions\": [\"Q2(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9177",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r9177",
+            "ref": 9177,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1987,
+            "questions": [
+              "Q2(b)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1987, Q2(b)",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1987, Q2(b)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -853,13 +1581,34 @@
           "title": "Should I hire a TV or borrow to buy it?",
           "url": "https://undergroundmathematics.org/sequences/r9375",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "TV-hire payments form a GP (r=4/5) — total over 8 years vs compound-interest debt — applied GP modelling",
-          "provenance": "{\"board\": \"O&C (Oxford & Cambridge SEG)\", \"qualification\": \"O level\", \"paper\": \"MEI Additional Mathematics 1\", \"paperCode\": \"MEI 109\", \"year\": 1974, \"questions\": [\"Q9\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9375",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r9375",
+            "ref": 9375,
+            "isReviewQuestion": true,
+            "board": "O&C (Oxford & Cambridge SEG)",
+            "qualification": "O level",
+            "paper": "MEI Additional Mathematics 1",
+            "paperCode": "MEI 109",
+            "year": 1974,
+            "questions": [
+              "Q9"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "O&C O level MEI Additional Mathematics 1, QP MEI 109, 1974, Q9",
+            "raw": "O&C O level MEI Additional Mathematics 1, QP MEI 109, 1974, Q9\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -872,13 +1621,34 @@
           "title": "What can we tell about the signs of this arithmetic sequence?",
           "url": "https://undergroundmathematics.org/sequences/r9468",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "S_8>3S_6 — deduce the signs of a and d from the AP sum formula — formula-driven reasoning MC",
-          "provenance": "{\"board\": \"TMUA\", \"qualification\": null, \"paper\": \"paper 2\", \"paperCode\": null, \"year\": 2016, \"questions\": [\"Q12\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9468",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r9468",
+            "ref": 9468,
+            "isReviewQuestion": true,
+            "board": "TMUA",
+            "qualification": null,
+            "paper": "paper 2",
+            "paperCode": null,
+            "year": 2016,
+            "questions": [
+              "Q12"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "Test of Mathematics for University Admission, paper 2, 2016, Q12",
+            "raw": "Test of Mathematics for University Admission, paper 2, 2016, Q12\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -891,13 +1661,34 @@
           "title": "Given $S_n = S_{3n}$, can we express $a$ in terms of $n$?",
           "url": "https://undergroundmathematics.org/sequences/r9613",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "S_n=S_3n with d=-1 — express a in terms of n — clean AP-sum-formula algebra",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics C 1\", \"paperCode\": \"9205/1 and 9206/1\", \"year\": 1988, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9613",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r9613",
+            "ref": 9613,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics C 1",
+            "paperCode": "9205/1 and 9206/1",
+            "year": 1988,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics C 1, QP 9205/1 and 9206/1, 1988, Q3",
+            "raw": "UCLES A level Mathematics C 1, QP 9205/1 and 9206/1, 1988, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -910,13 +1701,34 @@
           "title": "Can we sum $1^2-2^2+3^2-4^2+\\dotsb+ (2n-1)^2-(2n)^2$?",
           "url": "https://undergroundmathematics.org/sequences/r9819",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "prove the AP sum formula by Gauss pairing, then apply to alternating squares — formula derivation plus non-AP application",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1972, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9819",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r9819",
+            "ref": 9819,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "840/1",
+            "year": 1972,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 840/1, 1972, Q3",
+            "raw": "UCLES A level Mathematics A 1, QP 840/1, 1972, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3"
@@ -940,14 +1752,13 @@
           "title": "Square spirals",
           "url": "https://undergroundmathematics.org/sequences/square-spirals",
           "resourceType": "food-for-thought",
-          "level": "Introducing",
           "confidence": "high",
           "modesRecorded": [
             1,
             4
           ],
           "evidence": "square spirals: shaded fractions 1/4+1/16+1/64+... — a visual infinite GP sum (Introducing level)",
-          "provenance": null,
+          "examProvenance": null,
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
@@ -960,13 +1771,34 @@
           "title": "Can we find the area between $y=e^{-x}$ and $y=e^{-x}\\sin x$?",
           "url": "https://undergroundmathematics.org/product-rule/r9312",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "ΣA_n for the e^{-x}/e^{-x}sin x areas closes as a GP sum to infinity (integration is the vehicle)",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": null, \"paper\": \"STEP Mathematics II\", \"paperCode\": null, \"year\": 2010, \"questions\": [\"Q8\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9312",
+            "station": {
+              "id": 20,
+              "friendlyId": "product-rule",
+              "title": "Product Rule & Integration by Parts"
+            },
+            "url": "https://undergroundmathematics.org/product-rule/r9312",
+            "ref": 9312,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics II",
+            "paperCode": null,
+            "year": 2010,
+            "questions": [
+              "Q8"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics II, 2010, Q8",
+            "raw": "UCLES STEP Mathematics II, 2010, Q8\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
@@ -979,13 +1811,12 @@
           "title": "Bouncing to nothing",
           "url": "https://undergroundmathematics.org/sequences/bouncing-to-nothing",
           "resourceType": "rich-example",
-          "level": "Developing",
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "bouncing ball: heights ×3/4 each bounce — total distance before stopping is a GP sum to infinity (mechanics context, suvat as vehicle)",
-          "provenance": null,
+          "examProvenance": null,
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
@@ -998,13 +1829,12 @@
           "title": "Can you find... series edition",
           "url": "https://undergroundmathematics.org/sequences/can-you-find-series-edition",
           "resourceType": "many-ways-problem",
-          "level": "Developing",
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "construct infinite series meeting constraints — the GP convergence condition -1<r<1 is the central tool (general-series extensions recorded honestly)",
-          "provenance": null,
+          "examProvenance": null,
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
@@ -1017,13 +1847,12 @@
           "title": "A puzzling pentagon",
           "url": "https://undergroundmathematics.org/sequences/puzzling-pentagon",
           "resourceType": "go-and-think-about-it",
-          "level": "Developing",
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "puzzling pentagon interactive — provider description: created with geometric series in mind (nested-pentagon GP sum); excerpt capture, no question well",
-          "provenance": null,
+          "examProvenance": null,
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
@@ -1036,13 +1865,34 @@
           "title": "Can we find the sum of the integers from $2k$ to $4k$ inclusive?",
           "url": "https://undergroundmathematics.org/sequences/r5849",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "sums over 2k..4k; prove the GP sum formula a(1-r^n)/(1-r); recurring decimal 0.075075... as an infinite GP — AP sum + GP sum + sum to infinity",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"9200/1\", \"year\": 1981, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r5849",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r5849",
+            "ref": 5849,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "9200/1",
+            "year": 1981,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 9200/1, 1981, Q3",
+            "raw": "UCLES A level Mathematics A 1, QP 9200/1, 1981, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -1056,13 +1906,34 @@
           "title": "What can we say if $a, x_1, x_2, x_3, x_4, x_5, b$ are in arithmetic progression?",
           "url": "https://undergroundmathematics.org/sequences/r6405",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "seven terms in AP; a,x_2,b in GP; then GP series with |r|<1 — express r via S_n, S_∞ and prove S_{2n}=S_n(2S-S_n)/S",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"9202/1\", \"year\": 1984, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r6405",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r6405",
+            "ref": 6405,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics B 1",
+            "paperCode": "9202/1",
+            "year": 1984,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics B 1, QP 9202/1, 1984, Q1",
+            "raw": "UCLES A level Mathematics B 1, QP 9202/1, 1984, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -1076,13 +1947,34 @@
           "title": "Can we sum from $1000$ to $2000$ excluding multiples of 5?",
           "url": "https://undergroundmathematics.org/sequences/r7424",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "prove the AP range-sum formula, sum 1000..2000 excluding multiples of 5; GP r=0.95 least n with S-S_n<1",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"848/1\", \"year\": 1978, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7424",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r7424",
+            "ref": 7424,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics B 1",
+            "paperCode": "848/1",
+            "year": 1978,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics B 1, QP 848/1, 1978, Q1",
+            "raw": "UCLES A level Mathematics B 1, QP 848/1, 1978, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -1096,13 +1988,34 @@
           "title": "When does the sum of this series first exceed $2999/4000$?",
           "url": "https://undergroundmathematics.org/sequences/r7487",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "sum of 1/2+1/6+1/18+... (formula must be proved), sum to infinity, least n exceeding 2999/4000",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"417/1\", \"year\": 1958, \"questions\": [\"Q4\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r7487",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r7487",
+            "ref": 7487,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "417/1",
+            "year": 1958,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 417/1, 1958, Q4",
+            "raw": "UCLES A level Mathematics 1, QP 417/1, 1958, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -1116,13 +2029,34 @@
           "title": "Given the sequence $(x_n)$, what is  $\\sum_{k=0}^\\infty 1/x_k$?",
           "url": "https://undergroundmathematics.org/sequences/r8248",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "medium",
           "modesRecorded": [
             1
           ],
           "evidence": "recursion x_n=Σx_k gives x_n=2^{n-1}; Σ1/x_k closes by the GP sum to infinity — one-to-many extension of 1.6.4 inside a recursion question",
-          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2016, \"questions\": [\"Q1F\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8248",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8248",
+            "ref": 8248,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2016,
+            "questions": [
+              "Q1F"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2016, Q1F",
+            "raw": "Oxford University Mathematics Aptitude Test, 2016, Q1F\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
@@ -1135,13 +2069,34 @@
           "title": "How are the sums of $n$, $2n$ and $3n$ terms connected here?",
           "url": "https://undergroundmathematics.org/sequences/r8493",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "S_3=3(S_2-S_1) for an AP; sum of 1+3x/(1+2x^2)+... and the |r|<1 condition for a sum to infinity",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Mathematics C\", \"paperCode\": \"187\", \"year\": 1953, \"questions\": [\"Q9\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8493",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8493",
+            "ref": 8493,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Mathematics C",
+            "paperCode": "187",
+            "year": 1953,
+            "questions": [
+              "Q9"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Mathematics C, QP 187, 1953, Q9",
+            "raw": "UCLES O level Mathematics C, QP 187, 1953, Q9\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -1155,13 +2110,34 @@
           "title": "How do we add the odd-numbered terms of a geometric series?",
           "url": "https://undergroundmathematics.org/sequences/r8617",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "GP sum to infinity 8; odd-numbered terms sum to infinity 6 — find r — canonical S_∞ work",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics C 1\", \"paperCode\": \"9205/1 and 9206/1\", \"year\": 1986, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r8617",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r8617",
+            "ref": 8617,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics C 1",
+            "paperCode": "9205/1 and 9206/1",
+            "year": 1986,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics C 1, QP 9205/1 and 9206/1, 1986, Q3",
+            "raw": "UCLES A level Mathematics C 1, QP 9205/1 and 9206/1, 1986, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
@@ -1174,13 +2150,34 @@
           "title": "What are the first term and common ratio given two facts about this geometric progression?",
           "url": "https://undergroundmathematics.org/sequences/r9177",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "GP with a exceeds second term by 2, u_2+u_3=4/3 — two (a,r) pairs; positive-terms branch summed to infinity",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"8175/2\", \"year\": 1987, \"questions\": [\"Q2(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9177",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r9177",
+            "ref": 9177,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1987,
+            "questions": [
+              "Q2(b)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1987, Q2(b)",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1987, Q2(b)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.3",
@@ -1194,13 +2191,34 @@
           "title": "When does $1 + 2/3 + (2/3)^2 + \\dotsb$ first exceed $0.9999S_\\infty$?",
           "url": "https://undergroundmathematics.org/sequences/r9185",
           "resourceType": "review-question",
-          "level": null,
           "confidence": "high",
           "modesRecorded": [
             1
           ],
           "evidence": "least number of terms of 1+2/3+(2/3)^2+... exceeding 99.99% of S_∞ — convergence + remainder",
-          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1976, \"questions\": [\"Q3(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "examProvenance": {
+            "friendlyName": "r9185",
+            "station": {
+              "id": 23,
+              "friendlyId": "sequences",
+              "title": "Sequences"
+            },
+            "url": "https://undergroundmathematics.org/sequences/r9185",
+            "ref": 9185,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "840/1",
+            "year": 1976,
+            "questions": [
+              "Q3(b)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 840/1, 1976, Q3(b)",
+            "raw": "UCLES A level Mathematics A 1, QP 840/1, 1976, Q3(b)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
           "hasTeacherSupport": false,
           "codes": [
             "1.6.4"
