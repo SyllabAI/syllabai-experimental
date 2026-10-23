@@ -150,7 +150,21 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #91 review/merge on operator ack; further lanes by spine adjacency
-  (1.8 Integration: the integration stations — the final Pure 1 subtopic) —
-  recipe of record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run
-  still pending.
+  `T-UGM-HUB-CONSUME-7` served as `syllabai-v2#343` → `1db17c1b` — 7 lanes /
+  27 stations / 26 spec points / 431 rows / 469 bodies served) and
+  **lane 8 the calculus family → CIE 9709 P1 1.8 Integration** — the first
+  strand lane on a spec section (operator: next lane per INTEGRATION-PLAN;
+  cross-map `cross-map-integration.json` @ `c04abfbd`, 91 sweep candidates:
+  28 aligned — 10 new-text strand + 18 cross-lane joins, 13 flipping the
+  lane-7 CoP non-overlaps of record — plus 0 new non-overlaps + 32 routed +
+  31 rejected with reasons; primary picks r8716 / r7734 / r6067 / r9357;
+  enrichment + 10 new-text bodies filed as `syllabai-resources#96`,
+  MANIFEST v8; **the Pure 1 spine 1.1–1.8 is now complete of record**;
+  hub `T-UGM-HUB-CONSUME-8` pending). Mode-2 deep-link
+  pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
+  kit retained in `pilot/` as record); Mode-3 licensing remains
+  operator-gated (its evidence source is now the S1 census).
+- Next: #96 review/merge on operator ack; further lanes by operator ordering
+  (Pure 1 complete — the recorded P3 preview pools and the P2/P3 spine
+  sections beyond Pure 1 are the natural substrates) — recipe of record in
+  `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.

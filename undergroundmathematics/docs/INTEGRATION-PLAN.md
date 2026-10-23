@@ -336,13 +336,35 @@ worth doing regardless of any Mode-3 outcome.
       with the coverage note; converter byte-identical vs the full 99-file
       lane-6 of-record corpus); hub consumption (`T-UGM-HUB-CONSUME-7`) pending
       on the syllabai-v2 side
-- [ ] further lanes (next by spine adjacency: 1.8 Integration —
-      the integration stations; the 1.8-bearing pools recorded in lanes 6–7
-      are the substrate preview)
+- [x] **eighth lane — CIE 9709 P1 1.8 Integration (operator: next lane
+      per this plan; the Pure 1 spine is now complete of record)** — cross-map
+      of record `cross-map-integration.json` @ `c04abfbd` (corpus sweep
+      855 → 91 candidates resolved as 28 aligned — 10 new-text strand
+      (calculus-meets-functions 7, chain-rule 2, product-rule 1) + 18
+      cross-lane fact joins to `pure-1-differentiation/` bodies, 13 of them
+      flipping the lane-7 Calculus-of-Powers non-overlaps of record with
+      reasons retained; 28 alignment rows; 0 new non-overlaps; 32 routed
+      (P3-technique honesty) + 31 rejected with reasons; NO fold fragments:
+      1.8.1–1.8.4 verbatim into the spine export (33 rows — Pure 1 complete);
+      findings of record: lane 7's integration-dressed deferral realised;
+      1.8 coverage area/volume-dominated (12 of 28 rows 1.8.4) while
+      reverse-process/constant-of-integration coverage is thin (2 + 4);
+      primary picks r8716 / r7734 / r6067 / r9357); corpus + facts filed as
+      **[syllabai-resources#96](https://github.com/SyllabAI/syllabai-resources/pull/96)**
+      (tasks `T-UGM-MODE1-8` + `T-UGM-IMPORT-8`, MANIFEST v8, 10 new-text
+      files — strand-lane corpus law: new text only, no unmapped imports,
+      cross-lane 1.8 mappings by reference); hub consumption
+      (`T-UGM-HUB-CONSUME-8`) pending on the syllabai-v2 side
+- [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record; the
+      recorded P3 preview pools — real-index binomial + power series from
+      lane 6, product/chain-rule and trig/exp/log derivative pools from
+      lane 7, the 32 lane-8 P3-integration routings — and the P2/P3 spine
+      sections beyond Pure 1 are the natural next substrates; ordering is
+      the operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
-      (`LANE_STATIONS` entry + expected census; multi-station blocks now
-      supported) + `ugm-resources.json` re-run at the new pin
+      (`LANE_STATIONS` entry + expected census; multi-station and strand
+      blocks now supported) + `ugm-resources.json` re-run at the new pin
 
 ## 5. Mode-4 pattern adoption — do these regardless (design tasks)
 
