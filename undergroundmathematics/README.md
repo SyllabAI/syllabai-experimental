@@ -123,11 +123,22 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   mapping) + 2 cross-lane fact joins (r9924/r8411 → 1.5.4 vs lane-2
   bodies) + 220 routed; primary picks going-round-in-circles /
   trig-tables / inverse-or-not / r5269 / r6138; enrichment + whole-
-  substrate 77 text bodies filed as `syllabai-resources#79`, MANIFEST v5;
-  hub `T-UGM-HUB-CONSUME-5` pending). Mode-2 deep-link
+  substrate 77 text bodies merged of record as `syllabai-resources#79`
+  → `cf79ecd2`, MANIFEST v5; hub `syllabai-v2#330` → `16bef479` — 5 lanes /
+  12 stations / 18 spec points / 262 rows / 264 bodies served) and
+  **lane 6 Sequences + Counting and Binomials → CIE 9709 P1 1.6 Series** —
+  the second two-station lane (operator "lane 6 (CIE 9709 P1 1.6 Series)";
+  cross-map `cross-map-series.json` @ `82964ce4`, 137 sweep candidates: 49
+  aligned — 43 substrate + 6 cross-station strays, 56 rows — plus 50
+  non-overlaps (combinatorics/logic dominance in Counting and Binomials;
+  general-index binomial questions carry P3 Series bearings) + 2 cross-lane
+  fact joins (r7553/r9527 → 1.6.3 vs lane-2 bodies) + 36 routed; primary
+  picks r7078 / sort-it-out / r8907 / square-spirals; enrichment +
+  whole-substrate 99 text bodies filed as `syllabai-resources#89`,
+  MANIFEST v6; hub `T-UGM-HUB-CONSUME-6` pending). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #79 review/merge on operator ack; further lanes by spine adjacency
-  (1.6 Series: `sequences` + `counting-and-binomials`) — recipe of record in
+- Next: #89 review/merge on operator ack; further lanes by spine adjacency
+  (1.7 Differentiation: the calculus stations) — recipe of record in
   `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.

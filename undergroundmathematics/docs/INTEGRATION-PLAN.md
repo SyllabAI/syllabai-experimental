@@ -294,8 +294,29 @@ worth doing regardless of any Mode-3 outcome.
       truths; full 5-lane importer audit green: 5 lanes / 12 stations / 18
       spec points / 262 rows / 63 non-overlaps / 264 bodies, 0 dup ids);
       hub consumption (`T-UGM-HUB-CONSUME-5`) pending on the syllabai-v2 side
-- [ ] further lanes (next by spine adjacency: 1.6 Series —
-      `sequences` + `counting-and-binomials`)
+- [x] sixth lane: **Sequences + Counting and Binomials →
+      CIE 9709 P1 1.6 Series (the second two-station lane; operator "lane 6
+      (CIE 9709 P1 1.6 Series)")** — cross-map of record
+      `cross-map-series.json` @ `82964ce4` (corpus sweep 855 → 137
+      candidates resolved as 49 aligned — 43 substrate + 6 cross-station
+      strays r5640/r9404/r9916/r8260/r6592/r9312; 56 alignment rows — plus
+      50 non-overlaps and 36 routed to recorded homes; NO fold fragments:
+      1.6.1–1.6.4 verbatim into the spine export; findings of record:
+      Sequences maps 31/42 onto 1.6.2–1.6.4, Counting and Binomials is
+      combinatorics/logic-dominated (39 non-overlaps) around a binomial core
+      (12/51), and the general-index binomial questions carry P3 Series
+      bearings — the P3-lane substrate preview, mirroring lane 5's P3 2.3
+      finding; 2 cross-lane fact joins r7553/r9527 → 1.6.3 against lane-2
+      bodies; primary picks r7078 / sort-it-out / r8907 / square-spirals);
+      corpus + facts filed as
+      **[syllabai-resources#89](https://github.com/SyllabAI/syllabai-resources/pull/89)**
+      (tasks `T-UGM-MODE1-6` + `T-UGM-IMPORT-6`, MANIFEST v6, whole-substrate
+      99 text bodies — station-lane corpus law: non-overlaps imported UNMAPPED
+      with the coverage note; converter byte-identical vs the full 77-file
+      lane-5 of-record corpus); hub consumption (`T-UGM-HUB-CONSUME-6`) pending
+      on the syllabai-v2 side
+- [ ] further lanes (next by spine adjacency: 1.7 Differentiation —
+      the calculus stations, where of-record item attachment is densest)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station blocks now
