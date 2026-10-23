@@ -254,6 +254,23 @@ worth doing regardless of any Mode-3 outcome.
       points, 188 rows, 38 non-overlaps, 182 bodies; lanes 1-2 byte-identical
       through the regen; committed-bundle regression test added; tsc 0,
       packages 527/527)
+- [x] fourth lane: **Circular-measure strand → CIE 9709 P1 1.4 Circular
+      measure (the first strand lane; operator "extend channel 4" — overrides
+      the #321 residual's "1.5 next" default)** — cross-map of record
+      `cross-map-circular-measure.json` @ `b52cf1bf` (corpus sweep 855 → 62
+      candidates resolved as 17 aligned — 3 new-text + 14 cross-lane
+      circles-strand facts incl. 2 lane-3 1.3.2 extensions — plus 4
+      non-overlaps and 41 routed to recorded homes; hub fragment 1.4.1a folded
+      into 1.4.1; clause-a radian-definition gap recorded, never manufactured;
+      primary pick r5534); corpus + facts filed as
+      [syllabai-resources#74](https://github.com/SyllabAI/syllabai-resources/pull/74)
+      (tasks `T-UGM-MODE1-4` + `T-UGM-IMPORT-4`, MANIFEST v4, 5 new-text
+      bodies — strand-lane shape: cross-lane `ugmId` uniqueness law keeps one
+      text body per resource, circles-strand mappings by `textOfRecordUnder`
+      reference; converter byte-identical vs lane-1/3 ground truths; full
+      4-lane importer audit green: 187 bodies, 0 dup ids); hub consumption
+      `T-UGM-HUB-CONSUME-4` pending on the syllabai-v2 side (strand-lane block
+      + cross-lane join spec in #74 + cross-map §8)
 - [ ] further lanes (next by spine adjacency: 1.5 Trigonometry —
       `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`)
       lane-by-lane on operator ack — recipe of record:

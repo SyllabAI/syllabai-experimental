@@ -105,11 +105,19 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   1.3.1a/1.3.2a folded of record; 24 honest non-overlaps; enrichment + 85
   text bodies filed as `syllabai-resources#66`, MANIFEST v3; hub
   `syllabai-v2#321` → `f757c643` — first multi-station lane served, bundle
-  1.1: 4 stations, 12 spec points, 182 resources). Mode-2 deep-link
+  1.1: 4 stations, 12 spec points, 182 resources) and
+  **lane 4 Circular-measure strand → CIE 9709 P1 1.4 Circular measure** —
+  the first strand lane (operator "extend channel 4"; cross-map
+  `cross-map-circular-measure.json` @ `b52cf1bf`, 62 sweep candidates:
+  17 aligned — 3 new-text + 14 cross-lane circles-strand facts — + 4
+  non-overlaps + 41 routed; hub fragment 1.4.1a folded into 1.4.1;
+  enrichment + 5 new-text bodies filed as `syllabai-resources#74`,
+  MANIFEST v4; hub `T-UGM-HUB-CONSUME-4` pending). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
 - Next: further lanes by spine adjacency on operator ack (1.5 Trigonometry:
   `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`) —
-  recipe of record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run
-  still pending.
+  recipe of record in `docs/INTEGRATION-PLAN.md` P7; hub consumption of
+  lane 4 (`T-UGM-HUB-CONSUME-4`) pending on the syllabai-v2 side; S1-bridge
+  census run still pending.
