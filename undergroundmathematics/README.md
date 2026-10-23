@@ -111,13 +111,14 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   `cross-map-circular-measure.json` @ `b52cf1bf`, 62 sweep candidates:
   17 aligned — 3 new-text + 14 cross-lane circles-strand facts — + 4
   non-overlaps + 41 routed; hub fragment 1.4.1a folded into 1.4.1;
-  enrichment + 5 new-text bodies filed as `syllabai-resources#74`,
-  MANIFEST v4; hub `T-UGM-HUB-CONSUME-4` pending). Mode-2 deep-link
+  enrichment + 5 new-text bodies merged of record as `syllabai-resources#74`
+  → `1585c4ff`, MANIFEST v4; hub `syllabai-v2#327` → `2684a8e4` — first strand
+  lane served via the cross-lane join, bundle 1.1: 4 lanes / 8 stations /
+  13 spec points / 187 resources). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
 - Next: further lanes by spine adjacency on operator ack (1.5 Trigonometry:
   `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`) —
-  recipe of record in `docs/INTEGRATION-PLAN.md` P7; hub consumption of
-  lane 4 (`T-UGM-HUB-CONSUME-4`) pending on the syllabai-v2 side; S1-bridge
-  census run still pending.
+  recipe of record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run
+  still pending.

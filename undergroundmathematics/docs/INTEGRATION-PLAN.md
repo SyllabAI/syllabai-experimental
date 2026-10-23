@@ -182,7 +182,7 @@ worth doing regardless of any Mode-3 outcome.
       deep links per lane (from the cross-map), rel-nofollow, link-health
       check job (site is dormant — guard against rot, Wayback fallback) —
       **DROPPED with the P5 directive 2026-10-22**; superseded by the direct
-      content-consumption surfaces (P7, live for lanes 1–3 via #308/#312/#321)
+      content-consumption surfaces (P7, live for lanes 1–4 via #308/#312/#321/#327)
 - [~] measure: CTR on UGM links from lane pages — moot with the link module
       dropped; the direct surfaces' engagement measurement is operator-scoped
 
@@ -262,15 +262,19 @@ worth doing regardless of any Mode-3 outcome.
       circles-strand facts incl. 2 lane-3 1.3.2 extensions — plus 4
       non-overlaps and 41 routed to recorded homes; hub fragment 1.4.1a folded
       into 1.4.1; clause-a radian-definition gap recorded, never manufactured;
-      primary pick r5534); corpus + facts filed as
+      primary pick r5534); corpus + facts **merged of record as
       [syllabai-resources#74](https://github.com/SyllabAI/syllabai-resources/pull/74)
-      (tasks `T-UGM-MODE1-4` + `T-UGM-IMPORT-4`, MANIFEST v4, 5 new-text
-      bodies — strand-lane shape: cross-lane `ugmId` uniqueness law keeps one
-      text body per resource, circles-strand mappings by `textOfRecordUnder`
-      reference; converter byte-identical vs lane-1/3 ground truths; full
-      4-lane importer audit green: 187 bodies, 0 dup ids); hub consumption
-      `T-UGM-HUB-CONSUME-4` pending on the syllabai-v2 side (strand-lane block
-      + cross-lane join spec in #74 + cross-map §8)
+      → `1585c4ff`** (tasks `T-UGM-MODE1-4` + `T-UGM-IMPORT-4`, MANIFEST v4, 5
+      new-text bodies — strand-lane shape: cross-lane `ugmId` uniqueness law
+      keeps one text body per resource, circles-strand mappings by
+      `textOfRecordUnder` reference; converter byte-identical vs lane-1/3
+      ground truths; full 4-lane importer audit green: 187 bodies, 0 dup ids);
+      hub consumption **merged of record as
+      [syllabai-v2#327](https://github.com/SyllabAI/syllabai-v2/pull/327) →
+      `2684a8e4`** (task `T-UGM-HUB-CONSUME-4`; the fail-closed cross-lane
+      join — 12 lane-3 non-overlaps flipped to aligned under 1.4.1, r8946/
+      r9386 one-to-many, fleet 4 lanes / 8 stations / 13 spec points / 205
+      rows / 187 bodies; bundle regression 18/18, hub tsc 0)
 - [ ] further lanes (next by spine adjacency: 1.5 Trigonometry —
       `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`)
       lane-by-lane on operator ack — recipe of record:
