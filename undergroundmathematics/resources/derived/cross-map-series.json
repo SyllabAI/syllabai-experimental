@@ -1,0 +1,1690 @@
+{
+  "generatedAt": "2026-10-23",
+  "pilot": "P3c generalisation lane 6 — CIE 9709 Pure 1 subtopic 1.6 Series (operator instruction: “lane 6 (CIE 9709 P1 1.6 Series)”)",
+  "ugmStations": {},
+  "targetLane": {
+    "course": "cie-a-level-maths-20-pure-1",
+    "subtopic": "1.6 Series",
+    "specPoints": [
+      "1.6.1",
+      "1.6.2",
+      "1.6.3",
+      "1.6.4"
+    ],
+    "noFoldFragments": true
+  },
+  "coverage": {
+    "corpusScreened": 855,
+    "sweepCandidates": 137,
+    "substrateResources": 93,
+    "ugmResourcesConsidered": 93,
+    "aligned": 49,
+    "alignedSubstrate": 43,
+    "alignedShare": 0.46,
+    "nonOverlap": 50,
+    "crossLaneAligned": 2,
+    "routed": 36,
+    "alignmentRows": 56,
+    "withExamProvenance": 43,
+    "perSpecPointCounts": {
+      "1.6.1": 13,
+      "1.6.2": 3,
+      "1.6.3": 26,
+      "1.6.4": 14
+    },
+    "alignmentRowsPerSpecPoint": {
+      "1.6.1": 13,
+      "1.6.2": 3,
+      "1.6.3": 26,
+      "1.6.4": 14
+    },
+    "stationBreakdown": {
+      "sequences": {
+        "resources": 42,
+        "aligned": 31,
+        "nonOverlap": 11
+      },
+      "counting-and-binomials": {
+        "resources": 51,
+        "aligned": 12,
+        "nonOverlap": 39
+      },
+      "chain-rule": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      },
+      "thinking-about-algebra": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      },
+      "divisibility-and-induction": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      },
+      "exp-and-log": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      },
+      "introducing-calculus": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      },
+      "product-rule": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      }
+    },
+    "coverageNote": "Station-lane semantics (two dedicated series stations): this coverage block counts the full substrate — 93 resources across Sequences (42) and Counting and Binomials (51). Per the station-lane corpus law (lane-3 shape) the WHOLE substrate ships as text of record: aligned resources mapped, the 50 non-overlaps imported UNMAPPED with the coverage note. Plus 6 cross-station strays (r5640, r9404, r9916, r8260, r6592, r9312 — mapped), and 2 cross-lane fact joins to already-of-record lane-2 bodies (r7553, r9527 — 1.6.3; text untouched under pure-1-functions). Full-fidelity picture: 137 sweep candidates = 49 aligned (43 substrate + 6 strays; 56 alignment rows) + 50 non-overlaps + 2 cross-lane joins + 36 routed to recorded homes."
+  },
+  "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/doctrine exemplar (the primary picks, plus resources carrying a derivation-of-record such as the GP-sum-formula proof). Mode-2 (deep-link rendering on lane pages) was dropped by operator directive 2026-10-22; Mode 3 is deferred by ADR-UGM-0001.",
+  "perSpecPoint": {
+    "1.6.1": {
+      "officialCode": "1.6",
+      "officialText": "use the expansion of (a + b)^n, where n is a positive integer",
+      "spineTitleVerbatim": "use the expansion of ( a + b ) , where n is a positive integer",
+      "ugmStation": "chain-rule + counting-and-binomials + thinking-about-algebra",
+      "ugmStationUrl": "https://undergroundmathematics.org/chain-rule",
+      "resourceCount": 13,
+      "primaryPick": "r7078",
+      "resources": [
+        {
+          "ugmSlug": "r7078",
+          "title": "Can we find the coefficient of $x^2$ in $(5 + 4x)(1 - x/2)^{10}$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r7078",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "first four terms of (1-x/2)^10 then coefficient of x^2 in (5+4x)(1-x/2)^10 — the canonical CIE P1 binomial question",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"471/2\", \"year\": 1970, \"questions\": [\"Q4(ii)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": true,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r5640",
+          "title": "Can we find the minimum value of $x^2+2/x$ for $x$ positive?",
+          "url": "https://undergroundmathematics.org/chain-rule/r5640",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "part 1 is the binomial expansion: coefficient of x^7 in (x^2+2/x)^8 (parts 2-3 are calculus — 1.7/1.8 bearings recorded in the cross-map)",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"420/2\", \"year\": 1967, \"questions\": [\"Q4\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "r5563",
+          "title": "Which power of $x$ has the greatest coefficient?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r5563",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "greatest-coefficient comparison for (1+1/2 x)^10 via c_{k+1}/c_k or direct ℒ₂ evaluation",
+          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": \"Specimen 1\", \"year\": null, \"questions\": [\"Q1I\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r5965",
+          "title": "What is the coefficient of $x^3y^5$ in the expansion of  $(1+xy+y^2)^n$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r5965",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "coefficient of x^3 y^5 in (1+xy+y^2)^n by writing (1+y(x+y))^n and applying the binomial expansion twice",
+          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2014, \"questions\": [\"Q1G\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r6102",
+          "title": "Can we prove these four binomial coefficient identities?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r6102",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "binomial-coefficient identities (ΣC=2^n, kΣ, ΣC/(k+1), k²Σ) proved by substituting x=1/x=-1-style values into (1+x)^n",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": null, \"paper\": \"STEP Mathematics I\", \"paperCode\": null, \"year\": 2010, \"questions\": [\"Q5\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r6503",
+          "title": "Can we estimate a difference of eighth powers?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r6503",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "expand (1+x)^8, then evaluate (1.001)^8-(0.999)^8 by combining the (1±x)^8 expansions — canonical numerical binomial question",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Mathematics Alternative C\", \"paperCode\": \"189\", \"year\": 1951, \"questions\": [\"Q5\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r6770",
+          "title": "Can we find an inequality from the expansion of $[ 1+1/\\sqrt{n}]^n$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r6770",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "first three terms of [1+1/√n]^n truncated to prove an inequality — extension-level application of the expansion",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Pure Mathematics 1\", \"paperCode\": \"9210/1\", \"year\": 1980, \"questions\": [\"Q5(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r7489",
+          "title": "Can we find an approximation to $(1.0099)^6$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r7489",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "expand (1+p)^6, substitute p=x-x^2, then choose x to evaluate (1.0099)^6 — expansion with substitution and numerical use",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"8175/1\", \"year\": 1983, \"questions\": [\"Q6\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r7978",
+          "title": "Can we use a binomial expansion to evaluate $\\left(19\\tfrac{3}{4}\\right)^6$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r7978",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "expand (x-y)^6 by the binomial theorem and evaluate (19 3/4)^6 to the nearest thousand — canonical (a-b)^n numerical question",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"186\", \"year\": 1951, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r8014",
+          "title": "Can we show $\\binom{n}{r}=\\binom{n-1}{r-1}+\\binom{n-2}{r-1}+\\binom{n-3}{r-1}+\\dotsb+\\binom{r-1}{r-1}$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r8014",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "ΣC(n,r)=2^n, Vandermonde-style ℒ(2n,n) identity and the hockey-stick identity — binomial-theorem identities with combinatorial proofs",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Further Mathematics B Special paper\", \"paperCode\": \"9220/0\", \"year\": 1984, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r9207",
+          "title": "Can we find the coefficients of $x^{−12}$ and $x^2$ in this expansion?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r9207",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "coefficients of x^-12 and x^2 in (x^4-1/x^2)^5 (x-1/x)^6 by expanding both brackets — binomial expansion with negative powers of the variable",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": null, \"paper\": \"STEP Mathematics I\", \"paperCode\": null, \"year\": 2000, \"questions\": [\"Q2\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r9928",
+          "title": "If $x - 1/x = u$, what's $x^3 - 1/x^3$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r9928",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "x^3-1/x^3 and x^5-1/x^5 in terms of u=x-1/x by expanding (x-1/x)^3 and (x-1/x)^5 with the binomial theorem",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1978, \"questions\": [\"Q3(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r9404",
+          "title": "Can we factorise  $(x+y)^6 - (x-y)^6$ completely?",
+          "url": "https://undergroundmathematics.org/thinking-about-algebra/r9404",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "all three solution routes run through binomial expansions of (x±y)^6 (factorisation is the wrapper)",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1979, \"questions\": [\"Q3(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.1"
+          ],
+          "primaryPick": false,
+          "station": "thinking-about-algebra"
+        }
+      ]
+    },
+    "1.6.2": {
+      "officialCode": "1.6",
+      "officialText": "recognise arithmetic and geometric progressions",
+      "spineTitleVerbatim": "recognise arithmetic and geometric progressions",
+      "ugmStation": "sequences",
+      "ugmStationUrl": "https://undergroundmathematics.org/sequences",
+      "resourceCount": 3,
+      "primaryPick": "sort-it-out",
+      "resources": [
+        {
+          "ugmSlug": "sort-it-out",
+          "title": "Sort it out",
+          "url": "https://undergroundmathematics.org/sequences/sort-it-out",
+          "resourceType": "building-blocks",
+          "level": "Introducing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "sort a deck of infinite sequences into self-chosen groups — builds the AP/GP classification from properties (increasing, arithmetic, geometric)",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.2"
+          ],
+          "primaryPick": true,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "common-terms",
+          "title": "Common terms",
+          "url": "https://undergroundmathematics.org/sequences/common-terms",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "construct an AP and a GP sharing u_2=6, u_4=54 — d=(54-6)/2=24 vs r^2=9; nth-term formulae of both progressions load-bearing",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.2",
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "connect-three",
+          "title": "Connect three?",
+          "url": "https://undergroundmathematics.org/sequences/connect-three",
+          "resourceType": "food-for-thought",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "find an arithmetic progression containing any three given numbers — AP structure recognition and construction",
+          "provenance": "{\"board\": \"NRICH\", \"qualification\": null, \"paper\": null, \"paperCode\": null, \"year\": null, \"questions\": [], \"permission\": \"NRICH\", \"parseStatus\": \"non-exam-provenance\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.2"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        }
+      ]
+    },
+    "1.6.3": {
+      "officialCode": "1.6",
+      "officialText": "use the formulae for the nth term and for the sum of the first n terms to solve problems involving arithmetic or geometric progressions",
+      "spineTitleVerbatim": "use the formulae for the n th term and for the Including knowledge that numbers sum of the first n terms to solve problems involving arithmetic or geometric progressions equivalent).",
+      "ugmStation": "counting-and-binomials + divisibility-and-induction + exp-and-log + introducing-calculus + sequences",
+      "ugmStationUrl": "https://undergroundmathematics.org/counting-and-binomials",
+      "resourceCount": 26,
+      "primaryPick": "r8907",
+      "resources": [
+        {
+          "ugmSlug": "r8907",
+          "title": "If an AP has $S_{10}=3S_5$, what's the ratio of $u_{10}$ to $u_5$?",
+          "url": "https://undergroundmathematics.org/sequences/r8907",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "S_10=3S_5 gives a=3d; ratio u_10/u_5=12/7; then S_200 from u_5=0.14 — S_n and u_n formulae together",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"8175/2\", \"year\": 1986, \"questions\": [\"Q2(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": true,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r7031",
+          "title": "If $f(n) > k$ for all $n \\geq 1$, what can we say about $k$?",
+          "url": "https://undergroundmathematics.org/counting-and-binomials/r7031",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "worst case at n=1 then arithmetic-series sum 2+3+⋯+101 = 100(2+101)/2 = 5150 — the AP sum is the load-bearing computation in a STEP-style MC",
+          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2007, \"questions\": [\"Q1J\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "counting-and-binomials"
+        },
+        {
+          "ugmSlug": "r9916",
+          "title": "What's the next number to occur in both sequences?",
+          "url": "https://undergroundmathematics.org/divisibility-and-induction/r9916",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "common term of two APs via nth-term forms 2005+7j and 2005+9k (LCM structure)",
+          "provenance": "{\"board\": \"UKMT\", \"qualification\": null, \"paper\": \"Senior Mathematical Challenge\", \"paperCode\": null, \"year\": 2005, \"questions\": [\"Q7\"], \"permission\": \"United Kingdom Mathematics Trust\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "divisibility-and-induction"
+        },
+        {
+          "ugmSlug": "r8260",
+          "title": "Can we solve the equation $\\log_2 x + \\log_3 x = 1 + \\log_4 x$?",
+          "url": "https://undergroundmathematics.org/exp-and-log/r8260",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "part 1 proves the GP-term log identity via a = AR^{p-1} (part 2 is a log-change-of-base equation — exp-and-log bearing)",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Pure Mathematics 1\", \"paperCode\": \"842/1\", \"year\": 1973, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "exp-and-log"
+        },
+        {
+          "ugmSlug": "r6592",
+          "title": "Can we use the trapezium rule to estimate this integral?",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r6592",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "the trapezium-rule MC resolves by summing the GP 2^{1/N}+...+2^{(N-1)/N} — the GP sum formula is the decisive step",
+          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2009, \"questions\": [\"Q1H\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "change-one-thing",
+          "title": "Change one thing",
+          "url": "https://undergroundmathematics.org/sequences/change-one-thing",
+          "resourceType": "rich-example",
+          "level": "Introducing",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "last term of the AP 3, 3.5, 4, ... with 25 terms, solved several ways — a_n = a_1+(n-1)d consolidation (acknowledged capture)",
+          "provenance": "{\"board\": null, \"qualification\": null, \"paper\": null, \"paperCode\": null, \"year\": null, \"questions\": [], \"permission\": null, \"parseStatus\": \"non-exam-provenance\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "common-terms",
+          "title": "Common terms",
+          "url": "https://undergroundmathematics.org/sequences/common-terms",
+          "resourceType": "package-of-problems",
+          "level": "Developing",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "construct an AP and a GP sharing u_2=6, u_4=54 — d=(54-6)/2=24 vs r^2=9; nth-term formulae of both progressions load-bearing",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.2",
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r5345",
+          "title": "If AP terms $a_4,a_8, a_{16}$ are in GP, are $a_3, a_6, a_{12}$ in GP too?",
+          "url": "https://undergroundmathematics.org/sequences/r5345",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "a_4, a_8, a_16 of an AP are consecutive GP terms; show a_3, a_6, a_12 too — nth-term formulae of AP and GP interplay",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"420/1\", \"year\": 1963, \"questions\": [\"Q5(ii)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r5849",
+          "title": "Can we find the sum of the integers from $2k$ to $4k$ inclusive?",
+          "url": "https://undergroundmathematics.org/sequences/r5849",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sums over 2k..4k; prove the GP sum formula a(1-r^n)/(1-r); recurring decimal 0.075075... as an infinite GP — AP sum + GP sum + sum to infinity",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"9200/1\", \"year\": 1981, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r6137",
+          "title": "How are the $p$th, $q$th and $r$th terms of an AP related?",
+          "url": "https://undergroundmathematics.org/sequences/r6137",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "P(q-r)+Q(r-p)+R(p-q)=0 for AP terms and the log analogue for GP terms — nth-term formulae of both progressions",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"186\", \"year\": 1951, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r6153",
+          "title": "If $u_n = a + bn + c2^n$, what's the sum of the first $n$ terms?",
+          "url": "https://undergroundmathematics.org/sequences/r6153",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "u_n = a+bn+c 2^n summed over n terms — the sum splits into an AP part (a n + b Σk) and a GP part (c Σ2^k); both 1.6.3 formulae load-bearing",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"184\", \"year\": 1953, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r6257",
+          "title": "Can we sum the first $2n$ terms of $1,1,2,\\frac{1}{2},4,\\frac{1}{4},8,\\frac{1}{8},..$?",
+          "url": "https://undergroundmathematics.org/sequences/r6257",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sum of first 2n terms of 1,1,2,1/2,4,1/4,... by separating the two interleaved GPs — GP sum formula twice",
+          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2010, \"questions\": [\"Q1B\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r6405",
+          "title": "What can we say if $a, x_1, x_2, x_3, x_4, x_5, b$ are in arithmetic progression?",
+          "url": "https://undergroundmathematics.org/sequences/r6405",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "seven terms in AP; a,x_2,b in GP; then GP series with |r|<1 — express r via S_n, S_∞ and prove S_{2n}=S_n(2S-S_n)/S",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"9202/1\", \"year\": 1984, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r6608",
+          "title": "If a GP has $S_n=(3^n - 2^n)/2^{n-5}$, what's its common ratio?",
+          "url": "https://undergroundmathematics.org/sequences/r6608",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "S_n=(3^n-2^n)/2^{n-5} — find first term and common ratio — canonical GP-sum-formula problem",
+          "provenance": "{\"board\": \"O&C (Oxford & Cambridge SEG)\", \"qualification\": \"O level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": null, \"year\": 1967, \"questions\": [\"Q1(ii)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r7258",
+          "title": "If $27$, $x$, $y$ are in GP, with sum $21$, what are $x$ and $y$?",
+          "url": "https://undergroundmathematics.org/sequences/r7258",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "27, x, y in GP with sum 21 — common-ratio quadratic with two solution pairs",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 1\", \"paperCode\": \"8175/1\", \"year\": 1980, \"questions\": [\"Q12(a)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r7424",
+          "title": "Can we sum from $1000$ to $2000$ excluding multiples of 5?",
+          "url": "https://undergroundmathematics.org/sequences/r7424",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "prove the AP range-sum formula, sum 1000..2000 excluding multiples of 5; GP r=0.95 least n with S-S_n<1",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"848/1\", \"year\": 1978, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r7487",
+          "title": "When does the sum of this series first exceed $2999/4000$?",
+          "url": "https://undergroundmathematics.org/sequences/r7487",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sum of 1/2+1/6+1/18+... (formula must be proved), sum to infinity, least n exceeding 2999/4000",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"417/1\", \"year\": 1958, \"questions\": [\"Q4\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r8121",
+          "title": "When does the sum of this series equal $60$?",
+          "url": "https://undergroundmathematics.org/sequences/r8121",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "recognise 3/n^3+4/n^3+...+(n^3-3)/n^3 as an AP and solve for n — AP recognition + sum formula",
+          "provenance": "{\"board\": \"UKMT\", \"qualification\": null, \"paper\": \"Senior Mathematical Challenge\", \"paperCode\": null, \"year\": 2006, \"questions\": [\"Q22\"], \"permission\": \"United Kingdom Mathematics Trust\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r8163",
+          "title": "If $S_n =  6 - 2^{n+1}/3^{n-1}$, can we show that we have a GP?",
+          "url": "https://undergroundmathematics.org/sequences/r8163",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "S_n = 6 - 2^{n+1}/3^{n-1} — show the series is geometric; state a and r — canonical S_n-to-GP question",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"9202/1\", \"year\": 1981, \"questions\": [\"Q1(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r8249",
+          "title": "What is the sum of the multiples of 5 or 8 but not both?",
+          "url": "https://undergroundmathematics.org/sequences/r8249",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sum of multiples of 5 or 8 but not both up to 1000 — three AP-sum applications with inclusion-exclusion",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1 and Pure Mathematics 1\", \"paperCode\": \"9200/1 and 9208/1\", \"year\": 1985, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r8493",
+          "title": "How are the sums of $n$, $2n$ and $3n$ terms connected here?",
+          "url": "https://undergroundmathematics.org/sequences/r8493",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "S_3=3(S_2-S_1) for an AP; sum of 1+3x/(1+2x^2)+... and the |r|<1 condition for a sum to infinity",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Mathematics C\", \"paperCode\": \"187\", \"year\": 1953, \"questions\": [\"Q9\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9177",
+          "title": "What are the first term and common ratio given two facts about this geometric progression?",
+          "url": "https://undergroundmathematics.org/sequences/r9177",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "GP with a exceeds second term by 2, u_2+u_3=4/3 — two (a,r) pairs; positive-terms branch summed to infinity",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"8175/2\", \"year\": 1987, \"questions\": [\"Q2(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9375",
+          "title": "Should I hire a TV or borrow to buy it?",
+          "url": "https://undergroundmathematics.org/sequences/r9375",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "TV-hire payments form a GP (r=4/5) — total over 8 years vs compound-interest debt — applied GP modelling",
+          "provenance": "{\"board\": \"O&C (Oxford & Cambridge SEG)\", \"qualification\": \"O level\", \"paper\": \"MEI Additional Mathematics 1\", \"paperCode\": \"MEI 109\", \"year\": 1974, \"questions\": [\"Q9\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9468",
+          "title": "What can we tell about the signs of this arithmetic sequence?",
+          "url": "https://undergroundmathematics.org/sequences/r9468",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "S_8>3S_6 — deduce the signs of a and d from the AP sum formula — formula-driven reasoning MC",
+          "provenance": "{\"board\": \"TMUA\", \"qualification\": null, \"paper\": \"paper 2\", \"paperCode\": null, \"year\": 2016, \"questions\": [\"Q12\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9613",
+          "title": "Given $S_n = S_{3n}$, can we express $a$ in terms of $n$?",
+          "url": "https://undergroundmathematics.org/sequences/r9613",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "S_n=S_3n with d=-1 — express a in terms of n — clean AP-sum-formula algebra",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics C 1\", \"paperCode\": \"9205/1 and 9206/1\", \"year\": 1988, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9819",
+          "title": "Can we sum $1^2-2^2+3^2-4^2+\\dotsb+ (2n-1)^2-(2n)^2$?",
+          "url": "https://undergroundmathematics.org/sequences/r9819",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "prove the AP sum formula by Gauss pairing, then apply to alternating squares — formula derivation plus non-AP application",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1972, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        }
+      ]
+    },
+    "1.6.4": {
+      "officialCode": "1.6",
+      "officialText": "use the condition for the convergence of a geometric progression, and the formula for the sum to infinity of a convergent geometric progression",
+      "spineTitleVerbatim": "Questions may involve more than one progression. geometric progression, and the formula for the sum to infinity of a convergent geometric progression.: • use the condition for the convergence of a",
+      "ugmStation": "product-rule + sequences",
+      "ugmStationUrl": "https://undergroundmathematics.org/product-rule",
+      "resourceCount": 14,
+      "primaryPick": "square-spirals",
+      "resources": [
+        {
+          "ugmSlug": "square-spirals",
+          "title": "Square spirals",
+          "url": "https://undergroundmathematics.org/sequences/square-spirals",
+          "resourceType": "food-for-thought",
+          "level": "Introducing",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "square spirals: shaded fractions 1/4+1/16+1/64+... — a visual infinite GP sum (Introducing level)",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": true,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9312",
+          "title": "Can we find the area between $y=e^{-x}$ and $y=e^{-x}\\sin x$?",
+          "url": "https://undergroundmathematics.org/product-rule/r9312",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "ΣA_n for the e^{-x}/e^{-x}sin x areas closes as a GP sum to infinity (integration is the vehicle)",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": null, \"paper\": \"STEP Mathematics II\", \"paperCode\": null, \"year\": 2010, \"questions\": [\"Q8\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "product-rule"
+        },
+        {
+          "ugmSlug": "bouncing-to-nothing",
+          "title": "Bouncing to nothing",
+          "url": "https://undergroundmathematics.org/sequences/bouncing-to-nothing",
+          "resourceType": "rich-example",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "bouncing ball: heights ×3/4 each bounce — total distance before stopping is a GP sum to infinity (mechanics context, suvat as vehicle)",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "can-you-find-series-edition",
+          "title": "Can you find... series edition",
+          "url": "https://undergroundmathematics.org/sequences/can-you-find-series-edition",
+          "resourceType": "many-ways-problem",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "construct infinite series meeting constraints — the GP convergence condition -1<r<1 is the central tool (general-series extensions recorded honestly)",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "puzzling-pentagon",
+          "title": "A puzzling pentagon",
+          "url": "https://undergroundmathematics.org/sequences/puzzling-pentagon",
+          "resourceType": "go-and-think-about-it",
+          "level": "Developing",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "puzzling pentagon interactive — provider description: created with geometric series in mind (nested-pentagon GP sum); excerpt capture, no question well",
+          "provenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r5849",
+          "title": "Can we find the sum of the integers from $2k$ to $4k$ inclusive?",
+          "url": "https://undergroundmathematics.org/sequences/r5849",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sums over 2k..4k; prove the GP sum formula a(1-r^n)/(1-r); recurring decimal 0.075075... as an infinite GP — AP sum + GP sum + sum to infinity",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"9200/1\", \"year\": 1981, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r6405",
+          "title": "What can we say if $a, x_1, x_2, x_3, x_4, x_5, b$ are in arithmetic progression?",
+          "url": "https://undergroundmathematics.org/sequences/r6405",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "seven terms in AP; a,x_2,b in GP; then GP series with |r|<1 — express r via S_n, S_∞ and prove S_{2n}=S_n(2S-S_n)/S",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"9202/1\", \"year\": 1984, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r7424",
+          "title": "Can we sum from $1000$ to $2000$ excluding multiples of 5?",
+          "url": "https://undergroundmathematics.org/sequences/r7424",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "prove the AP range-sum formula, sum 1000..2000 excluding multiples of 5; GP r=0.95 least n with S-S_n<1",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics B 1\", \"paperCode\": \"848/1\", \"year\": 1978, \"questions\": [\"Q1\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r7487",
+          "title": "When does the sum of this series first exceed $2999/4000$?",
+          "url": "https://undergroundmathematics.org/sequences/r7487",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sum of 1/2+1/6+1/18+... (formula must be proved), sum to infinity, least n exceeding 2999/4000",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics 1\", \"paperCode\": \"417/1\", \"year\": 1958, \"questions\": [\"Q4\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r8248",
+          "title": "Given the sequence $(x_n)$, what is  $\\sum_{k=0}^\\infty 1/x_k$?",
+          "url": "https://undergroundmathematics.org/sequences/r8248",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "recursion x_n=Σx_k gives x_n=2^{n-1}; Σ1/x_k closes by the GP sum to infinity — one-to-many extension of 1.6.4 inside a recursion question",
+          "provenance": "{\"board\": \"Oxford (MAT)\", \"qualification\": null, \"paper\": \"University Mathematics Aptitude Test\", \"paperCode\": null, \"year\": 2016, \"questions\": [\"Q1F\"], \"permission\": \"The University of Oxford\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r8493",
+          "title": "How are the sums of $n$, $2n$ and $3n$ terms connected here?",
+          "url": "https://undergroundmathematics.org/sequences/r8493",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "S_3=3(S_2-S_1) for an AP; sum of 1+3x/(1+2x^2)+... and the |r|<1 condition for a sum to infinity",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"O level\", \"paper\": \"Mathematics C\", \"paperCode\": \"187\", \"year\": 1953, \"questions\": [\"Q9\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r8617",
+          "title": "How do we add the odd-numbered terms of a geometric series?",
+          "url": "https://undergroundmathematics.org/sequences/r8617",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "GP sum to infinity 8; odd-numbered terms sum to infinity 6 — find r — canonical S_∞ work",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics C 1\", \"paperCode\": \"9205/1 and 9206/1\", \"year\": 1986, \"questions\": [\"Q3\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9177",
+          "title": "What are the first term and common ratio given two facts about this geometric progression?",
+          "url": "https://undergroundmathematics.org/sequences/r9177",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "GP with a exceeds second term by 2, u_2+u_3=4/3 — two (a,r) pairs; positive-terms branch summed to infinity",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"AO level\", \"paper\": \"Additional Mathematics 2\", \"paperCode\": \"8175/2\", \"year\": 1987, \"questions\": [\"Q2(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.3",
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        },
+        {
+          "ugmSlug": "r9185",
+          "title": "When does $1 + 2/3 + (2/3)^2 + \\dotsb$ first exceed $0.9999S_\\infty$?",
+          "url": "https://undergroundmathematics.org/sequences/r9185",
+          "resourceType": "review-question",
+          "level": null,
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "least number of terms of 1+2/3+(2/3)^2+... exceeding 99.99% of S_∞ — convergence + remainder",
+          "provenance": "{\"board\": \"UCLES\", \"qualification\": \"A level\", \"paper\": \"Mathematics A 1\", \"paperCode\": \"840/1\", \"year\": 1976, \"questions\": [\"Q3(b)\"], \"permission\": \"Cambridge Assessment Group Archives\", \"parseStatus\": \"parsed\"}",
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.6.4"
+          ],
+          "primaryPick": false,
+          "station": "sequences"
+        }
+      ]
+    }
+  },
+  "nonOverlapRows": [
+    {
+      "ugmSlug": "line-crossings",
+      "title": "Line crossings",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/line-crossings",
+      "resourceType": "go-and-think-about-it",
+      "station": "counting-and-binomials",
+      "reason": "Combinatorial line-arrangement reasoning (C(n,2) context only) — no binomial expansion or AP/GP formula work."
+    },
+    {
+      "ugmSlug": "r5157",
+      "title": "Are Alice, Bob and Charlie telling the truth, or lying?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5157",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Truth-teller/liar deduction puzzle — no series content."
+    },
+    {
+      "ugmSlug": "r5212",
+      "title": "Which dates contain no repetitions of a digit?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5212",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Digit-counting on calendar dates — combinatorial case analysis, no binomial expansion or AP/GP formulae."
+    },
+    {
+      "ugmSlug": "r5245",
+      "title": "Can we find $\\sum_{r=1}^n 2/(r^2+4r+3)$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5245",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Telescoping sum via partial fractions — standard-sum series work outside P1 1.6 (the 2023-2025 Pure 1 spec has no standard summations)."
+    },
+    {
+      "ugmSlug": "r5246",
+      "title": "Can we sum $r(r+1)(r+3)$ for $r$ from $1$ to $n$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5246",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Standard sums Σr, Σr², Σr³ — outside P1 1.6 (no standard summations in the 2023-2025 Pure 1 spec)."
+    },
+    {
+      "ugmSlug": "r5344",
+      "title": "Who broke the vase?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5344",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Truth-teller/liar deduction puzzle — no series content."
+    },
+    {
+      "ugmSlug": "r5512",
+      "title": "Who's wearing a red hat and who's wearing a blue?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5512",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Hat-colour epistemic deduction puzzle — no series content."
+    },
+    {
+      "ugmSlug": "r5848",
+      "title": "How many students took French, Latin and German?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5848",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Venn-diagram inclusion-exclusion with averages — set enumeration, no series content."
+    },
+    {
+      "ugmSlug": "r5875",
+      "title": "Can we find $F(1) + F(2) + F(3) + \\dots + F(100)$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r5875",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Recursive function summed by block-doubling structure — recursion work, not AP/GP formulae."
+    },
+    {
+      "ugmSlug": "r6093",
+      "title": "Does Alice like wine or beer?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r6093",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Truth-teller/liar deduction puzzle — no series content."
+    },
+    {
+      "ugmSlug": "r6295",
+      "title": "Given the binomial expansion of $(1+x)^n$, can we find $x$ and $n$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r6295",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "General-index binomial expansion (n = 1/2, x = -1/3) — P3 Series bearing: the infinite binomial series is not the positive-integer expansion of P1 1.6.1."
+    },
+    {
+      "ugmSlug": "r6340",
+      "title": "Can we find a good rational approximation for $\\sqrt{5}$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r6340",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Real-index binomial approximation ((1±x)^{±1/2}) — P3 Series bearing; P1 1.6.1 covers positive integer n only."
+    },
+    {
+      "ugmSlug": "r6463",
+      "title": "How many ways to arrange the saints and liars are there?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r6463",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Saint/liar circular-arrangement counting — logic and case analysis, no series content."
+    },
+    {
+      "ugmSlug": "r6707",
+      "title": "Can we find how many boys study French, Latin and German?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r6707",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Venn-diagram inclusion-exclusion — set enumeration, no series content."
+    },
+    {
+      "ugmSlug": "r6970",
+      "title": "Given this set of tiles, when can we create a match?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r6970",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Tile-match combinatorics (Post-correspondence-style) — constructive reasoning, no series content."
+    },
+    {
+      "ugmSlug": "r6993",
+      "title": "When is $6 \\times 7 = 42$ a counter-example?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r6993",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Counter-example reasoning about integer products — proof skills, no series content."
+    },
+    {
+      "ugmSlug": "r7059",
+      "title": "Who will win, Amy or Brian?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r7059",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Modular-sum game strategy — combinatorial game reasoning, no series content."
+    },
+    {
+      "ugmSlug": "r7397",
+      "title": "Can we visit every square in the grid?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r7397",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Grid-tour existence arguments — parity/graph reasoning, no series content."
+    },
+    {
+      "ugmSlug": "r7399",
+      "title": "What do we get if we add the digits of the integers from 1 to 99?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r7399",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Digit-sum counting via table structure — combinatorial enumeration; the Σ1..9 step is incidental arithmetic, not AP-formula testing."
+    },
+    {
+      "ugmSlug": "r7477",
+      "title": "Can we find an approximation to $\\sqrt{5}+\\sqrt{3}$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r7477",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Real-index binomial approximation ((a±b)^{1/2}) — P3 Series bearing; positive-integer expansion only in P1 1.6.1."
+    },
+    {
+      "ugmSlug": "r7507",
+      "title": "Can we show $g(n)$ is equal to the recursion depth of $f(n)$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r7507",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Recursive function evaluation and recursion depth — recursion, no series content."
+    },
+    {
+      "ugmSlug": "r7878",
+      "title": "Who should win the game HT-2?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r7878",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Combinatorial game (HT-2) with pattern avoidance — no series content."
+    },
+    {
+      "ugmSlug": "r7906",
+      "title": "How many numbers $n$ satisfy $f(n)=16$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r7906",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Recursive-function counting via factorisations — enumeration, no series content."
+    },
+    {
+      "ugmSlug": "r8021",
+      "title": "How many ways to choose the group to play tennis are there?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r8021",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Combinatorial selection with C(n,k) counts — no expansion tested; P1 1.6.1 is the binomial expansion, not selection counting."
+    },
+    {
+      "ugmSlug": "r8033",
+      "title": "Can we find a sequence of solutions to the equation $x^2 - 2y^2 = 1?$",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r8033",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Pell-equation solution sequences via recurrence — number-theory iteration, not AP/GP."
+    },
+    {
+      "ugmSlug": "r8168",
+      "title": "Given this definition of $F(n)$, can we find the value of $F(6000)$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r8168",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Piecewise-recursive function evaluation — enumeration, no series content."
+    },
+    {
+      "ugmSlug": "r8203",
+      "title": "Where will this robot be after $n$ iterations?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r8203",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Robot-program recursion (powers of two) — recursive structure, not AP/GP formulae."
+    },
+    {
+      "ugmSlug": "r8279",
+      "title": "The liar, the switcher and the truth-teller; who's who?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r8279",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Liar/switcher/truth-teller deduction — logic puzzle, no series content."
+    },
+    {
+      "ugmSlug": "r8605",
+      "title": "What's the highest power of $x$ in this nested polynomial?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r8605",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Highest-power bookkeeping in nested polynomials — degree arithmetic, no series content."
+    },
+    {
+      "ugmSlug": "r8691",
+      "title": "Which of Alf, Beth and Gemma is the liar?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r8691",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Liar/truth-teller/random deduction — logic puzzle, no series content."
+    },
+    {
+      "ugmSlug": "r9059",
+      "title": "Can we reach our target pattern in less than five moves?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9059",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Oxflip row/column-flip game — parity/invariant reasoning, no series content."
+    },
+    {
+      "ugmSlug": "r9323",
+      "title": "Given the digits $1$ to $5$, how many odd numbers can we make?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9323",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Permutation counting and probability — combinatorics, no series content."
+    },
+    {
+      "ugmSlug": "r9341",
+      "title": "In how many ways can we arrange $4$ white, $3$ black, and $2$ red marbles?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9341",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Arrangements with indistinguishable objects + probability — combinatorics, no expansion."
+    },
+    {
+      "ugmSlug": "r9473",
+      "title": "What is the largest value of $n$ for which $x_n>x_{n+1}$?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9473",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Cubic-formula sequence monotonicity via a quadratic inequality — the sequence is polynomial, not an AP/GP; skill is inequality solving."
+    },
+    {
+      "ugmSlug": "r9664",
+      "title": "How many rows can we make with these black and white pebbles?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9664",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Fibonacci-style pebble-row recurrence — recurrence relations are outside P1 1.6."
+    },
+    {
+      "ugmSlug": "r9749",
+      "title": "In how many ways can we organise a mixed doubles tennis match?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9749",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Mixed-doubles pairing count — combinatorics, no series content."
+    },
+    {
+      "ugmSlug": "r9750",
+      "title": "Can we show that all words consisting of $A$s and $B$s can be made?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9750",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Formal-word production rules — constructive reasoning, no series content."
+    },
+    {
+      "ugmSlug": "r9800",
+      "title": "When will  $N$ definitely be a square number?",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9800",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Square-number criterion via index parity — number theory, no series content."
+    },
+    {
+      "ugmSlug": "r9884",
+      "title": "Can we prove that $\\sum_{i=1}^n H_i=n^3?$",
+      "url": "https://undergroundmathematics.org/counting-and-binomials/r9884",
+      "resourceType": "review-question",
+      "station": "counting-and-binomials",
+      "reason": "Recurrence-derived quadratic sequence with ΣH_i = n³ proof — recurrence-to-closed-form work; the Σ(1..n-1) AP-sum is a tool, not the tested skill."
+    },
+    {
+      "ugmSlug": "achilles-and-the-tortoise",
+      "title": "Achilles and the tortoise",
+      "url": "https://undergroundmathematics.org/sequences/achilles-and-the-tortoise",
+      "resourceType": "bigger-picture",
+      "station": "sequences",
+      "reason": "Zeno's-paradox bigger-picture excerpt on general infinite series — P1 1.6.4 covers convergence of geometric progressions only; excerpt capture."
+    },
+    {
+      "ugmSlug": "r5416",
+      "title": "Can we sum the first $2n$ terms of $1^2-3^2+5^2-7^2+\\cdots$?",
+      "url": "https://undergroundmathematics.org/sequences/r5416",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Alternating squares sum by bracketing — standard-sum series work outside P1 1.6."
+    },
+    {
+      "ugmSlug": "r5602",
+      "title": "Can we show  $L  < \\int_1^r \\frac{1}{x} \\:dx <  R$?",
+      "url": "https://undergroundmathematics.org/sequences/r5602",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Integral bounds on the harmonic series — calculus estimation, not AP/GP formulae."
+    },
+    {
+      "ugmSlug": "r5995",
+      "title": "If $x_2 = 1/(1 - x_1), x_3 = 1/(1 - x_2)$, can we show $x_1x_2x_3+1=0$?",
+      "url": "https://undergroundmathematics.org/sequences/r5995",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Iterated reciprocal-function cycle — functional iteration, not progressions."
+    },
+    {
+      "ugmSlug": "r6143",
+      "title": "Find an expression for the sum of $r^2$",
+      "url": "https://undergroundmathematics.org/sequences/r6143",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Derivation of Σr² and Σr³ — standard sums outside P1 1.6."
+    },
+    {
+      "ugmSlug": "r6555",
+      "title": "How are these recursively defined sequences related?",
+      "url": "https://undergroundmathematics.org/sequences/r6555",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Recurrence-defined sequences with quadratic closed forms — recurrence work; the AP-sum appears as a tool only."
+    },
+    {
+      "ugmSlug": "r7240",
+      "title": "What's the sum of the $r^{th}$ bracket in $(1), (2,3), (4,5,6),\\cdots$?",
+      "url": "https://undergroundmathematics.org/sequences/r7240",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Bracketed-integer pattern proof with Σn given as an assumption — pattern/proof work; the AP formula is not the tested skill."
+    },
+    {
+      "ugmSlug": "r8404",
+      "title": "If $x_1 = (x_0 + 2)/(x_0 + 1)$, can we show $\\sqrt{2}$ lies between $x_0$ and $x_1$?",
+      "url": "https://undergroundmathematics.org/sequences/r8404",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Iterative rational bounds for √2 — convergence of a non-GP iteration, outside P1 1.6."
+    },
+    {
+      "ugmSlug": "r8998",
+      "title": "When does $1-2+3-4+5-\\cdots +(-1)^{n+1}n$ reach $100$?",
+      "url": "https://undergroundmathematics.org/sequences/r8998",
+      "resourceType": "review-question",
+      "station": "sequences",
+      "reason": "Alternating ±n partial sums — pairing argument, not AP/GP formulae."
+    },
+    {
+      "ugmSlug": "same-different",
+      "title": "Same or different?",
+      "url": "https://undergroundmathematics.org/sequences/same-different",
+      "resourceType": "investigation",
+      "station": "sequences",
+      "reason": "Sigma-notation equivalence on quadratic sums — general series manipulation outside P1 1.6."
+    },
+    {
+      "ugmSlug": "sum-estimating",
+      "title": "Sum estimating",
+      "url": "https://undergroundmathematics.org/sequences/sum-estimating",
+      "resourceType": "scaffolded-task",
+      "station": "sequences",
+      "reason": "Integral estimates of Σr² — calculus-summation links, outside P1 1.6."
+    }
+  ],
+  "crossLaneAligned": [
+    {
+      "ugmSlug": "r7553",
+      "station": "combining-functions",
+      "title": "Can we compose these polynomial functions?",
+      "url": "https://undergroundmathematics.org/combining-functions/r7553",
+      "resourceType": "review-question",
+      "confidence": "medium",
+      "modesRecorded": [
+        1
+      ],
+      "note": "iteration constant term 1+4+⋯+4^{k-1} summed by the GP formula to (4^k-1)/3 — one-to-many extension; the recorded 1.2.2 alignment stands",
+      "codes": [
+        "1.6.3"
+      ],
+      "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+      "ofRecordLane": "pure-1-functions"
+    },
+    {
+      "ugmSlug": "r9527",
+      "station": "combining-functions",
+      "title": "Can we compose two simple functions?",
+      "url": "https://undergroundmathematics.org/combining-functions/r9527",
+      "resourceType": "review-question",
+      "confidence": "medium",
+      "modesRecorded": [
+        1
+      ],
+      "note": "solution count (m+1)^2 closes via Σk = m(m+1)/2 inside the double sum — one-to-many extension; the recorded 1.2.1/1.2.2 alignments stand",
+      "codes": [
+        "1.6.3"
+      ],
+      "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+      "ofRecordLane": "pure-1-functions"
+    }
+  ],
+  "sweepRouting": {
+    "r5053": "1.3 Coordinate geometry (normals to a parabola; AP false positive)",
+    "r5162": "Thinking-about-geometry (many-ways geometry problem; keyword false positive)",
+    "r5202": "1.3 Geometry of equations (perpendicular foot; AP false positive)",
+    "r5276": "Polynomials (remainder of p_n by p_{n-1}; AP false positive)",
+    "r5348": "1.7 Differentiation (derivatives of powers via binomial-chord patterns)",
+    "r5634": "P3 Series bearings (series to n terms by induction/partial fractions + log-series sum to infinity)",
+    "r5795": "1.5 Trigonometry (of record, lane 5; AP false positive)",
+    "r5973": "1.2 Functions (invertibles building block; (1+x) false positive)",
+    "r6079": "1.5 Trigonometry (of record, lane 5; common-difference false positive)",
+    "r6099": "Exp-and-log fluency (log n! manipulation; factorial notation without expansion)",
+    "r6234": "1.3 Geometry of equations (point on a circle; AP false positive)",
+    "r6276": "Polynomials/root-coefficients (roots constrained to an AP/GP are modelling wrappers; skill is symmetric functions)",
+    "r6509": "1.7 Differentiation (mapping diagrams; binomial mention false positive)",
+    "r6589": "1.5 Trigonometry (of record, lane 5; AP false positive)",
+    "r6601": "P3 Series (real-index binomial expansion with validity condition)",
+    "r6735": "1.2 Functions (inverse meeting points; (1+x) false positive)",
+    "r6790": "Polynomials (remainder theorem; AP false positive)",
+    "r6920": "1.7 Differentiation (zooming-in gradients; cross-reference false positive)",
+    "r7111": "Polynomials/root-coefficients (roots in GP are a modelling wrapper; skill is symmetric functions)",
+    "r7285": "Vectors (collinearity; AP false positive)",
+    "r7436": "P3 Series (real-index binomial expansion)",
+    "r7533": "1.1 Quadratics (inequality with square roots; (1+x) false positive)",
+    "r7604": "1.5 Trigonometry (of record, lane 5; the (1+2c)^3 expansion step is incidental)",
+    "r7688": "Number fluency (factorial fun) — factorial arithmetic without expansion",
+    "r7692": "1.7/1.8 Calculus (gradient of x^n via binomial-chord expansion; the expansion is scaffolding)",
+    "r7696": "P3/Hyperbolic functions (catenaries; binomial mention false positive)",
+    "r7991": "Polynomials (cyclic factorisation; binomial false positive)",
+    "r8499": "Combinatorial recurrence (stairs/Fibonacci counting) — outside P1 1.6",
+    "r8704": "Vectors (parallelogram; AP false positive)",
+    "r8880": "Number theory (divisibility; (1+x)-pattern false positive)",
+    "r8994": "Hyperbolic functions food-for-thought (weight pulling; AP false positive)",
+    "r9045": "1.3 Circles (loci; AP false positive)",
+    "r9189": "Polynomials (quartic roots; recurrence false positive)",
+    "r9484": "1.7 Curve sketching (e^{-x}/(1+x^2); (1+x) false positive)",
+    "r9701": "1.8 Integration (rationalisation; (1+x)-pattern false positive)",
+    "r9768": "1.3 Circles (loci; AP false positive)"
+  }
+}
