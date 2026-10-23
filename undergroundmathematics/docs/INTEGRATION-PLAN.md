@@ -275,8 +275,27 @@ worth doing regardless of any Mode-3 outcome.
       join — 12 lane-3 non-overlaps flipped to aligned under 1.4.1, r8946/
       r9386 one-to-many, fleet 4 lanes / 8 stations / 13 spec points / 205
       rows / 187 bodies; bundle regression 18/18, hub tsc 0)
-- [ ] further lanes (next by spine adjacency: 1.5 Trigonometry —
-      `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`)
+- [x] fifth lane: **Trigonometry: Triangles to Functions + Compound Angles →
+      CIE 9709 P1 1.5 Trigonometry (the two-station lane; operator "lane 5";
+      lanes 1–3 shape restored)** — cross-map of record
+      `cross-map-trigonometry.json` @ `f3ef5745` (corpus sweep 855 → 299
+      candidates resolved as 41 aligned — 36 TTF + 3 TCA substrate + 2
+      cross-station strays r7912/r7184; 55 alignment rows — plus 36
+      non-overlaps and 220 routed to recorded homes; NO fold fragments:
+      1.5.1–1.5.5 verbatim into the spine export; compound-angles station's
+      honest P3 2.3 mapping recorded — 24 non-overlaps, five of lane 4's
+      routed-1.5 preview pool refined; 2 cross-lane fact joins r9924/r8411 →
+      1.5.4 against lane-2 bodies; primary picks going-round-in-circles /
+      trig-tables / inverse-or-not / r5269 / r6138); corpus + facts filed as
+      **[syllabai-resources#79](https://github.com/SyllabAI/syllabai-resources/pull/79)**
+      (tasks `T-UGM-MODE1-5` + `T-UGM-IMPORT-5`, MANIFEST v5, whole-substrate
+      77 text bodies — station-lane corpus law: non-overlaps imported UNMAPPED
+      with the coverage note; converter byte-identical vs lane-1/3 ground
+      truths; full 5-lane importer audit green: 5 lanes / 12 stations / 18
+      spec points / 262 rows / 63 non-overlaps / 264 bodies, 0 dup ids);
+      hub consumption (`T-UGM-HUB-CONSUME-5`) pending on the syllabai-v2 side
+- [ ] further lanes (next by spine adjacency: 1.6 Series —
+      `sequences` + `counting-and-binomials`)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station blocks now

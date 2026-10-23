@@ -114,11 +114,20 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   enrichment + 5 new-text bodies merged of record as `syllabai-resources#74`
   → `1585c4ff`, MANIFEST v4; hub `syllabai-v2#327` → `2684a8e4` — first strand
   lane served via the cross-lane join, bundle 1.1: 4 lanes / 8 stations /
-  13 spec points / 187 resources). Mode-2 deep-link
+  13 spec points / 187 resources) and
+  **lane 5 Trigonometry: Triangles to Functions + Compound Angles → CIE 9709
+  P1 1.5 Trigonometry** — the two-station lane (operator "lane 5"; cross-map
+  `cross-map-trigonometry.json` @ `f3ef5745`, 299 sweep candidates: 41
+  aligned — 36 TTF + 3 TCA substrate + 2 cross-station strays, 55 rows —
+  plus 36 non-overlaps (the compound-angles station's honest P3 2.3
+  mapping) + 2 cross-lane fact joins (r9924/r8411 → 1.5.4 vs lane-2
+  bodies) + 220 routed; primary picks going-round-in-circles /
+  trig-tables / inverse-or-not / r5269 / r6138; enrichment + whole-
+  substrate 77 text bodies filed as `syllabai-resources#79`, MANIFEST v5;
+  hub `T-UGM-HUB-CONSUME-5` pending). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: further lanes by spine adjacency on operator ack (1.5 Trigonometry:
-  `trigonometry-triangles-to-functions` + `trigonometry-compound-angles`) —
-  recipe of record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run
-  still pending.
+- Next: #79 review/merge on operator ack; further lanes by spine adjacency
+  (1.6 Series: `sequences` + `counting-and-binomials`) — recipe of record in
+  `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.
