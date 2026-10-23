@@ -1,0 +1,29 @@
+{
+ "category": {
+  "id": 5,
+  "label": "CIE A-LEVEL"
+ },
+ "subject": {
+  "id": 182,
+  "label": "Design & Technology(9705)"
+ },
+ "bank": "untopical",
+ "source": "https://www.exam-mate.com/untopicalpastpapers",
+ "url_pattern": "https://www.exam-mate.com/untopicalpastpapers?cat=&sub=&years%5B%5D=YYYY&page=N",
+ "years_filter": [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "questions": 354,
+ "pages": 15,
+ "unparsable_rows": 0,
+ "harvested_at": "2026-10-23T23:06:28Z",
+ "harvester": "scripts/untopical_harvest.py",
+ "images_repo": "SyllabAI/syllabai-experimental-2",
+ "notes": "NON-TOPICAL bank (non-chapterized subjects); topics empty site-side; text refs from site row labels"
+}

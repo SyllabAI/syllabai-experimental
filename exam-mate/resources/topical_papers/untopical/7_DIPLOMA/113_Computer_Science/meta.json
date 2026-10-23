@@ -1,0 +1,29 @@
+{
+ "category": {
+  "id": 7,
+  "label": "IB DIPLOMA"
+ },
+ "subject": {
+  "id": 113,
+  "label": "Computer Science"
+ },
+ "bank": "untopical",
+ "source": "https://www.exam-mate.com/untopicalpastpapers",
+ "url_pattern": "https://www.exam-mate.com/untopicalpastpapers?cat=&sub=&years%5B%5D=YYYY&page=N",
+ "years_filter": [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "questions": 495,
+ "pages": 20,
+ "unparsable_rows": 0,
+ "harvested_at": "2026-10-23T23:09:09Z",
+ "harvester": "scripts/untopical_harvest.py",
+ "images_repo": "SyllabAI/syllabai-experimental-2",
+ "notes": "NON-TOPICAL bank (non-chapterized subjects); topics empty site-side; text refs from site row labels"
+}

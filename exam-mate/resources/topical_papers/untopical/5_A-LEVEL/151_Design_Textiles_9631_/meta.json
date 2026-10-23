@@ -1,0 +1,29 @@
+{
+ "category": {
+  "id": 5,
+  "label": "CIE A-LEVEL"
+ },
+ "subject": {
+  "id": 151,
+  "label": "Design & Textiles(9631)"
+ },
+ "bank": "untopical",
+ "source": "https://www.exam-mate.com/untopicalpastpapers",
+ "years_filter": [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "questions": 36,
+ "pages": 4,
+ "unparsable_rows": 0,
+ "harvested_at": "2026-10-23T21:19:07Z",
+ "harvester": "scripts/untopical_harvest.py",
+ "images_repo": "SyllabAI/syllabai-experimental-2",
+ "notes": "NON-TOPICAL bank (non-chapterized subjects); topics empty site-side; text refs from site row labels",
+ "years_filter_note": "client-side re-filtered to exam years 2020-2026"
+}
