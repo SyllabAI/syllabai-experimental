@@ -315,8 +315,30 @@ worth doing regardless of any Mode-3 outcome.
       with the coverage note; converter byte-identical vs the full 77-file
       lane-5 of-record corpus); hub consumption (`T-UGM-HUB-CONSUME-6`) pending
       on the syllabai-v2 side
-- [ ] further lanes (next by spine adjacency: 1.7 Differentiation —
-      the calculus stations, where of-record item attachment is densest)
+- [x] seventh lane: **Introducing Calculus + Calculus of Powers →
+      CIE 9709 P1 1.7 Differentiation (the third two-station lane; operator
+      "Proceed Lane 7")** — cross-map of record
+      `cross-map-differentiation.json` @ `93575e69` (corpus sweep 855 → 195
+      candidates resolved as 74 aligned — 40 substrate + 34 cross-station
+      strays; 107 alignment rows — plus 32 non-overlaps (the
+      trapezium-rule/kinematics cluster in Introducing Calculus; the
+      trapezium rule is not in the 2023–2025 P1 spec) and 86 routed to
+      recorded homes; NO fold fragments: 1.7.1–1.7.4 verbatim into the spine
+      export; findings of record: Calculus of Powers is the P1 workhorse
+      (31/48 aligned) while Introducing Calculus splits between
+      gradient-concept building blocks and the non-overlap cluster; the
+      chain-rule/product-rule/calculus-trig-log stations are P3-bearing and
+      routed with bearings named; 3 cross-lane fact joins r5640/r7115/r8936;
+      primary picks r7692 / r9942 / r8065 / r9260); corpus + facts filed as
+      **[syllabai-resources#91](https://github.com/SyllabAI/syllabai-resources/pull/91)**
+      (tasks `T-UGM-MODE1-7` + `T-UGM-IMPORT-7`, MANIFEST v7, whole-substrate
+      106 text bodies — station-lane corpus law: non-overlaps imported UNMAPPED
+      with the coverage note; converter byte-identical vs the full 99-file
+      lane-6 of-record corpus); hub consumption (`T-UGM-HUB-CONSUME-7`) pending
+      on the syllabai-v2 side
+- [ ] further lanes (next by spine adjacency: 1.8 Integration —
+      the integration stations; the 1.8-bearing pools recorded in lanes 6–7
+      are the substrate preview)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station blocks now

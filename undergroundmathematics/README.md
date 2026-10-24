@@ -135,10 +135,22 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   fact joins (r7553/r9527 → 1.6.3 vs lane-2 bodies) + 36 routed; primary
   picks r7078 / sort-it-out / r8907 / square-spirals; enrichment +
   whole-substrate 99 text bodies filed as `syllabai-resources#89`,
-  MANIFEST v6; hub `T-UGM-HUB-CONSUME-6` pending). Mode-2 deep-link
+  MANIFEST v6; hub `syllabai-v2#337` → `cdd7fcfc` — 6 lanes /
+  20 stations / 22 spec points / 320 rows / 363 bodies served) and
+  **lane 7 Introducing Calculus + Calculus of Powers → CIE 9709 P1 1.7
+  Differentiation** — the third two-station lane (operator "Proceed Lane 7";
+  cross-map `cross-map-differentiation.json` @ `93575e69`, 195 sweep
+  candidates: 74 aligned — 40 substrate + 34 cross-station strays, 107 rows —
+  plus 32 non-overlaps (the trapezium-rule/kinematics cluster in Introducing
+  Calculus; the trapezium rule is not in the 2023–2025 P1 spec) + 3
+  cross-lane fact joins (r5640 vs lane 6; r7115/r8936 vs lane 4) + 86 routed;
+  primary picks r7692 / r9942 / r8065 / r9260; enrichment + whole-substrate
+  106 text bodies filed as `syllabai-resources#91`, MANIFEST v7; hub
+  `T-UGM-HUB-CONSUME-7` pending). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #89 review/merge on operator ack; further lanes by spine adjacency
-  (1.7 Differentiation: the calculus stations) — recipe of record in
-  `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.
+- Next: #91 review/merge on operator ack; further lanes by spine adjacency
+  (1.8 Integration: the integration stations — the final Pure 1 subtopic) —
+  recipe of record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run
+  still pending.
