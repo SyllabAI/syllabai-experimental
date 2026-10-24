@@ -1,0 +1,1507 @@
+{
+ "pilot": "P3c generalisation lane 10 - CIE 9709 Pure 3 subtopic 3.2 Logarithmic and exponential functions (operator order: 'merging #358 then proceed with lane 10'; the second lane on the pure-3 course plane, first by spine adjacency after lane 9's 3.1)",
+ "generatedAt": "2026-10-24",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/example of doctrine (none in this lane); no UGM body text beyond the attested corpus import",
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.2 Logarithmic and exponential functions",
+  "specPoints": [
+   "3.2.1",
+   "3.2.2",
+   "3.2.3",
+   "3.2.4"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json - the four rows 3.2.1-3.2.4 are the spine rows of record verbatim (the parse artifacts in the 3.2.2/3.2.3 titles - dropped math runs in 'graph of e^x and ln x' and 'a^x = b' - are carried verbatim; no T-SPECS repair needed, no fold fragments)"
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepRawHits": 71,
+  "sweepCandidates": 71,
+  "substrateResources": 34,
+  "ugmResourcesConsidered": 71,
+  "aligned": 39,
+  "alignedSubstrate": 34,
+  "nonOverlap": 26,
+  "crossLaneAligned": 5,
+  "rejectedOfRecord": 6,
+  "alignedShare": 0.5493,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 5,
+   "flips": 0,
+   "oneToMany": 5,
+   "note": "no cross-lane flips this lane - all 5 joins are one-to-many additions to resources already aligned of record (r9824, r7607 lane-2 functions; r6137, r8260 lane-6 series; r7184 lane-5 trigonometry), all riding bodies of record. The lane-9 nonOverlapByReference row to-log-or-not-to-log flips to aligned WITH a fresh body this lane (perSpecPoint 3.2.3; the recorded lane-9 reason was the surd card, the card sort's tested skill is the 3.2.3 method decision)"
+  },
+  "stationBreakdown": {
+   "exp-and-log": {
+    "resources": 40,
+    "aligned": 33,
+    "nonOverlap": 7,
+    "rejected": 0
+   },
+   "calculus-trig-log": {
+    "resources": 4,
+    "aligned": 1,
+    "nonOverlap": 3,
+    "rejected": 0
+   },
+   "thinking-about-algebra": {
+    "resources": 4,
+    "aligned": 2,
+    "nonOverlap": 2,
+    "rejected": 0
+   },
+   "combining-functions": {
+    "resources": 2,
+    "aligned": 2,
+    "nonOverlap": 0,
+    "rejected": 0
+   },
+   "sequences": {
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 0
+   },
+   "chain-rule": {
+    "resources": 7,
+    "aligned": 0,
+    "nonOverlap": 5,
+    "rejected": 2
+   },
+   "introducing-calculus": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 0
+   },
+   "product-rule": {
+    "resources": 8,
+    "aligned": 0,
+    "nonOverlap": 6,
+    "rejected": 2
+   },
+   "hyperbolic-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 0
+   },
+   "circles": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 0
+   },
+   "calculus-of-powers": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "quadratics": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   }
+  },
+  "coverageNote": "71 raw sweep hits (60 pass-1 title/description sweep + 11 pass-2 body-text sweep), all unique = candidates; the fresh substrate of record is the 34 aligned resources (34 new text bodies; T-UGM-IMPORT-10), 31 of them from the dedicated exp-and-log station plus 3 strays (to-the-limit, r7077, powerful-fractions); 5 further rows ride bodies of record under lanes 2/5/6 (cross-course joins by reference); 26 fresh resources route out as non-overlaps RECORDED BY REFERENCE ONLY (no bodies - the lane-8 candidate-model law); 6 of-record candidates are rejected with reasons"
+ },
+ "perSpecPoint": {
+  "3.2.1": {
+   "officialCode": "3.2.1",
+   "officialText": "understand the relationship between logarithms and indices, and use the laws of logarithms (excluding change of base)",
+   "spineTitleVerbatim": "understand the relationship between logarithms and indices, and use the laws of logarithms (excluding change of base)",
+   "primaryPick": "proving-laws-of-logs",
+   "resources": [
+    {
+     "ugmSlug": "proving-laws-of-logs",
+     "station": "exp-and-log",
+     "title": "Proving the laws of logarithms",
+     "url": "https://undergroundmathematics.org/exp-and-log/proving-laws-of-logs",
+     "resourceType": "Scaffolded task",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "card sort forming a proof that log_c a + log_c b = log_c ab 'for any a,b > 0 and c>0, but c != 1', generalised from numeric examples - the laws of logarithms proved from indices; the canonical 3.2.1 task",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r9976",
+     "station": "exp-and-log",
+     "title": "Can we evaluate  these log expressions without using a calculator?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9976",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'Using the logarithm laws, we can rewrite the first two terms' - 2lg5 - (1/2)lg9 + lg0.12 evaluated without calculators from lg2=0.30103, lg3=0.47712 (lg x = log_10 x)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7471",
+     "station": "exp-and-log",
+     "title": "Can we use the laws of logs to find $x$ and $y$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7471",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log(4/9) - log(9/125) + 2log(9/5) simplified by the quotient and power laws 'where all logarithms are to base 10' to find x and y without tables",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7298",
+     "station": "exp-and-log",
+     "title": "Can we find these log expressions in terms of $\\log_9 x$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7298",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "u=log_9 x gives x=9^u 'by definition'; log_9(3x)=1/2+u by the product law; log_x 81 derived from the definition - 'answers may not contain the word log'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "see-the-power",
+     "station": "exp-and-log",
+     "title": "See the power",
+     "url": "https://undergroundmathematics.org/exp-and-log/see-the-power",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "introduction to logarithms 'without formally defining them or even using the word': powers of ten estimated by inspection and interpolation (sqrt(10)~3.16) - the logarithm-as-index relationship made concrete",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "calculators1950",
+     "station": "exp-and-log",
+     "title": "1950s calculators",
+     "url": "https://undergroundmathematics.org/exp-and-log/calculators1950",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log tables used to multiply: 'use logarithms to calculate, correct to three significant figures' the 1952 O-level expression - what logarithms are and how the laws do the work",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9381",
+     "station": "exp-and-log",
+     "title": "Can we find bounds for $\\log_2 3$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9381",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "bounds for log_2 3 deduced from 2^3=8, 2^5=32, 3^2=9, 3^3=27 - the logarithm read as the index, with 'log_2 x is an increasing function'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "log-lattice",
+     "station": "exp-and-log",
+     "title": "Logarithm lattice",
+     "url": "https://undergroundmathematics.org/exp-and-log/log-lattice",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "logarithms in different bases arranged into a grid 'without using a calculator' - bounds from indices plus monotonicity of log functions",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "log-lineup",
+     "station": "exp-and-log",
+     "title": "Logarithm lineup",
+     "url": "https://undergroundmathematics.org/exp-and-log/log-lineup",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log_4 5, log_2 5, log_3 4, ... ordered without a calculator - exact values and index bounds (3^1<5<3^2); prior routing of record: lane-5 sweepRouting '2.2 Logarithmic and exponential functions'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7231",
+     "station": "exp-and-log",
+     "title": "Which is the largest of these four logarithms?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7231",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "largest of log_2 3, log_4 8, log_3 2, log_5 10 - 'if 0 < b < a then log_a b < 1' plus exact values (log_4 8 = 3/2)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5080",
+     "station": "exp-and-log",
+     "title": "Which is the smallest of these surd, log and trig expressions?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5080",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log_3(9^2)=2log_3 9=4 and log_2(log_2(8^5)) evaluated exactly against surd/trig competitors; prior routing of record: lane-5 sweepRouting '2.2 Logarithmic and exponential functions'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9680",
+     "station": "exp-and-log",
+     "title": "Which of these four log expressions is the smallest?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9680",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "L=log_10 pi substitution rewrites all four candidates via the laws (log_10(pi^2)=2L, 1/log_10(sqrt(pi))=2/L) and index comparisons",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "summing-to-one",
+     "station": "exp-and-log",
+     "title": "Summing to one",
+     "url": "https://undergroundmathematics.org/exp-and-log/summing-to-one",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "2 log_9 3 = 1, 'how many log_81 3 do you need to add together to make one' - sums of logarithms equated to 1 via the laws and the definition, integers x,y with log_6 x + log_6 y = 1",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "factorial-fragments",
+     "station": "exp-and-log",
+     "title": "Factorial fragments",
+     "url": "https://undergroundmathematics.org/exp-and-log/factorial-fragments",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log n! explored across values and bases - log(n!) = sum of log k generalisation and 'what happens if you change the base'; log-law fluency",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "changing-bases",
+     "station": "exp-and-log",
+     "title": "Changing bases",
+     "url": "https://undergroundmathematics.org/exp-and-log/changing-bases",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "2log_4 x = log_2 x and the y=log_5 x graph family - base relations derived from the definition of a logarithm as the index; the change-of-base FORMULA itself is not required, so the 3.2.1 exclusion is respected (prior routing of record: lane-5 '2.2')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6806",
+     "station": "exp-and-log",
+     "title": "If $yz=a^2$, can we prove that $1/(a+y) + 1/(a+z) = 1/a$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r6806",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "part (c) evaluates 2/(5(2+5log_b c)) + 1/(5+2log_c b) through the identity 1/(a+y)+1/(a+z)=1/a with log_b c · log_c b = 1 - the reciprocal relation read off the definition of the logarithm",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "h(x)+f(x)=log_a(1/x)+log_a x=0 - the logarithm law for 1/x inside the composite-function task of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-functions 1.2.1/1.2.2/1.2.3"
+    },
+    {
+     "ugmSlug": "r6137",
+     "station": "sequences",
+     "title": "How are the $p$th, $q$th and $r$th terms of an AP related?",
+     "url": "https://undergroundmathematics.org/sequences/r6137",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the geometrical limb proves (q-r)log P+(r-p)log Q+(p-q)log R=0 by taking logarithms of the GP relations - log of a product/power in use",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-series",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-series 1.6 (GP limb)"
+    },
+    {
+     "ugmSlug": "r7184",
+     "station": "exp-and-log",
+     "title": "Which of these log and trig expressions is the largest?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7184",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log_2(5pi/4)>1 (5pi/4>2) while log_10(5pi/4)<1 (5pi/4<10) - the logarithm-as-index comparison inside the largest-value task",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.1"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-trigonometry 1.5 (stray of record)"
+    }
+   ],
+   "ugmStation": "exp-and-log",
+   "ugmStationUrl": "https://undergroundmathematics.org/exp-and-log",
+   "resourceCount": 19
+  },
+  "3.2.2": {
+   "officialCode": "3.2.2",
+   "officialText": "understand the definition and properties of e Including knowledge of the graph of and ln x , including their relationship as inverse functions and their graphs",
+   "spineTitleVerbatim": "understand the definition and properties of e Including knowledge of the graph of and ln x , including their relationship as inverse functions and their graphs",
+   "primaryPick": "an-irrational-inequality",
+   "resources": [
+    {
+     "ugmSlug": "an-irrational-inequality",
+     "station": "exp-and-log",
+     "title": "An irrational inequality",
+     "url": "https://undergroundmathematics.org/exp-and-log/an-irrational-inequality",
+     "resourceType": "Go and think about it...",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "proving e^pi > pi^e - 'what do the functions e^x and x^e look like? how could we approximate e and pi? do we know any functions that change a question about indices into a question about [logarithms]?' - the definition and properties of e in action",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "to-the-limit",
+     "station": "calculus-trig-log",
+     "title": "To the limit",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/to-the-limit",
+     "resourceType": "Scaffolded task",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the first-principles chain for d/dx a^x closes with 'a special case': lim_{h->0}(a^h-1)/h = 1 exactly when a = e, the defining property of e (the differentiation vehicle is 1.7 of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9824",
+     "station": "combining-functions",
+     "title": "Can we sketch the inverse of this composite function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9824",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "f:x->ln x with f^{-1}(x)=e^x ('rearranging the formula y=ln x to make x the subject we find x=e^y') and fg(x)=-ln x with the graph reflections - the e^x/ln x inverse-pair law verbatim",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.2"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-functions 1.2.2/1.2.3/1.2.4"
+    }
+   ],
+   "ugmStation": "exp-and-log",
+   "ugmStationUrl": "https://undergroundmathematics.org/exp-and-log",
+   "resourceCount": 3
+  },
+  "3.2.3": {
+   "officialCode": "3.2.3",
+   "officialText": "use logarithms to solve equations and e.g. inequalities in which the unknown appears in indices",
+   "spineTitleVerbatim": "use logarithms to solve equations and e.g. inequalities in which the unknown appears in indices",
+   "primaryPick": "to-log-or-not-to-log",
+   "resources": [
+    {
+     "ugmSlug": "to-log-or-not-to-log",
+     "station": "exp-and-log",
+     "title": "To log or not to log?",
+     "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log",
+     "resourceType": "Problem requiring decisions",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "equations sorted by solve method: 3^x=81 by inspection, 3^x=43 by logarithms, 5^{2x}-5^x=... by substitution - 'just because there is an exponential, you don't always have to use logarithms'; the method-decision task for indicial equations (flips the lane-9 nonOverlapByReference row of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r9366",
+     "station": "exp-and-log",
+     "title": "Can we find $a$ and $b$ as powers of $10$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9366",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "10a^2=b^3 with log_10 a = log_10 b + 1 - 'taking logs to base 10' solves the indicial system; a and b expressed as powers of 10",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7845",
+     "station": "exp-and-log",
+     "title": "Can we solve $ \\log_3 x + 2 \\log_x 3 = -3$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7845",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log_b a log_c b log_a c = 1 by rewriting as exponentials, then log_3 x + 2 log_x 3 = -3 solved via u = log_3 x",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5940",
+     "station": "exp-and-log",
+     "title": "Can we solve these simultaneous exponential equations?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5940",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "3(4^p)=7(6^q) and 3(8^{p+1})=25(6^q) - divide and reduce to 2^p=25/56, then 'determine, to two significant figures, the value of p' by logarithms",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5462",
+     "station": "exp-and-log",
+     "title": "Can we solve these three simultaneous log equations?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5462",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log_b a=2, log_b(c-3)=3, log_a(c+5)=2 written in exponential form (a=b^2, c-3=b^3, c+5=a^2); b^4=b^3+8 discriminates the two values of a",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9747",
+     "station": "exp-and-log",
+     "title": "Can we use $\\log_{10}$ to find the first digit of $3^{100}$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9747",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'by taking logs, or otherwise, show that 5x10^47 < 3^100 < 6x10^47' and read off the first digit of 3^100; prior routing of record: lane-5 '2.2 Logarithmic and exponential functions'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7015",
+     "station": "exp-and-log",
+     "title": "Given this log equation, when can $a$ be largest?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7015",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "4(log_10 a)^2 + (log_10 b)^2 = 1 - greatest a when (log_10 b)^2 is least, 'since log is an increasing function'; quadratic-in-log technique",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6045",
+     "station": "exp-and-log",
+     "title": "How large is $2^{100}$, and what is its starting digit?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r6045",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "log_10 2 = 0.3010 with 10^0.2 < 2 deduces that 2^100 is 31 digits long and finds its first digit - logarithms on indices",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7606",
+     "station": "exp-and-log",
+     "title": "How many real roots does $8^x+4=4^x+2^{x+2}$ have?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7606",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "8^x+4=4^x+2^{x+2} - 'the unknown x is in the exponents. Could we make a substitution?' y=2^x gives a factorable cubic; three real solutions",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5103",
+     "station": "exp-and-log",
+     "title": "How many roots are there to $x=8^{\\log_2x} -9^{\\log_3x}-4^{\\log_2x}+\\log_{0.5}{0.25}$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5103",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "8^{log_2 x}=(2^{log_2 x})^3=x^3 and log_{0.5}0.25=2 reduce the equation to a polynomial root count - the a^{log_b c} identity at work",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7384",
+     "station": "exp-and-log",
+     "title": "When does $9^x - 3^{x+1} = k$ have one or more real solutions?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7384",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "9^x - 3^{x+1} = k has 'one or more real solutions precisely when' the y=3^x quadratic y^2-3y-k=0 has a positive root - k >= -9/4",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6414",
+     "station": "exp-and-log",
+     "title": "When does this inequality have a finite number of integer solutions?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r6414",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "a^x > cb^y taken to logs: 'x log a > log c + y log b' (base > 1 so log is increasing) - finitely many positive integer solutions classified by a,b against 1",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7077",
+     "station": "thinking-about-algebra",
+     "title": "Can we prove these bounds for this fraction involving surds?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r7077",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "y=ax^n from data: (9/4)^n=2/3 solved exactly as powers of 2 and 3 (n=-1/2) - the indicial-equation limb of a composite question; prior routing of record: lane-5 '2.2 Logarithmic and exponential functions'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "powerful-fractions",
+     "station": "thinking-about-algebra",
+     "title": "Powerful fractions",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/powerful-fractions",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(10^a+1)/(10^a+2) vs (10^b+1)/(10^b+2) - inequality comparison of fractions with the unknown in the index; monotonicity of 10^x drives the answer; prior routing of record: lane-5 '2.2'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8260",
+     "station": "exp-and-log",
+     "title": "Can we solve the equation $\\log_2 x + \\log_3 x = 1 + \\log_4 x$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r8260",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "part (b) solves log_2 x + log_3 x = 1 + log_4 x - a genuine log-equation alongside the GP identity limb of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.3"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-series",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-series 1.6.3 (GP limb)"
+    }
+   ],
+   "ugmStation": "exp-and-log",
+   "ugmStationUrl": "https://undergroundmathematics.org/exp-and-log",
+   "resourceCount": 15
+  },
+  "3.2.4": {
+   "officialCode": "3.2.4",
+   "officialText": "use logarithms to transform a given relationship e.g. to linear form, and hence determine unknown constants by considering the gradient and/or intercept.",
+   "spineTitleVerbatim": "use logarithms to transform a given relationship e.g. to linear form, and hence determine unknown constants by considering the gradient and/or intercept.",
+   "primaryPick": "how-far-did-the-earth-move",
+   "resources": [
+    {
+     "ugmSlug": "how-far-did-the-earth-move",
+     "station": "exp-and-log",
+     "title": "How far did the earth move?",
+     "url": "https://undergroundmathematics.org/exp-and-log/how-far-did-the-earth-move",
+     "resourceType": "Food for thought",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "M_L=log_10(A/A_0) magnitude scale, then 'graph linearisation to establish a power law relationship from experimental data' - log-log plot with gradient/intercept constants",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.4"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "plotting-planets",
+     "station": "exp-and-log",
+     "title": "Plotting the planets",
+     "url": "https://undergroundmathematics.org/exp-and-log/plotting-planets",
+     "resourceType": "Rich example",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "planetary data linearised by logarithms: 'if we take the logarithms' of the orbital data the power law P=k r^m becomes a straight line; prior routing of record: lane-5 '2.2 Logarithmic and exponential functions'",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.2.4"
+     ],
+     "primaryPick": false
+    }
+   ],
+   "ugmStation": "exp-and-log",
+   "ugmStationUrl": "https://undergroundmathematics.org/exp-and-log",
+   "resourceCount": 2
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "r9824",
+   "station": "combining-functions",
+   "title": "Can we sketch the inverse of this composite function?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9824",
+   "codes": [
+    "3.2.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-functions 1.2.2/1.2.3/1.2.4",
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+   "confidence": "high",
+   "evidence": "f:x->ln x with f^{-1}(x)=e^x ('rearranging the formula y=ln x to make x the subject we find x=e^y') and fg(x)=-ln x with the graph reflections - the e^x/ln x inverse-pair law verbatim"
+  },
+  {
+   "ugmSlug": "r7607",
+   "station": "combining-functions",
+   "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r7607",
+   "codes": [
+    "3.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-functions 1.2.1/1.2.2/1.2.3",
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+   "confidence": "medium",
+   "evidence": "h(x)+f(x)=log_a(1/x)+log_a x=0 - the logarithm law for 1/x inside the composite-function task of record"
+  },
+  {
+   "ugmSlug": "r6137",
+   "station": "sequences",
+   "title": "How are the $p$th, $q$th and $r$th terms of an AP related?",
+   "url": "https://undergroundmathematics.org/sequences/r6137",
+   "codes": [
+    "3.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-series 1.6 (GP limb)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series",
+   "confidence": "medium",
+   "evidence": "the geometrical limb proves (q-r)log P+(r-p)log Q+(p-q)log R=0 by taking logarithms of the GP relations - log of a product/power in use"
+  },
+  {
+   "ugmSlug": "r8260",
+   "station": "exp-and-log",
+   "title": "Can we solve the equation $\\log_2 x + \\log_3 x = 1 + \\log_4 x$?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r8260",
+   "codes": [
+    "3.2.3"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-series 1.6.3 (GP limb)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series",
+   "confidence": "high",
+   "evidence": "part (b) solves log_2 x + log_3 x = 1 + log_4 x - a genuine log-equation alongside the GP identity limb of record"
+  },
+  {
+   "ugmSlug": "r7184",
+   "station": "exp-and-log",
+   "title": "Which of these log and trig expressions is the largest?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r7184",
+   "codes": [
+    "3.2.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5 (stray of record)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
+   "confidence": "medium",
+   "evidence": "log_2(5pi/4)>1 (5pi/4>2) while log_10(5pi/4)<1 (5pi/4<10) - the logarithm-as-index comparison inside the largest-value task"
+  }
+ ],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "how-fast-does-it-grow",
+   "station": "exp-and-log",
+   "title": "How fast does it grow?",
+   "url": "https://undergroundmathematics.org/exp-and-log/how-fast-does-it-grow",
+   "resourceType": "Investigation",
+   "routedTo": "3.2.2 prerequisite (unmapped)",
+   "reason": "2^x vs x^2 and a^x vs x^a compared by values and graphs - no e or ln anywhere in the text (0 mentions); the 3.2.2 graph limb is y=e^x / ln x specific. Honest 3.2.2 prerequisite, not a 3.2 row",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5156",
+   "station": "exp-and-log",
+   "title": "If we arrange $2^x, 2x$ and $x^2$ by size, what orders are possible?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r5156",
+   "resourceType": "Review question",
+   "routedTo": "3.2.2 prerequisite (unmapped)",
+   "reason": "ordering 2^x, 2x, x^2 by sketching - exponential-vs-power comparison without e/ln; outside the 3.2.2 e/ln graph limb",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "reach-for-the-stars",
+   "station": "exp-and-log",
+   "title": "Reach for the stars",
+   "url": "https://undergroundmathematics.org/exp-and-log/reach-for-the-stars",
+   "resourceType": "Building blocks",
+   "routedTo": "3.2.2 prerequisite (unmapped)",
+   "reason": "y=2^x drawn at 1cm:1 against paper sizes - exponential growth intuition; no e or ln in the text",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8013",
+   "station": "exp-and-log",
+   "title": "When does this exponential function equal this linear one?",
+   "url": "https://undergroundmathematics.org/exp-and-log/r8013",
+   "resourceType": "Review question",
+   "routedTo": "3.2.2 prerequisite (unmapped)",
+   "reason": "3^x drawn and 3^x=3x+2 solved graphically - the row's named method is logarithms and no logs or e/ln appear; graphical solving of exponentials is not a 3.2 row",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "changing-bases-teacher-support",
+   "station": "exp-and-log",
+   "title": "Changing bases - teacher support",
+   "url": "https://undergroundmathematics.org/exp-and-log/changing-bases-teacher-support",
+   "resourceType": "Resource in action",
+   "routedTo": "no extractable text",
+   "reason": "teacher-support page for the lane pick family; no extractable sections in the crawl of record (video/interactive-only) - recorded by reference, no body",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "to-log-or-not-to-log-teacher-support",
+   "station": "exp-and-log",
+   "title": "To log or not to log - teacher support",
+   "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log-teacher-support",
+   "resourceType": "Resource in action",
+   "routedTo": "no extractable text",
+   "reason": "teacher-support page; no extractable sections in the crawl of record - recorded by reference, no body",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "rediscovering-log-mercator",
+   "station": "exp-and-log",
+   "title": "Re-discovering the logarithm—Mercator",
+   "url": "https://undergroundmathematics.org/exp-and-log/rediscovering-log-mercator",
+   "resourceType": "Bigger picture",
+   "routedTo": "beyond spec",
+   "reason": "historical note on the seventeenth-century Mercator series for ln; no extractable sections in the crawl of record and the series itself is beyond 3.2",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "differentiating-exponentials",
+   "station": "chain-rule",
+   "title": "Differentiating exponentials",
+   "url": "https://undergroundmathematics.org/chain-rule/differentiating-exponentials",
+   "resourceType": "Scaffolded task",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "derives the general form of d/dx a^x - the tested skill is differentiation (P3 3.4 bearing); no extractable sections in the crawl of record either, so no body could be imported regardless",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "powerful-derivatives",
+   "station": "chain-rule",
+   "title": "Powerful derivatives",
+   "url": "https://undergroundmathematics.org/chain-rule/powerful-derivatives",
+   "resourceType": "Building blocks",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "d/dx x^a via e^{a ln x} - P3 Differentiation bearings (the lane-7 sweepRouting and the lane-9 non_overlap reason of record stand); the tested skill is the general power rule, not a 3.2 row",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "odd-one-out",
+   "station": "chain-rule",
+   "title": "Odd one out",
+   "url": "https://undergroundmathematics.org/chain-rule/odd-one-out",
+   "resourceType": "Package of problems",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "function-property card sort with ln x^2, ln 3x, e^{5x}, e^{x+4} rows - the derivatives are chain-rule work (dy/dx of ln x^2 = 2/x etc.); P3 3.4",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "can-you-find-chain-rule-edition",
+   "station": "chain-rule",
+   "title": "Can you find... chain rule edition",
+   "url": "https://undergroundmathematics.org/chain-rule/can-you-find-chain-rule-edition",
+   "resourceType": "Many ways problem",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "'a function g(x) so that ln g(x) has a local minimum' - chain-rule construction; P3 3.4",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7106",
+   "station": "calculus-trig-log",
+   "title": "Can we find this integral involving the floor function?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7106",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "integral of the floor function [2^x] with log_2((2^n-1)!) answer forms - the tested skill is the floor-function integral; the logarithm appears only in the answer notation",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "two-for-one",
+   "station": "calculus-trig-log",
+   "title": "Two for one",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/two-for-one",
+   "resourceType": "Food for thought",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "integral of 1/x and the ln|x| modulus - P3 Integration (lane-7/8 recorded routings stand)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "inverse-integrals",
+   "station": "calculus-trig-log",
+   "title": "Inverse integrals",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals",
+   "resourceType": "Food for thought",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "definite integral involving ln x via inverse-function areas - P3 Integration (lane-8 routing stands)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7431",
+   "station": "chain-rule",
+   "title": "Can we show $x>\\ln(1+x^2)$ for all $x>0$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r7431",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "x > ln(1+x^2) for x>0 - inequality deduction via differentiation; P3 Differentiation (lane-7 routing stands)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7903",
+   "station": "introducing-calculus",
+   "title": "Can the trapezium rule help us find the area under $y = x\\ln x$?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7903",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "trapezium rule on y=x ln x - the trapezium rule is not in the spine and the integrand is P3-dressed (lane-7/8 routings stand)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6530",
+   "station": "product-rule",
+   "title": "Can we differentiate $e^{2x}( 2 \\cos (3x) + 3 \\sin (3x))$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6530",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "d/dx e^{2x}(2cos3x+3sin3x) - P3 Differentiation (lane-7 routing stands)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9898",
+   "station": "product-rule",
+   "title": "Can we sketch the curve $y=(x-a)e^x/(x-b)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9898",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "stationary points of (x-a)e^x/(x-b) - P3 Differentiation (lane-7 routing stands)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9484",
+   "station": "product-rule",
+   "title": "Can we sketch the curve $y=e^{-x}/(1+x^2)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9484",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "curve sketching y=e^{-x}/(1+x^2) - P3 Differentiation bearings (lane-6/7 routings stand)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8134",
+   "station": "product-rule",
+   "title": "How could we integrate $e^{-x}\\sin^n x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8134",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4/3.5",
+   "reason": "reduction formula for e^{-x} sin^n x - P3 Differentiation/Integration (lanes 7/8 routings stand)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6620",
+   "station": "product-rule",
+   "title": "If the gradient is $x(1-x^2)e^{-x^2}$ can we find the stationary points?",
+   "url": "https://undergroundmathematics.org/product-rule/r6620",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4/3.5",
+   "reason": "gradient x(1-x^2)e^{-x^2}, stationary points and parts - P3 Differentiation/Integration (lanes 7/8 routings stand)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8671",
+   "station": "product-rule",
+   "title": "Which is the greater of $e^{\\pi}$ and $\\pi^e$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8671",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "e^pi vs pi^e via logarithmic differentiation - P3 Differentiation (lane-7 routing stands); the scaffolded sibling an-irrational-inequality carries the 3.2.2 limb this lane",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8779",
+   "station": "thinking-about-algebra",
+   "title": "Can we simplify  these expressions involving indices?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r8779",
+   "resourceType": "Review question",
+   "routedTo": "1.1/Algebra (assumed)",
+   "reason": "simplify expressions involving indices - index-law manipulation (assumed knowledge feeding 1.1/3.1); no logarithm content (lane-5 routing '1.1/Algebra' stands)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "index-issues",
+   "station": "thinking-about-algebra",
+   "title": "Index issues",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/index-issues",
+   "resourceType": "Package of problems",
+   "routedTo": "1.1/Algebra (assumed)",
+   "reason": "fractional and negative indices - meaning and definedness; index laws, not logarithms",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "weight-pulling",
+   "station": "hyperbolic-functions",
+   "title": "Weight pulling",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/weight-pulling",
+   "resourceType": "Food for thought",
+   "routedTo": "beyond spec",
+   "reason": "tractrix applet (draft resource) - catenary/hyperbolic content beyond CIE 9709 P3",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7385",
+   "station": "circles",
+   "title": "How much of this log is below the surface?",
+   "url": "https://undergroundmathematics.org/circles/r7385",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "sweep false positive: 'how much of this log is below the surface?' is a floating timber log (buoyancy), not the logarithm",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "how-fast-does-it-grow": {
+   "outcome": "non_overlap",
+   "station": "exp-and-log",
+   "reason": "2^x vs x^2 and a^x vs x^a compared by values and graphs - no e or ln anywhere in the text (0 mentions); the 3.2.2 graph limb is y=e^x / ln x specific. Honest 3.2.2 prerequisite, not a 3.2 row",
+   "routedTo": "3.2.2 prerequisite (unmapped)"
+  },
+  "r5156": {
+   "outcome": "non_overlap",
+   "station": "exp-and-log",
+   "reason": "ordering 2^x, 2x, x^2 by sketching - exponential-vs-power comparison without e/ln; outside the 3.2.2 e/ln graph limb",
+   "routedTo": "3.2.2 prerequisite (unmapped)"
+  },
+  "reach-for-the-stars": {
+   "outcome": "non_overlap",
+   "station": "exp-and-log",
+   "reason": "y=2^x drawn at 1cm:1 against paper sizes - exponential growth intuition; no e or ln in the text",
+   "routedTo": "3.2.2 prerequisite (unmapped)"
+  },
+  "r8013": {
+   "outcome": "non_overlap",
+   "station": "exp-and-log",
+   "reason": "3^x drawn and 3^x=3x+2 solved graphically - the row's named method is logarithms and no logs or e/ln appear; graphical solving of exponentials is not a 3.2 row",
+   "routedTo": "3.2.2 prerequisite (unmapped)"
+  },
+  "changing-bases-teacher-support": {
+   "outcome": "non_overlap",
+   "station": "exp-and-log",
+   "reason": "teacher-support page for the lane pick family; no extractable sections in the crawl of record (video/interactive-only) - recorded by reference, no body",
+   "routedTo": "no extractable text"
+  },
+  "to-log-or-not-to-log-teacher-support": {
+   "outcome": "non_overlap",
+   "station": "exp-and-log",
+   "reason": "teacher-support page; no extractable sections in the crawl of record - recorded by reference, no body",
+   "routedTo": "no extractable text"
+  },
+  "rediscovering-log-mercator": {
+   "outcome": "non_overlap",
+   "station": "exp-and-log",
+   "reason": "historical note on the seventeenth-century Mercator series for ln; no extractable sections in the crawl of record and the series itself is beyond 3.2",
+   "routedTo": "beyond spec"
+  },
+  "differentiating-exponentials": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "derives the general form of d/dx a^x - the tested skill is differentiation (P3 3.4 bearing); no extractable sections in the crawl of record either, so no body could be imported regardless",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "powerful-derivatives": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "d/dx x^a via e^{a ln x} - P3 Differentiation bearings (the lane-7 sweepRouting and the lane-9 non_overlap reason of record stand); the tested skill is the general power rule, not a 3.2 row",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "odd-one-out": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "function-property card sort with ln x^2, ln 3x, e^{5x}, e^{x+4} rows - the derivatives are chain-rule work (dy/dx of ln x^2 = 2/x etc.); P3 3.4",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "can-you-find-chain-rule-edition": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "'a function g(x) so that ln g(x) has a local minimum' - chain-rule construction; P3 3.4",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r7106": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "integral of the floor function [2^x] with log_2((2^n-1)!) answer forms - the tested skill is the floor-function integral; the logarithm appears only in the answer notation",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "two-for-one": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "integral of 1/x and the ln|x| modulus - P3 Integration (lane-7/8 recorded routings stand)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "inverse-integrals": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "definite integral involving ln x via inverse-function areas - P3 Integration (lane-8 routing stands)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r7431": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "x > ln(1+x^2) for x>0 - inequality deduction via differentiation; P3 Differentiation (lane-7 routing stands)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r7903": {
+   "outcome": "non_overlap",
+   "station": "introducing-calculus",
+   "reason": "trapezium rule on y=x ln x - the trapezium rule is not in the spine and the integrand is P3-dressed (lane-7/8 routings stand)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r6530": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "d/dx e^{2x}(2cos3x+3sin3x) - P3 Differentiation (lane-7 routing stands)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r9898": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "stationary points of (x-a)e^x/(x-b) - P3 Differentiation (lane-7 routing stands)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r9484": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "curve sketching y=e^{-x}/(1+x^2) - P3 Differentiation bearings (lane-6/7 routings stand)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r8134": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "reduction formula for e^{-x} sin^n x - P3 Differentiation/Integration (lanes 7/8 routings stand)",
+   "routedTo": "P3 3.4/3.5"
+  },
+  "r6620": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "gradient x(1-x^2)e^{-x^2}, stationary points and parts - P3 Differentiation/Integration (lanes 7/8 routings stand)",
+   "routedTo": "P3 3.4/3.5"
+  },
+  "r8671": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "e^pi vs pi^e via logarithmic differentiation - P3 Differentiation (lane-7 routing stands); the scaffolded sibling an-irrational-inequality carries the 3.2.2 limb this lane",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r8779": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-algebra",
+   "reason": "simplify expressions involving indices - index-law manipulation (assumed knowledge feeding 1.1/3.1); no logarithm content (lane-5 routing '1.1/Algebra' stands)",
+   "routedTo": "1.1/Algebra (assumed)"
+  },
+  "index-issues": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-algebra",
+   "reason": "fractional and negative indices - meaning and definedness; index laws, not logarithms",
+   "routedTo": "1.1/Algebra (assumed)"
+  },
+  "weight-pulling": {
+   "outcome": "non_overlap",
+   "station": "hyperbolic-functions",
+   "reason": "tractrix applet (draft resource) - catenary/hyperbolic content beyond CIE 9709 P3",
+   "routedTo": "beyond spec"
+  },
+  "r7385": {
+   "outcome": "non_overlap",
+   "station": "circles",
+   "reason": "sweep false positive: 'how much of this log is below the surface?' is a floating timber log (buoyancy), not the logarithm",
+   "routedTo": "false positive"
+  },
+  "r9312": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "area between e^{-x} and e^{-x}sin x closes as a GP sum (1.6.4 of record); the integration vehicle is parts (P3 3.5) - no 3.2 limb",
+   "priorAlignmentOfRecord": "lane-series 1.6 (1.6.4 GP closure) + lane-8 P3-Integration routing"
+  },
+  "floppy-hair": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "stationary points with fractional indices - differentiation skill of record under 1.7; no log content",
+   "priorAlignmentOfRecord": "lane-differentiation 1.7"
+  },
+  "powerful-quads": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "quadratics + laws of indices practice - 1.1.5 of record; no logarithm content",
+   "priorAlignmentOfRecord": "lane-quadratics 1.1.5"
+  },
+  "r5126": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "three integrals - 3.1.5 of record (same course plane); the integration skill is P3 3.5 - no 3.2 limb",
+   "priorAlignmentOfRecord": "lane-9 pure-3-algebra 3.1.5"
+  },
+  "r8694": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "integral of tan^3 theta - 3.1.5 of record; integration vehicle - no 3.2 limb",
+   "priorAlignmentOfRecord": "lane-9 pure-3-algebra 3.1.5"
+  },
+  "i-can-see-u": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "chain-rule u-substitution drill (table includes ln/e functions) - 1.7 of record; the tested skill is the chain rule (P3 3.4)",
+   "priorAlignmentOfRecord": "lane-differentiation 1.7"
+  }
+ },
+ "ugmStations": {}
+}
