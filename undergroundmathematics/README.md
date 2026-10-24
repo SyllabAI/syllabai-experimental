@@ -182,8 +182,24 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #114 review/merge on operator ack; further lanes by operator
-  ordering (lane 9 opened the pure-3 plane — 3.2 Logarithmic and
-  exponential functions is the natural lane 10, then 3.3–3.5 where the
-  lane-7/8 technique pools await) — recipe of record in
+  **lane 10 the exp-and-log station → CIE 9709 Pure 3 3.2 Logarithmic
+  and exponential functions** — the second lane on the pure-3 course
+  plane (operator: "merging #358 then proceed with lane 10"; cross-map
+  `cross-map-log-and-exp.json` @ `980556af`, 71 sweep candidates: 39
+  aligned rows — 34 fresh over 34 new-text resources, 31 from the
+  dedicated exp-and-log station, + 5 cross-course joins riding lanes
+  2/5/6 bodies — plus 26 fresh non-overlaps by reference
+  (`bodyImported: false`) + 6 rejected with reasons; primary picks
+  proving-laws-of-logs / an-irrational-inequality / to-log-or-not-to-log
+  (flipping the lane-9 by-reference row) / how-far-did-the-earth-move;
+  enrichment + 34 new-text bodies filed as `syllabai-resources#119`,
+  MANIFEST v11 — 548 files corpus-wide; hub `T-UGM-HUB-CONSUME-10`
+  pending). Mode-2 deep-link
+  pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
+  kit retained in `pilot/` as record); Mode-3 licensing remains
+  operator-gated (its evidence source is now the S1 census).
+- Next: #119 review/merge on operator ack; further lanes by operator
+  ordering (lanes 9–10 opened the pure-3 plane — 3.3 Trigonometry is the
+  natural lane 11 via the lane-5 compound-angles pool, then 3.4–3.5 where
+  the lane-7/8 technique pools await) — recipe of record in
   `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.

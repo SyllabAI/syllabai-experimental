@@ -383,15 +383,50 @@ worth doing regardless of any Mode-3 outcome.
       files — candidate-model corpus law: non-overlaps by reference, no
       unmapped imports); hub consumption (`T-UGM-HUB-CONSUME-9`, opening
       the pure-3 bundle plane) pending on the syllabai-v2 side
+- [x] **tenth lane — CIE 9709 **Pure 3** 3.2 Logarithmic and exponential
+      functions (operator: "merging #358 then proceed with lane 10"; the
+      second lane on the pure-3 course plane, first by spine adjacency
+      after 3.1)** — cross-map of record `cross-map-log-and-exp.json` @
+      `980556af` (corpus sweep 855 → 71 candidates resolved as 39 aligned
+      rows — 34 fresh rows over 34 substrate resources, all single-code,
+      31 of them from the dedicated exp-and-log station plus 3 strays
+      (to-the-limit, r7077, powerful-fractions — the last two lane-5
+      pre-baked "2.2" routings) + 5 cross-course fact joins riding lanes
+      2/5/6 bodies (r9824 → 3.2.2, r7607 → 3.2.1, r6137 → 3.2.1,
+      r8260 → 3.2.3, r7184 → 3.2.1; all one-to-many, no flips); 26 fresh
+      non-overlaps recorded by reference only (`bodyImported: false`) + 6
+      of-record candidates rejected with reasons; NO fold fragments —
+      3.2.1–3.2.4 verbatim into the spine export (the 3.2.2/3.2.3
+      dropped-math title artifacts carried verbatim, no `T-SPECS` repair
+      needed); findings of record: the exp-and-log station is the 3.2
+      workhorse and was essentially untouched (2 of 40 of record before
+      this lane — both now joined), the lane-5 pre-baked "2.2
+      Logarithmic and exponential functions" bearings all landed (9 of 10
+      aligned, 1 routed out honestly), and the 3.2.2 e/ln limb is
+      structurally thin (2 fresh + 1 join — UGM's e/ln corpus rides the
+      lane-7/8 recorded P3 3.4/3.5 bearings, which stand); primary picks
+      proving-laws-of-logs / an-irrational-inequality /
+      to-log-or-not-to-log (flipping the lane-9 nonOverlapByReference
+      row) / how-far-did-the-earth-move); corpus + facts filed as
+      **[syllabai-resources#119](https://github.com/SyllabAI/syllabai-resources/pull/119)**
+      (tasks `T-UGM-MODE1-10` + `T-UGM-IMPORT-10`, MANIFEST v11, 34
+      new-text files — converter pre-flight 45/45 byte-identity vs the
+      lane-8 AND lane-9 of-record bodies); hub consumption
+      (`T-UGM-HUB-CONSUME-10`, extending the pure-3 bundle plane) pending
+      on the syllabai-v2 side
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
-      lane 9 opened the pure-3 plane at 3.1 Algebra; the recorded next
-      substrates are the remaining P3 sections in syllabus order — 3.2
-      Logarithmic and exponential functions first (the UGM exp-and-log
-      station is essentially untouched and lane 9's `to-log-or-not-to-log`
-      + `powerful-derivatives` non-overlaps already carry 3.2 bearings) —
-      then 3.3 Trigonometry, 3.4 Differentiation, 3.5 Integration where the
-      lane-7/8 technique pools and the 32 lane-8 P3-integration routings
-      await; ordering is the operator's call)
+      lanes 9–10 opened the pure-3 plane at 3.1 Algebra and 3.2
+      Logarithmic and exponential functions; the recorded next substrates
+      are the remaining P3 sections in syllabus order — 3.3 Trigonometry
+      first (the lane-5 compound-angles pool of 24 recorded non-overlaps
+      pointing at "P3 2.3" = today's 3.3, plus TTF residuals) — then 3.4
+      Differentiation and 3.5 Integration where the lane-7/8 technique
+      pools (powerful-derivatives, r6530, r6620, r7431, r8134, r8671,
+      r9484, r9898, differentiating-exponentials; two-for-one,
+      inverse-integrals, stretching-an-integral, integral-sorting,
+      integral-chasing-2, r9085, r8774, r7903) and the 32 lane-8
+      P3-integration routings await; 3.6–3.9 beyond; ordering is the
+      operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station and strand
