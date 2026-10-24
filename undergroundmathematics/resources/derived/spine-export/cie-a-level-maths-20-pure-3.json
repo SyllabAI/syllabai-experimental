@@ -1,0 +1,42 @@
+{
+ "exportedAt": "2026-10-25",
+ "note": "Pilot lane: Pure 1 Quadratics (subtopic 1.1, spec points 1.1.1-1.1.5) | 2026-10-23: extended with the 1.2 Functions rows for the P3c lane-2 cross-map (titles verbatim from the of-record hub spine parse, cie-a-level-maths-20-pure-1 curriculum.json). | 2026-10-23: extended with the 1.3 Coordinate geometry rows (verbatim incl. parse fragments 1.3.1a/1.3.2a) for the P3c lane-3 cross-map; the cross-map folds the fragments into parent codes 1.3.1/1.3.2 (fold note of record in cross-map-coordinate-geometry.md §1). | 2026-10-23: extended with the 1.4 Circular measure rows (verbatim incl. hub-parse fragment 1.4.1a) for the P3c lane-4 cross-map; the cross-map folds the fragment into parent code 1.4.1 (fold note of record in cross-map-circular-measure.md §1). | 2026-10-23: extended with the 1.5 Trigonometry rows for the P3c lane-5 cross-map (titles verbatim from the of-record hub spine parse; codes authoritative — the parse carries known interleaved-example artifacts) | 2026-10-23: extended with the 1.6 Series rows for the P3c lane-6 cross-map (titles verbatim from the of-record hub spine parse; codes authoritative — the parse carries known interleaved-example artifacts). | 2026-10-24: extended with the 1.7 Differentiation rows for the P3c lane-7 cross-map (titles verbatim from the of-record hub spine parse; codes authoritative — the parse carries known interleaved-example artifacts). | 2026-10-24: extended with the 1.8 Integration rows (verbatim, no fold fragments) for the P3c lane-8 cross-map — the Pure 1 spine export is now complete of record (33 rows). | 2026-10-25: NEW FILE for the pure-3 course plane — the 3.1 Algebra rows (3.1.1-3.1.6, verbatim from apps/hub/spines/cie-a-level-maths-20-pure-3.json) for the P3c lane-9 cross-map. The six rows are the REPAIRED rows of record: the hub parse warning documents T-SPECS-CIE-PARSE-REPAIR-1 — official 2.1.1 split into the 3.1.1 meaning/graph limb + the 3.1.2 relations limb, and official bullets 2-5 recovered as 3.1.3-3.1.6 — codes authoritative, no fold fragments needed. This file opens the Pure 3 export; the Pure 1 export above is complete (33 rows) and frozen.",
+ "source": "syllabai-v2 apps/hub/spines/cie-a-level-maths-20-pure-3.json + content-maps/cie-a-level-maths-20-pure-3.json",
+ "rights": "spec codes + titles + item IDs/counts only (facts, mode-1); no item text exported",
+ "course": "9709",
+ "syllabusVersion": "2023-2025",
+ "board": "Cambridge CIE",
+ "specPoints": [
+  {
+   "code": "3.1.1",
+   "subtopic": "Algebra",
+   "title": "understand the meaning of | x |, sketch the graph of y = | ax + b | and use relations such as"
+  },
+  {
+   "code": "3.1.2",
+   "subtopic": "Algebra",
+   "title": "| a | = | b | ⇔ a² = b² and | x – a | < b ⇔ a – b < x < a + b when solving equations and inequalities"
+  },
+  {
+   "code": "3.1.3",
+   "subtopic": "Algebra",
+   "title": "divide a polynomial, of degree not exceeding 4, by a linear or quadratic polynomial, and identify the quotient and remainder (which may be zero)"
+  },
+  {
+   "code": "3.1.4",
+   "subtopic": "Algebra",
+   "title": "use the factor theorem and the remainder theorem"
+  },
+  {
+   "code": "3.1.5",
+   "subtopic": "Algebra",
+   "title": "recall an appropriate form for expressing rational functions in partial fractions, and carry out the decomposition, in cases where the denominator is no more complicated than ( ax + b )( cx + d )( ex + f ), ( ax + b )( cx + d )², ( ax + b )( cx² + d )"
+  },
+  {
+   "code": "3.1.6",
+   "subtopic": "Algebra",
+   "title": "use the expansion of (1 + x)ⁿ, where n is a rational number and | x | < 1"
+  }
+ ],
+ "itemInventory": {}
+}

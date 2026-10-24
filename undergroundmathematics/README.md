@@ -164,7 +164,26 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #96 review/merge on operator ack; further lanes by operator ordering
-  (Pure 1 complete — the recorded P3 preview pools and the P2/P3 spine
-  sections beyond Pure 1 are the natural substrates) — recipe of record in
+  **lane 9 the algebra candidates → CIE 9709 Pure 3 3.1 Algebra** — the
+  first lane on the pure-3 course plane (operator: "proceed with lane 9";
+  cross-map `cross-map-algebra.json` @ `3098d8eb`, 90 sweep candidates:
+  47 aligned rows — 38 fresh over 35 new-text resources + 9 cross-lane
+  joins, 5 flipping the lane-2/lane-6 non-overlaps whose P3 bearings were
+  recorded at lanes 2/6 — plus 16 fresh non-overlaps by reference
+  (`bodyImported: false`, the lane-8 candidate-model law) + 30 rejected
+  with reasons; primary picks absolutely / inequalities / whats-left /
+  r6577 / r7792 / r7436; enrichment + 35 new-text bodies filed as
+  `syllabai-resources#114`, MANIFEST v10 — 514 files corpus-wide;
+  hub `T-UGM-HUB-CONSUME-9` (pure-3 bundle plane) pending). The image
+  plane is of record: `T-UGM-ASSETS-1` (976 figures + figures-map) via
+  `syllabai-resources#107`, served locally by `syllabai-v2#354`/`#357`
+  (1,233 refs + 282 inline rewrites, zero external UGM image links in
+  served bodies). Mode-2 deep-link
+  pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
+  kit retained in `pilot/` as record); Mode-3 licensing remains
+  operator-gated (its evidence source is now the S1 census).
+- Next: #114 review/merge on operator ack; further lanes by operator
+  ordering (lane 9 opened the pure-3 plane — 3.2 Logarithmic and
+  exponential functions is the natural lane 10, then 3.3–3.5 where the
+  lane-7/8 technique pools await) — recipe of record in
   `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.

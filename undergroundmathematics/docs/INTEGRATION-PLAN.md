@@ -355,12 +355,43 @@ worth doing regardless of any Mode-3 outcome.
       files — strand-lane corpus law: new text only, no unmapped imports,
       cross-lane 1.8 mappings by reference); hub consumption
       (`T-UGM-HUB-CONSUME-8`) pending on the syllabai-v2 side
-- [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record; the
-      recorded P3 preview pools — real-index binomial + power series from
-      lane 6, product/chain-rule and trig/exp/log derivative pools from
-      lane 7, the 32 lane-8 P3-integration routings — and the P2/P3 spine
-      sections beyond Pure 1 are the natural next substrates; ordering is
-      the operator's call)
+- [x] **ninth lane — CIE 9709 **Pure 3** 3.1 Algebra (operator:
+      "review+merge #357 then proceed with lane 9"; the first lane on the
+      pure-3 course plane, beyond the completed Pure 1 spine)** — cross-map
+      of record `cross-map-algebra.json` @ `3098d8eb` (corpus sweep
+      855 → 90 candidates resolved as 47 aligned rows — 38 fresh rows over
+      35 substrate resources (`inequalities`, `r5276`, `r6577` carry two
+      codes each) + 9 cross-lane fact joins riding lanes 2/6/7/8 bodies:
+      5 flips (r8427 from the lane-2 non-overlaps; r5245/r6295/r6340/r7477
+      from the lane-6 non-overlaps whose recorded "P3 Series bearing"
+      reasons predicted this landing) + 4 one-to-many (r5362, r9523, r9082,
+      r9701); 16 fresh non-overlaps recorded by reference only
+      (`bodyImported: false`, the lane-8 candidate-model law) + 30
+      of-record candidates rejected with reasons — the integer-index
+      binomial pool stays 1.6.1 of record, 3.1.6 being the rational-index
+      `|x| < 1` expansion that realises the lane-6 P3 preview; NO fold
+      fragments — 3.1.1–3.1.6 verbatim into the spine export (new pure-3
+      file; the repaired hub parse rows of record,
+      `T-SPECS-CIE-PARSE-REPAIR-1`); findings of record: UGM's polynomials
+      station is the 3.1.4 workhorse (21 of 38 fresh rows), the modulus
+      limb (3.1.1/3.1.2) is thin outside the thinking-about-functions
+      scaffolded tasks, and partial fractions ride integration work in
+      5 of 7 rows; primary picks absolutely / inequalities / whats-left /
+      r6577 / r7792 / r7436); corpus + facts filed as
+      **[syllabai-resources#114](https://github.com/SyllabAI/syllabai-resources/pull/114)**
+      (tasks `T-UGM-MODE1-9` + `T-UGM-IMPORT-9`, MANIFEST v10, 35 new-text
+      files — candidate-model corpus law: non-overlaps by reference, no
+      unmapped imports); hub consumption (`T-UGM-HUB-CONSUME-9`, opening
+      the pure-3 bundle plane) pending on the syllabai-v2 side
+- [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
+      lane 9 opened the pure-3 plane at 3.1 Algebra; the recorded next
+      substrates are the remaining P3 sections in syllabus order — 3.2
+      Logarithmic and exponential functions first (the UGM exp-and-log
+      station is essentially untouched and lane 9's `to-log-or-not-to-log`
+      + `powerful-derivatives` non-overlaps already carry 3.2 bearings) —
+      then 3.3 Trigonometry, 3.4 Differentiation, 3.5 Integration where the
+      lane-7/8 technique pools and the 32 lane-8 P3-integration routings
+      await; ordering is the operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station and strand
