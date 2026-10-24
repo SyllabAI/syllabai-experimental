@@ -1,0 +1,1549 @@
+{
+ "generatedAt": "2026-10-25",
+ "pilot": "P3c generalisation lane 9 — CIE 9709 Pure 3 subtopic 3.1 Algebra (operator order: 'review+merge #357 then proceed with lane 9'; first lane beyond the completed Pure 1 spine, onto the pure-3 course plane of record)",
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.1 Algebra",
+  "specPoints": [
+   "3.1.1",
+   "3.1.2",
+   "3.1.3",
+   "3.1.4",
+   "3.1.5",
+   "3.1.6"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json — the six rows 3.1.1–3.1.6 are the repaired spine rows of record (T-SPECS-CIE-PARSE-REPAIR-1 warning documents the split of official 2.1.1 into the 3.1.1 meaning/graph limb + 3.1.2 relations limb, and the recovery of official bullets 2–5 as 3.1.3–3.1.6); no fold fragments needed"
+ },
+ "ugmStations": {},
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/example of doctrine (none in this lane); no UGM body text beyond the attested corpus import",
+ "perSpecPoint": {
+  "3.1.1": {
+   "officialCode": "3.1.1",
+   "officialText": "understand the meaning of | x |, sketch the graph of y = | ax + b | and use relations such as",
+   "spineTitleVerbatim": "understand the meaning of | x |, sketch the graph of y = | ax + b | and use relations such as",
+   "primaryPick": "absolutely",
+   "resourceCount": 5,
+   "ugmStation": " +  + ",
+   "ugmStationUrl": "https://undergroundmathematics.org/combining-functions",
+   "resources": [
+    {
+     "ugmSlug": "absolutely",
+     "station": "thinking-about-functions",
+     "title": "Absolutely!",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/absolutely",
+     "resourceType": "Investigation",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the modulus function scaffolded from its graph: the V-shape read as piecewise y=±x, 'this function is known as the modulus function. It is often written as |x|' — the canonical meaning-of-|x| task",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.1"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "piece-it-together",
+     "station": "thinking-about-functions",
+     "title": "Piece it together",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/piece-it-together",
+     "resourceType": "Problem requiring decisions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Graph 2 is built from y=2x and y=−2x with 'another way you could describe it' as the modulus function y=|2x|; Taking it further writes the four cards' equations incl. modulus forms",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "inequalities",
+     "station": "polynomials",
+     "title": "Inequality sets",
+     "url": "https://undergroundmathematics.org/polynomials/inequalities",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Taking it further: solve |x+1|>2|x−1| by branch equations x+1=2(1−x) and x+1=2(x−1) over modulus graphs, and by squaring to (x+1)²=4(x−1)² — modulus graphs in inequality solving",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.1",
+      "3.1.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r5362",
+     "station": "combining-functions",
+     "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5362",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sketching f(x)=|x+[x]| over −3≤x≤3 exercises the modulus graph limb (|x+1| branches per unit interval); one-to-many on the lane-2 1.2.1/1.2.2/1.2.3 rows",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.1"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-functions 1.2.1/1.2.2/1.2.3",
+     "priorRoleOfRecord": "lane-functions 1.2.1/1.2.2/1.2.3"
+    },
+    {
+     "ugmSlug": "r8427",
+     "station": "combining-functions",
+     "title": "Can we sketch these four related curves?",
+     "url": "https://undergroundmathematics.org/combining-functions/r8427",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "parts (iii)–(iv): y=|(x−a)/x| sketched by reflecting the negative branches of y=(x−a)/x — the absolute-value graph transform is the tested step; flips the lane-2 non-overlap whose P1 limb was the rational sketch",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.1"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null,
+     "priorRoleOfRecord": "lane-functions NONOVERLAP"
+    }
+   ]
+  },
+  "3.1.2": {
+   "officialCode": "3.1.2",
+   "officialText": "| a | = | b | ⇔ a² = b² and | x – a | < b ⇔ a – b < x < a + b when solving equations and inequalities",
+   "spineTitleVerbatim": "| a | = | b | ⇔ a² = b² and | x – a | < b ⇔ a – b < x < a + b when solving equations and inequalities",
+   "primaryPick": "inequalities",
+   "resourceCount": 2,
+   "ugmStation": " + ",
+   "ugmStationUrl": "https://undergroundmathematics.org/combining-functions",
+   "resources": [
+    {
+     "ugmSlug": "inequalities",
+     "station": "polynomials",
+     "title": "Inequality sets",
+     "url": "https://undergroundmathematics.org/polynomials/inequalities",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Taking it further: solve |x+1|>2|x−1| by branch equations x+1=2(1−x) and x+1=2(x−1) over modulus graphs, and by squaring to (x+1)²=4(x−1)² — modulus graphs in inequality solving",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.1",
+      "3.1.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r9523",
+     "station": "combining-functions",
+     "title": "Which of these function statements are true?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9523",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "statement 3 '|x+1|<1 ⟹ x<0' judged false — the |x−a|<b ⟺ a−b<x<a+b relation is exactly what the true/false test exercises; one-to-many on the lane-2 1.2.2 row",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.2"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-functions 1.2.2",
+     "priorRoleOfRecord": "lane-functions 1.2.2"
+    }
+   ]
+  },
+  "3.1.3": {
+   "officialCode": "3.1.3",
+   "officialText": "divide a polynomial, of degree not exceeding 4, by a linear or quadratic polynomial, and identify the quotient and remainder (which may be zero)",
+   "spineTitleVerbatim": "divide a polynomial, of degree not exceeding 4, by a linear or quadratic polynomial, and identify the quotient and remainder (which may be zero)",
+   "primaryPick": "whats-left",
+   "resourceCount": 5,
+   "ugmStation": "",
+   "ugmStationUrl": "https://undergroundmathematics.org/polynomials",
+   "resources": [
+    {
+     "ugmSlug": "whats-left",
+     "station": "polynomials",
+     "title": "What's left?",
+     "url": "https://undergroundmathematics.org/polynomials/whats-left",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "quotient/remainder degree reasoning across eight divisions p(x)/d(x) incl. quadratic divisors, with worked algebraic division and the remainder-form generalisation",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.3"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "function-builder-ii",
+     "station": "polynomials",
+     "title": "Function builder II",
+     "url": "https://undergroundmathematics.org/polynomials/function-builder-ii",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "algebraic long division of x²−5x+8 by x+1 (quotient x−6, remainder 14) identifies the behaviour of b(x)/a(x) for the graph-matching grid",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6317",
+     "station": "polynomials",
+     "title": "Can we sketch the graph of $y = (4x-1)/(x+5)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6317",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(4x−1)/(x+5) rewritten as 4−21/(x+5) by linear/linear division — the quotient-and-remainder form is load-bearing for the asymptote sketch and the following inequality",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5276",
+     "station": "polynomials",
+     "title": "What is the remainder when $p_n (x)$ is divided by $p_{n-1} (x)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r5276",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainder of p_n(x)/p_{n−1}(x) by long division (Approach 1) and by the remainder theorem at the root of p_{n−1} (Approach 2); linear-by-linear division with quotient n/(n−1)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.3",
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6577",
+     "station": "polynomials",
+     "title": "Can we factorise $6x^3+5x^2-17x-6$ completely?",
+     "url": "https://undergroundmathematics.org/polynomials/r6577",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainder-theorem evaluations f(±2), factor theorem on the zero remainder → complete factorisation of the cubic, then exact divisibility by the quadratic x²+x−6 via its linear factors",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.3",
+      "3.1.4"
+     ],
+     "primaryPick": true
+    }
+   ]
+  },
+  "3.1.4": {
+   "officialCode": "3.1.4",
+   "officialText": "use the factor theorem and the remainder theorem",
+   "spineTitleVerbatim": "use the factor theorem and the remainder theorem",
+   "primaryPick": "r6577",
+   "resourceCount": 22,
+   "ugmStation": " + ",
+   "ugmStationUrl": "https://undergroundmathematics.org/polynomials",
+   "resources": [
+    {
+     "ugmSlug": "r5276",
+     "station": "polynomials",
+     "title": "What is the remainder when $p_n (x)$ is divided by $p_{n-1} (x)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r5276",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainder of p_n(x)/p_{n−1}(x) by long division (Approach 1) and by the remainder theorem at the root of p_{n−1} (Approach 2); linear-by-linear division with quotient n/(n−1)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.3",
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6577",
+     "station": "polynomials",
+     "title": "Can we factorise $6x^3+5x^2-17x-6$ completely?",
+     "url": "https://undergroundmathematics.org/polynomials/r6577",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainder-theorem evaluations f(±2), factor theorem on the zero remainder → complete factorisation of the cubic, then exact divisibility by the quadratic x²+x−6 via its linear factors",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.3",
+      "3.1.4"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "can-you-find-cubic-edition",
+     "station": "polynomials",
+     "title": "Can you find... cubic edition",
+     "url": "https://undergroundmathematics.org/polynomials/can-you-find-cubic-edition",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cubics built from root/touch conditions: 'if α is a root, x−α is a factor' used across all five parts incl. repeated-root touch cases and y-intercept constraints",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "how-not-to-solve-a-cubic",
+     "station": "polynomials",
+     "title": "How not to solve a cubic...",
+     "url": "https://undergroundmathematics.org/polynomials/how-not-to-solve-a-cubic",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "common-root condition formalised by the factor theorem: f(k)=g(k)=0 ⟹ (x−k) divides both polynomials, forcing k∈{0,1} and the two families of shared-root cubics",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5032",
+     "station": "polynomials",
+     "title": "Can we prove that $26^n$ always ends in the same two digits?",
+     "url": "https://undergroundmathematics.org/polynomials/r5032",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "factor-theorem proof that x−1 is a factor of x^m−1 for all positive integers m, powering the deduction that 26ⁿ ends in the same two digits",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5248",
+     "station": "polynomials",
+     "title": "Given three remainders, what is the function?",
+     "url": "https://undergroundmathematics.org/polynomials/r5248",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainders 10, 3, 4 under x−1, x−2, x−3 recovered as f(1), f(2), f(3) by the remainder theorem, solving for a, b, c in the nested product form",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6299",
+     "station": "polynomials",
+     "title": "Can we sketch the reciprocal of a polynomial?",
+     "url": "https://undergroundmathematics.org/polynomials/r6299",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "factor theorem with a value table finds the root x=2 of x³−3x−2, then complete factorisation (x−2)(x+1)²; the reciprocal-curve sketch reads the double root",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6431",
+     "station": "polynomials",
+     "title": "Can we solve  $\\sqrt{4x+13}-\\sqrt{x+1}=\\sqrt{12-x}?$",
+     "url": "https://undergroundmathematics.org/polynomials/r6431",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "rational-root search on 3x³+14x²+2x−4 (factor-theorem candidate testing) completes the cubic left by the squared surd equation",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6488",
+     "station": "polynomials",
+     "title": "If dividing by $x+a$ or $x-2a$ gives the same remainder, what's $a$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6488",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "common factor x−2 evaluated at x=2 in both expressions (factor theorem → simultaneous equations); same remainder under x+a and x−2a from f(−a)=f(2a)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6546",
+     "station": "polynomials",
+     "title": "Can we prove the Arithmetic and Geometric Mean Inequality?",
+     "url": "https://undergroundmathematics.org/polynomials/r6546",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "show a+b+c is a factor of a³+b³+c³−3abc and find the other factor — the factor theorem with the c=−a−b substitution inside the AM-GM deduction",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6612",
+     "station": "polynomials",
+     "title": "Can we sketch the graph $y=x^3-x^2-x+1$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6612",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sketch selection via the Factor Theorem: y=x³−x²−x+1=(x+1)(x−1)² cuts at −1 and touches at 1",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6790",
+     "station": "polynomials",
+     "title": "If we divide by $x-1$, the remainder is?",
+     "url": "https://undergroundmathematics.org/polynomials/r6790",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainder theorem MCQ: the remainder on dividing 1+3x+5x²+…+99x⁴⁹ by x−1 is p(1)=1+3+…+99, summed as an arithmetic progression",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7036",
+     "station": "polynomials",
+     "title": "When is $n^2 x^{2n+3} - 25n x^{n+1} + 150x^7$ divisible by $x^2-1$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7036",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "x²−1 is a factor iff the polynomial vanishes at x=±1 (factor theorem applied twice), with the parity case-split settling n=10/15",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7108",
+     "station": "polynomials",
+     "title": "When is  $x^n + 1$ divisible by $x + 1$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7108",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "xⁿ+1 divisible by x+1 ⟺ (−1)ⁿ=−1 ⟺ n odd — a pure factor-theorem iff argument",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7243",
+     "station": "polynomials",
+     "title": "When is $x^2 +1$ a factor of  $(3+x^4)^n-(x^2+3)^n(x^2-1)^n$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7243",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "x²+1 | (3+x⁴)ⁿ−(x²+3)ⁿ(x²−1)ⁿ resolved by the factor theorem on the composed polynomial f(x²) at x²=−1 (complex-root route noted)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7991",
+     "station": "polynomials",
+     "title": "Can we factorise $a^3(b-c)+b^3(c-a)+c^3(a-b)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r7991",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(a−b) shown to be a factor of a³(b−c)+b³(c−a)+c³(a−b) by the factor theorem in a, then complete factorisation; part (i) uses the integer-index binomial only as technique",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8468",
+     "station": "polynomials",
+     "title": "If two remainders are related can we find $a$?",
+     "url": "https://undergroundmathematics.org/polynomials/r8468",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainder theorem squared relation (a²−3)²=f(−a) reduced to 9a²+2a−7=0 and factorised",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8701",
+     "station": "polynomials",
+     "title": "What if the remainder when we divide by $x-k$ is $k$?",
+     "url": "https://undergroundmathematics.org/polynomials/r8701",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "remainder theorem gives f(k)=k → cubic 2k³−3k+1=0 factorised by the factor theorem; the remainder under (x−1)(x−2) read from p=(x−1)(x−2)q(x)+Ax+B",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9006",
+     "station": "polynomials",
+     "title": "What kind of roots does $x^3 - 30x^2 + 108x - 104 = 0$ have?",
+     "url": "https://undergroundmathematics.org/polynomials/r9006",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "small-integer root search by the factor theorem factorises x³−30x²+108x−104=(x−2)²(x−26) — repeated-root MCQ",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9330",
+     "station": "polynomials",
+     "title": "Can we find the coefficients and factorise this quartic?",
+     "url": "https://undergroundmathematics.org/polynomials/r9330",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "f(−½)=0 and f(2)=0 (factor theorem) pin a and b; the quartic is factorised into three factors and the f(x)>0 set read from the signs",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5196",
+     "station": "product-rule",
+     "title": "If this cubic has two equal roots, what can $p$ be?",
+     "url": "https://undergroundmathematics.org/product-rule/r5196",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "f=(x−a)²g(x) ⟹ (x−a) divides f′(x) via the product rule; the two-equal-roots condition on x³−4x²−3x+p resolved through the factor theorem on f and f′",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9082",
+     "station": "product-rule",
+     "title": "Can we find the repeated root for  $4x^4+x^2+3x+1=0$?",
+     "url": "https://undergroundmathematics.org/product-rule/r9082",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "repeated-root proof and the repeated root of 4x⁴+x²+3x+1 found via the factor theorem on f′ (16x³+2x+3); one-to-many on the lane-7 1.7.2 row",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.4"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-differentiation 1.7.2",
+     "priorRoleOfRecord": "lane-differentiation 1.7.2"
+    }
+   ]
+  },
+  "3.1.5": {
+   "officialCode": "3.1.5",
+   "officialText": "recall an appropriate form for expressing rational functions in partial fractions, and carry out the decomposition, in cases where the denominator is no more complicated than ( ax + b )( cx + d )( ex + f ), ( ax + b )( cx + d )², ( ax + b )( cx² + d )",
+   "spineTitleVerbatim": "recall an appropriate form for expressing rational functions in partial fractions, and carry out the decomposition, in cases where the denominator is no more complicated than ( ax + b )( cx + d )( ex + f ), ( ax + b )( cx + d )², ( ax + b )( cx² + d )",
+   "primaryPick": "r7792",
+   "resourceCount": 7,
+   "ugmStation": " +  +  + ",
+   "ugmStationUrl": "https://undergroundmathematics.org/chain-rule",
+   "resources": [
+    {
+     "ugmSlug": "frightening-function",
+     "station": "polynomials",
+     "title": "Frightening function",
+     "url": "https://undergroundmathematics.org/polynomials/frightening-function",
+     "resourceType": "Food for thought",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "telescoping via partial-fraction splitting of 1/((x−k)(x−k−1)) terms; Taking it further decomposes three denominators of the (ax+b)(cx+d) type",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.5"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7792",
+     "station": "chain-rule",
+     "title": "How many real roots does $(x-1)(x+2)(x+3)=3x$ have?",
+     "url": "https://undergroundmathematics.org/chain-rule/r7792",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Express 3x/((x−1)(x+2)) in partial fractions is asked outright (cover-up and coefficient comparison both shown), then used to differentiate and sketch the curve",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.5"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r5126",
+     "station": "product-rule",
+     "title": "Can we find all three integrals?",
+     "url": "https://undergroundmathematics.org/product-rule/r5126",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "1/(4−sin²x) decomposed as (1/4)(1/(2−sinx)+1/(2+sinx)) after u=sinx — an (ax+b)(cx+d)-type decomposition carried out inside the integral proof",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.5"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8694",
+     "station": "chain-rule",
+     "title": "How could we integrate $\\tan^3 \\theta$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8694",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "∫√(x+1)/(x−3)dx via u²=x+1 reduces to polynomial division plus 8/((u−2)(u+2)) split by partial fractions",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.5"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8152",
+     "station": "product-rule",
+     "title": "What is the average density of this spherical planet?",
+     "url": "https://undergroundmathematics.org/product-rule/r8152",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "case 3 density a²r/(a+r)³ integrated after the decomposition A+B/(1+t)+C/(1+t)²+D/(1+t)³ — the repeated-linear-factor (ax+b)(cx+d)² form of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.5"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5245",
+     "station": "counting-and-binomials",
+     "title": "Can we find $\\sum_{r=1}^n 2/(r^2+4r+3)$?",
+     "url": "https://undergroundmathematics.org/counting-and-binomials/r5245",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Express 2/(r²+4r+3) in partial fractions is asked as part (i) (A/(r+1)+B/(r+3) by equations and by the cover-up shortcut) before the telescoping sum; flips the lane-6 non-overlap whose P1 limb was the summation",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.5"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-series",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null,
+     "priorRoleOfRecord": "lane-series NONOVERLAP"
+    },
+    {
+     "ugmSlug": "r9701",
+     "station": "chain-rule",
+     "title": "Can we find $\\int 1/(\\sqrt{x+2} - \\sqrt{x+1}) dx$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9701",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "part (ii) ∫x/((x+1)(x+2)²)dx — a repeated-factor partial-fraction decomposition carried out in full; one-to-many on the lane-8 1.8.1 row",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.5"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+     "flipOfPriorNonOverlap": false,
+     "priorAlignmentOfRecord": "lane-integration 1.8.1",
+     "priorRoleOfRecord": "lane-integration 1.8.1"
+    }
+   ]
+  },
+  "3.1.6": {
+   "officialCode": "3.1.6",
+   "officialText": "use the expansion of (1 + x)ⁿ, where n is a rational number and | x | < 1",
+   "spineTitleVerbatim": "use the expansion of (1 + x)ⁿ, where n is a rational number and | x | < 1",
+   "primaryPick": "r7436",
+   "resourceCount": 6,
+   "ugmStation": " +  + ",
+   "ugmStationUrl": "https://undergroundmathematics.org/counting-and-binomials",
+   "resources": [
+    {
+     "ugmSlug": "r7436",
+     "station": "power-series",
+     "title": "Can we expand $(1+x)^{3/2} + (1-2x)^{3/4}$ as far as the term in $x^3$?",
+     "url": "https://undergroundmathematics.org/power-series/r7436",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(1+x)^{3/2}+(1−2x)^{3/4} expanded to x³ by the real-index binomial series with the |x|<1 validity condition stated",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.6"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r6601",
+     "station": "power-series",
+     "title": "What is this algebraic fraction if its expansion has no $x$ term?",
+     "url": "https://undergroundmathematics.org/power-series/r6601",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(1+ax)^{−2} expanded by the |x|<1 binomial series to x³; the vanishing x-coefficient pins a=3/2 and the expansion is completed",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "from-parabolas-to-catenaries",
+     "station": "hyperbolic-functions",
+     "title": "From parabolas to catenaries",
+     "url": "https://undergroundmathematics.org/hyperbolic-functions/from-parabolas-to-catenaries",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the arc-length integrand √(1+x²) expanded by the binomial series at index ½ inside the iterative catenary derivation (resource flagged draft-form on site)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6295",
+     "station": "counting-and-binomials",
+     "title": "Given the binomial expansion of $(1+x)^n$, can we find $x$ and $n$?",
+     "url": "https://undergroundmathematics.org/counting-and-binomials/r6295",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "n=1/2 and x=1/3 recognised from the given expansion of (1+x)ⁿ with the |x|<1 validity condition discussed — real-index binomial recognition; flips the lane-6 non-overlap (P1 1.6.1 covers positive-integer index only)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.6"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-series",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null,
+     "priorRoleOfRecord": "lane-series NONOVERLAP"
+    },
+    {
+     "ugmSlug": "r6340",
+     "station": "counting-and-binomials",
+     "title": "Can we find a good rational approximation for $\\sqrt{5}$?",
+     "url": "https://undergroundmathematics.org/counting-and-binomials/r6340",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "√((1+x)/(1−x)) ≈ 1+x+x²/2 via (1±x)^{±1/2}, then x=1/9 gives √5≈181/81 — real-index binomial approximation; flips the lane-6 non-overlap",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.6"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-series",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null,
+     "priorRoleOfRecord": "lane-series NONOVERLAP"
+    },
+    {
+     "ugmSlug": "r7477",
+     "station": "counting-and-binomials",
+     "title": "Can we find an approximation to $\\sqrt{5}+\\sqrt{3}$?",
+     "url": "https://undergroundmathematics.org/counting-and-binomials/r7477",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "(a±b)^{1/2} expansions valid for |b/a|<1 yield rational approximations to √5−√3 and √5+√3 — real-index binomial; flips the lane-6 non-overlap",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.1.6"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-series",
+     "flipOfPriorNonOverlap": true,
+     "priorAlignmentOfRecord": null,
+     "priorRoleOfRecord": "lane-series NONOVERLAP"
+    }
+   ]
+  }
+ },
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "absurder",
+   "station": "polynomials",
+   "title": "Ab-surder!",
+   "url": "https://undergroundmathematics.org/polynomials/absurder",
+   "resourceType": "Go and think about it...",
+   "routedTo": null,
+   "reason": "cube-root denominator rationalisation via difference-of-cubes identities; the factor theorem appears only as an explanatory aside on why a²+b² has no real linear factor — the tested skill (surd rationalisation) is outside 3.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "difference-of-two-fractions",
+   "station": "thinking-about-numbers",
+   "title": "A difference of two fractions",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/difference-of-two-fractions",
+   "resourceType": "Package of problems",
+   "routedTo": null,
+   "reason": "unit-fraction difference census and generalisation — 'is a factor of 2ab' is arithmetic factor language, not the factor theorem; outside 3.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "nested-surds",
+   "station": "thinking-about-algebra",
+   "title": "Nested surds",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/nested-surds",
+   "resourceType": "Package of problems",
+   "routedTo": null,
+   "reason": "surd-law card sort (√a·√b=√(ab) etc.) — no modulus or polynomial-divisibility content",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5701",
+   "station": "thinking-about-algebra",
+   "title": "Can we show this surd is less than $6$?",
+   "url": "https://undergroundmathematics.org/thinking-about-algebra/r5701",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "surd inequality √10+2√2<6 by squaring with positivity care — squaring surds, not the modulus relations of 3.1.2",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7626",
+   "station": "thinking-about-numbers",
+   "title": "How many grid-points can be inside this circle?",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/r7626",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "irrationality of a√2+b=c√3 by squaring — surd/number-theory argument; the squaring is not the |a|=|b|⟺a²=b² modulus relation",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "square-root-of-2-is-irrational",
+   "station": "thinking-about-numbers",
+   "title": "$\\sqrt{2}$ is irrational",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/square-root-of-2-is-irrational",
+   "resourceType": "Scaffolded task",
+   "routedTo": null,
+   "reason": "√2 irrationality proof sort — number theory, outside 3.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5365",
+   "station": "thinking-about-geometry",
+   "title": "Can we find $\\alpha$ if one length is twice another?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5365",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "AB=2BC resolved by Pythagoras and squaring — coordinate-geometry distance work, no modulus-relation skill",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6449",
+   "station": "combining-vectors",
+   "title": "Can we find the angle between the planes  $ABC$ and $ABD$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r6449",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "plane angles via vector cross/dot products — |·| here is the vector norm, not the scalar modulus of 3.1.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8456",
+   "station": "combining-vectors",
+   "title": "Where do $ST$ and $AB$ cross?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r8456",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "dot-product angle computation — vector norm notation only, outside 3.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "picture-this",
+   "station": "divisibility-and-induction",
+   "title": "Picture this!",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/picture-this",
+   "resourceType": "Investigation",
+   "routedTo": null,
+   "reason": "Euclidean-algorithm rectangle interactivity — divisibility and number theory, outside 3.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9919",
+   "station": "divisibility-and-induction",
+   "title": "Can we find a solution to $(n-3)^3+n^3=(n+3)^3$?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r9919",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "(n±3)³ integer-parity descent — number theory; 'n² is a factor of 54' is arithmetic, not the factor theorem",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5634",
+   "station": "divisibility-and-induction",
+   "title": "Can we show the sum of this series to $n$ terms is $n/(3n-1)$?",
+   "url": "https://undergroundmathematics.org/divisibility-and-induction/r5634",
+   "resourceType": "Review question",
+   "routedTo": null,
+   "reason": "telescoping sum to n/(3n−1) proved by induction (partial fractions only a suggested alternative route, not asked) plus log-series work — the tested skills sit outside 3.1.5",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "two-way-functions-teacher-support",
+   "station": "thinking-about-functions",
+   "title": "Two-way functions - teacher support",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/two-way-functions-teacher-support",
+   "resourceType": "Resource in action",
+   "routedTo": null,
+   "reason": "teacher-support notes for Two-way functions — 3.1.x appear only in prior-knowledge listings; no tested skill of its own",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "two-for-one",
+   "station": "calculus-trig-log",
+   "title": "Two for one",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/two-for-one",
+   "resourceType": "Food for thought",
+   "routedTo": null,
+   "reason": "∫1/x over negative domains and ln(−x) gradients — the absolute value is incidental to the integration work; outside 3.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "to-log-or-not-to-log",
+   "station": "exp-and-log",
+   "title": "To log or not to log?",
+   "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log",
+   "resourceType": "Problem requiring decisions",
+   "routedTo": null,
+   "reason": "equation-solver card sort (indices vs logarithms); the √(2x−3)=5 card is surd work — outside 3.1",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "powerful-derivatives",
+   "station": "chain-rule",
+   "title": "Powerful derivatives",
+   "url": "https://undergroundmathematics.org/chain-rule/powerful-derivatives",
+   "resourceType": "Building blocks",
+   "routedTo": null,
+   "reason": "d/dx x^a via e^{a·ln x} — the general binomial theorem is mentioned as an aside, not carried out; the tested skill is exp/log differentiation",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "r5362",
+   "station": "combining-functions",
+   "title": "Can we draw the graph of  $\\left| x + [x] \\right|$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r5362",
+   "codes": [
+    "3.1.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-functions 1.2.1/1.2.2/1.2.3",
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+   "confidence": "medium"
+  },
+  {
+   "ugmSlug": "r8427",
+   "station": "combining-functions",
+   "title": "Can we sketch these four related curves?",
+   "url": "https://undergroundmathematics.org/combining-functions/r8427",
+   "codes": [
+    "3.1.1"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+   "confidence": "medium"
+  },
+  {
+   "ugmSlug": "r9523",
+   "station": "combining-functions",
+   "title": "Which of these function statements are true?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9523",
+   "codes": [
+    "3.1.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-functions 1.2.2",
+   "textOfRecordUnder": "UGM-Resources/pure-1-functions",
+   "confidence": "medium"
+  },
+  {
+   "ugmSlug": "r5245",
+   "station": "counting-and-binomials",
+   "title": "Can we find $\\sum_{r=1}^n 2/(r^2+4r+3)$?",
+   "url": "https://undergroundmathematics.org/counting-and-binomials/r5245",
+   "codes": [
+    "3.1.5"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-series",
+   "confidence": "high"
+  },
+  {
+   "ugmSlug": "r9701",
+   "station": "chain-rule",
+   "title": "Can we find $\\int 1/(\\sqrt{x+2} - \\sqrt{x+1}) dx$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9701",
+   "codes": [
+    "3.1.5"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-integration 1.8.1",
+   "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+   "confidence": "medium"
+  },
+  {
+   "ugmSlug": "r9082",
+   "station": "product-rule",
+   "title": "Can we find the repeated root for  $4x^4+x^2+3x+1=0$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9082",
+   "codes": [
+    "3.1.4"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-differentiation 1.7.2",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "confidence": "medium"
+  },
+  {
+   "ugmSlug": "r6295",
+   "station": "counting-and-binomials",
+   "title": "Given the binomial expansion of $(1+x)^n$, can we find $x$ and $n$?",
+   "url": "https://undergroundmathematics.org/counting-and-binomials/r6295",
+   "codes": [
+    "3.1.6"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-series",
+   "confidence": "high"
+  },
+  {
+   "ugmSlug": "r6340",
+   "station": "counting-and-binomials",
+   "title": "Can we find a good rational approximation for $\\sqrt{5}$?",
+   "url": "https://undergroundmathematics.org/counting-and-binomials/r6340",
+   "codes": [
+    "3.1.6"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-series",
+   "confidence": "high"
+  },
+  {
+   "ugmSlug": "r7477",
+   "station": "counting-and-binomials",
+   "title": "Can we find an approximation to $\\sqrt{5}+\\sqrt{3}$?",
+   "url": "https://undergroundmathematics.org/counting-and-binomials/r7477",
+   "codes": [
+    "3.1.6"
+   ],
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-series",
+   "confidence": "high"
+  }
+ ],
+ "sweepRouting": {
+  "r5965": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "positive-integer binomial (multinomial reduction) — the tested 1.6.1 skill of record; 3.1.6 is the rational-index |x|<1 expansion"
+  },
+  "r6102": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "positive-integer binomial coefficient identities — of record under 1.6.1; integer index"
+  },
+  "r6503": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "(1+x)^8 positive-integer expansion — of record under 1.6.1; integer index"
+  },
+  "r6770": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "[1+1/√n]ⁿ positive-integer expansion for an inequality — of record under 1.6.1; integer index"
+  },
+  "r7078": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "(1−x/2)^10 positive-integer expansion, lane-6 primary pick of record under 1.6.1"
+  },
+  "r7489": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "(1+p)^6 positive-integer expansion with substitution — of record under 1.6.1"
+  },
+  "r7978": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "(x−y)^6 positive-integer expansion — of record under 1.6.1"
+  },
+  "r8014": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "binomial-coefficient combinatorial identities — of record under 1.6.1; integer index"
+  },
+  "r9207": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "positive-integer expansions for coefficients — of record under 1.6.1"
+  },
+  "r9928": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "(x−1/x)^3, (x−1/x)^5 positive-integer expansions — of record under 1.6.1"
+  },
+  "r9404": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-algebra",
+   "reason": "(x+y)^6−(x−y)^6 positive-integer binomial factorisation — of record under 1.6.1"
+  },
+  "binomials-are-the-answer": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "positive-integer binomial theorem proving d/dx xⁿ=nxⁿ⁻¹ — lane-7 primary pick of record under 1.7.1"
+  },
+  "r5640": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "binomial expansion at positive integer index 8 — of record under 1.6.1 (+ cross 1.7.2/1.7.4); integer index"
+  },
+  "r5138": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "root-condition region sketching — of record under 1.1.2; the |root|<1 limb is handled by discriminant algebra, not the 3.1.2 relations"
+  },
+  "r5287": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "m<−4 or m>4 written |m|>4 at the close — modulus notation incidental to the discriminant argument of record under 1.1.4"
+  },
+  "r5847": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "surd equation by repeated squaring — of record under 1.1.5; no modulus content"
+  },
+  "r6387": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "surd inequality by squaring — of record under 1.1.5"
+  },
+  "r7485": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "surd equation by squaring — of record under 1.1.5"
+  },
+  "r7533": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "surd inequality proof by squaring — of record under 1.1.3"
+  },
+  "r8419": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "circle conditions resolved by squaring a distance equation — of record under 1.3.2; distance squaring is not the modulus relation"
+  },
+  "r9768": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "locus by squaring distance ratios — of record under 1.3.2"
+  },
+  "r8080": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "PA=2PB locus by squaring — of record under 1.3.2"
+  },
+  "the-circle-of-apollonius-coordinate-edition": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "Apollonius circle locus — of record under 1.3.2; the |·| radius formula is incidental"
+  },
+  "r7604": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-compound-angles",
+   "reason": "simultaneous trig equations with compound angles — lane-5 non-overlap of record; the integer-index expansion is technique only"
+  },
+  "r8648": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-compound-angles",
+   "reason": "general trig solutions — lane-5 non-overlap of record; the factor theorem appears on a cubic-in-s auxiliary only"
+  },
+  "r9702": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "point-line distance with 'numerical value' (absolute value) — lane-5 non-overlap of record; the modulus is notation, not the tested skill"
+  },
+  "translating-or-not": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "1/(x²+a) graph families — of record under 1.2.5; partial fractions appear only as an explanatory aside for a<0"
+  },
+  "r5246": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "Σ1/(r(r+1)(r+3)) — partial fractions are a suggested route, not asked; the tested skill is the summation (lane-6 non-overlap retained)"
+  },
+  "connect-three": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "AP membership questions — of record under 1.6.2; the squaring is an irrationality aside"
+  },
+  "problem-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "area comparison under a semicircle — of record under 1.4.1; squaring the circle equation is incidental"
+  },
+  "absurder": {
+   "outcome": "non_overlap",
+   "reason": "cube-root denominator rationalisation via difference-of-cubes identities; the factor theorem appears only as an explanatory aside on why a²+b² has no real linear factor — the tested skill (surd rationalisation) is outside 3.1"
+  },
+  "difference-of-two-fractions": {
+   "outcome": "non_overlap",
+   "reason": "unit-fraction difference census and generalisation — 'is a factor of 2ab' is arithmetic factor language, not the factor theorem; outside 3.1"
+  },
+  "nested-surds": {
+   "outcome": "non_overlap",
+   "reason": "surd-law card sort (√a·√b=√(ab) etc.) — no modulus or polynomial-divisibility content"
+  },
+  "r5701": {
+   "outcome": "non_overlap",
+   "reason": "surd inequality √10+2√2<6 by squaring with positivity care — squaring surds, not the modulus relations of 3.1.2"
+  },
+  "r7626": {
+   "outcome": "non_overlap",
+   "reason": "irrationality of a√2+b=c√3 by squaring — surd/number-theory argument; the squaring is not the |a|=|b|⟺a²=b² modulus relation"
+  },
+  "square-root-of-2-is-irrational": {
+   "outcome": "non_overlap",
+   "reason": "√2 irrationality proof sort — number theory, outside 3.1"
+  },
+  "r5365": {
+   "outcome": "non_overlap",
+   "reason": "AB=2BC resolved by Pythagoras and squaring — coordinate-geometry distance work, no modulus-relation skill"
+  },
+  "r6449": {
+   "outcome": "non_overlap",
+   "reason": "plane angles via vector cross/dot products — |·| here is the vector norm, not the scalar modulus of 3.1.1"
+  },
+  "r8456": {
+   "outcome": "non_overlap",
+   "reason": "dot-product angle computation — vector norm notation only, outside 3.1"
+  },
+  "picture-this": {
+   "outcome": "non_overlap",
+   "reason": "Euclidean-algorithm rectangle interactivity — divisibility and number theory, outside 3.1"
+  },
+  "r9919": {
+   "outcome": "non_overlap",
+   "reason": "(n±3)³ integer-parity descent — number theory; 'n² is a factor of 54' is arithmetic, not the factor theorem"
+  },
+  "r5634": {
+   "outcome": "non_overlap",
+   "reason": "telescoping sum to n/(3n−1) proved by induction (partial fractions only a suggested alternative route, not asked) plus log-series work — the tested skills sit outside 3.1.5"
+  },
+  "two-way-functions-teacher-support": {
+   "outcome": "non_overlap",
+   "reason": "teacher-support notes for Two-way functions — 3.1.x appear only in prior-knowledge listings; no tested skill of its own"
+  },
+  "two-for-one": {
+   "outcome": "non_overlap",
+   "reason": "∫1/x over negative domains and ln(−x) gradients — the absolute value is incidental to the integration work; outside 3.1"
+  },
+  "to-log-or-not-to-log": {
+   "outcome": "non_overlap",
+   "reason": "equation-solver card sort (indices vs logarithms); the √(2x−3)=5 card is surd work — outside 3.1"
+  },
+  "powerful-derivatives": {
+   "outcome": "non_overlap",
+   "reason": "d/dx x^a via e^{a·ln x} — the general binomial theorem is mentioned as an aside, not carried out; the tested skill is exp/log differentiation"
+  }
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 90,
+  "substrateResources": 35,
+  "ugmResourcesConsidered": 51,
+  "aligned": 47,
+  "alignedSubstrate": 35,
+  "nonOverlap": 16,
+  "crossLaneAligned": 9,
+  "rejectedOfRecord": 30,
+  "coverageNote": "97 raw pattern hits deduped to 90 candidates; the fresh substrate of record is the 35 aligned resources (35 new text bodies; T-UGM-IMPORT-9); 16 further fresh resources route out as non-overlaps RECORDED BY REFERENCE ONLY (no bodies — the lane-8 candidate-model law: candidates whose tested skill sits outside the lane get no text import), and 30 of-record candidates are rejected with reasons; 9 aligned rows ride bodies of record under lanes 2/6/7/8 (5 flips + 4 one-to-many)"
+ }
+}
