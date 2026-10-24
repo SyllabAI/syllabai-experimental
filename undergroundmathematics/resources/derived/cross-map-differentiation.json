@@ -208,50 +208,8 @@
       "ugmStation": "calculus-meets-functions + calculus-of-powers + chain-rule + power-series + product-rule",
       "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
       "resourceCount": 38,
-      "primaryPick": "r9260",
+      "primaryPick": "r9942",
       "resources": [
-        {
-          "ugmSlug": "r9260",
-          "title": "When is the volume of this cuboid a maximum?",
-          "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
-          "resourceType": "review-question",
-          "confidence": "high",
-          "modesRecorded": [
-            1,
-            4
-          ],
-          "evidence": "cuboid of surface area 150 cm^2: show h=(75-x^2)/2x then maximise the volume — canonical CIE P1 optimisation",
-          "examProvenance": {
-            "friendlyName": "r9260",
-            "station": {
-              "id": 2,
-              "friendlyId": "calculus-of-powers",
-              "title": "Calculus of Powers"
-            },
-            "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
-            "ref": 9260,
-            "isReviewQuestion": true,
-            "board": "UCLES",
-            "qualification": "AO level",
-            "paper": "Additional Mathematics 2",
-            "paperCode": "8175/2",
-            "year": 1986,
-            "questions": [
-              "Q12(a)"
-            ],
-            "permission": "Cambridge Assessment Group Archives",
-            "parseStatus": "parsed",
-            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)",
-            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
-          },
-          "hasTeacherSupport": false,
-          "codes": [
-            "1.7.2",
-            "1.7.4"
-          ],
-          "primaryPick": true,
-          "station": "calculus-of-powers"
-        },
         {
           "ugmSlug": "r9942",
           "title": "If we increase $x$ by a small amount, what happens to $y$?",
@@ -1312,6 +1270,47 @@
           "station": "calculus-of-powers"
         },
         {
+          "ugmSlug": "r9260",
+          "title": "When is the volume of this cuboid a maximum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cuboid of surface area 150 cm^2: show h=(75-x^2)/2x then maximise the volume — canonical CIE P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r9260",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+            "ref": 9260,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1986,
+            "questions": [
+              "Q12(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
           "ugmSlug": "r9599",
           "title": "What can we say about the combined area of these two shapes?",
           "url": "https://undergroundmathematics.org/calculus-of-powers/r9599",
@@ -1631,48 +1630,6 @@
           },
           "hasTeacherSupport": false,
           "codes": [
-            "1.7.3"
-          ],
-          "primaryPick": true,
-          "station": "calculus-of-powers"
-        },
-        {
-          "ugmSlug": "r9942",
-          "title": "If we increase $x$ by a small amount, what happens to $y$?",
-          "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
-          "resourceType": "review-question",
-          "confidence": "high",
-          "modesRecorded": [
-            1,
-            4
-          ],
-          "evidence": "dy/dx of 4x^3-7x^2 at (2,4), then the small increment dx that raises y from 4 to 4.05 — power rule plus small-increment application",
-          "examProvenance": {
-            "friendlyName": "r9942",
-            "station": {
-              "id": 2,
-              "friendlyId": "calculus-of-powers",
-              "title": "Calculus of Powers"
-            },
-            "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
-            "ref": 9942,
-            "isReviewQuestion": true,
-            "board": "UCLES",
-            "qualification": "O level",
-            "paper": "Additional Mathematics 2",
-            "paperCode": "471/2",
-            "year": 1977,
-            "questions": [
-              "Q6"
-            ],
-            "permission": "Cambridge Assessment Group Archives",
-            "parseStatus": "parsed",
-            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6",
-            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
-          },
-          "hasTeacherSupport": false,
-          "codes": [
-            "1.7.2",
             "1.7.3"
           ],
           "primaryPick": true,
@@ -2357,6 +2314,47 @@
           },
           "hasTeacherSupport": false,
           "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r9942",
+          "title": "If we increase $x$ by a small amount, what happens to $y$?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "dy/dx of 4x^3-7x^2 at (2,4), then the small increment dx that raises y from 4 to 4.05 — power rule plus small-increment application",
+          "examProvenance": {
+            "friendlyName": "r9942",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+            "ref": 9942,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1977,
+            "questions": [
+              "Q6"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
             "1.7.3"
           ],
           "primaryPick": false,

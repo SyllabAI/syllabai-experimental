@@ -42,9 +42,8 @@ Spec-point titles below are **working texts** of the of-record spine rows; the C
 
 ### 1.7.2 — use the derivative of x^n (for any rational n), together with constant multiples, sums and differences of functions, and of composite functions using the chain rule
 
-38 UGM resources (primary pick **r9260** ⭐; stations: Calculus Meets Functions + Calculus of Powers + Chain Rule + Power Series + Product Rule):
+38 UGM resources (primary pick **r9942** ⭐; stations: Calculus Meets Functions + Calculus of Powers + Chain Rule + Power Series + Product Rule):
 
-- [review-question] When is the volume of this cuboid a maximum? (`r9260`, calculus-of-powers, confidence high, modes 1,4) ⭐
 - [review-question] If we increase $x$ by a small amount, what happens to $y$? (`r9942`, calculus-of-powers, confidence high, modes 1,4) ⭐
 - [many-ways-problem] Can you find... curvy cubics edition (`can-you-find-curvy-cubics`, calculus-meets-functions, confidence high, modes 1)
 - [investigation] Curvy cubics (`curvy-cubics`, calculus-meets-functions, confidence medium, modes 1)
@@ -73,6 +72,7 @@ Spec-point titles below are **working texts** of the of-record spine rows; the C
 - [review-question] When does $y=kx^3-(k+1)x^2+(2-k)x-k$ have a minimum at $x =1$? (`r8441`, calculus-of-powers, confidence high, modes 1)
 - [review-question] Can we show these two cubic curves touch? (`r8543`, calculus-of-powers, confidence high, modes 1)
 - [review-question] What's the least surface area of this rocket-shaped solid? (`r8548`, calculus-of-powers, confidence high, modes 1)
+- [review-question] When is the volume of this cuboid a maximum? (`r9260`, calculus-of-powers, confidence high, modes 1)
 - [review-question] What can we say about the combined area of these two shapes? (`r9599`, calculus-of-powers, confidence high, modes 1)
 - [building-blocks] Chain mapping (`chain-mapping`, chain-rule, confidence medium, modes 1)
 - [fluency-exercise] I can see $u$! (`i-can-see-u`, chain-rule, confidence high, modes 1)
@@ -88,7 +88,6 @@ Spec-point titles below are **working texts** of the of-record spine rows; the C
 29 UGM resources (primary pick **r8065** ⭐; stations: Calculus Meets Functions + Calculus of Powers + Chain Rule + Introducing Calculus):
 
 - [review-question] What (approximately) is the square root of $26$? (`r8065`, calculus-of-powers, confidence high, modes 1,4) ⭐
-- [review-question] If we increase $x$ by a small amount, what happens to $y$? (`r9942`, calculus-of-powers, confidence high, modes 1,4) ⭐
 - [review-question] What can we say if $y = m(x-a)$ is tangent to $y = x^3 - x$? (`r8287`, calculus-meets-functions, confidence high, modes 1)
 - [food-for-thought] Slippery slopes (`slippery-slopes`, calculus-meets-functions, confidence medium, modes 1)
 - [many-ways-problem] Two-way calculus (`two-way-calculus`, calculus-meets-functions, confidence high, modes 1)
@@ -107,6 +106,7 @@ Spec-point titles below are **working texts** of the of-record spine rows; the C
 - [review-question] Can we find the locus of a midpoint created by a parabola? (`r8399`, calculus-of-powers, confidence high, modes 1)
 - [review-question] Can we show these two cubic curves touch? (`r8543`, calculus-of-powers, confidence high, modes 1)
 - [review-question] Can we find the area enclosed by this quadratic and the $x$-axis? (`r9138`, calculus-of-powers, confidence medium, modes 1)
+- [review-question] If we increase $x$ by a small amount, what happens to $y$? (`r9942`, calculus-of-powers, confidence high, modes 1)
 - [package-of-problems] Tangent or normal (`tangent-or-normal`, calculus-of-powers, confidence medium, modes 1)
 - [review-question] If we know the object's speed, can we find the speed of the image? (`r8625`, chain-rule, confidence medium, modes 1)
 - [review-question] Can we find this area by integrating with respect to $y$? (`r9815`, chain-rule, confidence medium, modes 1)
