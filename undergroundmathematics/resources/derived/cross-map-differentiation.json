@@ -1,0 +1,4341 @@
+{
+  "generatedAt": "2026-10-24",
+  "pilot": "P3c generalisation lane 7 — CIE 9709 Pure 1 subtopic 1.7 Differentiation (operator instruction: “Proceed Lane 7”)",
+  "ugmStations": {},
+  "targetLane": {
+    "course": "cie-a-level-maths-20-pure-1",
+    "subtopic": "1.7 Differentiation",
+    "specPoints": [
+      "1.7.1",
+      "1.7.2",
+      "1.7.3",
+      "1.7.4"
+    ],
+    "noFoldFragments": true
+  },
+  "coverage": {
+    "corpusScreened": 855,
+    "sweepCandidates": 195,
+    "substrateResources": 72,
+    "ugmResourcesConsidered": 72,
+    "aligned": 74,
+    "alignedSubstrate": 40,
+    "alignedShare": 0.56,
+    "nonOverlap": 32,
+    "crossLaneAligned": 3,
+    "routed": 86,
+    "alignmentRows": 107,
+    "withExamProvenance": 54,
+    "perSpecPointCounts": {
+      "1.7.1": 5,
+      "1.7.2": 38,
+      "1.7.3": 29,
+      "1.7.4": 35
+    },
+    "alignmentRowsPerSpecPoint": {
+      "1.7.1": 5,
+      "1.7.2": 38,
+      "1.7.3": 29,
+      "1.7.4": 35
+    },
+    "stationBreakdown": {
+      "introducing-calculus": {
+        "resources": 27,
+        "aligned": 9,
+        "nonOverlap": 18
+      },
+      "calculus-of-powers": {
+        "resources": 48,
+        "aligned": 31,
+        "nonOverlap": 17
+      },
+      "chain-rule": {
+        "resources": 7,
+        "aligned": 7,
+        "nonOverlap": 0
+      },
+      "calculus-meets-functions": {
+        "resources": 23,
+        "aligned": 23,
+        "nonOverlap": 0
+      },
+      "calculus-trig-log": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      },
+      "product-rule": {
+        "resources": 2,
+        "aligned": 2,
+        "nonOverlap": 0
+      },
+      "power-series": {
+        "resources": 1,
+        "aligned": 1,
+        "nonOverlap": 0
+      }
+    },
+    "coverageNote": "Station-lane semantics (two dedicated calculus stations): this coverage block counts the full substrate — 72 new-text resources across Introducing Calculus (24) and Calculus of Powers (48); 3 Introducing-Calculus resources were already of record via lanes 5-6 (r6592, r7912, problem-areas) and are excluded from the new-text universe. Per the station-lane corpus law (lane-3/5/6 shape) the WHOLE substrate ships as text of record: aligned resources mapped, the 32 non-overlaps imported UNMAPPED with the coverage note. Plus 34 cross-station strays (mapped) whose tested skill is 1.7.x, 3 cross-lane fact joins to already-of-record bodies (r5640 vs lane 6; r7115 and r8936 vs lane 4 — text untouched), and 86 routed to recorded homes. Full-fidelity picture: 195 sweep candidates = 74 aligned (40 substrate + 34 strays; 107 alignment rows) + 32 non-overlaps + 3 cross-lane joins + 86 routed."
+  },
+  "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/doctrine exemplar (the primary picks, plus resources carrying a derivation-of-record such as the chord-limit derivation of the power rule). Mode-2 (deep-link rendering on lane pages) was dropped by operator directive 2026-10-22; Mode 3 is deferred by ADR-UGM-0001.",
+  "perSpecPoint": {
+    "1.7.1": {
+      "officialCode": "1.7",
+      "officialText": "understand the gradient of a curve at a point as the limit of the gradients of a suitable sequence of chords, and use the notations dy/dx, f'(x), f''(x) for first and second derivatives",
+      "spineTitleVerbatim": "understand the gradient of a curve at a point as the limit of the gradients of a suitable sequence of chords, and use the notations d y , and d y f ′ ( x ) , f ″( x ) , 2 for first and second derivatives",
+      "ugmStation": "calculus-meets-functions + calculus-of-powers + calculus-trig-log + introducing-calculus",
+      "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
+      "resourceCount": 5,
+      "primaryPick": "binomials-are-the-answer",
+      "resources": [
+        {
+          "ugmSlug": "binomials-are-the-answer",
+          "title": "Binomials are the answer!",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/binomials-are-the-answer",
+          "resourceType": "investigation",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "gradients of chords (3,9)->(3.5,12.25)->(3.1,9.61)->... then the general gradient of y=x^n via the binomial expansion — the derivation-of-record from chord limits to the power rule (lane-6 sweep routing pre-identified it for 1.7)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.1"
+          ],
+          "primaryPick": true,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "gradients-of-gradients",
+          "title": "Gradients of gradients",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/gradients-of-gradients",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "second derivative introduced as the gradient of the gradient — sketching f'' from f' (the f'' notation clause of 1.7.1)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.1"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "estimating-gradients",
+          "title": "Estimating gradients",
+          "url": "https://undergroundmathematics.org/calculus-trig-log/estimating-gradients",
+          "resourceType": "problem-requiring-decisions",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "estimate the gradient of y=sin x at three points from tangent lines, then sketch the derivative — the gradient-of-a-curve skill in a trig setting; no trig derivatives required",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.1"
+          ],
+          "primaryPick": false,
+          "station": "calculus-trig-log"
+        },
+        {
+          "ugmSlug": "mapping-a-derivative",
+          "title": "Mapping a derivative",
+          "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "the derivative as a local scaling via mapping diagrams for f(x)=x^2 (acknowledged capture); the construct later proves the chain rule — lane-6 sweep routing pre-identified it for 1.7",
+          "examProvenance": {
+            "friendlyName": "mapping-a-derivative",
+            "station": {
+              "id": 16,
+              "friendlyId": "introducing-calculus",
+              "title": "Introducing Calculus"
+            },
+            "url": "https://undergroundmathematics.org/introducing-calculus/mapping-a-derivative",
+            "ref": 6509,
+            "isReviewQuestion": false,
+            "board": null,
+            "qualification": null,
+            "paper": null,
+            "paperCode": null,
+            "year": null,
+            "questions": [],
+            "permission": null,
+            "parseStatus": "non-exam-provenance",
+            "provenance": "This resource is based on ideas developed by Martin Flashman .",
+            "raw": "This resource is based on ideas developed by\nMartin Flashman\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.1"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "zooming-in",
+          "title": "Zooming in",
+          "url": "https://undergroundmathematics.org/introducing-calculus/zooming-in",
+          "resourceType": "scaffolded-task",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "zoom-in construction on y=x^2: local linearity, chord gradients collected to a formula for the gradient function — the limit-of-gradients-of-chords construct of 1.7.1 (lane-6 sweep routing pre-identified this resource for 1.7)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.1"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        }
+      ]
+    },
+    "1.7.2": {
+      "officialCode": "1.7",
+      "officialText": "use the derivative of x^n (for any rational n), together with constant multiples, sums and differences of functions, and of composite functions using the chain rule",
+      "spineTitleVerbatim": "use the derivative of x (for any rational n ), together with constant multiples, sums and differences of functions, and of composite functions using the chain rule",
+      "ugmStation": "calculus-meets-functions + calculus-of-powers + chain-rule + power-series + product-rule",
+      "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
+      "resourceCount": 38,
+      "primaryPick": "r9260",
+      "resources": [
+        {
+          "ugmSlug": "r9260",
+          "title": "When is the volume of this cuboid a maximum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "cuboid of surface area 150 cm^2: show h=(75-x^2)/2x then maximise the volume — canonical CIE P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r9260",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+            "ref": 9260,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1986,
+            "questions": [
+              "Q12(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": true,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r9942",
+          "title": "If we increase $x$ by a small amount, what happens to $y$?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "dy/dx of 4x^3-7x^2 at (2,4), then the small increment dx that raises y from 4 to 4.05 — power rule plus small-increment application",
+          "examProvenance": {
+            "friendlyName": "r9942",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+            "ref": 9942,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1977,
+            "questions": [
+              "Q6"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": true,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "can-you-find-curvy-cubics",
+          "title": "Can you find... curvy cubics edition",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics",
+          "resourceType": "many-ways-problem",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "construct cubics from prescribed stationary points and increasing/decreasing behaviour — derivative reasoning backwards from f' conditions",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "curvy-cubics",
+          "title": "Curvy cubics",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/curvy-cubics",
+          "resourceType": "investigation",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "form equations for four sketched cubics — roots plus stationary-point structure; the calculus hint for curve C is explicit",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6180",
+          "title": "Can we maximise the volume of this metal tin?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6180",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cylindrical tin plus 2 cm-overlap lid from 350*pi cm^2 of metal: maximise the volume — canonical CIE P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r6180",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6180",
+            "ref": 6180,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "9200/1",
+            "year": 1980,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q10",
+            "raw": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6537",
+          "title": "When does $3x^4-16x^3+18x^2=k$ have exactly two real roots?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6537",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "turning points of 3x^4-16x^3+18x^2 with nature, sketch, and the k-set for exactly two real roots",
+          "examProvenance": {
+            "friendlyName": "r6537",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6537",
+            "ref": 6537,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics B 1",
+            "paperCode": "9202/1",
+            "year": 1983,
+            "questions": [
+              "Q6"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics B 1, QP 9202/1, 1983, Q6",
+            "raw": "UCLES A level Mathematics B 1, QP 9202/1, 1983, Q6\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6867",
+          "title": "When is the cost of producing this chemical a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6867",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cost C=3x+100/x minimised — derivative 3-100/x^2 with a second-derivative confirmation",
+          "examProvenance": {
+            "friendlyName": "r6867",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6867",
+            "ref": 6867,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Applicable Mathematics 1",
+            "paperCode": "8485/1",
+            "year": 1989,
+            "questions": [
+              "Q5"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Applicable Mathematics 1, QP 8485/1, 1989, Q5",
+            "raw": "UCLES AO level Applicable Mathematics 1, QP 8485/1, 1989, Q5\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6868",
+          "title": "When is $f(x) = 2x^3 − 9x^2 + 12x + 3$ smallest over this range?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6868",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "smallest value of 2x^3-9x^2+12x+3 on 0<=x<=2 — stationary points plus endpoint comparison",
+          "examProvenance": {
+            "friendlyName": "r6868",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6868",
+            "ref": 6868,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 1",
+            "year": null,
+            "questions": [
+              "Q1B"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1B",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1B\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7196",
+          "title": "Can we sketch the graph of this piecewise function?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7196",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "piecewise sketch with a turning point from the quadratic piece — differentiation drives the labelled sketch",
+          "examProvenance": {
+            "friendlyName": "r7196",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7196",
+            "ref": 7196,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 2",
+            "year": null,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q3",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 2, Q3\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7386",
+          "title": "What's the area enclosed by $y=x(x-3)^2$ and a tangent?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "gradient zero at P(1,4) on y=x(x-3)^2 and the stationary-driven sketch — 1.7.2/1.7.4 load-bearing; the tangent-revisit area carries a recorded 1.8 bearing",
+          "examProvenance": {
+            "friendlyName": "r7386",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+            "ref": 7386,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "186",
+            "year": 1951,
+            "questions": [
+              "Q9"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 186, 1951, Q9",
+            "raw": "UCLES A level Mathematics 1, QP 186, 1951, Q9\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7720",
+          "title": "How small can this triangle be?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7720",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "line of gradient m through (1,2): intercepts give the triangle area, minimised over m — classic P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r7720",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7720",
+            "ref": 7720,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "420/2",
+            "year": 1964,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1964, Q3",
+            "raw": "UCLES O level Additional Mathematics 2, QP 420/2, 1964, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7998",
+          "title": "If $y=f(x)$ has a turning point when $x=\\frac{1}{4}$, can we find $\\lambda$?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7998",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "turning point of f(x)=(x-2)^2-lambda(x+1)(x+2) at x=1/4 fixes lambda — derivative condition load-bearing; the equal-roots part is the 1.1 discriminant skill (recorded)",
+          "examProvenance": {
+            "friendlyName": "r7998",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7998",
+            "ref": 7998,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1 and Pure Mathematics 1",
+            "paperCode": "9200/1 and 9208/1",
+            "year": 1983,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP 9200/1 and 9208/1, 1983, Q10",
+            "raw": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP 9200/1 and 9208/1, 1983, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r8588",
+          "title": "Given $f'(x)$ and $g'(x)$, what is $f''(2x)$?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r8588",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "f'(x)=g(x+1), g'(x)=h(x-1) => f''(2x)=h(2x) — translation-chain differentiation and second-derivative notation bookkeeping",
+          "examProvenance": {
+            "friendlyName": "r8588",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r8588",
+            "ref": 8588,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2013,
+            "questions": [
+              "Q1C"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2013, Q1C",
+            "raw": "Oxford University Mathematics Aptitude Test, 2013, Q1C\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r9671",
+          "title": "When does this function of two variables have a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r9671",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "x^4y=8 with z=x+y: stationary value and its nature via z=x+8/x^4 — rational-power derivative in a constrained optimisation",
+          "examProvenance": {
+            "friendlyName": "r9671",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r9671",
+            "ref": 9671,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1984,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1984, Q4",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1984, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "floppy-hair",
+          "title": "Floppy hair",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/floppy-hair",
+          "resourceType": "fluency-exercise",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "differentiate five curves with fractional indices, locate each maximum, match equations to curves — rational-n power rule load-bearing",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "gradient-spotting",
+          "title": "Gradient spotting",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/gradient-spotting",
+          "resourceType": "building-blocks",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "applet pattern-hunt for the gradient of ax^2+bx+c and of cubics — inducing the power rule with each coefficient's contribution to the gradient",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r5703",
+          "title": "Where do two tangents cross, and where do two normals cross?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5703",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangents and normals to xy=1/2 via y=(1/2)x^-1 (rational n = -1): intersecting tangents T and normals N",
+          "examProvenance": {
+            "friendlyName": "r5703",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r5703",
+            "ref": 5703,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2012,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2012, Q4",
+            "raw": "UCLES STEP Mathematics I, 2012, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r5732",
+          "title": "Where does $f(x) = x^2 - 2px + 3$ have its minimum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5732",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "f(x)=x^2-2px+3 has one stationary value in 0<x<1 iff 0<p<1 — parameterised stationary analysis",
+          "examProvenance": {
+            "friendlyName": "r5732",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r5732",
+            "ref": 5732,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 1",
+            "year": null,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q3",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 1, Q3\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6820",
+          "title": "When is the area of a face of this pyramid a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6820",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "minimise A^2 = 9V^2/(16x^2) + x^4 for the pyramid face — negative-power and quartic derivatives with a prove-the-minimum clause",
+          "examProvenance": {
+            "friendlyName": "r6820",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6820",
+            "ref": 6820,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 2 and Pure Mathematics 2",
+            "paperCode": "417/2 and 447/2",
+            "year": 1964,
+            "questions": [
+              "Q7"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 2 and Pure Mathematics 2, QP 417/2 and 447/2, 1964, Q7",
+            "raw": "UCLES A level Mathematics 2 and Pure Mathematics 2, QP 417/2 and 447/2, 1964, Q7\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6877",
+          "title": "Can we find the area of the triangle created by a common tangent?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6877",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "prove y^2=16x and y=x^2+3 touch at (1,4) via equal gradients (y=4x^(1/2) power rule) then the unit-area tangent triangle",
+          "examProvenance": {
+            "friendlyName": "r6877",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6877",
+            "ref": 6877,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "420/2",
+            "year": 1967,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1967, Q2",
+            "raw": "UCLES O level Additional Mathematics 2, QP 420/2, 1967, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7280",
+          "title": "What's the most economical speed for this ship's journey?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7280",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "most economical ship speed: 2400(150/v + 8v/3) minimised — v^-1 + v derivative with a nature check",
+          "examProvenance": {
+            "friendlyName": "r7280",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7280",
+            "ref": 7280,
+            "isReviewQuestion": true,
+            "board": "O&C (Oxford & Cambridge SEG)",
+            "qualification": "O level",
+            "paper": "MEI Additional Mathematics 1",
+            "paperCode": "MEI 109",
+            "year": 1974,
+            "questions": [
+              "Q8"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "O&C O level MEI Additional Mathematics 1, QP MEI 109, 1974, Q8",
+            "raw": "O&C O level MEI Additional Mathematics 1, QP MEI 109, 1974, Q8\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7391",
+          "title": "What is the gradient of this curve at its $x$-intercepts?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7391",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "gradient 17 at P on y=3x^2+5x-12, then gradients at the x-intercepts — plain power-rule fluency with a quadratic solve",
+          "examProvenance": {
+            "friendlyName": "r7391",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7391",
+            "ref": 7391,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Certificate in Additional Mathematics 1",
+            "paperCode": "8175/1",
+            "year": 1989,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Certificate in Additional Mathematics 1, QP 8175/1, 1989, Q2",
+            "raw": "UCLES AO level Certificate in Additional Mathematics 1, QP 8175/1, 1989, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7586",
+          "title": "Given the line $PRQ$, when is $OP + OQ$ a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7586",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "OP+OQ minimum for the line y=c-mx through R(a,b) — differentiate a + ma + b/m",
+          "examProvenance": {
+            "friendlyName": "r7586",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7586",
+            "ref": 7586,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2012,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2012, Q1",
+            "raw": "UCLES STEP Mathematics I, 2012, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7785",
+          "title": "When is the volume of this cylinder inside a cone a maximum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7785",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cylinder inscribed in a truncated cone: maximum volume by polynomial optimisation",
+          "examProvenance": {
+            "friendlyName": "r7785",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7785",
+            "ref": 7785,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1 and Pure Mathematics 1 QP9200/1 and 9208/1",
+            "paperCode": null,
+            "year": 1982,
+            "questions": [
+              "Q17"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP9200/1 and 9208/1, 1982, Q17",
+            "raw": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP9200/1 and 9208/1, 1982, Q17\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8286",
+          "title": "Can we find the triangle areas given by a tangent?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8286",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent to xy=c^2 at (ct,c/t) via dy/dx=-c^2/x^2 — rational-index power rule plus tangent construction with area links",
+          "examProvenance": {
+            "friendlyName": "r8286",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8286",
+            "ref": 8286,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 2",
+            "paperCode": "181",
+            "year": 1954,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 2, QP 181, 1954, Q4",
+            "raw": "UCLES A level Mathematics 2, QP 181, 1954, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8399",
+          "title": "Can we find the locus of a midpoint created by a parabola?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8399",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent to y=(x+k)^2 at x=2k (expand-then-differentiate; the chain-rule alternative is named in the solution) plus the midpoint locus",
+          "examProvenance": {
+            "friendlyName": "r8399",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8399",
+            "ref": 8399,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1977,
+            "questions": [
+              "Q14"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q14",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q14\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8441",
+          "title": "When does $y=kx^3-(k+1)x^2+(2-k)x-k$ have a minimum at $x =1$?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8441",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cubic kx^3-(k+1)x^2+(2-k)x-k has its minimum at x=1 precisely for k>1/2 — dy/dx(1)=0 plus nature conditions on k",
+          "examProvenance": {
+            "friendlyName": "r8441",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8441",
+            "ref": 8441,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2014,
+            "questions": [
+              "Q1C"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2014, Q1C",
+            "raw": "Oxford University Mathematics Aptitude Test, 2014, Q1C\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8543",
+          "title": "Can we show these two cubic curves touch?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8543",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "show the parametrised cubic touches y=x^3 — tangency via equal gradients across a parameter family",
+          "examProvenance": {
+            "friendlyName": "r8543",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8543",
+            "ref": 8543,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2007,
+            "questions": [
+              "Q8"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2007, Q8",
+            "raw": "UCLES STEP Mathematics I, 2007, Q8\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8548",
+          "title": "What's the least surface area of this rocket-shaped solid?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8548",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "rocket-shaped solid of fixed volume: least surface area — optimisation with a fractional-power slant",
+          "examProvenance": {
+            "friendlyName": "r8548",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8548",
+            "ref": 8548,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Pure Mathematics 2",
+            "paperCode": "842/2",
+            "year": 1973,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Pure Mathematics 2, QP 842/2, 1973, Q2",
+            "raw": "UCLES A level Pure Mathematics 2, QP 842/2, 1973, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r9599",
+          "title": "What can we say about the combined area of these two shapes?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9599",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "100 cm wire into an equilateral triangle and a square: show the total-area formula then find the least area — canonical CIE P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r9599",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9599",
+            "ref": 9599,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "4030/1",
+            "year": 1987,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 1, QP 4030/1, 1987, Q10",
+            "raw": "UCLES O level Additional Mathematics 1, QP 4030/1, 1987, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "chain-mapping",
+          "title": "Chain mapping",
+          "url": "https://undergroundmathematics.org/chain-rule/chain-mapping",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "mapping-diagram derivation of the chain rule (local scalings multiply); the worked examples extend beyond the P1 linear-inner scope (recorded)",
+          "examProvenance": {
+            "friendlyName": "chain-mapping",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/chain-mapping",
+            "ref": 9648,
+            "isReviewQuestion": false,
+            "board": null,
+            "qualification": null,
+            "paper": null,
+            "paperCode": null,
+            "year": null,
+            "questions": [],
+            "permission": null,
+            "parseStatus": "non-exam-provenance",
+            "provenance": "This resource is based on ideas developed by Martin Flashman .",
+            "raw": "This resource is based on ideas developed by\nMartin Flashman\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "i-can-see-u",
+          "title": "I can see $u$!",
+          "url": "https://undergroundmathematics.org/chain-rule/i-can-see-u",
+          "resourceType": "fluency-exercise",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "identify the inner function for (2x+3)^-2-style composites and differentiate dy/dx — the P1 linear-inner chain-rule clause in fluency form",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "r7839",
+          "title": "Can we sketch $y = x^2(2-x)$, and from this, $y^2 = x^2(2-x)$?",
+          "url": "https://undergroundmathematics.org/chain-rule/r7839",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sketch y=x^2(2-x) via dy/dx=-3x^2+4x stationary structure, then the y^2 symmetry extension",
+          "examProvenance": {
+            "friendlyName": "r7839",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/r7839",
+            "ref": 7839,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "840/1",
+            "year": 1973,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 840/1, 1973, Q10",
+            "raw": "UCLES A level Mathematics A 1, QP 840/1, 1973, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "r9905",
+          "title": "When is the volume of this pyramid a maximum?",
+          "url": "https://undergroundmathematics.org/chain-rule/r9905",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "pyramid frame maximum volume — V^2 differentiable as a polynomial avoiding the product rule; stationary-point nature checked",
+          "examProvenance": {
+            "friendlyName": "r9905",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/r9905",
+            "ref": 9905,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Pure Mathematics Special paper",
+            "paperCode": "9210/0",
+            "year": 1980,
+            "questions": [
+              "Q9"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Pure Mathematics Special paper, QP 9210/0, 1980, Q9",
+            "raw": "UCLES A level Pure Mathematics Special paper, QP 9210/0, 1980, Q9\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "slippery-slopes-another-derivative",
+          "title": "Slippery slopes... another derivative",
+          "url": "https://undergroundmathematics.org/chain-rule/slippery-slopes-another-derivative",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "derivatives of (2x+1)^-1 via translated 1/x graphs — a pre-chain-rule view of the linear-inner composite",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "designing-a-polynomial",
+          "title": "Designing a polynomial",
+          "url": "https://undergroundmathematics.org/power-series/designing-a-polynomial",
+          "resourceType": "investigation",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "design p(x) with p(x)=p'(x) — term-by-term power-rule differentiation with coefficient matching (the exponential-series connection is the bigger picture)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "power-series"
+        },
+        {
+          "ugmSlug": "producing-a-rule",
+          "title": "Producing a rule",
+          "url": "https://undergroundmathematics.org/product-rule/producing-a-rule",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "differentiating quadratics in factorised form — the discovered shortcut is the linear-factor product structure; expand-and-differentiate keeps it P1-compatible (the generalisation clause anticipates the P3 product rule, recorded)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "product-rule"
+        },
+        {
+          "ugmSlug": "r9082",
+          "title": "Can we find the repeated root for  $4x^4+x^2+3x+1=0$?",
+          "url": "https://undergroundmathematics.org/product-rule/r9082",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "repeated root => root of f'(x)=0, applied to 4x^4+x^2+3x+1 — polynomial differentiation load-bearing; the general proof anticipates the product rule (P3 bearing recorded)",
+          "examProvenance": {
+            "friendlyName": "r9082",
+            "station": {
+              "id": 20,
+              "friendlyId": "product-rule",
+              "title": "Product Rule & Integration by Parts"
+            },
+            "url": "https://undergroundmathematics.org/product-rule/r9082",
+            "ref": 9082,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Further Mathematics 2",
+            "paperCode": "189",
+            "year": 1953,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Further Mathematics 2, QP 189, 1953, Q2",
+            "raw": "UCLES A level Further Mathematics 2, QP 189, 1953, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2"
+          ],
+          "primaryPick": false,
+          "station": "product-rule"
+        }
+      ]
+    },
+    "1.7.3": {
+      "officialCode": "1.7",
+      "officialText": "apply differentiation to gradients, tangents and normals, increasing and decreasing functions and rates of change",
+      "spineTitleVerbatim": "apply differentiation to gradients, tangents and normals, increasing and decreasing functions and rates of change",
+      "ugmStation": "calculus-meets-functions + calculus-of-powers + chain-rule + introducing-calculus",
+      "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
+      "resourceCount": 29,
+      "primaryPick": "r8065",
+      "resources": [
+        {
+          "ugmSlug": "r8065",
+          "title": "What (approximately) is the square root of $26$?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8065",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "delta y ~ (dy/dx) delta x with y=sqrt(x) gives sqrt(26) ~ 5.1 — the canonical small-increment review question",
+          "examProvenance": {
+            "friendlyName": "r8065",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8065",
+            "ref": 8065,
+            "isReviewQuestion": true,
+            "board": "O&C (Oxford & Cambridge SEG)",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": null,
+            "year": 1967,
+            "questions": [
+              "Q7(ii)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "O&C O level Additional Mathematics 1, 1967, Q7(ii)",
+            "raw": "O&C O level Additional Mathematics 1, 1967, Q7(ii)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": true,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r9942",
+          "title": "If we increase $x$ by a small amount, what happens to $y$?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "dy/dx of 4x^3-7x^2 at (2,4), then the small increment dx that raises y from 4 to 4.05 — power rule plus small-increment application",
+          "examProvenance": {
+            "friendlyName": "r9942",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9942",
+            "ref": 9942,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1977,
+            "questions": [
+              "Q6"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q6\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": true,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8287",
+          "title": "What can we say if $y = m(x-a)$ is tangent to $y = x^3 - x$?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r8287",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "line y=m(x-a) tangent to y=x^3-x — the derivative supplies the tangency gradient with a double-root condition",
+          "examProvenance": {
+            "friendlyName": "r8287",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r8287",
+            "ref": 8287,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2011,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2011, Q3",
+            "raw": "Oxford University Mathematics Aptitude Test, 2011, Q3\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "slippery-slopes",
+          "title": "Slippery slopes",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/slippery-slopes",
+          "resourceType": "food-for-thought",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "gradients of f(x), f(x)-8, 3f(x), 3f(x)+8 at matched points — constant-multiple/sum derivative structure read graphically",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "two-way-calculus",
+          "title": "Two-way calculus",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus",
+          "resourceType": "many-ways-problem",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "two-way table: generate functions with prescribed stationary points, local extrema and increasing/decreasing ranges — differentiation central (the inflection clause is extension, recorded)",
+          "examProvenance": null,
+          "hasTeacherSupport": true,
+          "codes": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r5703",
+          "title": "Where do two tangents cross, and where do two normals cross?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5703",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangents and normals to xy=1/2 via y=(1/2)x^-1 (rational n = -1): intersecting tangents T and normals N",
+          "examProvenance": {
+            "friendlyName": "r5703",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r5703",
+            "ref": 5703,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2012,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2012, Q4",
+            "raw": "UCLES STEP Mathematics I, 2012, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6345",
+          "title": "Can we find a percentage increase using the gradient?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6345",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "percentage increase in y=3x-2x^2 via the derivative — small-increment rates work (17p/7%)",
+          "examProvenance": {
+            "friendlyName": "r6345",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6345",
+            "ref": 6345,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "986/1",
+            "year": 1978,
+            "questions": [
+              "Q7"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 1, QP 986/1, 1978, Q7",
+            "raw": "UCLES AO level Additional Mathematics 1, QP 986/1, 1978, Q7\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6352",
+          "title": "When does the normal to a parabola pass through this point?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6352",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "normal to y=x^2 at (a,a^2) through (0,1) — normal equation plus solve for a (two values)",
+          "examProvenance": {
+            "friendlyName": "r6352",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6352",
+            "ref": 6352,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2009,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2009, Q4",
+            "raw": "Oxford University Mathematics Aptitude Test, 2009, Q4\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6584",
+          "title": "Can we find the area inside a parabola, a tangent, and the $x$-axis?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6584",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent to y=x^2 at P, x-intercept Q — the tangent construction is the 1.7.3 load-bearing step; the shaded-area computation carries a recorded 1.8 bearing",
+          "examProvenance": {
+            "friendlyName": "r6584",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6584",
+            "ref": 6584,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1980,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1980, Q2",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1980, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6877",
+          "title": "Can we find the area of the triangle created by a common tangent?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6877",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "prove y^2=16x and y=x^2+3 touch at (1,4) via equal gradients (y=4x^(1/2) power rule) then the unit-area tangent triangle",
+          "examProvenance": {
+            "friendlyName": "r6877",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6877",
+            "ref": 6877,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "420/2",
+            "year": 1967,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1967, Q2",
+            "raw": "UCLES O level Additional Mathematics 2, QP 420/2, 1967, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6959",
+          "title": "Can we track this constantly growing patch of fluid?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "circular patch growing at 5 cm^2/s: dA/dt = (dA/dr)(dr/dt) chain-rule rate for the radius",
+          "examProvenance": {
+            "friendlyName": "r6959",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+            "ref": 6959,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "986/1",
+            "year": 1979,
+            "questions": [
+              "Q8"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 1, QP 986/1, 1979, Q8",
+            "raw": "UCLES AO level Additional Mathematics 1, QP 986/1, 1979, Q8\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7391",
+          "title": "What is the gradient of this curve at its $x$-intercepts?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7391",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "gradient 17 at P on y=3x^2+5x-12, then gradients at the x-intercepts — plain power-rule fluency with a quadratic solve",
+          "examProvenance": {
+            "friendlyName": "r7391",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7391",
+            "ref": 7391,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Certificate in Additional Mathematics 1",
+            "paperCode": "8175/1",
+            "year": 1989,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Certificate in Additional Mathematics 1, QP 8175/1, 1989, Q2",
+            "raw": "UCLES AO level Certificate in Additional Mathematics 1, QP 8175/1, 1989, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7433",
+          "title": "Is the gradient function increasing or decreasing on this curve?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7433",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sign table for dy/dx (+/-/0) and its monotonicity (I/D) at six marked points — increasing/decreasing behaviour and stationary structure read from a curve",
+          "examProvenance": {
+            "friendlyName": "r7433",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7433",
+            "ref": 7433,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1973,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1973, Q1",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1973, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7734",
+          "title": "Given three clues, can we find the equation of the curve?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7734",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "curve with gradient ax+b through two points and tangent parallel to y=x — gradient-function reconstruction with a tangent condition (the reverse-of-differentiation step carries a recorded 1.8 bearing)",
+          "examProvenance": {
+            "friendlyName": "r7734",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7734",
+            "ref": 7734,
+            "isReviewQuestion": true,
+            "board": "O&C (Oxford & Cambridge SEG)",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "N817",
+            "year": 1968,
+            "questions": [
+              "Q8(i)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "O&C O level Additional Mathematics 1, QP N817, 1968, Q8(i)",
+            "raw": "O&C O level Additional Mathematics 1, QP N817, 1968, Q8(i)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7750",
+          "title": "How many common tangents can two parabolas have?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7750",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent to a parabola at the point of gradient m: y-mx = c-(m-b)^2/(4a), then common-tangent analysis for two parabolas",
+          "examProvenance": {
+            "friendlyName": "r7750",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7750",
+            "ref": 7750,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics III",
+            "paperCode": null,
+            "year": 2005,
+            "questions": [
+              "Q5"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics III, 2005, Q5",
+            "raw": "UCLES STEP Mathematics III, 2005, Q5\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8231",
+          "title": "A cubic has one real root—can we find an approximation to it?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "uniqueness of the positive root of x^3+3x^2-3 via f'=3x(x+2)>0 for x>0 — increasing-function argument; the 3-dp approximation is sign-change iteration",
+          "examProvenance": {
+            "friendlyName": "r8231",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+            "ref": 8231,
+            "isReviewQuestion": true,
+            "board": "Cambridge Colleges",
+            "qualification": null,
+            "paper": "Examination for Entrance Scholarships and Exhibitions Calculus (Group 3)",
+            "paperCode": null,
+            "year": 1952,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Colleges of the University of Cambridge",
+            "parseStatus": "parsed",
+            "provenance": "Cambridge Colleges Examination for Entrance Scholarships and Exhibitions, Calculus (Group 3), 1952, Q2",
+            "raw": "Cambridge Colleges Examination for Entrance Scholarships and Exhibitions, Calculus (Group 3), 1952, Q2\nQuestion reproduced by permission of the Colleges of the University of Cambridge. The question remains Copyright, The Colleges of the University of Cambridge,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8286",
+          "title": "Can we find the triangle areas given by a tangent?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8286",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent to xy=c^2 at (ct,c/t) via dy/dx=-c^2/x^2 — rational-index power rule plus tangent construction with area links",
+          "examProvenance": {
+            "friendlyName": "r8286",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8286",
+            "ref": 8286,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 2",
+            "paperCode": "181",
+            "year": 1954,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 2, QP 181, 1954, Q4",
+            "raw": "UCLES A level Mathematics 2, QP 181, 1954, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8399",
+          "title": "Can we find the locus of a midpoint created by a parabola?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8399",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent to y=(x+k)^2 at x=2k (expand-then-differentiate; the chain-rule alternative is named in the solution) plus the midpoint locus",
+          "examProvenance": {
+            "friendlyName": "r8399",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8399",
+            "ref": 8399,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1977,
+            "questions": [
+              "Q14"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q14",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1977, Q14\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8543",
+          "title": "Can we show these two cubic curves touch?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8543",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "show the parametrised cubic touches y=x^3 — tangency via equal gradients across a parameter family",
+          "examProvenance": {
+            "friendlyName": "r8543",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8543",
+            "ref": 8543,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2007,
+            "questions": [
+              "Q8"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2007, Q8",
+            "raw": "UCLES STEP Mathematics I, 2007, Q8\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r9138",
+          "title": "Can we find the area enclosed by this quadratic and the $x$-axis?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9138",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "quadratic through (1,0) and (2,0) with gradient 2 at (2,0) — gradient conditions are the 1.7.3 step; the area computation carries a recorded 1.8 bearing",
+          "examProvenance": {
+            "friendlyName": "r9138",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9138",
+            "ref": 9138,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "420/2",
+            "year": 1963,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1963, Q4",
+            "raw": "UCLES O level Additional Mathematics 2, QP 420/2, 1963, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "tangent-or-normal",
+          "title": "Tangent or normal",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/tangent-or-normal",
+          "resourceType": "package-of-problems",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "match tangent/normal line pairs then recover curves from gradient functions — perpendicular-gradient structure (curve recovery carries a recorded 1.8 reverse bearing)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8625",
+          "title": "If we know the object's speed, can we find the speed of the image?",
+          "url": "https://undergroundmathematics.org/chain-rule/r8625",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "lens-formula related rates — expressible via v=f+f^2(u-f)^-1 and the chain rule (P1-compatible route; the recorded solutions often go implicit)",
+          "examProvenance": {
+            "friendlyName": "r8625",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/r8625",
+            "ref": 8625,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Pure Mathematics 2",
+            "paperCode": "9210/2",
+            "year": 1980,
+            "questions": [
+              "Q1(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Pure Mathematics 2, QP 9210/2, 1980, Q1(a)",
+            "raw": "UCLES A level Pure Mathematics 2, QP 9210/2, 1980, Q1(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "r9815",
+          "title": "Can we find this area by integrating with respect to $y$?",
+          "url": "https://undergroundmathematics.org/chain-rule/r9815",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent to 27y^2=x^3 at (12,8) via y=x^(3/2)/(3sqrt3) — rational-index power rule; the integration-wrt-y part carries bearings beyond P1 1.8 (recorded)",
+          "examProvenance": {
+            "friendlyName": "r9815",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/r9815",
+            "ref": 9815,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "184",
+            "year": 1953,
+            "questions": [
+              "Q12"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 184, 1953, Q12",
+            "raw": "UCLES A level Mathematics 1, QP 184, 1953, Q12\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "a-tangent-is",
+          "title": "A tangent is ...",
+          "url": "https://undergroundmathematics.org/introducing-calculus/a-tangent-is",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "tangent-to-a-curve definition refinement with circle counter-examples; the zoom chord-to-tangent interactivity carries the 1.7.1 construct — concept building block for tangent/normal work",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "gradient-match",
+          "title": "Gradient match",
+          "url": "https://undergroundmathematics.org/introducing-calculus/gradient-match",
+          "resourceType": "building-blocks",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "pair twelve sketch graphs into function/gradient-function pairs — qualitative differentiation across polynomial and translated families",
+          "examProvenance": {
+            "friendlyName": "gradient-match",
+            "station": {
+              "id": 16,
+              "friendlyId": "introducing-calculus",
+              "title": "Introducing Calculus"
+            },
+            "url": "https://undergroundmathematics.org/introducing-calculus/gradient-match",
+            "ref": 9607,
+            "isReviewQuestion": false,
+            "board": "NRICH",
+            "qualification": null,
+            "paper": null,
+            "paperCode": null,
+            "year": null,
+            "questions": [],
+            "permission": "NRICH",
+            "parseStatus": "non-exam-provenance",
+            "provenance": "Based on this NRICH resource , used with permission.",
+            "raw": "Based on this\nNRICH resource\n, used with permission. The NRICH resource remains Copyright University of Cambridge,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "gradients-important-real-world",
+          "title": "Why are gradients important in the real world?",
+          "url": "https://undergroundmathematics.org/introducing-calculus/gradients-important-real-world",
+          "resourceType": "bigger-picture",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "rates-of-change motivation: any changing system described by rates visualised as gradients (bigger-picture article; excerpt/title-only capture, no sections)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "speed-vs-velocity",
+          "title": "Speed vs velocity",
+          "url": "https://undergroundmathematics.org/introducing-calculus/speed-vs-velocity",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sketch velocity-time graphs from displacement-time and vice versa — graphical gradient-function construction in a kinematics context",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "talking-about-curves",
+          "title": "Talking about curves",
+          "url": "https://undergroundmathematics.org/introducing-calculus/talking-about-curves",
+          "resourceType": "investigation",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sign of the function vs sign of its gradient across turning regions — increasing/decreasing behaviour and stationary-point structure",
+          "examProvenance": {
+            "friendlyName": "talking-about-curves",
+            "station": {
+              "id": 16,
+              "friendlyId": "introducing-calculus",
+              "title": "Introducing Calculus"
+            },
+            "url": "https://undergroundmathematics.org/introducing-calculus/talking-about-curves",
+            "ref": 9261,
+            "isReviewQuestion": false,
+            "board": "NRICH",
+            "qualification": null,
+            "paper": null,
+            "paperCode": null,
+            "year": null,
+            "questions": [],
+            "permission": "NRICH",
+            "parseStatus": "non-exam-provenance",
+            "provenance": "Based on this NRICH resource , used with permission.",
+            "raw": "Based on this\nNRICH resource\n, used with permission. The NRICH resource remains Copyright University of Cambridge,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "walk-sorting",
+          "title": "Walk-sorting",
+          "url": "https://undergroundmathematics.org/introducing-calculus/walk-sorting",
+          "resourceType": "building-blocks",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "match displacement-time graphs with velocity-time graphs — graphical differentiation in a real walking context",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        }
+      ]
+    },
+    "1.7.4": {
+      "officialCode": "1.7",
+      "officialText": "locate stationary points and determine their nature, and use information about stationary points in sketching graphs",
+      "spineTitleVerbatim": "locate stationary points and determine their nature, and use information about stationary points in sketching graphs.",
+      "ugmStation": "calculus-meets-functions + calculus-of-powers + chain-rule + introducing-calculus",
+      "ugmStationUrl": "https://undergroundmathematics.org/calculus-meets-functions",
+      "resourceCount": 35,
+      "primaryPick": "r9260",
+      "resources": [
+        {
+          "ugmSlug": "r9260",
+          "title": "When is the volume of this cuboid a maximum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1,
+            4
+          ],
+          "evidence": "cuboid of surface area 150 cm^2: show h=(75-x^2)/2x then maximise the volume — canonical CIE P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r9260",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9260",
+            "ref": 9260,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1986,
+            "questions": [
+              "Q12(a)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1986, Q12(a)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": true,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "average-turning-points",
+          "title": "Average turning points",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/average-turning-points",
+          "resourceType": "go-and-think-about-it",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "can a cubic have a stationary point midway between two intersections — the condition becomes a derivative condition on f' (extension-level investigation)",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "can-you-find-curvy-cubics",
+          "title": "Can you find... curvy cubics edition",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/can-you-find-curvy-cubics",
+          "resourceType": "many-ways-problem",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "construct cubics from prescribed stationary points and increasing/decreasing behaviour — derivative reasoning backwards from f' conditions",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "curvy-cubics",
+          "title": "Curvy cubics",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/curvy-cubics",
+          "resourceType": "investigation",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "form equations for four sketched cubics — roots plus stationary-point structure; the calculus hint for curve C is explicit",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6180",
+          "title": "Can we maximise the volume of this metal tin?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6180",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cylindrical tin plus 2 cm-overlap lid from 350*pi cm^2 of metal: maximise the volume — canonical CIE P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r6180",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6180",
+            "ref": 6180,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "9200/1",
+            "year": 1980,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q10",
+            "raw": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6537",
+          "title": "When does $3x^4-16x^3+18x^2=k$ have exactly two real roots?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6537",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "turning points of 3x^4-16x^3+18x^2 with nature, sketch, and the k-set for exactly two real roots",
+          "examProvenance": {
+            "friendlyName": "r6537",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6537",
+            "ref": 6537,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics B 1",
+            "paperCode": "9202/1",
+            "year": 1983,
+            "questions": [
+              "Q6"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics B 1, QP 9202/1, 1983, Q6",
+            "raw": "UCLES A level Mathematics B 1, QP 9202/1, 1983, Q6\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6703",
+          "title": "When does this cubic equation have three distinct real roots?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6703",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "x^3-3a^2x+b has three distinct real roots implies 4a^6>b^2 — turning-point condition is the load-bearing argument",
+          "examProvenance": {
+            "friendlyName": "r6703",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6703",
+            "ref": 6703,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Further Mathematics 2",
+            "paperCode": "437/2",
+            "year": 1958,
+            "questions": [
+              "Q3(ii)"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Further Mathematics 2, QP 437/2, 1958, Q3 (ii)",
+            "raw": "UCLES A level Further Mathematics 2, QP 437/2, 1958, Q3 (ii)\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6867",
+          "title": "When is the cost of producing this chemical a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6867",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cost C=3x+100/x minimised — derivative 3-100/x^2 with a second-derivative confirmation",
+          "examProvenance": {
+            "friendlyName": "r6867",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6867",
+            "ref": 6867,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Applicable Mathematics 1",
+            "paperCode": "8485/1",
+            "year": 1989,
+            "questions": [
+              "Q5"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Applicable Mathematics 1, QP 8485/1, 1989, Q5",
+            "raw": "UCLES AO level Applicable Mathematics 1, QP 8485/1, 1989, Q5\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r6868",
+          "title": "When is $f(x) = 2x^3 − 9x^2 + 12x + 3$ smallest over this range?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r6868",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "smallest value of 2x^3-9x^2+12x+3 on 0<=x<=2 — stationary points plus endpoint comparison",
+          "examProvenance": {
+            "friendlyName": "r6868",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r6868",
+            "ref": 6868,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 1",
+            "year": null,
+            "questions": [
+              "Q1B"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1B",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 1, Q1B\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7196",
+          "title": "Can we sketch the graph of this piecewise function?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7196",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "piecewise sketch with a turning point from the quadratic piece — differentiation drives the labelled sketch",
+          "examProvenance": {
+            "friendlyName": "r7196",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7196",
+            "ref": 7196,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 2",
+            "year": null,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q3",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 2, Q3\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7212",
+          "title": "What's the minimum area of this variable triangle?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7212",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "minimum area of triangle OXY in the unit square as x varies — calculus optimisation (an algebraic-inequality route is also recorded)",
+          "examProvenance": {
+            "friendlyName": "r7212",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7212",
+            "ref": 7212,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "420/2",
+            "year": 1966,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1966, Q3",
+            "raw": "UCLES O level Additional Mathematics 2, QP 420/2, 1966, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7386",
+          "title": "What's the area enclosed by $y=x(x-3)^2$ and a tangent?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "gradient zero at P(1,4) on y=x(x-3)^2 and the stationary-driven sketch — 1.7.2/1.7.4 load-bearing; the tangent-revisit area carries a recorded 1.8 bearing",
+          "examProvenance": {
+            "friendlyName": "r7386",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7386",
+            "ref": 7386,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 1",
+            "paperCode": "186",
+            "year": 1951,
+            "questions": [
+              "Q9"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 1, QP 186, 1951, Q9",
+            "raw": "UCLES A level Mathematics 1, QP 186, 1951, Q9\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7720",
+          "title": "How small can this triangle be?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7720",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "line of gradient m through (1,2): intercepts give the triangle area, minimised over m — classic P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r7720",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7720",
+            "ref": 7720,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "420/2",
+            "year": 1964,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 420/2, 1964, Q3",
+            "raw": "UCLES O level Additional Mathematics 2, QP 420/2, 1964, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7861",
+          "title": "When does a cubic curve have two turning points?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7861",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cubic with two distinct turning points — the discriminant condition on f'=3x^2+2ax+b is the load-bearing argument",
+          "examProvenance": {
+            "friendlyName": "r7861",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7861",
+            "ref": 7861,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2012,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2012, Q3",
+            "raw": "Oxford University Mathematics Aptitude Test, 2012, Q3\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r7998",
+          "title": "If $y=f(x)$ has a turning point when $x=\\frac{1}{4}$, can we find $\\lambda$?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r7998",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "turning point of f(x)=(x-2)^2-lambda(x+1)(x+2) at x=1/4 fixes lambda — derivative condition load-bearing; the equal-roots part is the 1.1 discriminant skill (recorded)",
+          "examProvenance": {
+            "friendlyName": "r7998",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r7998",
+            "ref": 7998,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1 and Pure Mathematics 1",
+            "paperCode": "9200/1 and 9208/1",
+            "year": 1983,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP 9200/1 and 9208/1, 1983, Q10",
+            "raw": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP 9200/1 and 9208/1, 1983, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r8959",
+          "title": "When does $3x^4 - 16x^3 +18x^2 + k = 0$ have four real solutions?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r8959",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "3x^4-16x^3+18x^2+k=0 has four real solutions exactly when -27<k<-5 — stationary-value structure is decisive",
+          "examProvenance": {
+            "friendlyName": "r8959",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r8959",
+            "ref": 8959,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2009,
+            "questions": [
+              "Q1F"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2009, Q1F",
+            "raw": "Oxford University Mathematics Aptitude Test, 2009, Q1F\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r9582",
+          "title": "How many stationary points does $y = 2x^3 - 6x^2 + 5x - 7$  have?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r9582",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "y=2x^3-6x^2+5x-7 stationary-point count via the discriminant of y'=6x^2-12x+5 — canonical MC",
+          "examProvenance": {
+            "friendlyName": "r9582",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r9582",
+            "ref": 9582,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2008,
+            "questions": [
+              "Q1A"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2008, Q1A",
+            "raw": "Oxford University Mathematics Aptitude Test, 2008, Q1A\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r9671",
+          "title": "When does this function of two variables have a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r9671",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "x^4y=8 with z=x+y: stationary value and its nature via z=x+8/x^4 — rational-power derivative in a constrained optimisation",
+          "examProvenance": {
+            "friendlyName": "r9671",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r9671",
+            "ref": 9671,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "AO level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "8175/2",
+            "year": 1984,
+            "questions": [
+              "Q4"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1984, Q4",
+            "raw": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1984, Q4\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "r9781",
+          "title": "When does this cubic equation have distinct real positive solutions?",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/r9781",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "turning point of y=x^2-2bx+c then root conditions — the stationary point is the entry step (the root-condition part is the 1.1 discriminant skill, recorded)",
+          "examProvenance": {
+            "friendlyName": "r9781",
+            "station": {
+              "id": 1,
+              "friendlyId": "calculus-meets-functions",
+              "title": "Calculus meets Functions"
+            },
+            "url": "https://undergroundmathematics.org/calculus-meets-functions/r9781",
+            "ref": 9781,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics III",
+            "paperCode": null,
+            "year": 2003,
+            "questions": [
+              "Q5"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics III, 2003, Q5",
+            "raw": "UCLES STEP Mathematics III, 2003, Q5\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "two-way-calculus",
+          "title": "Two-way calculus",
+          "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus",
+          "resourceType": "many-ways-problem",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "two-way table: generate functions with prescribed stationary points, local extrema and increasing/decreasing ranges — differentiation central (the inflection clause is extension, recorded)",
+          "examProvenance": null,
+          "hasTeacherSupport": true,
+          "codes": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-meets-functions"
+        },
+        {
+          "ugmSlug": "floppy-hair",
+          "title": "Floppy hair",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/floppy-hair",
+          "resourceType": "fluency-exercise",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "differentiate five curves with fractional indices, locate each maximum, match equations to curves — rational-n power rule load-bearing",
+          "examProvenance": null,
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r5732",
+          "title": "Where does $f(x) = x^2 - 2px + 3$ have its minimum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5732",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "f(x)=x^2-2px+3 has one stationary value in 0<x<1 iff 0<p<1 — parameterised stationary analysis",
+          "examProvenance": {
+            "friendlyName": "r5732",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r5732",
+            "ref": 5732,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 1",
+            "year": null,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 1, Q3",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 1, Q3\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r5768",
+          "title": "Can we find a curve from its gradient function?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r5768",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "curve from gradient 4x-3 with minimum value -1/8 — the decisive step is locating the stationary point (the reverse-of-differentiation wrapper carries a recorded 1.8 bearing)",
+          "examProvenance": {
+            "friendlyName": "r5768",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r5768",
+            "ref": 5768,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1968,
+            "questions": [
+              "Q3"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1968, Q3",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1968, Q3\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r6820",
+          "title": "When is the area of a face of this pyramid a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r6820",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "minimise A^2 = 9V^2/(16x^2) + x^4 for the pyramid face — negative-power and quartic derivatives with a prove-the-minimum clause",
+          "examProvenance": {
+            "friendlyName": "r6820",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r6820",
+            "ref": 6820,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics 2 and Pure Mathematics 2",
+            "paperCode": "417/2 and 447/2",
+            "year": 1964,
+            "questions": [
+              "Q7"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics 2 and Pure Mathematics 2, QP 417/2 and 447/2, 1964, Q7",
+            "raw": "UCLES A level Mathematics 2 and Pure Mathematics 2, QP 417/2 and 447/2, 1964, Q7\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7280",
+          "title": "What's the most economical speed for this ship's journey?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7280",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "most economical ship speed: 2400(150/v + 8v/3) minimised — v^-1 + v derivative with a nature check",
+          "examProvenance": {
+            "friendlyName": "r7280",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7280",
+            "ref": 7280,
+            "isReviewQuestion": true,
+            "board": "O&C (Oxford & Cambridge SEG)",
+            "qualification": "O level",
+            "paper": "MEI Additional Mathematics 1",
+            "paperCode": "MEI 109",
+            "year": 1974,
+            "questions": [
+              "Q8"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "O&C O level MEI Additional Mathematics 1, QP MEI 109, 1974, Q8",
+            "raw": "O&C O level MEI Additional Mathematics 1, QP MEI 109, 1974, Q8\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7433",
+          "title": "Is the gradient function increasing or decreasing on this curve?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7433",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sign table for dy/dx (+/-/0) and its monotonicity (I/D) at six marked points — increasing/decreasing behaviour and stationary structure read from a curve",
+          "examProvenance": {
+            "friendlyName": "r7433",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7433",
+            "ref": 7433,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 2",
+            "paperCode": "471/2",
+            "year": 1973,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 2, QP 471/2, 1973, Q1",
+            "raw": "UCLES O level Additional Mathematics 2, QP 471/2, 1973, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7586",
+          "title": "Given the line $PRQ$, when is $OP + OQ$ a minimum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7586",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "OP+OQ minimum for the line y=c-mx through R(a,b) — differentiate a + ma + b/m",
+          "examProvenance": {
+            "friendlyName": "r7586",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7586",
+            "ref": 7586,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": null,
+            "paper": "STEP Mathematics I",
+            "paperCode": null,
+            "year": 2012,
+            "questions": [
+              "Q1"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES STEP Mathematics I, 2012, Q1",
+            "raw": "UCLES STEP Mathematics I, 2012, Q1\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7785",
+          "title": "When is the volume of this cylinder inside a cone a maximum?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r7785",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cylinder inscribed in a truncated cone: maximum volume by polynomial optimisation",
+          "examProvenance": {
+            "friendlyName": "r7785",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r7785",
+            "ref": 7785,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1 and Pure Mathematics 1 QP9200/1 and 9208/1",
+            "paperCode": null,
+            "year": 1982,
+            "questions": [
+              "Q17"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP9200/1 and 9208/1, 1982, Q17",
+            "raw": "UCLES A level Mathematics A 1 and Pure Mathematics 1, QP9200/1 and 9208/1, 1982, Q17\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8441",
+          "title": "When does $y=kx^3-(k+1)x^2+(2-k)x-k$ have a minimum at $x =1$?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8441",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "cubic kx^3-(k+1)x^2+(2-k)x-k has its minimum at x=1 precisely for k>1/2 — dy/dx(1)=0 plus nature conditions on k",
+          "examProvenance": {
+            "friendlyName": "r8441",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8441",
+            "ref": 8441,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": null,
+            "year": 2014,
+            "questions": [
+              "Q1C"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, 2014, Q1C",
+            "raw": "Oxford University Mathematics Aptitude Test, 2014, Q1C\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r8548",
+          "title": "What's the least surface area of this rocket-shaped solid?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r8548",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "rocket-shaped solid of fixed volume: least surface area — optimisation with a fractional-power slant",
+          "examProvenance": {
+            "friendlyName": "r8548",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r8548",
+            "ref": 8548,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Pure Mathematics 2",
+            "paperCode": "842/2",
+            "year": 1973,
+            "questions": [
+              "Q2"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Pure Mathematics 2, QP 842/2, 1973, Q2",
+            "raw": "UCLES A level Pure Mathematics 2, QP 842/2, 1973, Q2\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r9599",
+          "title": "What can we say about the combined area of these two shapes?",
+          "url": "https://undergroundmathematics.org/calculus-of-powers/r9599",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "100 cm wire into an equilateral triangle and a square: show the total-area formula then find the least area — canonical CIE P1 optimisation",
+          "examProvenance": {
+            "friendlyName": "r9599",
+            "station": {
+              "id": 2,
+              "friendlyId": "calculus-of-powers",
+              "title": "Calculus of Powers"
+            },
+            "url": "https://undergroundmathematics.org/calculus-of-powers/r9599",
+            "ref": 9599,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "O level",
+            "paper": "Additional Mathematics 1",
+            "paperCode": "4030/1",
+            "year": 1987,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES O level Additional Mathematics 1, QP 4030/1, 1987, Q10",
+            "raw": "UCLES O level Additional Mathematics 1, QP 4030/1, 1987, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "calculus-of-powers"
+        },
+        {
+          "ugmSlug": "r7839",
+          "title": "Can we sketch $y = x^2(2-x)$, and from this, $y^2 = x^2(2-x)$?",
+          "url": "https://undergroundmathematics.org/chain-rule/r7839",
+          "resourceType": "review-question",
+          "confidence": "high",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sketch y=x^2(2-x) via dy/dx=-3x^2+4x stationary structure, then the y^2 symmetry extension",
+          "examProvenance": {
+            "friendlyName": "r7839",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/r7839",
+            "ref": 7839,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Mathematics A 1",
+            "paperCode": "840/1",
+            "year": 1973,
+            "questions": [
+              "Q10"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Mathematics A 1, QP 840/1, 1973, Q10",
+            "raw": "UCLES A level Mathematics A 1, QP 840/1, 1973, Q10\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "r9905",
+          "title": "When is the volume of this pyramid a maximum?",
+          "url": "https://undergroundmathematics.org/chain-rule/r9905",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "pyramid frame maximum volume — V^2 differentiable as a polynomial avoiding the product rule; stationary-point nature checked",
+          "examProvenance": {
+            "friendlyName": "r9905",
+            "station": {
+              "id": 4,
+              "friendlyId": "chain-rule",
+              "title": "Chain Rule & Integration by Substitution"
+            },
+            "url": "https://undergroundmathematics.org/chain-rule/r9905",
+            "ref": 9905,
+            "isReviewQuestion": true,
+            "board": "UCLES",
+            "qualification": "A level",
+            "paper": "Pure Mathematics Special paper",
+            "paperCode": "9210/0",
+            "year": 1980,
+            "questions": [
+              "Q9"
+            ],
+            "permission": "Cambridge Assessment Group Archives",
+            "parseStatus": "parsed",
+            "provenance": "UCLES A level Pure Mathematics Special paper, QP 9210/0, 1980, Q9",
+            "raw": "UCLES A level Pure Mathematics Special paper, QP 9210/0, 1980, Q9\nQuestion reproduced by kind permission of Cambridge Assessment Group Archives. The question remains Copyright University of Cambridge Local Examinations Syndicate (“UCLES”),\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.2",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "chain-rule"
+        },
+        {
+          "ugmSlug": "r9506",
+          "title": "When is this parabola's turning point nearest to the origin?",
+          "url": "https://undergroundmathematics.org/introducing-calculus/r9506",
+          "resourceType": "review-question",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "turning point of y=x^2-2ax+1 closest to the origin as a varies — stationary-point location with transformations as the alternative approach",
+          "examProvenance": {
+            "friendlyName": "r9506",
+            "station": {
+              "id": 16,
+              "friendlyId": "introducing-calculus",
+              "title": "Introducing Calculus"
+            },
+            "url": "https://undergroundmathematics.org/introducing-calculus/r9506",
+            "ref": 9506,
+            "isReviewQuestion": true,
+            "board": "Oxford (MAT)",
+            "qualification": null,
+            "paper": "University Mathematics Aptitude Test",
+            "paperCode": "Specimen 2",
+            "year": null,
+            "questions": [
+              "Q1F"
+            ],
+            "permission": "The University of Oxford",
+            "parseStatus": "parsed",
+            "provenance": "Oxford University Mathematics Aptitude Test, Specimen 2, Q1F",
+            "raw": "Oxford University Mathematics Aptitude Test, Specimen 2, Q1F\nQuestion reproduced by kind permission of The University of Oxford. The question remains Copyright The University of Oxford,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        },
+        {
+          "ugmSlug": "talking-about-curves",
+          "title": "Talking about curves",
+          "url": "https://undergroundmathematics.org/introducing-calculus/talking-about-curves",
+          "resourceType": "investigation",
+          "confidence": "medium",
+          "modesRecorded": [
+            1
+          ],
+          "evidence": "sign of the function vs sign of its gradient across turning regions — increasing/decreasing behaviour and stationary-point structure",
+          "examProvenance": {
+            "friendlyName": "talking-about-curves",
+            "station": {
+              "id": 16,
+              "friendlyId": "introducing-calculus",
+              "title": "Introducing Calculus"
+            },
+            "url": "https://undergroundmathematics.org/introducing-calculus/talking-about-curves",
+            "ref": 9261,
+            "isReviewQuestion": false,
+            "board": "NRICH",
+            "qualification": null,
+            "paper": null,
+            "paperCode": null,
+            "year": null,
+            "questions": [],
+            "permission": "NRICH",
+            "parseStatus": "non-exam-provenance",
+            "provenance": "Based on this NRICH resource , used with permission.",
+            "raw": "Based on this\nNRICH resource\n, used with permission. The NRICH resource remains Copyright University of Cambridge,\nAll rights reserved\n."
+          },
+          "hasTeacherSupport": false,
+          "codes": [
+            "1.7.3",
+            "1.7.4"
+          ],
+          "primaryPick": false,
+          "station": "introducing-calculus"
+        }
+      ]
+    }
+  },
+  "nonOverlapRows": [
+    {
+      "ugmSlug": "calculus-of-variations",
+      "title": "Calculus of variations—finding the best possible way",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/calculus-of-variations",
+      "resourceType": "bigger-picture",
+      "station": "calculus-of-powers",
+      "reason": "Calculus of variations bigger-picture excerpt — beyond P1 (excerpt/title-only capture)."
+    },
+    {
+      "ugmSlug": "integral-chasing",
+      "title": "Integral chasing",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/integral-chasing",
+      "resourceType": "fluency-exercise",
+      "station": "calculus-of-powers",
+      "reason": "Definite-integral fluency — 1.8 bearing, no differentiation tested."
+    },
+    {
+      "ugmSlug": "meaningful-areas",
+      "title": "Meaningful areas",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/meaningful-areas",
+      "resourceType": "investigation",
+      "station": "calculus-of-powers",
+      "reason": "Areas between curves by several routes — 1.8 bearing."
+    },
+    {
+      "ugmSlug": "queen-dido",
+      "title": "Queen Dido's problem",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/queen-dido",
+      "resourceType": "bigger-picture",
+      "station": "calculus-of-powers",
+      "reason": "Queen Dido bigger-picture excerpt — calculus-of-variations history (excerpt/title-only capture)."
+    },
+    {
+      "ugmSlug": "r5007",
+      "title": "What volume is generated when $y = ax - x^2$ is rotated about the x-axis?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r5007",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Area then volume of revolution for y=ax-x^2 — 1.8 bearings; no differentiation."
+    },
+    {
+      "ugmSlug": "r5584",
+      "title": "Can we find the centre of mass of a solid hemisphere?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r5584",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Solid of revolution and centre of mass — 1.8 and mechanics bearings."
+    },
+    {
+      "ugmSlug": "r6067",
+      "title": "Can we find the area under a parabola?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r6067",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "I(c) integral with a non-calculus inequality argument — 1.8 bearing."
+    },
+    {
+      "ugmSlug": "r6372",
+      "title": "Can we sketch the graph of $y^2 = x^3$?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r6372",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "y^2=x^3 sketch by symmetry then area and volume — 1.8 bearings; the sketch needs no differentiation."
+    },
+    {
+      "ugmSlug": "r7236",
+      "title": "When does this definite integral have a minimum?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r7236",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "I(a)=integral of (x^2-a)^2 — the definite-integral evaluation is load-bearing (1.8); the quadratic-in-a minimisation is a light wrapper."
+    },
+    {
+      "ugmSlug": "r7444",
+      "title": "Can we find the area inside a straight line, a parabola and the x-axis?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r7444",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Area between y=x^2 and a line — 1.8 bearing; intersections by quadratics."
+    },
+    {
+      "ugmSlug": "r7628",
+      "title": "If we take a slice from this sphere, where is its centre of gravity?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r7628",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Sphere-slice volume and centre of gravity — 1.8 and mechanics bearings."
+    },
+    {
+      "ugmSlug": "r7724",
+      "title": "Can we explain why this integral is zero?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r7724",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Zero integral by symmetry — 1.8 bearing."
+    },
+    {
+      "ugmSlug": "r8350",
+      "title": "When is the area of this region bigger than the area of this one?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r8350",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Area comparison f vs g — integration decisive (1.8 bearing)."
+    },
+    {
+      "ugmSlug": "r8716",
+      "title": "What happens if we integrate, then differentiate?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r8716",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "dI/da via the fundamental theorem with 2^(x^2) — beyond P1 1.7 (P3 bearings)."
+    },
+    {
+      "ugmSlug": "r8931",
+      "title": "What happens if we expand, then differentiate?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r8931",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Polynomial degree bookkeeping for d^2/dx^2 of products — leading-term arithmetic; the differentiation is a wrapper avoided by design."
+    },
+    {
+      "ugmSlug": "r9357",
+      "title": "Can we find the area between a parabola and a line?",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/r9357",
+      "resourceType": "review-question",
+      "station": "calculus-of-powers",
+      "reason": "Area between parabola and line MC — 1.8 bearing."
+    },
+    {
+      "ugmSlug": "stretch-the-function",
+      "title": "Stretch the function",
+      "url": "https://undergroundmathematics.org/calculus-of-powers/stretch-the-function",
+      "resourceType": "food-for-thought",
+      "station": "calculus-of-powers",
+      "reason": "Definite-integral scaling — 1.8 bearing."
+    },
+    {
+      "ugmSlug": "approximating-areas",
+      "title": "Approximating areas",
+      "url": "https://undergroundmathematics.org/introducing-calculus/approximating-areas",
+      "resourceType": "problem-requiring-decisions",
+      "station": "introducing-calculus",
+      "reason": "Area approximation and over/under-estimation — the trapezium-rule cluster is not in the 2023-2025 P1 spec (1.8 is analytic integration; no numerical-integration row)."
+    },
+    {
+      "ugmSlug": "average-speed",
+      "title": "Average speed",
+      "url": "https://undergroundmathematics.org/introducing-calculus/average-speed",
+      "resourceType": "food-for-thought",
+      "station": "introducing-calculus",
+      "reason": "Average-speed situations resolved by weighted means and graph reasoning — rate intuition without differentiation."
+    },
+    {
+      "ugmSlug": "discussing-distance",
+      "title": "Discussing distance",
+      "url": "https://undergroundmathematics.org/introducing-calculus/discussing-distance",
+      "resourceType": "problem-requiring-decisions",
+      "station": "introducing-calculus",
+      "reason": "Distance vs displacement graph interpretation — graph-reading skill, no differentiation tested."
+    },
+    {
+      "ugmSlug": "newton-and-leibniz",
+      "title": "Newton and Leibniz",
+      "url": "https://undergroundmathematics.org/introducing-calculus/newton-and-leibniz",
+      "resourceType": "bigger-picture",
+      "station": "introducing-calculus",
+      "reason": "Newton and Leibniz history excerpt — no testable calculus skill (excerpt/title-only capture)."
+    },
+    {
+      "ugmSlug": "r5642",
+      "title": "When does the trapezium rule give the exact answer here?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r5642",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Trapezium-rule exactness MC — not in the 2023-2025 P1 spec."
+    },
+    {
+      "ugmSlug": "r5782",
+      "title": "At what time would these two trains meet?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r5782",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Average-speed arithmetic for two trains — no differentiation."
+    },
+    {
+      "ugmSlug": "r6841",
+      "title": "What is the stopping distance for this car?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r6841",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Stopping distance via uniform retardation — mechanics suvat, no differentiation."
+    },
+    {
+      "ugmSlug": "r7140",
+      "title": "What's the average speed of the second car?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r7140",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Average-speed arithmetic — no differentiation."
+    },
+    {
+      "ugmSlug": "r7250",
+      "title": "Can we calculate the total time taken for this car journey?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r7250",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Speed-time graph: straight-section gradients and areas — arithmetic graph work (mechanics context), no curve differentiation."
+    },
+    {
+      "ugmSlug": "r7903",
+      "title": "Can the trapezium rule help us find the area under $y = x\\ln x$?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r7903",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Derivation of the trapezium rule — not in the 2023-2025 P1 spec."
+    },
+    {
+      "ugmSlug": "r8140",
+      "title": "Can we apply the trapezium rule to $f(x) = x/2 - \\lfloor x/2 \\rfloor$?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r8140",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Trapezium rule on a floor-function integrand — not in the 2023-2025 P1 spec."
+    },
+    {
+      "ugmSlug": "r9586",
+      "title": "What is the acceleration of this particle?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/r9586",
+      "resourceType": "review-question",
+      "station": "introducing-calculus",
+      "reason": "Constant-acceleration suvat — mechanics kinematics, no differentiation tested."
+    },
+    {
+      "ugmSlug": "rectangles-in-triangles",
+      "title": "Rectangles in triangles",
+      "url": "https://undergroundmathematics.org/introducing-calculus/rectangles-in-triangles",
+      "resourceType": "many-ways-problem",
+      "station": "introducing-calculus",
+      "reason": "Rectangle-in-triangle maximisation explicitly without calculus — the tested skill is geometric reasoning (similar triangles/algebra)."
+    },
+    {
+      "ugmSlug": "serpentine-lake",
+      "title": "Is the Serpentine Lake really 40 acres?",
+      "url": "https://undergroundmathematics.org/introducing-calculus/serpentine-lake",
+      "resourceType": "building-blocks",
+      "station": "introducing-calculus",
+      "reason": "Serpentine lake area by trapezia — not in the 2023-2025 P1 spec."
+    },
+    {
+      "ugmSlug": "underneath-the-arches",
+      "title": "Underneath the arches",
+      "url": "https://undergroundmathematics.org/introducing-calculus/underneath-the-arches",
+      "resourceType": "investigation",
+      "station": "introducing-calculus",
+      "reason": "Trapezium-rule over/underestimates from concavity — not in the 2023-2025 P1 spec."
+    }
+  ],
+  "crossLaneAligned": [
+    {
+      "ugmSlug": "r5640",
+      "station": "chain-rule",
+      "title": "Can we find the minimum value of $x^2+2/x$ for $x$ positive?",
+      "url": "https://undergroundmathematics.org/chain-rule/r5640",
+      "resourceType": "review-question",
+      "confidence": "medium",
+      "modesRecorded": [
+        1
+      ],
+      "note": "part 2 minimises x^2+2/x for positive x (derivative 2x-2/x^2) and part 3 differentiates the composite (x^2+2/x)^8 — one-to-many extensions; the recorded 1.6.1 alignment (lane 6) stands",
+      "codes": [
+        "1.7.2",
+        "1.7.4"
+      ],
+      "textOfRecordUnder": "UGM-Resources/pure-1-series",
+      "ofRecordLane": "series"
+    },
+    {
+      "ugmSlug": "r7115",
+      "station": "chain-rule",
+      "title": "When does this cone have a maximum volume?",
+      "url": "https://undergroundmathematics.org/chain-rule/r7115",
+      "resourceType": "review-question",
+      "confidence": "high",
+      "modesRecorded": [
+        1
+      ],
+      "note": "cone of fixed sheet-metal area with maximum volume — canonical constrained optimisation; the lane-4 non-overlap row of record explicitly names 1.7 as the tested skill (deferred substrate), and this join records the fact without touching the lane-4 text",
+      "codes": [
+        "1.7.4"
+      ],
+      "textOfRecordUnder": "UGM-Resources/pure-1-circular-measure",
+      "ofRecordLane": "circular-measure"
+    },
+    {
+      "ugmSlug": "r8936",
+      "station": "product-rule",
+      "title": "When will the arclength $QR$ take a maximum value?",
+      "url": "https://undergroundmathematics.org/product-rule/r8936",
+      "resourceType": "review-question",
+      "confidence": "medium",
+      "modesRecorded": [
+        1
+      ],
+      "note": "arclength QR maximised as the circle-centre distance varies — a one-to-many optimisation extension; the recorded 1.4.1 alignment (lane 4) stands",
+      "codes": [
+        "1.7.4"
+      ],
+      "textOfRecordUnder": "UGM-Resources/pure-1-circular-measure",
+      "ofRecordLane": "circular-measure"
+    }
+  ],
+  "sweepRouting": {
+    "additional-integrals": "1.8 bearings (linearity of the integral)",
+    "can-you-find-chain-rule-edition": "P3 Differentiation (chain-rule construction with general/ln composites)",
+    "choose-your-families": "Open graph-classification task — calculus features optional, never load-bearing",
+    "differentiating-exponentials": "P3 Differentiation (derivative of a^x; excerpt/title-only capture)",
+    "how-does-your-rectangle-grow": "P3 Differentiation (product-rule visual derivation d(uv)=u'v+uv')",
+    "implicit-circles": "P3 bearings (implicit differentiation intro; the P1 route is the 1.3 radius-perpendicularity)",
+    "integral-chasing-2": "P3 Integration (integral-chasing II)",
+    "integral-sorting": "P3 Integration (integral-substitution matching)",
+    "inverse-integrals-teacher-support": "Teacher-support notes (inverse integrals lesson) — outside P1",
+    "keep-your-distance": "Modelling investigation (traffic flow) — the flow-rate maximum is investigated graphically/numerically, not by clean P1 calculus",
+    "odd-one-out": "Mixed function properties (trig/translates in play; no P1 1.7 skill load-bearing)",
+    "parametric-paths": "P3 (parametric curve sketching)",
+    "parametric-points": "P3 Differentiation (parametric stationary points via the chain rule)",
+    "parametric-preliminaries": "P3 (parametric equations introduction)",
+    "powerful-derivatives": "P3 Differentiation bearings (real-index power rule proved via exponentials/logarithms — the P1 rule covers rational n; lane-6 routing recorded)",
+    "r5053": "P3/further conics (parabola normals via implicit/parametric differentiation)",
+    "r5090": "1.2 Functions (bilateral symmetry f(x)=f(2alpha-x); proof skill)",
+    "r5126": "P3 Integration (trig/log integrals)",
+    "r5237": "P3/further conics (ellipse normal; implicit differentiation)",
+    "r5251": "P3 Differentiation (trig derivatives: d/dx cos 3x via the chain rule)",
+    "r5324": "Trapezium rule — not in the 2023-2025 P1 spec",
+    "r5376": "P3 Differentiation (implicit differentiation of conics meeting at right angles)",
+    "r5501": "P3 Differentiation (turning points of x^2/(1+x^4); quotient rule)",
+    "r5678": "P3/further conics (hyperbola tangent; parabola focus geometry)",
+    "r5696": "P3 Differentiation (parametric curve normals)",
+    "r5739": "1.1 Quadratics / curve-sketch case analysis (tangency via discriminants; no differentiation load-bearing)",
+    "r5990": "P3 Differentiation (trig derivatives + chain rule; identity deduction)",
+    "r6530": "P3 Differentiation (e^(2x)(2cos3x+3sin3x))",
+    "r6549": "P3 Differentiation (stationary points of cot x - 8cos x)",
+    "r6620": "P3 Differentiation (gradient x(1-x^2)e^(-x^2))",
+    "r6710": "P3/further conics (ellipse tangent and normal at the focus-above point)",
+    "r6843": "P3/further conics (ellipse chord equation; trig manipulation)",
+    "r6855": "1.2/Algebra bearings (rational sketch by difference of squares)",
+    "r6863": "1.2/Algebra bearings (rational sketch plus y^2 version; sign analysis)",
+    "r6938": "P3 Differentiation (turning points of sin x + cos x)",
+    "r7042": "P3/further conics (parabola-ellipse right-angle intersection; implicit/parametric)",
+    "r7074": "P3 Differentiation (maxima of sin 2x / sin x)",
+    "r7129": "1.1 Quadratics bearings (discriminant range analysis)",
+    "r7410": "P3 Differentiation (product rule intended for x(5-x)^4; the P1 binomial-expansion route exists but is not the designed path)",
+    "r7431": "P3 Differentiation (derivative of ln(1+x^2); inequality deduction)",
+    "r7461": "1.2 Functions (transformations f(-x), f(x-1), -f(x)); the I(c) clause is a translation argument, not calculus",
+    "r7616": "P3 Integration (product of trig integrals sign analysis)",
+    "r7792": "P3 Differentiation + algebra (partial fractions then dy/dx; P3 bearings)",
+    "r7833": "P3 Differentiation (implicit tangents to hyperbolas; square construction)",
+    "r8071": "P3/Mechanics bearings (SHM: s=12sin(3t/2); trig derivatives)",
+    "r8130": "1.8 bearings (area as a sum of integrals)",
+    "r8134": "P3 Differentiation/Integration (reduction for e^(-x)sin^n x)",
+    "r8152": "1.8/P3 bearings (average density by integration)",
+    "r8387": "P3 Differentiation (product rule intended for x(x+1)(x-2)^4)",
+    "r8396": "1.8 bearings (integral inequality)",
+    "r8620": "P3 Differentiation (parametric dy/dx and normal)",
+    "r8671": "P3 Differentiation (x^(1/x) via logarithmic differentiation)",
+    "r8694": "P3 Integration (tan^3 and substitution integrals)",
+    "r8765": "1.1 Quadratics bearings (rational range via discriminant)",
+    "r8774": "1.8/Mechanics bearings (displacement from velocity by integration)",
+    "r8778": "P3 Integration (substitution integrals incl. sec^4)",
+    "r8836": "1.8/Mechanics bearings (cylinder centre of mass by integration)",
+    "r8890": "P3 Integration (integration by substitution)",
+    "r8939": "P3 Differentiation (parametric sec/tan normal)",
+    "r8987": "1.3/Geometry (hexagon area 2(x^2+xy+y^2); no calculus)",
+    "r9085": "P3 Differentiation (tangent to 1/(1+x^2) — non-linear-inner composite)",
+    "r9297": "P3 Differentiation/Integration (tan^3 derivative, tan^4 integral)",
+    "r9325": "P3/further conics (ellipse tangent meeting x=a)",
+    "r9329": "1.1 Quadratics bearings (rational range; inflection clause is P3)",
+    "r9391": "1.1 Quadratics bearings (rational range via discriminant)",
+    "r9413": "P3/further conics (epicycloid normal; parametric trig)",
+    "r9484": "P3 Differentiation bearings (dy/dx of e^(-x)/(1+x^2) needs the quotient rule and exp; lane-6 routing's 1.7 curve-sketching pointer recorded honestly as P3-bearing)",
+    "r9795": "P3 Differentiation (product + chain rule on (x+6)^7(x-9)^8)",
+    "r9809": "P3/further conics (parabola normals; implicit/parametric)",
+    "r9898": "P3 Differentiation (stationary points of (x-a)e^x/(x-b))",
+    "reflecting-on-change": "P3 Differentiation (inverse-function derivative intuition)",
+    "rotating-derivatives": "P3 Differentiation (derivatives of sin/cos via circular motion)",
+    "similar-derivatives": "P3 Differentiation (derivatives of tan/sec/cot/cosec)",
+    "sine-on-the-dotted-line": "1.8/P3 bearings (areas under sin x)",
+    "sine-stretching": "P3 Differentiation (derivative of sin(ax))",
+    "slippery-areas": "1.8 bearings (areas under transformed graphs)",
+    "stretching-an-integral": "P3 Integration (stretching 1/x toward ln)",
+    "the-law-of-reflection-and-saving-time": "P3 bearings (chain rule for the reflection law; excerpt/title-only capture)",
+    "thinking-constantly": "1.8/Mechanics bearings (integration constants in kinematics)",
+    "to-the-limit": "P3 Differentiation bearings (chord-limit machinery is 1.7.1 but the target a^x carries P3 bearings)",
+    "trig-gradient-match": "P3 Differentiation (trig gradient-function matching)",
+    "trigsy-integrals": "P3 Integration (trig and inverse-trig integrals)",
+    "two-for-one": "P3 Integration (ln|x| and the modulus)",
+    "two-way-calculus-teacher-support": "Teacher-support notes for two-way-calculus (the aligned main task carries the mapping; teacher-support pages ship only alongside substrate mains)",
+    "what-else-do-you-know": "1.8 bearings (areas under transformed functions)",
+    "which-substitution": "P3 Integration (substitution on 1/sqrt(1-x^2))"
+  }
+}
