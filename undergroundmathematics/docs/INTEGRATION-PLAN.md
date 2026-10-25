@@ -462,13 +462,43 @@ worth doing regardless of any Mode-3 outcome.
       new-text files — converter pre-flight 80/80 byte-identity vs the
       lane-8 AND lane-9 AND lane-10 AND lane-11 of-record bodies); hub
       consumption (`T-UGM-HUB-CONSUME-12`) pending on the syllabai-v2 side
+- [x] **thirteenth lane — CIE 9709 **Pure 3** 3.5 Integration (operator:
+      "review+merge #373 then lane 13"; the fifth lane on the pure-3
+      course plane and the FIRST LANE OF RECORD WITH AN HONEST EMPTY
+      SPEC POINT)** — #373 (T-UGM-HUB-CONSUME-12) verified already merged
+      of record at arrival (`bf3a7fbe`, r0-auto — the third interception
+      after #347/#371) with the fail-closed post-merge pipeline ALL GREEN
+      (4 blobs byte-identical head↔main; census exact; gates green) — the
+      integration substrate concentrates on the calculus-trig-log,
+      chain-rule and product-rule stations, so the lane-10/11/12
+      pre-baked "P3 3.5 Integration" bearing pool converts or declines:
+      cross-map of record `cross-map-p3-integration.json` @ `21845f3f`
+      (corpus sweep 855 → 102 candidates resolved as 23 aligned rows —
+      16 fresh rows (15 of them promotions of the bearing pool
+      superseding their stale rows of record) + 1 cross-course flip by
+      reference (circular-slice riding its lane-4 body) + 6 one-to-many
+      joins beside standing alignments (r7616, r8774, r9312, r9701,
+      r8694, r5126)) + 11 fresh non-overlaps by reference
+      (`bodyImported: false`; 5 superseding stale bearing rows) + 68
+      rejected with reasons (every one verified against its solution of
+      record); **3.5.4 carries the honest zero** (no f′(x)/f(x) resource
+      exists corpus-wide — rule 3); primary picks r8679 / r9297 / r5126
+      (rides its lane-9 body — the r6018 convention disclosed) / r8134 /
+      r8890; corpus + facts filed as
+      **[syllabai-resources#140](https://github.com/SyllabAI/syllabai-resources/pull/140)**
+      (tasks `T-UGM-MODE1-13` + `T-UGM-IMPORT-13`, MANIFEST v14, 16
+      new-text files — converter pre-flight 120/120 byte-identity vs the
+      lane-8/9/10/11/12 of-record bodies; plus the lane-12 LEDGER restore
+      the #136 clobber had reverted); hub consumption
+      (`T-UGM-HUB-CONSUME-13`) pending on the syllabai-v2 side
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
-      lanes 9–12 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
-      and exponential functions, 3.3 Trigonometry and 3.4 Differentiation;
-      the recorded next substrate is 3.5 Integration — the lane-12
-      non-overlaps already carry 7 fresh P3-3.5 routings beside the
-      lane-10/11 routed rows and the lane-8 P3-integration routings —
-      then 3.6–3.9; ordering is the operator's call)
+      lanes 9–13 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
+      and exponential functions, 3.3 Trigonometry, 3.4 Differentiation and
+      3.5 Integration; the recorded next substrate is 3.6 Numerical
+      iteration (the spine's root-location/iterative-formula rows — the
+      UGM calculus-meets-functions and introducing-calculus substrates
+      hold the iteration content) — then 3.7–3.9; ordering is the
+      operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station and strand

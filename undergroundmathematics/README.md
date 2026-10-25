@@ -227,12 +227,31 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   picks r6938 / r6530 / r8620 (all fresh);
   enrichment + 40 new-text bodies filed as `syllabai-resources#134`,
   MANIFEST v13 — 589 files corpus-wide; hub `T-UGM-HUB-CONSUME-12`
+  merged of record `bf3a7fbe` (r0-auto; post-merge verified ALL GREEN —
+  4 blobs byte-identical head↔main, pin `main@bb78ae37`).
+  **lane 13 the integration plane → CIE 9709 Pure 3 3.5
+  Integration** — the fifth lane on the pure-3 course plane and the
+  first lane of record with an honest empty spec point (operator:
+  "review+merge #373 then lane 13"; cross-map
+  `cross-map-p3-integration.json` @ `21845f3f`, 102 sweep
+  candidates: 23 aligned rows — 16 fresh (15 promotions of the
+  lane-10/11/12 pre-baked "P3 3.5 Integration" bearing pool
+  superseding their stale rows of record) + 1 cross-course flip by
+  reference (circular-slice riding its lane-4 body under
+  pure-1-circular-measure) + 6 one-to-many joins beside standing
+  alignments (r7616, r8774, r9312, r9701, r8694, r5126) — plus 11
+  fresh non-overlaps by reference (`bodyImported: false`; 5
+  superseding stale bearing rows) + 68 rejected with reasons;
+  3.5.4 carries the honest zero of record; primary picks r8679 /
+  r9297 / r5126 / r8134 / r8890;
+  enrichment + 16 new-text bodies filed as `syllabai-resources#140`,
+  MANIFEST v14 — 605 files corpus-wide; hub `T-UGM-HUB-CONSUME-13`
   pending). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #134 review/merge on operator ack; further lanes by operator
-  ordering (lanes 9–12 opened the pure-3 plane — 3.5 Integration is the
-  natural lane 13 via the lane-12 3.5-routed non-overlaps and the
-  lane-10/11 technique pools) — recipe of record in
-  `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.
+- Next: #140 review/merge on operator ack; further lanes by operator
+  ordering (lanes 9–13 opened the pure-3 plane — 3.6 Numerical iteration
+  is the natural lane 14 per the spine's root-location rows) — recipe of
+  record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still
+  pending.
