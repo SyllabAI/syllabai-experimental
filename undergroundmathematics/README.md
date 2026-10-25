@@ -306,7 +306,7 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #149 review/merge on operator ack (then `T-UGM-HUB-CONSUME-15`);
+- Served of record: #149 reviewed ALL GREEN and merged at `b151f65a`; `T-UGM-HUB-CONSUME-15` = syllabai-v2#383 merged at `25615d68` (7 lanes / 149 bodies / 31 spec points / both honest gaps — 3.5.4 + 3.7.7 designed; the r8456 promotion supersede; picks all-fresh); corpus pin `main@b151f65a`; next 3.8 (then 3.9)
   further lanes by operator ordering (lanes 9–15 opened the pure-3
   plane — 3.8 is the natural lane 16 per the spine's remaining
   SUB3.8–SUB3.9 rows) — recipe of record in `docs/INTEGRATION-PLAN.md`

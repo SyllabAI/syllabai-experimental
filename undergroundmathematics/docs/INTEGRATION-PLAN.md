@@ -542,7 +542,12 @@ worth doing regardless of any Mode-3 outcome.
       corpus + facts filed as **[syllabai-resources#149](https://github.com/SyllabAI/syllabai-resources/pull/149)**
       (tasks `T-UGM-MODE1-15` + `T-UGM-IMPORT-15`, MANIFEST v15 → v16, 20 new-text files — converter
       pre-flight 139/139 byte-identity vs the lane-8..14 of-record bodies); hub consumption
-      (`T-UGM-HUB-CONSUME-15`) pending on the syllabai-v2 side
+      **SERVED of record**: #149 reviewed ALL GREEN (23/23 pipeline + of-record audit transfer + manual
+      reads) and merged at `b151f65a` (trace `1a17527331af8cdd`, no r0-auto interception, sha-guarded,
+      post-merge pipeline 6/6); `T-UGM-HUB-CONSUME-15` opened as syllabai-v2#383 (head `fe21c1df`:
+      DEFAULT_REF → main@b151f65a, the 21-station sweep-closure lane block, bundle 7 lanes / 149 bodies /
+      31 spec points / 94 byref / both honest gaps) and **merged at `25615d68`** (CI hub+verify success,
+      regression law 54/54, post-merge pipeline 7/7) — the pure-3 hub serve spans 7 lanes
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
       lanes 9–15 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
       and exponential functions, 3.3 Trigonometry, 3.4 Differentiation,
