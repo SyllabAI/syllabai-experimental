@@ -246,12 +246,30 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   r9297 / r5126 / r8134 / r8890;
   enrichment + 16 new-text bodies filed as `syllabai-resources#140`,
   MANIFEST v14 — 605 files corpus-wide; hub `T-UGM-HUB-CONSUME-13`
-  pending). Mode-2 deep-link
+  merged of record `861250a1` — reviewed 33/33 ALL GREEN at `aa4eed74`
+  and merged by the operator gate (the first un-intercepted
+  review+merge order of the programme).
+  **lane 14 the numerical-methods plane → CIE 9709 Pure 3 3.6
+  Numerical solution of equations** — the sixth lane on the pure-3
+  course plane (operator: "review+merge #377 then 'lane 14'");
+  cross-map `cross-map-p3-iteration.json` @ `2d93dd7d`, 48 candidates
+  of record: 11 aligned rows — 3 fresh (r8711, r8013,
+  staircase-sequences) + 1 cross-course flip by reference (r8404
+  riding its unmapped-by-design lane-6 body under pure-1-series:
+  the circular-slice precedent) + 7 one-to-many joins beside
+  standing alignments (r8231, r8679, r7549, r5948,
+  to-log-or-not-to-log, see-the-power, r9082) — plus 1 companion
+  non-overlap by reference (staircase-sequences-revisited) + 36
+  rejected with reasons; no honest gap this lane (8/3/4 rows); picks
+  r8711 / r8404 (rides its lane-6 body — disclosed) / r8231 (rides
+  its lane-3 body — disclosed); enrichment + 3 new-text bodies filed
+  as `syllabai-resources#145`, MANIFEST v15 — 608 files corpus-wide;
+  hub `T-UGM-HUB-CONSUME-14` pending on the syllabai-v2 side. Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #140 review/merge on operator ack; further lanes by operator
-  ordering (lanes 9–13 opened the pure-3 plane — 3.6 Numerical iteration
-  is the natural lane 14 per the spine's root-location rows) — recipe of
+- Next: #145 review/merge on operator ack; further lanes by operator
+  ordering (lanes 9–14 opened the pure-3 plane — 3.7 is the natural
+  lane 15 per the spine's remaining SUB3.7–SUB3.9 rows) — recipe of
   record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still
   pending.

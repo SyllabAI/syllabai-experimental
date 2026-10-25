@@ -491,13 +491,35 @@ worth doing regardless of any Mode-3 outcome.
       lane-8/9/10/11/12 of-record bodies; plus the lane-12 LEDGER restore
       the #136 clobber had reverted); hub consumption
       (`T-UGM-HUB-CONSUME-13`) pending on the syllabai-v2 side
+- [x] **fourteenth lane — CIE 9709 **Pure 3** 3.6 Numerical solution of equations (operator:
+      "review+merge #377 then \"lane 14\""; the sixth lane on the pure-3 course plane)** — #377
+      (T-UGM-HUB-CONSUME-13) reviewed 33/33 ALL GREEN and MERGED of record at `861250a1` BEFORE the lane
+      opened (the eyeball gate stayed ours — the first un-intercepted review+merge order of the programme;
+      lane-13 SERVED, hub pure-3 plane at 5 lanes); the lane inverts lane-13: NO pre-baked bearing pool
+      exists (no prior lane ever routed rows to 'P3 3.6'), and the iteration content is scattered across
+      nine stations — so the lane joins heavily: cross-map of record
+      `cross-map-p3-iteration.json` @ `2d93dd7d` (corpus sweep 855 → 48 candidates of record resolved as
+      11 aligned rows — 3 fresh rows (r8711 3.6.1 the purest sign-change search; r8013 3.6.1 graphical
+      solution of 3^x=3x+2; staircase-sequences 3.6.2+3.6.3 the x = 1 + 1/x fixed point) + 1 cross-course
+      flip by reference (r8404 riding its unmapped-by-design lane-6 body under pure-1-series — the
+      circular-slice precedent, first flip whose prior body carried no spec assertion) + 7 one-to-many
+      joins beside standing alignments (r8231 Newton-Raphson + trial-and-improvement to 3 d.p.; r8679 the
+      numerical-canon survey on the lane-13 pick body; r7549; r5948 the chord-intercept
+      linear-interpolation formula; to-log-or-not-to-log; see-the-power; r9082)) + 1 fresh non-overlap by
+      reference (staircase-sequences-revisited, the companion disclosure) + 36 rejected with reasons
+      (every one verified against its solution of record); **no honest gap this lane** (3.6.1 carries 8
+      rows, 3.6.2 three, 3.6.3 four); primary picks r8711 (fresh) / r8404 (rides its lane-6 body — the
+      r6018 convention disclosed) / r8231 (rides its lane-3 body — disclosed); corpus + facts filed as
+      **[syllabai-resources#145](https://github.com/SyllabAI/syllabai-resources/pull/145)**
+      (tasks `T-UGM-MODE1-14` + `T-UGM-IMPORT-14`, MANIFEST v14 → v15, 3 new-text files — converter
+      pre-flight 136/136 byte-identity vs the lane-8..13 of-record bodies); hub consumption
+      (`T-UGM-HUB-CONSUME-14`) pending on the syllabai-v2 side
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
-      lanes 9–13 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
-      and exponential functions, 3.3 Trigonometry, 3.4 Differentiation and
-      3.5 Integration; the recorded next substrate is 3.6 Numerical
-      iteration (the spine's root-location/iterative-formula rows — the
-      UGM calculus-meets-functions and introducing-calculus substrates
-      hold the iteration content) — then 3.7–3.9; ordering is the
+      lanes 9–14 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
+      and exponential functions, 3.3 Trigonometry, 3.4 Differentiation,
+      3.5 Integration and 3.6 Numerical solution of equations; the recorded
+      next substrate is 3.7 (then 3.8–3.9) per the spine's remaining SUB3.7–SUB3.9
+      rows of record; ordering is the
       operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
