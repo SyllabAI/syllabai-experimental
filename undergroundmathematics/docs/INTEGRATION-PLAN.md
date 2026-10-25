@@ -512,8 +512,13 @@ worth doing regardless of any Mode-3 outcome.
       r6018 convention disclosed) / r8231 (rides its lane-3 body — disclosed); corpus + facts filed as
       **[syllabai-resources#145](https://github.com/SyllabAI/syllabai-resources/pull/145)**
       (tasks `T-UGM-MODE1-14` + `T-UGM-IMPORT-14`, MANIFEST v14 → v15, 3 new-text files — converter
-      pre-flight 136/136 byte-identity vs the lane-8..13 of-record bodies); hub consumption
-      (`T-UGM-HUB-CONSUME-14`) pending on the syllabai-v2 side
+      pre-flight 136/136 byte-identity vs the lane-8..13 of-record bodies); #145 MERGED of
+      record `8b3e57b9` (eyeballed ALL GREEN at `6d0719e9` — blob identity ×8, census recount,
+      drift law); hub consumption `T-UGM-HUB-CONSUME-14` filed as
+      [syllabai-v2#380](https://github.com/SyllabAI/syllabai-v2/pull/380) (head `4e824ff4` —
+      pin advance + the twenty-station block + the cross-course pick normalization law, the
+      r8404 string-form pick catch; bundle of record 6 lanes / 24 spec points / 201 rows /
+      129 bodies; 54/54 GREEN; NOT self-merged)
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
       lanes 9–14 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
       and exponential functions, 3.3 Trigonometry, 3.4 Differentiation,

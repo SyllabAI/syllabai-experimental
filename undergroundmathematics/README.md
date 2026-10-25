@@ -263,12 +263,23 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   rejected with reasons; no honest gap this lane (8/3/4 rows); picks
   r8711 / r8404 (rides its lane-6 body — disclosed) / r8231 (rides
   its lane-3 body — disclosed); enrichment + 3 new-text bodies filed
-  as `syllabai-resources#145`, MANIFEST v15 — 608 files corpus-wide;
-  hub `T-UGM-HUB-CONSUME-14` pending on the syllabai-v2 side. Mode-2 deep-link
+  as `syllabai-resources#145` and **MERGED of record `8b3e57b9`** —
+  eyeballed ALL GREEN at `6d0719e9` (blob identity remote == local ==
+  staged ×8, census recount 48 = 11 + 1 + 36 exact, drift law verified:
+  base ancestor with zero net UGM/LEDGER traffic past `4d857c47`), the
+  eyeball gate stayed ours on the resources side too, MANIFEST v15 —
+  608 files corpus-wide; hub `T-UGM-HUB-CONSUME-14` filed as
+  [`syllabai-v2#380`](https://github.com/SyllabAI/syllabai-v2/pull/380)
+  (head `4e824ff4`, 4 files +600/−83: DEFAULT_REF → `main@8b3e57b9`, the
+  twenty-station LANE_STATIONS block, the cross-course pick normalization
+  law — the r8404 string-form pick catch, first corpus CLA row to NAME its
+  pick — bundle of record 6 lanes / 24 spec points / 201 rows / 129
+  bodies / memberships 151; gates 54/54 + scoped tsc clean; NOT
+  self-merged). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #145 review/merge on operator ack; further lanes by operator
+- Next: #380 review/merge on operator ack; further lanes by operator
   ordering (lanes 9–14 opened the pure-3 plane — 3.7 is the natural
   lane 15 per the spine's remaining SUB3.7–SUB3.9 rows) — recipe of
   record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still
