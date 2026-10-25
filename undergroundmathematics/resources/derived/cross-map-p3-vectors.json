@@ -1,0 +1,1671 @@
+{
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.7 Vectors",
+  "specPoints": [
+   "3.7.1",
+   "3.7.2",
+   "3.7.3",
+   "3.7.4",
+   "3.7.5",
+   "3.7.6",
+   "3.7.7"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json — the seven rows 3.7.1-3.7.7 are the spine rows of record verbatim (SUB3.7 'Vectors', orders 25-31) — parse artifacts carried verbatim (interleaved/dropped math runs in the notation rows), no fold fragments; 3.7.7 is the exclusion row and carries zero rows by rule"
+ },
+ "pilot": "P3c generalisation lane 15 - CIE 9709 Pure 3 subtopic 3.7 Vectors (operator order: 'review+merge #380 then lane 15', trace 1a17517043e12b39; lane-15 identity named of record by the lane-13/14 findings: 'Lane 15 = 3.7 per the spine's remaining SUB3.7-SUB3.9 rows' — the served spine titles SUB3.7 'Vectors', spec points 3.7.1-3.7.7 orders 25-31)",
+ "generatedAt": "2026-10-26",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts (the lane-12 convention; no mode-[4] exemplar flags were needed this lane).",
+ "perSpecPoint": {
+  "3.7.1": {
+   "officialCode": "3.7.1",
+   "officialText": "use standard notations for vectors, i.e. f p , x i + y j , f p y , x i + y j + z k , AB , a",
+   "spineTitleVerbatim": "use standard notations for vectors, i.e. f p , x i + y j , f p y , x i + y j + z k , AB , a",
+   "primaryPick": "hit-the-spot",
+   "resources": [
+    {
+     "ugmSlug": "hit-the-spot",
+     "station": "vector-geometry",
+     "title": "Hit the spot",
+     "url": "https://undergroundmathematics.org/vector-geometry/hit-the-spot",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The task has students 'select vectors from a list so that the sum of the vectors gets you from the start to the target', converting between representations ('has magnitude' cards, direction phrases, component form) — 3.7.1's standard-notation work at card level; the follow-ups ask what shape the two equal-sum routes form (the parallelogram law of addition) and whether multiples (including negatives) also reach the target — scalar multiplication and its geometrical interpretation, 3.7.2. Medium: the register is informal (descriptions and diagrams) rather than i-j-k formalism.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.1",
+      "3.7.2"
+     ],
+     "primaryPick": "hit-the-spot"
+    },
+    {
+     "ugmSlug": "r9629",
+     "station": "vector-geometry",
+     "title": "When are these vectors parallel/perpendicular/the same length?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r9629",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The resource classifies vector pairs as 'is parallel to / is perpendicular to / have the same length': the solutions establish parallel iff one is a scalar multiple of the other, perpendicular in 2D iff the gradients multiply to -1, and equal magnitude via Pythagoras on the components — the component notation and magnitude computation of 3.7.1/3.7.3 with the scaling-parallelism geometry of 3.7.2's territory (coded 3.7.1/3.7.3: the classification language — parallel/perpendicular/magnitude — is exactly the notation-and-magnitude core).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.1",
+      "3.7.3"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.7.2": {
+   "officialCode": "3.7.2",
+   "officialText": "carry out addition and subtraction of vectors and multiplication of a vector by a scalar, and interpret these operations in geometrical terms The general form of the ratio theorem is not included, but understanding that the midpoint of",
+   "spineTitleVerbatim": "carry out addition and subtraction of vectors and multiplication of a vector by a scalar, and interpret these operations in geometrical terms The general form of the ratio theorem is not included, but understanding that the midpoint of",
+   "primaryPick": "r8215",
+   "resources": [
+    {
+     "ugmSlug": "hit-the-spot",
+     "station": "vector-geometry",
+     "title": "Hit the spot",
+     "url": "https://undergroundmathematics.org/vector-geometry/hit-the-spot",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The task has students 'select vectors from a list so that the sum of the vectors gets you from the start to the target', converting between representations ('has magnitude' cards, direction phrases, component form) — 3.7.1's standard-notation work at card level; the follow-ups ask what shape the two equal-sum routes form (the parallelogram law of addition) and whether multiples (including negatives) also reach the target — scalar multiplication and its geometrical interpretation, 3.7.2. Medium: the register is informal (descriptions and diagrams) rather than i-j-k formalism.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.1",
+      "3.7.2"
+     ],
+     "primaryPick": "hit-the-spot"
+    },
+    {
+     "ugmSlug": "r5153",
+     "station": "vector-geometry",
+     "title": "If $C$ is on this line, can we find the ratio $AC:CB$?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r5153",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If C is on this line, can we find the ratio AC:CB?' — section division of a line by a point expressed in position vectors; the spec's 3.7.2 text explicitly excepts only the GENERAL ratio theorem while requiring 'understanding that the midpoint of a line segment...' — specific-ratio division of a line by vector addition is the included core.",
+     "examProvenance": "Also at /original-documents/misc/sam-0469.jpg",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r5992",
+     "station": "vector-geometry",
+     "title": "If $ABCDEFGH$ is a regular octagon, what do these vectors add to?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r5992",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If ABCDEFGH is a regular octagon, what do these vectors add to?' — the well sequences vector sums around a regular polygon (AB + BC + ... chains, diagonals as differences), and the solutions read the resultants off the symmetry ('What can we say about the lines... is parallel to') — vector addition and subtraction interpreted in geometrical terms, 3.7.2 verbatim.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r7285",
+     "station": "vector-geometry",
+     "title": "If $A$, $P$ and $B$ are collinear, what's the value of $\\lambda$?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r7285",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If A, P and B are collinear, what is the value of lambda?' — the solution writes OP = OL + lambda*LM, expands in the basis {a, b}, and invokes unique decomposition ('any vector in the plane can be written uniquely as') to solve 3*lambda = mu and 1/2 + lambda/2 = mu — collinearity via position vectors (3.7.3) riding vector algebra with geometrical meaning (3.7.2).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2",
+      "3.7.3"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8215",
+     "station": "vector-geometry",
+     "title": "What is the position vector of $D$ if $ABCD$ is a parallelogram?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8215",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Two-part position-vector exercise: (i) 'What is the position vector of D if ABCD is a parallelogram?' — the parallelogram law AB = DC rearranged for the fourth vertex; (ii) collinearity with a parameter ('The position vectors of points ... are collinear', 'collinear if and only if') — addition/subtraction geometry (3.7.2) and position-vector collinearity reasoning (3.7.3) in one exam-register question. PICK 3.7.2: the purest parallelogram-law exercise in the corpus.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2",
+      "3.7.3"
+     ],
+     "primaryPick": "r8215"
+    },
+    {
+     "ugmSlug": "r8339",
+     "station": "vector-geometry",
+     "title": "What if we join the midpoints of opposite sides of a quadrilateral?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8339",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'What if we join the midpoints of opposite sides of a quadrilateral?' — the solution computes midpoints as position vectors ((a+b)/2 arithmetic), shows the two joining segments bisect each other — the midpoint understanding 3.7.2 names explicitly ('understanding that the midpoint of a line segment is (a+b)/2'-class work). Medium: no exam-register demand; an exploratory generalisation.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8456",
+     "station": "combining-vectors",
+     "title": "Where do $ST$ and $AB$ cross?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r8456",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Two-part exam-register question: (i) 'evaluate OM.ON and hence calculate angle MON to the nearest degree' — the scalar product formula and its angle use, 3.7.6 verbatim; (ii) S, T at 2p, 2q with OA = AS (midpoint) and OT = 2TB, then AR = lambda*AB, SR = mu*ST and 'express OR in terms of p and q' twice, solving the two expressions — midpoint/ratio understanding (3.7.2) and the intersection-of-lines lambda/mu technique. PROMOTION: supersedes its stale lane-3-algebra non-overlap row of record (the r8013 precedent — the resource's centre of gravity is vector machinery, not algebra).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2",
+      "3.7.6"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8565",
+     "station": "combining-vectors",
+     "title": "Can we show the direction of $P'Q'$ is independent of $P$?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r8565",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'Can we show the direction of P'Q' is independent of P?' — an affine-invariance proof by vector arithmetic: P' and Q' defined by the same construction rule from variable P, and P'Q' telescopes to a P-free combination — addition/subtraction of displacement vectors interpreted geometrically (3.7.2). Medium: the target is the invariance, not the operations themselves.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8573",
+     "station": "vector-geometry",
+     "title": "If $PRBQ$ is a parallelogram, what is the position vector of $Q$?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8573",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If PRBQ is a parallelogram, what is the position vector of Q?' with P, R, B given by position vectors and ratio language ('in the ratio') — the fourth-vertex demand closes via PR = BQ rearranged and section-division addition — 3.7.2's addition/subtraction in geometrical terms.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8704",
+     "station": "vector-geometry",
+     "title": "Can we  show that $OAQY$ is a parallelogram?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8704",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'Can we show that OAQY is a parallelogram?' — the solution proves OA parallel-and-equal to YQ via position-vector arithmetic — proving a quadrilateral is a parallelogram BY vector operations is the geometrical-interpretation clause of 3.7.2 verbatim.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8798",
+     "station": "vector-geometry",
+     "title": "If $Z$ is on $OA$ and also on $BY$, what is its position vector?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8798",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If Z is on OA and also on BY, what is its position vector?' — two line-membership conditions in position-vector form solved simultaneously — vector addition with parameters interpreted geometrically (points on lines), 3.7.2.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.7.3": {
+   "officialCode": "3.7.3",
+   "officialText": "calculate the magnitude of a vector, and use In 2 or 3 dimensions. unit vectors, displacement vectors and position vectors",
+   "spineTitleVerbatim": "calculate the magnitude of a vector, and use In 2 or 3 dimensions. unit vectors, displacement vectors and position vectors",
+   "primaryPick": "r9575",
+   "resources": [
+    {
+     "ugmSlug": "r6007",
+     "station": "vector-geometry",
+     "title": "Can we find the position vector of the intersection from the given ratios?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r6007",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'Can we find the position vector of the intersection from the given ratios?' — two lines given by position-vector/ratio data; the solution writes the intersection point two ways (via each line's parameter) and equates — position vectors of points on lines (3.7.3) meeting the intersection of two lines (3.7.5) through ratio reasoning.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.3",
+      "3.7.5"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r7285",
+     "station": "vector-geometry",
+     "title": "If $A$, $P$ and $B$ are collinear, what's the value of $\\lambda$?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r7285",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If A, P and B are collinear, what is the value of lambda?' — the solution writes OP = OL + lambda*LM, expands in the basis {a, b}, and invokes unique decomposition ('any vector in the plane can be written uniquely as') to solve 3*lambda = mu and 1/2 + lambda/2 = mu — collinearity via position vectors (3.7.3) riding vector algebra with geometrical meaning (3.7.2).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2",
+      "3.7.3"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8215",
+     "station": "vector-geometry",
+     "title": "What is the position vector of $D$ if $ABCD$ is a parallelogram?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8215",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Two-part position-vector exercise: (i) 'What is the position vector of D if ABCD is a parallelogram?' — the parallelogram law AB = DC rearranged for the fourth vertex; (ii) collinearity with a parameter ('The position vectors of points ... are collinear', 'collinear if and only if') — addition/subtraction geometry (3.7.2) and position-vector collinearity reasoning (3.7.3) in one exam-register question. PICK 3.7.2: the purest parallelogram-law exercise in the corpus.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2",
+      "3.7.3"
+     ],
+     "primaryPick": "r8215"
+    },
+    {
+     "ugmSlug": "r9575",
+     "station": "vector-geometry",
+     "title": "How can we show that $P, Q$ and $R$ are collinear?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r9575",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'How can we show that P, Q and R are collinear?' — the solution states the criterion verbatim ('Three points with position vectors ... are collinear if and only if the vectors [PQ and PR are parallel]') and executes it — position-vector collinearity, the 3.7.3 displacement/position-vector skill of record. PICK 3.7.3: the definitive criterion statement.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.3"
+     ],
+     "primaryPick": "r9575"
+    },
+    {
+     "ugmSlug": "r9629",
+     "station": "vector-geometry",
+     "title": "When are these vectors parallel/perpendicular/the same length?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r9629",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The resource classifies vector pairs as 'is parallel to / is perpendicular to / have the same length': the solutions establish parallel iff one is a scalar multiple of the other, perpendicular in 2D iff the gradients multiply to -1, and equal magnitude via Pythagoras on the components — the component notation and magnitude computation of 3.7.1/3.7.3 with the scaling-parallelism geometry of 3.7.2's territory (coded 3.7.1/3.7.3: the classification language — parallel/perpendicular/magnitude — is exactly the notation-and-magnitude core).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.1",
+      "3.7.3"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.7.4": {
+   "officialCode": "3.7.4",
+   "officialText": "understand the significance of all the symbols e.g. finding the equation of a line given the position used when the equation of a straight line is vector of a point on the line and a direction vector, or expressed in the form r = a + t b , and find the the position vectors of two points on the line. equation of a line, given sufficient information",
+   "spineTitleVerbatim": "understand the significance of all the symbols e.g. finding the equation of a line given the position used when the equation of a straight line is vector of a point on the line and a direction vector, or expressed in the form r = a + t b , and find the the position vectors of two points on the line. equation of a line, given sufficient information",
+   "primaryPick": "lots-of-vector-lines",
+   "resources": [
+    {
+     "ugmSlug": "lots-of-vector-lines",
+     "station": "vector-geometry",
+     "title": "Lots of vector lines!",
+     "url": "https://undergroundmathematics.org/vector-geometry/lots-of-vector-lines",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Twelve lines given ONLY as r = a + mu*b column-vector equations, to be paired by shared properties ('These lines are parallel. These lines are perpendicular. These lines have the same y-intercept...') — the equation of a straight line in vector form r = a + t b (3.7.4) is the raw material, and the pairing includes parallel/perpendicular determination from direction vectors (3.7.5); the teacher notes ask 'Are there any pairs we can match up by just looking at the equations?' — reading direction and position vectors off the vector form. PICK 3.7.4: the purest vector-line-equation material in the corpus.",
+     "examProvenance": "Based on an idea from teacher Alison Thompson - The Sixth Form College, Farnborough",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "primaryPick": "lots-of-vector-lines"
+    },
+    {
+     "ugmSlug": "three-lines",
+     "station": "vector-geometry",
+     "title": "Three lines",
+     "url": "https://undergroundmathematics.org/vector-geometry/three-lines",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Three lines in 3D given as vector equations a = (4,0,-2) + alpha(-1,1,4) etc.; students predict parallel/perpendicular/intersecting relationships then verify: 'If any two of the lines were parallel, their direction vectors would be the same or related by a scalar multiple'; intersections via 'three equations and two unknowns. If there is a unique solution, then the two lines intersect. If there is no solution they do not' — the skew/intersection determination of 3.7.5 over the r = a + t b form of 3.7.4, with the dot product named for the perpendicularity check. PICK 3.7.5: the corpus's only genuine 3D parallel/skew/intersection Determination exercise.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "primaryPick": "three-lines"
+    },
+    {
+     "ugmSlug": "vector-squares",
+     "station": "vector-geometry",
+     "title": "Vector squares",
+     "url": "https://undergroundmathematics.org/vector-geometry/vector-squares",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "A square is enclosed by four lines given by vector equations; students find vertices as intersections of line pairs ('the point that is common to equations (1) and (4)') and prove adjacent edges perpendicular from direction vectors — 3.7.4's vector line form plus 3.7.5's intersection work in a 2D geometry package. Medium: the perpendicularity argument is diagrammatic rather than scalar-product formal.",
+     "examProvenance": "Based on an idea from teacher Alison Thompson - The Sixth Form College, Farnborough",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.7.5": {
+   "officialCode": "3.7.5",
+   "officialText": "determine whether two lines are parallel, Calculation of the shortest distance between two intersect or are skew, and find the point of skew lines is not required. Finding the equation of intersection of two lines when it exists the common perpendicular to two skew lines is also not required.",
+   "spineTitleVerbatim": "determine whether two lines are parallel, Calculation of the shortest distance between two intersect or are skew, and find the point of skew lines is not required. Finding the equation of intersection of two lines when it exists the common perpendicular to two skew lines is also not required.",
+   "primaryPick": "three-lines",
+   "resources": [
+    {
+     "ugmSlug": "lots-of-vector-lines",
+     "station": "vector-geometry",
+     "title": "Lots of vector lines!",
+     "url": "https://undergroundmathematics.org/vector-geometry/lots-of-vector-lines",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Twelve lines given ONLY as r = a + mu*b column-vector equations, to be paired by shared properties ('These lines are parallel. These lines are perpendicular. These lines have the same y-intercept...') — the equation of a straight line in vector form r = a + t b (3.7.4) is the raw material, and the pairing includes parallel/perpendicular determination from direction vectors (3.7.5); the teacher notes ask 'Are there any pairs we can match up by just looking at the equations?' — reading direction and position vectors off the vector form. PICK 3.7.4: the purest vector-line-equation material in the corpus.",
+     "examProvenance": "Based on an idea from teacher Alison Thompson - The Sixth Form College, Farnborough",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "primaryPick": "lots-of-vector-lines"
+    },
+    {
+     "ugmSlug": "r6007",
+     "station": "vector-geometry",
+     "title": "Can we find the position vector of the intersection from the given ratios?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r6007",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'Can we find the position vector of the intersection from the given ratios?' — two lines given by position-vector/ratio data; the solution writes the intersection point two ways (via each line's parameter) and equates — position vectors of points on lines (3.7.3) meeting the intersection of two lines (3.7.5) through ratio reasoning.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.3",
+      "3.7.5"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "three-lines",
+     "station": "vector-geometry",
+     "title": "Three lines",
+     "url": "https://undergroundmathematics.org/vector-geometry/three-lines",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Three lines in 3D given as vector equations a = (4,0,-2) + alpha(-1,1,4) etc.; students predict parallel/perpendicular/intersecting relationships then verify: 'If any two of the lines were parallel, their direction vectors would be the same or related by a scalar multiple'; intersections via 'three equations and two unknowns. If there is a unique solution, then the two lines intersect. If there is no solution they do not' — the skew/intersection determination of 3.7.5 over the r = a + t b form of 3.7.4, with the dot product named for the perpendicularity check. PICK 3.7.5: the corpus's only genuine 3D parallel/skew/intersection Determination exercise.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "primaryPick": "three-lines"
+    },
+    {
+     "ugmSlug": "vector-squares",
+     "station": "vector-geometry",
+     "title": "Vector squares",
+     "url": "https://undergroundmathematics.org/vector-geometry/vector-squares",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "A square is enclosed by four lines given by vector equations; students find vertices as intersections of line pairs ('the point that is common to equations (1) and (4)') and prove adjacent edges perpendicular from direction vectors — 3.7.4's vector line form plus 3.7.5's intersection work in a 2D geometry package. Medium: the perpendicularity argument is diagrammatic rather than scalar-product formal.",
+     "examProvenance": "Based on an idea from teacher Alison Thompson - The Sixth Form College, Farnborough",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.7.6": {
+   "officialCode": "3.7.6",
+   "officialText": "use formulae to calculate the scalar product of e.g. finding the angle between two lines, and finding two vectors, and use scalar products in problems the foot of the perpendicular from a point to a line; involving lines and points. questions may involve 3D objects such as cuboids, tetrahedra (pyramids), etc.",
+   "spineTitleVerbatim": "use formulae to calculate the scalar product of e.g. finding the angle between two lines, and finding two vectors, and use scalar products in problems the foot of the perpendicular from a point to a line; involving lines and points. questions may involve 3D objects such as cuboids, tetrahedra (pyramids), etc.",
+   "primaryPick": "r6493",
+   "resources": [
+    {
+     "ugmSlug": "r5813",
+     "station": "combining-vectors",
+     "title": "Given three vectors, can we find a point equidistant from them all?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r5813",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'Given three vectors [lines], can we find a point equidistant from them all?' — the solution measures perpendicular distances to the three lines and states the machinery choice ('X was defined to be equidistant from the lines, which suggests using the scalar product') — scalar products in problems involving lines and points, 3.7.6. Medium: the locus wrapper leans on plane intersections beyond the P3 line syllabus; the served skill is the perpendicular-distance computation.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.6"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r6493",
+     "station": "combining-vectors",
+     "title": "If $a\\mathbf{i}+b\\mathbf{j}+c\\mathbf{k}$ is perpendicular to these vectors, what is $a:b:c$?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r6493",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If a i + b j + c k is perpendicular to these vectors, what is a:b:c?' — the solution states the criterion verbatim ('Two vectors are perpendicular exactly if their scalar product [is zero]'), sets the component equations, and 'hence find a unit vector which is perpendicular to each of the vectors' — the scalar-product formula AND a unit-vector construction, 3.7.6 verbatim. PICK 3.7.6.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.6"
+     ],
+     "primaryPick": "r6493"
+    },
+    {
+     "ugmSlug": "r7272",
+     "station": "combining-vectors",
+     "title": "If $\\overrightarrow{OM}$ is the projection of $\\overrightarrow{OA}$ on $m$, where is $M$?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r7272",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'If OM is the projection of OA on m, where is M?' — the solution identifies M as 'the foot of the perpendicular from A to the line m' and computes it with the scalar product — 'finding the foot of the perpendicular from a point to a line' is 3.7.6's own example language, here done BY scalar products.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.6"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8456",
+     "station": "combining-vectors",
+     "title": "Where do $ST$ and $AB$ cross?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r8456",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Two-part exam-register question: (i) 'evaluate OM.ON and hence calculate angle MON to the nearest degree' — the scalar product formula and its angle use, 3.7.6 verbatim; (ii) S, T at 2p, 2q with OA = AS (midpoint) and OT = 2TB, then AR = lambda*AB, SR = mu*ST and 'express OR in terms of p and q' twice, solving the two expressions — midpoint/ratio understanding (3.7.2) and the intersection-of-lines lambda/mu technique. PROMOTION: supersedes its stale lane-3-algebra non-overlap row of record (the r8013 precedent — the resource's centre of gravity is vector machinery, not algebra).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.7.2",
+      "3.7.6"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.7.7": {
+   "officialCode": "3.7.7",
+   "officialText": "Knowledge of the vector product is not required.",
+   "spineTitleVerbatim": "Knowledge of the vector product is not required.",
+   "primaryPick": null,
+   "resources": [],
+   "honestGap": "EXCLUSION ROW: the spec point itself states 'Knowledge of the vector product is not required.' — no resource is served against it BY DESIGN; the spine row is carried verbatim with zero rows (the honest-gap law, second of record after 3.5.4). The corpus's vector-product showcase r5089 is disclosed as a companion non-overlap instead."
+  }
+ },
+ "crossLaneAligned": [],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "is-it-a-plane",
+   "station": "combining-vectors",
+   "title": "Is it a plane?",
+   "url": "https://undergroundmathematics.org/combining-vectors/is-it-a-plane",
+   "resourceType": "Building blocks",
+   "routedTo": "P3 3.7 companion disclosure (plane-definition card sort: points / direction vectors / normal vectors)",
+   "reason": "The card sort's objects are PLANES ('A plane in 3D can be defined using various combinations of points lying in the plane, direction vectors in or parallel to the plane, and normal vectors'); CIE 9709 P3 3.7 is confined to LINES (no plane equation anywhere in the 3.7.1-3.7.7 rows of record). The vector vocabulary exercised is genuine 3.7.1-level notation, but the served object is beyond the spec — no fresh alignment manufactured.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5089",
+   "station": "combining-vectors",
+   "title": "Can we find the equation of the plane containing $l_1$ and $PQ$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r5089",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.7 companion disclosure (plane containing a line and a point, built via the vector product)",
+   "reason": "The solution's core machinery is the VECTOR PRODUCT ('[by the] vector product we can find a vector perpendicular to two others') to manufacture a normal, then the vector equation of the resulting plane. The spec's 3.7.7 row of record states 'Knowledge of the vector product is not required', and the constructed object (a plane) is beyond P3's lines-only vector syllabus — doubly out of scope; disclosed by reference.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6006",
+   "station": "combining-vectors",
+   "title": "Which point $P$ is on both this line and this plane?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r6006",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.7 companion disclosure (line-plane intersection and the foot of the perpendicular from the origin to a plane)",
+   "reason": "Both demands are line-PLANE problems: 'Which point P is on both this line and this plane?' and 'Find the position vector of P, the foot of the perpendicular from the origin' to the plane. P3 3.7 requires intersection of two LINES (3.7.5) and perpendicular feet to lines via scalar products (3.7.6); the plane object is beyond the spec; the scalar-product machinery visible is genuine but subordinate to the plane work.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7187",
+   "station": "combining-vectors",
+   "title": "Can we express a point in this plane in terms of two parameters?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r7187",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.7 companion disclosure (a point of a plane in terms of two parameters; scalar-product angle auxiliary)",
+   "reason": "The well asks to 'express a point in this plane in terms of two parameters' — plane parameterisation, beyond P3. The scalar product does appear (AB.AC = |AB||AC|cos(angle BAC), angle BAC = 162.2 degrees) but as an auxiliary computation inside the plane exercise rather than the served demand; no fresh alignment manufactured.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8828",
+   "station": "combining-vectors",
+   "title": "Where are $P$ and $Q$ if $PQ$ is perpendicular to $l_1$ and $l_2$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r8828",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.7 companion disclosure (the common perpendicular: P on l1, Q on l2 with PQ perpendicular to both)",
+   "reason": "The well asks 'Where are P and Q if PQ is perpendicular to l1 and l2' — exactly the common-perpendicular construction the spec EXCLUDES: 3.7.5 of record states 'Finding the equation of the common perpendicular is not included', and the shortest distance between two skew lines is not required. The resource's centre of gravity is that excluded construction; disclosed by reference.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9794",
+   "station": "combining-vectors",
+   "title": "What's the position vector of the reflection of $O$ in the plane $ABC$?",
+   "url": "https://undergroundmathematics.org/combining-vectors/r9794",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.7 companion disclosure (reflection of O in the plane ABC)",
+   "reason": "The well demands 'the position vector of the reflection of O in the plane ABC', reached via the foot of the perpendicular from O to that plane; planes are beyond P3 3.7 (lines only). The position-vector arithmetic on the way is genuine 3.7.3 material, but the served object — a reflection in a plane — is not a P3 demand; disclosed by reference.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "is-it-a-plane": {
+   "outcome": "non_overlap",
+   "station": "combining-vectors",
+   "reason": "The card sort's objects are PLANES ('A plane in 3D can be defined using various combinations of points lying in the plane, direction vectors in or parallel to the plane, and normal vectors'); CIE 9709 P3 3.7 is confined to LINES (no plane equation anywhere in the 3.7.1-3.7.7 rows of record). The vector vocabulary exercised is genuine 3.7.1-level notation, but the served object is beyond the spec — no fresh alignment manufactured.",
+   "routedTo": "P3 3.7 companion disclosure (plane-definition card sort: points / direction vectors / normal vectors)"
+  },
+  "r5089": {
+   "outcome": "non_overlap",
+   "station": "combining-vectors",
+   "reason": "The solution's core machinery is the VECTOR PRODUCT ('[by the] vector product we can find a vector perpendicular to two others') to manufacture a normal, then the vector equation of the resulting plane. The spec's 3.7.7 row of record states 'Knowledge of the vector product is not required', and the constructed object (a plane) is beyond P3's lines-only vector syllabus — doubly out of scope; disclosed by reference.",
+   "routedTo": "P3 3.7 companion disclosure (plane containing a line and a point, built via the vector product)"
+  },
+  "r6006": {
+   "outcome": "non_overlap",
+   "station": "combining-vectors",
+   "reason": "Both demands are line-PLANE problems: 'Which point P is on both this line and this plane?' and 'Find the position vector of P, the foot of the perpendicular from the origin' to the plane. P3 3.7 requires intersection of two LINES (3.7.5) and perpendicular feet to lines via scalar products (3.7.6); the plane object is beyond the spec; the scalar-product machinery visible is genuine but subordinate to the plane work.",
+   "routedTo": "P3 3.7 companion disclosure (line-plane intersection and the foot of the perpendicular from the origin to a plane)"
+  },
+  "r9794": {
+   "outcome": "non_overlap",
+   "station": "combining-vectors",
+   "reason": "The well demands 'the position vector of the reflection of O in the plane ABC', reached via the foot of the perpendicular from O to that plane; planes are beyond P3 3.7 (lines only). The position-vector arithmetic on the way is genuine 3.7.3 material, but the served object — a reflection in a plane — is not a P3 demand; disclosed by reference.",
+   "routedTo": "P3 3.7 companion disclosure (reflection of O in the plane ABC)"
+  },
+  "r7187": {
+   "outcome": "non_overlap",
+   "station": "combining-vectors",
+   "reason": "The well asks to 'express a point in this plane in terms of two parameters' — plane parameterisation, beyond P3. The scalar product does appear (AB.AC = |AB||AC|cos(angle BAC), angle BAC = 162.2 degrees) but as an auxiliary computation inside the plane exercise rather than the served demand; no fresh alignment manufactured.",
+   "routedTo": "P3 3.7 companion disclosure (a point of a plane in terms of two parameters; scalar-product angle auxiliary)"
+  },
+  "r8828": {
+   "outcome": "non_overlap",
+   "station": "combining-vectors",
+   "reason": "The well asks 'Where are P and Q if PQ is perpendicular to l1 and l2' — exactly the common-perpendicular construction the spec EXCLUDES: 3.7.5 of record states 'Finding the equation of the common perpendicular is not included', and the shortest distance between two skew lines is not required. The resource's centre of gravity is that excluded construction; disclosed by reference.",
+   "routedTo": "P3 3.7 companion disclosure (the common perpendicular: P on l1, Q on l2 with PQ perpendicular to both)"
+  },
+  "make-it-equal": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Mechanics equilibrium: three forces in equilibrium with 'the magnitude of the third force' via the cosine rule and Lami's theorem — forces-as-vectors is M1 mechanics; P3 3.7 is pure vector geometry (no force modelling anywhere in 3.7.1-3.7.7)",
+   "routedTo": "prior of-record row stands"
+  },
+  "where-did-it-land": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Projectile mechanics (angle of projection, horizontal displacement); the position vectors of 3.7.3 never appear as such — kinematics beyond P3 pure",
+   "routedTo": "prior of-record row stands"
+  },
+  "r7982": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Connected particles under Newton's second law; mechanics beyond P3 pure (no vector-geometry machinery served)",
+   "routedTo": "prior of-record row stands"
+  },
+  "frictional-story": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Friction mechanics on a slope; forces-as-vectors is M1 material, not the pure vector geometry of 3.7",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8335": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Connected particles held on a slope — Newton's second law mechanics; beyond P3 pure",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6491": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Centre of mass moving in a straight line — mechanics kinematics; not vector-geometry machinery",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6670": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Centre of gravity of a disc with cutouts — statics, not 3.7 vector work",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8115": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Relative-velocity steering problem (head to Rome against a current) — M1 relative velocity, beyond P3 pure vectors",
+   "routedTo": "prior of-record row stands"
+  },
+  "make-it-stop": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Newton's second law force decomposition to bring a particle to rest — mechanics beyond P3 pure (its lane-3-trigonometry non-overlap row of record stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "one-windy-day": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Projectile with wind-acceleration modelling — mechanics beyond P3 pure (its lane-3-differentiation non-overlap row of record stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6009": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Bearing of a plane in a crosswind — relative velocity/bearings, not vector-line geometry (its lane-3-trigonometry non-overlap row of record stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r7678": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Velocity and acceleration of a mass from its position — mechanics kinematics (its lane-3-differentiation non-overlap row of record stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6449": {
+   "outcome": "rejected_of_record",
+   "station": "combining-vectors",
+   "reason": "'Can we find the angle between the planes ABC and ABD?' — plane-vs-plane angle, beyond P3's lines-only vector syllabus (its lane-3-algebra non-overlap row of record stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5202": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "'Where is the foot of the perpendicular from a point to a line?' — solved entirely with coordinate geometry (gradients of perpendicular lines, simultaneous equations); 3.7.6's foot-of-perpendicular example language matches the WORDS but the spec demands the scalar-product route; its 1.3.1/1.3.2 alignments of record stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.1; 1-coordinate-geometry:1.3.2)"
+  },
+  "r9702": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Perpendicular distance from a point to a line derived by intercept-triangle trigonometry in the x-y plane — no vector notation or scalar product (its lane-1-trigonometry non-overlap row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8449": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "'Can we show this parallelogram is a rectangle?' — coordinate proof with vertices given as coordinates; gradients, not direction vectors (its 1.3.1/1.3.2 alignments of record stand)",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.1; 1-coordinate-geometry:1.3.2)"
+  },
+  "r6390": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "Shortest distance between two CIRCLES — circle geometry (alignment 1.3.2 stands)",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "teddy-bear-teacher-support": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "Teacher support for the teddy-bear circle-geometry task — no vector work (alignment 1.3.2 stands)",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "spider-fly-1": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "The spider-and-fly shortest PATH unfolds the room's net — a geodesic puzzle, not the vector shortest-distance/skew-line material of 3.7.5 (fresh, rejected with this reason)",
+   "routedTo": "prior of-record row stands"
+  },
+  "spider-fly-2": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Same net-unfolding class as Part 1 (fresh, rejected with this reason)",
+   "routedTo": "prior of-record row stands"
+  },
+  "all-about-ratios": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Ratios by similar triangles — Euclidean area/ratio reasoning, no vector notation (fresh, rejected with this reason)",
+   "routedTo": "prior of-record row stands"
+  },
+  "perfect-fit": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Euclidean dissection ('A perfect fit') — no vector machinery (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "proving-pythag": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Pythagoras by dissection — the 'midpoint' hit is incidental (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "quadrature-of-the-lunes": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Classical lunes area proof — no vectors (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6408": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Square/hexagon area Euclidean geometry (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6641": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Rhombus-vs-square by side/angle properties — Euclidean, no vectors (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6699": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Semicircle areas — Euclidean (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r7368": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Search area for a ship: least/greatest distances on graph paper — circle-bounded region arithmetic (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r9694": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Cone-on-sphere volume — solids (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r9583": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-numbers",
+   "reason": "Unit fraction as a sum of two others — number theory (the 'unit' hit) (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8917": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Triangle centres collinear (Euler line) by coordinate geometry — its lane-3-trigonometry non-overlap row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5365": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Length ratio in a diagram via Pythagoras — its lane-3-algebra non-overlap row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5386": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Three corners of a rectangle — Euclidean (its lane-3-trigonometry row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5533": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Picture hanging on a wall — trig force/geometry mix (its lane-1-trigonometry row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6144": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Lengths and angles in a diagram — trig geometry (its lane-1-trigonometry row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6589": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Pyramid lengths and angles — 3D trigonometry (its rows stand)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r9200": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "Distance of a tree from a root — bearings/trig (its lane-1-trigonometry row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8399": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "Stationary points via the chain rule ('parallel' hit is tangent language); its 1.7.2/1.7.3 alignments of record stand",
+   "routedTo": "aligned of record (1-differentiation:1.7.2; 1-differentiation:1.7.3)"
+  },
+  "r9792": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Numeric/estimation task — the P2 hit is phrasing, no vector machinery (its lane-3-differentiation non-overlap row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6843": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "Trig identity geometry (its lane-3-trigonometry row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "napkin": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Napkin-fold angle theorem — Euclidean (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "look-before-you-leap": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-geometry",
+   "reason": "Trig-graph reasoning (its lane-3-trigonometry row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "s-prime-numbers": {
+   "outcome": "rejected_of_record",
+   "station": "divisibility-and-induction",
+   "reason": "Primes digit reasoning — the 'i+j+k' regex hit is variable naming, not vector notation (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6155": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-algebra",
+   "reason": "Algebraic structure task (the 'parallel' hit is phrasing) — no vectors (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "approaching-asymptotes": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "Function asymptote behaviour — 'approach' language, no vectors (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "function-squares": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "Function-library card sort — no vector content (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "odd-or-even-or": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "Function parity — no vectors (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "worth-1000-words": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "Graph-representation of functions — no vectors (fresh, rejected)",
+   "routedTo": "prior of-record row stands"
+  },
+  "nested-surds": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-algebra",
+   "reason": "Surd nesting — its lane-3-algebra row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "odd-one-out": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "Function classification cards — its rows (3-log/3-trig) stand",
+   "routedTo": "prior of-record row stands"
+  },
+  "parabella": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "Quadratic family — its lane-1-quadratics row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "parametric-paths": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "Parametric CURVES in the plane matched to equations — 'in which direction does the point move' is curve-sketching direction, not vector lines (its lane-3-differentiation row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8836": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "Trig-integration task — its rows stand",
+   "routedTo": "prior of-record row stands"
+  },
+  "elliptical-crossings": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "Ellipse-line intersections by coordinates — its lane-1-coordinate-geometry row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8051": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "Ellipse locus of a midpoint by coordinates — its lane-1-coordinate-geometry row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8471": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "Inscribed quadrilateral area — its lane-1-coordinate-geometry row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "approximating-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "Trapezium-rule area numerics — its rows stand",
+   "routedTo": "prior of-record row stands"
+  },
+  "rectangles-in-triangles": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "Optimal rectangle in a triangle — its lane-1-differentiation row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "rolling-parabolas": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "Rolling parabola envelope — its lane-3-trigonometry row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "two-way-functions-teacher-support": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "Two-way-function teacher support — its lane-3-algebra row stands",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6803": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "Line cutting axes, triangle area — coordinate geometry (alignments 1.3.1/1.3.2 stand)",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.1; 1-coordinate-geometry:1.3.2)"
+  },
+  "slippery-slopes": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "slippery-slopes-another-derivative": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-differentiation:1.7.2)"
+  },
+  "slippery-areas": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "r7734": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-differentiation:1.7.3; 1-integration:1.8.2)"
+  },
+  "r7792": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-algebra:3.1.5)"
+  },
+  "r7833": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-differentiation:3.4.3)"
+  },
+  "r5678": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-differentiation:3.4.3)"
+  },
+  "r7042": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-differentiation:3.4.3)"
+  },
+  "r8939": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-differentiation:3.4.3)"
+  },
+  "can-you-find-chain-rule-edition": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-differentiation:3.4.1)"
+  },
+  "rotating-derivatives": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-differentiation:3.4.1)"
+  },
+  "sine-stretching": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-differentiation:3.4.1)"
+  },
+  "stretching-an-integral": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-integration:3.5.1)"
+  },
+  "trigsy-integrals": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-, 3-) stand",
+   "routedTo": "aligned of record (3-integration:3.5.1; 3-integration:3.5.2)"
+  },
+  "constant-consistency": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-, 3-) stand",
+   "routedTo": "aligned of record (3-integration:3.5.2; 3-integration:3.5.5)"
+  },
+  "r7050": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-compound-angles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-, 3-) stand",
+   "routedTo": "aligned of record (3-trigonometry:3.3.2; 3-trigonometry:x:3.3.2)"
+  },
+  "r9782": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-compound-angles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-, 3-) stand",
+   "routedTo": "aligned of record (3-trigonometry:3.3.2; 3-trigonometry:x:3.3.2)"
+  },
+  "t-for-tan": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-compound-angles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-, 3-) stand",
+   "routedTo": "aligned of record (3-trigonometry:3.3.2; 3-trigonometry:x:3.3.2)"
+  },
+  "going-round-in-circles": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 3-) stand",
+   "routedTo": "aligned of record (1-trigonometry:1.5.1; 3-trigonometry:3.3.1)"
+  },
+  "have-a-sine": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-trigonometry:1.5.1)"
+  },
+  "muddled-trig": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-trigonometry:1.5.1; 1-trigonometry:1.5.3)"
+  },
+  "can-you-find-trigonometry-edition": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-trigonometry:1.5.1)"
+  },
+  "r7912": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-trigonometry:1.5.1; 1-trigonometry:1.5.2)"
+  },
+  "between-the-lines": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "describing-straight-lines": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.1; 1-coordinate-geometry:1.3.2)"
+  },
+  "finding-circles": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r5717": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r6234": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r6514": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r6583": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.1; 1-coordinate-geometry:1.3.2)"
+  },
+  "r7656": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r7816": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-circular-measure:x:1.4.1)"
+  },
+  "r9045": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "teddy-bear": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "the-circle-of-apollonius-coordinate-edition": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r5646": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-functions:1.2.2; 1-functions:1.2.3)"
+  },
+  "composing-gets-me-nowhere": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-functions:1.2.1; 1-functions:1.2.2)"
+  },
+  "its-a-matter-of-perspective": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "order-order": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "r6607": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "r9527": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-, 1-) stand",
+   "routedTo": "aligned of record (1-functions:1.2.1; 1-functions:1.2.2)"
+  },
+  "transformers": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "geogebra-constructions-quadratic": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-quadratics:1.1.3)"
+  },
+  "r8045": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-quadratics:1.1.4)"
+  },
+  "r8407": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (1-) stand",
+   "routedTo": "aligned of record (1-quadratics:1.1.5)"
+  },
+  "calculators1950": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "changing-bases": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "proving-laws-of-logs": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "summing-to-one": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "The pass-2 hit ('parallel to'/'perpendicular' in tangent, gradient or trig-graph language) is not vector machinery; no position vectors, direction vectors or scalar products appear in well or solution — alignment(s) of record (3-) stand",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "hit-the-spot": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r9629": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r5992": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8215": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8573": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8704": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8798": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8339": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r5153": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r7285": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8565": {
+   "outcome": "aligned",
+   "station": "combining-vectors",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8456": {
+   "outcome": "aligned",
+   "station": "combining-vectors",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r9575": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r6007": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "lots-of-vector-lines": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "three-lines": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "vector-squares": {
+   "outcome": "aligned",
+   "station": "vector-geometry",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r6493": {
+   "outcome": "aligned",
+   "station": "combining-vectors",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r7272": {
+   "outcome": "aligned",
+   "station": "combining-vectors",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r5813": {
+   "outcome": "aligned",
+   "station": "combining-vectors",
+   "reason": "fresh body of record",
+   "routedTo": null
+  }
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 136,
+  "substrateResources": 20,
+  "ugmResourcesConsidered": 136,
+  "aligned": 20,
+  "alignedSubstrate": 20,
+  "nonOverlap": 6,
+  "crossLaneAligned": 0,
+  "rejectedOfRecord": 110,
+  "alignedShare": 0.1471,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 0,
+   "flips": 0,
+   "oneToMany": 0,
+   "note": "ZERO cross-lane joins and zero flips — the FIRST such lane of record. The vector-geometry and combining-vectors stations were never mapped by lanes 1-14 (CIE pure-1 carries no vectors; pure-3 3.7 is their first claimant), and no resource outside them serves 3.7 with genuine vector machinery — the nearest misses (r5202/r9702 foot-of-perpendicular, r8449 parallelogram-rectangle) are coordinate-method solutions rejected with reasons."
+  },
+  "stationBreakdown": {
+   "calculus-meets-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "calculus-of-powers": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "calculus-trig-log": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4
+   },
+   "chain-rule": {
+    "resources": 12,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 12
+   },
+   "circles": {
+    "resources": 10,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 10
+   },
+   "combining-functions": {
+    "resources": 7,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 7
+   },
+   "combining-vectors": {
+    "resources": 12,
+    "aligned": 5,
+    "nonOverlap": 6,
+    "rejected": 1
+   },
+   "divisibility-and-induction": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "exp-and-log": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4
+   },
+   "geometry-of-equations": {
+    "resources": 10,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 10
+   },
+   "hyperbolic-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "introducing-calculus": {
+    "resources": 3,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3
+   },
+   "product-rule": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "quadratics": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4
+   },
+   "thinking-about-algebra": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "thinking-about-functions": {
+    "resources": 5,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 5
+   },
+   "thinking-about-geometry": {
+    "resources": 17,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 17
+   },
+   "thinking-about-numbers": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "trigonometry-compound-angles": {
+    "resources": 3,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3
+   },
+   "trigonometry-triangles-to-functions": {
+    "resources": 9,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 9
+   },
+   "vector-geometry": {
+    "resources": 27,
+    "aligned": 15,
+    "nonOverlap": 0,
+    "rejected": 12
+   }
+  },
+  "coverageNote": "Sweep over the 855-resource corpus in three angles (pass-1 title/description 'vector'; tight pass-2 vector-machinery regex — position/direction/unit/column/displacement vectors, scalar/dot product, vector equation, r=a+tb, skew, resultant, magnitude; targeted angle patterns — foot of the perpendicular, scalar/dot product, projection, angle between lines, skew, shortest distance, ratio-section; dossier reads of every candidate against well AND solution; PLUS a station-membership audit that recovered make-it-equal, where-did-it-land and r7982 from the vector-geometry station the regex passes missed): NO pre-baked bearing pool this lane (no prior lane routed rows to 'P3 3.7'/'vectors') — 136 candidates of record closed exactly: 20 aligned rows, ALL fresh bodies (the FIRST lane of record with zero cross-lane joins and zero flips — the vector stations are unclaimed territory); 6 non-overlaps recorded as companion disclosures (the plane class the P3 lines-only syllabus does not claim, the vector-product showcase the 3.7.7 exclusion row forbids, and the common-perpendicular construction 3.7.5 excludes); 110 candidates rejected with reasons (coordinate-method, mechanics, Euclidean-geometry and trig-graph classes). The honest gap is the DESIGNED one: 3.7.7 is the spec's exclusion row and carries zero rows."
+ },
+ "ugmStations": {}
+}
