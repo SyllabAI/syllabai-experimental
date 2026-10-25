@@ -275,12 +275,39 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   law — the r8404 string-form pick catch, first corpus CLA row to NAME its
   pick — bundle of record 6 lanes / 24 spec points / 201 rows / 129
   bodies / memberships 151; gates 54/54 + scoped tsc clean; NOT
-  self-merged). Mode-2 deep-link
+  self-merged; **SERVED of record on the Task-19 ack** — #380 found ALREADY
+  MERGED by r0-auto at `85088b51` (the fourth interception of record
+  after #347/#371/#373, 9m49s after open, head untouched), the full
+  post-merge pipeline verifying the bytes 48/48 ALL GREEN: blob identity
+  remote PR head == local == merged tree == live main ×4, census recount
+  == of record (129 bodies / 201 rows / 24 spec points / memberships
+  151), merge parents {c5f53c5a, 4e824ff4}, CI hub+verify success).
+  **lane 15 the vector plane → CIE 9709 Pure 3 3.7 Vectors** — the
+  seventh lane on the pure-3 course plane and the FIRST with zero
+  cross-lane joins and zero flips (the vector stations were never mapped
+  by lanes 1–14; CIE pure-1 carries no vectors) (operator:
+  "review+merge #380 then lane 15"); cross-map
+  `cross-map-p3-vectors.json` @ `16c5f802`, 136 candidates of record:
+  20 aligned rows ALL fresh bodies (vector-geometry 15 +
+  combining-vectors 5 — lots-of-vector-lines, three-lines, the
+  position-vector ratio suite, the scalar-product trio r6493/r7272/r5813,
+  the r8456 λ/μ exam question PROMOTED over its stale lane-3-algebra
+  non-overlap row) + 6 companion non-overlaps (the plane class, r5089
+  rejected BY the 3.7.7 exclusion note, r8828 vs the 3.7.5
+  common-perpendicular exclusion) + 110 rejected with reasons; the
+  DESIGNED honest gap: 3.7.7 is the spec's own exclusion row and carries
+  zero rows by rule; picks hit-the-spot / r8215 / r9575 /
+  lots-of-vector-lines / three-lines / r6493; enrichment + 20 new-text
+  bodies filed as
+  [`syllabai-resources#149`](https://github.com/SyllabAI/syllabai-resources/pull/149)
+  (tasks `T-UGM-MODE1-15` + `T-UGM-IMPORT-15`, MANIFEST v15 → v16 —
+  628 files corpus-wide; converter pre-flight 139/139; audits 22/22 ALL
+  GREEN; NOT self-merged). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #380 review/merge on operator ack; further lanes by operator
-  ordering (lanes 9–14 opened the pure-3 plane — 3.7 is the natural
-  lane 15 per the spine's remaining SUB3.7–SUB3.9 rows) — recipe of
-  record in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still
-  pending.
+- Next: #149 review/merge on operator ack (then `T-UGM-HUB-CONSUME-15`);
+  further lanes by operator ordering (lanes 9–15 opened the pure-3
+  plane — 3.8 is the natural lane 16 per the spine's remaining
+  SUB3.8–SUB3.9 rows) — recipe of record in `docs/INTEGRATION-PLAN.md`
+  P7; S1-bridge census run still pending.

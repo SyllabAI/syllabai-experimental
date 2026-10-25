@@ -519,12 +519,36 @@ worth doing regardless of any Mode-3 outcome.
       pin advance + the twenty-station block + the cross-course pick normalization law, the
       r8404 string-form pick catch; bundle of record 6 lanes / 24 spec points / 201 rows /
       129 bodies; 54/54 GREEN; NOT self-merged)
+- [x] **fifteenth lane — CIE 9709 **Pure 3** 3.7 Vectors (operator:
+      "review+merge #380 then lane 15"; the seventh lane on the pure-3 course plane)** — #380
+      (T-UGM-HUB-CONSUME-14) found **ALREADY MERGED by r0-auto** at `85088b5` on arrival (the FOURTH
+      interception of record after #347/#371/#373 — 9m49s after open, head untouched at `4e824ff4`); the
+      full post-merge pipeline of record ran instead (48/48 checks GREEN: blob identity remote PR head ≡
+      local ≡ merged tree ≡ live main ×4, census recount == Task-18 of record, merge parents {c5f53c5a,
+      4e824ff4}, CI hub+verify success) — **CONSUME-14 SERVED, the pure-3 hub serve spans 6 lanes**; the
+      lane then went where no lane has gone: the vector stations were NEVER mapped by lanes 1–14 (CIE
+      pure-1 carries no vectors), so the lane serves **20 aligned rows, ALL fresh bodies — the FIRST lane
+      of record with zero cross-lane joins and zero flips** (vector-geometry 15 + combining-vectors 5):
+      cross-map of record `cross-map-p3-vectors.json` @ `16c5f802` (corpus sweep 855 → 136 candidates of
+      record via three regex angles + a station-membership audit that recovered make-it-equal /
+      where-did-it-land / r7982; 6 non-overlap companion disclosures — the plane class
+      is-it-a-plane/r6006/r9794/r7187, r5089 the vector-product showcase rejected BY the 3.7.7 exclusion
+      note, r8828 the common perpendicular the 3.7.5 row excludes; 110 rejected with reasons — the
+      coordinate-method line r5202/r9702/r8449 matches the example WORDS but not the scalar-product
+      METHOD; **the DESIGNED honest gap: 3.7.7 is the spec's own exclusion row and carries zero rows by
+      rule** — the second honest gap of record after 3.5.4, this time by design; psp rows 29 = 2/11/5/3/4/4;
+      r8456 PROMOTED over its stale lane-3-algebra non-overlap row per the r8013 precedent); picks
+      hit-the-spot / r8215 / r9575 / lots-of-vector-lines / three-lines / r6493 (all riding fresh bodies);
+      corpus + facts filed as **[syllabai-resources#149](https://github.com/SyllabAI/syllabai-resources/pull/149)**
+      (tasks `T-UGM-MODE1-15` + `T-UGM-IMPORT-15`, MANIFEST v15 → v16, 20 new-text files — converter
+      pre-flight 139/139 byte-identity vs the lane-8..14 of-record bodies); hub consumption
+      (`T-UGM-HUB-CONSUME-15`) pending on the syllabai-v2 side
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
-      lanes 9–14 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
+      lanes 9–15 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
       and exponential functions, 3.3 Trigonometry, 3.4 Differentiation,
-      3.5 Integration and 3.6 Numerical solution of equations; the recorded
-      next substrate is 3.7 (then 3.8–3.9) per the spine's remaining SUB3.7–SUB3.9
-      rows of record; ordering is the
+      3.5 Integration, 3.6 Numerical solution of equations and 3.7 Vectors;
+      the recorded next substrate is 3.8 (then 3.9) per the spine's remaining
+      SUB3.8–SUB3.9 rows of record; ordering is the
       operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
