@@ -194,6 +194,20 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   (flipping the lane-9 by-reference row) / how-far-did-the-earth-move;
   enrichment + 34 new-text bodies filed as `syllabai-resources#119`,
   MANIFEST v11 — 548 files corpus-wide; hub `T-UGM-HUB-CONSUME-10`
+  merged of record `2d3e082c` (post-merge verified ALL GREEN).
+  **lane 11 the compound-angles plane → CIE 9709 Pure 3 3.3
+  Trigonometry** — the third lane on the pure-3 course plane and the
+  first mostly-mapping lane (operator: "merge #363 then lane 11";
+  cross-map `cross-map-p3-trigonometry.json` @ `4dbd50d5`, 103 sweep
+  candidates: 28 aligned rows — 1 fresh (r7616, the 3.3.1 pick) + 27
+  cross-course rows by reference (23 flips of the lane-5 pre-baked
+  pool + 4 one-to-many; the compound-angles station is whole-imported
+  of record under lane 5) — plus 42 fresh non-overlaps by reference
+  (`bodyImported: false`; 9 riding prior bodies) + 33 rejected with
+  reasons; primary picks r7616 / r6018 (rides a reference row,
+  disclosed of record);
+  enrichment + 1 new-text body filed as `syllabai-resources#126`,
+  MANIFEST v12 — 549 files corpus-wide; hub `T-UGM-HUB-CONSUME-11`
   pending). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains

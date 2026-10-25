@@ -414,12 +414,33 @@ worth doing regardless of any Mode-3 outcome.
       lane-8 AND lane-9 of-record bodies); hub consumption
       (`T-UGM-HUB-CONSUME-10`, extending the pure-3 bundle plane) pending
       on the syllabai-v2 side
+- [x] **eleventh lane — CIE 9709 **Pure 3** 3.3 Trigonometry (operator:
+      "merge #363 then lane 11"; the third lane on the pure-3 course plane
+      and the FIRST MOSTLY-MAPPING lane)** — the body-of-record audit found
+      the dedicated compound-angles station and TTF whole-imported of record
+      under lane 5 (the two-station lane law, 77 bodies), so the lane-5
+      pre-baked "P3 2.3" pool maps by reference under the lane-9 flip law —
+      cross-map of record `cross-map-p3-trigonometry.json` @ `4dbd50d5`
+      (corpus sweep 855 → 103 candidates resolved as 28 aligned rows —
+      1 fresh row (r7616, the 3.3.1 pick) + 27 cross-course rows by
+      reference: 23 flips of the lane-5 pool rows + 4 one-to-many
+      (going-round-in-circles, muddled-trig, trig-tables 3.3.1; r7021 3.3.2);
+      no flips of pure-3 rows, nothing duplicated) + 42 fresh non-overlaps
+      recorded by reference only (`bodyImported: false`; 9 riding prior
+      bodies per the supersede law) + 33 of-record candidates rejected with
+      reasons; primary picks r7616 (3.3.1, fresh) / r6018 (3.3.2 — rides a
+      reference row, disclosed of record); corpus + facts filed as
+      **[syllabai-resources#126](https://github.com/SyllabAI/syllabai-resources/pull/126)**
+      (tasks `T-UGM-MODE1-11` + `T-UGM-IMPORT-11`, MANIFEST v12, 1 new-text
+      file — converter pre-flight 79/79 byte-identity vs the lane-8 AND
+      lane-9 AND lane-10 of-record bodies); hub consumption
+      (`T-UGM-HUB-CONSUME-11`) pending on the syllabai-v2 side
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
-      lanes 9–10 opened the pure-3 plane at 3.1 Algebra and 3.2
-      Logarithmic and exponential functions; the recorded next substrates
-      are the remaining P3 sections in syllabus order — 3.3 Trigonometry
-      first (the lane-5 compound-angles pool of 24 recorded non-overlaps
-      pointing at "P3 2.3" = today's 3.3, plus TTF residuals) — then 3.4
+      lanes 9–11 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
+      and exponential functions and 3.3 Trigonometry; the recorded next
+      substrates are the remaining P3 sections in syllabus order — 3.4
+      Differentiation first (the lane-11 non-overlaps already carry 9
+      P3-3.4 routings) — then 3.5
       Differentiation and 3.5 Integration where the lane-7/8 technique
       pools (powerful-derivatives, r6530, r6620, r7431, r8134, r8671,
       r9484, r9898, differentiating-exponentials; two-for-one,
