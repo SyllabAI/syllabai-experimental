@@ -1,0 +1,941 @@
+{
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.6 Numerical solution of equations",
+  "specPoints": [
+   "3.6.1",
+   "3.6.2",
+   "3.6.3"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json — the three rows 3.6.1-3.6.3 are the spine rows of record verbatim (SUB3.6 'Numerical solution of equation', orders 22-24) — parse artifacts carried verbatim, no fold fragments"
+ },
+ "pilot": "P3c generalisation lane 14 - CIE 9709 Pure 3 subtopic 3.6 Numerical solution of equations (operator order: 'review+merge #377 then \"lane 14\"', trace 1a174f2cc1265e79; lane-14 identity named of record by the lane-13 findings: 'Lane-14 = 3.6 Numerical iteration (3.6.1-3.6.3 verbatim spine rows await in the same SUB3.6 block)' — the served spine titles SUB3.6 'Numerical solution of equations')",
+ "generatedAt": "2026-10-26",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts (the lane-12 convention; no mode-[4] exemplar flags were needed this lane).",
+ "perSpecPoint": {
+  "3.6.1": {
+   "officialCode": "3.6.1",
+   "officialText": "locate approximately a root of an equation, by means of graphical considerations and/or searching for a sign change",
+   "spineTitleVerbatim": "locate approximately a root of an equation, by means of graphical considerations and/or searching for a sign change",
+   "primaryPick": "r8711",
+   "resources": [
+    {
+     "ugmSlug": "r8013",
+     "station": "exp-and-log",
+     "title": "When does this exponential function equal this linear one?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r8013",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The well demands the graph then 'Use your graph to find the roots of the equation 3^x=3x+2'; the solution reads both intersections off the plot to two decimal places (x=-0.48 and x=1.83, checked against the exact -0.4673.../1.8344...) - locating roots by graphical considerations, 3.6.1 verbatim. Supersedes its stale lane-3-logarithmic-and-exponential-functions non-overlap row of record.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8711",
+     "station": "polynomials",
+     "title": "How many real roots does this cubic polynomial have?",
+     "url": "https://undergroundmathematics.org/polynomials/r8711",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The purest sign-change search in the corpus: the solution tabulates f(x) across x=-2..6, reads three sign changes bracketing three real roots ('one between x=-2 and x=-1; one between 1 and 2; a third between 5 and 6'), then hones the negative root between -1.3 and -1.2 (f(-1.25)=0.671875>0) to conclude x=-1.3 to one decimal place - locating a root by searching for a sign change and refining the bracket, the verbatim 3.6.1 skill.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1"
+     ],
+     "primaryPick": "r8711"
+    },
+    {
+     "ugmSlug": "r5948",
+     "station": "geometry-of-equations",
+     "title": "Can we calculate an approximation to the root of this function?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r5948",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The well derives the chord-intercept approximation (af(b) - bf(a))/(f(b) - f(a)) from the sign-bracketed interval f(a) < 0 < f(b) and applies it to x^2 + x^(1/2) - 37 = 0 ('find two consecutive integers between which a root lies... calculate an approximation to the root, giving three significant figures') - locating a root by a graphical/linear-interpolation consideration between two sign-change bounds (the method r8679's survey names 'linear interpolation'), riding the standing 1.3.1/1.3.2 alignments of record.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r7549",
+     "station": "circles",
+     "title": "Can we show this quartic equation has exactly two real roots?",
+     "url": "https://undergroundmathematics.org/circles/r7549",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "'Find the positive root of the equation correct to one decimal place': the solution reads ~1.4 off the sketch (graphical consideration), tabulates f(1.3)/f(1.4)/f(1.5), and applies the continuity + sign-change law ('As there is a sign change and the function is continuous, the root we seek must fall between 1.3 and 1.4'), refined by trial and improvement to 1.4 - riding the standing 1.3.2 alignment of record.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8231",
+     "station": "calculus-of-powers",
+     "title": "A cubic has one real root—can we find an approximation to it?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Method 1 is trial-and-improvement interval refinement to three decimal places; Method 3 is the Newton-Raphson iteration in x_{n+1} notation ('x_{n+1} = x_n - f(x_n)/f'(x_n)', here x_{n+1} = x_n - (x^3+3x^2-3)/(3x^2+6x)); and the uniqueness argument ('since the curve is continuous... it must cut the x-axis somewhere between x=0 and x=1') is sign-change reasoning - 3.6.1 and 3.6.3 ride beside the standing 1.7.3 alignment of record.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1",
+      "3.6.3"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r9082",
+     "station": "product-rule",
+     "title": "Can we find the repeated root for  $4x^4+x^2+3x+1=0$?",
+     "url": "https://undergroundmathematics.org/product-rule/r9082",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Locating the repeated root via f': 'f'(x) must have a root between -1 and 0, since f'(x) is continuous and we have a change of sign. The value -1/2 is a sensible choice to test' - sign-change root location used as the instrument bounding the double root, beside the standing 1.7.2/3.1.4 alignments of record (medium: instrumental step, not the target skill).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "see-the-power",
+     "station": "exp-and-log",
+     "title": "See the power",
+     "url": "https://undergroundmathematics.org/exp-and-log/see-the-power",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution bounds x between 1.25 and 1.5 and narrows the bracket ('We could narrow this range by trial and improvement or by plotting a graph') before the exact digit-counting logarithms take over - interval-search root location beside the standing 3.2.1 alignment (medium: instrumental, subordinate to the log-law purpose).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "to-log-or-not-to-log",
+     "station": "exp-and-log",
+     "title": "To log or not to log?",
+     "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log",
+     "resourceType": "Problem requiring decisions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution confronts 5^x = x^5 ('This is another example of an equation we don't know how to solve exactly. We could use a numerical method such as trial and improvement to find an approximate solution. Most numerical methods work best if you know roughly where the solution is. A sketch... might help') - the locate-approximately stance of 3.6.1 inside the standing 3.2.3 alignment (medium: the numerical method is advised, not executed to an answer).",
+     "examProvenance": null,
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.6.1"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.6.2": {
+   "officialCode": "3.6.2",
+   "officialText": "understand the idea of, and use the notation for, a sequence of approximations which converges to a root of an equation",
+   "spineTitleVerbatim": "understand the idea of, and use the notation for, a sequence of approximations which converges to a root of an equation",
+   "primaryPick": "r8404",
+   "resources": [
+    {
+     "ugmSlug": "r8404",
+     "station": "sequences",
+     "title": "If $x_1 = (x_0 + 2)/(x_0 + 1)$, can we show $\\sqrt{2}$ lies between $x_0$ and $x_1$?",
+     "url": "https://undergroundmathematics.org/sequences/r8404",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution names the machinery verbatim ('Thus we have in action here the x = g(x) iteration, or the rearrangement method, where we start with f(x) = 0, and move to x = g(x)'), proves the alternating bracketing of sqrt(2) by consecutive terms, establishes the error decay |x_{n+1}^2 - 2| = |x_n^2 - 2|/(x_n+1)^2 < |x_n^2 - 2|, and drives the iteration to prescribed accuracy (41/29 and 99/70 differing from sqrt(2) by less than 5x10^-4) - the 3.6.2 sequence-of-approximations notation and the 3.6.3 iteration-based-on-a-rearrangement to a prescribed degree of accuracy. FLIP: rides its lane-6 whole-station body under UGM-Resources/pure-1-series (spec_points [] — unmapped-by-design under rule 3); supersedes its stale lane-1-series non-overlap row of record (the circular-slice precedent).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.2",
+      "3.6.3"
+     ],
+     "primaryPick": "r8404"
+    },
+    {
+     "ugmSlug": "staircase-sequences",
+     "station": "thinking-about-numbers",
+     "title": "Staircase sequences",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences",
+     "resourceType": "Investigation",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution sets up the self-similar fixed point ('If I call that x... x seems to reappear inside itself: x = 1 + 1/x'), rearranges to x^2 - x - 1 = 0 and identifies the limit as its positive root (1+sqrt(5))/2, with the term table (1, 2, 1.5, 1.666..., 1.6, 1.625, ...) a convergent sequence of approximations observed to alternate either side of the root - the 3.6.2 idea and the 3.6.3 relation between x = F(x) and the equation being solved, in an exploratory register.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.2",
+      "3.6.3"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8679",
+     "station": "calculus-trig-log",
+     "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r8679",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution surveys the numerical canon verbatim ('decimal search, binary search, linear interpolation, the rearrangement method or simply zooming in with graphing software') and executes Newton-Raphson from the given first approximation 1.5 to the second approximation 1.43 (3 sf) with a substitution check - the first/second-approximation language of 3.6.2 and a given-iteration application to prescribed accuracy under 3.6.3, riding the fresh lane-13 3.5.1 pick body.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.2",
+      "3.6.3"
+     ],
+     "primaryPick": null
+    }
+   ]
+  },
+  "3.6.3": {
+   "officialCode": "3.6.3",
+   "officialText": "understand how a given simple iterative formula of the form x = F( x ) relates to the equation being solved, and use a given iteration, or an iteration based on a given rearrangement of an equation, to determine a root to a prescribed degree of accuracy.",
+   "spineTitleVerbatim": "understand how a given simple iterative formula of the form x = F( x ) relates to the equation being solved, and use a given iteration, or an iteration based on a given rearrangement of an equation, to determine a root to a prescribed degree of accuracy.",
+   "primaryPick": "r8231",
+   "resources": [
+    {
+     "ugmSlug": "r8404",
+     "station": "sequences",
+     "title": "If $x_1 = (x_0 + 2)/(x_0 + 1)$, can we show $\\sqrt{2}$ lies between $x_0$ and $x_1$?",
+     "url": "https://undergroundmathematics.org/sequences/r8404",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution names the machinery verbatim ('Thus we have in action here the x = g(x) iteration, or the rearrangement method, where we start with f(x) = 0, and move to x = g(x)'), proves the alternating bracketing of sqrt(2) by consecutive terms, establishes the error decay |x_{n+1}^2 - 2| = |x_n^2 - 2|/(x_n+1)^2 < |x_n^2 - 2|, and drives the iteration to prescribed accuracy (41/29 and 99/70 differing from sqrt(2) by less than 5x10^-4) - the 3.6.2 sequence-of-approximations notation and the 3.6.3 iteration-based-on-a-rearrangement to a prescribed degree of accuracy. FLIP: rides its lane-6 whole-station body under UGM-Resources/pure-1-series (spec_points [] — unmapped-by-design under rule 3); supersedes its stale lane-1-series non-overlap row of record (the circular-slice precedent).",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.2",
+      "3.6.3"
+     ],
+     "primaryPick": "r8404"
+    },
+    {
+     "ugmSlug": "staircase-sequences",
+     "station": "thinking-about-numbers",
+     "title": "Staircase sequences",
+     "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences",
+     "resourceType": "Investigation",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution sets up the self-similar fixed point ('If I call that x... x seems to reappear inside itself: x = 1 + 1/x'), rearranges to x^2 - x - 1 = 0 and identifies the limit as its positive root (1+sqrt(5))/2, with the term table (1, 2, 1.5, 1.666..., 1.6, 1.625, ...) a convergent sequence of approximations observed to alternate either side of the root - the 3.6.2 idea and the 3.6.3 relation between x = F(x) and the equation being solved, in an exploratory register.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.2",
+      "3.6.3"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8231",
+     "station": "calculus-of-powers",
+     "title": "A cubic has one real root—can we find an approximation to it?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Method 1 is trial-and-improvement interval refinement to three decimal places; Method 3 is the Newton-Raphson iteration in x_{n+1} notation ('x_{n+1} = x_n - f(x_n)/f'(x_n)', here x_{n+1} = x_n - (x^3+3x^2-3)/(3x^2+6x)); and the uniqueness argument ('since the curve is continuous... it must cut the x-axis somewhere between x=0 and x=1') is sign-change reasoning - 3.6.1 and 3.6.3 ride beside the standing 1.7.3 alignment of record.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.1",
+      "3.6.3"
+     ],
+     "primaryPick": null
+    },
+    {
+     "ugmSlug": "r8679",
+     "station": "calculus-trig-log",
+     "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r8679",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The solution surveys the numerical canon verbatim ('decimal search, binary search, linear interpolation, the rearrangement method or simply zooming in with graphing software') and executes Newton-Raphson from the given first approximation 1.5 to the second approximation 1.43 (3 sf) with a substitution check - the first/second-approximation language of 3.6.2 and a given-iteration application to prescribed accuracy under 3.6.3, riding the fresh lane-13 3.5.1 pick body.",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.6.2",
+      "3.6.3"
+     ],
+     "primaryPick": null
+    }
+   ]
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "r8404",
+   "station": "sequences",
+   "title": "If $x_1 = (x_0 + 2)/(x_0 + 1)$, can we show $\\sqrt{2}$ lies between $x_0$ and $x_1$?",
+   "url": "https://undergroundmathematics.org/sequences/r8404",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "The solution names the machinery verbatim ('Thus we have in action here the x = g(x) iteration, or the rearrangement method, where we start with f(x) = 0, and move to x = g(x)'), proves the alternating bracketing of sqrt(2) by consecutive terms, establishes the error decay |x_{n+1}^2 - 2| = |x_n^2 - 2|/(x_n+1)^2 < |x_n^2 - 2|, and drives the iteration to prescribed accuracy (41/29 and 99/70 differing from sqrt(2) by less than 5x10^-4) - the 3.6.2 sequence-of-approximations notation and the 3.6.3 iteration-based-on-a-rearrangement to a prescribed degree of accuracy. FLIP: rides its lane-6 whole-station body under UGM-Resources/pure-1-series (spec_points [] — unmapped-by-design under rule 3); supersedes its stale lane-1-series non-overlap row of record (the circular-slice precedent).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.6.2",
+    "3.6.3"
+   ],
+   "primaryPick": "r8404",
+   "kind": "flip",
+   "priorAlignmentOfRecord": "lane-1-series non-overlap row of record (the whole-station body of record lives under pure-1-series with spec_points [] — unmapped-by-design under rule 3)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series"
+  },
+  {
+   "ugmSlug": "r5948",
+   "station": "geometry-of-equations",
+   "title": "Can we calculate an approximation to the root of this function?",
+   "url": "https://undergroundmathematics.org/geometry-of-equations/r5948",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "The well derives the chord-intercept approximation (af(b) - bf(a))/(f(b) - f(a)) from the sign-bracketed interval f(a) < 0 < f(b) and applies it to x^2 + x^(1/2) - 37 = 0 ('find two consecutive integers between which a root lies... calculate an approximation to the root, giving three significant figures') - locating a root by a graphical/linear-interpolation consideration between two sign-change bounds (the method r8679's survey names 'linear interpolation'), riding the standing 1.3.1/1.3.2 alignments of record.",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.6.1"
+   ],
+   "primaryPick": null,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-coordinate-geometry alignments 1.3.1/1.3.2 of record (the line-geometry derivation)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r7549",
+   "station": "circles",
+   "title": "Can we show this quartic equation has exactly two real roots?",
+   "url": "https://undergroundmathematics.org/circles/r7549",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "'Find the positive root of the equation correct to one decimal place': the solution reads ~1.4 off the sketch (graphical consideration), tabulates f(1.3)/f(1.4)/f(1.5), and applies the continuity + sign-change law ('As there is a sign change and the function is continuous, the root we seek must fall between 1.3 and 1.4'), refined by trial and improvement to 1.4 - riding the standing 1.3.2 alignment of record.",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.6.1"
+   ],
+   "primaryPick": null,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-coordinate-geometry alignment 1.3.2 of record",
+   "textOfRecordUnder": "UGM-Resources/pure-1-coordinate-geometry"
+  },
+  {
+   "ugmSlug": "r8231",
+   "station": "calculus-of-powers",
+   "title": "A cubic has one real root—can we find an approximation to it?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8231",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "Method 1 is trial-and-improvement interval refinement to three decimal places; Method 3 is the Newton-Raphson iteration in x_{n+1} notation ('x_{n+1} = x_n - f(x_n)/f'(x_n)', here x_{n+1} = x_n - (x^3+3x^2-3)/(3x^2+6x)); and the uniqueness argument ('since the curve is continuous... it must cut the x-axis somewhere between x=0 and x=1') is sign-change reasoning - 3.6.1 and 3.6.3 ride beside the standing 1.7.3 alignment of record.",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.6.1",
+    "3.6.3"
+   ],
+   "primaryPick": null,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-pure-1-differentiation alignment 1.7.3 of record (the cubic root-approximation body)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation"
+  },
+  {
+   "ugmSlug": "r8679",
+   "station": "calculus-trig-log",
+   "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r8679",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "The solution surveys the numerical canon verbatim ('decimal search, binary search, linear interpolation, the rearrangement method or simply zooming in with graphing software') and executes Newton-Raphson from the given first approximation 1.5 to the second approximation 1.43 (3 sf) with a substitution check - the first/second-approximation language of 3.6.2 and a given-iteration application to prescribed accuracy under 3.6.3, riding the fresh lane-13 3.5.1 pick body.",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.6.2",
+    "3.6.3"
+   ],
+   "primaryPick": null,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-13 alignment 3.5.1 of record (the fresh pick body under pure-3-integration)",
+   "textOfRecordUnder": "UGM-Resources/pure-3-integration"
+  },
+  {
+   "ugmSlug": "r9082",
+   "station": "product-rule",
+   "title": "Can we find the repeated root for  $4x^4+x^2+3x+1=0$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9082",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "Locating the repeated root via f': 'f'(x) must have a root between -1 and 0, since f'(x) is continuous and we have a change of sign. The value -1/2 is a sensible choice to test' - sign-change root location used as the instrument bounding the double root, beside the standing 1.7.2/3.1.4 alignments of record (medium: instrumental step, not the target skill).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.6.1"
+   ],
+   "primaryPick": null,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-algebra alignment 3.1.4 of record (the repeated-root row; the 1.7.2 alignment of the same body stands beside it)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation"
+  },
+  {
+   "ugmSlug": "see-the-power",
+   "station": "exp-and-log",
+   "title": "See the power",
+   "url": "https://undergroundmathematics.org/exp-and-log/see-the-power",
+   "resourceType": "Building blocks",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "The solution bounds x between 1.25 and 1.5 and narrows the bracket ('We could narrow this range by trial and improvement or by plotting a graph') before the exact digit-counting logarithms take over - interval-search root location beside the standing 3.2.1 alignment (medium: instrumental, subordinate to the log-law purpose).",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.6.1"
+   ],
+   "primaryPick": null,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-log-exp alignment 3.2.1 of record",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions"
+  },
+  {
+   "ugmSlug": "to-log-or-not-to-log",
+   "station": "exp-and-log",
+   "title": "To log or not to log?",
+   "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log",
+   "resourceType": "Problem requiring decisions",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "The solution confronts 5^x = x^5 ('This is another example of an equation we don't know how to solve exactly. We could use a numerical method such as trial and improvement to find an approximate solution. Most numerical methods work best if you know roughly where the solution is. A sketch... might help') - the locate-approximately stance of 3.6.1 inside the standing 3.2.3 alignment (medium: the numerical method is advised, not executed to an answer).",
+   "examProvenance": null,
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.6.1"
+   ],
+   "primaryPick": null,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-log-exp alignment 3.2.3 of record",
+   "textOfRecordUnder": "UGM-Resources/pure-3-logarithmic-and-exponential-functions"
+  }
+ ],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "staircase-sequences-revisited",
+   "station": "thinking-about-numbers",
+   "title": "Staircase sequences revisited",
+   "url": "https://undergroundmathematics.org/thinking-about-numbers/staircase-sequences-revisited",
+   "resourceType": "Scaffolded task",
+   "routedTo": "P3 3.6.2 companion disclosure (the convergents of the golden-ratio and sqrt(3) continued fractions are sequences of increasingly accurate rational approximations to roots of x^2 - x - 1 = 0 and x^2 = 3, and the sqrt(3) expansion is a self-similarity rearrangement)",
+   "reason": "The resource's centre of gravity is continued-fraction REPRESENTATION (which numbers admit which expansions), not iteration toward a root to prescribed accuracy; the approximation-sequence idea appears as prose inherited from its companion Staircase sequences (aligned here at 3.6.2/3.6.3) and the solutions never iterate numerically nor use x_n notation - the 3.6.2 content of record is carried by the companion; no fresh alignment manufactured",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "staircase-sequences-revisited": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-numbers",
+   "reason": "The resource's centre of gravity is continued-fraction REPRESENTATION (which numbers admit which expansions), not iteration toward a root to prescribed accuracy; the approximation-sequence idea appears as prose inherited from its companion Staircase sequences (aligned here at 3.6.2/3.6.3) and the solutions never iterate numerically nor use x_n notation - the 3.6.2 content of record is carried by the companion; no fresh alignment manufactured",
+   "routedTo": "P3 3.6.2 companion disclosure (the convergents of the golden-ratio and sqrt(3) continued fractions are sequences of increasingly accurate rational approximations to roots of x^2 - x - 1 = 0 and x^2 = 3, and the sqrt(3) expansion is a self-similarity rearrangement)"
+  },
+  "picture-the-process-i": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "Newton's law of cooling is the graph-matching context; no equation-root location or iteration-to-a-root anywhere in the well or solution",
+   "routedTo": "prior of-record row stands"
+  },
+  "frictional-story": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Newton's SECOND LAW mechanics; the 'Newton' hits are physics, not the root-finding method",
+   "routedTo": "prior of-record row stands"
+  },
+  "r7982": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Newton's second law applied to connected particles; no numerical root work",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6864": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "Newton's third/second law friction model; no root location",
+   "routedTo": "prior of-record row stands"
+  },
+  "make-it-stop": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Newton's second law force decomposition; no root location (non-overlap row of record stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r7678": {
+   "outcome": "rejected_of_record",
+   "station": "vector-geometry",
+   "reason": "Newton's second law for a mass on a string; no root location (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "newton-and-leibniz": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "Historical account of the calculus priority dispute; no numerical-methods content (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5602": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "Harmonic-series/Euler-Mascheroni convergence is infinite-series asymptotics, not equation-root iteration (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8033": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "Pell-equation recurrences x_{n+1} = 3x_n + 4y_n generate exact solution sequences by algebraic identity; no convergence-to-a-root (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8203": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "'After n iterations' is a combinatorial robot walk recurrence; no root-finding (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r9473": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "x_n > x_{n+1} is sequence indexing with an inequality in n; not root iteration (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "gradients-of-gradients": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "The sign change is of h'' at the inflection - curve sketching, not root location (alignment 1.7.1 stands)",
+   "routedTo": "aligned of record (1-differentiation:1.7.1)"
+  },
+  "stretch-the-function": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "'Converges' is improper-integral behaviour; no root work (alignments stand)",
+   "routedTo": "aligned of record (1-integration:1.8.3; 1-integration:x:1.8.3)"
+  },
+  "from-parabolas-to-catenaries": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "The 'iterative approach' refines a catenary MODEL by successive assumption correction; no x = F(x) root-finding of an equation (alignment 3.1.6 stands)",
+   "routedTo": "aligned of record (3-algebra:3.1.6)"
+  },
+  "can-you-find-series-edition": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "Series-convergence prompts; not equation-root iteration (alignment stands)",
+   "routedTo": "aligned of record (1-series:1.6.4)"
+  },
+  "r8493": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "Power-series convergence region; not root work (alignment stands)",
+   "routedTo": "aligned of record (1-series:1.6.3; 1-series:1.6.4)"
+  },
+  "sort-it-out": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "Sequence classification cards (periodic/divergent/convergent); no root work (alignment stands)",
+   "routedTo": "aligned of record (1-series:1.6.2)"
+  },
+  "r9312": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "x_n, x_{n+1} index the area-partition points of the envelope-integral regions; not root iteration (alignments 1.6.4/3.5.5 stand)",
+   "routedTo": "aligned of record (1-series:1.6.4; 3-integration:3.5.5)"
+  },
+  "r6653": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "The sketch determines the NUMBER of solutions and the equation is then solved exactly (x = 1 algebraically); no approximate location or iteration (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "reach-for-the-stars": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "Trial-and-improvement is mentioned as one route to 2^x ~ 30 and the solution then goes exact via log_2(30); the exact-log treatment is the point (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "absurder": {
+   "outcome": "rejected_of_record",
+   "station": "polynomials",
+   "reason": "'Trial and improvement' is a solution-strategy heading for surd rationalisation arithmetic; no equation-root location (row stands)",
+   "routedTo": "prior of-record row stands"
+  },
+  "absolutely": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "Trial-and-improvement appears as an analogy for stopping when successive answers are within 0.01 - the |x| limit resource does not itself locate roots (alignment 3.1.1 stands)",
+   "routedTo": "aligned of record (3-algebra:3.1.1)"
+  },
+  "r9747": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "Log values quoted to nine decimal places are data precision, not root approximation (alignment 3.2.3 stands)",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.3)"
+  },
+  "r9976": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "Same class: log-arithmetic precision, not root location (alignment 3.2.1 stands)",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "r7604": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-compound-angles",
+   "reason": "Coordinates given to 3 d.p. are input data, not computed root approximations (alignments stand)",
+   "routedTo": "aligned of record (3-trigonometry:3.3.2; 3-trigonometry:x:3.3.2)"
+  },
+  "problem-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "The trapezium rule is numerical INTEGRATION; CIE houses it outside 3.6 (alignment 1.4.1 stands)",
+   "routedTo": "aligned of record (1-circular-measure:1.4.1)"
+  },
+  "r9754": {
+   "outcome": "rejected_of_record",
+   "station": "polynomials",
+   "reason": "A solution-COUNT multiple choice reasoned by graphs; roots are never located approximately (fresh, no prior row - rejected with this reason)",
+   "routedTo": "prior of-record row stands"
+  },
+  "calculators1950": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "Historical log-table arithmetic; precision culture, not root location (alignment 3.2.1 stands)",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "divide-and-conquer": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-numbers",
+   "reason": "Estimating 1/sqrt(2) by surd bounding is arithmetic estimation of an irrational VALUE, framed without equation-solving; the 3.6.1 equation-root framing is absent (fresh, rejected with this reason)",
+   "routedTo": "prior of-record row stands"
+  },
+  "comparing-continued-fractions": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-algebra",
+   "reason": "Fraction-comparison by continued-fraction algebra; no iteration or roots (fresh, rejected with this reason)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8694": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "'Correct to two significant figures' quantifies an integral; not root location (alignment stands)",
+   "routedTo": "aligned of record (3-algebra:3.1.5; 3-integration:3.5.2)"
+  },
+  "r7937": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "Sector geometry answers to 3 s.f.; precision phrasing only (alignment stands)",
+   "routedTo": "aligned of record (1-circular-measure:x:1.4.1)"
+  },
+  "r6838": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "Area answers to 2 s.f.; precision phrasing only (alignment stands)",
+   "routedTo": "aligned of record (1-circular-measure:x:1.4.1)"
+  },
+  "r6503": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "Binomial-expansion precision discussion; not root work (alignment stands)",
+   "routedTo": "aligned of record (1-series:1.6.1)"
+  },
+  "r8774": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "Mechanics answer to 2 s.f. (the lane-12 displacement body); precision phrasing only (alignment stands)",
+   "routedTo": "aligned of record (3-differentiation:3.4.2; 3-integration:3.5.1)"
+  },
+  "r8152": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "Average density to 2 s.f.; precision phrasing only (alignment stands)",
+   "routedTo": "aligned of record (3-algebra:3.1.5)"
+  },
+  "r8711": {
+   "outcome": "aligned",
+   "station": "polynomials",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8013": {
+   "outcome": "aligned",
+   "station": "exp-and-log",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8404": {
+   "outcome": "aligned",
+   "station": "sequences",
+   "reason": "flip riding the existing body of record",
+   "routedTo": null
+  },
+  "staircase-sequences": {
+   "outcome": "aligned",
+   "station": "thinking-about-numbers",
+   "reason": "fresh body of record",
+   "routedTo": null
+  },
+  "r8231": {
+   "outcome": "aligned",
+   "station": "calculus-of-powers",
+   "reason": "one-to-many join beside the standing alignment",
+   "routedTo": null
+  },
+  "r8679": {
+   "outcome": "aligned",
+   "station": "calculus-trig-log",
+   "reason": "one-to-many join beside the standing alignment",
+   "routedTo": null
+  },
+  "r7549": {
+   "outcome": "aligned",
+   "station": "circles",
+   "reason": "one-to-many join beside the standing alignment",
+   "routedTo": null
+  },
+  "r5948": {
+   "outcome": "aligned",
+   "station": "geometry-of-equations",
+   "reason": "one-to-many join beside the standing alignment",
+   "routedTo": null
+  },
+  "to-log-or-not-to-log": {
+   "outcome": "aligned",
+   "station": "exp-and-log",
+   "reason": "one-to-many join beside the standing alignment",
+   "routedTo": null
+  },
+  "see-the-power": {
+   "outcome": "aligned",
+   "station": "exp-and-log",
+   "reason": "one-to-many join beside the standing alignment",
+   "routedTo": null
+  },
+  "r9082": {
+   "outcome": "aligned",
+   "station": "product-rule",
+   "reason": "one-to-many join beside the standing alignment",
+   "routedTo": null
+  }
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 48,
+  "substrateResources": 3,
+  "ugmResourcesConsidered": 48,
+  "aligned": 11,
+  "alignedSubstrate": 3,
+  "nonOverlap": 1,
+  "crossLaneAligned": 8,
+  "rejectedOfRecord": 36,
+  "alignedShare": 0.2292,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 8,
+   "flips": 1,
+   "oneToMany": 7,
+   "note": "1 flip: r8404 (the lane-1-series non-overlap row of record whose whole-station body of record lives under pure-1-series with spec_points [] — unmapped-by-design under rule 3) maps to 3.6.2/3.6.3 by reference — the circular-slice precedent; 7 one-to-many joins beside standing alignments of record: r8231 (1.7.3), r8679 (3.5.1, the lane-13 pick body), r7549 (1.3.2), r5948 (1.3.1/1.3.2), to-log-or-not-to-log (3.2.3), see-the-power (3.2.1), r9082 (1.7.2/3.1.4)"
+  },
+  "stationBreakdown": {
+   "calculus-meets-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "calculus-of-powers": {
+    "resources": 2,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "calculus-trig-log": {
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 0
+   },
+   "chain-rule": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "circles": {
+    "resources": 3,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "combining-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "counting-and-binomials": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4
+   },
+   "exp-and-log": {
+    "resources": 7,
+    "aligned": 3,
+    "nonOverlap": 0,
+    "rejected": 4
+   },
+   "geometry-of-equations": {
+    "resources": 1,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 0
+   },
+   "hyperbolic-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "introducing-calculus": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "polynomials": {
+    "resources": 3,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "product-rule": {
+    "resources": 4,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 3
+   },
+   "quadratics": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "sequences": {
+    "resources": 5,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 4
+   },
+   "thinking-about-algebra": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "thinking-about-functions": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "thinking-about-numbers": {
+    "resources": 3,
+    "aligned": 1,
+    "nonOverlap": 1,
+    "rejected": 1
+   },
+   "trigonometry-compound-angles": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "vector-geometry": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4
+   }
+  },
+  "coverageNote": "Sweep over the 855-resource corpus in four angles (pass-1 title/description; tight pass-2 iteration/sign-change/convergence regex; targeted angle patterns — decimal-places+root, rearrangement-form, trial-and-improvement, fixed-point, x=g(x), successive-approximations; dossier reads of every candidate against well AND solution) — NO pre-baked bearing pool this lane (no prior lane routed rows to 'P3 3.6'): 48 candidates of record closed exactly: 11 aligned rows = 3 fresh bodies (the lane's new text of record) + 1 cross-course flip (r8404 riding its unmapped-by-design lane-6 body under pure-1-series, the circular-slice precedent) + 7 one-to-many joins by reference; 1 non-overlap recorded with a companion disclosure; 36 candidates rejected with reasons (their prior of-record alignments/rows stand). NO honest gap this lane: 3.6.1 carries 8 rows, 3.6.2 three, 3.6.3 four."
+ },
+ "ugmStations": {}
+}
