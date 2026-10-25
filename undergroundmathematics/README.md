@@ -208,12 +208,31 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   disclosed of record);
   enrichment + 1 new-text body filed as `syllabai-resources#126`,
   MANIFEST v12 — 549 files corpus-wide; hub `T-UGM-HUB-CONSUME-11`
+  merged of record `07b37c08` (r0-auto; post-merge verified ALL
+  GREEN at `main@3c2ecfa4`).
+  **lane 12 the differentiation plane → CIE 9709 Pure 3 3.4
+  Differentiation** — the fourth lane on the pure-3 course plane and
+  the largest fresh-text lane since lane 9 (operator:
+  "eyeball+merge of #371 then lane 12"; cross-map
+  `cross-map-p3-differentiation.json` @ `506ea24f`, 189 sweep
+  candidates: 41 aligned rows — 40 fresh (13 × 3.4.1 / 12 × 3.4.2 /
+  15 × 3.4.3; 16 promotions of the lane-10/11 pre-baked
+  "P3 3.4 Differentiation" bearing pool superseding their stale rows
+  of record) + 1 cross-course flip by reference (r8931 riding its
+  lane-7 body under pure-1-differentiation) — plus 29 fresh
+  non-overlaps by reference (`bodyImported: false`; 3 honest
+  re-routings of lane-10 bearings) + 119 rejected with reasons (the
+  lane-7 P1 alignments hold the tangent/normal/optimisation
+  embodiments; the 3.4.1 list boundary applied strictly); primary
+  picks r6938 / r6530 / r8620 (all fresh);
+  enrichment + 40 new-text bodies filed as `syllabai-resources#134`,
+  MANIFEST v13 — 589 files corpus-wide; hub `T-UGM-HUB-CONSUME-12`
   pending). Mode-2 deep-link
   pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-- Next: #119 review/merge on operator ack; further lanes by operator
-  ordering (lanes 9–10 opened the pure-3 plane — 3.3 Trigonometry is the
-  natural lane 11 via the lane-5 compound-angles pool, then 3.4–3.5 where
-  the lane-7/8 technique pools await) — recipe of record in
+- Next: #134 review/merge on operator ack; further lanes by operator
+  ordering (lanes 9–12 opened the pure-3 plane — 3.5 Integration is the
+  natural lane 13 via the lane-12 3.5-routed non-overlaps and the
+  lane-10/11 technique pools) — recipe of record in
   `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.

@@ -435,19 +435,40 @@ worth doing regardless of any Mode-3 outcome.
       file — converter pre-flight 79/79 byte-identity vs the lane-8 AND
       lane-9 AND lane-10 of-record bodies); hub consumption
       (`T-UGM-HUB-CONSUME-11`) pending on the syllabai-v2 side
+- [x] **twelfth lane — CIE 9709 **Pure 3** 3.4 Differentiation (operator:
+      "eyeball+merge of #371 then lane 12"; the fourth lane on the pure-3
+      course plane and the LARGEST FRESH-TEXT LANE SINCE LANE 9)** — #371
+      (T-UGM-HUB-CONSUME-11) verified already merged of record at arrival
+      (`07b37c08`, r0-auto) with the fail-closed post-merge pipeline ALL
+      GREEN (the #347 precedent) — the differentiation substrate
+      concentrates on the chain-rule and product-rule stations, which
+      lane 7 did NOT whole-import (only 7 + 2 stray alignments), so the
+      lane inverts lane 11's shape: cross-map of record
+      `cross-map-p3-differentiation.json` @ `506ea24f` (corpus sweep
+      855 → 189 candidates resolved as 41 aligned rows — 40 fresh rows
+      (13 × 3.4.1 standard derivatives, 12 × 3.4.2 product/quotient,
+      15 × 3.4.3 parametric/implicit; 16 of them promotions of the
+      lane-10/11 pre-baked "P3 3.4 Differentiation" bearing pool
+      superseding their stale rows of record) + 1 cross-course flip by
+      reference (r8931 riding its lane-7 body)) + 29 fresh non-overlaps
+      recorded by reference only (`bodyImported: false`; 3 honest
+      re-routings of lane-10 bearings) + 119 of-record candidates
+      rejected with reasons (the lane-7 P1 alignments already hold the
+      tangent/normal/optimisation embodiments — the 3.4.1 list boundary
+      applied strictly); primary picks r6938 / r6530 / r8620 (all fresh);
+      corpus + facts filed as
+      **[syllabai-resources#134](https://github.com/SyllabAI/syllabai-resources/pull/134)**
+      (tasks `T-UGM-MODE1-12` + `T-UGM-IMPORT-12`, MANIFEST v13, 40
+      new-text files — converter pre-flight 80/80 byte-identity vs the
+      lane-8 AND lane-9 AND lane-10 AND lane-11 of-record bodies); hub
+      consumption (`T-UGM-HUB-CONSUME-12`) pending on the syllabai-v2 side
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
-      lanes 9–11 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
-      and exponential functions and 3.3 Trigonometry; the recorded next
-      substrates are the remaining P3 sections in syllabus order — 3.4
-      Differentiation first (the lane-11 non-overlaps already carry 9
-      P3-3.4 routings) — then 3.5
-      Differentiation and 3.5 Integration where the lane-7/8 technique
-      pools (powerful-derivatives, r6530, r6620, r7431, r8134, r8671,
-      r9484, r9898, differentiating-exponentials; two-for-one,
-      inverse-integrals, stretching-an-integral, integral-sorting,
-      integral-chasing-2, r9085, r8774, r7903) and the 32 lane-8
-      P3-integration routings await; 3.6–3.9 beyond; ordering is the
-      operator's call)
+      lanes 9–12 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
+      and exponential functions, 3.3 Trigonometry and 3.4 Differentiation;
+      the recorded next substrate is 3.5 Integration — the lane-12
+      non-overlaps already carry 7 fresh P3-3.5 routings beside the
+      lane-10/11 routed rows and the lane-8 P3-integration routings —
+      then 3.6–3.9; ordering is the operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station and strand
