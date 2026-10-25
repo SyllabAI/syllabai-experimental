@@ -10,25 +10,25 @@
    "3.3.2"
   ],
   "noFoldFragments": true,
-  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json - the two rows 3.3.1-3.3.2 are the spine rows of record verbatim (the parse artifacts in the 3.3.2 title - dropped math runs in 'R sin(θ±α)' / 'sec²θ ≡ 1 + tan²θ' and the mid-sentence truncation after 'the expression of a sin θ + b cos θ in the' - are carried verbatim; no T-SPECS repair needed, no fold fragments exist)"
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json - the two rows 3.3.1-3.3.2 are the spine rows of record verbatim (the parse artifacts in the 3.3.2 title - dropped math runs in the R-form/Pythagorean bullets and the mid-sentence truncation after 'the expression of a sin θ + b cos θ in the' - are carried verbatim; no T-SPECS repair needed, no fold fragments exist)"
  },
  "coverage": {
   "corpusScreened": 855,
   "sweepRawHits": 110,
   "sweepCandidates": 103,
-  "substrateResources": 24,
+  "substrateResources": 1,
   "ugmResourcesConsidered": 103,
   "aligned": 28,
-  "alignedSubstrate": 24,
+  "alignedSubstrate": 1,
   "nonOverlap": 42,
-  "crossLaneAligned": 4,
+  "crossLaneAligned": 27,
   "rejectedOfRecord": 33,
   "alignedShare": 0.2718,
   "crossLaneCoverage": {
-   "crossLaneAligned": 4,
-   "flips": 0,
+   "crossLaneAligned": 27,
+   "flips": 23,
    "oneToMany": 4,
-   "note": "no cross-lane flips this lane - all 4 joins are one-to-many additions to resources already aligned of record (going-round-in-circles, muddled-trig, trig-tables, r7021 under lane-5 pure-1 trigonometry 1.5.x); text of record stays under pure-1-trigonometry"
+   "note": "23 flips (the lane-5 pre-baked 'P3 2.3' pool rows: lane-5 non-overlaps whose whole-station bodies of record live under pure-1-trigonometry, mapped to 3.3.2 by reference - the lane-9 flip law, no new text) + 4 one-to-many (going-round-in-circles, muddled-trig, trig-tables 3.3.1; r7021 3.3.2 - beside standing lane-5 1.5.x alignments); all 26 ride bodies of record under UGM-Resources/pure-1-trigonometry; no flips of pure-3 rows, no duplicates - first-of-record body wins"
   },
   "stationBreakdown": {
    "calculus-meets-functions": {
@@ -146,7 +146,7 @@
     "rejected": 0
    }
   },
-  "coverageNote": "110 raw sweep hits (17 pass-1 title/description + 93 pass-2 body-text) over the 855-resource corpus → 102 unique regex candidates + 1 pre-baked bearing (r9740, the lane-5 pool row the regex cannot reach) = 103 candidates, every one closed of record: 24 fresh aligned (24 new text bodies; T-UGM-IMPORT-11) — 22 from the dedicated trigonometry-compound-angles station plus 2 strays (lost-but-lovely-the-haversine from Triangles-to-Functions, r7616 from Calculus of Trigonometry & Logarithms); 4 further rows ride bodies of record under lane 5 (cross-course joins by reference); 42 non-overlaps by reference (12 of them re-records of lane-5 non_overlap rows whose bearings stand); 33 of-record candidates rejected because their prior alignments stand. The dedicated-station pool is the lane-5 pre-baked one: the compound-angles station recorded 23 non-overlaps pointing at 'P3 2.3' = today's 3.3, of which 22 land as fresh bodies this lane and 1 (r5988) keeps its extended-sine-rule bearing."
+  "coverageNote": "110 raw sweep hits (17 pass-1 title/description sweep + 93 pass-2 body-text sweep) over the 855-resource corpus → 102 unique regex candidates + 1 pre-baked bearing (r9740, the lane-5 pool row the regex cannot reach) = 103 candidates, every one closed of record: 28 aligned rows = 1 fresh body (r7616; T-UGM-IMPORT-11) + 27 cross-course rows by reference (23 flips of the lane-5 pre-baked pool + 4 one-to-many beside standing 1.5.x alignments — the dedicated trigonometry-compound-angles station is WHOLE-IMPORTED of record under lane 5 (the two-station lane law), so the pool maps by reference and nothing is duplicated); 42 non-overlaps by reference (9 of them riding prior bodies of record, textOfRecordUnder set per the supersede law); 33 of-record candidates rejected because their prior alignments stand. The converter pre-flight ran 79/79 byte-identity against the lane-8, lane-9 AND lane-10 of-record bodies; the slug law re-proved 35/35 against the lane-9 filenames."
  },
  "perSpecPoint": {
   "3.3.1": {
@@ -189,10 +189,7 @@
      "codes": [
       "3.3.1"
      ],
-     "primaryPick": false,
-     "priorAlignmentOfRecord": "lane-trigonometry 1.5.1",
-     "kind": "one_to_many",
-     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+     "primaryPick": false
     },
     {
      "ugmSlug": "muddled-trig",
@@ -210,10 +207,7 @@
      "codes": [
       "3.3.1"
      ],
-     "primaryPick": false,
-     "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.3",
-     "kind": "one_to_many",
-     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+     "primaryPick": false
     },
     {
      "ugmSlug": "trig-tables",
@@ -231,10 +225,7 @@
      "codes": [
       "3.3.1"
      ],
-     "primaryPick": false,
-     "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.2",
-     "kind": "one_to_many",
-     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+     "primaryPick": false
     }
    ],
    "ugmStation": "calculus-trig-log",
@@ -247,24 +238,6 @@
    "spineTitleVerbatim": "use trigonometrical identities for the simplification and exact evaluation of expressions, and in the course of solving equations, and select an identity or identities appropriate to the context, showing familiarity in particular with the use of tan( A ± B ) forms R sin ^ i ! a h and R cos ^ i ! a h .: • sec i / 1 + tan i and cosec i / 1 + cot i • the expansions of sin( A ± B ) , cos( A ± B ) and • the formulae for sin 2 A , cos 2 A and tan 2 A • the expression of a sin i + b cos i in the",
    "primaryPick": "r6018",
    "resources": [
-    {
-     "ugmSlug": "r6018",
-     "station": "trigonometry-compound-angles",
-     "title": "Can we find the value of $\\sin 18^\\circ$ as a surd?",
-     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6018",
-     "resourceType": "Review question",
-     "confidence": "high",
-     "modesRecorded": [
-      1
-     ],
-     "evidence": "cos3θ=sin2θ expanded via the double/compound-angle formulae into 4x^2+2x-1=0 - sin 18° extracted as a surd plus all solutions 0-360°: the exact-evaluation-plus-equation-solving showcase for the identities limb",
-     "examProvenance": "UCLES A level Mathematics 1, QP 184, 1953, Q5",
-     "hasTeacherSupport": true,
-     "codes": [
-      "3.3.2"
-     ],
-     "primaryPick": true
-    },
     {
      "ugmSlug": "equation-or-identity-ii",
      "station": "trigonometry-compound-angles",
@@ -372,6 +345,24 @@
       "3.3.2"
      ],
      "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6018",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we find the value of $\\sin 18^\\circ$ as a surd?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6018",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos3θ=sin2θ expanded via the double/compound-angle formulae into 4x^2+2x-1=0 - sin 18° extracted as a surd plus all solutions 0-360°: the exact-evaluation-plus-equation-solving showcase for the identities limb",
+     "examProvenance": "UCLES A level Mathematics 1, QP 184, 1953, Q5",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": true
     },
     {
      "ugmSlug": "r6039",
@@ -494,6 +485,24 @@
      "evidence": "3cos^2x+2cos^2y=4 with 3sin2x-2sin2y=0 solved for cos2x, cos2y via the double-angle formulae, then four solution pairs to the nearest degree - identities solving simultaneous equations",
      "examProvenance": "UCLES A level Mathematics A Special paper, QP 9200/0, 1981, Q3",
      "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7021",
+     "station": "trigonometry-compound-angles",
+     "title": "Using angles in a pentagon...",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos(π/5) extracted exactly via the cosine double-angle formula cos2θ=2cos^2θ-1 reducing the pentagon relation to 4γ^2-2γ-1=0 - exact evaluation through the double-angle identity",
+     "examProvenance": "UCLES A level Mathematics 1, QP 180, 1954, Q9",
+     "hasTeacherSupport": true,
      "codes": [
       "3.3.2"
      ],
@@ -660,27 +669,6 @@
       "3.3.2"
      ],
      "primaryPick": false
-    },
-    {
-     "ugmSlug": "r7021",
-     "station": "trigonometry-compound-angles",
-     "title": "Using angles in a pentagon...",
-     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
-     "resourceType": "Review question",
-     "confidence": "high",
-     "modesRecorded": [
-      1
-     ],
-     "evidence": "cos(π/5) extracted exactly via the cosine double-angle formula cos2θ=2cos^2θ-1 reducing the pentagon relation to 4γ^2-2γ-1=0 - exact evaluation through the double-angle identity",
-     "examProvenance": "UCLES A level Mathematics 1, QP 180, 1954, Q9",
-     "hasTeacherSupport": true,
-     "codes": [
-      "3.3.2"
-     ],
-     "primaryPick": false,
-     "priorAlignmentOfRecord": "lane-trigonometry 1.5.2",
-     "kind": "one_to_many",
-     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
     }
    ],
    "ugmStation": "trigonometry-compound-angles",
@@ -694,56 +682,567 @@
    "station": "trigonometry-triangles-to-functions",
    "title": "Going round in circles",
    "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles",
+   "resourceType": "Building blocks",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "the reciprocal-triangles derivation: 1/cosθ=secθ, 1/sinθ=cosecθ, 1/tanθ=cotθ relabelled on the three triangles, with Pythagoras giving cot^2+1=cosec^2 and 1+tan^2=sec^2 - the canonical relationship resource for the sec/cosec/cot limb",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
    "codes": [
     "3.3.1"
    ],
+   "primaryPick": false,
    "kind": "one_to_many",
    "priorAlignmentOfRecord": "lane-trigonometry 1.5.1",
-   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
-   "confidence": "high",
-   "evidence": "the reciprocal-triangles derivation: 1/cosθ=secθ, 1/sinθ=cosecθ, 1/tanθ=cotθ relabelled on the three triangles, with Pythagoras giving cot^2+1=cosec^2 and 1+tan^2=sec^2 - the canonical relationship resource for the sec/cosec/cot limb"
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
   },
   {
    "ugmSlug": "muddled-trig",
    "station": "trigonometry-triangles-to-functions",
    "title": "Muddled trig",
    "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/muddled-trig",
+   "resourceType": "Building blocks",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "graphs and domains/ranges of 1/sin x, 1/cos x, 1/tan x sketched and named cosec, sec, cot - the graphs-of-all-six limb",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
    "codes": [
     "3.3.1"
    ],
+   "primaryPick": false,
    "kind": "one_to_many",
    "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.3",
-   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
-   "confidence": "high",
-   "evidence": "graphs and domains/ranges of 1/sin x, 1/cos x, 1/tan x sketched and named cosec, sec, cot - the graphs-of-all-six limb"
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
   },
   {
    "ugmSlug": "trig-tables",
    "station": "trigonometry-triangles-to-functions",
    "title": "Trig tables",
    "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables",
+   "resourceType": "Fluency exercise",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "a multiplication table of the six functions completed without calculators - the reciprocal relationships sec=1/cos, cosec=1/sin, cot=1/tan in use at special angles",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
    "codes": [
     "3.3.1"
    ],
+   "primaryPick": false,
    "kind": "one_to_many",
    "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.2",
-   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
-   "confidence": "medium",
-   "evidence": "a multiplication table of the six functions completed without calculators - the reciprocal relationships sec=1/cos, cosec=1/sin, cot=1/tan in use at special angles"
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "equation-or-identity-ii",
+   "station": "trigonometry-compound-angles",
+   "title": "Equation or identity? (II)",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/equation-or-identity-ii",
+   "resourceType": "Package of problems",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "seven triangle statements decided identity-vs-equation and the identities proved with compound/double-angle formulae - the sibling of (I) whose P1-accessible core lane-5 recorded; the full compound-angle version is 3.3.2 work",
+   "examProvenance": null,
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "inspecting-identities",
+   "station": "trigonometry-compound-angles",
+   "title": "Inspecting identities",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities",
+   "resourceType": "Many ways problem",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "the half-angle identities cos^2(θ/2)=(1+cosθ)/2 and sin^2(θ/2)=(1-cosθ)/2 inspected and used - the double-angle derivations the lane-5 bearing recorded",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "proving-half-angle-formulae",
+   "station": "trigonometry-compound-angles",
+   "title": "Proving half-angle formulae",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/proving-half-angle-formulae",
+   "resourceType": "Scaffolded task",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "derives cos^2(θ/2)=(1+cosθ)/2 from the double-angle identity (geometric and algebraic proofs) - half-angle formulae are 3.3.2 derivations",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r5113",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we solve the equation $3\\cos x + 1 = 2\\sin x$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5113",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "2sinx-3cosx=1 solved by writing the left side as R sin(x-α) via the compound-angle identity - the R-form expression of a sinx + b cosx in the solving course",
+   "examProvenance": "UCLES A level Mathematics 1, QP 840/1, 1970, Q5(ii)",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r5129",
+   "station": "trigonometry-compound-angles",
+   "title": "If $bc=a^2+1$,  what is $\\arctan[(a+b)^{-1}]+\\arctan[(a+c)^{-1}]$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5129",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "arctan addition evaluated via tan(P+Q)=(tanP+tanQ)/(1-tanPtanQ) from the compound-angle formula - exact evaluation through the tan(A±B) expansion",
+   "examProvenance": "UCLES STEP Mathematics II, 2005, Q4",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r5723",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we solve these trig equations for $x, y$ and $z$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5723",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "three trig equations solved: tan(x+60°)=1 (compound translation), 8siny+3secy=0 (sec as reciprocal of cos, then sin2y), 3sin^2z-8sinzcosz-3cos^2z=0 (identity reduction to quadratic) - identities in the course of solving equations",
+   "examProvenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1983, Q14",
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r6018",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we find the value of $\\sin 18^\\circ$ as a surd?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6018",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "cos3θ=sin2θ expanded via the double/compound-angle formulae into 4x^2+2x-1=0 - sin 18° extracted as a surd plus all solutions 0-360°: the exact-evaluation-plus-equation-solving showcase for the identities limb",
+   "examProvenance": "UCLES A level Mathematics 1, QP 184, 1953, Q5",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r6039",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we solve $\\tan\\theta\\tan(\\theta+\\pi/3)=2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6039",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "tanθtan(θ+α)=k proved equivalent to (k+1)cos(2θ+α)=(1-k)cosα via product-to-sum identities, then tanθtan(θ+π/3)=2 solved - compound-angle manipulation for exact results",
+   "examProvenance": "UCLES A level Mathematics Scholarship paper, QP 186, 1953, Q3",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r6120",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we write $\\cos \\theta - 2 \\cos 3 \\theta + \\cos 5\\theta$ using $\\sin$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6120",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "cosθ-2cos3θ+cos5θ=2sinθ(sin2θ-sin4θ) proved by compound-angle products, then 3sec^2x=tanx+5 solved via sec^2=1+tan^2 - the Pythagorean identity in the course of solving equations",
+   "examProvenance": "UCLES A level Mathematics 1, QP 182, 1952, Q8",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r6696",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we write $\\sin\\theta$ and $\\cos\\theta$ in terms of $\\tan(\\theta/2)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6696",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "sinθ and cosθ expressed in terms of t=tan(θ/2) via the double-angle formulae - the half-angle t-substitution identities",
+   "examProvenance": "UCLES A level Mathematics 1, QP 182, 1952, Q7",
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r6807",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we simplify $\\cos 3\\theta \\sin 2\\theta - \\cos 4\\theta \\sin \\theta$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6807",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "cos3θsin2θ-cos4θsinθ=cos2θsinθ proved from sin(A±B)/cos(A±B), and tan(A+B) obtained from the compound-angle relations - simplification and derivation of the tan form",
+   "examProvenance": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q4",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r7050",
+   "station": "trigonometry-compound-angles",
+   "title": "An exact value for $\\sin 15^{\\circ}$...",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7050",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "sin 15°=(√6-√2)/4 obtained by expanding sin(45°-30°) - the exact-evaluation limb via the compound-angle expansion",
+   "examProvenance": "Cambridge Colleges Examination for Entrance Scholarships and Exhibitions, Pure Mathematics for Candidates in Natural Sciences (Group 4), 1952, Q3",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r7581",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we sketch the curve $y = \\cos x - \\sin x +2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7581",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "y=cosx-sinx+2 rewritten as R cos(x+θ)+2 via the compound-angle identity before sketching - the R-form expression",
+   "examProvenance": "UCLES A level Mathematics 2, QP 840/2, 1970, Q17a",
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r7604",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we solve these simultaneous trigonometric equations?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7604",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "3cos^2x+2cos^2y=4 with 3sin2x-2sin2y=0 solved for cos2x, cos2y via the double-angle formulae, then four solution pairs to the nearest degree - identities solving simultaneous equations",
+   "examProvenance": "UCLES A level Mathematics A Special paper, QP 9200/0, 1981, Q3",
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
   },
   {
    "ugmSlug": "r7021",
    "station": "trigonometry-compound-angles",
    "title": "Using angles in a pentagon...",
    "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "cos(π/5) extracted exactly via the cosine double-angle formula cos2θ=2cos^2θ-1 reducing the pentagon relation to 4γ^2-2γ-1=0 - exact evaluation through the double-angle identity",
+   "examProvenance": "UCLES A level Mathematics 1, QP 180, 1954, Q9",
+   "hasTeacherSupport": true,
    "codes": [
     "3.3.2"
    ],
+   "primaryPick": false,
    "kind": "one_to_many",
    "priorAlignmentOfRecord": "lane-trigonometry 1.5.2",
-   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r8525",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we prove $\\sin a \\sin b \\leq \\sin^2\\frac{1}{2}(a+b)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8525",
+   "resourceType": "Review question",
    "confidence": "high",
-   "evidence": "cos(π/5) extracted exactly via the cosine double-angle formula cos2θ=2cos^2θ-1 reducing the pentagon relation to 4γ^2-2γ-1=0 - exact evaluation through the double-angle identity"
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "sin a sin b ≤ sin^2((a+b)/2) proved via the product-to-sum identities 2sinAsinB=cos(A-B)-cos(A+B) - identity selection for an inequality",
+   "examProvenance": "UCLES A level Mathematics Scholarship paper, QP 183, 1954, Q3",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r8557",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we find the height of a tower using its reflection?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8557",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "tower height h sin(α+β)cosec(β-α) evaluated by expanding sin(α+β) and using the reciprocal relation for cosec - compound-angle work is the solution engine",
+   "examProvenance": "UCLES A level Mathematics 1, QP 184, 1953, Q7",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r8648",
+   "station": "trigonometry-compound-angles",
+   "title": "Can we solve $\\cos\\theta - \\sin (2\\theta) + \\cos (3\\theta) - \\sin (4\\theta) = 0$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8648",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "general solutions of 2sin3θ-7cos2θ+sinθ+1=0 and cosθ-sin2θ+cos3θ-sin4θ=0 via sum-to-product and double-angle identities - multi-angle equation solving",
+   "examProvenance": "UCLES A level Further Mathematics 2, QP 187, 1952, Q3",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r8709",
+   "station": "trigonometry-compound-angles",
+   "title": "For which $0^\\circ < \\theta < 500^\\circ$ is $3\\cos \\theta + 4\\sin \\theta > 2$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8709",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "3cosθ+4sinθ>2 solved for 0°<θ<500° by writing the left side as r cos(θ-α) - the R-form plus general solutions the lane-5 bearing pre-recorded",
+   "examProvenance": "O&C O level SMP Additional Mathematics 2, QP SMP 118, 1975, Q4",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r9740",
+   "station": "trigonometry-compound-angles",
+   "title": "If $\\sin \\alpha = 3/5, \\cos \\beta = 12/13$, what's $\\cos(\\alpha + \\beta)$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9740",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "cos(α+β) evaluated from sinα=3/5, cosβ=12/13 by the compound-angle expansion - the canonical expansion exercise the lane-5 bearing pre-recorded",
+   "examProvenance": "UCLES A level Mathematics B 1, QP 9202/1, 1980, Q4(a)",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "r9782",
+   "station": "trigonometry-compound-angles",
+   "title": "Why is $\\cos \\theta + \\cos (\\theta + 2\\pi/3) + \\cos(\\theta + 4\\pi/3)=0$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9782",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "cosθ+cos(θ+2π/3)+cos(θ+4π/3)=0 proved by deriving cos(A+B)=cosAcosB-sinAsinB and the three-cosine sum identity - identity derivation and use",
+   "examProvenance": "UCLES A level Mathematics 1, QP 186, 1951, Q6",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "t-for-tan",
+   "station": "trigonometry-compound-angles",
+   "title": "$t$ for $\\tan$",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/t-for-tan",
+   "resourceType": "Building blocks",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "tan2θ=2t/(1-t^2), sin2θ=2t/(1+t^2), cos2θ=(1-t^2)/(1+t^2) obtained geometrically - the double-angle formulae in the t-substitution form",
+   "examProvenance": "Based on this",
+   "hasTeacherSupport": true,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "transformation-or-not",
+   "station": "trigonometry-compound-angles",
+   "title": "Transformation... or not?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/transformation-or-not",
+   "resourceType": "Investigation",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "y=3sinx+4cosx identified as R sin(x+α) with sinα=4/5 - the R-form recognition task the lane-5 bearing pre-recorded",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+  },
+  {
+   "ugmSlug": "lost-but-lovely-the-haversine",
+   "station": "trigonometry-triangles-to-functions",
+   "title": "Lost but lovely: the haversine",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine",
+   "resourceType": "Bigger picture",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "the haversine navigation formula derivation rides the half-angle/compound identities (hav θ=(1-cosθ)/2) - the lane-5 P3-2.3 bearing pre-recorded this piece into the pool",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.3.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": null,
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
   }
  ],
  "nonOverlapRows": [
@@ -759,7 +1258,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-trigonometry"
   },
   {
    "ugmSlug": "r6589",
@@ -773,7 +1272,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-trigonometry"
   },
   {
    "ugmSlug": "r7756",
@@ -787,7 +1286,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-trigonometry"
   },
   {
    "ugmSlug": "r6622",
@@ -913,7 +1412,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-circular-measure"
   },
   {
    "ugmSlug": "odd-one-out",
@@ -1067,7 +1566,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-coordinate-geometry"
   },
   {
    "ugmSlug": "r9072",
@@ -1249,7 +1748,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-differentiation"
   },
   {
    "ugmSlug": "r5642",
@@ -1263,7 +1762,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-differentiation"
   },
   {
    "ugmSlug": "r9798",
@@ -1277,7 +1776,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-functions"
   },
   {
    "ugmSlug": "sum-estimating",
@@ -1291,7 +1790,7 @@
     1
    ],
    "bodyImported": false,
-   "textOfRecordUnder": null
+   "textOfRecordUnder": "pure-1-series"
   },
   {
    "ugmSlug": "make-it-stop",
@@ -1604,7 +2103,7 @@
   "equation-or-identity-i": {
    "outcome": "rejected_of_record",
    "station": "trigonometry-triangles-to-functions",
-   "reason": "the P1-accessible core of the identity-vs-equation pair is recorded under 1.5.4; the full compound-angle version (II) is the lane-11 fresh body",
+   "reason": "the P1-accessible core of the identity-vs-equation pair is recorded under 1.5.4; the full compound-angle version (II) maps to 3.3.2 this lane",
    "priorAlignmentOfRecord": "lane-trigonometry 1.5.4"
   },
   "general-solutions": {
@@ -1616,7 +2115,7 @@
   "have-a-sine": {
    "outcome": "rejected_of_record",
    "station": "trigonometry-triangles-to-functions",
-   "reason": "versed sine/exsecant lengths on the circle - the 1.5.1 home of record stands (its haversine sibling joins 3.3.2)",
+   "reason": "versed sine/exsecant lengths on the circle - the 1.5.1 home of record stands (its haversine sibling flips to 3.3.2)",
    "priorAlignmentOfRecord": "lane-trigonometry 1.5.1"
   },
   "how-high-am-i": {
