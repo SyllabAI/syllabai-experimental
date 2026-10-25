@@ -1,0 +1,1626 @@
+{
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.5 Integration",
+  "specPoints": [
+   "3.5.1",
+   "3.5.2",
+   "3.5.3",
+   "3.5.4",
+   "3.5.5",
+   "3.5.6"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json - the six rows 3.5.1-3.5.6 are the spine rows of record verbatim - the parse artifacts (the interleaved/dropped math runs and fragments in every row, incl. the 'k f l ^ x h' glyph debris in 3.5.3) are carried verbatim - no fold fragments"
+ },
+ "pilot": "P3c generalisation lane 13 - CIE 9709 Pure 3 subtopic 3.5 Integration (operator order: 'review+merge #373 then lane 13', trace 1a174bb406fa70a9; lane-13 identity named of record by the Task-13 findings: 'lane-13 = 3.5 Integration (7 fresh lane-12 bearings + the lane-10/11 routed rows await)')",
+ "generatedAt": "2026-10-26",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/technique exemplar whose evidence cites the general law it exercises (the lane-12 convention).",
+ "perSpecPoint": {
+  "3.5.1": {
+   "officialCode": "3.5.1",
+   "officialText": "extend the idea of ‘reverse differentiation’ to Including examples such as ax + b 1 include the integration of e , , ax + b sin( ax + b ) , cos( ax + b ) , sec ( ax + b ) and 2 2 x + a",
+   "spineTitleVerbatim": "extend the idea of ‘reverse differentiation’ to Including examples such as ax + b 1 include the integration of e , , ax + b sin( ax + b ) , cos( ax + b ) , sec ( ax + b ) and 2 2 x + a",
+   "primaryPick": "r8679",
+   "resources": [
+    {
+     "ugmSlug": "integral-chasing-2",
+     "station": "product-rule",
+     "title": "Integral chasing II",
+     "url": "https://undergroundmathematics.org/product-rule/integral-chasing-2",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "four missing-number definite integrals: INT axe^(2x) and INT x^2 sin cx by parts (3.5.5, twice), INT 1/(3x) = ln (3.5.1), INT cx/sqrt(25-x^2) by the substitution reading (3.5.6) - the technique-selection fluency showcase (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.5",
+      "3.5.1",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "inverse-integrals",
+     "station": "calculus-trig-log",
+     "title": "Inverse integrals",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_2^3 ln x dx via the inverse-function area argument (no antiderivative taken) - the definite integral of the 3.5.1-listed-adjacent ln is the outcome; the non-standard area method is disclosed of record (the by-parts route exists in the corpus under lane 8; this resource's method is the recorded alternative) (flips the lane-10 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7074",
+     "station": "calculus-trig-log",
+     "title": "Where do the curves $y=\\sin 2x$ and $y=\\sin x$ cross?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r7074",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "shaded area between y = sin 2x and y = sin x: R = pi/4 - INT sin 2x - INT sin x with the standard antiderivatives [-cos x] evaluated (the horizontal-stretch reading of INT sin 2x as (1/2)INT sin x of record) - the 3.5.1 composite-standard evaluation is load-bearing; the intersection solving is the recorded 3.3.2 skill (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8679",
+     "station": "calculus-trig-log",
+     "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r8679",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "area under y = cos x - sin x + 2: A(a) = [sin x + cos x + 2x]_0^a with the 3.5.1 standard antiderivatives load-bearing, verified A(1.5)=3.07, then the Newton second approximation - the exact CIE standard-function-integration task (flips the lane-12 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r9184",
+     "station": "calculus-trig-log",
+     "title": "Can we find the area between $\\sin x$ and $\\sin 2x$?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r9184",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "area between sin x and sin 2x: A = INT sin 2x - INT sin x = 1/2[-cos x] - [-cos x] = 1/4 with a second implicit-substitution method of record - the 3.5.1 standard antiderivatives are the engine (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "stretching-an-integral",
+     "station": "calculus-trig-log",
+     "title": "Stretching an integral",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/stretching-an-integral",
+     "resourceType": "Scaffolded task",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the stretch-symmetry derivation that INT dx/x scales by ln b and the area reading of INT 1/x^2 under f(bx)/b^2 leading to INT dx/x = ln|x| + C - the 3.5.1 reciprocal antiderivative derived rather than asserted",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "trigsy-integrals",
+     "station": "calculus-trig-log",
+     "title": "Trigsy integrals",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/trigsy-integrals",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT cos 2x (3.5.1 composite) and INT sin^2 x by the double-angle identity (the canonical 3.5.2 trigonometrical-relationship integration), with the arcsin/arccos symmetric-area cards disclosed beyond the 3.5 list of record (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.2",
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "two-for-one",
+     "station": "calculus-trig-log",
+     "title": "Two for one",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/two-for-one",
+     "resourceType": "Food for thought",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT 1/x dx over positive and negative intervals - when and why ln x versus ln|x|: the modulus-sign convention IS the 3.5.1 1/(ax+b) list-item knowledge, with the odd-function area reasoning and ln(-x) gradient-function check (flips the lane-10 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7616",
+     "station": "calculus-trig-log",
+     "title": "Is this product of integrals positive or negative?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r7616",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "T = (INT cos x dx over [-pi/2, pi/2]) x (INT sin x dx over [pi, 2pi]) x (INT_0^(pi/8) dx/cos 3x): the first two factors are the 3.5.1 standard antiderivatives (= 2 and = -2, load-bearing for the product); the third factor INT sec 3x dx is beyond the 3.5.1 list and disclosed; rides the lane-11 body of record (the 3.3.1 pick of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8774",
+     "station": "product-rule",
+     "title": "Can we find this body's displacement from $O$ when its velocity is $0$?",
+     "url": "https://undergroundmathematics.org/product-rule/r8774",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the displacement INT v dt = INT (2t-1)/(4(2t+1)) dt rewritten as (1/4) INT (1 - 2/(2t+1)) dt = (1/4)(t - (1/2)ln|2t+1|) - the 1/(ax+b) -> ln standard antiderivative of 3.5.1 is load-bearing for the displacement answer (the bearing lane-12's own evidence of record disclosed); the quotient-rule derivative part is the recorded 3.4.2 skill; rides the lane-12 body of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.1"
+     ],
+     "primaryPick": false
+    }
+   ]
+  },
+  "3.5.2": {
+   "officialCode": "3.5.2",
+   "officialText": "use trigonometrical relationships in carrying out integration or",
+   "spineTitleVerbatim": "use trigonometrical relationships in carrying out integration or",
+   "primaryPick": "r9297",
+   "resources": [
+    {
+     "ugmSlug": "circular-slice",
+     "station": "chain-rule",
+     "title": "Circular slice",
+     "url": "https://undergroundmathematics.org/chain-rule/circular-slice",
+     "resourceType": "Rich example",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_a^b sqrt(1-x^2) dx by the given substitution x = cos theta, the sqrt(1-cos^2) = sin trig simplification, and the semicircle-area geometric check - the canonical substitution-plus-geometry resource; rides the whole-station body of record under pure-1-circular-measure (flips the lane-4 and lane-11 non-overlap rows of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6",
+      "3.5.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "constant-consistency",
+     "station": "product-rule",
+     "title": "Constant consistency",
+     "url": "https://undergroundmathematics.org/product-rule/constant-consistency",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT cos x sin x dx three ways - the sin 2x identity route (3.5.2), the u = cos x substitution route (3.5.6), the parts route (3.5.5) - and the constant-discrepancy reconciliation; the canonical many-ways integration resource (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": "Based on a presentation by David Bedford, used with permission.",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.2",
+      "3.5.5",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8134",
+     "station": "product-rule",
+     "title": "How could we integrate $e^{-x}\\sin^n x$?",
+     "url": "https://undergroundmathematics.org/product-rule/r8134",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "I_n = INT e^-x sin^n x dx: the product-rule derivative identity, the parts recurrence I_n = -e^(-pi/2) + n INT e^-x cos x sin^(n-1) x, and the reduction formula (n^2+1)I_n = -e^(-pi/2) + n(n-1)I_(n-2) with I_4 evaluated - the canonical by-parts reduction-formula showcase; the cos^2 = 1 - sin^2 identity work is the recorded 3.5.2 clothing (flips the lane-10 'P3 3.4/3.5' and lane-12 'P3 3.5 Integration' rows of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.5",
+      "3.5.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r8778",
+     "station": "chain-rule",
+     "title": "Can we carry out these three tricky integrals?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8778",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT x sqrt(2x-1) dx by the substitution u = 2x-1 and INT_0^(pi/4) sec^4 x dx via tan^2 = sec^2 - 1 (the 3.5.2 relationship reducing it to tan + (tan - x)); the INT 1/sqrt(2x-x^2) card requires the arcsin form beyond the 3.5 list and is disclosed of record (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6",
+      "3.5.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9297",
+     "station": "chain-rule",
+     "title": "How could we integrate $\\tan^4x$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9297",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tan^4 x = tan^2 x sec^2 x - sec^2 x + 1 shown from tan^2 = sec^2 - 1, then INT_0^(pi/4) tan^4 x dx = tan x - x evaluated at pi/4 = 1 - pi/4 - the exact CIE 3.5.2 use-trigonometrical-relationships showcase; the chain-rule tan^3 derivative intro is the recorded 3.4.1 clothing (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "trigsy-integrals",
+     "station": "calculus-trig-log",
+     "title": "Trigsy integrals",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/trigsy-integrals",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT cos 2x (3.5.1 composite) and INT sin^2 x by the double-angle identity (the canonical 3.5.2 trigonometrical-relationship integration), with the arcsin/arccos symmetric-area cards disclosed beyond the 3.5 list of record (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.2",
+      "3.5.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8694",
+     "station": "chain-rule",
+     "title": "How could we integrate $\\tan^3 \\theta$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8694",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_0^(pi/4) tan^3 theta dtheta via sec^2 = tan^2 + 1 (the ln|cos| antiderivative of record); INT sqrt(x+1)/(x-3) dx by the GIVEN substitution x + 1 = u^2 with the (u^2-1)(u^2-4) partial-fraction integration after - substitution, trig-relationship and partial-fraction techniques beside the standing lane-9 alignment of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6",
+      "3.5.2",
+      "3.5.3"
+     ],
+     "primaryPick": false
+    }
+   ]
+  },
+  "3.5.3": {
+   "officialCode": "3.5.3",
+   "officialText": "integrate rational functions by means of Restricted to types of partial fractions as specified in decomposition into partial fractions topic 3.1 above. k f l ^ x h e.g. integration of",
+   "spineTitleVerbatim": "integrate rational functions by means of Restricted to types of partial fractions as specified in decomposition into partial fractions topic 3.1 above. k f l ^ x h e.g. integration of",
+   "primaryPick": "r5126",
+   "resources": [
+    {
+     "ugmSlug": "r5126",
+     "station": "product-rule",
+     "title": "Can we find all three integrals?",
+     "url": "https://undergroundmathematics.org/product-rule/r5126",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_0^(pi/2) cos x/(3 + cos^2 x) dx = (1/4) ln 3 by u = sin x then partial fractions; INT x/(x-1)^3 dx; INT (ln x)^2 dx by parts twice - the partial-fraction and by-parts integrations are the 3.5.3/3.5.5 techniques verbatim, beside the standing lane-9 alignment of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.3",
+      "3.5.5"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r8694",
+     "station": "chain-rule",
+     "title": "How could we integrate $\\tan^3 \\theta$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8694",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_0^(pi/4) tan^3 theta dtheta via sec^2 = tan^2 + 1 (the ln|cos| antiderivative of record); INT sqrt(x+1)/(x-3) dx by the GIVEN substitution x + 1 = u^2 with the (u^2-1)(u^2-4) partial-fraction integration after - substitution, trig-relationship and partial-fraction techniques beside the standing lane-9 alignment of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6",
+      "3.5.2",
+      "3.5.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9701",
+     "station": "chain-rule",
+     "title": "Can we find $\\int 1/(\\sqrt{x+2} - \\sqrt{x+1}) dx$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9701",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT 1/((1-x)^(1/2)(1+x)^(3/2)) dx by x = cos theta; INT 1/(sqrt(x+2)-sqrt(x+1)) dx by rationalisation; INT x/((x+1)(x+2)^2) dx by decomposing into partial fractions and integrating - the partial-fraction INTEGRATION is exactly 3.5.3 and the substitutions 3.5.6, beside the standing alignments of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.3",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    }
+   ]
+  },
+  "3.5.4": {
+   "officialCode": "3.5.4",
+   "officialText": "recognise an integrand of the form , and integrate such functions",
+   "spineTitleVerbatim": "recognise an integrand of the form , and integrate such functions",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.5.5": {
+   "officialCode": "3.5.5",
+   "officialText": "recognise when an integrand can usefully be e.g. integration of regarded as a product, and use integration by parts",
+   "spineTitleVerbatim": "recognise when an integrand can usefully be e.g. integration of regarded as a product, and use integration by parts",
+   "primaryPick": "r8134",
+   "resources": [
+    {
+     "ugmSlug": "constant-consistency",
+     "station": "product-rule",
+     "title": "Constant consistency",
+     "url": "https://undergroundmathematics.org/product-rule/constant-consistency",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT cos x sin x dx three ways - the sin 2x identity route (3.5.2), the u = cos x substitution route (3.5.6), the parts route (3.5.5) - and the constant-discrepancy reconciliation; the canonical many-ways integration resource (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": "Based on a presentation by David Bedford, used with permission.",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.2",
+      "3.5.5",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "integral-chasing-2",
+     "station": "product-rule",
+     "title": "Integral chasing II",
+     "url": "https://undergroundmathematics.org/product-rule/integral-chasing-2",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "four missing-number definite integrals: INT axe^(2x) and INT x^2 sin cx by parts (3.5.5, twice), INT 1/(3x) = ln (3.5.1), INT cx/sqrt(25-x^2) by the substitution reading (3.5.6) - the technique-selection fluency showcase (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.5",
+      "3.5.1",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6620",
+     "station": "product-rule",
+     "title": "If the gradient is $x(1-x^2)e^{-x^2}$ can we find the stationary points?",
+     "url": "https://undergroundmathematics.org/product-rule/r6620",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "C1 from its gradient dy/dx = x(1-x^2)e^(-x^2): the y(+/-1) coordinates REQUIRE integrating - the of-record solution integrates by parts (dv/dx = xe^(-x^2), v = -e^(-x^2)/2) giving y = (1/2)x^2 e^(-x^2), the trial-solution method beside it; the C2 coda where both methods fail is the honest disclosure (flips the lane-10 'P3 3.4/3.5' and lane-12 'P3 3.5 Integration' rows of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.5"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8134",
+     "station": "product-rule",
+     "title": "How could we integrate $e^{-x}\\sin^n x$?",
+     "url": "https://undergroundmathematics.org/product-rule/r8134",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "I_n = INT e^-x sin^n x dx: the product-rule derivative identity, the parts recurrence I_n = -e^(-pi/2) + n INT e^-x cos x sin^(n-1) x, and the reduction formula (n^2+1)I_n = -e^(-pi/2) + n(n-1)I_(n-2) with I_4 evaluated - the canonical by-parts reduction-formula showcase; the cos^2 = 1 - sin^2 identity work is the recorded 3.5.2 clothing (flips the lane-10 'P3 3.4/3.5' and lane-12 'P3 3.5 Integration' rows of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.5",
+      "3.5.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r5126",
+     "station": "product-rule",
+     "title": "Can we find all three integrals?",
+     "url": "https://undergroundmathematics.org/product-rule/r5126",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_0^(pi/2) cos x/(3 + cos^2 x) dx = (1/4) ln 3 by u = sin x then partial fractions; INT x/(x-1)^3 dx; INT (ln x)^2 dx by parts twice - the partial-fraction and by-parts integrations are the 3.5.3/3.5.5 techniques verbatim, beside the standing lane-9 alignment of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.3",
+      "3.5.5"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r9312",
+     "station": "product-rule",
+     "title": "Can we find the area between $y=e^{-x}$ and $y=e^{-x}\\sin x$?",
+     "url": "https://undergroundmathematics.org/product-rule/r9312",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "A_n = INT e^-x (1 - sin x) dx over the nth envelope interval - the INT e^-x sin x evaluation is the classic twice-by-parts cyclical integral, load-bearing for the closed-form A_n = (1/2)(e^(2pi)-1)e^-(4n+1)pi/2; the convergence/sketch context is the recorded 1.6.4 skill; rides the lane-6 body of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.5"
+     ],
+     "primaryPick": false
+    }
+   ]
+  },
+  "3.5.6": {
+   "officialCode": "3.5.6",
+   "officialText": "use a given substitution to simplify and evaluate e.g. to integrate either a definite or an indefinite integral.",
+   "spineTitleVerbatim": "use a given substitution to simplify and evaluate e.g. to integrate either a definite or an indefinite integral.",
+   "primaryPick": "r8890",
+   "resources": [
+    {
+     "ugmSlug": "circular-slice",
+     "station": "chain-rule",
+     "title": "Circular slice",
+     "url": "https://undergroundmathematics.org/chain-rule/circular-slice",
+     "resourceType": "Rich example",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_a^b sqrt(1-x^2) dx by the given substitution x = cos theta, the sqrt(1-cos^2) = sin trig simplification, and the semicircle-area geometric check - the canonical substitution-plus-geometry resource; rides the whole-station body of record under pure-1-circular-measure (flips the lane-4 and lane-11 non-overlap rows of record)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6",
+      "3.5.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "constant-consistency",
+     "station": "product-rule",
+     "title": "Constant consistency",
+     "url": "https://undergroundmathematics.org/product-rule/constant-consistency",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT cos x sin x dx three ways - the sin 2x identity route (3.5.2), the u = cos x substitution route (3.5.6), the parts route (3.5.5) - and the constant-discrepancy reconciliation; the canonical many-ways integration resource (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": "Based on a presentation by David Bedford, used with permission.",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.2",
+      "3.5.5",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "integral-chasing-2",
+     "station": "product-rule",
+     "title": "Integral chasing II",
+     "url": "https://undergroundmathematics.org/product-rule/integral-chasing-2",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "four missing-number definite integrals: INT axe^(2x) and INT x^2 sin cx by parts (3.5.5, twice), INT 1/(3x) = ln (3.5.1), INT cx/sqrt(25-x^2) by the substitution reading (3.5.6) - the technique-selection fluency showcase (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.5",
+      "3.5.1",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "integral-sorting",
+     "station": "chain-rule",
+     "title": "Integral sorting",
+     "url": "https://undergroundmathematics.org/chain-rule/integral-sorting",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "eight integrals matched to answers with the substitution named for each (u = 1-9x^2, u = x^3-3x, ...) and the pairs sorted by technique - the substitution-fluency resource; the arcsin/beyond-list cards disclosed of record (flips the lane-12 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8778",
+     "station": "chain-rule",
+     "title": "Can we carry out these three tricky integrals?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8778",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT x sqrt(2x-1) dx by the substitution u = 2x-1 and INT_0^(pi/4) sec^4 x dx via tan^2 = sec^2 - 1 (the 3.5.2 relationship reducing it to tan + (tan - x)); the INT 1/sqrt(2x-x^2) card requires the arcsin form beyond the 3.5 list and is disclosed of record (flips the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6",
+      "3.5.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8890",
+     "station": "chain-rule",
+     "title": "Can we use integration by substitution on these integrals?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8890",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_0^(1/2) x/(1-x^2)^2 dx by the GIVEN substitution u = 1 - x^2 with limit transformation, then INT sin theta/cos^3 theta dtheta by u = cos theta or the tan sec^2 rewrite - the exact CIE 'use a given substitution' task (flips the lane-12 non-overlap row of record routed 'P3 3.5 Integration')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "which-substitution",
+     "station": "chain-rule",
+     "title": "Which substitution?",
+     "url": "https://undergroundmathematics.org/chain-rule/which-substitution",
+     "resourceType": "Rich example",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT 1/sqrt(1-x^2) dx via x = sin theta and x = cos theta giving apparently different answers reconciled by the constant - the substitution-mechanics + constant-of-integration reasoning; the arcsin integrand is beyond the 3.5 list and disclosed (the recorded in-spec skill is the substitution technique itself)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8694",
+     "station": "chain-rule",
+     "title": "How could we integrate $\\tan^3 \\theta$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8694",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT_0^(pi/4) tan^3 theta dtheta via sec^2 = tan^2 + 1 (the ln|cos| antiderivative of record); INT sqrt(x+1)/(x-3) dx by the GIVEN substitution x + 1 = u^2 with the (u^2-1)(u^2-4) partial-fraction integration after - substitution, trig-relationship and partial-fraction techniques beside the standing lane-9 alignment of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.6",
+      "3.5.2",
+      "3.5.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9701",
+     "station": "chain-rule",
+     "title": "Can we find $\\int 1/(\\sqrt{x+2} - \\sqrt{x+1}) dx$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9701",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "INT 1/((1-x)^(1/2)(1+x)^(3/2)) dx by x = cos theta; INT 1/(sqrt(x+2)-sqrt(x+1)) dx by rationalisation; INT x/((x+1)(x+2)^2) dx by decomposing into partial fractions and integrating - the partial-fraction INTEGRATION is exactly 3.5.3 and the substitutions 3.5.6, beside the standing alignments of record",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.5.3",
+      "3.5.6"
+     ],
+     "primaryPick": false
+    }
+   ]
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "circular-slice",
+   "station": "chain-rule",
+   "title": "Circular slice",
+   "url": "https://undergroundmathematics.org/chain-rule/circular-slice",
+   "resourceType": "Rich example",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "INT_a^b sqrt(1-x^2) dx by the given substitution x = cos theta, the sqrt(1-cos^2) = sin trig simplification, and the semicircle-area geometric check - the canonical substitution-plus-geometry resource; rides the whole-station body of record under pure-1-circular-measure (flips the lane-4 and lane-11 non-overlap rows of record)",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.5.6",
+    "3.5.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": "lane-circular-measure and lane-trigonometry non-overlap rows of record (the whole-station body of record lives under pure-1-circular-measure)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-circular-measure"
+  },
+  {
+   "ugmSlug": "r5126",
+   "station": "product-rule",
+   "title": "Can we find all three integrals?",
+   "url": "https://undergroundmathematics.org/product-rule/r5126",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "INT_0^(pi/2) cos x/(3 + cos^2 x) dx = (1/4) ln 3 by u = sin x then partial fractions; INT x/(x-1)^3 dx; INT (ln x)^2 dx by parts twice - the partial-fraction and by-parts integrations are the 3.5.3/3.5.5 techniques verbatim, beside the standing lane-9 alignment of record",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.5.3",
+    "3.5.5"
+   ],
+   "primaryPick": true,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-algebra 3.1.5",
+   "textOfRecordUnder": "UGM-Resources/pure-3-algebra"
+  },
+  {
+   "ugmSlug": "r7616",
+   "station": "calculus-trig-log",
+   "title": "Is this product of integrals positive or negative?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7616",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "T = (INT cos x dx over [-pi/2, pi/2]) x (INT sin x dx over [pi, 2pi]) x (INT_0^(pi/8) dx/cos 3x): the first two factors are the 3.5.1 standard antiderivatives (= 2 and = -2, load-bearing for the product); the third factor INT sec 3x dx is beyond the 3.5.1 list and disclosed; rides the lane-11 body of record (the 3.3.1 pick of record)",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.5.1"
+   ],
+   "primaryPick": false,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-trigonometry 3.3.1",
+   "textOfRecordUnder": "UGM-Resources/pure-3-trigonometry"
+  },
+  {
+   "ugmSlug": "r8694",
+   "station": "chain-rule",
+   "title": "How could we integrate $\\tan^3 \\theta$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8694",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "INT_0^(pi/4) tan^3 theta dtheta via sec^2 = tan^2 + 1 (the ln|cos| antiderivative of record); INT sqrt(x+1)/(x-3) dx by the GIVEN substitution x + 1 = u^2 with the (u^2-1)(u^2-4) partial-fraction integration after - substitution, trig-relationship and partial-fraction techniques beside the standing lane-9 alignment of record",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.5.6",
+    "3.5.2",
+    "3.5.3"
+   ],
+   "primaryPick": false,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-algebra 3.1.5",
+   "textOfRecordUnder": "UGM-Resources/pure-3-algebra"
+  },
+  {
+   "ugmSlug": "r8774",
+   "station": "product-rule",
+   "title": "Can we find this body's displacement from $O$ when its velocity is $0$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8774",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "the displacement INT v dt = INT (2t-1)/(4(2t+1)) dt rewritten as (1/4) INT (1 - 2/(2t+1)) dt = (1/4)(t - (1/2)ln|2t+1|) - the 1/(ax+b) -> ln standard antiderivative of 3.5.1 is load-bearing for the displacement answer (the bearing lane-12's own evidence of record disclosed); the quotient-rule derivative part is the recorded 3.4.2 skill; rides the lane-12 body of record",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.5.1"
+   ],
+   "primaryPick": false,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-differentiation 3.4.2",
+   "textOfRecordUnder": "UGM-Resources/pure-3-differentiation"
+  },
+  {
+   "ugmSlug": "r9312",
+   "station": "product-rule",
+   "title": "Can we find the area between $y=e^{-x}$ and $y=e^{-x}\\sin x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r9312",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "A_n = INT e^-x (1 - sin x) dx over the nth envelope interval - the INT e^-x sin x evaluation is the classic twice-by-parts cyclical integral, load-bearing for the closed-form A_n = (1/2)(e^(2pi)-1)e^-(4n+1)pi/2; the convergence/sketch context is the recorded 1.6.4 skill; rides the lane-6 body of record",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.5.5"
+   ],
+   "primaryPick": false,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-series 1.6.4",
+   "textOfRecordUnder": "UGM-Resources/pure-1-series"
+  },
+  {
+   "ugmSlug": "r9701",
+   "station": "chain-rule",
+   "title": "Can we find $\\int 1/(\\sqrt{x+2} - \\sqrt{x+1}) dx$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9701",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "INT 1/((1-x)^(1/2)(1+x)^(3/2)) dx by x = cos theta; INT 1/(sqrt(x+2)-sqrt(x+1)) dx by rationalisation; INT x/((x+1)(x+2)^2) dx by decomposing into partial fractions and integrating - the partial-fraction INTEGRATION is exactly 3.5.3 and the substitutions 3.5.6, beside the standing alignments of record",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.5.3",
+    "3.5.6"
+   ],
+   "primaryPick": false,
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-integration 1.8.1 and lane-algebra 3.1.5",
+   "textOfRecordUnder": "UGM-Resources/pure-1-integration"
+  }
+ ],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "inverse-integrals-teacher-support",
+   "station": "calculus-trig-log",
+   "title": "Inverse integrals - teacher support",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/inverse-integrals-teacher-support",
+   "resourceType": "Resource in action",
+   "routedTo": "teacher-support notes",
+   "reason": "classroom video clips and teacher notes for Inverse integrals - no extractable exercise well (the lane-12 differentiating-exponentials law of record)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5324",
+   "station": "calculus-meets-functions",
+   "title": "If the trapezium rule overestimates $\\int^1_0 f(x)\\, dx$, what can we deduce?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r5324",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec (trapezium rule)",
+   "reason": "trapezium-rule overestimate propagation under linear rescaling of the integrand - the trapezium rule is not in the 9709 spine (the lane-8 law of record)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6076",
+   "station": "calculus-meets-functions",
+   "title": "Can we solve these simultaneous equations with integrals?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r6076",
+   "resourceType": "Review question",
+   "routedTo": "P1 1.8 Integration",
+   "reason": "simultaneous equations from INT 3f, INT 2f over subintervals - definite-integral linearity and interval-additivity, the P1 1.8 property domain; no 3.5 technique",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6622",
+   "station": "calculus-trig-log",
+   "title": "Can the integral of $\\sin(\\sin t)$ be zero?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r6622",
+   "resourceType": "Review question",
+   "routedTo": "no 3.5-technique embodiment",
+   "reason": "INT_0^x sin(sin t) dt is non-elementary - the of-record solution reasons the sign of the integral from the integrand's shape and symmetry only; no 3.5-listed technique evaluates anything (supersedes the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7106",
+   "station": "calculus-trig-log",
+   "title": "Can we find this integral involving the floor function?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7106",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "INT_0^n floor(2^x) dx is a piecewise-constant strip summation with factorial-log arithmetic - no 3.5-listed technique; the floor function is outside the CIE scope (supersedes the lane-10 non-overlap row of record routed 'P3 3.5 Integration')",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7461",
+   "station": "calculus-meets-functions",
+   "title": "When is $I(c) = \\int^1_0 2^{-(x-c)^2} dx$ largest?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7461",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "I(c) = INT_0^1 2^-(x-c)^2 dx is a non-elementary Gaussian - the of-record solution maximises it by translation-symmetry reasoning; no 3.5-listed technique (supersedes the lane-12 non-overlap row of record routed 'P3 3.5 Integration')",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7903",
+   "station": "introducing-calculus",
+   "title": "Can the trapezium rule help us find the area under $y = x\\ln x$?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r7903",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec (trapezium rule)",
+   "reason": "deriving and applying the trapezium rule for the approximate evaluation of INT y dx - the trapezium rule is not in the 9709 pure 1-3 spine (the lane-8 law of record) (supersedes the lane-10 bearing row; the lane-1 differentiation row stands)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation"
+  },
+  {
+   "ugmSlug": "r8396",
+   "station": "calculus-meets-functions",
+   "title": "When is this integral less than or equal to $1 - A/(n+B)$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8396",
+   "resourceType": "Review question",
+   "routedTo": "P1 1.8 Integration",
+   "reason": "INT_0^1 (x^(2n-1)-1)^2 dx by expansion and the 1 - 1/(2n) bound - the polynomial power-rule domain of P1 1.8; no 3.5 technique",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8836",
+   "station": "chain-rule",
+   "title": "Where is the centre of mass of half this cylinder?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8836",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec (mechanics)",
+   "reason": "slice-volume justification and the centre of mass of a plane-cut half-cylinder - mechanics/COM content outside the Pure 3 spine; the integration is the volume-slice setup, not a 3.5 technique (supersedes the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9099",
+   "station": "calculus-meets-functions",
+   "title": "For the functions $f$ and $g$, is $g(f(A))$ always bigger than $f(g(A))$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r9099",
+   "resourceType": "Review question",
+   "routedTo": "P1 1.8 Integration",
+   "reason": "f(x) = INT_0^1 (xt)^2 dt versus g(x) = INT_0^x t^2 dt - elementary polynomial antiderivatives by the FTC then a composition comparison; the P1 1.8 domain, no 3.5 technique",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "sine-on-the-dotted-line",
+   "station": "calculus-trig-log",
+   "title": "Sine on the dotted line",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/sine-on-the-dotted-line",
+   "resourceType": "Many ways problem",
+   "routedTo": "P1 1.8 Integration",
+   "reason": "which expressions give the shaded area under sin x - the decomposition/transformation/signed-area skill is the P1 1.8 domain; the 3.5.1 sin antiderivative is used inside the expressions but the tested skill is the area reasoning",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "r6622": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "INT_0^x sin(sin t) dt is non-elementary - the of-record solution reasons the sign of the integral from the integrand's shape and symmetry only; no 3.5-listed technique evaluates anything (supersedes the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+   "routedTo": "no 3.5-technique embodiment"
+  },
+  "r7106": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "INT_0^n floor(2^x) dx is a piecewise-constant strip summation with factorial-log arithmetic - no 3.5-listed technique; the floor function is outside the CIE scope (supersedes the lane-10 non-overlap row of record routed 'P3 3.5 Integration')",
+   "routedTo": "beyond spec"
+  },
+  "r7461": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "I(c) = INT_0^1 2^-(x-c)^2 dx is a non-elementary Gaussian - the of-record solution maximises it by translation-symmetry reasoning; no 3.5-listed technique (supersedes the lane-12 non-overlap row of record routed 'P3 3.5 Integration')",
+   "routedTo": "beyond spec"
+  },
+  "r7903": {
+   "outcome": "non_overlap",
+   "station": "introducing-calculus",
+   "reason": "deriving and applying the trapezium rule for the approximate evaluation of INT y dx - the trapezium rule is not in the 9709 pure 1-3 spine (the lane-8 law of record) (supersedes the lane-10 bearing row; the lane-1 differentiation row stands)",
+   "routedTo": "beyond spec (trapezium rule)"
+  },
+  "r8836": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "slice-volume justification and the centre of mass of a plane-cut half-cylinder - mechanics/COM content outside the Pure 3 spine; the integration is the volume-slice setup, not a 3.5 technique (supersedes the lane-11 non-overlap row of record routed 'P3 3.5 Integration')",
+   "routedTo": "beyond spec (mechanics)"
+  },
+  "r6076": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "simultaneous equations from INT 3f, INT 2f over subintervals - definite-integral linearity and interval-additivity, the P1 1.8 property domain; no 3.5 technique",
+   "routedTo": "P1 1.8 Integration"
+  },
+  "r9099": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "f(x) = INT_0^1 (xt)^2 dt versus g(x) = INT_0^x t^2 dt - elementary polynomial antiderivatives by the FTC then a composition comparison; the P1 1.8 domain, no 3.5 technique",
+   "routedTo": "P1 1.8 Integration"
+  },
+  "r5324": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "trapezium-rule overestimate propagation under linear rescaling of the integrand - the trapezium rule is not in the 9709 spine (the lane-8 law of record)",
+   "routedTo": "beyond spec (trapezium rule)"
+  },
+  "r8396": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "INT_0^1 (x^(2n-1)-1)^2 dx by expansion and the 1 - 1/(2n) bound - the polynomial power-rule domain of P1 1.8; no 3.5 technique",
+   "routedTo": "P1 1.8 Integration"
+  },
+  "sine-on-the-dotted-line": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "which expressions give the shaded area under sin x - the decomposition/transformation/signed-area skill is the P1 1.8 domain; the 3.5.1 sin antiderivative is used inside the expressions but the tested skill is the area reasoning",
+   "routedTo": "P1 1.8 Integration"
+  },
+  "inverse-integrals-teacher-support": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "classroom video clips and teacher notes for Inverse integrals - no extractable exercise well (the lane-12 differentiating-exponentials law of record)",
+   "routedTo": "teacher-support notes"
+  },
+  "approximating-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-1 non-overlap row of record stands - ordering shaded areas under lines/quadratics by comparison is the P1 1.8 area domain; verified against the of-record card table",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5602": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "the lane-1 series non-overlap row of record stands - the harmonic-sum integral bounds are the graphical series-inequality skill; INT_1^r 1/x dx is never evaluated, its value is not the tested skill",
+   "routedTo": "prior of-record row stands"
+  },
+  "r7724": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "the lane-1 differentiation non-overlap row of record stands - the two equal cubic areas and the zero definite integral are the odd-symmetry signed-area reasoning (P1 1.8 domain); no 3.5 technique",
+   "routedTo": "prior of-record row stands"
+  },
+  "serpentine-lake": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-1 differentiation non-overlap row of record stands - estimating the lake area from a map is the estimation domain; no integrand of record",
+   "routedTo": "prior of-record row stands"
+  },
+  "underneath-the-arches": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-1 differentiation non-overlap row of record stands - trapezium-rule behaviour without scales; the trapezium rule is not in the 9709 spine (the lane-8 law)",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5246": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "the lane-9 non-overlap row of record stands - partial fractions into a telescoping SUM, no integration",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5634": {
+   "outcome": "rejected_of_record",
+   "station": "divisibility-and-induction",
+   "reason": "the lane-6 non-overlap row of record stands - induction on a series sum, no integration content",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5642": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-1 non-overlap row of record ('beyond spec') stands - trapezium-rule exactness cases; not in the 9709 spine",
+   "routedTo": "prior of-record row stands"
+  },
+  "r6841": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-1 non-overlap row of record stands - stopping-distance kinematics; the lane-8 kinematics-cluster law of record",
+   "routedTo": "prior of-record row stands"
+  },
+  "r8140": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-1 non-overlap row of record stands - trapezium rule on a translated integrand; not in the 9709 spine",
+   "routedTo": "prior of-record row stands"
+  },
+  "r9586": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-1 non-overlap row of record stands - particle-acceleration kinematics; the lane-8 kinematics-cluster law of record",
+   "routedTo": "prior of-record row stands"
+  },
+  "rolling-parabolas": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "the lane-7 non-overlap row of record ('beyond spec') stands - rolling-parabola arc/locus geometry outside the Pure 3 spine",
+   "routedTo": "prior of-record row stands"
+  },
+  "sum-estimating": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "the lane-6 non-overlap row of record ('false positive') stands - series estimation, the sweep hit the estimate language",
+   "routedTo": "prior of-record row stands"
+  },
+  "two-way-calculus-teacher-support": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "the lane-7 teacher-support closure of record stands - notes pages, no exercise well",
+   "routedTo": "prior of-record row stands"
+  },
+  "two-way-functions-teacher-support": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "teacher-support notes page - no extractable exercise well (the lane-12 law of record)",
+   "routedTo": "prior of-record row stands"
+  },
+  "weight-pulling": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "the lane-7 and lane-10 non-overlap rows of record ('beyond spec') stand - work/kinematics modelling outside the Pure 3 spine",
+   "routedTo": "prior of-record row stands"
+  },
+  "r5090": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.3 - bilateral-function definite-integral properties; the P1 1.8 domain, no 3.5 technique; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "r8105": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.3 - functional-equation definite-integral algebra; the P1 1.8 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "r5549": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.3 - INT f(x^2-1) with a piecewise-linear f read off a graph; the composition/area skill is the P1 1.8 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "additional-integrals": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.3 - definite-integral linearity/limit properties quiz; the P1 1.8 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "integral-chasing": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.3 - polynomial/root power-rule definite integrals (the sister resource integral-chasing-2 carries the 3.5 techniques of record here); prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3; 1-integration:x:1.8.3)"
+  },
+  "r8716": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.1 - dI/da by the fundamental theorem, no integration performed; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.1; 1-integration:x:1.8.1)"
+  },
+  "r7236": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.3 (plus the lane-1 row) - minimising INT_0^1 (x^2-a)^2 dx by expansion; the polynomial domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3; 1-integration:x:1.8.3)"
+  },
+  "meaningful-areas": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.3 - area interpretation of definite integrals; the P1 1.8 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "slippery-areas": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-integration:1.8.3 - signed-area concept work; the P1 1.8 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "stretch-the-function": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.3 - function-stretch area scaling; the P1 1.8 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3; 1-integration:x:1.8.3)"
+  },
+  "what-else-do-you-know": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.3 - evaluating integral expressions from a known area; the P1 1.8 property domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "thinking-constantly": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.2 - constant-of-integration concept work; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.2)"
+  },
+  "r5768": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.2 - curve from its gradient function (polynomial reverse differentiation); the P1 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.4; 1-integration:1.8.2)"
+  },
+  "r7410": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 1-integration:1.8.2 - dy/dx inversely proportional to x^3, curve from gradient; the P1 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.2)"
+  },
+  "r7734": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.2 - curve from three clues; the P1 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.3; 1-integration:1.8.2)"
+  },
+  "r5007": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 - volume generated by rotation; volumes of revolution are not in the 9709 pure 1-3 spine (the lane-8 law of record); prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "r5584": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 - centre of mass of a solid hemisphere; the COM/kinematics-cluster law of record; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "r7628": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 - slice volume/COM of a sphere; beyond the Pure 3 spine; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "r6372": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 (plus the lane-7 row) - y^2 = x^3 sketch and area; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "r7386": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.4 - area enclosed by y = x(x-3)^2 and a line; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.2; 1-differentiation:1.7.4)"
+  },
+  "r7444": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 - area inside line/parabola bounds; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "r9138": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 - area enclosed by a quadratic; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.3; 1-integration:1.8.4)"
+  },
+  "r9357": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 - area between parabola and line; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "r8130": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.4 - area between cubic curves f_k(x); the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4)"
+  },
+  "r8350": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.4 - when a region's area exceeds a bound; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4; 1-integration:x:1.8.4)"
+  },
+  "r7861": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.4 - cubic turning points by area comparison; the P1 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.4; 1-integration:1.8.4)"
+  },
+  "r6067": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-integration:1.8.3 - area under a parabola; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.3; 1-integration:x:1.8.3)"
+  },
+  "average-turning-points": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - turning-point algebra on cubics; no 3.5 skill; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "can-you-find-chain-rule-edition": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 3-differentiation:3.4.1 (the lane-12 body of record) - chain-rule composition conditions incl. the ln g(x) minimum; no 3.5 technique; prior alignment stands",
+   "routedTo": "aligned of record (3-differentiation:3.4.1)"
+  },
+  "can-you-find-curvy-cubics": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2/1.7.4 - cubic sketching conditions; no 3.5 skill; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.2; 1-differentiation:1.7.4)"
+  },
+  "curvy-cubics": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2/1.7.4 - cubic curve properties; no 3.5 skill; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.2; 1-differentiation:1.7.4)"
+  },
+  "problem-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-circular-measure:1.4.1 - comparing areas under (4-x^2)^(1/2) by the semicircle-geometry reading (the INT sqrt(4-x^2) is non-elementary by 3.5 means); the recorded geometry skill stands",
+   "routedTo": "aligned of record (1-circular-measure:1.4.1)"
+  },
+  "r6102": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "aligned of record under 1-series:1.6.1 - binomial-expansion identities; no integration content; prior alignment stands",
+   "routedTo": "aligned of record (1-series:1.6.1)"
+  },
+  "r6584": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - tangent to y = x^2 with the polynomial area coda (the P1 1.8 domain); prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r6592": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-series:1.6.3 - the trapezium-rule estimate of INT 2^x dx with the geometric-series limit; the trapezium rule is not in the 9709 spine (the lane-8 law) and the recorded 1.6.3 series-limit skill stands",
+   "routedTo": "aligned of record (1-series:1.6.3)"
+  },
+  "r6835": {
+   "outcome": "rejected_of_record",
+   "station": "geometry-of-equations",
+   "reason": "aligned of record under 1-coordinate-geometry:1.3.1/1.3.2 - line/enclosed-area conditions; the polynomial area domain; prior alignment stands",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.1; 1-coordinate-geometry:1.3.2)"
+  },
+  "r7196": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2/1.7.4 - piecewise sketch and turning points; no 3.5 skill; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.2; 1-differentiation:1.7.4)"
+  },
+  "r7912": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-trigonometry:1.5.1/1.5.2 (the lane-5 body of record) - the sin x graph-and-shaded-area coordinate work; the recorded 1.5 skill stands",
+   "routedTo": "aligned of record (1-trigonometry:1.5.1; 1-trigonometry:1.5.2)"
+  },
+  "r8225": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "aligned of record under 1-circular-measure (plus the lane-3 non-overlap row) - the three-circle tangent area; the coordinate/geometry domain; prior alignment stands",
+   "routedTo": "aligned of record (1-circular-measure:x:1.4.1)"
+  },
+  "r8287": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - tangent line touching the cubic with the area condition; the P1 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r9599": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2/1.7.4 - the wire triangle/square optimisation; no 3.5 skill; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.2; 1-differentiation:1.7.4)"
+  },
+  "r9815": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - tangent to 27y^2 = x^3 with the implicit-curve area coda; the recorded tangent skill stands; the fractional-power area reading is the recorded alternative",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "speed-vs-velocity": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - speed/velocity conceptual work; no 3.5 skill; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "translating-or-not": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "aligned of record under 1-functions:1.2.5 - 1/(x+a) sketching; the functions domain; prior alignment stands",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "trig-gradient-match": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "aligned of record under 3-differentiation:3.4.1 (the lane-12 body of record) - gradient-function pairing; no 3.5 skill; prior alignment stands",
+   "routedTo": "aligned of record (3-differentiation:3.4.1)"
+  },
+  "r9085": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 3-differentiation:3.4.1 (the lane-12 body of record) - the tangent-line work is the recorded skill; the coda integrates rotated volumes (pi INT y^2 dx), the lane-8 volume domain of record; no 3.5-listed technique (the lane-12 'area argument (3.5 bearing)' note resolves to the volume coda, not an antiderivative embodiment)",
+   "routedTo": "aligned of record (3-differentiation:3.4.1)"
+  },
+  "r7792": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 3-algebra:3.1.5 - partial fractions then curve sketching; no integration performed; the 3.5.3 claim would need the integration; prior alignment stands",
+   "routedTo": "aligned of record (3-algebra:3.1.5)"
+  },
+  "r5245": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "aligned of record under 3-algebra:3.1.5 - partial fractions into a telescoping sum; no integration; prior alignment stands",
+   "routedTo": "aligned of record (3-algebra:3.1.5; 3-algebra:x:3.1.5)"
+  },
+  "from-parabolas-to-catenaries": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "aligned of record under 3-algebra:3.1.6 - the catenary derivation solves y'' = k sqrt(1+y'^2) with hyperbolic integrals beyond the 3.5 list; prior alignment stands",
+   "routedTo": "aligned of record (3-algebra:3.1.6)"
+  },
+  "r8152": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 3-algebra:3.1.5 - the average-density 3 INT t^2 f(at) dt setup is slice modelling; the technique content is secondary; prior alignment stands",
+   "routedTo": "aligned of record (3-algebra:3.1.5)"
+  },
+  "two-way-calculus": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.4 (the two-way calculus main resource) - the definite-integral/derivative round-trip property work; the P1 domain; prior alignment stands",
+   "routedTo": "aligned of record (1-differentiation:1.7.3; 1-differentiation:1.7.4)"
+  },
+  "frightening-function": {
+   "outcome": "rejected_of_record",
+   "station": "polynomials",
+   "reason": "aligned of record under 3-algebra:3.1.5 - partial-fraction ALGEBRA (simplify and split), no integration anywhere; the 3.5.3 claim would need the integration; prior alignment stands",
+   "routedTo": "aligned of record (3-algebra:3.1.5)"
+  }
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 102,
+  "substrateResources": 16,
+  "ugmResourcesConsidered": 102,
+  "aligned": 23,
+  "alignedSubstrate": 16,
+  "nonOverlap": 11,
+  "crossLaneAligned": 7,
+  "rejectedOfRecord": 68,
+  "alignedShare": 0.2255,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 7,
+   "flips": 1,
+   "oneToMany": 6,
+   "note": "1 flip: circular-slice (the lane-4 and lane-11 non-overlap rows whose whole-station body of record lives under pure-1-circular-measure) maps to 3.5.6/3.5.2 by reference under the lane-9 flip law; 6 one-to-many joins beside standing alignments of record: r7616 (lane-11 3.3.1), r8774 (lane-12 3.4.2 - the bearing lane-12's own evidence disclosed), r9312 (lane-6 1.6.4), r9701 (lane-8 1.8.1 + lane-9 3.1.5), r8694 (lane-9 3.1.5), r5126 (lane-9 3.1.5)"
+  },
+  "stationBreakdown": {
+   "calculus-meets-functions": {
+    "resources": 21,
+    "aligned": 0,
+    "nonOverlap": 5,
+    "rejected": 16
+   },
+   "calculus-of-powers": {
+    "resources": 19,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 19
+   },
+   "calculus-trig-log": {
+    "resources": 13,
+    "aligned": 8,
+    "nonOverlap": 4,
+    "rejected": 1
+   },
+   "chain-rule": {
+    "resources": 14,
+    "aligned": 8,
+    "nonOverlap": 1,
+    "rejected": 5
+   },
+   "circles": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "combining-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "counting-and-binomials": {
+    "resources": 3,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3
+   },
+   "divisibility-and-induction": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "geometry-of-equations": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "hyperbolic-functions": {
+    "resources": 3,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3
+   },
+   "introducing-calculus": {
+    "resources": 12,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 11
+   },
+   "polynomials": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "product-rule": {
+    "resources": 9,
+    "aligned": 7,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "sequences": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "thinking-about-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   }
+  },
+  "coverageNote": "sweep over the 855-resource corpus (pass-1 title/description + pass-2 section-text) plus the 20 pre-baked 'P3 3.5 Integration' bearing rows of record (lane-10: 6 incl. the two dual 'P3 3.4/3.5' routings later refined to 3.5 by lane 12; lane-11: 10; lane-12: 6; r6620/r8134 recorded in both lane-10 and lane-12) closed every candidate of record: 23 aligned rows = 16 fresh bodies (the lane's new text of record) + 1 cross-course flip + 6 one-to-many joins by reference; 11 non-overlaps recorded with routedTo bearings (20 superseding stale bearing rows of record); 68 candidates rejected because their prior alignments/rows stand. The Task-13 '7 fresh lane-12 bearings' preview resolves to the 6 lane-12 routedTo rows plus the r9085 evidence-note bearing (resolved of record: the note's 3.5 content is the rotated-volume coda, not an antiderivative embodiment - r9085's lane-12 alignment stands). THE 3.5.4 GAP OF RECORD: no f'(x)/f(x) integration resource exists in the 25-station UGM corpus of record - the corpus-wide targeted sweep (ln f-patterns, g'/g integrand shapes, INT-ln adjacency) returned only rows already of record under other lanes; no coverage is manufactured (rule 3)"
+ },
+ "ugmStations": {}
+}
