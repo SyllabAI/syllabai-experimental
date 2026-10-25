@@ -1,0 +1,2220 @@
+{
+ "generatedAt": "2026-10-25",
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.4 Differentiation",
+  "specPoints": [
+   "3.4.1",
+   "3.4.2",
+   "3.4.3"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json - the three rows 3.4.1-3.4.3 are the spine rows of record verbatim — the parse artifacts (the dropped math run on e and the duplicated 'tan x' in 3.4.1; the dangling 'e.g.' in 3.4.2 and 3.4.3) are carried verbatim — no fold fragments"
+ },
+ "pilot": "P3c generalisation lane 12 - CIE 9709 Pure 3 subtopic 3.4 Differentiation (operator order: 'eyeball+merge of #371 then lane 12'; the fourth lane on the pure-3 course plane, first by spine adjacency after lane 11's 3.3, named by the lane-11 bookkeeping next pointer '3.4 via the lane-11 P3-3.4 routings')",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/example of doctrine (none in this lane); no UGM body text beyond the attested corpus import",
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepRawHits": null,
+  "sweepCandidates": 189,
+  "substrateResources": 40,
+  "ugmResourcesConsidered": 189,
+  "aligned": 41,
+  "alignedSubstrate": 40,
+  "nonOverlap": 29,
+  "crossLaneAligned": 1,
+  "rejectedOfRecord": 119,
+  "alignedShare": 0.2169,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 1,
+   "flips": 1,
+   "oneToMany": 0,
+   "note": "1 flip: r8931 (the lane-7 non-overlap row whose whole-station body of record lives under pure-1-differentiation - the two-station lane law) flips to 3.4.2 by reference under the lane-9 flip law; no one-to-many joins this lane (the P1 differentiation lane of record already holds the tangent/normal/optimisation embodiments whose skills this lane would double-map; the fresh 3.4-specific substrate carries the lane)"
+  },
+  "stationBreakdown": {
+   "calculus-meets-functions": {
+    "resources": 30,
+    "aligned": 0,
+    "nonOverlap": 5,
+    "rejected": 25
+   },
+   "calculus-of-powers": {
+    "resources": 32,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 31
+   },
+   "calculus-trig-log": {
+    "resources": 11,
+    "aligned": 6,
+    "nonOverlap": 1,
+    "rejected": 4
+   },
+   "chain-rule": {
+    "resources": 43,
+    "aligned": 21,
+    "nonOverlap": 7,
+    "rejected": 15
+   },
+   "circles": {
+    "resources": 5,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 5
+   },
+   "combining-functions": {
+    "resources": 7,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 7
+   },
+   "counting-and-binomials": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "exp-and-log": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "hyperbolic-functions": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 3
+   },
+   "introducing-calculus": {
+    "resources": 9,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 9
+   },
+   "polynomials": {
+    "resources": 7,
+    "aligned": 0,
+    "nonOverlap": 5,
+    "rejected": 2
+   },
+   "product-rule": {
+    "resources": 25,
+    "aligned": 13,
+    "nonOverlap": 5,
+    "rejected": 7
+   },
+   "quadratics": {
+    "resources": 3,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3
+   },
+   "sequences": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2
+   },
+   "thinking-about-functions": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 1
+   },
+   "thinking-about-geometry": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 2,
+    "rejected": 0
+   },
+   "trigonometry-compound-angles": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "trigonometry-triangles-to-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "vector-geometry": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 2,
+    "rejected": 0
+   }
+  },
+  "coverageNote": "sweep over the 855-resource corpus (pass-1 title/description + pass-2 section-text) plus the 21 pre-baked 'P3 3.4 Differentiation' bearing rows of record (lane-10: 11 rows incl. the two dual 'P3 3.4/3.5' routings; lane-11: 11 rows; odd-one-out recorded in both) closed every candidate of record: 41 aligned rows = 40 fresh bodies (the lane's new text of record) + 1 cross-course flip by reference; 29 non-overlaps recorded by reference only (3 of them honest re-routings of lane-10 bearings); 119 of-record candidates rejected because their prior alignments/rows stand. The converter pre-flight ran 80/80 byte-identity against the lane-8, lane-9, lane-10 AND lane-11 of-record bodies; the slug law re-proved 77/80 against the same filenames (the 3 residuals are bare-underscore and command-brace constructs absent from the lane-12 title set)."
+ },
+ "perSpecPoint": {
+  "3.4.1": {
+   "officialCode": "3.4.1",
+   "officialText": "use the derivatives of e , ln x , sin x , cos x , tan x , tan x , together with constant multiples, sums, differences and composites",
+   "spineTitleVerbatim": "use the derivatives of e , ln x , sin x , cos x , tan x , tan x , together with constant multiples, sums, differences and composites",
+   "primaryPick": "r6938",
+   "resources": [
+    {
+     "ugmSlug": "r6938",
+     "station": "calculus-trig-log",
+     "title": "Can we find the turning points on the curve $y = \\sin x + \\cos x$?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r6938",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "turning points of y = sin x + cos x on (0, 2pi) via dy/dx = cos x - sin x = 0 - the canonical 3.4.1 use of the standard derivatives, with the R-form of 3.3.2 as the recorded alternative (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "r5990",
+     "station": "chain-rule",
+     "title": "What happens when we differentiate $\\sin^4x + 2 \\cos^2x - \\cos^4x$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r5990",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "chain rule on sin^4 x, cos^2 x, cos^4 x gives d/dx = 0 identically - the expression is the constant 1; the deduction task on the 3.4.1 composite derivatives",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8071",
+     "station": "calculus-trig-log",
+     "title": "Can we find the velocity and acceleration of this particle?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r8071",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "v = ds/dt and a = dv/dt for s = 12 sin(3t/2) - the 3.4.1 composite derivative of sin(3t/2) by the chain rule is the load-bearing computation (mechanics clothing); the remaining parts are 1.5 trig equations",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9085",
+     "station": "chain-rule",
+     "title": "Can we find a tangent to $y=1/(1+x^2)$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9085",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "gradient of y = 1/(1+x^2) via the chain rule on (1+x^2)^-1 giving -2x/(1+x^2)^2, then the tangent-line condition from (0,1) - the derivative work is load-bearing; the pi>3 coda is an area argument (3.5 bearing)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "trig-gradient-match",
+     "station": "calculus-trig-log",
+     "title": "Trig gradient match",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/trig-gradient-match",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "pairing trig functions with their gradient functions incl. the scaled composites - builds d/dx(sin x) = cos x and the chain-rule cases graphically; excerpt-capture disclosure: no solution well of record, matched on the provider task statement",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "powerful-derivatives",
+     "station": "chain-rule",
+     "title": "Powerful derivatives",
+     "url": "https://undergroundmathematics.org/chain-rule/powerful-derivatives",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "prove d/dx x^a = a x^(a-1) for real a by writing x^a = e^(a ln x) and chaining the standard derivatives - the ln/exponential derivative law of 3.4.1 is the engine (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "can-you-find-chain-rule-edition",
+     "station": "chain-rule",
+     "title": "Can you find... chain rule edition",
+     "url": "https://undergroundmathematics.org/chain-rule/can-you-find-chain-rule-edition",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "working backwards from conditions on f(g(x)) (stationary points at prescribed x, a local minimum of ln g(x), no stationary points) - chain-rule composition reasoning with the 3.4.1 list as the toolset (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7431",
+     "station": "chain-rule",
+     "title": "Can we show $x>\\ln(1+x^2)$ for all $x>0$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r7431",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "d/dx (x - ln(1+x^2)) = 1 - 2x/(1+x^2) >= 0 by the 3.4.1 composite derivative of ln(1+x^2), deducing x > ln(1+x^2) for x > 0 - the increasing-function argument (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8671",
+     "station": "product-rule",
+     "title": "Which is the greater of $e^{\\pi}$ and $\\pi^e$?",
+     "url": "https://undergroundmathematics.org/product-rule/r8671",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "stationary point of x^(1/x) via d/dx(ln y) = (1 - ln x)/x^2 - ln/composite 3.4.1 work deciding e^pi > pi^e without a calculator (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5251",
+     "station": "chain-rule",
+     "title": "Can we sketch $y=3 \\cos x - \\cos 3x$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r5251",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "d/dx (3 cos x - cos 3x) = 6 sin x cos 2x proved by the chain rule on cos 3x plus the product-to-sum identity, then the increasing ranges and the sketch (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "rotating-derivatives",
+     "station": "calculus-trig-log",
+     "title": "Rotating derivatives",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/rotating-derivatives",
+     "resourceType": "Scaffolded task",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the unit-circle velocity vector (-sin t, cos t) assembled from the rotating diagrams - the geometric derivation of d/dt(sin t) = cos t and d/dt(cos t) = -sin t, the 3.4.1 standard facts (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "similar-derivatives",
+     "station": "calculus-trig-log",
+     "title": "Similar derivatives",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/similar-derivatives",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "d(tan theta)/dtheta via similar triangles with vertices (1, tan theta) and (cot theta, 1) - in-spec for the tan limb of 3.4.1; the sec/cot extensions are beyond the 3.4.1 list and are disclosed (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": "This resource was inspired by a discussion on the [Stack Exchange Network](http://math.stackexchange.com/questions/1299682/).",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "sine-stretching",
+     "station": "calculus-trig-log",
+     "title": "Sine stretching",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/sine-stretching",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "gradient function of sin 3x selected from cos 3x / 3 cos x / 3 cos 3x by graphical reasoning - the chain-rule composite d/dx(sin 3x) = 3 cos 3x (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.1"
+     ],
+     "primaryPick": false
+    }
+   ]
+  },
+  "3.4.2": {
+   "officialCode": "3.4.2",
+   "officialText": "differentiate products and quotients e.g.",
+   "spineTitleVerbatim": "differentiate products and quotients e.g.",
+   "primaryPick": "r6530",
+   "resources": [
+    {
+     "ugmSlug": "r6530",
+     "station": "product-rule",
+     "title": "Can we differentiate $e^{2x}( 2 \\cos (3x) + 3 \\sin (3x))$?",
+     "url": "https://undergroundmathematics.org/product-rule/r6530",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "d/dx of e^(2x)(2 cos 3x + 3 sin 3x) by the product rule with the 3.4.1 composite derivatives inside - the exact CIE product-rule-plus-standard-derivatives showcase (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "how-does-your-rectangle-grow",
+     "station": "product-rule",
+     "title": "How does your rectangle grow?",
+     "url": "https://undergroundmathematics.org/product-rule/how-does-your-rectangle-grow",
+     "resourceType": "Scaffolded task",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the fixed-height rectangle argument dA/dt = v du/dt extended to both sides varying - the visual derivation of the product rule d(uv)/dt = v du/dt + u dv/dt, the 3.4.2 law itself",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5501",
+     "station": "product-rule",
+     "title": "Can we sketch $y=x^2/(1+x^4)$?",
+     "url": "https://undergroundmathematics.org/product-rule/r5501",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "turning points of y = x^2/(1+x^4) via the product rule on x^2 (1+x^4)^-1 giving dy/dx = 2x(1-x^4)/(1+x^4)^2 - stationary points at 0, +/-1 and the sketch",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6855",
+     "station": "product-rule",
+     "title": "Can we sketch the curve $y=1/((x-a)^2-1)$?",
+     "url": "https://undergroundmathematics.org/product-rule/r6855",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "stationary points of g(x) = 1/(((x-a)^2-1)((x-b)^2-1)) found by differentiating the product of reciprocal quadratics - the product/quotient-rule work is load-bearing for the three stationary abscissae",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8387",
+     "station": "product-rule",
+     "title": "Can we sketch the graph of $y=x(x+1)(x-2)^4$?",
+     "url": "https://undergroundmathematics.org/product-rule/r8387",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "gradient of y = x(x+1)(x-2)^4 shown as (x-2)^3(6x^2+x-2) by the product rule, all stationary points with nature, then the y^2 and even-power variant sketches",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8774",
+     "station": "product-rule",
+     "title": "Can we find this body's displacement from $O$ when its velocity is $0$?",
+     "url": "https://undergroundmathematics.org/product-rule/r8774",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "acceleration as d/dt of v = (2t-1)/(4(2t+1)) by the quotient rule (a = 1/(2t+2)^2) - the quotient-rule computation is the tested skill in kinematics clothing; the displacement part is an integral (3.5 bearing)",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9329",
+     "station": "product-rule",
+     "title": "Can we show the function $(2x+1)/(x^2-1)$ can take all real values?",
+     "url": "https://undergroundmathematics.org/product-rule/r9329",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "f'(x) = -2(x^2+x+1)/(x^2-1)^2 by the quotient rule, always negative, with the inflection argued from the behaviour of f' between the asymptotes - the range part is the recorded discriminant method",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9391",
+     "station": "product-rule",
+     "title": "Which values can $x(x-3)/(x-4)$ take?",
+     "url": "https://undergroundmathematics.org/product-rule/r9391",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the range of y = x(x-3)/(x-4) shown both by the discriminant and by the quotient rule (both approaches of record) - stationary points at the range endpoints; the 5/x comparison is algebraic",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9795",
+     "station": "product-rule",
+     "title": "Given that $y = (x+6)^7(x-9)^8$, can we find $dy/dx$?",
+     "url": "https://undergroundmathematics.org/product-rule/r9795",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "dy/dx of y = (x+6)^7 (x-9)^8 by the product rule and the zeros of dy/dx - the canonical 3.4.2 product-rule exercise",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6549",
+     "station": "product-rule",
+     "title": "Where are the stationary points on $\\cot x-8\\cos x$?",
+     "url": "https://undergroundmathematics.org/product-rule/r6549",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "stationary points of y = cot x - 8 cos x: d(cot x)/dx derived by the quotient rule on cos x/sin x (the in-spec 3.4.2 route - resolves the lane-11 'beyond the 3.4.1 list' caveat of record), then -cosec^2 x + 8 sin x = 0 (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9484",
+     "station": "product-rule",
+     "title": "Can we sketch the curve $y=e^{-x}/(1+x^2)$?",
+     "url": "https://undergroundmathematics.org/product-rule/r9484",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "y = e^-x/(1+x^2): y always positive and dy/dx never positive by the quotient rule, the stationary point where dy/dx = 0, and the sketch (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9898",
+     "station": "product-rule",
+     "title": "Can we sketch the curve $y=(x-a)e^x/(x-b)$?",
+     "url": "https://undergroundmathematics.org/product-rule/r9898",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "stationary points of y = ((x-a)/(x-b)) e^x by the product and quotient rules giving the (a-b) < 0 or (a-b) > 4 condition, then the two case sketches (flips the lane-10 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.2"
+     ],
+     "primaryPick": false
+    }
+   ]
+  },
+  "3.4.3": {
+   "officialCode": "3.4.3",
+   "officialText": "find and use the first derivative of a function e.g. which is defined parametrically or implicitly.",
+   "spineTitleVerbatim": "find and use the first derivative of a function e.g. which is defined parametrically or implicitly.",
+   "primaryPick": "r8620",
+   "resources": [
+    {
+     "ugmSlug": "r8620",
+     "station": "chain-rule",
+     "title": "Can we find the equation of the normal to the curve when $t = 2$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8620",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "x = (3-2t)^2, y = t^2 - 2t: dy/dx in terms of t, the stationary point, and the normal at t = 2 - the exact CIE 3.4.3 parametric exercise",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "implicit-circles",
+     "station": "chain-rule",
+     "title": "Implicit circles",
+     "url": "https://undergroundmathematics.org/chain-rule/implicit-circles",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "gradient of x^2 + y^2 = 4 at three points and at a general point - implicit differentiation dy/dx = -x/y with the radius-gradient alternative, the canonical 3.4.3 implicit introduction",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5053",
+     "station": "chain-rule",
+     "title": "How many normals to a parabola pass through $P$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r5053",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "normal to the parabola y^2 = 4ax at (at^2, 2at) and the two-normals-through-P proof - implicit/parametric differentiation of the standard parabola with the fixed-point geometry",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5237",
+     "station": "chain-rule",
+     "title": "What can we say if a normal to an ellipse passes through this point?",
+     "url": "https://undergroundmathematics.org/chain-rule/r5237",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "normal to the ellipse x^2/a^2 + y^2/b^2 = 1 at (a cos theta, b sin theta) proved as ax/cos theta - by/sin theta = a^2 - b^2 - parametric differentiation with the eccentricity consequence",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5376",
+     "station": "chain-rule",
+     "title": "What can we say if this hyperbola and parabola meet at right angles?",
+     "url": "https://undergroundmathematics.org/chain-rule/r5376",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "y^2 = 4ax and xy = c^2 intersecting at right angles via their derivatives, giving c^4 = 32a^4 and TG = 6a - implicit/parametric derivative work on both curves",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5678",
+     "station": "chain-rule",
+     "title": "Can we find the angle between these two tangents?",
+     "url": "https://undergroundmathematics.org/chain-rule/r5678",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tangent to the hyperbola xy = c^2 through the parabola focus, the a^4 = 2c^4 condition and the acute angle between the tangents - parametric/implicit derivative work on both conics",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5696",
+     "station": "chain-rule",
+     "title": "Can we show that these normals meet on the $x$-axis?",
+     "url": "https://undergroundmathematics.org/chain-rule/r5696",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "normals to the parametric curve x = 4 - t^2, y = 4t at the y-axis intersections meeting on the x-axis - dy/dx = (dy/dt)/(dx/dt) with the normal equations",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6710",
+     "station": "chain-rule",
+     "title": "What can we say if a point $P$ on an ellipse is directly above the focus?",
+     "url": "https://undergroundmathematics.org/chain-rule/r6710",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tangent and normal at the point P above the focus of an ellipse meeting the y-axis, with QR = HP - parametric differentiation on the standard parametrisation",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7042",
+     "station": "chain-rule",
+     "title": "Can we show this parabola and this ellipse meet at right angles?",
+     "url": "https://undergroundmathematics.org/chain-rule/r7042",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the parabola y^2 = 4ax and the ellipse 2x^2 + y^2 = c^2 cutting at right angles via the normal-midpoint proof - implicit/parametric derivatives of both curves",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7833",
+     "station": "chain-rule",
+     "title": "Can we show these tangents to this hyperbola form a square?",
+     "url": "https://undergroundmathematics.org/chain-rule/r7833",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tangents to xy = 1 and x^2 - y^2 = 2 at P and Q forming the square PMQN - gradients from implicit differentiation (dy/dx = x/y on the hyperbola), the perpendicularity and the equal sides",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9325",
+     "station": "chain-rule",
+     "title": "Where does this tangent to this ellipse meet $x=a$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9325",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tangent to the ellipse at P meeting the y-axis at Q and the line x = a at T, with the chord A'P construction - parametric differentiation and the tangent equation",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9809",
+     "station": "chain-rule",
+     "title": "When do these normals to a parabola meet on the parabola?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9809",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "normals to the parabola y^2 = 4ax at parameters t1, t2 with t1 t2 = 2 meeting on the parabola - implicit/parametric normal work with the cyclic-quadrilateral coda",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "parametric-points",
+     "station": "chain-rule",
+     "title": "Parametric points",
+     "url": "https://undergroundmathematics.org/chain-rule/parametric-points",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "dy/dx = -(3 cos t)/(2 sin t) for the parametric ellipse, matched to stationary-point locations and graphs - the 3.4.3 parametric chain-rule law as the matching tool (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8939",
+     "station": "chain-rule",
+     "title": "Can we find where the normal is parallel to $y=x$?",
+     "url": "https://undergroundmathematics.org/chain-rule/r8939",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "normal to x = 5a sec theta, y = 3a tan theta parallel to y = x - parametric differentiation of the sec/tan parametrisation with the gradient condition (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9413",
+     "station": "chain-rule",
+     "title": "Can we show that these normals intersect on this circle?",
+     "url": "https://undergroundmathematics.org/chain-rule/r9413",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "normal to x = n cos t - cos nt, y = n sin t - sin nt proved as x cos((n+1)t/2) + y sin((n+1)t/2) = (n-1) cos((n-1)t/2) - the chain-rule composites cos nt, sin nt inside the parametric derivative (flips the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation')",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.4.3"
+     ],
+     "primaryPick": false
+    }
+   ]
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "r8931",
+   "station": "calculus-of-powers",
+   "title": "What happens if we expand, then differentiate?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r8931",
+   "resourceType": "Review question",
+   "confidence": "medium",
+   "modesRecorded": [
+    1
+   ],
+   "evidence": "degree of d^2/dx^2[(2x-1)^4(1-x)^5] + d/dx[(2x+1)^4(3x^2-2)^2] read off the product-rule structure without expanding - the product-rule degree reasoning beside the recorded treatment; rides the whole-station body of record under pure-1-differentiation (flips the lane-7 non-overlap row)",
+   "examProvenance": null,
+   "hasTeacherSupport": false,
+   "codes": [
+    "3.4.2"
+   ],
+   "primaryPick": false,
+   "kind": "flip",
+   "priorAlignmentOfRecord": "lane-differentiation non-overlap row of record (whole-station body of record under pure-1-differentiation)",
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation"
+  }
+ ],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "choose-your-families",
+   "station": "calculus-meets-functions",
+   "title": "Choose your families",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/choose-your-families",
+   "resourceType": "Problem requiring decisions",
+   "routedTo": "false positive",
+   "reason": "graph-family card sort on function features - no 3.4 skill; the sweep hit the graph/feature language",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "differentiating-exponentials",
+   "station": "chain-rule",
+   "title": "Differentiating exponentials",
+   "url": "https://undergroundmathematics.org/chain-rule/differentiating-exponentials",
+   "resourceType": "Scaffolded task",
+   "routedTo": "no extractable text",
+   "reason": "the scaffolded task for d/dx a^x has no extractable sections of record (applet-rendered); the lane-10 'P3 3.4 Differentiation' bearing cannot become text this lane - the lane-10 of-record treatments (to-the-limit, see-the-power) already carry the a^x derivative story beside 3.2.2",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "happy-families",
+   "station": "polynomials",
+   "title": "Happy families",
+   "url": "https://undergroundmathematics.org/polynomials/happy-families",
+   "resourceType": "Food for thought",
+   "routedTo": "beyond spec",
+   "reason": "implicit-equation curve exploration (domain and range of an algebraic family) - no differentiation load-bearing",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "how-long-is-a-piece-of-string",
+   "station": "hyperbolic-functions",
+   "title": "How long is a piece of string?",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/how-long-is-a-piece-of-string",
+   "resourceType": "Scaffolded task",
+   "routedTo": "beyond spec (arc length)",
+   "reason": "arc length from first principles for Cartesian and parametric curves - outside the CIE 9709 pure 1-3 scope",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "integral-sorting",
+   "station": "chain-rule",
+   "title": "Integral sorting",
+   "url": "https://undergroundmathematics.org/chain-rule/integral-sorting",
+   "resourceType": "Fluency exercise",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "pairing integrals with answers and substitutions - the integration-by-substitution fluency is 3.5 substrate",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "keep-your-distance",
+   "station": "calculus-meets-functions",
+   "title": "Keep your distance",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/keep-your-distance",
+   "resourceType": "Problem requiring decisions",
+   "routedTo": "false positive",
+   "reason": "Highway Code stopping-distance modelling - the rate language is contextual, no 3.4 skill",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "mapping-a-function",
+   "station": "thinking-about-functions",
+   "title": "Mapping a function",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/mapping-a-function",
+   "resourceType": "Package of problems",
+   "routedTo": "false positive",
+   "reason": "mapping diagrams for linear functions - pre-calculus; the derivative work lives in the lane-7 of-record companion mapping-a-derivative",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "one-windy-day",
+   "station": "vector-geometry",
+   "title": "One windy day",
+   "url": "https://undergroundmathematics.org/vector-geometry/one-windy-day",
+   "resourceType": "Food for thought",
+   "routedTo": "false positive",
+   "reason": "projectile-with-wind parametric modelling - no dy/dx load-bearing (the of-record solution finds the landing point without differentiation)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "parametric-paths",
+   "station": "chain-rule",
+   "title": "Parametric paths",
+   "url": "https://undergroundmathematics.org/chain-rule/parametric-paths",
+   "resourceType": "Fluency exercise",
+   "routedTo": "false positive",
+   "reason": "matching curves with parametric coordinates and sketching - parametric fluency without differentiation (no solution section of record)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "parametric-preliminaries",
+   "station": "chain-rule",
+   "title": "Parametric preliminaries",
+   "url": "https://undergroundmathematics.org/chain-rule/parametric-preliminaries",
+   "resourceType": "Building blocks",
+   "routedTo": "false positive",
+   "reason": "parametric equations introduced via locus geometry - pre-3.4.3",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5854",
+   "station": "polynomials",
+   "title": "Can we sketch this curve with an oblique asymptote?",
+   "url": "https://undergroundmathematics.org/polynomials/r5854",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "oblique asymptote shown tangent via the double-root intersection test - algebraic, no differentiation",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6620",
+   "station": "product-rule",
+   "title": "If the gradient is $x(1-x^2)e^{-x^2}$ can we find the stationary points?",
+   "url": "https://undergroundmathematics.org/product-rule/r6620",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "curve analysis from a GIVEN gradient x(1-x^2)e^(-x^2): stationary points and sketch, coordinates recovered by substitution-integration - no differentiation performed; re-routes the lane-10 dual 'P3 3.4/3.5' bearing honestly to 3.5",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6863",
+   "station": "product-rule",
+   "title": "If we can sketch $y = f(x)$, can we sketch $y^2 = f(x)$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6863",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "sketching y = f(x) then y^2 = f(x) by sign and limit analysis - no differentiation load-bearing",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7017",
+   "station": "polynomials",
+   "title": "Does $(x-1)(x-2)\\times \\cdots \\times (x-n) = k$ have a solution?",
+   "url": "https://undergroundmathematics.org/polynomials/r7017",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "real-root existence for (x-1)(x-2)...(x-n) = k by sign/IVT reasoning - no calculus",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7129",
+   "station": "product-rule",
+   "title": "Can we sketch $y=ax/(x^2+x+1)$ when $a$ is positive?",
+   "url": "https://undergroundmathematics.org/product-rule/r7129",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "the range of ax/(x^2+x+1) shown by the quadratic-in-x discriminant of record - no differentiation; the sketch reads off the range",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7461",
+   "station": "calculus-meets-functions",
+   "title": "When is $I(c) = \\int^1_0 2^{-(x-c)^2} dx$ largest?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r7461",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "I(c) area maximisation decided by symmetry and the sketched 2^(2x-x^2) labelled without calculus - the area work is 3.5 substrate",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7678",
+   "station": "vector-geometry",
+   "title": "Given the position of a mass, can we find its velocity and acceleration?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r7678",
+   "resourceType": "Review question",
+   "routedTo": "P1 1.7 (unmapped)",
+   "reason": "velocity and acceleration by differentiating polynomial components of a position vector - the power-rule skill of the P1 differentiation lane",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8134",
+   "station": "product-rule",
+   "title": "How could we integrate $e^{-x}\\sin^n x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r8134",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "reduction formula for the integral of e^-x sin^n x - the product-rule identity d/dx (cos x sin^(n-1) x) is the scaffold step; the tested skill is 3.5 integration by parts; re-routes the lane-10 dual 'P3 3.4/3.5' bearing honestly to 3.5",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8160",
+   "station": "polynomials",
+   "title": "Which of these quintic equations fit this graph?",
+   "url": "https://undergroundmathematics.org/polynomials/r8160",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "quintic graph matching by roots and multiplicity - no calculus",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8679",
+   "station": "calculus-trig-log",
+   "title": "What is the area under the curve $y = \\cos x - \\sin x +2$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r8679",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "area under cos x - sin x + 2 and the Newton-Raphson refinement - integration and root-finding substrate",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8765",
+   "station": "product-rule",
+   "title": "If $y=(x^2+1)/(x^2-a^2)$, then $y$  cannot take which values?",
+   "url": "https://undergroundmathematics.org/product-rule/r8765",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "the values taken twice shown by the parity argument and the rearranged x^2 = (a^2 y + 1)/(y - 1) >= 0 of record - algebraic, no differentiation",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8890",
+   "station": "chain-rule",
+   "title": "Can we use integration by substitution on these integrals?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8890",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "integration by substitution exercises - 3.5 fluency",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8987",
+   "station": "calculus-meets-functions",
+   "title": "Can we show that the area of this hexagon is $2(x^2 + xy + y^2)$?",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/r8987",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "hexagon minimum area via the quadratic in x after substituting y = 10 - x - algebraic minimisation, no calculus of record",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9108",
+   "station": "polynomials",
+   "title": "Can we show $(x^2+1)(x+1)=(a^2+1)(a+1)$ has just one real root?",
+   "url": "https://undergroundmathematics.org/polynomials/r9108",
+   "resourceType": "Review question",
+   "routedTo": "P1 1.7 (unmapped)",
+   "reason": "unique root argued by dy/dx = 3x^2 + 2x + 1 > 0 on the expanded cubic - the power-rule monotonicity skill of the P1 differentiation lane (the of-record solution differentiates)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9259",
+   "station": "thinking-about-geometry",
+   "title": "What links this incircle and circumcircle?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r9259",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "incircle/circumcircle ratio by tangent lengths and Pythagoras - circle tangency, not curve tangents",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9792",
+   "station": "thinking-about-geometry",
+   "title": "Given two tangents to a circle, can we find these lengths?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r9792",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "two tangents to a circle, lengths and angles - circle geometry, no curve differentiation",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "reflecting-on-change",
+   "station": "chain-rule",
+   "title": "Reflecting on change",
+   "url": "https://undergroundmathematics.org/chain-rule/reflecting-on-change",
+   "resourceType": "Building blocks",
+   "routedTo": "beyond spec (inverse-function derivatives)",
+   "reason": "inverse-function gradient intuition - outside the 3.4 list (inverse-function differentiation is not a CIE 9709 pure topic)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "the-law-of-reflection-and-saving-time",
+   "station": "chain-rule",
+   "title": "The law of reflection and saving time",
+   "url": "https://undergroundmathematics.org/chain-rule/the-law-of-reflection-and-saving-time",
+   "resourceType": "Bigger picture",
+   "routedTo": "beyond spec (bigger-picture excerpt)",
+   "reason": "bigger-picture essay: the chain rule and the Fermat-style minimisation behind the reflection law - no exercise well",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "two-way-calculus-teacher-support",
+   "station": "calculus-meets-functions",
+   "title": "Two-way calculus - teacher support",
+   "url": "https://undergroundmathematics.org/calculus-meets-functions/two-way-calculus-teacher-support",
+   "resourceType": "Resource in action",
+   "routedTo": "teacher-support notes (no 3.4 exercise)",
+   "reason": "research-project teacher notes for the two-way calculus task - meta content, not a spec embodiment",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "a-tangent-is": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "additional-integrals": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-integration:1.8.3)"
+  },
+  "approximating-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-7 non-overlap row of record stands (body under pure-1-differentiation; the lane-11 row routed 'false positive') - area-order estimation without calculus",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "average-turning-points": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "binomials-are-the-answer": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.1)"
+  },
+  "bouncing-to-nothing": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "aligned of record under 1-series:1.6.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-series:1.6.4)"
+  },
+  "can-you-find-curvy-cubics": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "chain-mapping": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2)"
+  },
+  "choose-your-families": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "graph-family card sort on function features - no 3.4 skill; the sweep hit the graph/feature language",
+   "routedTo": "false positive"
+  },
+  "constant-consistency": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "the lane-11 non-overlap row of record routed 'P3 3.5 Integration' stands - three routes to the same integral, 3.5 substrate",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "curvy-cubics": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "differentiating-exponentials": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "the scaffolded task for d/dx a^x has no extractable sections of record (applet-rendered); the lane-10 'P3 3.4 Differentiation' bearing cannot become text this lane - the lane-10 of-record treatments (to-the-limit, see-the-power) already carry the a^x derivative story beside 3.2.2",
+   "routedTo": "no extractable text"
+  },
+  "domain-and-range-dominoes": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "aligned of record under 1-functions:1.2.1; 1-functions:1.2.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-functions:1.2.1, 1-functions:1.2.2)"
+  },
+  "estimating-gradients": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "aligned of record under 1-differentiation:1.7.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.1)"
+  },
+  "floppy-hair": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "from-parabolas-to-catenaries": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "aligned of record under 3-algebra:3.1.6 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-algebra:3.1.6)"
+  },
+  "gradient-spotting": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2)"
+  },
+  "gradients-of-gradients": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.1)"
+  },
+  "happy-families": {
+   "outcome": "non_overlap",
+   "station": "polynomials",
+   "reason": "implicit-equation curve exploration (domain and range of an algebraic family) - no differentiation load-bearing",
+   "routedTo": "beyond spec"
+  },
+  "how-long-is-a-piece-of-string": {
+   "outcome": "non_overlap",
+   "station": "hyperbolic-functions",
+   "reason": "arc length from first principles for Cartesian and parametric curves - outside the CIE 9709 pure 1-3 scope",
+   "routedTo": "beyond spec (arc length)"
+  },
+  "i-can-see-u": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2)"
+  },
+  "integral-sorting": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "pairing integrals with answers and substitutions - the integration-by-substitution fluency is 3.5 substrate",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "keep-your-distance": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "Highway Code stopping-distance modelling - the rate language is contextual, no 3.4 skill",
+   "routedTo": "false positive"
+  },
+  "log-lattice": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "aligned of record under 3-logarithmic-and-exponential-functions:3.2.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "mapping-a-derivative": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-differentiation:1.7.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.1)"
+  },
+  "mapping-a-function": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-functions",
+   "reason": "mapping diagrams for linear functions - pre-calculus; the derivative work lives in the lane-7 of-record companion mapping-a-derivative",
+   "routedTo": "false positive"
+  },
+  "name-that-graph": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "aligned of record under 1-quadratics:1.1.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-quadratics:1.1.1)"
+  },
+  "name-that-graph-again": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "aligned of record under 1-functions:1.2.5 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "odd-one-out": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "both prior non-overlap rows of record (lane-10 and lane-11, each routed 'P3 3.4 Differentiation') stand - this closure declines the bearing: the derivative facts (d/dx tan x = sec^2 x given, power-rule items) are inventory in a function-property card sort, and no solution well exists to verify a stronger embodiment",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "one-windy-day": {
+   "outcome": "non_overlap",
+   "station": "vector-geometry",
+   "reason": "projectile-with-wind parametric modelling - no dy/dx load-bearing (the of-record solution finds the landing point without differentiation)",
+   "routedTo": "false positive"
+  },
+  "parametric-paths": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "matching curves with parametric coordinates and sketching - parametric fluency without differentiation (no solution section of record)",
+   "routedTo": "false positive"
+  },
+  "parametric-preliminaries": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "parametric equations introduced via locus geometry - pre-3.4.3",
+   "routedTo": "false positive"
+  },
+  "problem-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-circular-measure:1.4.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-circular-measure:1.4.1)"
+  },
+  "producing-a-rule": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2)"
+  },
+  "puzzling-pentagon": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "aligned of record under 1-series:1.6.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-series:1.6.4)"
+  },
+  "r5126": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 3-algebra:3.1.5 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-algebra:3.1.5)"
+  },
+  "r5196": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 3-algebra:3.1.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-algebra:3.1.4)"
+  },
+  "r5595": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "aligned of record under 1-functions:1.2.2; 1-functions:1.2.5 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-functions:1.2.2, 1-functions:1.2.5)"
+  },
+  "r5640": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:x:1.7.2,1.7.4; 1-series:1.6.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:x:1.7.2,1.7.4, 1-series:1.6.1)"
+  },
+  "r5703": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.3)"
+  },
+  "r5732": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r5739": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "the lane-11 non-overlap row of record routed 'beyond spec' stands - tangency conditions via discriminants, no differentiation load-bearing",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "r5754": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "the lane-3 (coordinate geometry) non-overlap row of record stands - parametric locus of a rod without differentiation; the body of record lives under pure-1-coordinate-geometry",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "r5768": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.4; 1-integration:1.8.2; 1-integration:x:1.8.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4, 1-integration:1.8.2, 1-integration:x:1.8.2)"
+  },
+  "r5854": {
+   "outcome": "non_overlap",
+   "station": "polynomials",
+   "reason": "oblique asymptote shown tangent via the double-root intersection test - algebraic, no differentiation",
+   "routedTo": "false positive"
+  },
+  "r5903": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "aligned of record under 1-coordinate-geometry:1.3.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r6102": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "aligned of record under 1-series:1.6.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-series:1.6.1)"
+  },
+  "r6180": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r6299": {
+   "outcome": "rejected_of_record",
+   "station": "polynomials",
+   "reason": "aligned of record under 3-algebra:3.1.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-algebra:3.1.4)"
+  },
+  "r6317": {
+   "outcome": "rejected_of_record",
+   "station": "polynomials",
+   "reason": "aligned of record under 3-algebra:3.1.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-algebra:3.1.3)"
+  },
+  "r6345": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r6352": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r6372": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under lane-2 1.8.4 (plus the lane-7 non-overlap row) - the y^2 = x^3 sketch/area/volume task is integration substrate; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.4, 1-integration:x:1.8.4); prior non-overlap row of record stands"
+  },
+  "r6537": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r6584": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r6620": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "curve analysis from a GIVEN gradient x(1-x^2)e^(-x^2): stationary points and sketch, coordinates recovered by substitution-integration - no differentiation performed; re-routes the lane-10 dual 'P3 3.4/3.5' bearing honestly to 3.5",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r6653": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "the lane-2 (functions) non-overlap row of record stands - sketching sqrt sums by sign analysis; the body of record lives under pure-1-functions",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "r6696": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-compound-angles",
+   "reason": "aligned of record under lane-11 3.3.2 (the t-formulas) - prior alignment stands; no 3.4 skill",
+   "routedTo": "aligned of record (3-trigonometry:3.3.2, 3-trigonometry:x:3.3.2); prior non-overlap row of record stands"
+  },
+  "r6703": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "r6804": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "aligned of record under 1-quadratics:1.1.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-quadratics:1.1.4)"
+  },
+  "r6820": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r6843": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "the lane-11 non-overlap row of record routed 'P3 3.4 Differentiation' stands - the of-record solution derives the chord gradient and the equidistant-tangent property entirely from sum-to-product identities on the parametric coordinates; no differentiation is performed anywhere",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "r6863": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "sketching y = f(x) then y^2 = f(x) by sign and limit analysis - no differentiation load-bearing",
+   "routedTo": "false positive"
+  },
+  "r6867": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r6868": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r6877": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.3)"
+  },
+  "r6959": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r7017": {
+   "outcome": "non_overlap",
+   "station": "polynomials",
+   "reason": "real-root existence for (x-1)(x-2)...(x-n) = k by sign/IVT reasoning - no calculus",
+   "routedTo": "false positive"
+  },
+  "r7074": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "the lane-11 non-overlap row of record routed 'P3 3.5 Integration' stands - the maximum points are read from the given graphs and the shaded area is geometric; no differentiation of record",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "r7115": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under lane-4 1.7.4 (cross-lane, cone maximum volume) - prior alignment stands; the body of record lives under pure-1-circular-measure",
+   "routedTo": "aligned of record (1-differentiation:x:1.7.4); prior non-overlap row of record stands"
+  },
+  "r7129": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "the range of ax/(x^2+x+1) shown by the quadratic-in-x discriminant of record - no differentiation; the sketch reads off the range",
+   "routedTo": "false positive"
+  },
+  "r7171": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "aligned of record under 1-coordinate-geometry:1.3.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r7196": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r7212": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "r7280": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r7328": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "aligned of record under 1-quadratics:1.1.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-quadratics:1.1.4)"
+  },
+  "r7386": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4; 1-integration:1.8.4; 1-integration:x:1.8.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4, 1-integration:1.8.4, 1-integration:x:1.8.4)"
+  },
+  "r7391": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.3)"
+  },
+  "r7410": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 1-integration:1.8.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-integration:1.8.2)"
+  },
+  "r7433": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3, 1-differentiation:1.7.4)"
+  },
+  "r7461": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "I(c) area maximisation decided by symmetry and the sketched 2^(2x-x^2) labelled without calculus - the area work is 3.5 substrate",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r7471": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "aligned of record under 3-logarithmic-and-exponential-functions:3.2.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.1)"
+  },
+  "r7586": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r7678": {
+   "outcome": "non_overlap",
+   "station": "vector-geometry",
+   "reason": "velocity and acceleration by differentiating polynomial components of a position vector - the power-rule skill of the P1 differentiation lane",
+   "routedTo": "P1 1.7 (unmapped)"
+  },
+  "r7720": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r7750": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r7792": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 3-algebra:3.1.5 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-algebra:3.1.5)"
+  },
+  "r7839": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r7861": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4; 1-integration:1.8.4; 1-integration:x:1.8.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4, 1-integration:1.8.4, 1-integration:x:1.8.4)"
+  },
+  "r7912": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-trigonometry:1.5.1; 1-trigonometry:1.5.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-trigonometry:1.5.1, 1-trigonometry:1.5.2)"
+  },
+  "r7998": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r8065": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r8134": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "reduction formula for the integral of e^-x sin^n x - the product-rule identity d/dx (cos x sin^(n-1) x) is the scaffold step; the tested skill is 3.5 integration by parts; re-routes the lane-10 dual 'P3 3.4/3.5' bearing honestly to 3.5",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r8160": {
+   "outcome": "non_overlap",
+   "station": "polynomials",
+   "reason": "quintic graph matching by roots and multiplicity - no calculus",
+   "routedTo": "false positive"
+  },
+  "r8231": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r8286": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.3)"
+  },
+  "r8287": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r8399": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.3)"
+  },
+  "r8427": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "aligned of record under lane-9 3.1.1 (related-curve sketches) - prior alignment stands; the body of record lives under pure-1-functions",
+   "routedTo": "aligned of record (3-algebra:3.1.1, 3-algebra:x:3.1.1); prior non-overlap row of record stands"
+  },
+  "r8441": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r8543": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.3)"
+  },
+  "r8548": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r8588": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2)"
+  },
+  "r8625": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r8679": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "area under cos x - sin x + 2 and the Newton-Raphson refinement - integration and root-finding substrate",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r8716": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under lane-2 1.8.1 (FTC evaluation) - the dI/da step evaluates the integrand at a, differentiating nothing; prior alignment stands",
+   "routedTo": "aligned of record (1-integration:1.8.1, 1-integration:x:1.8.1); prior non-overlap row of record stands"
+  },
+  "r8765": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "the values taken twice shown by the parity argument and the rearranged x^2 = (a^2 y + 1)/(y - 1) >= 0 of record - algebraic, no differentiation",
+   "routedTo": "false positive"
+  },
+  "r8778": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "the lane-11 non-overlap row of record routed 'P3 3.5 Integration' stands - three substitution integrals, 3.5 fluency",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "r8890": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "integration by substitution exercises - 3.5 fluency",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r8936": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 1-circular-measure:1.4.1; 1-differentiation:x:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-circular-measure:1.4.1, 1-differentiation:x:1.7.4)"
+  },
+  "r8946": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "aligned of record under 1-circular-measure:x:1.4.1; 1-coordinate-geometry:1.3.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-circular-measure:x:1.4.1, 1-coordinate-geometry:1.3.2)"
+  },
+  "r8959": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "r8987": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "hexagon minimum area via the quadratic in x after substituting y = 10 - x - algebraic minimisation, no calculus of record",
+   "routedTo": "false positive"
+  },
+  "r9082": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 3-algebra:3.1.4; 3-algebra:x:3.1.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 3-algebra:3.1.4, 3-algebra:x:3.1.4)"
+  },
+  "r9108": {
+   "outcome": "non_overlap",
+   "station": "polynomials",
+   "reason": "unique root argued by dy/dx = 3x^2 + 2x + 1 > 0 on the expanded cubic - the power-rule monotonicity skill of the P1 differentiation lane (the of-record solution differentiates)",
+   "routedTo": "P1 1.7 (unmapped)"
+  },
+  "r9138": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3; 1-integration:1.8.4; 1-integration:x:1.8.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3, 1-integration:1.8.4, 1-integration:x:1.8.4)"
+  },
+  "r9259": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-geometry",
+   "reason": "incircle/circumcircle ratio by tangent lengths and Pythagoras - circle tangency, not curve tangents",
+   "routedTo": "false positive"
+  },
+  "r9260": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r9297": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "the lane-11 non-overlap row of record routed 'P3 3.5 Integration' stands - the explicit chain-rule step d/dx (tan^3 x) = 3 tan^2 x sec^2 x is the scaffold for the tan^4 x integral; the tested skill is 3.5",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "r9506": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "r9582": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "r9599": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r9671": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r9673": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "aligned of record under 1-functions:1.2.5 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "r9768": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "aligned of record under 1-coordinate-geometry:1.3.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-coordinate-geometry:1.3.2)"
+  },
+  "r9770": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "aligned of record under 1-trigonometry:1.5.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-trigonometry:1.5.4)"
+  },
+  "r9781": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.4)"
+  },
+  "r9792": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-geometry",
+   "reason": "two tangents to a circle, lengths and angles - circle geometry, no curve differentiation",
+   "routedTo": "false positive"
+  },
+  "r9815": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "r9905": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.4)"
+  },
+  "r9942": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.2; 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2, 1-differentiation:1.7.3)"
+  },
+  "rectangles-in-triangles": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "the lane-7 non-overlap row of record stands - the maximisation is explicitly non-calculus; the body of record lives under pure-1-differentiation",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "reflecting-on-change": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "inverse-function gradient intuition - outside the 3.4 list (inverse-function differentiation is not a CIE 9709 pure topic)",
+   "routedTo": "beyond spec (inverse-function derivatives)"
+  },
+  "rolling-parabolas": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "the lane-10/lane-11 non-overlap rows of record routed 'beyond spec' stand - rolling-parabola locus applet, beyond the pure 1-3 scope",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "slippery-slopes": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "slippery-slopes-another-derivative": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "aligned of record under 1-differentiation:1.7.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.2)"
+  },
+  "talking-about-curves": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-differentiation:1.7.3; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3, 1-differentiation:1.7.4)"
+  },
+  "tangent-or-normal": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "aligned of record under 1-differentiation:1.7.3 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3)"
+  },
+  "the-law-of-reflection-and-saving-time": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "bigger-picture essay: the chain rule and the Fermat-style minimisation behind the reflection law - no exercise well",
+   "routedTo": "beyond spec (bigger-picture excerpt)"
+  },
+  "thinking-constantly": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-integration:1.8.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-integration:1.8.2)"
+  },
+  "to-the-limit": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "aligned of record under 3-logarithmic-and-exponential-functions:3.2.2 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (3-logarithmic-and-exponential-functions:3.2.2)"
+  },
+  "transformers": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "aligned of record under 1-functions:1.2.5 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-functions:1.2.5)"
+  },
+  "two-for-one": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "the lane-9 and lane-10 non-overlap rows of record stand (the latter routed 'P3 3.5 Integration') - ln|x| integration and modulus-domain discussion",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "two-way-calculus": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "aligned of record under 1-differentiation:1.7.3; 1-differentiation:1.7.4 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.3, 1-differentiation:1.7.4)"
+  },
+  "two-way-calculus-teacher-support": {
+   "outcome": "non_overlap",
+   "station": "calculus-meets-functions",
+   "reason": "research-project teacher notes for the two-way calculus task - meta content, not a spec embodiment",
+   "routedTo": "teacher-support notes (no 3.4 exercise)"
+  },
+  "two-way-functions-teacher-support": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-functions",
+   "reason": "the lane-9 non-overlap row of record stands - teacher-support meta notes",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "weight-pulling": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "the lane-10 and lane-11 non-overlap rows of record routed 'beyond spec' stand - draft applet resource, no extractable exercise",
+   "routedTo": "prior non-overlap row of record stands"
+  },
+  "zooming-in": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "aligned of record under 1-differentiation:1.7.1 - the prior alignment stands and no additional 3.4 embodiment is asserted",
+   "routedTo": "aligned of record (1-differentiation:1.7.1)"
+  }
+ },
+ "ugmStations": {}
+}
