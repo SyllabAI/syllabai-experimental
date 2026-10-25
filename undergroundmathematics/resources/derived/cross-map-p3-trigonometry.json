@@ -1,0 +1,1792 @@
+{
+ "pilot": "P3c generalisation lane 11 - CIE 9709 Pure 3 subtopic 3.3 Trigonometry (operator order: 'merge #363 then lane 11'; the third lane on the pure-3 course plane, first by spine adjacency after lane 10's 3.2)",
+ "generatedAt": "2026-10-25",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts, plus [4] where the resource is a pattern/example of doctrine (none in this lane); no UGM body text beyond the attested corpus import",
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.3 Trigonometry",
+  "specPoints": [
+   "3.3.1",
+   "3.3.2"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json - the two rows 3.3.1-3.3.2 are the spine rows of record verbatim (the parse artifacts in the 3.3.2 title - dropped math runs in 'R sin(θ±α)' / 'sec²θ ≡ 1 + tan²θ' and the mid-sentence truncation after 'the expression of a sin θ + b cos θ in the' - are carried verbatim; no T-SPECS repair needed, no fold fragments exist)"
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepRawHits": 110,
+  "sweepCandidates": 103,
+  "substrateResources": 24,
+  "ugmResourcesConsidered": 103,
+  "aligned": 28,
+  "alignedSubstrate": 24,
+  "nonOverlap": 42,
+  "crossLaneAligned": 4,
+  "rejectedOfRecord": 33,
+  "alignedShare": 0.2718,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 4,
+   "flips": 0,
+   "oneToMany": 4,
+   "note": "no cross-lane flips this lane - all 4 joins are one-to-many additions to resources already aligned of record (going-round-in-circles, muddled-trig, trig-tables, r7021 under lane-5 pure-1 trigonometry 1.5.x); text of record stays under pure-1-trigonometry"
+  },
+  "stationBreakdown": {
+   "calculus-meets-functions": {
+    "resources": 40,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "calculus-of-powers": {
+    "resources": 48,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "calculus-trig-log": {
+    "resources": 20,
+    "aligned": 1,
+    "nonOverlap": 8,
+    "rejected": 1
+   },
+   "chain-rule": {
+    "resources": 49,
+    "aligned": 0,
+    "nonOverlap": 11,
+    "rejected": 3
+   },
+   "circles": {
+    "resources": 47,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 4
+   },
+   "combining-functions": {
+    "resources": 38,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 1
+   },
+   "counting-and-binomials": {
+    "resources": 51,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "exp-and-log": {
+    "resources": 40,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3
+   },
+   "hyperbolic-functions": {
+    "resources": 7,
+    "aligned": 0,
+    "nonOverlap": 4,
+    "rejected": 1
+   },
+   "introducing-calculus": {
+    "resources": 27,
+    "aligned": 0,
+    "nonOverlap": 2,
+    "rejected": 1
+   },
+   "product-rule": {
+    "resources": 28,
+    "aligned": 0,
+    "nonOverlap": 3,
+    "rejected": 1
+   },
+   "quadratics": {
+    "resources": 59,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "sequences": {
+    "resources": 42,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 1
+   },
+   "thinking-about-algebra": {
+    "resources": 32,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1
+   },
+   "thinking-about-functions": {
+    "resources": 23,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 0
+   },
+   "thinking-about-geometry": {
+    "resources": 43,
+    "aligned": 0,
+    "nonOverlap": 5,
+    "rejected": 0
+   },
+   "trigonometry-compound-angles": {
+    "resources": 27,
+    "aligned": 23,
+    "nonOverlap": 1,
+    "rejected": 0
+   },
+   "trigonometry-triangles-to-functions": {
+    "resources": 48,
+    "aligned": 4,
+    "nonOverlap": 2,
+    "rejected": 12
+   },
+   "vector-geometry": {
+    "resources": 27,
+    "aligned": 0,
+    "nonOverlap": 2,
+    "rejected": 0
+   }
+  },
+  "coverageNote": "110 raw sweep hits (17 pass-1 title/description + 93 pass-2 body-text) over the 855-resource corpus → 102 unique regex candidates + 1 pre-baked bearing (r9740, the lane-5 pool row the regex cannot reach) = 103 candidates, every one closed of record: 24 fresh aligned (24 new text bodies; T-UGM-IMPORT-11) — 22 from the dedicated trigonometry-compound-angles station plus 2 strays (lost-but-lovely-the-haversine from Triangles-to-Functions, r7616 from Calculus of Trigonometry & Logarithms); 4 further rows ride bodies of record under lane 5 (cross-course joins by reference); 42 non-overlaps by reference (12 of them re-records of lane-5 non_overlap rows whose bearings stand); 33 of-record candidates rejected because their prior alignments stand. The dedicated-station pool is the lane-5 pre-baked one: the compound-angles station recorded 23 non-overlaps pointing at 'P3 2.3' = today's 3.3, of which 22 land as fresh bodies this lane and 1 (r5988) keeps its extended-sine-rule bearing."
+ },
+ "perSpecPoint": {
+  "3.3.1": {
+   "officialCode": "3.3.1",
+   "officialText": "understand the relationship of the secant, cosecant and cotangent functions to cosine, sine and tangent, and use properties and graphs of all six trigonometric functions for angles of any magnitude",
+   "spineTitleVerbatim": "understand the relationship of the secant, cosecant and cotangent functions to cosine, sine and tangent, and use properties and graphs of all six trigonometric functions for angles of any magnitude",
+   "primaryPick": "r7616",
+   "resources": [
+    {
+     "ugmSlug": "r7616",
+     "station": "calculus-trig-log",
+     "title": "Is this product of integrals positive or negative?",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/r7616",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the sign of (∫cos)(∫sin over [π,2π])(∫dx/cos3x over [0,π/8]) decided from the properties of the six functions: sin negative on [π,2π] and 1/cos3x positive and finite on the range (cos3x≥cos(3π/8)>0) - properties and graphs for angles of any magnitude, no computation needed",
+     "examProvenance": "Oxford University Mathematics Aptitude Test, 2012, Q1F",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.1"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "going-round-in-circles",
+     "station": "trigonometry-triangles-to-functions",
+     "title": "Going round in circles",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the reciprocal-triangles derivation: 1/cosθ=secθ, 1/sinθ=cosecθ, 1/tanθ=cotθ relabelled on the three triangles, with Pythagoras giving cot^2+1=cosec^2 and 1+tan^2=sec^2 - the canonical relationship resource for the sec/cosec/cot limb",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.1"
+     ],
+     "primaryPick": false,
+     "priorAlignmentOfRecord": "lane-trigonometry 1.5.1",
+     "kind": "one_to_many",
+     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+    },
+    {
+     "ugmSlug": "muddled-trig",
+     "station": "trigonometry-triangles-to-functions",
+     "title": "Muddled trig",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/muddled-trig",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "graphs and domains/ranges of 1/sin x, 1/cos x, 1/tan x sketched and named cosec, sec, cot - the graphs-of-all-six limb",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.1"
+     ],
+     "primaryPick": false,
+     "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.3",
+     "kind": "one_to_many",
+     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+    },
+    {
+     "ugmSlug": "trig-tables",
+     "station": "trigonometry-triangles-to-functions",
+     "title": "Trig tables",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "a multiplication table of the six functions completed without calculators - the reciprocal relationships sec=1/cos, cosec=1/sin, cot=1/tan in use at special angles",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.1"
+     ],
+     "primaryPick": false,
+     "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.2",
+     "kind": "one_to_many",
+     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+    }
+   ],
+   "ugmStation": "calculus-trig-log",
+   "ugmStationUrl": "https://undergroundmathematics.org/calculus-trig-log",
+   "resourceCount": 4
+  },
+  "3.3.2": {
+   "officialCode": "3.3.2",
+   "officialText": "use trigonometrical identities for the simplification and exact evaluation of expressions, and in the course of solving equations, and select an identity or identities appropriate to the context, showing familiarity in particular with the use of tan( A ± B ) forms R sin ^ i ! a h and R cos ^ i ! a h .: • sec i / 1 + tan i and cosec i / 1 + cot i • the expansions of sin( A ± B ) , cos( A ± B ) and • the formulae for sin 2 A , cos 2 A and tan 2 A • the expression of a sin i + b cos i in the",
+   "spineTitleVerbatim": "use trigonometrical identities for the simplification and exact evaluation of expressions, and in the course of solving equations, and select an identity or identities appropriate to the context, showing familiarity in particular with the use of tan( A ± B ) forms R sin ^ i ! a h and R cos ^ i ! a h .: • sec i / 1 + tan i and cosec i / 1 + cot i • the expansions of sin( A ± B ) , cos( A ± B ) and • the formulae for sin 2 A , cos 2 A and tan 2 A • the expression of a sin i + b cos i in the",
+   "primaryPick": "r6018",
+   "resources": [
+    {
+     "ugmSlug": "r6018",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we find the value of $\\sin 18^\\circ$ as a surd?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6018",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos3θ=sin2θ expanded via the double/compound-angle formulae into 4x^2+2x-1=0 - sin 18° extracted as a surd plus all solutions 0-360°: the exact-evaluation-plus-equation-solving showcase for the identities limb",
+     "examProvenance": "UCLES A level Mathematics 1, QP 184, 1953, Q5",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": true
+    },
+    {
+     "ugmSlug": "equation-or-identity-ii",
+     "station": "trigonometry-compound-angles",
+     "title": "Equation or identity? (II)",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/equation-or-identity-ii",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "seven triangle statements decided identity-vs-equation and the identities proved with compound/double-angle formulae - the sibling of (I) whose P1-accessible core lane-5 recorded; the full compound-angle version is 3.3.2 work",
+     "examProvenance": null,
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "inspecting-identities",
+     "station": "trigonometry-compound-angles",
+     "title": "Inspecting identities",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/inspecting-identities",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the half-angle identities cos^2(θ/2)=(1+cosθ)/2 and sin^2(θ/2)=(1-cosθ)/2 inspected and used - the double-angle derivations the lane-5 bearing recorded",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "proving-half-angle-formulae",
+     "station": "trigonometry-compound-angles",
+     "title": "Proving half-angle formulae",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/proving-half-angle-formulae",
+     "resourceType": "Scaffolded task",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "derives cos^2(θ/2)=(1+cosθ)/2 from the double-angle identity (geometric and algebraic proofs) - half-angle formulae are 3.3.2 derivations",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5113",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we solve the equation $3\\cos x + 1 = 2\\sin x$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5113",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "2sinx-3cosx=1 solved by writing the left side as R sin(x-α) via the compound-angle identity - the R-form expression of a sinx + b cosx in the solving course",
+     "examProvenance": "UCLES A level Mathematics 1, QP 840/1, 1970, Q5(ii)",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5129",
+     "station": "trigonometry-compound-angles",
+     "title": "If $bc=a^2+1$,  what is $\\arctan[(a+b)^{-1}]+\\arctan[(a+c)^{-1}]$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5129",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "arctan addition evaluated via tan(P+Q)=(tanP+tanQ)/(1-tanPtanQ) from the compound-angle formula - exact evaluation through the tan(A±B) expansion",
+     "examProvenance": "UCLES STEP Mathematics II, 2005, Q4",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r5723",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we solve these trig equations for $x, y$ and $z$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5723",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "three trig equations solved: tan(x+60°)=1 (compound translation), 8siny+3secy=0 (sec as reciprocal of cos, then sin2y), 3sin^2z-8sinzcosz-3cos^2z=0 (identity reduction to quadratic) - identities in the course of solving equations",
+     "examProvenance": "UCLES AO level Additional Mathematics 2, QP 8175/2, 1983, Q14",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6039",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we solve $\\tan\\theta\\tan(\\theta+\\pi/3)=2$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6039",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tanθtan(θ+α)=k proved equivalent to (k+1)cos(2θ+α)=(1-k)cosα via product-to-sum identities, then tanθtan(θ+π/3)=2 solved - compound-angle manipulation for exact results",
+     "examProvenance": "UCLES A level Mathematics Scholarship paper, QP 186, 1953, Q3",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6120",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we write $\\cos \\theta - 2 \\cos 3 \\theta + \\cos 5\\theta$ using $\\sin$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6120",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cosθ-2cos3θ+cos5θ=2sinθ(sin2θ-sin4θ) proved by compound-angle products, then 3sec^2x=tanx+5 solved via sec^2=1+tan^2 - the Pythagorean identity in the course of solving equations",
+     "examProvenance": "UCLES A level Mathematics 1, QP 182, 1952, Q8",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6696",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we write $\\sin\\theta$ and $\\cos\\theta$ in terms of $\\tan(\\theta/2)$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6696",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sinθ and cosθ expressed in terms of t=tan(θ/2) via the double-angle formulae - the half-angle t-substitution identities",
+     "examProvenance": "UCLES A level Mathematics 1, QP 182, 1952, Q7",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r6807",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we simplify $\\cos 3\\theta \\sin 2\\theta - \\cos 4\\theta \\sin \\theta$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r6807",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos3θsin2θ-cos4θsinθ=cos2θsinθ proved from sin(A±B)/cos(A±B), and tan(A+B) obtained from the compound-angle relations - simplification and derivation of the tan form",
+     "examProvenance": "UCLES A level Mathematics A 1, QP 9200/1, 1980, Q4",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7050",
+     "station": "trigonometry-compound-angles",
+     "title": "An exact value for $\\sin 15^{\\circ}$...",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7050",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sin 15°=(√6-√2)/4 obtained by expanding sin(45°-30°) - the exact-evaluation limb via the compound-angle expansion",
+     "examProvenance": "Cambridge Colleges Examination for Entrance Scholarships and Exhibitions, Pure Mathematics for Candidates in Natural Sciences (Group 4), 1952, Q3",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7581",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we sketch the curve $y = \\cos x - \\sin x +2$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7581",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "y=cosx-sinx+2 rewritten as R cos(x+θ)+2 via the compound-angle identity before sketching - the R-form expression",
+     "examProvenance": "UCLES A level Mathematics 2, QP 840/2, 1970, Q17a",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7604",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we solve these simultaneous trigonometric equations?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7604",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "3cos^2x+2cos^2y=4 with 3sin2x-2sin2y=0 solved for cos2x, cos2y via the double-angle formulae, then four solution pairs to the nearest degree - identities solving simultaneous equations",
+     "examProvenance": "UCLES A level Mathematics A Special paper, QP 9200/0, 1981, Q3",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8525",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we prove $\\sin a \\sin b \\leq \\sin^2\\frac{1}{2}(a+b)$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8525",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "sin a sin b ≤ sin^2((a+b)/2) proved via the product-to-sum identities 2sinAsinB=cos(A-B)-cos(A+B) - identity selection for an inequality",
+     "examProvenance": "UCLES A level Mathematics Scholarship paper, QP 183, 1954, Q3",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8557",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we find the height of a tower using its reflection?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8557",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tower height h sin(α+β)cosec(β-α) evaluated by expanding sin(α+β) and using the reciprocal relation for cosec - compound-angle work is the solution engine",
+     "examProvenance": "UCLES A level Mathematics 1, QP 184, 1953, Q7",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8648",
+     "station": "trigonometry-compound-angles",
+     "title": "Can we solve $\\cos\\theta - \\sin (2\\theta) + \\cos (3\\theta) - \\sin (4\\theta) = 0$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8648",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "general solutions of 2sin3θ-7cos2θ+sinθ+1=0 and cosθ-sin2θ+cos3θ-sin4θ=0 via sum-to-product and double-angle identities - multi-angle equation solving",
+     "examProvenance": "UCLES A level Further Mathematics 2, QP 187, 1952, Q3",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r8709",
+     "station": "trigonometry-compound-angles",
+     "title": "For which $0^\\circ < \\theta < 500^\\circ$ is $3\\cos \\theta + 4\\sin \\theta > 2$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r8709",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "3cosθ+4sinθ>2 solved for 0°<θ<500° by writing the left side as r cos(θ-α) - the R-form plus general solutions the lane-5 bearing pre-recorded",
+     "examProvenance": "O&C O level SMP Additional Mathematics 2, QP SMP 118, 1975, Q4",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9740",
+     "station": "trigonometry-compound-angles",
+     "title": "If $\\sin \\alpha = 3/5, \\cos \\beta = 12/13$, what's $\\cos(\\alpha + \\beta)$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9740",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos(α+β) evaluated from sinα=3/5, cosβ=12/13 by the compound-angle expansion - the canonical expansion exercise the lane-5 bearing pre-recorded",
+     "examProvenance": "UCLES A level Mathematics B 1, QP 9202/1, 1980, Q4(a)",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r9782",
+     "station": "trigonometry-compound-angles",
+     "title": "Why is $\\cos \\theta + \\cos (\\theta + 2\\pi/3) + \\cos(\\theta + 4\\pi/3)=0$?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r9782",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cosθ+cos(θ+2π/3)+cos(θ+4π/3)=0 proved by deriving cos(A+B)=cosAcosB-sinAsinB and the three-cosine sum identity - identity derivation and use",
+     "examProvenance": "UCLES A level Mathematics 1, QP 186, 1951, Q6",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "t-for-tan",
+     "station": "trigonometry-compound-angles",
+     "title": "$t$ for $\\tan$",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/t-for-tan",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "tan2θ=2t/(1-t^2), sin2θ=2t/(1+t^2), cos2θ=(1-t^2)/(1+t^2) obtained geometrically - the double-angle formulae in the t-substitution form",
+     "examProvenance": "Based on this",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "transformation-or-not",
+     "station": "trigonometry-compound-angles",
+     "title": "Transformation... or not?",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/transformation-or-not",
+     "resourceType": "Investigation",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "y=3sinx+4cosx identified as R sin(x+α) with sinα=4/5 - the R-form recognition task the lane-5 bearing pre-recorded",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "lost-but-lovely-the-haversine",
+     "station": "trigonometry-triangles-to-functions",
+     "title": "Lost but lovely: the haversine",
+     "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/lost-but-lovely-the-haversine",
+     "resourceType": "Bigger picture",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "the haversine navigation formula derivation rides the half-angle/compound identities (hav θ=(1-cosθ)/2) - the lane-5 P3-2.3 bearing pre-recorded this piece into the pool",
+     "examProvenance": null,
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false
+    },
+    {
+     "ugmSlug": "r7021",
+     "station": "trigonometry-compound-angles",
+     "title": "Using angles in a pentagon...",
+     "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "cos(π/5) extracted exactly via the cosine double-angle formula cos2θ=2cos^2θ-1 reducing the pentagon relation to 4γ^2-2γ-1=0 - exact evaluation through the double-angle identity",
+     "examProvenance": "UCLES A level Mathematics 1, QP 180, 1954, Q9",
+     "hasTeacherSupport": true,
+     "codes": [
+      "3.3.2"
+     ],
+     "primaryPick": false,
+     "priorAlignmentOfRecord": "lane-trigonometry 1.5.2",
+     "kind": "one_to_many",
+     "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry"
+    }
+   ],
+   "ugmStation": "trigonometry-compound-angles",
+   "ugmStationUrl": "https://undergroundmathematics.org/trigonometry-compound-angles",
+   "resourceCount": 24
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "going-round-in-circles",
+   "station": "trigonometry-triangles-to-functions",
+   "title": "Going round in circles",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/going-round-in-circles",
+   "codes": [
+    "3.3.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
+   "confidence": "high",
+   "evidence": "the reciprocal-triangles derivation: 1/cosθ=secθ, 1/sinθ=cosecθ, 1/tanθ=cotθ relabelled on the three triangles, with Pythagoras giving cot^2+1=cosec^2 and 1+tan^2=sec^2 - the canonical relationship resource for the sec/cosec/cot limb"
+  },
+  {
+   "ugmSlug": "muddled-trig",
+   "station": "trigonometry-triangles-to-functions",
+   "title": "Muddled trig",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/muddled-trig",
+   "codes": [
+    "3.3.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.3",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
+   "confidence": "high",
+   "evidence": "graphs and domains/ranges of 1/sin x, 1/cos x, 1/tan x sketched and named cosec, sec, cot - the graphs-of-all-six limb"
+  },
+  {
+   "ugmSlug": "trig-tables",
+   "station": "trigonometry-triangles-to-functions",
+   "title": "Trig tables",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/trig-tables",
+   "codes": [
+    "3.3.1"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.2",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
+   "confidence": "medium",
+   "evidence": "a multiplication table of the six functions completed without calculators - the reciprocal relationships sec=1/cos, cosec=1/sin, cot=1/tan in use at special angles"
+  },
+  {
+   "ugmSlug": "r7021",
+   "station": "trigonometry-compound-angles",
+   "title": "Using angles in a pentagon...",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r7021",
+   "codes": [
+    "3.3.2"
+   ],
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.2",
+   "textOfRecordUnder": "UGM-Resources/pure-1-trigonometry",
+   "confidence": "high",
+   "evidence": "cos(π/5) extracted exactly via the cosine double-angle formula cos2θ=2cos^2θ-1 reducing the pentagon relation to 4γ^2-2γ-1=0 - exact evaluation through the double-angle identity"
+  }
+ ],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "r5988",
+   "station": "trigonometry-compound-angles",
+   "title": "If $R$ is the circumradius of triangle $ABC$, can we show $a\\:/\\sin A = 2R$?",
+   "url": "https://undergroundmathematics.org/trigonometry-compound-angles/r5988",
+   "resourceType": "Review question",
+   "routedTo": "extended sine rule (unmapped)",
+   "reason": "proves a/sinA=2R for the circumradius via sin2x=2sinxcosx and the sum-to-product identity - the tested skill is the extended sine rule; the lane-5 IGCSE/0606 bearing of record stands",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6589",
+   "station": "trigonometry-triangles-to-functions",
+   "title": "Can we find the lengths and angles in this pyramid?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r6589",
+   "resourceType": "Review question",
+   "routedTo": "extended sine/cosine rule work (unmapped)",
+   "reason": "pyramid lengths and the exact cos ARB via the cosine rule - the lane-5 recorded bearing (triangle solution, IGCSE/0606) stands; no compound-angle limb",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7756",
+   "station": "trigonometry-triangles-to-functions",
+   "title": "What's this angle of elevation given two others?",
+   "url": "https://undergroundmathematics.org/trigonometry-triangles-to-functions/r7756",
+   "resourceType": "Review question",
+   "routedTo": "extended sine rule (unmapped)",
+   "reason": "mountain elevation from three road points: tanθ=tanαcotβ and tan^2γ=tan^2α+tan^2β proved as a triangle solution - the lane-5 IGCSE/0606 bearing of record stands",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6622",
+   "station": "calculus-trig-log",
+   "title": "Can the integral of $\\sin(\\sin t)$ be zero?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r6622",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "the integral of sin(sin t) vanishing by symmetry and periodicity of sin - an integration-symmetry argument, not a 3.3 property task",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9184",
+   "station": "calculus-trig-log",
+   "title": "Can we find the area between $\\sin x$ and $\\sin 2x$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r9184",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "intersection of y=sinx and y=sin2x solved via the double angle (a 3.3.2 limb) but the task's centre of mass is the enclosed area - the integration limb dominates (3.3.2∩3.5.2 mix recorded)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6938",
+   "station": "calculus-trig-log",
+   "title": "Can we find the turning points on the curve $y = \\sin x + \\cos x$?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r6938",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "turning points of y=sinx+cosx by calculus; the recorded R-form route (R sin(x+α)) is an alternative method note, not the tested skill",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "rotating-derivatives",
+   "station": "calculus-trig-log",
+   "title": "Rotating derivatives",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/rotating-derivatives",
+   "resourceType": "Scaffolded task",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "derivatives of sin t and cos t from the unit-circle diagram - 3.4.1 bearings of record",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "similar-derivatives",
+   "station": "calculus-trig-log",
+   "title": "Similar derivatives",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/similar-derivatives",
+   "resourceType": "Building blocks",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "d(tanθ)/dθ via similar triangles with (1,tanθ) and (cotθ,1) - the reciprocal geometry feeds derivative work (3.4.1 bearing); the cot=1/tan relationship is auxiliary here",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "sine-stretching",
+   "station": "calculus-trig-log",
+   "title": "Sine stretching",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/sine-stretching",
+   "resourceType": "Building blocks",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "gradients of sinx vs sin2x tangents - chain-rule/stretch skill (1.7/3.4 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "trigsy-integrals",
+   "station": "calculus-trig-log",
+   "title": "Trigsy integrals",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/trigsy-integrals",
+   "resourceType": "Many ways problem",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "integrals incl. cos2x and sin^2x (3.5.2 limb) but also arcsin/arccos integrands - inverse trigonometric functions are beyond the pure-3 spine",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r7074",
+   "station": "calculus-trig-log",
+   "title": "Where do the curves $y=\\sin 2x$ and $y=\\sin x$ cross?",
+   "url": "https://undergroundmathematics.org/calculus-trig-log/r7074",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "intersection of y=sin2x and y=sinx found via sinx=2sinxcosx (a 3.3.2 limb) then the shaded area computed - the integration limb dominates (3.3.2∩3.5.2 mix recorded)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "circular-slice",
+   "station": "chain-rule",
+   "title": "Circular slice",
+   "url": "https://undergroundmathematics.org/chain-rule/circular-slice",
+   "resourceType": "Rich example",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "the integrand rewritten via cos2θ for the substitution working - double angle inside an integration task (3.5.2 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "odd-one-out",
+   "station": "chain-rule",
+   "title": "Odd one out",
+   "url": "https://undergroundmathematics.org/chain-rule/odd-one-out",
+   "resourceType": "Package of problems",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "odd-one-out on functions and derivatives incl. tanx(sec^2x-1) - the chain-rule skill of record; sec^2 appears as inventory, not as an identity task",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "parametric-points",
+   "station": "chain-rule",
+   "title": "Parametric points",
+   "url": "https://undergroundmathematics.org/chain-rule/parametric-points",
+   "resourceType": "Fluency exercise",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "parametric curve matching and stationary points - parametric differentiation skill (1.7/3.4 bearing); sin2t enters as inventory",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5251",
+   "station": "chain-rule",
+   "title": "Can we sketch $y=3 \\cos x - \\cos 3x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5251",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "d/dx(3cosx-cos3x)=6sinxcos2x proved via the compound-angle expansion of sin3x, but the task is the increasing ranges and sketch (1.7/3.4 bearing; the identity step recorded)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5739",
+   "station": "chain-rule",
+   "title": "What is implied if these two parabolas touch exactly once?",
+   "url": "https://undergroundmathematics.org/chain-rule/r5739",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "parabolas touching exactly once - algebraic tangency work; the 'exact' sweep trigger is incidental",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6843",
+   "station": "chain-rule",
+   "title": "Where does this chord of an ellipse cut the $x$-axis?",
+   "url": "https://undergroundmathematics.org/chain-rule/r6843",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "chord of an ellipse: gradient via the sum-to-product identities sinx-siny=2cos((x+y)/2)sin((x-y)/2) - the identities assist a parametric-geometry task (recorded)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8778",
+   "station": "chain-rule",
+   "title": "Can we carry out these three tricky integrals?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8778",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "∫sec^4x via sec^2=1+tan^2 - the Pythagorean identity inside an integration task (3.5.2 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8836",
+   "station": "chain-rule",
+   "title": "Where is the centre of mass of half this cylinder?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8836",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "centre of mass of a half-cylinder with (cos2θ+1)/2 in the integrand - mechanics plus 3.5.2 limb",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8939",
+   "station": "chain-rule",
+   "title": "Can we find where the normal is parallel to $y=x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r8939",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "normal parallel to y=x on x=5asecθ, y=3atanθ - parametric differentiation skill; the sec/tan parametrisation is inventory",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9297",
+   "station": "chain-rule",
+   "title": "How could we integrate $\\tan^4x$?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9297",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "tan^4x=tan^2xsec^2x-sec^2x+1 then ∫0^{π/4}tan^4x - the Pythagorean identity inside an integration task (3.5.2 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9413",
+   "station": "chain-rule",
+   "title": "Can we show that these normals intersect on this circle?",
+   "url": "https://undergroundmathematics.org/chain-rule/r9413",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "normals intersecting on a circle: sum-to-product and product-to-sum identities assist a parametric task (recorded; 1.7/3.4 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "cones",
+   "station": "circles",
+   "title": "Cones",
+   "url": "https://undergroundmathematics.org/circles/cones",
+   "resourceType": "Building blocks",
+   "routedTo": "beyond spec",
+   "reason": "cone measurement investigation; the appendix rewrites πrh secθ=πr^2 cosecθ - reciprocal vocabulary as inventory, not the tested skill",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9072",
+   "station": "hyperbolic-functions",
+   "title": "Can we find this circle's integer and non-integer rational points?",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/r9072",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "integer and non-integer rational points via the sec^2-tan^2 parametrisation - number theory beyond the pure-3 spine",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "rolling-parabolas",
+   "station": "hyperbolic-functions",
+   "title": "Rolling parabolas",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/rolling-parabolas",
+   "resourceType": "Scaffolded task",
+   "routedTo": "beyond spec",
+   "reason": "catenary rolling construction with cosh/sinh double-angle work - hyperbolic functions are beyond the pure-3 spine",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "square-wheels",
+   "station": "hyperbolic-functions",
+   "title": "Square wheels",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/square-wheels",
+   "resourceType": "Food for thought",
+   "routedTo": "beyond spec",
+   "reason": "square wheels on a catenary - hyperbolic functions beyond the spine",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "weight-pulling",
+   "station": "hyperbolic-functions",
+   "title": "Weight pulling",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/weight-pulling",
+   "resourceType": "Food for thought",
+   "routedTo": "beyond spec",
+   "reason": "weight pulled over a pulley: ∫cosecθ dθ via the (cosec+cot) trick appears, but the task is a catenary comparison beyond the spine (recorded)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "finding-triangles",
+   "station": "thinking-about-geometry",
+   "title": "Finding triangles",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/finding-triangles",
+   "resourceType": "Package of problems",
+   "routedTo": "beyond spec",
+   "reason": "constructing triangles to order by area/perimeter scaling - geometry problem-solving",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "look-before-you-leap",
+   "station": "thinking-about-geometry",
+   "title": "Look before you leap",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/look-before-you-leap",
+   "resourceType": "Many ways problem",
+   "routedTo": "beyond spec",
+   "reason": "square-diagonal geometry bookmarked for multiple approaches; the tan(22.5°) double-angle route is one recorded approach among several (similar triangles primary)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5386",
+   "station": "thinking-about-geometry",
+   "title": "Can we show we have three corners of a rectangle?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r5386",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "three corners of a rectangle - coordinate/geometry reasoning",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8022",
+   "station": "thinking-about-geometry",
+   "title": "How far does this pool ball travel to reach the pocket?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r8022",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "pool-ball path by similar triangles - geometry",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8917",
+   "station": "thinking-about-geometry",
+   "title": "If these centres lie on a line, why is the triangle isosceles?",
+   "url": "https://undergroundmathematics.org/thinking-about-geometry/r8917",
+   "resourceType": "Review question",
+   "routedTo": "extended sine/cosine rule work (unmapped)",
+   "reason": "triangle centres collinear forcing isosceles - sine/cosine rule limb (1.5.3-of-record shape)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "constant-consistency",
+   "station": "product-rule",
+   "title": "Constant consistency",
+   "url": "https://undergroundmathematics.org/product-rule/constant-consistency",
+   "resourceType": "Many ways problem",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "∫cosx sinx via sin2x=2sinxcosx then by substitution and parts - the identity limb feeds an integration-methods task (3.5.2 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "integral-chasing-2",
+   "station": "product-rule",
+   "title": "Integral chasing II",
+   "url": "https://undergroundmathematics.org/product-rule/integral-chasing-2",
+   "resourceType": "Fluency exercise",
+   "routedTo": "P3 3.5 Integration",
+   "reason": "∫x^2 sin2x by parts - integration by parts (3.5 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6549",
+   "station": "product-rule",
+   "title": "Where are the stationary points on $\\cot x-8\\cos x$?",
+   "url": "https://undergroundmathematics.org/product-rule/r6549",
+   "resourceType": "Review question",
+   "routedTo": "P3 3.4 Differentiation",
+   "reason": "stationary points of cotx-8cosx: differentiating cot is beyond the P3 3.4.1 list; the cot=1/tan vs cos/sin domain discussion is recorded (3.3.1-adjacent note)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "approximating-areas",
+   "station": "introducing-calculus",
+   "title": "Approximating areas",
+   "url": "https://undergroundmathematics.org/introducing-calculus/approximating-areas",
+   "resourceType": "Problem requiring decisions",
+   "routedTo": "false positive",
+   "reason": "area estimates under lines and polynomials - the 'exact' trigger is incidental",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r5642",
+   "station": "introducing-calculus",
+   "title": "When does the trapezium rule give the exact answer here?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r5642",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "when the trapezium rule is exact - the trapezium rule is not in the spine",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r9798",
+   "station": "combining-functions",
+   "title": "When does $f$ satisfy the identity $f(t)-f(1-t)=g(t)$?",
+   "url": "https://undergroundmathematics.org/combining-functions/r9798",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "functional identity f(t)-kf(1-t)=t - the 'identity' trigger is a functional equation, not a trigonometric one",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "sum-estimating",
+   "station": "sequences",
+   "title": "Sum estimating",
+   "url": "https://undergroundmathematics.org/sequences/sum-estimating",
+   "resourceType": "Scaffolded task",
+   "routedTo": "false positive",
+   "reason": "sum estimates for Σr^2 - the 'exact value' trigger is incidental",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "make-it-stop",
+   "station": "vector-geometry",
+   "title": "Make it stop!",
+   "url": "https://undergroundmathematics.org/vector-geometry/make-it-stop",
+   "resourceType": "Many ways problem",
+   "routedTo": "beyond spec",
+   "reason": "stopping a particle under a force - vector dynamics (7.x bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r6009",
+   "station": "vector-geometry",
+   "title": "In a $\\quantity{60}{km/h}$ wind, what bearing should this plane take?",
+   "url": "https://undergroundmathematics.org/vector-geometry/r6009",
+   "resourceType": "Review question",
+   "routedTo": "beyond spec",
+   "reason": "plane bearing in a crosswind - vector navigation with sine-rule component work (1.5.3/7.3 bearings)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "r8079",
+   "station": "thinking-about-functions",
+   "title": "Where does the graph of this modulus function cross $y = 1/x$?",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/r8079",
+   "resourceType": "Review question",
+   "routedTo": "false positive",
+   "reason": "modulus graph vs 1/x - the 'exact values' trigger is incidental (functions/1.2 bearing)",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "r5988": {
+   "outcome": "non_overlap",
+   "station": "trigonometry-compound-angles",
+   "reason": "proves a/sinA=2R for the circumradius via sin2x=2sinxcosx and the sum-to-product identity - the tested skill is the extended sine rule; the lane-5 IGCSE/0606 bearing of record stands",
+   "routedTo": "extended sine rule (unmapped)"
+  },
+  "r6589": {
+   "outcome": "non_overlap",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "pyramid lengths and the exact cos ARB via the cosine rule - the lane-5 recorded bearing (triangle solution, IGCSE/0606) stands; no compound-angle limb",
+   "routedTo": "extended sine/cosine rule work (unmapped)"
+  },
+  "r7756": {
+   "outcome": "non_overlap",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "mountain elevation from three road points: tanθ=tanαcotβ and tan^2γ=tan^2α+tan^2β proved as a triangle solution - the lane-5 IGCSE/0606 bearing of record stands",
+   "routedTo": "extended sine rule (unmapped)"
+  },
+  "r6622": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "the integral of sin(sin t) vanishing by symmetry and periodicity of sin - an integration-symmetry argument, not a 3.3 property task",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r9184": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "intersection of y=sinx and y=sin2x solved via the double angle (a 3.3.2 limb) but the task's centre of mass is the enclosed area - the integration limb dominates (3.3.2∩3.5.2 mix recorded)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r6938": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "turning points of y=sinx+cosx by calculus; the recorded R-form route (R sin(x+α)) is an alternative method note, not the tested skill",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "rotating-derivatives": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "derivatives of sin t and cos t from the unit-circle diagram - 3.4.1 bearings of record",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "similar-derivatives": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "d(tanθ)/dθ via similar triangles with (1,tanθ) and (cotθ,1) - the reciprocal geometry feeds derivative work (3.4.1 bearing); the cot=1/tan relationship is auxiliary here",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "sine-stretching": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "gradients of sinx vs sin2x tangents - chain-rule/stretch skill (1.7/3.4 bearing)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "trigsy-integrals": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "integrals incl. cos2x and sin^2x (3.5.2 limb) but also arcsin/arccos integrands - inverse trigonometric functions are beyond the pure-3 spine",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r7074": {
+   "outcome": "non_overlap",
+   "station": "calculus-trig-log",
+   "reason": "intersection of y=sin2x and y=sinx found via sinx=2sinxcosx (a 3.3.2 limb) then the shaded area computed - the integration limb dominates (3.3.2∩3.5.2 mix recorded)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "circular-slice": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "the integrand rewritten via cos2θ for the substitution working - double angle inside an integration task (3.5.2 bearing)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "odd-one-out": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "odd-one-out on functions and derivatives incl. tanx(sec^2x-1) - the chain-rule skill of record; sec^2 appears as inventory, not as an identity task",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "parametric-points": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "parametric curve matching and stationary points - parametric differentiation skill (1.7/3.4 bearing); sin2t enters as inventory",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r5251": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "d/dx(3cosx-cos3x)=6sinxcos2x proved via the compound-angle expansion of sin3x, but the task is the increasing ranges and sketch (1.7/3.4 bearing; the identity step recorded)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r5739": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "parabolas touching exactly once - algebraic tangency work; the 'exact' sweep trigger is incidental",
+   "routedTo": "beyond spec"
+  },
+  "r6843": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "chord of an ellipse: gradient via the sum-to-product identities sinx-siny=2cos((x+y)/2)sin((x-y)/2) - the identities assist a parametric-geometry task (recorded)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r8778": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "∫sec^4x via sec^2=1+tan^2 - the Pythagorean identity inside an integration task (3.5.2 bearing)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r8836": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "centre of mass of a half-cylinder with (cos2θ+1)/2 in the integrand - mechanics plus 3.5.2 limb",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r8939": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "normal parallel to y=x on x=5asecθ, y=3atanθ - parametric differentiation skill; the sec/tan parametrisation is inventory",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "r9297": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "tan^4x=tan^2xsec^2x-sec^2x+1 then ∫0^{π/4}tan^4x - the Pythagorean identity inside an integration task (3.5.2 bearing)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r9413": {
+   "outcome": "non_overlap",
+   "station": "chain-rule",
+   "reason": "normals intersecting on a circle: sum-to-product and product-to-sum identities assist a parametric task (recorded; 1.7/3.4 bearing)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "cones": {
+   "outcome": "non_overlap",
+   "station": "circles",
+   "reason": "cone measurement investigation; the appendix rewrites πrh secθ=πr^2 cosecθ - reciprocal vocabulary as inventory, not the tested skill",
+   "routedTo": "beyond spec"
+  },
+  "r9072": {
+   "outcome": "non_overlap",
+   "station": "hyperbolic-functions",
+   "reason": "integer and non-integer rational points via the sec^2-tan^2 parametrisation - number theory beyond the pure-3 spine",
+   "routedTo": "beyond spec"
+  },
+  "rolling-parabolas": {
+   "outcome": "non_overlap",
+   "station": "hyperbolic-functions",
+   "reason": "catenary rolling construction with cosh/sinh double-angle work - hyperbolic functions are beyond the pure-3 spine",
+   "routedTo": "beyond spec"
+  },
+  "square-wheels": {
+   "outcome": "non_overlap",
+   "station": "hyperbolic-functions",
+   "reason": "square wheels on a catenary - hyperbolic functions beyond the spine",
+   "routedTo": "beyond spec"
+  },
+  "weight-pulling": {
+   "outcome": "non_overlap",
+   "station": "hyperbolic-functions",
+   "reason": "weight pulled over a pulley: ∫cosecθ dθ via the (cosec+cot) trick appears, but the task is a catenary comparison beyond the spine (recorded)",
+   "routedTo": "beyond spec"
+  },
+  "finding-triangles": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-geometry",
+   "reason": "constructing triangles to order by area/perimeter scaling - geometry problem-solving",
+   "routedTo": "beyond spec"
+  },
+  "look-before-you-leap": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-geometry",
+   "reason": "square-diagonal geometry bookmarked for multiple approaches; the tan(22.5°) double-angle route is one recorded approach among several (similar triangles primary)",
+   "routedTo": "beyond spec"
+  },
+  "r5386": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-geometry",
+   "reason": "three corners of a rectangle - coordinate/geometry reasoning",
+   "routedTo": "beyond spec"
+  },
+  "r8022": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-geometry",
+   "reason": "pool-ball path by similar triangles - geometry",
+   "routedTo": "beyond spec"
+  },
+  "r8917": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-geometry",
+   "reason": "triangle centres collinear forcing isosceles - sine/cosine rule limb (1.5.3-of-record shape)",
+   "routedTo": "extended sine/cosine rule work (unmapped)"
+  },
+  "constant-consistency": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "∫cosx sinx via sin2x=2sinxcosx then by substitution and parts - the identity limb feeds an integration-methods task (3.5.2 bearing)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "integral-chasing-2": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "∫x^2 sin2x by parts - integration by parts (3.5 bearing)",
+   "routedTo": "P3 3.5 Integration"
+  },
+  "r6549": {
+   "outcome": "non_overlap",
+   "station": "product-rule",
+   "reason": "stationary points of cotx-8cosx: differentiating cot is beyond the P3 3.4.1 list; the cot=1/tan vs cos/sin domain discussion is recorded (3.3.1-adjacent note)",
+   "routedTo": "P3 3.4 Differentiation"
+  },
+  "approximating-areas": {
+   "outcome": "non_overlap",
+   "station": "introducing-calculus",
+   "reason": "area estimates under lines and polynomials - the 'exact' trigger is incidental",
+   "routedTo": "false positive"
+  },
+  "r5642": {
+   "outcome": "non_overlap",
+   "station": "introducing-calculus",
+   "reason": "when the trapezium rule is exact - the trapezium rule is not in the spine",
+   "routedTo": "beyond spec"
+  },
+  "r9798": {
+   "outcome": "non_overlap",
+   "station": "combining-functions",
+   "reason": "functional identity f(t)-kf(1-t)=t - the 'identity' trigger is a functional equation, not a trigonometric one",
+   "routedTo": "false positive"
+  },
+  "sum-estimating": {
+   "outcome": "non_overlap",
+   "station": "sequences",
+   "reason": "sum estimates for Σr^2 - the 'exact value' trigger is incidental",
+   "routedTo": "false positive"
+  },
+  "make-it-stop": {
+   "outcome": "non_overlap",
+   "station": "vector-geometry",
+   "reason": "stopping a particle under a force - vector dynamics (7.x bearing)",
+   "routedTo": "beyond spec"
+  },
+  "r6009": {
+   "outcome": "non_overlap",
+   "station": "vector-geometry",
+   "reason": "plane bearing in a crosswind - vector navigation with sine-rule component work (1.5.3/7.3 bearings)",
+   "routedTo": "beyond spec"
+  },
+  "r8079": {
+   "outcome": "non_overlap",
+   "station": "thinking-about-functions",
+   "reason": "modulus graph vs 1/x - the 'exact values' trigger is incidental (functions/1.2 bearing)",
+   "routedTo": "false positive"
+  },
+  "big-trig": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "periodicity and range reasoning on composite trig expressions - the 1.5.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1"
+  },
+  "can-you-find-trigonometry-edition": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "graph-generation challenges - the 1.5.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1"
+  },
+  "equation-or-identity-i": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "the P1-accessible core of the identity-vs-equation pair is recorded under 1.5.4; the full compound-angle version (II) is the lane-11 fresh body",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.4"
+  },
+  "general-solutions": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "sinA=sinB and cosA=cosB solution structures from the graphs - the 1.5.5 home of record stands",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.5"
+  },
+  "have-a-sine": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "versed sine/exsecant lengths on the circle - the 1.5.1 home of record stands (its haversine sibling joins 3.3.2)",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1"
+  },
+  "how-high-am-i": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "angle-finding with graphs - the 1.5.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1"
+  },
+  "r5199": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "sinx≥1/2 and sin2x≥1/2 by graph reading - the 1.5 homes of record stand; no double-angle expansion required",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.5"
+  },
+  "r5269": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "identity simplification inside an equation-solving task - the 1.5.4/1.5.5 homes of record stand",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.4/1.5.5"
+  },
+  "r7370": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "simultaneous trig equations as line gradients - the 1.5.4 home of record stands",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.4"
+  },
+  "r7374": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "sin y=sin x locus by graphs - the 1.5 homes of record stand",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.5"
+  },
+  "r7577": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "double reflection of y=sinx - the 1.5.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1"
+  },
+  "slices-of-pi": {
+   "outcome": "rejected_of_record",
+   "station": "trigonometry-triangles-to-functions",
+   "reason": "tanθ=sinθ/cosθ graph reasoning - the 1.5 homes of record stand",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1/1.5.4"
+  },
+  "to-the-limit": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-trig-log",
+   "reason": "the e-defining special case is of record under 3.2.2; no 3.3 limb",
+   "priorAlignmentOfRecord": "lane-10 3.2.2"
+  },
+  "i-can-see-u": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "chain-rule card sort - the 1.7.2 home of record stands; cot x and sec^2x appear as inventory",
+   "priorAlignmentOfRecord": "lane-differentiation 1.7.2"
+  },
+  "r8694": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "∫tan^3θ via sec^2=tan^2+1 - of record under 3.1.5 (partial-fractions lane's integration strand); the 3.5.2-shaped limb is recorded",
+   "priorAlignmentOfRecord": "lane-9 3.1.5"
+  },
+  "r9701": {
+   "outcome": "rejected_of_record",
+   "station": "chain-rule",
+   "reason": "the double-angle half-angle substitution inside the integration of record - prior alignments stand",
+   "priorAlignmentOfRecord": "lane-8 1.8.1 + lane-9 3.1.5"
+  },
+  "r7549": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "quartic roots via circle-line intersection - the 1.3.2 home of record stands",
+   "priorAlignmentOfRecord": "lane-coordinate-geometry 1.3.2"
+  },
+  "r7656": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "circle/triangle area inequality - the 1.3.2 home of record stands (the compound-angles cross-reference is a pointer, not a limb)",
+   "priorAlignmentOfRecord": "lane-coordinate-geometry 1.3.2"
+  },
+  "r8946": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "tangent enclosed areas with 1/sinθ+cotθ algebra - the homes of record stand; the reciprocal algebra is auxiliary",
+   "priorAlignmentOfRecord": "lane-coordinate-geometry 1.3.2 + lane-circular-measure 1.4.1"
+  },
+  "sector-spirals": {
+   "outcome": "rejected_of_record",
+   "station": "circles",
+   "reason": "sector spirals - the 1.4.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-circular-measure 1.4.1"
+  },
+  "from-parabolas-to-catenaries": {
+   "outcome": "rejected_of_record",
+   "station": "hyperbolic-functions",
+   "reason": "binomial-expansion closure to cosh - the 3.1.6 home of record stands",
+   "priorAlignmentOfRecord": "lane-9 3.1.6"
+  },
+  "r8936": {
+   "outcome": "rejected_of_record",
+   "station": "product-rule",
+   "reason": "arclength QR stationary when θ=cotθ - the homes of record stand",
+   "priorAlignmentOfRecord": "lane-circular-measure 1.4.1 + lane-differentiation 1.7.4"
+  },
+  "problem-areas": {
+   "outcome": "rejected_of_record",
+   "station": "introducing-calculus",
+   "reason": "semi-circle sector areas - the 1.4.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-circular-measure 1.4.1"
+  },
+  "log-lineup": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "logarithm ordering - the 3.2.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-10 3.2.1"
+  },
+  "r5080": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "surd/log/trig comparison - the 3.2.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-10 3.2.1"
+  },
+  "r7184": {
+   "outcome": "rejected_of_record",
+   "station": "exp-and-log",
+   "reason": "largest of log/trig expressions - the homes of record stand",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.1 + lane-10 3.2.1"
+  },
+  "r9924": {
+   "outcome": "rejected_of_record",
+   "station": "combining-functions",
+   "reason": "2^cos^2x+2^sin^2x solutions - the 1.5.4 home of record stands",
+   "priorAlignmentOfRecord": "lane-trigonometry 1.5.4"
+  },
+  "r9819": {
+   "outcome": "rejected_of_record",
+   "station": "sequences",
+   "reason": "alternating square sum - the 1.6.3 home of record stands",
+   "priorAlignmentOfRecord": "lane-series 1.6.3"
+  },
+  "r6537": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-meets-functions",
+   "reason": "cubic-in-x curve with exactly two real roots - the 1.7 homes of record stand",
+   "priorAlignmentOfRecord": "lane-differentiation 1.7.2/1.7.4"
+  },
+  "r6102": {
+   "outcome": "rejected_of_record",
+   "station": "counting-and-binomials",
+   "reason": "binomial coefficient identities - the 1.6.1 home of record stands",
+   "priorAlignmentOfRecord": "lane-series 1.6.1"
+  },
+  "discriminating": {
+   "outcome": "rejected_of_record",
+   "station": "quadratics",
+   "reason": "discriminant card sort - the 1.1.2 home of record stands",
+   "priorAlignmentOfRecord": "lane-quadratics 1.1.2"
+  },
+  "r7077": {
+   "outcome": "rejected_of_record",
+   "station": "thinking-about-algebra",
+   "reason": "surd bounds and y=ax^n - the 3.2.3 home of record stands",
+   "priorAlignmentOfRecord": "lane-10 3.2.3"
+  },
+  "r6820": {
+   "outcome": "rejected_of_record",
+   "station": "calculus-of-powers",
+   "reason": "pyramid face area minimisation - the 1.7 homes of record stand; the 'exact' trigger is incidental",
+   "priorAlignmentOfRecord": "lane-differentiation 1.7.2/1.7.4"
+  }
+ },
+ "ugmStations": {}
+}
