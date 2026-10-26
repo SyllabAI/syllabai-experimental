@@ -1,0 +1,369 @@
+{
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.9 Complex numbers",
+  "specPoints": [
+   "3.9.1",
+   "3.9.2",
+   "3.9.3",
+   "3.9.4",
+   "3.9.5",
+   "3.9.6",
+   "3.9.7",
+   "3.9.8"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json — the eight rows 3.9.1-3.9.8 are the spine rows of record verbatim (SUB3.9 'Complex numbers', order 9; spec-point orders 36-43) — parse artifacts carried verbatim (3.9.1 carries the interleaved second-column fragment 'The argument of a complex number will usually refer to an angle'; 3.9.5 carries the dropped math runs in the polar-form statement); no fold fragments; no exclusion rows in this subtopic"
+ },
+ "pilot": "P3c generalisation lane 17 — CIE 9709 Pure 3 subtopic 3.9 Complex numbers (operator order: 'eyeball+merge on #391 → the pure-3 hub serve spans 8 lanes → lane 17', trace 1a177fc5081804bd; the lane-16 closure of record named '3.9 Complex numbers is the natural lane 17 per the spine's remaining SUB3.9 row, with lane 16's corpus-boundary caution applying') — the NINTH and FINAL spine subtopic on the pure-3 course plane: the corpus-boundary lane of record, the mirror of lane 16 taken to its honest end. ZERO aligned rows (the FIRST ZERO-ALIGNED lane of record), ZERO fresh bodies, ZERO cross-lane joins: the site's two complex-numbers stations are post-freeze AcademicReview shells with ZERO public resources (verified live with controls), so no complex-number substrate was ever published; the captured corpus touches 3.9 in exactly six solution/teacher-facing registers, none of which exercises a 3.9 skill (no coverage manufactured — rule 3).",
+ "generatedAt": "2026-10-26",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts (the lane-12 convention; no mode-[4] exemplar flags are asserted by this lane)",
+ "perSpecPoint": {
+  "3.9.1": {
+   "officialCode": "3.9.1",
+   "officialText": "understand the idea of a complex number, recall the meaning of the terms real part, imaginary The argument of a complex number will usually part, modulus, argument, conjugate, and use the refer to an angle fact that two complex numbers are equal if and only if both real and imaginary parts are equal",
+   "spineTitleVerbatim": "understand the idea of a complex number, recall the meaning of the terms real part, imaginary The argument of a complex number will usually part, modulus, argument, conjugate, and use the refer to an angle fact that two complex numbers are equal if and only if both real and imaginary parts are equal",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.9.2": {
+   "officialCode": "3.9.2",
+   "officialText": "carry out operations of addition, subtraction, multiplication and division of two complex numbers expressed in Cartesian form x + i y",
+   "spineTitleVerbatim": "carry out operations of addition, subtraction, multiplication and division of two complex numbers expressed in Cartesian form x + i y",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.9.3": {
+   "officialCode": "3.9.3",
+   "officialText": "use the result that, for a polynomial equation with real coefficients, any non-real roots occur in conjugate pairs",
+   "spineTitleVerbatim": "use the result that, for a polynomial equation with real coefficients, any non-real roots occur in conjugate pairs",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.9.4": {
+   "officialCode": "3.9.4",
+   "officialText": "represent complex numbers geometrically by means of an Argand diagram",
+   "spineTitleVerbatim": "represent complex numbers geometrically by means of an Argand diagram",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.9.5": {
+   "officialCode": "3.9.5",
+   "officialText": "carry out operations of multiplication and division of two complex numbers expressed in i i polar form r ^ cos i + i sin i h / r e",
+   "spineTitleVerbatim": "carry out operations of multiplication and division of two complex numbers expressed in i i polar form r ^ cos i + i sin i h / r e",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.9.6": {
+   "officialCode": "3.9.6",
+   "officialText": "find the two square roots of a complex number",
+   "spineTitleVerbatim": "find the two square roots of a complex number",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.9.7": {
+   "officialCode": "3.9.7",
+   "officialText": "understand in simple terms the geometrical effects of conjugating a complex number and of adding, subtracting, multiplying and dividing two complex numbers",
+   "spineTitleVerbatim": "understand in simple terms the geometrical effects of conjugating a complex number and of adding, subtracting, multiplying and dividing two complex numbers",
+   "primaryPick": null,
+   "resources": []
+  },
+  "3.9.8": {
+   "officialCode": "3.9.8",
+   "officialText": "illustrate simple equations and inequalities involving complex numbers by means of loci in an Argand diagram",
+   "spineTitleVerbatim": "illustrate simple equations and inequalities involving complex numbers by means of loci in an Argand diagram",
+   "primaryPick": null,
+   "resources": []
+  }
+ },
+ "crossLaneAligned": [],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "absurder",
+   "station": "polynomials",
+   "title": "Ab-surder!",
+   "url": "https://undergroundmathematics.org/polynomials/absurder",
+   "resourceType": "Impactful experience",
+   "routedTo": "P3 3.9 companion disclosure (the conjugate-pair factorisation of a^2+b^2 appears as a solution aside, derived from i^2=-1)",
+   "reason": "The cube-root rationalisation task's Approach-2 aside asks 'What about a²+b²?' and derives a²+b²=(a+ib)(a−ib) from i²=−1 — the conjugate-pair factorisation of a real polynomial displayed in a single embodiment — but the tested skill is surd rationalisation and the aside is never invoked by the question; the lane-9 non-overlap row of record stands (its reason already discloses this aside).",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "absurder": {
+   "station": "polynomials",
+   "outcome": "non_overlap",
+   "routedTo": "P3 3.9 companion disclosure (the conjugate-pair factorisation of a^2+b^2 appears as a solution aside, derived from i^2=-1)",
+   "reason": "The cube-root rationalisation task's Approach-2 aside asks 'What about a²+b²?' and derives a²+b²=(a+ib)(a−ib) from i²=−1 — the conjugate-pair factorisation of a real polynomial displayed in a single embodiment — but the tested skill is surd rationalisation and the aside is never invoked by the question; the lane-9 non-overlap row of record stands (its reason already discloses this aside)."
+  },
+  "curvy-cubics": {
+   "station": "calculus-meets-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.7.2/1.7.4 home of record stands; 'g'(x)=0 has no real solutions' is the curve-sketching discriminant register."
+  },
+  "discriminating": {
+   "station": "quadratics",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.1.2 home of record stands (the discriminant card sort); the corpus's only bridge toward 3.9 is the teacher-support 'Opportunities for learning' line 'Link to complex numbers — What happens if the discriminant is negative?' — a teacher-facing question, never content: the link is named and not crossed (register disclosed)."
+  },
+  "discriminating-teacher-support": {
+   "station": "quadratics",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Teacher-support sibling of discriminating (merged under its body of record); the 'Link to complex numbers' opportunities line is the same register — disclosed, not asserted."
+  },
+  "domain-and-range-dominoes": {
+   "station": "combining-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.2.1/1.2.2 home of record stands; the warm-up's definitional aside 'We refer to real numbers as opposed to imaginary or complex numbers. You may learn about those elsewhere.' is the corpus's explicit elsewhere-deferral of the whole 3.9 domain — vocabulary only, no 3.9 skill exercised."
+  },
+  "elliptical-crossings": {
+   "station": "circles",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-3 non-overlap row stands; 'conjugate diameters' is ellipse geometry — no complex conjugation."
+  },
+  "inequalities-for-some-occasions": {
+   "station": "quadratics",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.1.3 home of record stands; the Δ=−7 register."
+  },
+  "lots-of-vector-lines": {
+   "station": "vector-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.7.4/3.7.5 fresh home of record stands; 'Cartesian form' is the vector-line equation register, not complex Cartesian form."
+  },
+  "nested-surds": {
+   "station": "thinking-about-algebra",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-9 non-overlap row stands; the √(−b) step is the surd-law register."
+  },
+  "r5089": {
+   "station": "combining-vectors",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-15 3.7 companion disclosure stands; z is a plane-equation coordinate."
+  },
+  "r5156": {
+   "station": "exp-and-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-10 non-overlap row stands; the 'no real solutions' MCQ register."
+  },
+  "r5723": {
+   "station": "trigonometry-compound-angles",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.3.2 join home of record stands; x,y,z are angle variables."
+  },
+  "r5848": {
+   "station": "counting-and-binomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-6 non-overlap row stands; y,z are Venn-diagram variables."
+  },
+  "r5927": {
+   "station": "thinking-about-numbers",
+   "outcome": "rejected",
+   "routedTo": null,
+   "reason": "The complex route is NAMED but never executed ('An alternative method here is to factorise n⁴+4 using complex numbers…' — full stop, in the n⁴+4 further-challenge aside); the executed factorisation is the real difference-of-squares (n^2±2n+2). Named-but-absent is not disclosed content; no 3.9 row."
+  },
+  "r6155": {
+   "station": "thinking-about-algebra",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-15 closure stands; z is a linear variable."
+  },
+  "r6246": {
+   "station": "quadratics",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.1.3 home of record stands; the 'no real roots' condition register."
+  },
+  "r6806": {
+   "station": "exp-and-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.2.1 home of record stands; y,z are real variables."
+  },
+  "r6816": {
+   "station": "quadratics",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.1.5 home of record stands; z=a^{3x} is a real substitution."
+  },
+  "r6871": {
+   "station": "polynomials",
+   "outcome": "rejected",
+   "routedTo": null,
+   "reason": "z is a real substitution variable in an algebraic system; no 3.9 content."
+  },
+  "r7017": {
+   "station": "polynomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-12 non-overlap row stands; real-root existence by sign/IVT."
+  },
+  "r7243": {
+   "station": "polynomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.1.4 alignment of record stands (the factor theorem at x²=−1 answers the divisibility question); the complex route is an explicitly optional aside ('If we know about complex numbers, we can say the solution to x²+1=0 is x=i, -i') that substitutes the two roots and never invokes the 3.9.3 conjugate-pair result — register disclosed, no 3.9 row asserted."
+  },
+  "r7354": {
+   "station": "thinking-about-algebra",
+   "outcome": "rejected",
+   "routedTo": null,
+   "reason": "x,y,z are positive reals in the AM-GM proof; no 3.9 content."
+  },
+  "r7606": {
+   "station": "exp-and-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.2.3 home of record stands; the 'no real solutions' option is real-root counting."
+  },
+  "r7845": {
+   "station": "exp-and-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.2.3 home of record stands; x,y,z are log variables."
+  },
+  "r8013": {
+   "station": "exp-and-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.6.1 fresh home of record stands; the 'no real roots' k-range is the graphical register."
+  },
+  "r8279": {
+   "station": "counting-and-binomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-6 non-overlap row stands; X/Y/Z are logic-puzzle labels."
+  },
+  "r8543": {
+   "station": "calculus-of-powers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.7.2/1.7.3 home of record stands (lane-16 closure re-recorded); '(x−2)²=−2 has no real solutions' is the stationary-point register."
+  },
+  "r8836": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-13 beyond-spec (mechanics) row stands; z is a cylinder coordinate."
+  },
+  "r9006": {
+   "station": "polynomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.1.4 home of record stands; the cubic factorises completely over the reals (repeated root) — no non-real roots are ever discussed."
+  },
+  "r9108": {
+   "station": "polynomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-12 non-overlap row stands; the Δ<0 step is the monotonicity register — the x^2+1 factor's ±i roots are never mentioned."
+  },
+  "r9160": {
+   "station": "thinking-about-algebra",
+   "outcome": "rejected",
+   "routedTo": null,
+   "reason": "z is a power-fact variable; no 3.9 content."
+  },
+  "r9330": {
+   "station": "polynomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.1.4 home of record stands; the negative-discriminant argument stays in the reals — the quartic's implied conjugate pair is never stated (register disclosed)."
+  },
+  "r9551": {
+   "station": "circles",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.3.2 home of record stands; z²+bz+c=0 is a real quadratic whose Vieta roots s,t feed a circle-geometry argument."
+  },
+  "r9658": {
+   "station": "quadratics",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.1.2/1.1.4 home of record stands."
+  },
+  "r9671": {
+   "station": "calculus-meets-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.7.2/1.7.4 home of record stands; z is a defined real variable (z=x+y)."
+  },
+  "r9754": {
+   "station": "polynomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-14 closure stands; the complete-the-square inequality register (RHS = -1-(x-1)^2)."
+  },
+  "r9817": {
+   "station": "trigonometry-triangles-to-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.5.4 home of record stands; 's⁴=−3 has no real solutions' is the sin^2 register."
+  },
+  "r9884": {
+   "station": "counting-and-binomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-6 non-overlap row stands; the i^2 hit is the Σi² summation index."
+  },
+  "r9898": {
+   "station": "product-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 3.4.2 home of record stands; z is a quotient-rule substitution."
+  },
+  "r9924": {
+   "station": "combining-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.5.4 join home of record stands; '(2^(sin²x)−1)²=−1 has no real solutions' is the range-bounding register."
+  },
+  "straight-line-pairs": {
+   "station": "geometry-of-equations",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The 1.3.1/1.3.2 home of record stands; the 2m²−m+1=0 no-real-solutions step is given a physical interpretation (parallel-lines impossibility), never a complex one."
+  },
+  "two-way-algebra": {
+   "station": "thinking-about-algebra",
+   "outcome": "rejected",
+   "routedTo": null,
+   "reason": "The solution's notation note 'If you gave an answer such as x=√(−4) for an equation that has no real solutions…' is the corpus's only √(negative) shorthand — the square root of a negative is offered as a way to WRITE 'no real solutions', never as an imaginary number; the x^2+4=0 card stays in the no-real-solutions register (register disclosed)."
+  },
+  "worth-1000-words": {
+   "station": "thinking-about-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-15 closure stands; the 'no real solutions' k-range register."
+  }
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 43,
+  "substrateResources": 0,
+  "ugmResourcesConsidered": 43,
+  "aligned": 0,
+  "alignedSubstrate": 0,
+  "nonOverlap": 1,
+  "crossLaneAligned": 0,
+  "rejectedOfRecord": 42,
+  "alignedShare": 0.0
+ },
+ "ugmStations": {}
+}
