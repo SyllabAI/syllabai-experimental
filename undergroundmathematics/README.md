@@ -307,7 +307,12 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
 - Served of record: #149 reviewed ALL GREEN and merged at `b151f65a`; `T-UGM-HUB-CONSUME-15` = syllabai-v2#383 merged at `25615d68` (7 lanes / 149 bodies / 31 spec points / both honest gaps — 3.5.4 + 3.7.7 designed; the r8456 promotion supersede; picks all-fresh); corpus pin `main@b151f65a`; next 3.8 (then 3.9)
-  further lanes by operator ordering (lanes 9–15 opened the pure-3
-  plane — 3.8 is the natural lane 16 per the spine's remaining
-  SUB3.8–SUB3.9 rows) — recipe of record in `docs/INTEGRATION-PLAN.md`
+- **lane 16 the differential-equations substrate → CIE 9709 Pure 3 3.8 Differential equations** — the EIGHTH lane on the pure-3 course plane and the ZERO-FRESH-BODY lane of record (the mirror of lane 15; operator: "lane 16"): cross-map `cross-map-p3-differential-equations.json` @ `b3700b80`, 53 candidates of record closed exactly — 2 aligned rows BOTH cross-lane joins riding of-record pure-1 bodies (r6959 → 1.7.3 pure-1-differentiation; r7410 → 1.8.2 pure-1-integration; the lane-6 law) + 4 companion non-overlaps (picture-the-process-i/ii modelling-recognition; weight-pulling + from-parabolas-to-catenaries beyond-spec separable-DE machinery) + 47 rejections with reasons; the CORPUS-BOUNDARY DISCLOSURE: the site's own differential-equations station is EMPTY (0 resources, verified live; one of the four never-captured stations), raw-parity 855/855 fail-closed; enrichment filed as [`syllabai-resources#155`](https://github.com/SyllabAI/syllabai-resources/pull/155) (tasks `T-UGM-MODE1-16` + `T-UGM-IMPORT-16`, MANIFEST v16 → v17 — 628 files unchanged, zero body files; audits 36/36 ALL GREEN; NOT self-merged). Mode-2 deep-link pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
+  kit retained in `pilot/` as record); Mode-3 licensing remains
+  operator-gated (its evidence source is now the S1 census).
+  further lanes by operator ordering (lanes 9–16 opened the pure-3
+  plane — 3.9 Complex numbers is the natural lane 17 per the spine's
+  remaining SUB3.9 row, with lane 16's corpus-boundary caution applying
+  in advance: the site's complex-numbers stations are among the
+  never-captured four) — recipe of record in `docs/INTEGRATION-PLAN.md`
   P7; S1-bridge census run still pending.

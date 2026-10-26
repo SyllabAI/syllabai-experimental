@@ -548,12 +548,50 @@ worth doing regardless of any Mode-3 outcome.
       DEFAULT_REF → main@b151f65a, the 21-station sweep-closure lane block, bundle 7 lanes / 149 bodies /
       31 spec points / 94 byref / both honest gaps) and **merged at `25615d68`** (CI hub+verify success,
       regression law 54/54, post-merge pipeline 7/7) — the pure-3 hub serve spans 7 lanes
+- [x] **sixteenth lane — CIE 9709 **Pure 3** 3.8 Differential equations (operator:
+      "lane 16"; the EIGHTH lane on the pure-3 course plane, named of record by the
+      lane-15 closure "next 3.8 (then 3.9)")** — the ZERO-FRESH-BODY lane of record,
+      the exact mirror of lane 15: cross-map of record `cross-map-p3-differential-equations.json`
+      @ `b3700b80` (53 candidates of record closed exactly via five sweep angles — title/desc
+      regex, full-text regex, formulation signatures, the type-10 review-question rate scan
+      that found EXACTLY ONE rate-bearing RQ of 569 (r6959), and manual dossier reads; zero
+      "3.8" mentions across all 15 prior enrichments = no pre-baked bearings): **2 aligned
+      rows, BOTH cross-lane joins riding of-record pure-1 bodies** (r6959 rides its
+      pure-1-differentiation 1.7.3 body — part (i) formulates `dA/dt = 5` from the rate
+      statement, integrates with `A(0) = 0`, interprets the radius and `dr/dt` via the chain
+      rule, 3.8.1–3.8.4; r7410 rides its pure-1-integration 1.8.2 body — part (ii) writes
+      `dy/dx = c/x²` from the proportionality statement, integrates to the general form,
+      evaluates the constant from `y(2) = 1`, 3.8.1–3.8.3; the lane-6 one-to-many law,
+      r7553/r9527 precedent — the ugm_id-collision audit forbids fresh duplicates and none
+      were manufactured) + 4 non-overlap companion disclosures (the modelling-recognition
+      class picture-the-process-i/ii — Newton cooling narrated / decay-logistic-damped
+      equations matched, never formulated; the beyond-spec separable-DE class weight-pulling
+      + from-parabolas-to-catenaries — genuine separable skeletons, cosec/arcosh/cosh
+      execution outside the 9709 function set) + 47 rejected with reasons; **THE
+      CORPUS-BOUNDARY DISCLOSURE: the site's own differential-equations station is EMPTY**
+      (0 resources, id 11, created 2015-11-04, never populated — verified live with a
+      populated-station control; one of the four never-captured stations) and the raw-parity
+      audit (855/855 main pages = clean wells) closes the boundary fail-closed — the DE
+      exam-register substrate does not exist in the 855-resource corpus beyond the two
+      part-question embodiments; psp rows 0 = 0/0/0/0 (fresh-only counting; coverage rides
+      the joins); picks r6959 (3.8.1, 3.8.4) / r7410 (3.8.2, 3.8.3) — both riding joins, the
+      r6018-style disclosure lane-wide; corpus + facts filed as
+      **[syllabai-resources#155](https://github.com/SyllabAI/syllabai-resources/pull/155)**
+      (tasks `T-UGM-MODE1-16` + `T-UGM-IMPORT-16`, MANIFEST v16 → v17 — file_count 628 → 628,
+      ZERO new body files; branch cut at the then-tip `3cd29bcc`, zero UGM drift vs
+      `8b5a64f1`; audits fail-closed ALL GREEN 36 checks; NOT self-merged per the lane
+      rhythm); hub consumption `T-UGM-HUB-CONSUME-16` awaits the operator merge — the
+      importer note: LANE_STATIONS gains the pure-3-differential-equations block with the
+      join-aware expected census (0 fresh / 2 byref) and DEFAULT_REF advances past the #155
+      merge
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
-      lanes 9–15 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
+      lanes 9–16 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
       and exponential functions, 3.3 Trigonometry, 3.4 Differentiation,
-      3.5 Integration, 3.6 Numerical solution of equations and 3.7 Vectors;
-      the recorded next substrate is 3.8 (then 3.9) per the spine's remaining
-      SUB3.8–SUB3.9 rows of record; ordering is the
+      3.5 Integration, 3.6 Numerical solution of equations, 3.7 Vectors and
+      3.8 Differential equations; the recorded next substrate is 3.9 Complex
+      numbers per the spine's remaining SUB3.9 row of record — with the same
+      corpus-boundary caution lane 16 carried: the site's complex-numbers
+      stations are among the never-captured four; ordering is the
       operator's call)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
