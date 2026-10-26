@@ -609,6 +609,18 @@ worth doing regardless of any Mode-3 outcome.
       corpus-boundary caution lane 16 carried: the site's complex-numbers
       stations are among the never-captured four; ordering is the
       operator's call)
+- [x] lane 17 (P3c): **CIE 9709 Pure 3 3.9 Complex numbers** — the NINTH and FINAL spine
+      subtopic on the pure-3 course plane; the corpus-boundary lane of record (operator:
+      "eyeball+merge on #391 → the pure-3 hub serve spans 8 lanes → lane 17"). Boundary
+      verified total: both complex stations + matrices are 0-public AcademicReview shells
+      (live-verified with controls) — nothing to crawl, the 855/25 corpus of record is final.
+      43 candidates → **0 aligned (first zero-aligned lane), 0 fresh bodies, 0 joins**, 1
+      companion disclosure (absurder) + 42 rejections carrying the six registers of record.
+      Filed as syllabai-resources PR (MANIFEST v18, 628 unchanged). Cross-map
+      `cross-map-p3-complex-numbers.json` @ `2d6c5d6a`; spine export +3.9.1-3.9.8 (43 rows,
+      pure-3 spine COMPLETE). T-UGM-HUB-CONSUME-17 awaits operator order; after the pure-3
+      plane closes, further UGM lanes would need a new course plane (operator's call — the
+      igcse-extended spine export exists of record)
       lane-by-lane on operator ack — recipe of record:
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station and strand

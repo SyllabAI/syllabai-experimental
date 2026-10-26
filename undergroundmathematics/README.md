@@ -314,9 +314,26 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   self-merged). Mode-2 deep-link pilot remains **dropped by operator directive 2026-10-22** (ADR amended;
   kit retained in `pilot/` as record); Mode-3 licensing remains
   operator-gated (its evidence source is now the S1 census).
-  further lanes by operator ordering (lanes 9–16 opened the pure-3
-  plane — 3.9 Complex numbers is the natural lane 17 per the spine's
-  remaining SUB3.9 row, with lane 16's corpus-boundary caution applying
-  in advance: the site's complex-numbers stations are among the
-  never-captured four) — recipe of record in `docs/INTEGRATION-PLAN.md`
-  P7; S1-bridge census run still pending.
+  further lanes by operator ordering (lanes 9–17 opened and CLOSED the pure-3
+  plane — 3.9 Complex numbers landed as lane 17, the corpus-boundary lane of
+  record; the pure-3 spine 3.1–3.9 is complete of record) — recipe of record
+  in `docs/INTEGRATION-PLAN.md` P7; S1-bridge census run still pending.
+
+- **lane 17 the complex-numbers boundary → CIE 9709 Pure 3 3.9 Complex numbers** — the NINTH and
+  FINAL spine subtopic on the pure-3 course plane and the CORPUS-BOUNDARY LANE OF RECORD (the
+  lane-16 caution applied and hardened; operator: "eyeball+merge on #391 → the pure-3 hub serve
+  spans 8 lanes → lane 17"): both complex-numbers stations (complex-numbers-faces id 8 +
+  complex-numbers-plane id 9) verified live as 0-public AcademicReview shells (~7 KB pages, zero
+  resource links) and matrices-linear-transformations (id 17) likewise 0 — all four never-captured
+  stations are empty shells, nothing to crawl, the 855/25 corpus of record is final. 43 candidates
+  closed exactly — **0 aligned (the FIRST ZERO-ALIGNED lane of record), 0 fresh bodies, 0 cross-lane
+  joins**, 1 companion disclosure (absurder's a²+b²=(a+ib)(a−ib) conjugate-pair aside) + 42
+  rejections carrying the six registers of record (the conjugate-pair aside; the optional ±i
+  substitution in r7243; the teacher-facing discriminant link in discriminating; the √−4 shorthand
+  in two-way-algebra; the elsewhere-deferral in domain-and-range-dominoes; the named-never-executed
+  method in r5927); all eight spec points 3.9.1-3.9.8 honest-empty, no picks. Cross-map
+  `cross-map-p3-complex-numbers.json` @ `2d6c5d6a`; filed as syllabai-resources PR (branch
+  p3c-lane17, tasks `T-UGM-MODE1-17` + `T-UGM-IMPORT-17`, MANIFEST v17 → v18 — 628 files unchanged,
+  zero body files; NOT self-merged). The pure-3 spine 3.1-3.9 is COMPLETE of record; next:
+  T-UGM-HUB-CONSUME-17 (9 lanes, closes the plane) awaits operator order; further UGM lanes need a
+  new course plane (operator's call)
