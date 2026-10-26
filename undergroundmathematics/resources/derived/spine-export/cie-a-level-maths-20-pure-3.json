@@ -161,6 +161,26 @@
    "code": "3.7.7",
    "subtopic": "Vectors",
    "title": "Knowledge of the vector product is not required."
+  },
+  {
+   "code": "3.8.1",
+   "subtopic": "Differential equations",
+   "title": "formulate a simple statement involving a rate of change as a differential equation"
+  },
+  {
+   "code": "3.8.2",
+   "subtopic": "Differential equations",
+   "title": "find by integration a general form of solution for a first order differential equation in which the variables are separable"
+  },
+  {
+   "code": "3.8.3",
+   "subtopic": "Differential equations",
+   "title": "use an initial condition to find a particular solution"
+  },
+  {
+   "code": "3.8.4",
+   "subtopic": "Differential equations",
+   "title": "interpret the solution of a differential equation in the context of a problem being modelled by the equation."
   }
  ],
  "itemInventory": {}

@@ -580,10 +580,26 @@ worth doing regardless of any Mode-3 outcome.
       (tasks `T-UGM-MODE1-16` + `T-UGM-IMPORT-16`, MANIFEST v16 → v17 — file_count 628 → 628,
       ZERO new body files; branch cut at the then-tip `3cd29bcc`, zero UGM drift vs
       `8b5a64f1`; audits fail-closed ALL GREEN 36 checks; NOT self-merged per the lane
-      rhythm); hub consumption `T-UGM-HUB-CONSUME-16` awaits the operator merge — the
-      importer note: LANE_STATIONS gains the pure-3-differential-equations block with the
-      join-aware expected census (0 fresh / 2 byref) and DEFAULT_REF advances past the #155
-      merge
+      rhythm); #155 **MERGED of record at `51630517`** (eyeballed ALL GREEN — CI sync
+      success, mergeable=True, blob identity remote≡local ×5, closure exact 53 = 2+4+47;
+      no r0-auto interception) and the **T-UGM-MODE1-16 amendment r0** filed as
+      **[syllabai-resources#157](https://github.com/SyllabAI/syllabai-resources/pull/157)**
+      (the #92/#99 amendment precedent — SHAPE-ONLY, zero census change: the enrichment
+      re-shaped to the lane-9 cross-course join law, psp rows carrying the join claims +
+      crossLaneAligned rows typed per the lane-14 law + stationScope titled; merged at
+      `c8b80c6a`, the wedged sync advisory covered by the #137-#140/#145 precedent);
+      hub consumption **filed as
+      [syllabai-v2#391](https://github.com/SyllabAI/syllabai-v2/pull/391)** (head `9d78b7d1`:
+      the ZERO-FRESH importer law — a MANIFEST v2 lane block with file_count 0 and no lane
+      dir is byref-only — + the lane-16 LANE_STATIONS block (the FULL 19-station sweep
+      closure; expected {resources 0, rows 7, aligned 2, nonOverlap 4}) + DEFAULT_REF →
+      main@c8b80c6a; bundle of record 8 lanes / 106 station rows / 35 spec points / 232
+      candidate rows / 149 bodies UNCHANGED / crossLaneJoined {63,0} / crossCourse {52
+      aligned, 31 flips, 28 one-to-many} / byref 97 — from-parabolas-to-catenaries correctly
+      superseded, SERVED by its lane-9 3.1.6 body; the 3.8.1–3.8.4 blocks carry
+      resourceCount 0 / ugmIds [] with the picks riding the reference rows (r6959/r7410 —
+      the r6018 law at its honest end); regression law 54/54 GREEN, 7,869 expects; CI
+      hub+verify success; NOT self-merged)
 - [ ] further lanes (the Pure 1 spine 1.1–1.8 is complete of record and
       lanes 9–16 opened the pure-3 plane at 3.1 Algebra, 3.2 Logarithmic
       and exponential functions, 3.3 Trigonometry, 3.4 Differentiation,
