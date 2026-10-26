@@ -1,0 +1,794 @@
+{
+ "targetLane": {
+  "course": "cie-a-level-maths-20-pure-3",
+  "subtopic": "3.8 Differential equations",
+  "specPoints": [
+   "3.8.1",
+   "3.8.2",
+   "3.8.3",
+   "3.8.4"
+  ],
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-a-level-maths-20-pure-3.json — the four rows 3.8.1-3.8.4 are the spine rows of record verbatim (SUB3.8 'Differential equations', orders 32-35) — clean text rows, no parse artifacts, no fold fragments; no exclusion rows in this subtopic"
+ },
+ "pilot": "P3c generalisation lane 16 — CIE 9709 Pure 3 subtopic 3.8 Differential equations (operator order: 'lane 16', trace 1a1774f478685021; lane-15 closure of record named 'next 3.8 (then 3.9)')",
+ "generatedAt": "2026-10-26",
+ "modeNote": "modesRecorded reflects the cross-map's mode flags of record: [1] facts (the lane-12 convention; no mode-[4] exemplar flags are asserted by the agent)",
+ "perSpecPoint": {
+  "3.8.1": {
+   "officialCode": "3.8.1",
+   "officialText": "formulate a simple statement involving a rate of change as a differential equation",
+   "spineTitleVerbatim": "formulate a simple statement involving a rate of change as a differential equation",
+   "primaryPick": "r6959",
+   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "join": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation"
+    },
+    {
+     "ugmSlug": "r7410",
+     "station": "product-rule",
+     "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+     "url": "https://undergroundmathematics.org/product-rule/r7410",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'It is given that dy/dx is inversely proportional to x^2' with 'y and dy/dx are each equal to 1 when x=2' — the student writes dy/dx = c/x^2 (the DE formulated from the proportionality statement, 3.8.1 verbatim — the suggestion scaffolds exactly this step: 'Can you write this mathematically? Can we now replace a with dy/dx'), determines c from dy/dx(2)=1, integrates to the general form y = -4/x + d (3.8.2), and evaluates d from y(2)=1 (the initial condition giving the particular solution, 3.8.3). JOIN: rides its of-record pure-1-integration body (the 1.8.2 constant-of-integration reading of record, cross-map lane 8); the 1.8.2 alignment stands and the part-(ii) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law).",
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3"
+     ],
+     "join": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+     "ofRecordLane": "pure-1-integration"
+    }
+   ]
+  },
+  "3.8.2": {
+   "officialCode": "3.8.2",
+   "officialText": "find by integration a general form of solution for a first order differential equation in which the variables are separable",
+   "spineTitleVerbatim": "find by integration a general form of solution for a first order differential equation in which the variables are separable",
+   "primaryPick": "r7410",
+   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "join": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation"
+    },
+    {
+     "ugmSlug": "r7410",
+     "station": "product-rule",
+     "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+     "url": "https://undergroundmathematics.org/product-rule/r7410",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'It is given that dy/dx is inversely proportional to x^2' with 'y and dy/dx are each equal to 1 when x=2' — the student writes dy/dx = c/x^2 (the DE formulated from the proportionality statement, 3.8.1 verbatim — the suggestion scaffolds exactly this step: 'Can you write this mathematically? Can we now replace a with dy/dx'), determines c from dy/dx(2)=1, integrates to the general form y = -4/x + d (3.8.2), and evaluates d from y(2)=1 (the initial condition giving the particular solution, 3.8.3). JOIN: rides its of-record pure-1-integration body (the 1.8.2 constant-of-integration reading of record, cross-map lane 8); the 1.8.2 alignment stands and the part-(ii) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law).",
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3"
+     ],
+     "join": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+     "ofRecordLane": "pure-1-integration"
+    }
+   ]
+  },
+  "3.8.3": {
+   "officialCode": "3.8.3",
+   "officialText": "use an initial condition to find a particular solution",
+   "spineTitleVerbatim": "use an initial condition to find a particular solution",
+   "primaryPick": "r7410",
+   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "join": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation"
+    },
+    {
+     "ugmSlug": "r7410",
+     "station": "product-rule",
+     "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+     "url": "https://undergroundmathematics.org/product-rule/r7410",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'It is given that dy/dx is inversely proportional to x^2' with 'y and dy/dx are each equal to 1 when x=2' — the student writes dy/dx = c/x^2 (the DE formulated from the proportionality statement, 3.8.1 verbatim — the suggestion scaffolds exactly this step: 'Can you write this mathematically? Can we now replace a with dy/dx'), determines c from dy/dx(2)=1, integrates to the general form y = -4/x + d (3.8.2), and evaluates d from y(2)=1 (the initial condition giving the particular solution, 3.8.3). JOIN: rides its of-record pure-1-integration body (the 1.8.2 constant-of-integration reading of record, cross-map lane 8); the 1.8.2 alignment stands and the part-(ii) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law).",
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3"
+     ],
+     "join": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+     "ofRecordLane": "pure-1-integration"
+    }
+   ]
+  },
+  "3.8.4": {
+   "officialCode": "3.8.4",
+   "officialText": "interpret the solution of a differential equation in the context of a problem being modelled by the equation.",
+   "spineTitleVerbatim": "interpret the solution of a differential equation in the context of a problem being modelled by the equation.",
+   "primaryPick": "r6959",
+   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "join": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation"
+    }
+   ]
+  }
+ },
+ "crossLaneAligned": [
+  {
+   "ugmSlug": "r6959",
+   "station": "calculus-of-powers",
+   "title": "Can we track this constantly growing patch of fluid?",
+   "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "the 1.7.3 alignment of record stands (pure-1-differentiation); the part-question DE pipeline is the 3.8 embodiment — one-to-many extension (the lane-6 r7553/r9527 law)",
+   "codes": [
+    "3.8.1",
+    "3.8.2",
+    "3.8.3",
+    "3.8.4"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+   "ofRecordLane": "pure-1-differentiation",
+   "examProvenance": "UCLES AO level Additional Mathematics 1, 1979, Q8"
+  },
+  {
+   "ugmSlug": "r7410",
+   "station": "product-rule",
+   "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+   "url": "https://undergroundmathematics.org/product-rule/r7410",
+   "resourceType": "Review question",
+   "confidence": "high",
+   "modesRecorded": [
+    1
+   ],
+   "note": "the 1.8.2 alignment of record stands (pure-1-integration); the part-question DE pipeline is the 3.8 embodiment — one-to-many extension (the lane-6 r7553/r9527 law)",
+   "codes": [
+    "3.8.1",
+    "3.8.2",
+    "3.8.3"
+   ],
+   "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+   "ofRecordLane": "pure-1-integration",
+   "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1969, Q4"
+  }
+ ],
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "picture-the-process-i",
+   "station": "thinking-about-functions",
+   "title": "Picture the process I",
+   "url": "https://undergroundmathematics.org/thinking-about-functions/picture-the-process-i",
+   "resourceType": "Impactful experience",
+   "routedTo": "P3 3.8 companion disclosure (the modelling-recognition register: Newton's cooling narrated, never formulated)",
+   "reason": "Eight real-world processes are sketched and matched to graphs, then to equations; the tea-cooling row states Newton's law of cooling in the SOLUTION ('the rate of cooling is proportional to the difference between the temperature of the object and the ambient temperature') and matches y = 20 + 80e^{-0.05x} — the DE is narrated and its solution is matched, but no student work formulates a DE, separates variables, or uses an initial condition. The register is representation-matching, not the 3.8 pipeline; disclosed by reference (the lane-14 iteration rejection stood for its own reasons).",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "picture-the-process-ii",
+   "station": "combining-functions",
+   "title": "Picture the process II",
+   "url": "https://undergroundmathematics.org/combining-functions/picture-the-process-ii",
+   "resourceType": "Impactful experience",
+   "routedTo": "P3 3.8 companion disclosure (exponential decay / logistic growth / damped oscillation matched, never derived)",
+   "reason": "Nine processes matched to graphs and equations: the drug-concentration row is exponential decay (y = 500 x 2^{-0.6667x}), the food-limited bacteria row is a LOGISTIC curve (y = 1000000/(10 + (100000-10)2^{-4x})), the pendulum row is damped oscillation — the DE-model family 3.8 serves, present only as equations to be matched and explained ('Can you explain the numbers in these equations?'), never formulated or solved. The logistic and damped-oscillation objects are beyond the spec's first-order separable register in any case; disclosed by reference.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "weight-pulling",
+   "station": "hyperbolic-functions",
+   "title": "Weight pulling",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/weight-pulling",
+   "resourceType": "Impactful experience",
+   "routedTo": "P3 3.8 companion disclosure (a separable DE solved with machinery beyond the spec)",
+   "reason": "Approach 1 formulates the tractrix DE dy/dx = -y/sqrt(a^2-y^2) from the string geometry and separates the variables ('This is a separable differential equation, so we get integral(sqrt(a^2-y^2)/y) dy = -x+c') with an initial condition (x=0, y=a) — the 3.8.1-3.8.3 pipeline verbatim — but the evaluation requires the substitution y = a sin(theta) and the cosecant integral, both beyond the 9709 function set, and Approach 2 leans on cosh/arcosh catenary machinery; the resource's centre of gravity is the tractrix/catenary geometry. The genuine separable-DE skeleton is disclosed by reference (the prior log/exp and trig non-overlap rows stand).",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  },
+  {
+   "ugmSlug": "from-parabolas-to-catenaries",
+   "station": "hyperbolic-functions",
+   "title": "From parabolas to catenaries",
+   "url": "https://undergroundmathematics.org/hyperbolic-functions/from-parabolas-to-catenaries",
+   "resourceType": "Fluency exercise",
+   "routedTo": "P3 3.8 companion disclosure (the arc-length DE f'(x)=s solved by cosh)",
+   "reason": "The task derives tan(psi) = (w/T0)s from rope statics, states the DE f'(x) = s (arc length as the derivative — a first-order DE formulated from a rate-of-change statement, 3.8.1-shaped), and attacks it iteratively (power-series approximations) and directly ('Can you solve the equation f'(x) = s/a, where f(0)=a?' — an initial condition, 3.8.3-shaped) — but the direct solution is the catenary y = a cosh(x/a), outside the 9709 function set entirely; the of-record 3.1.6 alignment (hyperbolic identity work, lane 9) stands and the DE solving is beyond the spec's function register; disclosed by reference.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false,
+   "textOfRecordUnder": null
+  }
+ ],
+ "sweepRouting": {
+  "keep-your-distance": {
+   "station": "calculus-meets-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-12 non-overlap stands: traffic-flow MODELLING by quotient rates (flow = vehicles per unit time over stopping distances) — algebraic/rational modelling, no differential equation formulated or solved."
+  },
+  "slippery-slopes": {
+   "station": "calculus-meets-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 1.7.3 alignment (pure-1-differentiation, lane 7): gradient reasoning under function transformations of record; lane-12/15 rejections stand."
+  },
+  "thinking-constantly": {
+   "station": "calculus-meets-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 1.8.2 alignment (pure-1-integration, lane 4): the warm-up and main problem integrate a(t) to v(t) to s(t) and evaluate the constants c and d from initial conditions — 'solve problems involving the evaluation of a constant of integration' is 1.8.2's own official territory, and the acceleration arrives as a GIVEN function, not as a rate-of-change statement to formulate; no 3.8 embodiment asserted."
+  },
+  "two-way-calculus": {
+   "station": "calculus-meets-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Stationarity example-generation table (increasing/decreasing, stationary points) — the 3.4/1.7 register; integration appears only as the reverse-direction heading; no DE work."
+  },
+  "r5703": {
+   "station": "calculus-of-powers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Lane-12 rejection stands: tangent/normal geometry; 'proportional to' incidental."
+  },
+  "r6959": {
+   "station": "calculus-of-powers",
+   "outcome": "aligned_join",
+   "routedTo": "P3 3.8 aligned row (cross-lane join)",
+   "reason": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent)."
+  },
+  "r8231": {
+   "station": "calculus-of-powers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.6.1/3.6.3 alignments (pure-3-iteration, lane 14) and the 1.7.3 pure-1 reading: Newton-method iteration of record; 'initially' is initial-guess language."
+  },
+  "r8543": {
+   "station": "calculus-of-powers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 1.7.2/1.7.3 alignments (pure-1-differentiation, lane 7): curve-touching differentiation of record."
+  },
+  "r8716": {
+   "station": "calculus-of-powers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 1.8.1 alignment (pure-1-integration, lane 8, FTC evaluation) with the P1 non-overlap row standing: 'rate at which the area changes' is the integrand-sign argument; no DE formulated or solved."
+  },
+  "r9260": {
+   "station": "calculus-of-powers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Lane-12 rejection stands: 'proportional to' is volume-proportion reasoning in an optimisation question; no DE."
+  },
+  "r9942": {
+   "station": "calculus-of-powers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Lane-12 rejection stands: small-increment/linear-approximation reading of dy/dx; no DE formulated or solved."
+  },
+  "inverse-integrals-teacher-support": {
+   "station": "calculus-trig-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-13 non-overlap stands: teacher-support notes with no extractable student well."
+  },
+  "r6622": {
+   "station": "calculus-trig-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Integral-equality MCQ closed by odd-function symmetry and area matching — the t=0 hit is an integral LIMIT, not a time variable; no DE work (the integral itself is declared unevaluable in the solution)."
+  },
+  "r8071": {
+   "station": "calculus-trig-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.1 alignment: velocity/acceleration differentiation of record."
+  },
+  "rotating-derivatives": {
+   "station": "calculus-trig-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.1 alignment: derivative-pattern rotation cards; 'rate of change' is the derivative concept itself."
+  },
+  "parametric-points": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.3 alignment: parametric curve/stationary-point work of record."
+  },
+  "parametric-preliminaries": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-12 non-overlap stands: parametric equations introduced via locus geometry — pre-3.4.3 register."
+  },
+  "r5053": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.3 alignment: parabola normals via parametric gradients of record."
+  },
+  "r5237": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Prior of-record treatment stands: ellipse-normal locus work via dy/dx, not DE formulation."
+  },
+  "r5696": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.3 alignment: normals meeting the x-axis via parametric gradients of record."
+  },
+  "r7042": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Prior of-record treatment stands: dy/dx curve-geometry work (orthogonal curves), not a DE formulated from a rate statement."
+  },
+  "r8620": {
+   "station": "chain-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.3 alignment: parametric normal work of record; dy/dt appears only as the parametric gradient."
+  },
+  "picture-the-process-ii": {
+   "station": "combining-functions",
+   "outcome": "non_overlap",
+   "routedTo": "P3 3.8 companion disclosure (exponential decay / logistic growth / damped oscillation matched, never derived)",
+   "reason": "Nine processes matched to graphs and equations: the drug-concentration row is exponential decay (y = 500 x 2^{-0.6667x}), the food-limited bacteria row is a LOGISTIC curve (y = 1000000/(10 + (100000-10)2^{-4x})), the pendulum row is damped oscillation — the DE-model family 3.8 serves, present only as equations to be matched and explained ('Can you explain the numbers in these equations?'), never formulated or solved. The logistic and damped-oscillation objects are beyond the spec's first-order separable register in any case; disclosed by reference."
+  },
+  "r7397": {
+   "station": "counting-and-binomials",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The pure-1-series non-overlap row stands: grid-tour parity arguments; 'initially' incidental."
+  },
+  "r7943": {
+   "station": "divisibility-and-induction",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Fresh, rejected: sequence-generation enumeration; 'initially' is state language, no calculus."
+  },
+  "how-fast-does-it-grow": {
+   "station": "exp-and-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "2^x vs x^2 growth comparison — exponential-function fluency (3.2's own territory, served by lane 10 of record); growth-RATE language without any differential equation."
+  },
+  "reach-for-the-stars": {
+   "station": "exp-and-log",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Log-scale estimation on y = 2^x — logarithm fluency of record under 3.2; no DE."
+  },
+  "from-parabolas-to-catenaries": {
+   "station": "hyperbolic-functions",
+   "outcome": "non_overlap",
+   "routedTo": "P3 3.8 companion disclosure (the arc-length DE f'(x)=s solved by cosh)",
+   "reason": "The task derives tan(psi) = (w/T0)s from rope statics, states the DE f'(x) = s (arc length as the derivative — a first-order DE formulated from a rate-of-change statement, 3.8.1-shaped), and attacks it iteratively (power-series approximations) and directly ('Can you solve the equation f'(x) = s/a, where f(0)=a?' — an initial condition, 3.8.3-shaped) — but the direct solution is the catenary y = a cosh(x/a), outside the 9709 function set entirely; the of-record 3.1.6 alignment (hyperbolic identity work, lane 9) stands and the DE solving is beyond the spec's function register; disclosed by reference."
+  },
+  "weight-pulling": {
+   "station": "hyperbolic-functions",
+   "outcome": "non_overlap",
+   "routedTo": "P3 3.8 companion disclosure (a separable DE solved with machinery beyond the spec)",
+   "reason": "Approach 1 formulates the tractrix DE dy/dx = -y/sqrt(a^2-y^2) from the string geometry and separates the variables ('This is a separable differential equation, so we get integral(sqrt(a^2-y^2)/y) dy = -x+c') with an initial condition (x=0, y=a) — the 3.8.1-3.8.3 pipeline verbatim — but the evaluation requires the substitution y = a sin(theta) and the cosecant integral, both beyond the 9709 function set, and Approach 2 leans on cosh/arcosh catenary machinery; the resource's centre of gravity is the tractrix/catenary geometry. The genuine separable-DE skeleton is disclosed by reference (the prior log/exp and trig non-overlap rows stand)."
+  },
+  "mapping-a-derivative": {
+   "station": "introducing-calculus",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Lane-12 rejection stands: derivative-mapping cards; 'rate of change' is the derivative concept, no DE work."
+  },
+  "r5782": {
+   "station": "introducing-calculus",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Fresh, rejected: trains-meet average-speed problem — constant-speed LINEAR modelling (distance = speed x time), no calculus anywhere; the 'at time' hit is clock language."
+  },
+  "walk-sorting": {
+   "station": "introducing-calculus",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Fresh, rejected: displacement-time/velocity-time GRAPH MATCHING — gradient-interpretation register (the 1.7/lane-7 skill family); no DE formulated, separated, or interpreted as a solution."
+  },
+  "how-does-your-rectangle-grow": {
+   "station": "product-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.2 alignment (pure-3-differentiation, lane 12): the du/dt, dv/dt rate language serves the product-rule derivation dA/dt = v du/dt + u dv/dt via delta-areas — related-rates bookkeeping inside the product-rule architecture, not the formulation/solution/interpretation of a differential equation; the 3.4.2 alignment stands."
+  },
+  "r6620": {
+   "station": "product-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.5.5 alignment (pure-3-integration, lane 13): the 'differential equation' phrasing names the GIVEN gradient function x(1-x^2)e^{-x^2}; the served work is stationary points and integration of record."
+  },
+  "r7410": {
+   "station": "product-rule",
+   "outcome": "aligned_join",
+   "routedTo": "P3 3.8 aligned row (cross-lane join)",
+   "reason": "Exam-register question: 'It is given that dy/dx is inversely proportional to x^2' with 'y and dy/dx are each equal to 1 when x=2' — the student writes dy/dx = c/x^2 (the DE formulated from the proportionality statement, 3.8.1 verbatim — the suggestion scaffolds exactly this step: 'Can you write this mathematically? Can we now replace a with dy/dx'), determines c from dy/dx(2)=1, integrates to the general form y = -4/x + d (3.8.2), and evaluates d from y(2)=1 (the initial condition giving the particular solution, 3.8.3). JOIN: rides its of-record pure-1-integration body (the 1.8.2 constant-of-integration reading of record, cross-map lane 8); the 1.8.2 alignment stands and the part-(ii) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law)."
+  },
+  "r8774": {
+   "station": "product-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.4.2 + 3.5.1 alignments: velocity-to-displacement kinematics of record; 'rate of change' is the velocity definition, not a DE statement."
+  },
+  "r9795": {
+   "station": "product-rule",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Pure product-rule/chain-rule differentiation MCQ — dy/dx is the derivative being computed, not a differential equation; the served skill is lane-12's own 3.4 territory (its sweep treatment stands)."
+  },
+  "name-that-graph": {
+   "station": "quadratics",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 1.1.1 alignment (pure-1-quadratics, lane 1); the 'initially' hit is graph-narrative language; lane-12 rejection stands."
+  },
+  "puzzling-pentagon": {
+   "station": "sequences",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Interactive geometric-series/similarity exploration (type 11 image); the description's 'rate of change' is a discussion pointer only — no DE work exists in the well."
+  },
+  "real-world-problems": {
+   "station": "thinking-about-algebra",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Fresh, rejected: fill-in-the-dots fraction/rate ARITHMETIC (average speeds, densities, birth/death rates per 1000) — no calculus anywhere in the well."
+  },
+  "absolutely": {
+   "station": "thinking-about-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Rides its of-record 3.1.1 alignment (pure-3-algebra, lane 9): modulus work of record; 'proportional to' incidental."
+  },
+  "approaching-asymptotes": {
+   "station": "thinking-about-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-15 rejection stands: an ALGEBRA-FREE asymptote concept resource; the tea-cooling curve appears only as a named context for Graph A."
+  },
+  "picture-the-process-i": {
+   "station": "thinking-about-functions",
+   "outcome": "non_overlap",
+   "routedTo": "P3 3.8 companion disclosure (the modelling-recognition register: Newton's cooling narrated, never formulated)",
+   "reason": "Eight real-world processes are sketched and matched to graphs, then to equations; the tea-cooling row states Newton's law of cooling in the SOLUTION ('the rate of cooling is proportional to the difference between the temperature of the object and the ambient temperature') and matches y = 20 + 80e^{-0.05x} — the DE is narrated and its solution is matched, but no student work formulates a DE, separates variables, or uses an initial condition. The register is representation-matching, not the 3.8 pipeline; disclosed by reference (the lane-14 iteration rejection stood for its own reasons)."
+  },
+  "two-way-functions-teacher-support": {
+   "station": "thinking-about-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-9 non-overlap stands: teacher-support notes; 3.1.x appears only in prior-knowledge references."
+  },
+  "perfect-fit": {
+   "station": "thinking-about-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-15 rejection stands: geometric packing; no calculus."
+  },
+  "quintessential-proof": {
+   "station": "thinking-about-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Fresh, rejected: area-proportionality proof (a circle's area) — geometric reasoning, no calculus."
+  },
+  "r8022": {
+   "station": "thinking-about-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-11 non-overlap stands: pool-ball path by similar triangles — geometry, no calculus."
+  },
+  "r9596": {
+   "station": "thinking-about-numbers",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Fresh, rejected: locker-parity enumeration; 'initially' is state language, no calculus."
+  },
+  "r9702": {
+   "station": "trigonometry-triangles-to-functions",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The pure-1-trigonometry non-overlap row and the lane-15 rejection stand: point-to-line distance by coordinates; 'proportional to' incidental."
+  },
+  "make-it-equal": {
+   "station": "vector-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-15 rejection stands: forces-as-vectors mechanics."
+  },
+  "make-it-stop": {
+   "station": "vector-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "Mechanics class of record (the lane-11/15 rejections stand): constant-force kinematics via v = u + at under Newton's laws — constant acceleration, not a variable-coefficient DE; the vector-dynamics centre of gravity has no pure-3 claimant."
+  },
+  "one-windy-day": {
+   "station": "vector-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-15 mechanics-class rejection stands: projectile kinematics under constant accelerations — the motion equations x(t), y(t) are suvat integration written down, not DEs formulated from rate statements; the served object is the parametric trajectory."
+  },
+  "r7678": {
+   "station": "vector-geometry",
+   "outcome": "rejected_of_record",
+   "routedTo": null,
+   "reason": "The lane-12 non-overlap and the rejections stand: position/velocity/acceleration of a mass under vector dynamics — mechanics clothing, kinematics not DE work."
+  }
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 53,
+  "substrateResources": 0,
+  "ugmResourcesConsidered": 53,
+  "aligned": 2,
+  "alignedSubstrate": 0,
+  "nonOverlap": 4,
+  "crossLaneAligned": 2,
+  "rejectedOfRecord": 47,
+  "alignedShare": 0.0377,
+  "crossLaneCoverage": {
+   "crossLaneAligned": 2,
+   "flips": 0,
+   "oneToMany": 2,
+   "note": "TWO cross-lane joins and zero flips — the MIRROR of lane 15: lane 16 is the ZERO-FRESH-BODY lane of record. Both joins ride of-record pure-1 bodies (r6959 under pure-1-differentiation 1.7.3; r7410 under pure-1-integration 1.8.2) per the lane-6 one-to-many law; the ugm_id-collision audit forbids fresh duplicates and none were manufactured."
+  },
+  "stationBreakdown": {
+   "calculus-meets-functions": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "calculus-of-powers": {
+    "resources": 7,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 6,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "calculus-trig-log": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "chain-rule": {
+    "resources": 7,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 7,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "combining-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 0,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "counting-and-binomials": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "divisibility-and-induction": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "exp-and-log": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 2,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "hyperbolic-functions": {
+    "resources": 2,
+    "aligned": 0,
+    "nonOverlap": 2,
+    "rejected": 0,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "introducing-calculus": {
+    "resources": 3,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "product-rule": {
+    "resources": 5,
+    "aligned": 1,
+    "nonOverlap": 0,
+    "rejected": 4,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "quadratics": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "sequences": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "thinking-about-algebra": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "thinking-about-functions": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 1,
+    "rejected": 3,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "thinking-about-geometry": {
+    "resources": 3,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 3,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "thinking-about-numbers": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "trigonometry-triangles-to-functions": {
+    "resources": 1,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 1,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   },
+   "vector-geometry": {
+    "resources": 4,
+    "aligned": 0,
+    "nonOverlap": 0,
+    "rejected": 4,
+    "newTextSlugs_count": 0,
+    "newTextSlugs": []
+   }
+  },
+  "coverageNote": "Sweep over the 855-resource corpus in five angles (pass-1 title/description DE-rate regex; pass-2 full-text section regex; pass-3 formulation signatures — dX/dt, 'at a rate', 'at time t', 'initially'; pass-4 the type-10 review-question rate scan (exactly ONE RQ of 569 mentions a rate: r6959); pass-5 manual dossier reads during recon, the lane-15 targeted-angle precedent). Every verdict read against the well AND solution of record. Corpus-boundary audits: raw-capture main pages 855/855 parity with the clean wells (zero uncrawled substrate); the site's own differential-equations station verified EMPTY on the live API (0 resources, id 11, created 2015-11-04, never populated — control probe: vector-geometry 27). NO pre-baked bearing pool — no prior lane routed rows to 'P3 3.8' (zero 3.8 mentions across all 15 of-record enrichments)."
+ },
+ "ugmStations": {}
+}
