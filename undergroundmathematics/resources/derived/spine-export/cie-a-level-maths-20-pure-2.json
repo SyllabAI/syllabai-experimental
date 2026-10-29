@@ -1,0 +1,97 @@
+{
+ "exportedAt": "2026-10-29",
+ "note": "P2 course-plane lane (T-UGM-P2-1): the FIRST pure-2 spine export — all 17 spec points 2.1.1-2.6.3 verbatim from the of-record hub spine parse (apps/hub/spines/cie-a-level-maths-20-pure-2.json; the 2.1.2 three-bullet merge damage carried verbatim, disclosed not repaired).",
+ "source": "syllabai-v2 apps/hub/spines/cie-a-level-maths-20-pure-2.json (content-maps/cie-a-level-maths-20-pure-2.json does NOT exist of record — disclosed; the spine parse is the sole P2 row source, unlike the P3 export's dual citation)",
+ "rights": "spec codes + titles + item IDs/counts only (facts, mode-1); no item text exported",
+ "course": "9709",
+ "syllabusVersion": "2023-2025",
+ "board": "Cambridge CIE",
+ "specPoints": [
+  {
+   "code": "2.1.1",
+   "subtopic": "Algebra",
+   "title": "understand the meaning of | x |, sketch the graph of y = | ax + b | and use relations such as functions"
+  },
+  {
+   "code": "2.1.2",
+   "subtopic": "Algebra",
+   "title": "2 | a | = | b | ⇔ a = b and | x – a | < b ⇔ a – b < x < a + b when solving equations and inequalities by a linear or quadratic polynomial, and identify the quotient and remainder (which may be zero) theorem.: • divide a polynomial, of degree not exceeding 4, • use the factor theorem and the remainder"
+  },
+  {
+   "code": "2.2.1",
+   "subtopic": "Logarithmic and exponential functions",
+   "title": "understand the relationship between logarithms and indices, and use the laws of logarithms (excluding change of base)"
+  },
+  {
+   "code": "2.2.2",
+   "subtopic": "Logarithmic and exponential functions",
+   "title": "understand the definition and properties of e Including knowledge of the graph of and ln x , including their relationship as inverse functions and their graphs"
+  },
+  {
+   "code": "2.2.3",
+   "subtopic": "Logarithmic and exponential functions",
+   "title": "use logarithms to solve equations and inequalities in which the unknown appears in indices"
+  },
+  {
+   "code": "2.2.4",
+   "subtopic": "Logarithmic and exponential functions",
+   "title": "use logarithms to transform a given relationship e.g. to linear form, and hence determine unknown constants by considering the gradient and/or intercept."
+  },
+  {
+   "code": "2.3.1",
+   "subtopic": "Trigonometry",
+   "title": "understand the relationship of the secant, cosecant and cotangent functions to cosine, sine and tangent, and use properties and graphs of all six trigonometric functions for angles of any magnitude"
+  },
+  {
+   "code": "2.3.2",
+   "subtopic": "Trigonometry",
+   "title": "use trigonometrical identities for the simplification and exact evaluation of expressions, e.g. solving and in the course of solving equations, and select an identity or identities appropriate to the context, showing familiarity in particular with the use of tan( A ± B ) forms R sin ^ i ! a h and R cos ^ i ! a h .: • sec i / 1 + tan i and cosec i / 1 + cot i • the expansions of sin( A ± B ) , cos( A ± B ) and • the formulae for sin 2 A , cos 2 A and tan 2 A • the expression of a sin i + b cos i in the"
+  },
+  {
+   "code": "2.4.1",
+   "subtopic": "Differentiation",
+   "title": "use the derivatives of e , ln x , sin x , cos x , tan x , together with constant multiples, sums, differences and composites"
+  },
+  {
+   "code": "2.4.2",
+   "subtopic": "Differentiation",
+   "title": "differentiate products and quotients e.g."
+  },
+  {
+   "code": "2.4.3",
+   "subtopic": "Differentiation",
+   "title": "find and use the first derivative of a function e.g. which is defined parametrically or implicitly."
+  },
+  {
+   "code": "2.5.1",
+   "subtopic": "Integration",
+   "title": "extend the idea of ‘reverse differentiation’ to ax + b 1 include the integration of e , , ax + b sin( ax + b ) , cos( ax + b ) and sec ( ax + b )"
+  },
+  {
+   "code": "2.5.2",
+   "subtopic": "Integration",
+   "title": "use trigonometrical relationships in carrying out integration or"
+  },
+  {
+   "code": "2.5.3",
+   "subtopic": "Integration",
+   "title": "understand and use the trapezium rule to Including use of sketch graphs in simple cases to estimate the value of a definite integral. determine whether the trapezium rule gives an over- estimate or an under-estimate."
+  },
+  {
+   "code": "2.6.1",
+   "subtopic": "Numerical solution of equations",
+   "title": "locate approximately a root of an equation, by means of graphical considerations and/or searching for a sign change"
+  },
+  {
+   "code": "2.6.2",
+   "subtopic": "Numerical solution of equations",
+   "title": "understand the idea of, and use the notation for, a sequence of approximations which converges to a root of an equation"
+  },
+  {
+   "code": "2.6.3",
+   "subtopic": "Numerical solution of equations",
+   "title": "understand how a given simple iterative formula Knowledge of the condition for convergence is not of the form x = F( x ) relates to the equation included, but an understanding that an iteration may being solved, and use a given iteration, or an fail to converge is expected. iteration based on a given rearrangement of an equation, to determine a root to a prescribed degree of accuracy."
+  }
+ ],
+ "itemInventory": {}
+}
