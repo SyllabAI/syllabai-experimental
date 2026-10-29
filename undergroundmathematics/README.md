@@ -336,4 +336,6 @@ Inherited from the repo ground rules plus [`exam-mate/`](../exam-mate/README.md)
   p3c-lane17, tasks `T-UGM-MODE1-17` + `T-UGM-IMPORT-17`, MANIFEST v17 → v18 — 628 files unchanged,
   zero body files; NOT self-merged). The pure-3 spine 3.1-3.9 is COMPLETE of record; next:
   T-UGM-HUB-CONSUME-17 (9 lanes, closes the plane) awaits operator order; further UGM lanes need a
+
+- **lane 18 the P2 course plane → CIE 9709 Pure 2 full-course cross-map** — the NEW COURSE PLANE of record (operator order trace `1a188fcae3769975`, resolving the pointer above): the 2023-2025 Paper 2 spine 2.1.1-2.6.3 adjudicated against the PDF of record — 16/17 spec points are verbatim twins of Paper 3 codes (spine-verbatim or pdf-verbatim with the spine divergence disclosed; `2.1.2` a three-bullet merge), `2.5.3` trapezium rule P2-unique. **166 cross-lane rows (161 twin joins + 5 trapezium flips + 2 standing-home joins), 0 fresh bodies, 0 body text moves**, 1 depth-guard hold, 1 capture-gap companion; all 17 spec points covered. Cross-map `cross-map-p2-full-course.json` + the FIRST pure-2 spine export @ this commit; syllabai-resources PR (6 enrichment files, task `T-UGM-P2-1`) NOT self-merged; T-UGM-HUB-CONSUME P2 lane awaits merge + operator order.
   new course plane (operator's call)

@@ -609,6 +609,7 @@ worth doing regardless of any Mode-3 outcome.
       corpus-boundary caution lane 16 carried: the site's complex-numbers
       stations are among the never-captured four; ordering is the
       operator's call)
+- [x] lane 18 (P2): **the NEW COURSE PLANE opened by operator order** (trace `1a188fcae3769975`, resolving the further-lanes pointer above) — `T-UGM-P2-1`, the CIE 9709 Pure 2 full-course cross-map (spec 2.1.1-2.6.3): 9/17 P2 spec points are VERBATIM twins of Paper 3 codes (PDF-of-record adjudication, sha1 `997e5a9f…`), 7 more are pdf-verbatim twins under spine-parse divergence, `2.1.2` is a pdf-verbatim three-bullet merge of 3.1.2+3.1.3+3.1.4, and `2.5.3` trapezium rule is P2-UNIQUE (no Paper 3 bullet). Census: **161 one-to-many twin joins + 5 flips + 2 standing-home joins at 2.5.3 = 166 cross-lane rows, all 17 spec points covered (zero honest gaps)**, 1 depth-guard hold (integral-chasing-2 @ 2.5.1, by-parts), 1 capture-gap companion (r5324). Facts only; zero body text moves. Cross-map `cross-map-p2-full-course.json` + spine export `cie-a-level-maths-20-pure-2.json` (17 rows, the FIRST pure-2 export) @ this commit; enrichment files filed as a syllabai-resources PR (task `T-UGM-P2-1`, 6 files) — NOT self-merged; the T-UGM-HUB-CONSUME P2 lane awaits the merge + operator order.
 - [x] lane 17 (P3c): **CIE 9709 Pure 3 3.9 Complex numbers** — the NINTH and FINAL spine
       subtopic on the pure-3 course plane; the corpus-boundary lane of record (operator:
       "eyeball+merge on #391 → the pure-3 hub serve spans 8 lanes → lane 17"). Boundary
