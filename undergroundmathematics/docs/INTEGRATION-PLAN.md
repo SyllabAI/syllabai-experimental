@@ -685,6 +685,17 @@ corpus of record (post lane-17 boundary closure):
    workstream (§2.1, P3a), **not** CIE 9709 S1 / Paper 5. Do not conflate
    the two in sweep logs or tasks.
 
+**Lane decision of record (2026-11-03, trace `1a1a2a96c22e39cd`).** The
+lane-17 further-lanes pointer ("further UGM lanes would need a new course
+plane, operator's call") is answered: the **igcse-extended course plane
+(0580 Extended 2025–2027, 9 topics / 72 subtopics / 178 spec points) is
+declared open**, run as substrate-anchored contrast lanes per
+`docs/DECISION-0580-IGCSE-EXTENDED-LANE.md` — lane 19 = TE2 Algebra and
+graphs (47 spec points), prepared as `T-UGM-0580-19`, opens on operator
+ack; lane 20 = TE3 Coordinate geometry next; **TE8 Probability + TE9
+Statistics (24 spec points) are pre-ruled honest-empty for every lane of
+this plane** under UGM-SCOPE-1 rulings 1–2.
+
 ## 5. Mode-4 pattern adoption — do these regardless (design tasks)
 
 1. **Suggestion layer for SmartChat**: hint taxonomy per lane (nudge →
