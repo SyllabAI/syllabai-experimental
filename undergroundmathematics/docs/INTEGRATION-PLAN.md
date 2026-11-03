@@ -81,6 +81,11 @@ worth doing regardless of any Mode-3 outcome.
 - Stations with **no** SyllabAI analogue (matrices, complex numbers,
   hyperbolics, differential equations — the 4 under-construction ones aside)
   map to **Further Maths / IAL Further Pure**, a future course line.
+- Mechanics and probability/statistics have **no UGM substrate at all**
+  (Ruling UGM-SCOPE-1, end of §4 P7): zero M/S stations and zero P&S
+  resources corpus-wide; the 13 mechanics-flavoured embodiments live inside
+  pure stations and are already handled by the "mechanics class" rejection
+  register (lane 16). M/S course planes are never cross-mappable from UGM.
 - Conclusion: cross-map produces an **IAL-first enrichment sheet**, IGCSE
   gets the algebra/trig subset. Document the non-overlap rather than force
   mappings.
@@ -626,6 +631,59 @@ worth doing regardless of any Mode-3 outcome.
       `scripts/ugm_import_build.py --lane <name>` + the multi-lane importer
       (`LANE_STATIONS` entry + expected census; multi-station and strand
       blocks now supported) + `ugm-resources.json` re-run at the new pin
+
+#### Ruling UGM-SCOPE-1 — no Mechanics / Probability & Statistics planes (2026-11-03, operator order trace `1a19ffc02a4a4d81` "record this as a ruling", apply trace `1a1a0033a9ac36f5`; survey trace `1a19d7e16d3217f1`)
+
+**Finding of record.** Underground Mathematics carries **zero mechanics and
+zero probability/statistics substrate** — verified over the final 855/25
+corpus of record (post lane-17 boundary closure):
+
+- **Stations:** 29/29 are pure maths; the station API of record contains
+  zero `mechanic*`/`statistic*`/`probabilit*` strings, and the only taxonomy
+  axis besides stations is the 11 mathematical-behaviour tags (`tags.json`)
+  — no M/S topic axis exists to sweep.
+- **Mechanics:** a corpus-wide keyword sweep (velocity, acceleration, force,
+  friction, projectile, momentum, …) returns 16 hits of which **13 are
+  genuine mechanics-flavoured embodiments, all inside pure stations** —
+  `vector-geometry` ×6 (a-frictional-story, make-it-equal, make-it-stop!,
+  one-windy-day, where-did-it-land, given-the-position-of-a-mass —
+  genuinely M1-flavoured, taught as vector algebra), `introducing-calculus`
+  ×3 (speed-vs-velocity, walk-sorting,
+  what-is-the-acceleration-of-this-particle — v–t graphs as gradient/area),
+  one each in `calculus-trig-log`,
+  `chain-rule`, `product-rule` (v/a/displacement as calculus applications)
+  and `sequences` (bouncing-to-nothing). The remaining 3 hits are regex
+  false positives ("re**force**" in three trigonometry-triangles-to-
+  functions descriptions).
+- **Statistics:** zero substrate, fail-closed. Corpus-wide body scan:
+  `probabilit` ×10 = counting-and-binomials ×2 (marble-drawing inside one
+  solution) + thinking-about-numbers ×8 (all from a single fractions-pair
+  problem, repeated across well/suggestion/solution views); `statistic` ×1
+  = the aside "In statistical terms…" interpreting a calculus-of-powers
+  mean/median result. No distributions, hypothesis testing,
+  correlation/regression or data-handling resource exists anywhere in the
+  corpus.
+
+**Rulings.**
+
+1. **No 9709 Mechanics course plane from UGM substrate.** The 13
+   embodiments are pure-station material; cross-maps already file the class
+   correctly (lane 16's "mechanics class" rejection register). Any future
+   9709 Paper-4/Mechanics plane can only ever receive non-overlap companion
+   disclosures from these 13 — never a plane.
+2. **No 9709 Probability & Statistics plane (Papers 5/6) from UGM
+   substrate.** Zero substrate — the INSUFFICIENT-null-rows failure mode,
+   the corpus-wide analogue of the 0606 T11 P&C honest gap. The two
+   probability-flavoured problems are combinatorics embodiments already
+   inside the lane-6 counting substrate of record.
+3. **Future course planes stay pure:** the Pure 1 spine (lanes 1–8), the
+   pure-3 plane (lanes 9–17) and the P2 full course (lane 18) are complete
+   of record; the igcse-extended (0580) export exists of record — but its
+   probability/statistics spec points will hit the same empty-well wall and
+   must honest-gap, never force.
+4. **Disambiguation:** "S1" in this document means the provenance-bridge
+   workstream (§2.1, P3a), **not** CIE 9709 S1 / Paper 5. Do not conflate
+   the two in sweep logs or tasks.
 
 ## 5. Mode-4 pattern adoption — do these regardless (design tasks)
 
