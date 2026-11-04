@@ -1,0 +1,2356 @@
+{
+ "targetLane": {
+  "course": "cie-igcse-maths-25-extended",
+  "qual": "cie-igcse-maths-2025-2027",
+  "qualRegistryId": "CIE_IGCSE_MATHS_2025_2027",
+  "board": "Cambridge CIE",
+  "code": "0580",
+  "syllabusVersion": "2025-2027",
+  "task": "T-UGM-0580-19",
+  "plane": "igcse-extended",
+  "subtopic": "TE2 Algebra and graphs",
+  "specPoints": 47,
+  "noFoldFragments": true,
+  "spineProvenance": "apps/hub/spines/cie-igcse-maths-25-extended.json — the 47 rows E2.1.1-E2.13.3 are the spine rows of record verbatim (TE2 \"Algebra and graphs\", 13 subtopics, orders 42-88; tier Extended) — parse artifacts carried verbatim (E2.10.1a synthetic suffix, E2.4.3 truncated exclusion note, \\x07 controls, interleaved column fragments); the full 47-row export is resources/derived/spine-export/cie-igcse-maths-25-extended-te2.json; the 9 contrast rows of record reconcile byte-true"
+ },
+ "pilot": "igcse-extended contrast lane 19 — CIE IGCSE 0580 Extended TE2 Algebra and graphs (operator ack trace 1a1a4dd427524861 \"lane 19\" firing the DECISION-0580 Option-B lane; decision of record b2fce30d, UGM-SCOPE-1 rulings applied; the 9-point contrast export E2.2.3-E2.11.4 is the byte-true preview pool)",
+ "generatedAt": "2026-11-04",
+ "modeNote": "modesRecorded reflects the cross-map’s mode flags of record: [1] facts; no Mode-2 rendering.",
+ "perSpecPoint": {
+  "E2.1.1": {
+   "officialCode": "E2.1.1",
+   "officialText": "\u0007Know that letters can be used to represent generalised numbers.",
+   "spineTitleVerbatim": "\u0007Know that letters can be used to represent generalised numbers.",
+   "subtopic": "Introduction to algebra",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Letters-as-generalised-numbers sits below the post-16 corpus floor; no UGM substrate (the census TE1/TE2 thin-tail register)."
+   }
+  },
+  "E2.1.2": {
+   "officialCode": "E2.1.2",
+   "officialText": "\u0007Substitute numbers into expressions and formulas.",
+   "spineTitleVerbatim": "\u0007Substitute numbers into expressions and formulas.",
+   "subtopic": "Introduction to algebra",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Substitution into expressions/formulas: the post-16 corpus assumes this fluency and carries no explicit gentle substitution task in the non-calculus pool; never manufactured."
+   }
+  },
+  "E2.2.1": {
+   "officialCode": "E2.2.1",
+   "officialText": "Simplify expressions by collecting like terms. Simplify means give the answer in its simplest form, e.g.",
+   "spineTitleVerbatim": "Simplify expressions by collecting like terms. Simplify means give the answer in its simplest form, e.g.",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "multiple-manipulations",
+   "resources": [
+    {
+     "ugmSlug": "multiple-manipulations",
+     "station": "thinking-about-algebra",
+     "title": "Multiple manipulations",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/multiple-manipulations",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The expressions collections target simplification/collecting structure — E2.2.1 simplification register.",
+     "note": "The expressions collections target simplification/collecting structure — E2.2.1 simplification register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.2.2": {
+   "officialCode": "E2.2.2",
+   "officialText": "Expand products of algebraic expressions. e.g. expand",
+   "spineTitleVerbatim": "Expand products of algebraic expressions. e.g. expand",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "multiple-manipulations",
+   "resources": [
+    {
+     "ugmSlug": "multiple-manipulations",
+     "station": "thinking-about-algebra",
+     "title": "Multiple manipulations",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/multiple-manipulations",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Three collections of expressions, equations and inequalities built to exercise expansion and manipulation of algebraic products — the E2.2.2 expand register at fluency scale.",
+     "note": "Three collections of expressions, equations and inequalities built to exercise expansion and manipulation of algebraic products — the E2.2.2 expand register at fluency scale.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "quadratic-grids",
+     "station": "quadratics",
+     "title": "Quadratic grids",
+     "url": "https://undergroundmathematics.org/quadratics/quadratic-grids",
+     "resourceType": "Rich example",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The grid method multiplies out bracket products — E2.2.2 expansion register.",
+     "note": "The grid method multiplies out bracket products — E2.2.2 expansion register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/quadratic-grids-quadratic-grids.md"
+    }
+   ]
+  },
+  "E2.2.3": {
+   "officialCode": "E2.2.3",
+   "officialText": "Includes products of more than two brackets, e.g. expand 3 Factorise by extracting common factors. Factorise means factorise fully, e.g.",
+   "spineTitleVerbatim": "Includes products of more than two brackets, e.g. expand 3 Factorise by extracting common factors. Factorise means factorise fully, e.g.",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": null,
+   "resources": [
+    {
+     "ugmSlug": "multiple-manipulations",
+     "station": "thinking-about-algebra",
+     "title": "Multiple manipulations",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/multiple-manipulations",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The manipulation packages reach multi-step expansion including common-factor extraction — the E2.2.3 register.",
+     "note": "The manipulation packages reach multi-step expansion including common-factor extraction — the E2.2.3 register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.2.4": {
+   "officialCode": "E2.2.4",
+   "officialText": "Factorise expressions of the form: • ax + bx + kay + kby • a x − b y • a + 2 ab + b • ax + bx + c • ax + bx + cx .",
+   "spineTitleVerbatim": "Factorise expressions of the form: • ax + bx + kay + kby • a x − b y • a + 2 ab + b • ax + bx + c • ax + bx + cx .",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "r6577",
+   "resources": [
+    {
+     "ugmSlug": "multiple-manipulations",
+     "station": "thinking-about-algebra",
+     "title": "Multiple manipulations",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/multiple-manipulations",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Factorising appears across the collections — E2.2.4 factorise-forms register.",
+     "note": "Factorising appears across the collections — E2.2.4 factorise-forms register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "quadratic-grids",
+     "station": "quadratics",
+     "title": "Quadratic grids",
+     "url": "https://undergroundmathematics.org/quadratics/quadratic-grids",
+     "resourceType": "Rich example",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Factorising quadratic expressions via multiplication grids — the E2.2.4 factorise register (ax^2+bx+c forms) at grid level.",
+     "note": "Factorising quadratic expressions via multiplication grids — the E2.2.4 factorise register (ax^2+bx+c forms) at grid level.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/quadratic-grids-quadratic-grids.md"
+    },
+    {
+     "ugmSlug": "factorisable-quads",
+     "station": "quadratics",
+     "title": "Factorisable quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/factorisable-quads",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Practice in factorisation and multiplying out — E2.2.4 register.",
+     "note": "Practice in factorisation and multiplying out — E2.2.4 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/factorisable-quads-factorisable-quadratics.md"
+    },
+    {
+     "ugmSlug": "r6577",
+     "station": "polynomials",
+     "title": "Can we factorise $6x^3+5x^2-17x-6$ completely?",
+     "url": "https://undergroundmathematics.org/polynomials/r6577",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Factorise 6x^3+5x^2-17x-6 completely — the cubic arm of the E2.2.4 factorise-forms register (ax^3+bx^2+cx).",
+     "note": "Factorise 6x^3+5x^2-17x-6 completely — the cubic arm of the E2.2.4 factorise-forms register (ax^3+bx^2+cx).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-3-algebra/r6577-can-we-factorise-6x35x2-17x-6-completely.md"
+    }
+   ]
+  },
+  "E2.2.5": {
+   "officialCode": "E2.2.5",
+   "officialText": "\u0007Complete the square for expressions in the form ax + bx + c .",
+   "spineTitleVerbatim": "\u0007Complete the square for expressions in the form ax + bx + c .",
+   "subtopic": "Algebraic manipulation",
+   "primaryPick": "paired-parabolas",
+   "resources": [
+    {
+     "ugmSlug": "paired-parabolas",
+     "station": "quadratics",
+     "title": "Paired parabolas",
+     "url": "https://undergroundmathematics.org/quadratics/paired-parabolas",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Pairs of quadratics with symmetry about the axes and how the symmetry shows in algebraic form — completed-square structure; the E2.2.5 complete-the-square register.",
+     "note": "Pairs of quadratics with symmetry about the axes and how the symmetry shows in algebraic form — completed-square structure; the E2.2.5 complete-the-square register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/paired-parabolas-paired-parabolas.md"
+    },
+    {
+     "ugmSlug": "r9724",
+     "station": "quadratics",
+     "title": "If $7 - px - x^2 = 16 - (q + x)^2$, what are $p$ and $q$?",
+     "url": "https://undergroundmathematics.org/quadratics/r9724",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "7-px-x^2 = 16-(q+x)^2 is a completing-the-square identity read off both sides — the E2.2.5 register verbatim (compare coefficients after completing the square).",
+     "note": "7-px-x^2 = 16-(q+x)^2 is a completing-the-square identity read off both sides — the E2.2.5 register verbatim (compare coefficients after completing the square).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r9724-if-7-px-x-2-16-q-x-2-what-are-p-and-q.md"
+    }
+   ]
+  },
+  "E2.3.1": {
+   "officialCode": "E2.3.1",
+   "officialText": "Manipulate algebraic fractions. Examples include:",
+   "spineTitleVerbatim": "Manipulate algebraic fractions. Examples include:",
+   "subtopic": "Algebraic fractions",
+   "primaryPick": "r5364",
+   "resources": [
+    {
+     "ugmSlug": "r5364",
+     "station": "thinking-about-algebra",
+     "title": "Can we simplify these algebraic fractions?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r5364",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Simplify these algebraic fractions — the E2.3.1 manipulate-algebraic-fractions register verbatim.",
+     "note": "Simplify these algebraic fractions — the E2.3.1 manipulate-algebraic-fractions register verbatim.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "powerful-fractions",
+     "station": "thinking-about-algebra",
+     "title": "Powerful fractions",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/powerful-fractions",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compare algebraic fractions involving indices with different approaches — E2.3.1 manipulation register.",
+     "note": "Compare algebraic fractions involving indices with different approaches — E2.3.1 manipulation register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-3-logarithmic-and-exponential-functions/powerful-fractions-powerful-fractions.md"
+    },
+    {
+     "ugmSlug": "which-is-bigger",
+     "station": "thinking-about-algebra",
+     "title": "Which is bigger?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/which-is-bigger",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Decide which of two fractions is bigger, warming up numerical then algebraic — E2.3.1 register.",
+     "note": "Decide which of two fractions is bigger, warming up numerical then algebraic — E2.3.1 register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.3.2": {
+   "officialCode": "E2.3.2",
+   "officialText": "Factorise and simplify rational expressions. e.g.",
+   "spineTitleVerbatim": "Factorise and simplify rational expressions. e.g.",
+   "subtopic": "Algebraic fractions",
+   "primaryPick": null,
+   "resources": [
+    {
+     "ugmSlug": "r5364",
+     "station": "thinking-about-algebra",
+     "title": "Can we simplify these algebraic fractions?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r5364",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "1/(x^2-x) - 1/(x^3-x) demands factorising the denominators then cancelling — the E2.3.2 factorise-and-simplify-rational-expressions register verbatim.",
+     "note": "1/(x^2-x) - 1/(x^3-x) demands factorising the denominators then cancelling — the E2.3.2 factorise-and-simplify-rational-expressions register verbatim.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.4.1": {
+   "officialCode": "E2.4.1",
+   "officialText": "\u0007Understand and use indices (positive, zero, e.g. solve: negative and fractional). •",
+   "spineTitleVerbatim": "\u0007Understand and use indices (positive, zero, e.g. solve: negative and fractional). •",
+   "subtopic": "Indices II",
+   "primaryPick": "index-issues",
+   "resources": [
+    {
+     "ugmSlug": "index-issues",
+     "station": "thinking-about-algebra",
+     "title": "Index issues",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/index-issues",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Equations designed to surface what fractional and negative indices mean and when they are defined — the E2.4.1 register verbatim.",
+     "note": "Equations designed to surface what fractional and negative indices mean and when they are defined — the E2.4.1 register verbatim.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r6983",
+     "station": "thinking-about-algebra",
+     "title": "When is this product of powers an integer?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r6983",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When is this product of powers an integer — fractional/negative index evaluation; E2.4.1 register.",
+     "note": "When is this product of powers an integer — fractional/negative index evaluation; E2.4.1 register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.4.2": {
+   "officialCode": "E2.4.2",
+   "officialText": "\u0007Understand and use the rules of indices. e.g. simplify:",
+   "spineTitleVerbatim": "\u0007Understand and use the rules of indices. e.g. simplify:",
+   "subtopic": "Indices II",
+   "primaryPick": "r8779",
+   "resources": [
+    {
+     "ugmSlug": "index-issues",
+     "station": "thinking-about-algebra",
+     "title": "Index issues",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/index-issues",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Manipulation of indices across the equation set — E2.4.2 rules of indices.",
+     "note": "Manipulation of indices across the equation set — E2.4.2 rules of indices.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r8779",
+     "station": "thinking-about-algebra",
+     "title": "Can we simplify  these expressions involving indices?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r8779",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Simplify these expressions involving indices — the E2.4.2 register verbatim.",
+     "note": "Simplify these expressions involving indices — the E2.4.2 register verbatim.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r9160",
+     "station": "thinking-about-algebra",
+     "title": "Given these power facts, can we show $z^6=cx$?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r9160",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Given power facts, show z^6=cx — index-law manipulation; E2.4.2 register.",
+     "note": "Given power facts, show z^6=cx — index-law manipulation; E2.4.2 register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.4.3": {
+   "officialCode": "E2.4.3",
+   "officialText": "Knowledge of logarithms is",
+   "spineTitleVerbatim": "Knowledge of logarithms is",
+   "subtopic": "Indices II",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "exclusion-by-design",
+    "note": "The spine row is the syllabus note \"Knowledge of logarithms is not required.\" (parse-truncated verbatim at \"Knowledge of logarithms is\") — a designed exclusion row carrying zero rows, the 3.7.7 pattern."
+   }
+  },
+  "E2.5.1": {
+   "officialCode": "E2.5.1",
+   "officialText": "Construct expressions, equations and formulas. e.g. write an expression for the product of two consecutive even numbers.",
+   "spineTitleVerbatim": "Construct expressions, equations and formulas. e.g. write an expression for the product of two consecutive even numbers.",
+   "subtopic": "Equations",
+   "primaryPick": "r5505",
+   "resources": [
+    {
+     "ugmSlug": "r7972",
+     "station": "quadratics",
+     "title": "If we know two values satisfying a quadratic, can we find the quadratic?",
+     "url": "https://undergroundmathematics.org/quadratics/r7972",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Find the quadratic from two known values — construct equations; E2.5.1 register.",
+     "note": "Find the quadratic from two known values — construct equations; E2.5.1 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r7972-if-we-know-two-values-satisfying-a-quadratic-can-we-find-the-qua.md"
+    },
+    {
+     "ugmSlug": "name-that-graph-again",
+     "station": "combining-functions",
+     "title": "Name that graph again",
+     "url": "https://undergroundmathematics.org/combining-functions/name-that-graph-again",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Determine the equation of a parabola from three points on the curve — construct equations; E2.5.1 register.",
+     "note": "Determine the equation of a parabola from three points on the curve — construct equations; E2.5.1 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/name-that-graph-again-name-that-graph-again.md"
+    },
+    {
+     "ugmSlug": "r5505",
+     "station": "thinking-about-algebra",
+     "title": "If we know the area-sum and the perimeter-sum, what are the sides?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r5505",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Given the area-sum and perimeter-sum, find the sides — construct equations from geometric conditions; the E2.5.1 register verbatim.",
+     "note": "Given the area-sum and perimeter-sum, find the sides — construct equations from geometric conditions; the E2.5.1 register verbatim.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r6127",
+     "station": "thinking-about-algebra",
+     "title": "Can we find the dimensions of this rectangle?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r6127",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Find the dimensions of this rectangle — construct equations from area/perimeter clues; E2.5.1 register.",
+     "note": "Find the dimensions of this rectangle — construct equations from area/perimeter clues; E2.5.1 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "real-world-problems",
+     "station": "thinking-about-algebra",
+     "title": "Real-world problems?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/real-world-problems",
+     "resourceType": "Problem requiring decisions",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Problems requiring creation and manipulation of algebraic/numerical fractions with student-chosen parameters — construct expressions and formulas; E2.5.1 register.",
+     "note": "Problems requiring creation and manipulation of algebraic/numerical fractions with student-chosen parameters — construct expressions and formulas; E2.5.1 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r5887",
+     "station": "geometry-of-equations",
+     "title": "If we know the sum and product of two numbers, what are they?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r5887",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Given the sum and product of two numbers, find them — construct equations; E2.5.1 register.",
+     "note": "Given the sum and product of two numbers, find them — construct equations; E2.5.1 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r5887-if-we-know-the-sum-and-product-of-two-numbers-what-are-they.md"
+    }
+   ]
+  },
+  "E2.5.2": {
+   "officialCode": "E2.5.2",
+   "officialText": "Includes constructing simultaneous equations. 2 \u0007Solve linear equations in one unknown. Examples include:",
+   "spineTitleVerbatim": "Includes constructing simultaneous equations. 2 \u0007Solve linear equations in one unknown. Examples include:",
+   "subtopic": "Equations",
+   "primaryPick": "two-way-algebra",
+   "resources": [
+    {
+     "ugmSlug": "two-way-algebra",
+     "station": "thinking-about-algebra",
+     "title": "Two-way algebra",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/two-way-algebra",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Two-way table of equations and inequalities by the types of solutions they give — solving linear equations and reading solution structure; E2.5.2 register.",
+     "note": "Two-way table of equations and inequalities by the types of solutions they give — solving linear equations and reading solution structure; E2.5.2 register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.5.3": {
+   "officialCode": "E2.5.3",
+   "officialText": "\u0007Solve fractional equations with numerical and Examples include: linear algebraic denominators.",
+   "spineTitleVerbatim": "\u0007Solve fractional equations with numerical and Examples include: linear algebraic denominators.",
+   "subtopic": "Equations",
+   "primaryPick": "r8407",
+   "resources": [
+    {
+     "ugmSlug": "r8407",
+     "station": "quadratics",
+     "title": "When can this equation involving algebraic fractions hold?",
+     "url": "https://undergroundmathematics.org/quadratics/r8407",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When can this equation involving algebraic fractions hold — fractional equations with algebraic denominators at gentle depth; E2.5.3 register verbatim.",
+     "note": "When can this equation involving algebraic fractions hold — fractional equations with algebraic denominators at gentle depth; E2.5.3 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r8407-when-can-this-equation-involving-algebraic-fractions-hold.md"
+    }
+   ]
+  },
+  "E2.5.4": {
+   "officialCode": "E2.5.4",
+   "officialText": "\u0007Solve simultaneous linear equations in two unknowns.",
+   "spineTitleVerbatim": "\u0007Solve simultaneous linear equations in two unknowns.",
+   "subtopic": "Equations",
+   "primaryPick": "equation-sudoku",
+   "resources": [
+    {
+     "ugmSlug": "equation-sudoku",
+     "station": "thinking-about-algebra",
+     "title": "Equation Sudoku",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/equation-sudoku",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Sudoku puzzles offering practice at solving multiple linear simultaneous equations — the E2.5.4 register verbatim at fluency scale.",
+     "note": "Sudoku puzzles offering practice at solving multiple linear simultaneous equations — the E2.5.4 register verbatim at fluency scale.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r6327",
+     "station": "thinking-about-algebra",
+     "title": "If these equations have an infinity of solutions, how are $a$ and $b$ related?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r6327",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "If these linear equations have an infinity of solutions, how are a and b related — the solution-structure arm of E2.5.4.",
+     "note": "If these linear equations have an infinity of solutions, how are a and b related — the solution-structure arm of E2.5.4.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r6514",
+     "station": "geometry-of-equations",
+     "title": "No solutions, or infinitely many?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r6514",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "No solutions, or infinitely many? — simultaneous linear equations classified by solution structure; the E2.5.4 register verbatim.",
+     "note": "No solutions, or infinitely many? — simultaneous linear equations classified by solution structure; the E2.5.4 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r6514-no-solutions-or-infinitely-many.md"
+    },
+    {
+     "ugmSlug": "near-miss",
+     "station": "geometry-of-equations",
+     "title": "Near miss",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/near-miss",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Two very similar pairs of simultaneous linear equations with strikingly different solutions — E2.5.4 register.",
+     "note": "Two very similar pairs of simultaneous linear equations with strikingly different solutions — E2.5.4 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/near-miss-near-miss.md"
+    },
+    {
+     "ugmSlug": "simultaneous-squares",
+     "station": "geometry-of-equations",
+     "title": "Simultaneous squares",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/simultaneous-squares",
+     "resourceType": "Investigation",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Find the fourth line equation needed to enclose a square from three given lines — simultaneous linear equation work in a geometric frame; E2.5.4 register.",
+     "note": "Find the fourth line equation needed to enclose a square from three given lines — simultaneous linear equation work in a geometric frame; E2.5.4 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/simultaneous-squares-simultaneous-squares.md"
+    }
+   ]
+  },
+  "E2.5.5": {
+   "officialCode": "E2.5.5",
+   "officialText": "\u0007Solve simultaneous equations, involving one With powers no higher than two. linear and one non-linear.",
+   "spineTitleVerbatim": "\u0007Solve simultaneous equations, involving one With powers no higher than two. linear and one non-linear.",
+   "subtopic": "Equations",
+   "primaryPick": "r6429",
+   "resources": [
+    {
+     "ugmSlug": "r6429",
+     "station": "quadratics",
+     "title": "Can we solve these simultaneous equations, one linear, one quadratic?",
+     "url": "https://undergroundmathematics.org/quadratics/r6429",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Simultaneous equations, one linear one quadratic — the E2.5.5 register verbatim.",
+     "note": "Simultaneous equations, one linear one quadratic — the E2.5.5 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r6429-can-we-solve-these-simultaneous-equations-one-linear-one-quadrat.md"
+    },
+    {
+     "ugmSlug": "r5287",
+     "station": "quadratics",
+     "title": "When does $y=mx-5$ intersect $y=x^2-1$  twice?",
+     "url": "https://undergroundmathematics.org/quadratics/r5287",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When does y=mx-5 intersect y=x^2-1 twice — line and non-linear simultaneous; E2.5.5 register.",
+     "note": "When does y=mx-5 intersect y=x^2-1 twice — line and non-linear simultaneous; E2.5.5 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r5287-when-does-y-mx-5-intersect-y-x-2-1-twice.md"
+    },
+    {
+     "ugmSlug": "r9614",
+     "station": "quadratics",
+     "title": "When does $y=kx$ intersect the parabola $y=(x-1)^2$?",
+     "url": "https://undergroundmathematics.org/quadratics/r9614",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "y=kx intersecting y=(x-1)^2 — one linear, one non-linear; E2.5.5 register.",
+     "note": "y=kx intersecting y=(x-1)^2 — one linear, one non-linear; E2.5.5 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r9614-when-does-y-kx-intersect-the-parabola-y-x-1-2.md"
+    },
+    {
+     "ugmSlug": "r7328",
+     "station": "quadratics",
+     "title": "When is this line a tangent to this parabola?",
+     "url": "https://undergroundmathematics.org/quadratics/r7328",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When is this line a tangent to this parabola — simultaneous linear/non-linear with repeated-root discriminant; E2.5.5 register.",
+     "note": "When is this line a tangent to this parabola — simultaneous linear/non-linear with repeated-root discriminant; E2.5.5 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r7328-when-is-this-line-a-tangent-to-this-parabola.md"
+    },
+    {
+     "ugmSlug": "r9658",
+     "station": "quadratics",
+     "title": "When do these simultaneous equations have no real solutions?",
+     "url": "https://undergroundmathematics.org/quadratics/r9658",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When do these simultaneous equations have no real solutions — the no-intersection arm of E2.5.5.",
+     "note": "When do these simultaneous equations have no real solutions — the no-intersection arm of E2.5.5.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r9658-when-do-these-simultaneous-equations-have-no-real-solutions.md"
+    },
+    {
+     "ugmSlug": "r6797",
+     "station": "thinking-about-algebra",
+     "title": "Can we solve these simultaneous equations of degree 1 and 2?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r6797",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Simultaneous equations of degree 1 and 2 — the E2.5.5 register verbatim.",
+     "note": "Simultaneous equations of degree 1 and 2 — the E2.5.5 register verbatim.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r8158",
+     "station": "thinking-about-algebra",
+     "title": "When do these simultaneous equations have a positive solution?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r8158",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When do these simultaneous equations have a positive solution — E2.5.5 register.",
+     "note": "When do these simultaneous equations have a positive solution — E2.5.5 register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.5.6": {
+   "officialCode": "E2.5.6",
+   "officialText": "\u0007Solve quadratic equations by factorisation, Includes writing a quadratic expression in completing the square and by use of the completed square form. quadratic formula. Candidates may be expected to give solutions in surd form.",
+   "spineTitleVerbatim": "\u0007Solve quadratic equations by factorisation, Includes writing a quadratic expression in completing the square and by use of the completed square form. quadratic formula. Candidates may be expected to give solutions in surd form.",
+   "subtopic": "Equations",
+   "primaryPick": "r6638",
+   "resources": [
+    {
+     "ugmSlug": "quad-solving-sorter",
+     "station": "quadratics",
+     "title": "Quadratic solving sorter",
+     "url": "https://undergroundmathematics.org/quadratics/quad-solving-sorter",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Students sort quadratic equations by the appropriate solution method (factorisation, completing the square, formula) — the E2.5.6 register verbatim.",
+     "note": "Students sort quadratic equations by the appropriate solution method (factorisation, completing the square, formula) — the E2.5.6 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/quad-solving-sorter-quadratic-solving-sorter.md"
+    },
+    {
+     "ugmSlug": "factorisable-quads",
+     "station": "quadratics",
+     "title": "Factorisable quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/factorisable-quads",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Structure of factorisable quadratics with practice in factorisation — the factorisation arm of E2.5.6.",
+     "note": "Structure of factorisable quadratics with practice in factorisation — the factorisation arm of E2.5.6.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/factorisable-quads-factorisable-quadratics.md"
+    },
+    {
+     "ugmSlug": "discriminating",
+     "station": "quadratics",
+     "title": "Discriminating",
+     "url": "https://undergroundmathematics.org/quadratics/discriminating",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Consolidates the discriminant: statements about the number of solutions of a quadratic equation connected to graphs — the solution-nature arm of E2.5.6.",
+     "note": "Consolidates the discriminant: statements about the number of solutions of a quadratic equation connected to graphs — the solution-nature arm of E2.5.6.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/discriminating-discriminating.md"
+    },
+    {
+     "ugmSlug": "irrational-roots",
+     "station": "quadratics",
+     "title": "Irrational roots",
+     "url": "https://undergroundmathematics.org/quadratics/irrational-roots",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Given an irrational (surd) root, work back to the quadratic — the syllabus-verbatim \"solutions in surd form\" register of E2.5.6.",
+     "note": "Given an irrational (surd) root, work back to the quadratic — the syllabus-verbatim \"solutions in surd form\" register of E2.5.6.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/irrational-roots-irrational-roots.md"
+    },
+    {
+     "ugmSlug": "powerful-quads",
+     "station": "quadratics",
+     "title": "Powerful quadratics",
+     "url": "https://undergroundmathematics.org/quadratics/powerful-quads",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Accessible challenge practising quadratics alongside index laws — E2.5.6 at stretch level.",
+     "note": "Accessible challenge practising quadratics alongside index laws — E2.5.6 at stretch level.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/powerful-quads-powerful-quadratics.md"
+    },
+    {
+     "ugmSlug": "r6638",
+     "station": "quadratics",
+     "title": "Can we find both roots if one is double the other?",
+     "url": "https://undergroundmathematics.org/quadratics/r6638",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "One root double the other: form the quadratic from its roots and equate coefficients — solving quadratics via root structure; of-record P1 1.1.3 primary and contrast-pool precedent.",
+     "note": "One root double the other: form the quadratic from its roots and equate coefficients — solving quadratics via root structure; of-record P1 1.1.3 primary and contrast-pool precedent.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r6638-can-we-find-both-roots-if-one-is-double-the-other.md"
+    },
+    {
+     "ugmSlug": "r9742",
+     "station": "quadratics",
+     "title": "Where does $y = px^2 + 8x + p - 6$ cross the $x$-axis?",
+     "url": "https://undergroundmathematics.org/quadratics/r9742",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Where y = px^2+8x+p-6 crosses the x-axis — solve by factorising/discriminant; E2.5.6 register.",
+     "note": "Where y = px^2+8x+p-6 crosses the x-axis — solve by factorising/discriminant; E2.5.6 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r9742-where-does-y-px-2-8x-p-6-cross-the-x-axis.md"
+    },
+    {
+     "ugmSlug": "r9659",
+     "station": "quadratics",
+     "title": "When does $x^2 + ax + a = 1$ have distinct real roots?",
+     "url": "https://undergroundmathematics.org/quadratics/r9659",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Distinct real roots condition for x^2+ax+a=1 — discriminant work inside E2.5.6.",
+     "note": "Distinct real roots condition for x^2+ax+a=1 — discriminant work inside E2.5.6.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r9659-when-does-x-2-ax-a-1-have-distinct-real-roots.md"
+    },
+    {
+     "ugmSlug": "r6828",
+     "station": "quadratics",
+     "title": "When does $x^2+(3k-7)x+(2k+6)=0$ have real roots?",
+     "url": "https://undergroundmathematics.org/quadratics/r6828",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Real-roots condition for x^2+(3k-7)x+(2k+6)=0 — E2.5.6 discriminant register.",
+     "note": "Real-roots condition for x^2+(3k-7)x+(2k+6)=0 — E2.5.6 discriminant register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r6828-when-does-x-2-3k-7-x-2k-6-0-have-real-roots.md"
+    },
+    {
+     "ugmSlug": "r5316",
+     "station": "quadratics",
+     "title": "When does $x^2-4x-1=2k(x-5)$ have equal roots?",
+     "url": "https://undergroundmathematics.org/quadratics/r5316",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Equal roots for x^2-4x-1=2k(x-5) — rearrange then discriminant; E2.5.6 register.",
+     "note": "Equal roots for x^2-4x-1=2k(x-5) — rearrange then discriminant; E2.5.6 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r5316-when-does-x-2-4x-1-2k-x-5-have-equal-roots.md"
+    },
+    {
+     "ugmSlug": "r7455",
+     "station": "quadratics",
+     "title": "When does $(p+1)x^2+4px+9=0$ have a repeated root?",
+     "url": "https://undergroundmathematics.org/quadratics/r7455",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Repeated root condition for (p+1)x^2+4px+9=0 — E2.5.6 register.",
+     "note": "Repeated root condition for (p+1)x^2+4px+9=0 — E2.5.6 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r7455-when-does-p-1-x-2-4px-9-0-have-a-repeated-root.md"
+    },
+    {
+     "ugmSlug": "r5949",
+     "station": "polynomials",
+     "title": "Two values of $x$ that differ by $5$ satisfy $x^2 - 12x + k = 0$, what is $k$?",
+     "url": "https://undergroundmathematics.org/polynomials/r5949",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Two values differing by 5 satisfy x^2-12x+k=0 — gentle root-structure solving; E2.5.6 register.",
+     "note": "Two values differing by 5 satisfy x^2-12x+k=0 — gentle root-structure solving; E2.5.6 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r8812",
+     "station": "quadratics",
+     "title": "Can we show $(b^2 - 2ac)x^2 + 4(a + c)x = 8$ always has real roots?",
+     "url": "https://undergroundmathematics.org/quadratics/r8812",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Show (b^2-2ac)x^2+4(a+c)x=8 always has real roots — discriminant condition work; E2.5.6 register at stretch.",
+     "note": "Show (b^2-2ac)x^2+4(a+c)x=8 always has real roots — discriminant condition work; E2.5.6 register at stretch.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r8812-can-we-show-b-2-2ac-x-2-4-a-c-x-8-always-has-real-roots.md"
+    }
+   ]
+  },
+  "E2.5.7": {
+   "officialCode": "E2.5.7",
+   "officialText": "The quadratic formula is given in the List of formulas. 7 \u0007Change the subject of formulas. e.g. change the subject of a formula where:",
+   "spineTitleVerbatim": "The quadratic formula is given in the List of formulas. 7 \u0007Change the subject of formulas. e.g. change the subject of a formula where:",
+   "subtopic": "Equations",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Change-the-subject has no UGM substrate in the 710-pool (zero signature hits); never manufactured."
+   }
+  },
+  "E2.6.1": {
+   "officialCode": "E2.6.1",
+   "officialText": "\u0007Represent and interpret inequalities, including on When representing and interpreting inequalities on a number line. a number line: e.g.",
+   "spineTitleVerbatim": "\u0007Represent and interpret inequalities, including on When representing and interpreting inequalities on a number line. a number line: e.g.",
+   "subtopic": "Inequalities",
+   "primaryPick": "inequality-flip-flop",
+   "resources": [
+    {
+     "ugmSlug": "two-way-algebra",
+     "station": "thinking-about-algebra",
+     "title": "Two-way algebra",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/two-way-algebra",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The inequality half of the table exhibits what solutions of inequalities look like — E2.6.1 represent/interpret register.",
+     "note": "The inequality half of the table exhibits what solutions of inequalities look like — E2.6.1 represent/interpret register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "inequality-flip-flop",
+     "station": "thinking-about-functions",
+     "title": "Inequality flip-flop",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/inequality-flip-flop",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "How applying functions to inequalities affects the sign — representing and interpreting inequalities; the E2.6.1 register.",
+     "note": "How applying functions to inequalities affects the sign — representing and interpreting inequalities; the E2.6.1 register.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.6.2": {
+   "officialCode": "E2.6.2",
+   "officialText": "Construct, solve and interpret linear inequalities. Examples include:",
+   "spineTitleVerbatim": "Construct, solve and interpret linear inequalities. Examples include:",
+   "subtopic": "Inequalities",
+   "primaryPick": "r5059",
+   "resources": [
+    {
+     "ugmSlug": "inequalities-for-some-occasions",
+     "station": "quadratics",
+     "title": "Inequalities for some occasions",
+     "url": "https://undergroundmathematics.org/quadratics/inequalities-for-some-occasions",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Venn diagram filled with quadratic inequalities satisfying given conditions — construct/solve/interpret quadratic inequalities, the E2.6.2 contrast register.",
+     "note": "Venn diagram filled with quadratic inequalities satisfying given conditions — construct/solve/interpret quadratic inequalities, the E2.6.2 contrast register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/inequalities-for-some-occasions-inequalities-for-some-occasions.md"
+    },
+    {
+     "ugmSlug": "r5059",
+     "station": "quadratics",
+     "title": "When is $12x^2+7x-10$ negative?",
+     "url": "https://undergroundmathematics.org/quadratics/r5059",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When is 12x^2+7x-10 negative — solve and interpret a quadratic inequality; E2.6.2 contrast register verbatim.",
+     "note": "When is 12x^2+7x-10 negative — solve and interpret a quadratic inequality; E2.6.2 contrast register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r5059-when-is-12x-2-7x-10-negative.md"
+    },
+    {
+     "ugmSlug": "r6526",
+     "station": "quadratics",
+     "title": "For what values of $k$ is $x^2 + 6kx +144$ always positive?",
+     "url": "https://undergroundmathematics.org/quadratics/r6526",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "For what k is x^2+6kx+144 always positive — quadratic inequality with discriminant; E2.6.2 register.",
+     "note": "For what k is x^2+6kx+144 always positive — quadratic inequality with discriminant; E2.6.2 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r6526-for-what-values-of-k-is-x-2-6kx-144-always-positive.md"
+    },
+    {
+     "ugmSlug": "r9989",
+     "station": "quadratics",
+     "title": "When are these quadratic inequalities true together?",
+     "url": "https://undergroundmathematics.org/quadratics/r9989",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When are these quadratic inequalities true together — E2.6.2 register.",
+     "note": "When are these quadratic inequalities true together — E2.6.2 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r9989-when-are-these-quadratic-inequalities-true-together.md"
+    },
+    {
+     "ugmSlug": "r6714",
+     "station": "polynomials",
+     "title": "When are  $y < x+1, y+6x < 20, x = 5y-7$ true together?",
+     "url": "https://undergroundmathematics.org/polynomials/r6714",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When are y<x+1, y+6x<20, x=5y-7 true together — linear inequalities solved and interpreted; E2.6.2 register.",
+     "note": "When are y<x+1, y+6x<20, x=5y-7 true together — linear inequalities solved and interpreted; E2.6.2 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r9603",
+     "station": "thinking-about-algebra",
+     "title": "When is the inequality  $x^4<8x^2+9$ satisfied?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r9603",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "When is x^4<8x^2+9 satisfied — a quadratic inequality in x^2; E2.6.2 register at stretch.",
+     "note": "When is x^4<8x^2+9 satisfied — a quadratic inequality in x^2; E2.6.2 register at stretch.",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.6.3": {
+   "officialCode": "E2.6.3",
+   "officialText": "\u0007Represent and interpret linear inequalities in two The following conventions should be used: variables graphically. e.g.",
+   "spineTitleVerbatim": "\u0007Represent and interpret linear inequalities in two The following conventions should be used: variables graphically. e.g.",
+   "subtopic": "Inequalities",
+   "primaryPick": "r7320",
+   "resources": [
+    {
+     "ugmSlug": "inequalities",
+     "station": "polynomials",
+     "title": "Inequality sets",
+     "url": "https://undergroundmathematics.org/polynomials/inequalities",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Fill a table where each row holds a solution set, a graph and an inequality — representing inequalities graphically; E2.6.3 register.",
+     "note": "Fill a table where each row holds a solution set, a graph and an inequality — representing inequalities graphically; E2.6.3 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-3-algebra/inequalities-inequality-sets.md"
+    },
+    {
+     "ugmSlug": "r7320",
+     "station": "geometry-of-equations",
+     "title": "Can we illustrate this pair of inequalities on a graph?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r7320",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Illustrate this pair of inequalities on a graph — the E2.6.3 register verbatim.",
+     "note": "Illustrate this pair of inequalities on a graph — the E2.6.3 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r7320-can-we-illustrate-this-pair-of-inequalities-on-a-graph.md"
+    }
+   ]
+  },
+  "E2.6.4": {
+   "officialCode": "E2.6.4",
+   "officialText": "List inequalities that define a given region. Linear programming problems are",
+   "spineTitleVerbatim": "List inequalities that define a given region. Linear programming problems are",
+   "subtopic": "Inequalities",
+   "primaryPick": "r5737",
+   "resources": [
+    {
+     "ugmSlug": "r5737",
+     "station": "geometry-of-equations",
+     "title": "Which four inequalities define this region?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r5737",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Which four inequalities define this region — the E2.6.4 list-inequalities register verbatim.",
+     "note": "Which four inequalities define this region — the E2.6.4 list-inequalities register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r5737-which-four-inequalities-define-this-region.md"
+    },
+    {
+     "ugmSlug": "r8408",
+     "station": "geometry-of-equations",
+     "title": "Can we find the three inequalities that define this region?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r8408",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Find the three inequalities that define this region — E2.6.4 register.",
+     "note": "Find the three inequalities that define this region — E2.6.4 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r8408-can-we-find-the-three-inequalities-that-define-this-region.md"
+    },
+    {
+     "ugmSlug": "r5281",
+     "station": "geometry-of-equations",
+     "title": "Can we find an integer solution to three simultaneous inequalities?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r5281",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Find an integer solution to three simultaneous inequalities — region listing and reading; E2.6.4 register.",
+     "note": "Find an integer solution to three simultaneous inequalities — region listing and reading; E2.6.4 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r5281-can-we-find-an-integer-solution-to-three-simultaneous-inequalities.md"
+    },
+    {
+     "ugmSlug": "r9709",
+     "station": "geometry-of-equations",
+     "title": "What is the largest $x$ to satisfy these three inequalities?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r9709",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Largest x satisfying three inequalities — optimisation over a defined region; the E2.6.4 linear-programming-adjacent register.",
+     "note": "Largest x satisfying three inequalities — optimisation over a defined region; the E2.6.4 linear-programming-adjacent register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r9709-what-is-the-largest-x-to-satisfy-these-three-inequalities.md"
+    },
+    {
+     "ugmSlug": "r7642",
+     "station": "geometry-of-equations",
+     "title": "Can we maximise the profit for this tractor-making business?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r7642",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Maximise the profit of a tractor-making business — linear programming with an objective over a region; E2.6.4 register verbatim (linear programming problems).",
+     "note": "Maximise the profit of a tractor-making business — linear programming with an objective over a region; E2.6.4 register verbatim (linear programming problems).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r7642-can-we-maximise-the-profit-for-this-tractor-making-business.md"
+    }
+   ]
+  },
+  "E2.7.1": {
+   "officialCode": "E2.7.1",
+   "officialText": "Continue a given number sequence or pattern. Subscript notation may be used, e.g. term of sequence",
+   "spineTitleVerbatim": "Continue a given number sequence or pattern. Subscript notation may be used, e.g. term of sequence",
+   "subtopic": "Sequences",
+   "primaryPick": "sort-it-out",
+   "resources": [
+    {
+     "ugmSlug": "sort-it-out",
+     "station": "sequences",
+     "title": "Sort it out",
+     "url": "https://undergroundmathematics.org/sequences/sort-it-out",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Sorting and continuing sequence examples — the E2.7.1 continue-a-sequence register.",
+     "note": "Sorting and continuing sequence examples — the E2.7.1 continue-a-sequence register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-series/sort-it-out-sort-it-out.md"
+    }
+   ]
+  },
+  "E2.7.2": {
+   "officialCode": "E2.7.2",
+   "officialText": "\u0007Recognise patterns in sequences, including the Includes linear, quadratic, cubic and exponential term-to-term rule, and relationships between sequences and simple combinations of these. different sequences.",
+   "spineTitleVerbatim": "\u0007Recognise patterns in sequences, including the Includes linear, quadratic, cubic and exponential term-to-term rule, and relationships between sequences and simple combinations of these. different sequences.",
+   "subtopic": "Sequences",
+   "primaryPick": "sort-it-out",
+   "resources": [
+    {
+     "ugmSlug": "sort-it-out",
+     "station": "sequences",
+     "title": "Sort it out",
+     "url": "https://undergroundmathematics.org/sequences/sort-it-out",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Recognise properties of different sequences and build classifications — the E2.7.2 pattern-recognition register verbatim (linear/quadratic/cubic/exponential families).",
+     "note": "Recognise properties of different sequences and build classifications — the E2.7.2 pattern-recognition register verbatim (linear/quadratic/cubic/exponential families).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-series/sort-it-out-sort-it-out.md"
+    },
+    {
+     "ugmSlug": "bouncing-to-nothing",
+     "station": "sequences",
+     "title": "Bouncing to nothing",
+     "url": "https://undergroundmathematics.org/sequences/bouncing-to-nothing",
+     "resourceType": "Rich example",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Bouncing-ball heights form a decaying exponential pattern explored through sequences — the exponential-patterns arm of E2.7.2. UGM-SCOPE-1 disclosure: this is the sequences-station embodiment of the 13-resource mechanics register; the mechanics frame is disclosed and the alignment claims only the sequence-pattern content.",
+     "note": "Bouncing-ball heights form a decaying exponential pattern explored through sequences — the exponential-patterns arm of E2.7.2. UGM-SCOPE-1 disclosure: this is the sequences-station embodiment of the 13-resource mechanics register; the mechanics frame is disclosed and the alignment claims only the sequence-pattern content.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-series/bouncing-to-nothing-bouncing-to-nothing.md"
+    }
+   ]
+  },
+  "E2.7.3": {
+   "officialCode": "E2.7.3",
+   "officialText": "Find and use the n th term of sequences.",
+   "spineTitleVerbatim": "Find and use the n th term of sequences.",
+   "subtopic": "Sequences",
+   "primaryPick": "change-one-thing",
+   "resources": [
+    {
+     "ugmSlug": "change-one-thing",
+     "station": "sequences",
+     "title": "Change one thing",
+     "url": "https://undergroundmathematics.org/sequences/change-one-thing",
+     "resourceType": "Rich example",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Different ways to solve an arithmetic-sequences question and what changes when one aspect changes — nth-term and term-to-term rule work; E2.7.3 register.",
+     "note": "Different ways to solve an arithmetic-sequences question and what changes when one aspect changes — nth-term and term-to-term rule work; E2.7.3 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-series/change-one-thing-change-one-thing.md"
+    }
+   ]
+  },
+  "E2.8.1": {
+   "officialCode": "E2.8.1",
+   "officialText": "Express direct and inverse proportion in algebraic Includes linear, square, square root, cube and cube terms and use this form of expression to find root proportion. unknown quantities. Knowledge of proportional symbol (",
+   "spineTitleVerbatim": "Express direct and inverse proportion in algebraic Includes linear, square, square root, cube and cube terms and use this form of expression to find root proportion. unknown quantities. Knowledge of proportional symbol (",
+   "subtopic": "Proportion",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Algebraic proportion has no non-calculus UGM substrate (proportion signatures resolve only to calculus/trig/geometry stations)."
+   }
+  },
+  "E2.9.1": {
+   "officialCode": "E2.9.1",
+   "officialText": "\u0007Use and interpret graphs in practical situations Includes estimation and interpretation of the including travel graphs and conversion graphs. gradient of a tangent at a point.",
+   "spineTitleVerbatim": "\u0007Use and interpret graphs in practical situations Includes estimation and interpretation of the including travel graphs and conversion graphs. gradient of a tangent at a point.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": "picture-the-process-ii",
+   "resources": [
+    {
+     "ugmSlug": "picture-the-process-i",
+     "station": "thinking-about-functions",
+     "title": "Picture the process I",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/picture-the-process-i",
+     "resourceType": "Food for thought",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Relate real-life situations to algebraic models via graphical representations — E2.9.1 use and interpret graphs in practical situations.",
+     "note": "Relate real-life situations to algebraic models via graphical representations — E2.9.1 use and interpret graphs in practical situations.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "picture-the-process-ii",
+     "station": "combining-functions",
+     "title": "Picture the process II",
+     "url": "https://undergroundmathematics.org/combining-functions/picture-the-process-ii",
+     "resourceType": "Food for thought",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Sketch graphs and match them to descriptions of real-world physical processes, then equations — the E2.9.1 practical-graphs register verbatim (travel-graph family).",
+     "note": "Sketch graphs and match them to descriptions of real-world physical processes, then equations — the E2.9.1 practical-graphs register verbatim (travel-graph family).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/picture-the-process-ii-picture-the-process-ii.md"
+    }
+   ]
+  },
+  "E2.9.2": {
+   "officialCode": "E2.9.2",
+   "officialText": "\u0007Draw graphs from given data.",
+   "spineTitleVerbatim": "\u0007Draw graphs from given data.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Draw graphs from given data: no non-calculus substrate (worth-1000-words serves E2.11.1 sketching-from-equations, not data-plotting)."
+   }
+  },
+  "E2.9.3": {
+   "officialCode": "E2.9.3",
+   "officialText": "\u0007Apply the idea of rate of change to simple kinematics involving distance–time and speed–time graphs, acceleration and deceleration.",
+   "spineTitleVerbatim": "\u0007Apply the idea of rate of change to simple kinematics involving distance–time and speed–time graphs, acceleration and deceleration.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "subject-exclusion + UGM-SCOPE-1",
+    "note": "Kinematics graphs: the only substrate is the introducing-calculus v-t trio (UGM-SCOPE-1 register) — excluded from this plane by subject per DECISION-0580 §1; companion disclosures filed, zero aligned rows."
+   }
+  },
+  "E2.9.4": {
+   "officialCode": "E2.9.4",
+   "officialText": "\u0007Calculate distance travelled as area under a Areas will involve linear sections of the graph only. speed–time graph.",
+   "spineTitleVerbatim": "\u0007Calculate distance travelled as area under a Areas will involve linear sections of the graph only. speed–time graph.",
+   "subtopic": "Graphs in practical situations",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "subject-exclusion + UGM-SCOPE-1",
+    "note": "Area under speed-time graphs: same subject-exclusion law; the v-t area substrate (walk-sorting et al.) is calculus-station; companion disclosures filed, zero aligned rows."
+   }
+  },
+  "E2.10.1": {
+   "officialCode": "E2.10.1",
+   "officialText": "\u0007Construct tables of values, and draw, recognise Examples include: and interpret graphs for functions of the following • forms: these): • ax (includes sums of no more than three of • ab + c",
+   "spineTitleVerbatim": "\u0007Construct tables of values, and draw, recognise Examples include: and interpret graphs for functions of the following • forms: these): • ax (includes sums of no more than three of • ab + c",
+   "subtopic": "Graphs of functions",
+   "primaryPick": "r8775",
+   "resources": [
+    {
+     "ugmSlug": "r8775",
+     "station": "quadratics",
+     "title": "Can we fit a quadratic to this given data?",
+     "url": "https://undergroundmathematics.org/quadratics/r8775",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Fit a quadratic to given data — construct tables of values and draw/interpret the quadratic graph; E2.10.1 register (ax^2 forms).",
+     "note": "Fit a quadratic to given data — construct tables of values and draw/interpret the quadratic graph; E2.10.1 register (ax^2 forms).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r8775-can-we-fit-a-quadratic-to-this-given-data.md"
+    },
+    {
+     "ugmSlug": "function-builder-i",
+     "station": "combining-functions",
+     "title": "Function builder I",
+     "url": "https://undergroundmathematics.org/combining-functions/function-builder-i",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Combine pairs of functions by adding, subtracting and multiplying — the sums-of-forms register of E2.10.1 (includes sums of no more than three of the listed forms).",
+     "note": "Combine pairs of functions by adding, subtracting and multiplying — the sums-of-forms register of E2.10.1 (includes sums of no more than three of the listed forms).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/function-builder-i-function-builder-i.md"
+    },
+    {
+     "ugmSlug": "straight-line-pairs",
+     "station": "geometry-of-equations",
+     "title": "Straight line pairs",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/straight-line-pairs",
+     "resourceType": "Investigation",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Find a pair of straight lines from gradient/intercept constraints — the linear-form register of E2.10.1 (ax+b).",
+     "note": "Find a pair of straight lines from gradient/intercept constraints — the linear-form register of E2.10.1 (ax+b).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/straight-line-pairs-straight-line-pairs.md"
+    },
+    {
+     "ugmSlug": "describing-straight-lines",
+     "station": "geometry-of-equations",
+     "title": "Straight lines",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/describing-straight-lines",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Decide which equations and conditions describe a straight line — the linear-form register of E2.10.1.",
+     "note": "Decide which equations and conditions describe a straight line — the linear-form register of E2.10.1.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/describing-straight-lines-straight-lines.md"
+    },
+    {
+     "ugmSlug": "lots-of-lines",
+     "station": "geometry-of-equations",
+     "title": "Lots of lines!",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/lots-of-lines",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Match straight-line equations by criteria incl. parallel/perpendicular — E2.10.1 register.",
+     "note": "Match straight-line equations by criteria incl. parallel/perpendicular — E2.10.1 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/lots-of-lines-lots-of-lines.md"
+    },
+    {
+     "ugmSlug": "spot-the-difference",
+     "station": "geometry-of-equations",
+     "title": "Spot the difference",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/spot-the-difference",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Six equations appearing as only two straight lines — linear-form reading; E2.10.1 register.",
+     "note": "Six equations appearing as only two straight lines — linear-form reading; E2.10.1 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/spot-the-difference-spot-the-difference.md"
+    }
+   ]
+  },
+  "E2.10.1a": {
+   "officialCode": "E2.10.1a",
+   "officialText": "1 , \u0007where n = –2 , –1 , − , 0 , 1 , 2 , 3 ; a and c are",
+   "spineTitleVerbatim": "1 , \u0007where n = –2 , –1 , − , 0 , 1 , 2 , 3 ; a and c are",
+   "subtopic": "Graphs of functions",
+   "primaryPick": null,
+   "resources": [
+    {
+     "ugmSlug": "function-squares",
+     "station": "thinking-about-functions",
+     "title": "Function squares",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/function-squares",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The reciprocal-form cards (a/x^n family) ride the same library — the E2.10.1a synthetic-suffix fragment row (parse continuation of E2.10.1’s forms list) closes on the same substrate.",
+     "note": "The reciprocal-form cards (a/x^n family) ride the same library — the E2.10.1a synthetic-suffix fragment row (parse continuation of E2.10.1’s forms list) closes on the same substrate.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r5868",
+     "station": "combining-functions",
+     "title": "Can we identify the right sketch graph of this reciprocal function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5868",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The reciprocal-function identification is the a/x^n form-work of the E2.10.1a fragment row.",
+     "note": "The reciprocal-function identification is the a/x^n form-work of the E2.10.1a fragment row.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/r5868-can-we-identify-the-right-sketch-graph-of-this-reciprocal-functi.md"
+    }
+   ]
+  },
+  "E2.10.2": {
+   "officialCode": "E2.10.2",
+   "officialText": "2 rational numbers; and b is a positive integer. 2 \u0007Solve associated equations graphically, including e.g. finding the intersection of a line and a curve. finding and interpreting roots by graphical methods.",
+   "spineTitleVerbatim": "2 rational numbers; and b is a positive integer. 2 \u0007Solve associated equations graphically, including e.g. finding the intersection of a line and a curve. finding and interpreting roots by graphical methods.",
+   "subtopic": "Graphs of functions",
+   "primaryPick": "r7296",
+   "resources": [
+    {
+     "ugmSlug": "r5287",
+     "station": "quadratics",
+     "title": "When does $y=mx-5$ intersect $y=x^2-1$  twice?",
+     "url": "https://undergroundmathematics.org/quadratics/r5287",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The intersection count is a graphical property — roots by graphical method register of E2.10.2.",
+     "note": "The intersection count is a graphical property — roots by graphical method register of E2.10.2.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r5287-when-does-y-mx-5-intersect-y-x-2-1-twice.md"
+    },
+    {
+     "ugmSlug": "r7328",
+     "station": "quadratics",
+     "title": "When is this line a tangent to this parabola?",
+     "url": "https://undergroundmathematics.org/quadratics/r7328",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Tangency as a graphical intersection property — E2.10.2 register.",
+     "note": "Tangency as a graphical intersection property — E2.10.2 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r7328-when-is-this-line-a-tangent-to-this-parabola.md"
+    },
+    {
+     "ugmSlug": "r7296",
+     "station": "geometry-of-equations",
+     "title": "Can we plot this graph and use it to solve two equations?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r7296",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Plot this graph and use it to solve two equations — graphical solution of equations; the E2.10.2 register verbatim.",
+     "note": "Plot this graph and use it to solve two equations — graphical solution of equations; the E2.10.2 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r7296-can-we-plot-this-graph-and-use-it-to-solve-two-equations.md"
+    }
+   ]
+  },
+  "E2.10.3": {
+   "officialCode": "E2.10.3",
+   "officialText": "\u0007Draw and interpret graphs representing exponential growth and decay problems.",
+   "spineTitleVerbatim": "\u0007Draw and interpret graphs representing exponential growth and decay problems.",
+   "subtopic": "Graphs of functions",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "thin-tail",
+    "note": "Exponential growth/decay graphs: exp-and-log substrate is A-level ln/e^x beyond the 0580 register; no gentle real-world growth substrate exists corpus-wide."
+   }
+  },
+  "E2.11.1": {
+   "officialCode": "E2.11.1",
+   "officialText": "Recognise, sketch and interpret graphs of the Functions will be equivalent to: following functions: • (a) linear • (b) quadratic • (c) cubic • (d) reciprocal (e) exponential. where rational, positive number.",
+   "spineTitleVerbatim": "Recognise, sketch and interpret graphs of the Functions will be equivalent to: following functions: • (a) linear • (b) quadratic • (c) cubic • (d) reciprocal (e) exponential. where rational, positive number.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "function-squares",
+   "resources": [
+    {
+     "ugmSlug": "name-that-graph",
+     "station": "quadratics",
+     "title": "Name that graph",
+     "url": "https://undergroundmathematics.org/quadratics/name-that-graph",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Different forms of a quadratic equation related to the quadratic graph — E2.11.1(b) quadratic form recognition.",
+     "note": "Different forms of a quadratic equation related to the quadratic graph — E2.11.1(b) quadratic form recognition.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/name-that-graph-name-that-graph.md"
+    },
+    {
+     "ugmSlug": "which-quadratic",
+     "station": "quadratics",
+     "title": "Which quadratic?",
+     "url": "https://undergroundmathematics.org/quadratics/which-quadratic",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Students move between graph and equation in several forms to identify the chosen quadratic — E2.11.1(b) register.",
+     "note": "Students move between graph and equation in several forms to identify the chosen quadratic — E2.11.1(b) register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/which-quadratic-which-quadratic.md"
+    },
+    {
+     "ugmSlug": "which-parabola",
+     "station": "quadratics",
+     "title": "Which parabola?",
+     "url": "https://undergroundmathematics.org/quadratics/which-parabola",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "How the equation of a parabola relates to its appearance — E2.11.1(b) register.",
+     "note": "How the equation of a parabola relates to its appearance — E2.11.1(b) register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/which-parabola-which-parabola.md"
+    },
+    {
+     "ugmSlug": "r9742",
+     "station": "quadratics",
+     "title": "Where does $y = px^2 + 8x + p - 6$ cross the $x$-axis?",
+     "url": "https://undergroundmathematics.org/quadratics/r9742",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The crossing points are read on the parabola — graph-equation link of E2.11.1(b).",
+     "note": "The crossing points are read on the parabola — graph-equation link of E2.11.1(b).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r9742-where-does-y-px-2-8x-p-6-cross-the-x-axis.md"
+    },
+    {
+     "ugmSlug": "r6612",
+     "station": "polynomials",
+     "title": "Can we sketch the graph $y=x^3-x^2-x+1$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6612",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Sketch y=x^3-x^2-x+1 — the E2.11.1(c) cubic form register verbatim.",
+     "note": "Sketch y=x^3-x^2-x+1 — the E2.11.1(c) cubic form register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-3-algebra/r6612-can-we-sketch-the-graph-yx3-x2-x1.md"
+    },
+    {
+     "ugmSlug": "can-you-find-cubic-edition",
+     "station": "polynomials",
+     "title": "Can you find... cubic edition",
+     "url": "https://undergroundmathematics.org/polynomials/can-you-find-cubic-edition",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Constraints on where cubics cross the axes; produce possible equations — E2.11.1(c) register.",
+     "note": "Constraints on where cubics cross the axes; produce possible equations — E2.11.1(c) register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-3-algebra/can-you-find-cubic-edition-can-you-find...-cubic-edition.md"
+    },
+    {
+     "ugmSlug": "r6317",
+     "station": "polynomials",
+     "title": "Can we sketch the graph of $y = (4x-1)/(x+5)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6317",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Sketch y=(4x-1)/(x+5) — the reciprocal-form hyperbola family of E2.11.1(d).",
+     "note": "Sketch y=(4x-1)/(x+5) — the reciprocal-form hyperbola family of E2.11.1(d).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-3-algebra/r6317-can-we-sketch-the-graph-of-y-4x-1-x5.md"
+    },
+    {
+     "ugmSlug": "function-squares",
+     "station": "thinking-about-functions",
+     "title": "Function squares",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/function-squares",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "A basic library of functions as graphs/equations cards — recognise and interpret the linear/quadratic/cubic/reciprocal/exponential forms; the E2.11.1 register verbatim.",
+     "note": "A basic library of functions as graphs/equations cards — recognise and interpret the linear/quadratic/cubic/reciprocal/exponential forms; the E2.11.1 register verbatim.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "curve-match",
+     "station": "thinking-about-functions",
+     "title": "Curve match",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/curve-match",
+     "resourceType": "Food for thought",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Graphs of powers of x and related functions matched to equations — E2.11.1 form-recognition register.",
+     "note": "Graphs of powers of x and related functions matched to equations — E2.11.1 form-recognition register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "worth-1000-words",
+     "station": "thinking-about-functions",
+     "title": "Worth 1000 words",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/worth-1000-words",
+     "resourceType": "Scaffolded task",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "How the equation of a function informs the features of its graph; choose the best sketch — E2.11.1 recognise/interpret register.",
+     "note": "How the equation of a function informs the features of its graph; choose the best sketch — E2.11.1 recognise/interpret register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r5868",
+     "station": "combining-functions",
+     "title": "Can we identify the right sketch graph of this reciprocal function?",
+     "url": "https://undergroundmathematics.org/combining-functions/r5868",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Identify the right sketch of a reciprocal function — E2.11.1(d) register.",
+     "note": "Identify the right sketch of a reciprocal function — E2.11.1(d) register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/r5868-can-we-identify-the-right-sketch-graph-of-this-reciprocal-functi.md"
+    },
+    {
+     "ugmSlug": "r7757",
+     "station": "geometry-of-equations",
+     "title": "Can we match this equation to its graph?",
+     "url": "https://undergroundmathematics.org/geometry-of-equations/r7757",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Match this equation to its graph — E2.11.1 recognition register.",
+     "note": "Match this equation to its graph — E2.11.1 recognition register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-coordinate-geometry/r7757-can-we-match-this-equation-to-its-graph.md"
+    }
+   ]
+  },
+  "E2.11.2": {
+   "officialCode": "E2.11.2",
+   "officialText": "Knowledge of turning points, roots and symmetry is required.",
+   "spineTitleVerbatim": "Knowledge of turning points, roots and symmetry is required.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "quad-symmetry",
+   "resources": [
+    {
+     "ugmSlug": "pick-a-card",
+     "station": "quadratics",
+     "title": "Pick a card...",
+     "url": "https://undergroundmathematics.org/quadratics/pick-a-card",
+     "resourceType": "Fluency exercise",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Toggle cards reveal properties of a quadratic (roots, vertex, axis of symmetry) and students complete the rest — E2.11.2 turning points, roots and symmetry.",
+     "note": "Toggle cards reveal properties of a quadratic (roots, vertex, axis of symmetry) and students complete the rest — E2.11.2 turning points, roots and symmetry.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/pick-a-card-pick-a-card.md"
+    },
+    {
+     "ugmSlug": "quad-symmetry",
+     "station": "quadratics",
+     "title": "Quadratic symmetry",
+     "url": "https://undergroundmathematics.org/quadratics/quad-symmetry",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Are all quadratic graphs symmetrical? — a convincing-argument task on quadratic symmetry; E2.11.2 symmetry register verbatim.",
+     "note": "Are all quadratic graphs symmetrical? — a convincing-argument task on quadratic symmetry; E2.11.2 symmetry register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/quad-symmetry-quadratic-symmetry.md"
+    },
+    {
+     "ugmSlug": "r6756",
+     "station": "quadratics",
+     "title": "Given the minimum point, what's this parabola's equation?",
+     "url": "https://undergroundmathematics.org/quadratics/r6756",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The minimum/turning point and symmetry structure — E2.11.2 register.",
+     "note": "The minimum/turning point and symmetry structure — E2.11.2 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r6756-given-the-minimum-point-what-s-this-parabola-s-equation.md"
+    }
+   ]
+  },
+  "E2.11.3": {
+   "officialCode": "E2.11.3",
+   "officialText": "Knowledge of vertical and horizontal asymptotes is required.",
+   "spineTitleVerbatim": "Knowledge of vertical and horizontal asymptotes is required.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "can-you-find-asymptote-edition",
+   "resources": [
+    {
+     "ugmSlug": "r6317",
+     "station": "polynomials",
+     "title": "Can we sketch the graph of $y = (4x-1)/(x+5)$?",
+     "url": "https://undergroundmathematics.org/polynomials/r6317",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The vertical/horizontal asymptotes of the hyperbola carry the sketch — E2.11.3 register.",
+     "note": "The vertical/horizontal asymptotes of the hyperbola carry the sketch — E2.11.3 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-3-algebra/r6317-can-we-sketch-the-graph-of-y-4x-1-x5.md"
+    },
+    {
+     "ugmSlug": "can-you-find-asymptote-edition",
+     "station": "polynomials",
+     "title": "Can you find... asymptote edition",
+     "url": "https://undergroundmathematics.org/polynomials/can-you-find-asymptote-edition",
+     "resourceType": "Many ways problem",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Given a graph, produce a function whose graph has those features — asymptote features front and centre; the E2.11.3 register verbatim.",
+     "note": "Given a graph, produce a function whose graph has those features — asymptote features front and centre; the E2.11.3 register verbatim.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "two-way-functions",
+     "station": "thinking-about-functions",
+     "title": "Two-way functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/two-way-functions",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The asymptote half of the property work — E2.11.3 register.",
+     "note": "The asymptote half of the property work — E2.11.3 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "approaching-asymptotes",
+     "station": "thinking-about-functions",
+     "title": "Approaching asymptotes",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/approaching-asymptotes",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Algebra-free build-up of what asymptotes are, from y=1/x outward — the E2.11.3 register (vertical and horizontal asymptotes).",
+     "note": "Algebra-free build-up of what asymptotes are, from y=1/x outward — the E2.11.3 register (vertical and horizontal asymptotes).",
+     "rowKind": "fresh"
+    }
+   ]
+  },
+  "E2.11.4": {
+   "officialCode": "E2.11.4",
+   "officialText": "Finding turning points of quadratics by completing the square is required.",
+   "spineTitleVerbatim": "Finding turning points of quadratics by completing the square is required.",
+   "subtopic": "Sketching curves",
+   "primaryPick": "r6756",
+   "resources": [
+    {
+     "ugmSlug": "paired-parabolas",
+     "station": "quadratics",
+     "title": "Paired parabolas",
+     "url": "https://undergroundmathematics.org/quadratics/paired-parabolas",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The symmetry/completed-square pairings expose vertex form — E2.11.4 turning points via completing the square.",
+     "note": "The symmetry/completed-square pairings expose vertex form — E2.11.4 turning points via completing the square.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/paired-parabolas-paired-parabolas.md"
+    },
+    {
+     "ugmSlug": "quad-symmetry",
+     "station": "quadratics",
+     "title": "Quadratic symmetry",
+     "url": "https://undergroundmathematics.org/quadratics/quad-symmetry",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The symmetry argument runs through the vertex — E2.11.4 completing-the-square turning points.",
+     "note": "The symmetry argument runs through the vertex — E2.11.4 completing-the-square turning points.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/quad-symmetry-quadratic-symmetry.md"
+    },
+    {
+     "ugmSlug": "r6756",
+     "station": "quadratics",
+     "title": "Given the minimum point, what's this parabola's equation?",
+     "url": "https://undergroundmathematics.org/quadratics/r6756",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Given the minimum point, find the parabola equation — turning points of quadratics via completing the square; E2.11.4 register verbatim.",
+     "note": "Given the minimum point, find the parabola equation — turning points of quadratics via completing the square; E2.11.4 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-quadratics/r6756-given-the-minimum-point-what-s-this-parabola-s-equation.md"
+    }
+   ]
+  },
+  "E2.12.1": {
+   "officialCode": "E2.12.1",
+   "officialText": "\u0007Estimate gradients of curves by drawing tangents.",
+   "spineTitleVerbatim": "\u0007Estimate gradients of curves by drawing tangents.",
+   "subtopic": "Differentiation",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Differentiation intro: the only substrate is the five calculus stations, excluded from this plane by subject per DECISION-0580 §1; the spine carries E2.12 inside TE2 and the lane closes all five points honest-empty on that law."
+   }
+  },
+  "E2.12.2": {
+   "officialCode": "E2.12.2",
+   "officialText": "\u0007Use the derivatives of functions of the form ax , where a is a rational constant and n is a positive integer or zero, and simple sums of not more than three of these.",
+   "spineTitleVerbatim": "\u0007Use the derivatives of functions of the form ax , where a is a rational constant and n is a positive integer or zero, and simple sums of not more than three of these.",
+   "subtopic": "Differentiation",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Derivatives of ax^n: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.12.3": {
+   "officialCode": "E2.12.3",
+   "officialText": "\u0007Apply differentiation to gradients and stationary points (turning points).",
+   "spineTitleVerbatim": "\u0007Apply differentiation to gradients and stationary points (turning points).",
+   "subtopic": "Differentiation",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Gradients/stationary points: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.12.4": {
+   "officialCode": "E2.12.4",
+   "officialText": "\u0007Discriminate between maxima and minima by Maximum and minimum points may be identified by: any method. •",
+   "spineTitleVerbatim": "\u0007Discriminate between maxima and minima by Maximum and minimum points may be identified by: any method. •",
+   "subtopic": "Differentiation",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Maxima/minima discrimination: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.12.5": {
+   "officialCode": "E2.12.5",
+   "officialText": "Candidates are inflection.",
+   "spineTitleVerbatim": "Candidates are inflection.",
+   "subtopic": "Differentiation",
+   "primaryPick": null,
+   "resources": [],
+   "honestEmpty": {
+    "law": "subject-exclusion",
+    "note": "Second derivatives/inflection: calculus-station substrate only — subject-excluded; honest-empty."
+   }
+  },
+  "E2.13.1": {
+   "officialCode": "E2.13.1",
+   "officialText": "\u0007Understand functions, domain and range and use function notation.",
+   "spineTitleVerbatim": "\u0007Understand functions, domain and range and use function notation.",
+   "subtopic": "Functions",
+   "primaryPick": "domain-and-range-dominoes",
+   "resources": [
+    {
+     "ugmSlug": "domain-and-range-dominoes",
+     "station": "combining-functions",
+     "title": "Domain and range dominoes",
+     "url": "https://undergroundmathematics.org/combining-functions/domain-and-range-dominoes",
+     "resourceType": "Fluency exercise",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Card sort on what domain and range mean and how to express them precisely — the E2.13.1 register verbatim.",
+     "note": "Card sort on what domain and range mean and how to express them precisely — the E2.13.1 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/domain-and-range-dominoes-domain-and-range-dominoes.md"
+    },
+    {
+     "ugmSlug": "forming-functions-defining-domains",
+     "station": "combining-functions",
+     "title": "Forming functions — defining domains",
+     "url": "https://undergroundmathematics.org/combining-functions/forming-functions-defining-domains",
+     "resourceType": "Building blocks",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Define several functions from one rule by choosing domains; observe range effects — E2.13.1 register (domain/range/notation).",
+     "note": "Define several functions from one rule by choosing domains; observe range effects — E2.13.1 register (domain/range/notation).",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/forming-functions-defining-domains-forming-functions-defining-domains.md"
+    },
+    {
+     "ugmSlug": "what-relation-are-you",
+     "station": "thinking-about-functions",
+     "title": "What relation are you?",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/what-relation-are-you",
+     "resourceType": "Rich example",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Relations vs functions via one-to-one/one-to-many diagrams — introduces function definition and notation; E2.13.1 register.",
+     "note": "Relations vs functions via one-to-one/one-to-many diagrams — introduces function definition and notation; E2.13.1 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "mapping-a-function",
+     "station": "thinking-about-functions",
+     "title": "Mapping a function",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/mapping-a-function",
+     "resourceType": "Package of problems",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Mapping diagrams to visualise functions — E2.13.1 register.",
+     "note": "Mapping diagrams to visualise functions — E2.13.1 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "two-way-functions",
+     "station": "thinking-about-functions",
+     "title": "Two-way functions",
+     "url": "https://undergroundmathematics.org/thinking-about-functions/two-way-functions",
+     "resourceType": "Many ways problem",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Explore understanding of roots and asymptotes of functions via shared properties — function property language; E2.13.1 register.",
+     "note": "Explore understanding of roots and asymptotes of functions via shared properties — function property language; E2.13.1 register.",
+     "rowKind": "fresh"
+    },
+    {
+     "ugmSlug": "r9523",
+     "station": "combining-functions",
+     "title": "Which of these function statements are true?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9523",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Which of these function statements are true — function notation fluency; E2.13.1 register.",
+     "note": "Which of these function statements are true — function notation fluency; E2.13.1 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/r9523-which-of-these-function-statements-are-true.md"
+    }
+   ]
+  },
+  "E2.13.2": {
+   "officialCode": "E2.13.2",
+   "officialText": "\u0007Understand and find inverse functions f ( x ) .",
+   "spineTitleVerbatim": "\u0007Understand and find inverse functions f ( x ) .",
+   "subtopic": "Functions",
+   "primaryPick": "making-inverse-functions",
+   "resources": [
+    {
+     "ugmSlug": "making-inverse-functions",
+     "station": "combining-functions",
+     "title": "Making inverse functions",
+     "url": "https://undergroundmathematics.org/combining-functions/making-inverse-functions",
+     "resourceType": "Scaffolded task",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "The algebraic process of finding an inverse function, with domain restriction for invertibility — the E2.13.2 register verbatim.",
+     "note": "The algebraic process of finding an inverse function, with domain restriction for invertibility — the E2.13.2 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/making-inverse-functions-making-inverse-functions.md"
+    },
+    {
+     "ugmSlug": "invertibles",
+     "station": "combining-functions",
+     "title": "Invertibles",
+     "url": "https://undergroundmathematics.org/combining-functions/invertibles",
+     "resourceType": "Building blocks",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Pair functions with their inverses; match graphs and sketch missing curves — E2.13.2 register.",
+     "note": "Pair functions with their inverses; match graphs and sketch missing curves — E2.13.2 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/invertibles-invertibles.md"
+    }
+   ]
+  },
+  "E2.13.3": {
+   "officialCode": "E2.13.3",
+   "officialText": "\u0007Form composite functions as defined by",
+   "spineTitleVerbatim": "\u0007Form composite functions as defined by",
+   "subtopic": "Functions",
+   "primaryPick": "compose",
+   "resources": [
+    {
+     "ugmSlug": "compose",
+     "station": "combining-functions",
+     "title": "Compose!",
+     "url": "https://undergroundmathematics.org/combining-functions/compose",
+     "resourceType": "Package of problems",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "note": "Four functions composed to create a given set of six new functions — the E2.13.3 register verbatim.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/compose-compose.md"
+    },
+    {
+     "ugmSlug": "r9527",
+     "station": "combining-functions",
+     "title": "Can we compose two simple functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r9527",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "note": "Compose two simple functions — E2.13.3 register at gentle depth.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/r9527-can-we-compose-two-simple-functions.md"
+    },
+    {
+     "ugmSlug": "r7553",
+     "station": "combining-functions",
+     "title": "Can we compose these polynomial functions?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7553",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "note": "Compose these polynomial functions — E2.13.3 register at stretch.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/r7553-can-we-compose-these-polynomial-functions.md"
+    },
+    {
+     "ugmSlug": "r7607",
+     "station": "combining-functions",
+     "title": "Can we find the ranges of $f$ and $g$, and the function $f \\circ g$?",
+     "url": "https://undergroundmathematics.org/combining-functions/r7607",
+     "resourceType": "Review question",
+     "confidence": "medium",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "note": "Ranges of f and g and the function f o g — composite construction with range language; E2.13.3 register.",
+     "rowKind": "cross-course-reference",
+     "textOfRecordUnder": "pure-1-functions/r7607-can-we-find-the-ranges-of-f-and-g-and-the-function-f-circ-g.md"
+    }
+   ]
+  }
+ },
+ "crossLaneAligned": [],
+ "crossCourseReferences": {
+  "note": "no twin-substrate law exists for this plane (DECISION-0580 §1) and zero rows join by spine twins; instead, resources already imported of record under the 9709 pure-1/pure-3 capture dirs carry their E2 rows by REFERENCE (textOfRecordUnder, the r8946/r9386 second-spec-row law + the circular-slice cross-course precedent) — the corpus importer forbids duplicate ugmIds across lanes, so no body text moves",
+  "referenceRowCount": 82
+ },
+ "nonOverlapRows": [
+  {
+   "ugmSlug": "speed-vs-velocity",
+   "station": "introducing-calculus",
+   "title": "Speed vs velocity",
+   "url": "https://undergroundmathematics.org/introducing-calculus/speed-vs-velocity",
+   "resourceType": "Building blocks",
+   "routedTo": "E2.9.3 companion disclosure",
+   "reason": "Introducing-calculus v-t gradient card sort — the UGM-SCOPE-1 mechanics register (one of the 13); the only substrate near E2.9.3 kinematics sits in calculus stations, excluded from this plane by subject per DECISION-0580 §1, so the row files as a companion disclosure, never an alignment.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "walk-sorting",
+   "station": "introducing-calculus",
+   "title": "Walk-sorting",
+   "url": "https://undergroundmathematics.org/introducing-calculus/walk-sorting",
+   "resourceType": "Building blocks",
+   "routedTo": "E2.9.3/E2.9.4 companion disclosure",
+   "reason": "Introducing-calculus v-t story-to-graph sorting — UGM-SCOPE-1 register; companion only under the same subject-exclusion law.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "r9586",
+   "station": "introducing-calculus",
+   "title": "What is the acceleration of this particle?",
+   "url": "https://undergroundmathematics.org/introducing-calculus/r9586",
+   "resourceType": "Review question",
+   "routedTo": "E2.9.3 companion disclosure",
+   "reason": "What is the acceleration of this particle? (site slug what-is-the-acceleration-of-this-particle; corpus friendlyName r9586) — introducing-calculus v-a question, one of the UGM-SCOPE-1 mechanics register 13; the only substrate near E2.9.3 kinematics sits in calculus stations, excluded from this plane by subject per DECISION-0580 §1, so the row files as a companion disclosure, never an alignment.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "r6864",
+   "station": "quadratics",
+   "title": "How fast are these particles sliding when they pass?",
+   "url": "https://undergroundmathematics.org/quadratics/r6864",
+   "resourceType": "Review question",
+   "routedTo": "mechanics-register sighting",
+   "reason": "Quadratics-station question on the passing speed of sliding particles — a 14th mechanics-flavoured sighting outside the UGM-SCOPE-1 sweep of record; routed to the same non-overlap companion class per the lane-16 mechanics register.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "r6299",
+   "station": "polynomials",
+   "title": "Can we sketch the reciprocal of a polynomial?",
+   "url": "https://undergroundmathematics.org/polynomials/r6299",
+   "resourceType": "Review question",
+   "routedTo": "E2.11.3 depth-guard companion",
+   "reason": "Sketch the reciprocal of a general polynomial — the asymptote content is E2.11.3-adjacent but the general-polynomial depth is beyond the 0580 register; companion, never forced.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "proving-quad-formula",
+   "station": "quadratics",
+   "title": "Proving the quadratic formula",
+   "url": "https://undergroundmathematics.org/quadratics/proving-quad-formula",
+   "resourceType": "Scaffolded task",
+   "routedTo": "E2.2.5/E2.5.6 depth-guard companion",
+   "reason": "Derivation of the quadratic formula by completing the square — 0580 gives the formula in the List of formulas and requires only its use; the derivation is beyond-register, filed as companion.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  },
+  {
+   "ugmSlug": "absurder",
+   "station": "polynomials",
+   "title": "Ab-surder!",
+   "url": "https://undergroundmathematics.org/polynomials/absurder",
+   "resourceType": "Go and think about it...",
+   "routedTo": "beyond-register companion (the lane-17 disclosure resource)",
+   "reason": "Ab-surder! carries the conjugate-pair factorisation aside (a^2+b^2=(a+ib)(a-ib)) — the disclosure resource of the lane-17 corpus-boundary row; beyond the 0580 register (no complex numbers in the E-scope), filed as companion so the aside stays of record without any alignment claim.",
+   "modesRecorded": [
+    1
+   ],
+   "bodyImported": false
+  }
+ ],
+ "sweepRouting": {
+  "note": "the 710-candidate pool (register sweep, station blocks, pre-baked contrast/quadratics-lane bearings, exact-phrase signatures, UGM-SCOPE-1 mechanics register) closed exactly against the DECISION-0580 §1 subject law: the five calculus stations and the A-level families route to class registers, never forced",
+  "classRegisters": {
+   "R-CALC": "out of scope by subject (the five calculus stations; DECISION-0580 §1 + UGM-SCOPE-1 rulings 1-3)",
+   "R-BEYOND": "beyond the 0580 Extended register (A-level binomial/series/remainder-theorem/roots-symmetric/modulus/induction/ln-e depth)",
+   "R-OTHER-LANE": "genuine UGM content whose home is another topic of this plane or a gated lane (TE3 coordinate geometry / TE4 geometry / TE6 trigonometry / TE7 transformations-vectors / E1.18 surds / E1.12 rate) — never cross-lane forced inside an unopened lane",
+   "R-TEACHER": "teacher-facing resource-in-action (not learner substrate)",
+   "R-CONTEXT": "bigger-picture / go-and-think essay context (not spec substrate)",
+   "R-TOOL": "GeoGebra/tool walkthrough (environment-dependent, not spec substrate)",
+   "R-INSUFFICIENT": "fail-closed: no description of record and title evidence insufficient for a verdict"
+  },
+  "counts": {
+   "R-CALC": 205,
+   "R-OTHER-LANE": 132,
+   "R-BEYOND": 251,
+   "R-INSUFFICIENT": 4,
+   "R-CONTEXT": 9,
+   "R-TOOL": 1,
+   "R-TEACHER": 2
+  }
+ },
+ "coverage": {
+  "corpusScreened": 855,
+  "sweepCandidates": 710,
+  "substrateResources": 106,
+  "ugmResourcesConsidered": 710,
+  "aligned": 118,
+  "alignedSubstrate": 99,
+  "nonOverlap": 7,
+  "crossLaneAligned": 0,
+  "rejectedOfRecord": 604,
+  "specPointsClosed": 47,
+  "specPointsWithRows": 33,
+  "specPointsHonestEmpty": 14,
+  "freshBodies": 28,
+  "alignedShare": 0.1662
+ },
+ "ugmStations": {}
+}

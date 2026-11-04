@@ -1,0 +1,253 @@
+{
+ "exportedAt": "2026-11-04",
+ "note": "igcse-extended course-plane lane 19 (T-UGM-0580-19): the FULL TE2 Algebra and graphs spine export — all 47 spec points E2.1.1-E2.13.3 verbatim from the of-record hub spine parse (apps/hub/spines/cie-igcse-maths-25-extended.json, family tier_columns, scope code_prefix E, tier Extended; parse artifacts carried verbatim: the E2.10.1a synthetic suffix per the dupCodePolicy, interleaved-column fragments in E2.2.3/E2.2.4/E2.5.2/E2.9.x, the E2.4.3 truncated exclusion-note row \"Knowledge of logarithms is\", the \\x07 control characters). No fold fragments. The 9 contrast rows of record (cie-igcse-maths-25-extended.json, E2.2.3-E2.11.4) reconcile byte-true against these rows.",
+ "source": "syllabai-v2 apps/hub/spines/cie-igcse-maths-25-extended.json @ main, blob sha 1458bcba45… (generator build_official_spines.py cie adapter, family tier_columns, scope code_prefix E)",
+ "rights": "spec codes + titles + item IDs/counts only (facts, mode-1); no item text exported",
+ "course": "0580",
+ "syllabusVersion": "2025-2027",
+ "board": "Cambridge CIE",
+ "topic": {
+  "code": "cie-igcse-maths-2025-2027-TE2",
+  "title": "Algebra and graphs",
+  "subtopics": 13,
+  "specPoints": 47
+ },
+ "specPoints": [
+  {
+   "code": "E2.1.1",
+   "subtopic": "Introduction to algebra",
+   "title": "\u0007Know that letters can be used to represent generalised numbers."
+  },
+  {
+   "code": "E2.1.2",
+   "subtopic": "Introduction to algebra",
+   "title": "\u0007Substitute numbers into expressions and formulas."
+  },
+  {
+   "code": "E2.2.1",
+   "subtopic": "Algebraic manipulation",
+   "title": "Simplify expressions by collecting like terms. Simplify means give the answer in its simplest form, e.g."
+  },
+  {
+   "code": "E2.2.2",
+   "subtopic": "Algebraic manipulation",
+   "title": "Expand products of algebraic expressions. e.g. expand"
+  },
+  {
+   "code": "E2.2.3",
+   "subtopic": "Algebraic manipulation",
+   "title": "Includes products of more than two brackets, e.g. expand 3 Factorise by extracting common factors. Factorise means factorise fully, e.g."
+  },
+  {
+   "code": "E2.2.4",
+   "subtopic": "Algebraic manipulation",
+   "title": "Factorise expressions of the form: • ax + bx + kay + kby • a x − b y • a + 2 ab + b • ax + bx + c • ax + bx + cx ."
+  },
+  {
+   "code": "E2.2.5",
+   "subtopic": "Algebraic manipulation",
+   "title": "\u0007Complete the square for expressions in the form ax + bx + c ."
+  },
+  {
+   "code": "E2.3.1",
+   "subtopic": "Algebraic fractions",
+   "title": "Manipulate algebraic fractions. Examples include:"
+  },
+  {
+   "code": "E2.3.2",
+   "subtopic": "Algebraic fractions",
+   "title": "Factorise and simplify rational expressions. e.g."
+  },
+  {
+   "code": "E2.4.1",
+   "subtopic": "Indices II",
+   "title": "\u0007Understand and use indices (positive, zero, e.g. solve: negative and fractional). •"
+  },
+  {
+   "code": "E2.4.2",
+   "subtopic": "Indices II",
+   "title": "\u0007Understand and use the rules of indices. e.g. simplify:"
+  },
+  {
+   "code": "E2.4.3",
+   "subtopic": "Indices II",
+   "title": "Knowledge of logarithms is"
+  },
+  {
+   "code": "E2.5.1",
+   "subtopic": "Equations",
+   "title": "Construct expressions, equations and formulas. e.g. write an expression for the product of two consecutive even numbers."
+  },
+  {
+   "code": "E2.5.2",
+   "subtopic": "Equations",
+   "title": "Includes constructing simultaneous equations. 2 \u0007Solve linear equations in one unknown. Examples include:"
+  },
+  {
+   "code": "E2.5.3",
+   "subtopic": "Equations",
+   "title": "\u0007Solve fractional equations with numerical and Examples include: linear algebraic denominators."
+  },
+  {
+   "code": "E2.5.4",
+   "subtopic": "Equations",
+   "title": "\u0007Solve simultaneous linear equations in two unknowns."
+  },
+  {
+   "code": "E2.5.5",
+   "subtopic": "Equations",
+   "title": "\u0007Solve simultaneous equations, involving one With powers no higher than two. linear and one non-linear."
+  },
+  {
+   "code": "E2.5.6",
+   "subtopic": "Equations",
+   "title": "\u0007Solve quadratic equations by factorisation, Includes writing a quadratic expression in completing the square and by use of the completed square form. quadratic formula. Candidates may be expected to give solutions in surd form."
+  },
+  {
+   "code": "E2.5.7",
+   "subtopic": "Equations",
+   "title": "The quadratic formula is given in the List of formulas. 7 \u0007Change the subject of formulas. e.g. change the subject of a formula where:"
+  },
+  {
+   "code": "E2.6.1",
+   "subtopic": "Inequalities",
+   "title": "\u0007Represent and interpret inequalities, including on When representing and interpreting inequalities on a number line. a number line: e.g."
+  },
+  {
+   "code": "E2.6.2",
+   "subtopic": "Inequalities",
+   "title": "Construct, solve and interpret linear inequalities. Examples include:"
+  },
+  {
+   "code": "E2.6.3",
+   "subtopic": "Inequalities",
+   "title": "\u0007Represent and interpret linear inequalities in two The following conventions should be used: variables graphically. e.g."
+  },
+  {
+   "code": "E2.6.4",
+   "subtopic": "Inequalities",
+   "title": "List inequalities that define a given region. Linear programming problems are"
+  },
+  {
+   "code": "E2.7.1",
+   "subtopic": "Sequences",
+   "title": "Continue a given number sequence or pattern. Subscript notation may be used, e.g. term of sequence"
+  },
+  {
+   "code": "E2.7.2",
+   "subtopic": "Sequences",
+   "title": "\u0007Recognise patterns in sequences, including the Includes linear, quadratic, cubic and exponential term-to-term rule, and relationships between sequences and simple combinations of these. different sequences."
+  },
+  {
+   "code": "E2.7.3",
+   "subtopic": "Sequences",
+   "title": "Find and use the n th term of sequences."
+  },
+  {
+   "code": "E2.8.1",
+   "subtopic": "Proportion",
+   "title": "Express direct and inverse proportion in algebraic Includes linear, square, square root, cube and cube terms and use this form of expression to find root proportion. unknown quantities. Knowledge of proportional symbol ("
+  },
+  {
+   "code": "E2.9.1",
+   "subtopic": "Graphs in practical situations",
+   "title": "\u0007Use and interpret graphs in practical situations Includes estimation and interpretation of the including travel graphs and conversion graphs. gradient of a tangent at a point."
+  },
+  {
+   "code": "E2.9.2",
+   "subtopic": "Graphs in practical situations",
+   "title": "\u0007Draw graphs from given data."
+  },
+  {
+   "code": "E2.9.3",
+   "subtopic": "Graphs in practical situations",
+   "title": "\u0007Apply the idea of rate of change to simple kinematics involving distance–time and speed–time graphs, acceleration and deceleration."
+  },
+  {
+   "code": "E2.9.4",
+   "subtopic": "Graphs in practical situations",
+   "title": "\u0007Calculate distance travelled as area under a Areas will involve linear sections of the graph only. speed–time graph."
+  },
+  {
+   "code": "E2.10.1",
+   "subtopic": "Graphs of functions",
+   "title": "\u0007Construct tables of values, and draw, recognise Examples include: and interpret graphs for functions of the following • forms: these): • ax (includes sums of no more than three of • ab + c"
+  },
+  {
+   "code": "E2.10.1a",
+   "subtopic": "Graphs of functions",
+   "title": "1 , \u0007where n = –2 , –1 , − , 0 , 1 , 2 , 3 ; a and c are"
+  },
+  {
+   "code": "E2.10.2",
+   "subtopic": "Graphs of functions",
+   "title": "2 rational numbers; and b is a positive integer. 2 \u0007Solve associated equations graphically, including e.g. finding the intersection of a line and a curve. finding and interpreting roots by graphical methods."
+  },
+  {
+   "code": "E2.10.3",
+   "subtopic": "Graphs of functions",
+   "title": "\u0007Draw and interpret graphs representing exponential growth and decay problems."
+  },
+  {
+   "code": "E2.11.1",
+   "subtopic": "Sketching curves",
+   "title": "Recognise, sketch and interpret graphs of the Functions will be equivalent to: following functions: • (a) linear • (b) quadratic • (c) cubic • (d) reciprocal (e) exponential. where rational, positive number."
+  },
+  {
+   "code": "E2.11.2",
+   "subtopic": "Sketching curves",
+   "title": "Knowledge of turning points, roots and symmetry is required."
+  },
+  {
+   "code": "E2.11.3",
+   "subtopic": "Sketching curves",
+   "title": "Knowledge of vertical and horizontal asymptotes is required."
+  },
+  {
+   "code": "E2.11.4",
+   "subtopic": "Sketching curves",
+   "title": "Finding turning points of quadratics by completing the square is required."
+  },
+  {
+   "code": "E2.12.1",
+   "subtopic": "Differentiation",
+   "title": "\u0007Estimate gradients of curves by drawing tangents."
+  },
+  {
+   "code": "E2.12.2",
+   "subtopic": "Differentiation",
+   "title": "\u0007Use the derivatives of functions of the form ax , where a is a rational constant and n is a positive integer or zero, and simple sums of not more than three of these."
+  },
+  {
+   "code": "E2.12.3",
+   "subtopic": "Differentiation",
+   "title": "\u0007Apply differentiation to gradients and stationary points (turning points)."
+  },
+  {
+   "code": "E2.12.4",
+   "subtopic": "Differentiation",
+   "title": "\u0007Discriminate between maxima and minima by Maximum and minimum points may be identified by: any method. •"
+  },
+  {
+   "code": "E2.12.5",
+   "subtopic": "Differentiation",
+   "title": "Candidates are inflection."
+  },
+  {
+   "code": "E2.13.1",
+   "subtopic": "Functions",
+   "title": "\u0007Understand functions, domain and range and use function notation."
+  },
+  {
+   "code": "E2.13.2",
+   "subtopic": "Functions",
+   "title": "\u0007Understand and find inverse functions f ( x ) ."
+  },
+  {
+   "code": "E2.13.3",
+   "subtopic": "Functions",
+   "title": "\u0007Form composite functions as defined by"
+  }
+ ],
+ "itemInventory": {}
+}
